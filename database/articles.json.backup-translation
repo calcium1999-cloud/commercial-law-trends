@@ -60,30 +60,6 @@
       "name_cn": "Jotwell公司法评论",
       "url": "https://corp.jotwell.com",
       "description": "学者撰写的公司法最新论文评介，高质量学术书评（RSS: /feed/）"
-    },
-    {
-      "id": "banking_with_interest",
-      "name": "Banking with Interest (IntraFi)",
-      "short_name": "BWI",
-      "type": "podcast",
-      "url": "https://www.intrafi.com/press-insights/podcasts/",
-      "description": "IntraFi出品的银行政策播客，主持人Rob Blackwell深度访谈监管者、银行家和政策分析师。"
-    },
-    {
-      "id": "nyfed_liberty",
-      "name": "NY Fed Liberty Street Economics",
-      "short_name": "NY Fed",
-      "type": "blog",
-      "url": "https://libertystreeteconomics.newyorkfed.org/",
-      "description": "纽约联邦储备银行官方博客，聚焦银行监管、金融稳定、宏观经济等研究。"
-    },
-    {
-      "id": "ecb_supervision",
-      "name": "ECB Banking Supervision Blog",
-      "short_name": "ECB SSM",
-      "type": "blog",
-      "url": "https://www.bankingsupervision.europa.eu/press/blog/html/index.en.html",
-      "description": "欧洲央行单一监管机制官方博客，聚焦欧洲银行监管与审慎政策。"
     }
   ],
   "topics": [
@@ -5026,16 +5002,7 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.ecgi.global/publications/working-papers/different-markets-different-regulatory-priorities-insider-trading",
       "type": "working_paper",
-      "id": "art_188",
-      "abstract_cn": "证券市场与预测市场存在根本差异：前者配置资本、为退休储蓄提供基础设施 ，后者唯一的社会产品是蕴含于价格中的概率预测信息。这一功能性分野决定了监管重心的反向配置 ——证券市场严控内幕交易以保护有价值的信息财产权 ，却少干预相对自我校正的操纵行为预测市场则应放任合法知情交易以保全其信息功能 ，对操纵施以更严格规制。文章提出易腐败事件合约 （易腐败事件合约）概念 ：合约结算受参与者自身或其影响范围内人员的行为左右 ，激励结构内生催生操纵。文章援引保险利益的法理逻辑 ，建议在挂牌阶段即予排除 ，理由是事后追诉不足以遏制已发生的社会危害。既有挪用、公司、伦理及涉密规则仍管辖真正的背信行为 ，合法的知情交易者理应自由交易 ；交易所与 CFTC 应在合约设计环节剔除易腐败事件合约，特别是颗粒度过细、可由市场参与者左右的事件 ，以及一旦挂牌即引发严重不当行为动机的结果。作者主张抛弃以证券法逻辑监管预测市场的旧范式 ，转向功能性二元监管。",
-      "keywords_cn": [
-        "CFTC",
-        "证券市场",
-        "内幕交易",
-        "市场操纵",
-        "挪用理论",
-        "预测市场"
-      ]
+      "id": "art_188"
     },
     {
       "report_id": "2026-08-21",
@@ -5214,15 +5181,7 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/21/the-supreme-court-reaffirms-its-embrace-of-political-disclosure/",
       "type": "blog",
-      "id": "art_195",
-      "abstract_cn": "Sandstrom 与 Freed 评析最高法院近期在竞选融资领域的一项里程碑裁决：法院出人意料地强烈重申披露制度作为反腐利器的核心地位预期各州将以本案为楔机强化竞选融资披露规则。文章落点虽在选举法 ，对公司治理的传导却显著 ——股东积极主义长期将公司政治支出披露作为公司治理议题推向 SEC 与各州，公司政治问责中心 （ CPA ）等组织主导的股东提案正推动董事会披露政治支出。该裁决意味着公司层面的政治披露规则获联邦最高法院背书 ，但具体落地仍取决于 SEC 规则与州法互动。文章提示公司实务：公司法务与政府事务部门应重新评估政治支出披露的范围与边界 ，董事会治理委员会应将其纳入与气候披露、董事会多元化并行的常态化披露议程。",
-      "keywords_cn": [
-        "最高法院",
-        "政治献金",
-        "政治披露",
-        "股东激进主义",
-        "企业政治支出"
-      ]
+      "id": "art_195"
     },
     {
       "report_id": "2026-08-21",
@@ -5249,17 +5208,7 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/21/debevoise-discusses-empowering-consumers-for-the-green-transition-directive/",
       "type": "blog",
-      "id": "art_196",
-      "abstract_cn": "Debevoise 团队解析欧盟《赋能消费者绿色转型指令》（ ECGTD ，指令EU 2024/825 ）对企业在向个人消费者销售产品或服务时作出的环境及可持续性声明的实质性变革。核心要点 ：原则上禁止未经认证的绿色声明 （ 1如生态友好、气候中性、绿色等模糊表述 ） ，须基于优异环境绩效或公认优良做法的认证计划 （ 2禁止基于排放抵消计划的气候中和主张以未来承诺为唯一依托 ） ， （ 3 ）要求可靠性、可持续性、可循环性等可持续性标签须基于认证体系或由公权力机构设立 ， （ 4禁止将软件或硬件设备的自主能效升级作为核心卖点除非法律要求 ）。文章提示合规时间表 ：成员国转化截止 2026 年 3 月 27 日，适用时间为 2026 年 9 月 27 日。对在欧盟销售产品的跨国公司（包括间接面向消费者的 B2B2C 业务） ，法务、市场与可持续报告团队需要全面审视环境主张并重构产品包装与营销话术。",
-      "keywords_cn": [
-        "欧盟",
-        "ECGTD",
-        "绿色过渡",
-        "消费者保护",
-        "漂綠",
-        "ESG",
-        "可持续发展声明"
-      ]
+      "id": "art_196"
     },
     {
       "report_id": "2026-08-21",
@@ -5434,15 +5383,7 @@
       "primary_topic": "tech_data_ai",
       "url": "https://corpgov.law.harvard.edu/2026/08/21/ai-governance-for-private-companies/",
       "type": "blog",
-      "id": "art_203",
-      "abstract_cn": "近四分之三的公司计划两年内部署代理式AI ，但仅约五分之一拥有成熟治理模型。文章梳理五大类 AI风险 ：数据隐私与知识产权、自主行动、可靠性、客户影响与供应商依赖 ，并分析欧盟《 AI法案》与美国分散式监管格局。提出六项最佳实践 ：明确问责归属、业务目标导向、风险分级管理、数据安全与供应商尽调、客户利益保护、持续监控与故障应对。核心观点 ：最能从 AI获益的公司并非部署最快者 ，而是能将试验与问责、客户意识和严谨执行相结合的公司。",
-      "keywords_cn": [
-        "人工智能治理",
-        "Agentic AI",
-        "私营公司",
-        "风险管理",
-        "欧盟人工智能法案"
-      ]
+      "id": "art_203"
     },
     {
       "report_id": "2026-08-24",
@@ -5466,15 +5407,7 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/22/2026-proxy-season-review-structural-change-in-a-lower-volume-season/",
       "type": "report",
-      "id": "art_204",
-      "abstract_cn": "基于Russell 3000公司 2026年上半年投票数据 ：股东提案量下降约 20% ，激进主义活动较 2024年峰值锐减约 75% ； Say-on-Pay支持率回升 ， 76%公司获 90%以上赞成。 SEC工作人员退出 Rule 14A-8实质审查 ，排除请求量下降近 50% ，公司诉讼风险上升。治理类提案逆势增长近 19% （ 70%由 John Chevedden提交 ） ； HCM提案较 2024年下降近 60%、平均支持率仅 6% ；反 ESG提案支持率几近翻倍至 5%。代理权争夺战占激进主义活动比例从 7%升至 38% ，激进投资者转向更具针对性、更高风险策略。",
-      "keywords_cn": [
-        "代理季节",
-        "股东提案",
-        "规则14a-8",
-        "Say-on-Pay",
-        "股东激进主义"
-      ]
+      "id": "art_204"
     },
     {
       "report_id": "2026-08-24",
@@ -5498,8 +5431,7 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/23/the-strategic-blind-spots-attracting-shareholder-activists/",
       "type": "blog",
-      "id": "art_205",
-      "abstract_cn": "2025年年全球股东积极主义创纪录（超 255起次活动，美国同比增 28% ）。 FCLT全球分析美、日、欧100强起活动样本的目标公司缺乏可信的长期路线图：三年期增长与利润率展望、清晰资本配置框架 71% ， 55%的董事会投入战略议题时间不足 ； 90%的样本公司至少存在其一。霍尼韦日本公司的资本配置不透明为另一高频缺口。只回应激进者具体要求而不弥补战略缺口的公司尔因无法解释多元化协同价值而数月内宣布拆分是典型案例往往在激进者退出后回吐收益；长期价值创造是终极防御。"
+      "id": "art_205"
     },
     {
       "report_id": "2026-08-24",
@@ -5523,8 +5455,7 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/revisiting-delegation-and-time/",
       "type": "blog",
-      "id": "art_206",
-      "abstract_cn": "乔作者为其圣母大学法律评论研讨会论文撰写的导读纳森·阿德勒（重访与 Jonathan Adler ） 2020年年《代表团和时间》的主张的授权与独立判断问题：第二国会应恢复对联邦机构授权法的定期重新授权。六年来的授权与时间问题之上叠加了条第三尊重虽意在驯服行政机构条：重大问题学说与 Loper Bright独立判断取代 Chevron却使国会立法更难并引入法院解释违背立法国会、现任国会或两者意志的风险。行政法新均衡下定期重新授权的重要性不降反升 ，第二批评与条第三条越权者都应支持。"
+      "id": "art_206"
     },
     {
       "title": "Liability Management's Limited Runway: Corporate Restructuring Today",
@@ -5552,7 +5483,7 @@
         "Contracts"
       ],
       "source_id": "ecgi",
-      "title_cn": "责任管理的有限跑道：今天的公司重组",
+      "title_cn": "",
       "topics": [
         "corporate_governance",
         "financial_regulation"
@@ -5560,8 +5491,7 @@
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_207",
-      "abstract_cn": "在过去十年中，强制性、非按比例债务重组（现在被广泛称为“负债管理练习” （ LME ） ）已成为陷入困境的借款人的核心工具。支持者认为，强制性LME通常会为公司争取有压力的时间来扭转局面和起飞，从而避免破产及其成本。在一篇新文章中，我们认为这种期望被夸大了。我们的论文很简单。从概念上讲，强制性LME的价值转移性质不需要产生稳定的、提升价值的结果：从被冻结的债权人到参与者的价值转移对参与交易者来说比固定公司更重要。他们的动机是采取价值转移，只要可归因于公司的损失小于转移的价值。然后，我们根据经验搜索这些强制性LME之后的实际结果。基于我们手工收集的一组强制性LME的结果与庆祝活动相矛盾：大多数LME债务人很快就会再次违约或申请破产，公司层面的利益总体上似乎不大，多个财务指标减弱或没有改善。从广义上讲， LME是一种庭外债务重新谈判，即昨天的“锻炼”。近年来，中立的LME标签已经取代了更直截了当的“债权人对债权人的暴力” ，这种暴力曾经描述债务人将债权人团体相互对立，并与获胜的联盟保持一致，以提高参与者的优先级（ “上升者” ）或在交换中将价值从其余部分转移（ “下拉式” ）"
+      "id": "art_207"
     },
     {
       "title": "Private Equity for All: The Paradoxical Push to Democratize Private Markets",
@@ -5588,35 +5518,16 @@
         "Contracts"
       ],
       "source_id": "ecgi",
-      "title_cn": "人人享有私募股权：推动私募市场民主化的矛盾动力",
+      "title_cn": "",
       "topics": [
         "corporate_governance",
         "financial_regulation"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
-      "abstract": "This post was originallypublishedon 28 February 2026 by the Harvard Law School Forum on Corporate Governance. Efforts to open private equity and other private assets to retail investors—including now through 401(k) plans—are often framed as a long-overdue democratization of superior investment opportunities. Indeed, private equity has always been viewed as special, both for its market-beating returns and its success in making companies more profitable, yet it has historically been off-limits to retail investors. InPrivate Equity for All: The Paradoxical Push to Democratize Private Markets, we argue that the push to democratize private equity is subject to a glaring paradox. Far from sharing the spoils of private equity with the public, opening private markets to retail investors at scale is likely to erode or eliminate each and every one of the supposed advantages of private equity over public markets—not just for retail investors but across the market. Consequently, whether private equity’s appeal lies in superior investor returns or superior corporate governance, broad retail access is likely to ensure that neither one is achieved. The debate has become urgent. New products targeting retail investors are continually being launched by private-asset managers and blessed by regulators. And in the summer of 2025, an executive order directed the U.S. Securities and Exchange Commission and U.S. Department of Labor to pave the way for private equity to access a particularly massiv",
+      "abstract": "Not available",
       "report_id": "2026-08-25",
-      "id": "art_208",
-      "abstract_cn": "本文最初于2026年2月28日由哈佛法学院公司治理论坛发布。向散户投资者开放私募股权和其他私人资产的努力--包括现在通过401 (k)计划--通常被认为是早该实现的优质投资机会的民主化。事实上，私募股权一直被视为特殊的，无论是因为它的市场击败回报还是成功地使公司更有利可图，但它在历史上一直是散户投资者的禁区。InPrivate Equity for All: The Paradoxical Push to Democratize Private Markets ，我们认为推动私募股权民主化存在明显的悖论。远非与公众分享私募股权的战利品，大规模向散户投资者开放私募市场可能会侵蚀或消除私募股权相对于公共市场的所谓优势--不仅对散户投资者，而且对整个市场。因此，无论私募股权的吸引力在于卓越的投资者回报还是卓越的公司治理，广泛的零售渠道都可能确保这两者都不会实现。辩论变得十分紧迫。针对散户投资者的新产品不断由私人资产经理推出，并得到监管机构的青睐。2025年夏天，一项行政命令指示美国证券交易委员会和美国劳工部为私募股权进入",
-      "keywords_cn": [
-        "私募股权和风险资本",
-        "私募股权",
-        "市场",
-        "散户投资者",
-        "监管",
-        "债务",
-        "债权",
-        "破产",
-        "所有权",
-        "板",
-        "收购",
-        "绩效",
-        "资金",
-        "诚信责任",
-        "机构",
-        "合同"
-      ]
+      "id": "art_208"
     },
     {
       "title": "Control Is Not the Same as Board Leadership: Why Do PE-backed Companies Appoint Outside Chairs?",
@@ -5643,35 +5554,16 @@
         "Contracts"
       ],
       "source_id": "ecgi",
-      "title_cn": "控制与董事会领导不一样：为什么私募股权支持的公司会任命外部主席？",
+      "title_cn": "",
       "topics": [
         "corporate_governance",
         "financial_regulation"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
-      "abstract": "Private equity (PE) investors are commonly portrayed as highly active owners. They negotiate extensive control rights, appoint directors, approve major strategic decisions and closely monitor performance. Against this background, one governance choice remains surprisingly underexplored: why do some buyouts appoint a new outside chairperson while others do not? This question matters because a chair is not a mandatory feature of private company boards.  PE sponsors can protect their investment through ownership rights, contractual consent provisions, management incentive alignment, and direct board representation. Concentrated ownership might therefore appear to make a separate external board leader unnecessary. Yet new outside chairs remain common in practice. Our findings suggest that these appointments are not simply a staffing decision. They appear to be a deliberate governance choice in PE-backed buyouts. Our study examines 1,065 UK PE-backed buyouts completed between 2004 and 2018, sponsored by 331 PE firms and tracked through 2024. The hand-collected dataset comprises 7,627 firm-year observations and detailed information on board composition, chair appointments, operating performance, and add-on acquisitions. Approximately 61 per cent of the sample buyouts had a chair at some point during the holding period, while 39 per cent appointed a new outside chair after the buyout. We define a new outside chair as an individual appointed as chair after the buyout who had not serv",
+      "abstract": "Not available",
       "report_id": "2026-08-25",
-      "id": "art_209",
-      "abstract_cn": "私募股权（ PE ）投资者通常被描述为高度活跃的所有者。他们就广泛的控制权进行谈判，任命董事，批准重大战略决策并密切监控绩效。在这种背景下，一个治理选择仍然令人惊讶地未被充分挖掘：为什么有些收购公司会任命一位新的外部董事长，而另一些则不会？这个问题很重要，因为椅子不是私人公司董事会的强制性特征。私募股权发起人可以通过所有权、合同同意条款、管理激励调整和直接董事会代表来保护其投资。因此，集中所有权似乎使一个单独的外部董事会领导者变得没有必要。然而，在实践中，新的室外椅子仍然很常见。我们的调查结果表明，这些预约不仅仅是人员配置的决定。在私募股权支持的收购中，它们似乎是深思熟虑的治理选择。我们的研究调查了2004年至2018年期间完成的1,065项英国私募股权支持的收购，这些收购由331家私募股权公司赞助，并追踪到2024年。手工收集的数据集包括7,627个公司年份的观察结果以及有关董事会组成、主席任命、运营绩效和附加收购的详细信息。大约61%的样本收购在持有期间的某个时间点有一把椅子，而39%的样本收购在收购后任命了一把新的外部椅子。我们将新的外部椅子定义为在收购后被任命为椅子的个人",
-      "keywords_cn": [
-        "私募股权和风险资本",
-        "私募股权",
-        "所有权",
-        "板",
-        "收购",
-        "绩效",
-        "债务",
-        "债权",
-        "破产",
-        "市场",
-        "散户投资者",
-        "监管",
-        "资金",
-        "诚信责任",
-        "机构",
-        "合同"
-      ]
+      "id": "art_209"
     },
     {
       "title": "LPACs Are Gaining Authority, But Not Accountability",
@@ -5698,35 +5590,16 @@
         "Performance"
       ],
       "source_id": "ecgi",
-      "title_cn": "LPAC正在获得权力，但不是问责制",
+      "title_cn": "",
       "topics": [
         "corporate_governance",
         "financial_regulation"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
-      "abstract": "Over the last decade, continuation funds have become an important component within the private equity market. The increased use of secondary transactions has been accompanied by concerns about the role played by General Partners (GPs) in structuring these alternative vehicles. Prior research has studied the dual agency problem that arises when GPs act on both sides of the transaction. There has been some debate about the effectiveness of the Limited Partner Advisory Committees (LPACs) in reducing conflicts of interest. On the one hand, the monitoring view argues that stronger committee oversight and tighter feasibility thresholds can reduce GP opportunism. On the other hand, a nascent empirical literature suggests that concentrated LPAC representation, close continuing GP–LP relationships, and specific side letter protections may shield GPs from effective scrutiny. In theirnew research, Yaron Nili and Elisabeth de Fontenayshed light on these two conflicting views by examining whether variation in LPAC composition and contractual design is associated with systematic differences in formal LPAC authority. Using a dataset of 217 fund governance documents from one large institutional investor, including 155 LPAs, the authors document that LPACs address GP–LP conflicts through consent, waiver, and approval rights. At the same time, this structure may create a second conflict between inner circle and outer circle LPs. The evidence shows that the LPAC governance structure is influenc",
+      "abstract": "Not available",
       "report_id": "2026-08-25",
-      "id": "art_210",
-      "abstract_cn": "在过去十年中，持续基金已成为私募股权市场的重要组成部分。二级交易使用的增加伴随着对普通合伙人（ GP ）在构建这些替代车辆方面所起作用的担忧。先前的研究已经研究了当全科医生在交易双方采取行动时出现的双重代理问题。关于有限合伙人咨询委员会（ LPAC ）在减少利益冲突方面的有效性存在一些争议。一方面，监测观点认为，更强有力的委员会监督和更严格的可行性阈值可以减少GP机会主义。另一方面，新出现的经验文献表明，集中的LPAC表示、密切的持续GP-LP关系和特定的边字母保护可能会保护全科医生免受有效的审查。在他们的新研究中， Yaron Nili和Elisabeth de Fontenays通过检查LPAC组成和合同设计的变化是否与正式LPAC权威的系统差异有关，阐明了这两种相互矛盾的观点。作者使用来自一家大型机构投资者的217份基金治理文件（包括155份LPA ）的数据集，记录了LPAC通过同意、放弃和批准权来解决GP-LP冲突。同时，这种结构可能在内圆和外圆LP之间产生第二冲突。证据表明， LPAC治理结构具有影响力",
-      "keywords_cn": [
-        "私募股权和风险资本",
-        "私募股权",
-        "资金",
-        "诚信责任",
-        "机构",
-        "合同",
-        "债务",
-        "债权",
-        "破产",
-        "市场",
-        "散户投资者",
-        "监管",
-        "所有权",
-        "板",
-        "收购",
-        "绩效"
-      ]
+      "id": "art_210"
     },
     {
       "title": "‘Made in Europe’ or ‘Made to Measure’? The Legal Fault Lines of the Industrial Accelerator Actby: Luciano Magaldi Sardella, Matteo Mantuano",
@@ -5736,15 +5609,14 @@
       "abstract": "TheIndustrial Accelerator Act, proposed by the European Commission in March 2026 and now subject to trilogue negotiations, promises to reforge European industrial policy around a single, deceptively simple idea: preference for what is ‘Made in Europe’. Yet behind this slogan lies a thicket of legal ambiguities, jurisdictional tensions, and trade-law vulnerabilities that may render the Act’s most ambitious provisions as fragile as they are attractive. The Council’s recent‘partner origin’ compromise, circulated under the Irish presidency in late July 2026, does not resolve these tensions but it redistributes them. The ambition and its discontents TheIndustrial Accelerator Act (IAA), formally presented as COM(2026) 100, is the legislative centrepiece of the Commission’sClean Industrial Deal. Its declared ambition is to reverse a decade of deindustrialisation by lifting manufacturing’s share of European Union gross domestic product from 14.3 per cent in 2024 to 20 per cent by 2035—a target first articulated in theDraghi reporton European competitiveness and since elevated to the status of political gospel. To achieve this, the Act introduces ‘Made in EU’ and low-carbon preferences across public procurement and public support schemes, targeting strategic sectors including steel, cement, aluminium, batteries, solar panels, heat pumps, and electric vehicles.",
       "authors": "Author(s):Luciano Magaldi SardellaPhD and MBA, European Open University, Faculty of EconomicsMatteo MantuanoProfessor of Behavioural Economics and Psychology, Unitré University of Milan",
       "source_id": "oblb",
-      "title_cn": "“欧洲制造”还是“量身定制” ？《工业加速器的法律故障线》作者： Luciano Magaldi Sardella、Matteo Mantuano",
+      "title_cn": "",
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_211",
-      "abstract_cn": "欧盟委员会于2026年3月提出的《工业加速器法案》（ Industrial Accelerator Act ）目前正在进行三方谈判，该法案承诺围绕一个看似简单的想法重塑欧洲工业政策：偏好“欧洲制造”。然而，在这个口号的背后是一堆法律模糊性、管辖权紧张和贸易法漏洞，可能使该法案最雄心勃勃的规定既脆弱又有吸引力。理事会最近于2026年7月下旬在爱尔兰总统任期内发布的“伙伴起源”妥协方案并没有解决这些紧张局势，而是重新分配了这些紧张局势。雄心壮志及其不满工业加速器法案（ IAA ） ，正式称为COM （ 2026 ） 100 ，是委员会清洁工业协议的立法核心。其宣布的雄心壮志是通过将制造业在欧盟国内生产总值中的份额从2024年的14.3 ％提高到2035年的20 ％来扭转十年的去工业化，这一目标首先在德拉吉关于欧洲竞争力的报告中得到阐述，自此提升到政治福音的地位。为实现这一目标，该法案在公共采购和公共支持计划中引入了“欧盟制造”和低碳偏好，针对包括钢铁、水泥、铝、电池、太阳能电池板、热泵和电动汽车在内的战略行业。"
+      "id": "art_211"
     },
     {
       "title": "Position Limits in Commodity Derivatives: A Quantitative Regulatory Technique for the Efficiency of Financial Markets?by: Luca Orciani",
@@ -5754,7 +5626,7 @@
       "abstract": "Position limits in commodity derivatives rank among the most distinctive and least explored innovations of MiFID II. In my recent article published in theCapital Markets Law Journal(available open accesshere), I offer a systematic and exegetical analysis of the EU position limits regime, reconstructing its genesis and rationale, its material and personal scope, along with the controversial, highly technical calculation methodology, and the complementary position reporting apparatus. The study ultimately raises a broader policy question: is a quantitative regulatory technique, one constraining market conduct through numerical thresholds, the optimal tool for curbing excessive speculation, or does it risk introducing undue rigidity into the system and hindering the development of commodity derivatives markets? The regime originates in the far-reaching changes in commodity markets in the early years of this century. Once a niche instruments through which producers and merchants transferred price risk to counterparties willing to bear it (a mechanism reflecting the socially useful, liquidity-preserving function of speculation), commodity derivatives became a destination for return-seeking institutional investors, with a marked intensification of financial speculation and raw material price volatility. The G20 commitments of Pittsburgh (2009) and Cannes (2011) prompted the EU legislator to move away from the disclosure-centred paradigm of MiFID I. The genesis of Article 57 MiFID I",
       "authors": "Author(s):Luca OrcianiResearch Fellow in Business Law at the University of Bologna",
       "source_id": "oblb",
-      "title_cn": "商品衍生品的头寸限制：金融市场效率的定量监管技术？作者： Luca Orciani",
+      "title_cn": "",
       "topics": [
         "financial_regulation",
         "corporate_governance"
@@ -5762,8 +5634,7 @@
       "primary_topic": "financial_regulation",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_212",
-      "abstract_cn": "商品衍生品的头寸限制是MiFID II最具特色和最少探索的创新之一。在我最近发表在《资本市场法学杂志》（ Capital Markets Law Journal ）上的一篇文章中（可在此处获取） ，我对欧盟的头寸限制制度进行了系统和注释性的分析，重构了它的起源和原理，它的物质和个人范围，以及有争议的、高度技术性的计算方法和互补的头寸报告机制。该研究最终提出了一个更广泛的政策问题：是一种定量监管技术，一种通过数值阈值限制市场行为的技术，抑制过度投机的最佳工具，还是有可能给系统带来不适当的僵化并阻碍商品衍生品市场的发展？该制度源于本世纪初大宗商品市场的深远变化。商品衍生品曾经是一种利基工具，生产商和商人通过它将价格风险转移给愿意承担风险的交易对手（一种反映投机具有社会效用、流动性保持功能的机制） ，成为寻求回报的机构投资者的目的地，金融投机和原材料价格波动明显加剧。匹兹堡（ 2009年）和戛纳（ 2011年）的G20承诺促使欧盟立法者摆脱了以披露为中心的MiFID I范式。第57条MiFID I的起源"
+      "id": "art_212"
     },
     {
       "title": "Oppression or Involuntariness? Reassessing the Marketability Discount in Bharti Telecomby: Hardik",
@@ -5773,7 +5644,7 @@
       "abstract": "Earlier this year, the Supreme Court of India in the case ofPannalal Bhansali v Bharti Telecom Ltdupheld a selective reduction of capital undersection 66 of the Companies Act 2013, which cancelled shares of the company’s minority shareholders and approved a 25% discount for lack of marketability (DLOM) in valuing those shares. This post builds on the contention that because the court found no oppression, it treated‘fair value’and‘fair market value’as similar, thereby allowing a marketability discount. It argues that it is the wrong trigger, and the approach is too broad. Under the same logic, a minority shareholder who never wanted an exit could also receive a discounted price simply because the majority chose to use section 66, under which there is no requirement of mandatory valuation by an independent valuer.Bharti Telecom,converts a fact-sensitive inquiry into a legal rule by making the applicability of a DLOM dependent upon the existence of oppression. The Decision and the Discount",
       "authors": "Author(s):HardikGraduate from the National Law School of India University, Bengaluru",
       "source_id": "oblb",
-      "title_cn": "压迫还是非自愿？重新评估Bharti Telecomby: Hardik的市场折扣",
+      "title_cn": "",
       "topics": [
         "financial_regulation",
         "tech_data_ai"
@@ -5781,8 +5652,7 @@
       "primary_topic": "financial_regulation",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_213",
-      "abstract_cn": "今年早些时候，印度最高法院在Pannalal Bhansali诉Bharti Telecom Ltdu一案中，根据2013年《公司法》第66条选择性地减少了资本，该法案注销了该公司少数股东的股份，并批准了25%的折扣，原因是这些股份缺乏市场性（ DLOM ）。这篇文章基于这样一种观点，即由于法院没有发现压迫，它将“公平价值”和“公平市场价值”视为相似的，从而允许可销售性折扣。它认为这是错误的触发器，方法过于宽泛。根据同样的逻辑，从未想要退出的少数股东也可以获得折扣价，仅仅因为大多数人选择使用第66条，根据该条规定，独立评估师不需要强制性估值。巴帝电信通过使DLOM的适用性取决于压迫的存在，将事实敏感的调查转化为法律规则。决定和折扣"
+      "id": "art_213"
     },
     {
       "title": "AI Is Coming for the Economic Consulting Industry",
@@ -5792,7 +5662,7 @@
       "abstract": "Mona Birjandi is Principal Economist and Director of Data Analytics at Outten & Golden, LLP. As the head of Outten & Golden’s Economics and Data Analytics team, she leads the firm’s efforts to leverage economic analysis, statistical modeling, AI, machine learning, and other tools to support the firm’s employment and digital discrimination cases and investigations. She also serves as Chair of the National Association for Business Economics (NABE) Litigation Economics Group, where she led the inaugural Econ + Law Summit—the first event of its kind convening economists and legal practitioners around the evolving role of data, analytics, and expert evidence in modern litigation. Birjandi earned both a Ph.D. and M.A. in economics from Yale University, and an M.A. in Law and Diplomacy from Tufts University. She is the author of numerous publications on litigation economics. Mery Zadeh is Senior Vice President of AI Governance & Risk at Lumenova AI. With over a decade of experience spanning i",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "人工智能即将进入经济咨询行业",
+      "title_cn": "",
       "topics": [
         "tech_data_ai",
         "corporate_governance"
@@ -5800,425 +5670,7 @@
       "primary_topic": "tech_data_ai",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_214",
-      "abstract_cn": "Mona Birjandi是Outten & Golden, LLP的首席经济学家兼数据分析总监。作为Outten & Golden经济和数据分析团队的负责人，她领导公司利用经济分析、统计建模、人工智能、机器学习和其他工具来支持公司的就业和数字歧视案件和调查。她还担任全国商业经济学协会（ NABE ）诉讼经济小组的主席，在那里她领导了首届经济+法律峰会，这是第一次围绕数据、分析和专家证据在现代诉讼中不断发展的作用召集经济学家和法律从业者。Birjandi同时获得了博士学位耶鲁大学经济学硕士学位，塔夫茨大学法律和外交硕士学位。她是众多诉讼经济学出版物的作者。Mery Zadeh是Lumenova AI的人工智能治理和风险高级副总裁。凭借十多年的经验，我"
-    },
-    {
-      "source_id": "banking_with_interest",
-      "title": "If AI Can't See Your Bank, Does It Really Exist?",
-      "title_cn": "如果AI看不到你的银行，它真的存在吗？",
-      "authors": "Rob Blackwell",
-      "affiliations": "IntraFi",
-      "date": "2026-08-04",
-      "abstract": "Penny Crosman, American Banker's executive editor for technology, discusses why some banks dominate AI-generated answers while others are nearly invisible, including tackling what community banks can do to improve their visibility.",
-      "abstract_cn": "《美国银行家》（ American Banker ）技术执行编辑佩妮·克罗斯曼（ Penny Crosman ）讨论了为什么一些银行主导人工智能生成的答案，而另一些银行几乎看不见，包括解决社区银行可以做些什么来提高其可见性。",
-      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "银行政策；金融监管；银行监督",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "url": "https://bankingwithinterest.libsyn.com/if-ai-cant-see-your-bank-does-it-really-exist",
-      "type": "podcast",
-      "duration": "",
-      "guests": "",
-      "id": "1",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "banking_with_interest",
-      "title": "After Vought's Exit, Will CFPB Return to Normal?",
-      "title_cn": "Vought退出后， CFPB会恢复正常吗？",
-      "authors": "Rob Blackwell",
-      "affiliations": "IntraFi",
-      "date": "2026-07-28",
-      "abstract": "Over the past year and a half, Acting CFPB Russell Vought has sought to largely shut down the CFPB by severely cutting staff, stopping enforcement actions and cutting back on supervision. But with the nomination of a new director, Brian Johnson, is that about to change? Alan Kaplinsky, senior counsel at Ballard Spahr and author of the Consumer Finance Monitor blog and host of its weekly podcast, discusses how the CFPB may change and what it will mean for banks.",
-      "abstract_cn": "",
-      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "银行政策；金融监管；银行监督",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "url": "https://bankingwithinterest.libsyn.com/after-voughts-exit-will-cfpb-return-to-normal",
-      "type": "podcast",
-      "duration": "",
-      "guests": "",
-      "id": "2",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "banking_with_interest",
-      "title": "The Affordability Debate Comes for Banks",
-      "title_cn": "",
-      "authors": "Rob Blackwell",
-      "affiliations": "IntraFi",
-      "date": "2026-07-21",
-      "abstract": "Lindsey Johnson, president and CEO of the Consumer Bankers Association, talks about why affordability concerns are putting renewed political pressure on banks over credit card rates, overdraft and late fees. She also tackles the future of the CFPB, open banking, crypto legislation, agentic AI and why she's optimistic in the fight against fraud.",
-      "abstract_cn": "",
-      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "银行政策；金融监管；银行监督",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "url": "https://bankingwithinterest.libsyn.com/the-affordability-debate-comes-for-banks",
-      "type": "podcast",
-      "duration": "",
-      "guests": "",
-      "id": "3",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "banking_with_interest",
-      "title": "The Big Question for Banks: How Durable Is This Moment?",
-      "title_cn": "",
-      "authors": "Rob Blackwell",
-      "affiliations": "IntraFi",
-      "date": "2026-06-30",
-      "abstract": "Brian Gardner, chief Washington policy strategist at Stifel, tackles how durable the Trump administration's fast-moving regulatory and other changes are likely to be for banks. He discusses what banks still misunderstand about Washington, why the M&A environment is improving, what Kevin Warsh's first press conference signaled, and what the midterm elections could mean for bank regulation if Democrats win back one chamber or both.",
-      "abstract_cn": "",
-      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "银行政策；金融监管；银行监督",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "url": "https://bankingwithinterest.libsyn.com/the-big-question-for-banks-how-durable-is-this-moment",
-      "type": "podcast",
-      "duration": "",
-      "guests": "",
-      "id": "4",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "banking_with_interest",
-      "title": "What Policymakers Still Get Wrong About Housing Finance",
-      "title_cn": "",
-      "authors": "Rob Blackwell",
-      "affiliations": "IntraFi",
-      "date": "2026-06-24",
-      "abstract": "Michael Bright, CEO of the Structured Finance Association and a former head of Ginnie Mae, joins the show to discuss the state of the U.S. housing finance system nearly two decades after the financial crisis. He explains why he does not think the system is fundamentally broken, what policymakers still misunderstand about the secondary mortgage market, and how issues like GSE reform, Basel III, private credit and fraud could reshape housing finance in the years ahead.",
-      "abstract_cn": "",
-      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "银行政策；金融监管；银行监督",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "url": "https://bankingwithinterest.libsyn.com/what-policymakers-still-get-wrong-about-housing-finance",
-      "type": "podcast",
-      "duration": "",
-      "guests": "",
-      "id": "5",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "banking_with_interest",
-      "title": "Banks Are Asking the Wrong Question About AI",
-      "title_cn": "",
-      "authors": "Rob Blackwell",
-      "affiliations": "IntraFi",
-      "date": "2026-06-17",
-      "abstract": "Alex Johnson, founder of Fintech Takes , details why many banks are thinking about AI the wrong way. He updates his views on stablecoins vs. tokenized deposits, discusses why fintech competition remains a potent threat to banks and talks about why the bigger issue may be how customers use AI to make financial decisions.",
-      "abstract_cn": "",
-      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "url": "https://bankingwithinterest.libsyn.com/banks-are-asking-the-wrong-question-about-ai",
-      "type": "podcast",
-      "duration": "",
-      "guests": "",
-      "id": "6",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "banking_with_interest",
-      "title": "Have Banks Already Lost the Fight Over Stablecoin Yield?",
-      "title_cn": "",
-      "authors": "Rob Blackwell",
-      "affiliations": "IntraFi",
-      "date": "2026-06-10",
-      "abstract": "Banks have fought a comprehensive effort to ensure stablecoins cannot offer yield. But the Senate Banking Committee passed a bill that the banking industry still says falls short. Does that mean banks have lost the fight? Will a crypto market structure bill pass this year? Brendan Pedersen of Punchbowl News offers insights into the current and future state of play.",
-      "abstract_cn": "",
-      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "url": "https://bankingwithinterest.libsyn.com/have-banks-already-lost-the-fight-over-stablecoin-yield",
-      "type": "podcast",
-      "duration": "",
-      "guests": "",
-      "id": "7",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "banking_with_interest",
-      "title": "The New Push to Refocus Bank Supervision",
-      "title_cn": "",
-      "authors": "Rob Blackwell",
-      "affiliations": "IntraFi",
-      "date": "2026-06-02",
-      "abstract": "Andrew Olmem, managing partner of Mayer Brown's Washington office and a former deputy director of the National Economic Council, talks about how the second Trump administration has moved much faster than the first to reshape financial regulation. He discusses why he believes bank supervision became too bureaucratic and too focused on process, how the administration is approaching capital and the Fed, and what stablecoins, the Clarity Act and OCC preemption could mean for the future of the regulatory system.",
-      "abstract_cn": "",
-      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "url": "https://bankingwithinterest.libsyn.com/the-new-push-to-refocus-bank-supervision",
-      "type": "podcast",
-      "duration": "",
-      "guests": "",
-      "id": "8",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Has Broader Stock Market Participation Changed How Interest Rates Affect the Economy?",
-      "title_cn": "",
-      "authors": "Juan M. Morelli",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-08-19",
-      "abstract": "Stock market participation in the U.S. has changed dramatically over the past four decades. In the mid-1980s, fewer than 30 percent of households held equity. By the early 2000s, more than half of U.S. households owned equity, either directly or through mutual funds, 401(k)s, and IRAs. As participation widened, the way stock market fluctuations passed through to household spending may have changed, with potential implications for how the broader economy behaves. An argument can be made that the rise in equity market participation has dampened the response of output to interest rate changes as ",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/has-broader-stock-market-participation-changed-how-interest-rates-affect-the-economy/",
-      "type": "article",
-      "abstract_cn": "",
-      "id": "9",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Does the Equity Term Structure Respond to Monetary Policy Shocks?",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-08-12",
-      "abstract": "A long-standing body of research, inspired by Bernanke and Kuttner (2005), has documented the effects of Fed interest rate surprises on stock markets. While stock markets provide valuable information about the investor risk premium and dividend growth expectations, researchers have only recently developed more comprehensive tools to estimate the term structure of equity risk premia and dividend growth expectations across a broad range of maturities. In this post, we investigate the impact of monetary policy surprises (or shocks) on short- and long-term estimates of risk premia and growth expec",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/does-the-equity-term-structure-respond-to-monetary-policy-shocks/",
-      "type": "article",
-      "abstract_cn": "",
-      "id": "10",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "How Distressed Are Consumers? Reconciling Diverging Credit Card Delinquency Measures",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-08-11",
-      "abstract": "Total debt balances declined slightly by $13 billion in the second quarter of 2026, according to the latest Quarterly Report on Household Debt and Credit from the New York Fed’s Center for Microeconomic Data . Mortgage and student loan balances saw a small decline, while there were increases across other debt products. Delinquency rates across most products remained fairly stable. Still, between 2022:Q3 and 2026:Q1, the percentage of credit card balances 90+ days delinquent rose from 7.6 percent to 12.8 percent, prompting concerns that Americans are falling behind on their debt payments at rat",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/",
-      "type": "article",
-      "abstract_cn": "",
-      "id": "11",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Stripping STRIPs Trading Activity",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-08-10",
-      "abstract": "In March 2020, the Financial Industry Regulatory Authority (FINRA) began reporting aggregate trading volume for securities issued by the U.S. Treasury Department. The public data do not, however, include information about the trading activity of Separate Trading of Registered Interest and Principal of Securities (STRIPS). STRIPS are created from existing Treasury securities and offer risk […]",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/stripping-strips-trading-activity/",
-      "type": "article",
-      "id": "12",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Why Do Fewer Renters Expect to Move?",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-08-06",
-      "abstract": "Americans are moving less than they used to. Moving rates have declined steadily for decades, falling from close to 20 percent annually in the mid-1980s to below 10 percent by 2019. This decline has persisted through business cycles and has been evident across all regions, and has affected a broad range of demographic groups. Falling mobility matters because moving helps households access job opportunities, adjust to changing circumstances, and improve their housing situations. In this post, we show that the decline in mobility also holds for renters, with growing challenges to owning a home b",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/why-do-fewer-renters-expect-to-move/",
-      "type": "article",
-      "id": "13",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "AI’s Impact on Labor and Hiring",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-08-05",
-      "abstract": "Welcome to Street Level , my new series on Liberty Street Economics . As research director, I try to keep track of the wide range of work that the economists at the New York Fed produce. My goal for this series is to periodically offer some thematic discussion of that work, highlighting recent analysis by Research staff and adding my own observations on the issue at hand. In this inaugural post, I’ll focus on perhaps the hottest topic going: How artificial intelligence is changing the labor market and hiring behaviors.",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/ais-impact-on-labor-and-hiring/",
-      "type": "article",
-      "id": "14",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-08-04",
-      "abstract": "Monetary policymakers closely monitor the term structure of sovereign bond yields to uncover market participants’ beliefs about the future monetary policy stance, inflation, and activity. A particular object of interest is the natural real rate of return, or “r-star,” which acts as a guide for monetary policy decisions. Numerous papers have questioned how much information investors possess, and how precisely they know r-star. In this post based on a recent Staff Report , we explore what the term structure of interest rates can teach us about r-star and its perception by investors.",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
-      "type": "article",
-      "id": "15",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Stablecoins and (Non)Crypto Shocks: A 2026 Update",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-31",
-      "abstract": "Stablecoins are digital assets whose value is pegged to that of a fiat currency, typically the U.S. dollar at a peg of $1.00 per token. In a previous blog post , we described the rapid growth of stablecoins through early 2025, highlighted changes in stablecoins’ reserve-asset composition, and examined their reactions to Bitcoin price shocks. In this post, we document the growth of stablecoins since our last post. Then, we examine how shocks from outside the crypto industry can impact the composition of stablecoins’ reserve assets. For our case study, we use the 2023 failure of Silicon Valley B",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/",
-      "type": "article",
-      "id": "16",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Nonbank Subsidiaries and the Hidden Fragility of Internal Capital Markets Reallocation",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-17",
-      "abstract": "This post concludes a three-part series on how bank regulation interacts with the organizational structure of banking firms. The first post documented the equity-rich nonbank subsidiaries inside bank holding companies (BHCs); the second post showed that BHCs met Basel III by reallocating capital internally, moving equity from nonbank affiliates to bank subsidiaries rather than raising new external capital. Here we ask what that reallocation meant for financial stability. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\"",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
-      "type": "article",
-      "id": "17",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "How Basel III Changes Where Capital Sits: Nonbank Subsidiaries as Equity Reservoirs",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-16",
-      "abstract": "This post is the second in a three-part series on how bank regulation interacts with the organizational structure of banking firms. The first post documented that nonbank subsidiaries inside bank holding companies (BHCs) are large, equity-rich \"reservoirs,\" and that bank-level capital diverged sharply from consolidated capital after Basel III took effect in 2015. This post asks why, and traces the answer through the internal plumbing of the holding company. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\"",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/how-basel-iii-changes-where-capital-sits-nonbank-subsidiaries-as-equity-reservoirs/",
-      "type": "article",
-      "id": "18",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Capitalizing on Nonbanks: Regulatory Arbitrage Within Bank Holding Companies",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-15",
-      "abstract": "This post is the first in a three-part series on how bank regulation interacts with the organizational structure of banking firms. The series draws on the authors' recent Staff Report, \" Regulatory Arbitrage Within the Firm .\"",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/capitalizing-on-nonbanks-regulatory-arbitrage-within-bank-holding-companies/",
-      "type": "article",
-      "id": "19",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Effect of Tariffs on U.S. Small Businesses",
-      "title_cn": "",
-      "authors": "Will Aarons and Asani Sarkar",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-09",
-      "abstract": "How has the recent implementation of tariffs affected small businesses? Due to lack of data, little is known about this issue. In this Liberty Street Economics post, we use data from the 2025 edition of the Small Business Credit Survey (SBCS) to explore this question for businesses nationally and in the Second District (defined, for the purpose of this study, as New York, New Jersey, and Connecticut). We find that the majority of national firms in the goods and retail sectors reported experiencing financial challenges due to tariffs in 2025, with even larger shares of regional firms doing so. ",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/effect-of-tariffs-on-u-s-small-businesses/",
-      "type": "article",
-      "id": "20",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "More Tariff Pass‑Through Is in the Pipeline",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-08",
-      "abstract": "The past year brought dramatic changes to U.S. trade policy, including sweeping new tariffs , as well as a Supreme Court decision that further reshaped the tariff landscape. Many businesses saw their costs increase significantly and faced complex decisions about whether to absorb the tariffs through lower profit margins, raise their prices to recover the higher costs, or some combination of the two. Last year, we found that most businesses had passed on at least some of these higher costs to their customers through higher prices. Now, over a year later, have businesses finished adjusting price",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
-      "type": "article",
-      "id": "21",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "What Do Over 3,000 Bank Runs Teach Us About Banking Crises?",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-07",
-      "abstract": "Runs on financial institutions are one of the salient markers of financial crises. But the role of runs in crises is a topic of longstanding debate. Runs can be seen as the key turning point, whereby even small shocks can generate severe crises with widespread bank failures. Another view is that runs are mainly a symptom of deeper rot in the financial system, exacerbating crises rather than being their primary cause. Understanding this debate has first order implications for how to think about financial crises and the appropriate policy responses. In this post, we use a new database of more th",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/what-do-over-3000-bank-runs-teach-us-about-banking-crises/",
-      "type": "article",
-      "id": "22",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Using AI to Let History Speak About Bank Runs",
-      "title_cn": "",
-      "authors": "Liberty Street Economics",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-07",
-      "abstract": "Banking crises are commonly associated with bank runs and banking panics, yet our empirical understanding of bank runs is constrained by a lack of bank-level data. In a new paper , we use large language models (LLMs) to extract information on bank runs from millions of digitized historical newspaper pages, creating the most comprehensive database of bank runs in U.S. history. Every bank run episode that we identify is documented on a companion website where users can browse and examine individual episodes, and read the original newspaper articles. In this post, we describe how we built this da",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/using-ai-to-let-history-speak-about-bank-runs/",
-      "type": "article",
-      "id": "23",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "The Disappearing Overnight Drift",
-      "title_cn": "",
-      "authors": "Nina Boyarchenko, Lars C. Larsen, and Paul Whelan",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-07-01",
-      "abstract": "In a 2021 Liberty Street Economics post , we documented the “overnight drift”—a large, persistent return to holding U.S. equity futures in the narrow window between 2:00 and 3:00 a.m. Eastern time, when European equity markets open. Five additional years of data later, that pattern appears to have faded: the 2:00–3:00 window that previously generated roughly 3.7 percent per annum has averaged close to zero since 2021. In this post, we revisit the overnight drift in light of the post-publication sample and use our inventory-risk framework to ask which of three observable channels—the dispersion",
-      "keywords": "",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/the-disappearing-overnight-drift/",
-      "type": "article",
-      "id": "24",
-      "report_id": "2026-08-25"
-    },
-    {
-      "source_id": "ecb_supervision",
-      "title": "Simpler guidance, more effective supervision European banking supervision has reviewed over 130 publications to make them more concise and user friend",
-      "title_cn": "",
-      "authors": "Frank EldersonMember of the ECB's Executive Board",
-      "affiliations": "European Central Bank",
-      "date": "2026-06-26",
-      "abstract": "By Frank Elderson, Member of the Executive Board of the ECB and Vice-Chair of the Supervisory Board of the ECB European banking supervision has reviewed over 130 publications to make them more concise and user‑friendly. Around 40 will be discontinued, others have been revised in a targeted manner, and several are undergoing a more in-depth review, including the guide on governance and risk culture. We have also developed concrete initiatives as part of our supervisory culture program on the use of guides in the supervisory dialogue. The prudential framework sets out the legal requirements that banks must meet. Within that framework, banks remain responsible for putting in place governance, risk management and control arrangements that are appropriate to their size, business model and risk profile. This is precisely where supervisory guidance adds value. European banking supervision has a perspective that no individual bank can have. Across banks’ diverse business models, structures and risk profiles, we see where risks build up, where recurring weaknesses arise and where particular approaches appear to work well. By sharing these insights through guides, methodologies, letters and reports, we ensure consistency in our supervisory approach, help banks understand the issues supervisors will examine and bring to light good practices observed across the sector. This is why supervisory guidance is an important part of transparent and effective supervision.",
-      "keywords": "",
-      "url": "https://www.bankingsupervision.europa.eu/press/blog/2026/html/ssm.blog20260626~ee5a4794d4.en.html",
-      "type": "article",
-      "id": "25",
-      "report_id": "2026-08-25"
+      "id": "art_214"
     }
   ],
   "monthly_reports": [
