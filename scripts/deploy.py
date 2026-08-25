@@ -13,11 +13,14 @@ deploy.py — 部署网页到公网
 """
 import sys
 import os
+import time
 import subprocess
 from pathlib import Path
+from urllib.parse import urlparse
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 DEPLOY_FILES = ["index.html", "方正小标宋简.TTF"]
+MAX_RETRIES = 3
 
 
 def get_remote_url():
@@ -34,28 +37,41 @@ def get_remote_url():
     return None
 
 
+def extract_pages_url(remote):
+    """Extract GitHub Pages URL from remote URL (handles token-embedded URLs)."""
+    if "github.com" not in remote:
+        return None
+
+    parsed = urlparse(remote)
+    if parsed.hostname != "github.com":
+        return None
+
+    path = parsed.path.lstrip("/").replace(".git", "")
+    if "/" in path:
+        user, repo = path.split("/", 1)
+        return f"https://{user}.github.io/{repo}/"
+    return None
+
+
 def git_push():
-    """Stage deploy files and push to remote."""
+    """Stage deploy files and push to remote. Retries on SSL failure."""
     remote = get_remote_url()
     if not remote:
         return False, "未配置 git 远程仓库（请先 git remote add origin <url>）"
 
     print(f"Git 远程: {remote}")
 
-    # Stage deploy files
     for f in DEPLOY_FILES:
         fpath = PROJECT_DIR / f
         if fpath.exists():
             subprocess.run(["git", "add", f], cwd=str(PROJECT_DIR),
                            capture_output=True, timeout=10)
 
-    # Also stage 周报 directory
     reports_dir = PROJECT_DIR / "周报"
     if reports_dir.exists():
         subprocess.run(["git", "add", "周报/"], cwd=str(PROJECT_DIR),
                        capture_output=True, timeout=10)
 
-    # Check if there are changes to commit
     status = subprocess.run(["git", "status", "--porcelain"],
                            cwd=str(PROJECT_DIR), capture_output=True, text=True, timeout=10)
     if not status.stdout.strip():
@@ -69,25 +85,16 @@ def git_push():
         if commit.returncode != 0:
             return False, f"git commit 失败: {commit.stderr[:200]}"
 
-    # Push
-    result = subprocess.run(["git", "push", "origin", "main"],
-                           cwd=str(PROJECT_DIR), capture_output=True, text=True, timeout=60)
-    if result.returncode == 0:
-        # Try to extract GitHub Pages URL
-        if "github.com" in remote:
-            # Parse: https://github.com/user/repo.git or git@github.com:user/repo.git
-            if remote.startswith("https://github.com/"):
-                parts = remote.replace("https://github.com/", "").replace(".git", "")
-            elif remote.startswith("git@github.com:"):
-                parts = remote.replace("git@github.com:", "").replace(".git", "")
-            else:
-                parts = ""
-            if "/" in parts:
-                user, repo = parts.split("/", 1)
-                pages_url = f"https://{user}.github.io/{repo}/"
-                return True, pages_url
-        return True, remote
-    return False, f"git push 失败: {result.stderr[:200]}"
+    for attempt in range(1, MAX_RETRIES + 1):
+        result = subprocess.run(["git", "push", "origin", "main"],
+                               cwd=str(PROJECT_DIR), capture_output=True, text=True, timeout=120)
+        if result.returncode == 0:
+            pages_url = extract_pages_url(remote)
+            return True, pages_url or remote
+        print(f"推送第 {attempt}/{MAX_RETRIES} 次失败: {result.stderr[:100]}")
+        if attempt < MAX_RETRIES:
+            time.sleep(5)
+    return False, f"git push 失败（{MAX_RETRIES} 次重试）: {result.stderr[:200]}"
 
 
 def start_local_server(port=8000):
@@ -131,7 +138,6 @@ def main():
             print(f"部署失败: {msg}")
         return 0 if ok else 1
 
-    # Auto mode
     remote = get_remote_url()
     if remote:
         ok, msg = git_push()
@@ -144,11 +150,6 @@ def main():
     else:
         print("未配置 git 远程仓库，无法自动部署到公网")
         print("启动本地服务器...")
-        print("如需部署到公网，请执行:")
-        print("  1. 在 GitHub 创建仓库")
-        print("  2. git remote add origin <仓库URL>")
-        print("  3. .venv/bin/python scripts/deploy.py --push")
-        print("  4. 在 GitHub 仓库 Settings → Pages 中启用 Pages")
 
     start_local_server(port)
     return 0
