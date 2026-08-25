@@ -1,6 +1,6 @@
 {
   "meta": {
-    "description": "商业法律研究动向 - 文章数据库",
+    "description": "法律与金融研究动向 - 文章数据库",
     "last_updated": "2026-08-25",
     "version": "1.0"
   },
@@ -84,6 +84,14 @@
       "type": "blog",
       "url": "https://www.bankingsupervision.europa.eu/press/blog/html/index.en.html",
       "description": "欧洲央行单一监管机制官方博客，聚焦欧洲银行监管与审慎政策。"
+    },
+    {
+      "id": "bank_underground",
+      "name": "Bank Underground (Bank of England)",
+      "short_name": "Bank Underground",
+      "type": "blog",
+      "url": "https://bankunderground.co.uk/",
+      "description": "英格兰银行官方博客，聚焦货币政策、银行监管与金融稳定研究。"
     }
   ],
   "topics": [
@@ -124,7 +132,7 @@
       "date": "2026-07-21",
       "period_start": "2026-07-13",
       "period_end": "2026-07-20",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共发布新文章 40+ 篇，呈现三大研究主线。",
       "trends": [
         "SEC 监管改革进入“实质落地”周。注册发行改革提案、Regulation E-Delivery、半年度报告改革均获推进，SEC 2026 规则制定议程列出 38 项潜在规则。",
@@ -137,7 +145,7 @@
       "date": "2026-07-22",
       "period_start": "2026-07-21",
       "period_end": "2026-07-22",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增8篇文章，呈现四条主线：SEC监管改革进入学术攻防阶段、反垄断立法产业政策转向遭反击、EU Inc与加密资产套利张力、CFIUS正当程序底线首次司法确认。",
       "trends": [
         "SEC监管改革从\"提案阶段\"进入\"学术攻防阶段\"：影子SEC小组发出系统性质疑，Atkins主席回应重申SEC是\"信息披露监管者而非价值判断监管者\"；2026代理季治理提案逆势增长，独立董事长提案从29项暴增至70项。",
@@ -151,7 +159,7 @@
       "date": "2026-07-24",
       "period_start": "2026-07-23",
       "period_end": "2026-07-24",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增 14 篇文章，呈现四条主线：最高法院 OT2025 判决的商业回响、并购研究微观机制深化、AI 进入董事会治理操作性议题、欧盟金融监管从简化转向能力塑造。",
       "trends": [
         "最高法院 OT2025 判决的商业回响：Wachtell Lipton 系统梳理 OT2025 判决清单，涵盖 Learning Resources v. Trump（6:0 否定 IEEPA 关税授权）、Trump v. Slaughter（6:3 推翻 Humphrey's Executor、击穿十余家独立机构有因免职保护）、Trump v. Cook（5:4 保留美联储结构独立）等标志性判决。配合 FS Credit v. Saba 证券法、Cox v. Sony Music 次级责任，构成对 21 世纪监管国家版图的系统性重划。Yale JREG Dinwoodie 关于非证券加密资产投资合同的论文延续同一 SEC 监管改革叙事。",
@@ -165,7 +173,7 @@
       "date": "2026-07-28",
       "period_start": "2026-07-25",
       "period_end": "2026-07-27",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增13篇文章。并购研究井喷——ECGI三篇MARC会议博客+CLS实体性理论构成最深智识集群；特拉华公司法改革进入实施消化期；气候诉讼与ESG披露治理工具论形成跨国监管对话。",
       "trends": [
         "并购研究井喷：ECGI三篇MARC会议博客覆盖收购谈判定价时序、知识工作者的生产力损失、股东积极主义与收购市场的替代-互补双关关系；CLS Rhee从企业理论底层以\"实体性\"重新解释收购溢价普适性。",
@@ -179,7 +187,7 @@
       "date": "2026-07-29",
       "period_start": "2026-07-28",
       "period_end": "2026-07-29",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增10篇文章：Harvard 2篇、OBLB 4篇、ProMarket 1篇、CLS 3篇。ECGI与Yale JREG本周无新文章。",
       "trends": [
         "SEC监管改革引发激烈学术辩论：半年度报告提案、401(k)私募市场准入、PSLRA程序保护三项议题集中爆发",
@@ -192,7 +200,7 @@
       "date": "2026-07-31",
       "period_start": "2026-07-30",
       "period_end": "2026-07-31",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增9篇文章，聚焦家族企业治理、AI司法证据与气候转型计划监管。",
       "trends": [
         "家族企业治理成为本周最集中议题：ECGI四篇博客从不同角度切入CEO继任、家族价值观与外部经验，显示家族企业研究正从所有权结构转向继任机制与人力资本。",
@@ -205,7 +213,7 @@
       "date": "2026-08-03",
       "period_start": "2026-08-01",
       "period_end": "2026-08-03",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增6篇文章，聚焦股东提案规则改革、前沿产业治理挑战与国家股东角色回归",
       "trends": [
         "股东参与权与SEC规则改革博弈深化：Rule 14a-8请愿书反映投资者权益团体与监管层拉锯",
@@ -218,7 +226,7 @@
       "date": "2026-08-05",
       "period_start": "2026-08-04",
       "period_end": "2026-08-05",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增14篇文章。ECGI集中推出'亚洲公司丑闻'专题系列5篇（韩日印尼马新），哈佛商法评论聚焦代理季复盘与AI披露4篇，CLS贡献4篇（波音集体诉讼、公共利益公司Revlon义务、预测市场、职场AI治理），ProMarket 1篇绿色采购竞争效应。OBLB暑期休刊，Yale JREG无实质新文。",
       "trends": [
         "ECGI'亚洲公司丑闻'五国专题：丑闻作为集中所有权结构下立法改革的催化剂",
@@ -231,7 +239,7 @@
       "date": "2026-08-07",
       "period_start": "2026-08-06",
       "period_end": "2026-08-07",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增17篇文章（ECGI工作论文4篇、哈佛商法评论4篇、CLS 5篇、ProMarket 1篇、Yale JREG 3篇，OBLB暑期休刊无新增）。董事会监督义务与治理结构研究集中爆发，证券监管与市场执法形成第二条主线。",
       "trends": [
         "董事会监督义务与治理结构研究集中爆发：ECGI三篇工作论文分别重构Caremark监督义务教义、以最大样本重估收购发起方问题、解析欧洲董事会模式选择；特拉华衡平法院首次就公益公司（PBC）董事信义义务作出裁决，2026代理季治理类股东提案持续主导。",
@@ -244,7 +252,7 @@
       "date": "2026-08-10",
       "period_start": "2026-08-08",
       "period_end": "2026-08-10",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周六大来源共新增5篇文章。ECGI上线两篇重头工作论文：Gordon与Lund论证私募股权强制披露的必要性，Kim等揭示ESG治理评级重形式轻实质。哈佛商法评论刊发双重股权日落条款交易所禁令批判与跨行业企业气候声明汇编。Yale JREG追踪Slaughter案后独立机构可分性分歧。OBLB暑期休刊，ProMarket与CLS本期无新商法文章。",
       "trends": [
         "私募股权与ESG评级问责失灵：退出市场萎缩、关联交易盛行、ESG评级奖励象征性治理结构而非实质改善",
@@ -257,7 +265,7 @@
       "date": "2026-08-12",
       "period_start": "2026-08-11",
       "period_end": "2026-08-12",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周七大来源共新增16篇文章（ECGI 4、Harvard 5、ProMarket 2、CLS 3、Yale JREG 2；OBLB暑期休刊、Jotwell无更新）。SEC监管收缩及其后果成为最集中议题（申报人身份简化、规则司法审查实证、影子SEC第12号声明、SEC声誉冲击研究）；劳动力市场正式进入并购与反垄断分析核心；投票利用率、CEO-董事会信任落差等研究揭示治理链条中名义与现实的差距。",
       "trends": [
         "SEC监管收缩及其后果：申报人身份简化提案、Gensler时代规则85.7%被法院推翻、影子SEC批评强制仲裁放行、SEC执法强度随声誉冲击波动",
@@ -270,7 +278,7 @@
       "date": "2026-08-13",
       "period_start": "2026-08-13",
       "period_end": "2026-08-13",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周七大来源共新增8篇文章（Harvard 2、CLS 4、ProMarket 1、Jotwell 1；ECGI与Yale JREG无更新、OBLB暑期休刊）。资本市场机制与市场诚信成为最集中议题：加速股份回购（ASR）在Rule 10b-18安全港内的市场扭曲悖论、预测市场内幕交易规制边界之争、2026薪酬话语权投票低支持案例的特别奖励集中风险、SEC新设财务报告与会计执法组；反垄断方面，Pay for Half方案为Google搜索垄断救济之争提出付费上限路径；金融监管与治理制度层面，美联储1979年以来首次全面修订Regulation O，特拉华最高法院Valihura讲座以'遗产、教训与发射台'回应设立地竞争。",
       "trends": [
         "资本市场机制与市场诚信交叉研究集中爆发：ASR回购方式在Rule 10b-18安全港内的市场扭曲悖论、预测市场内幕交易标签的边界之争、2026薪酬投票特别奖励集中风险、SEC新设财务报告与会计执法组——机制设计、投资者行为与执法布局连成完整研究链",
@@ -283,7 +291,7 @@
       "date": "2026-08-14",
       "period_start": "2026-08-14",
       "period_end": "2026-08-14",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本期七大英文来源共新增4篇文章（含晚间增量补充1篇），暑期淡季特征明显：新增集中于公司治理与金融监管两大主轴——特拉华并购实务的经验转向（sandbagging沉默条款实证）、全球CEO流动期中盘点、后Loper Bright时代ESG的逐法命运，以及澳大利亚超级年金与三大指数基金相互制衡的比较公司治理样本。",
       "trends": [
         "特拉华公司法与并购实务的经验转向：The Sound of Silence 以 3,642 份并购协议与 50 余场访谈揭示法官—律师非正式沟通渠道如何化解 sandbagging 恐慌",
@@ -296,7 +304,7 @@
       "date": "2026-08-17",
       "period_start": "2026-08-15",
       "period_end": "2026-08-17",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周七大来源共新增13篇文章（含ECGI工作论文4篇历史遗漏补录）。主题高度集中于公司治理：Harvard三篇与CLS强制股东仲裁分析共同勾勒股东权利机制在SEC政策转向后的再平衡；特拉华衡平法院Verisk/AccuLynx案命令特定履行2.35亿美元合并，成为并购与反垄断交汇处最具实务冲击力的判例；另有一篇银行监管反思（SVB）与一篇AI自我监管合宪性研究。",
       "trends": [
         "股东权力光谱再平衡：SEC 2025年政策转向（退出no-action程序、不再以强制仲裁条款为由拒绝加速注册）后，股东提案、董事选任与争议解决渠道的博弈格局被重塑。CPA政治披露提案在本季29家公司中获强支持（12项表决平均31.7%），强制股东仲裁的采纳之谜引发对治理制度均衡的重新审视。",
@@ -309,7 +317,7 @@
       "date": "2026-08-19",
       "period_start": "2026-08-18",
       "period_end": "2026-08-19",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周七大来源共新增10篇文章：ECGI 1篇、Harvard 5篇、ProMarket 2篇、CLS 2篇；OBLB暑期休刊，Yale JREG与Jotwell无实质更新。预测市场监管成为跨来源焦点，特拉华治理诉讼勾勒迁册与Caremark边界，平台竞争与AI的政治经济学持续发酵。",
       "trends": [
         "预测市场成为跨来源共同焦点：Harvard从市场监控实务论证股票监管逻辑无法平移，CLS从联邦优先权与功能主义分轨切入，CFTC新规与Kalshi案将决定制度走向",
@@ -322,7 +330,7 @@
       "date": "2026-08-21",
       "period_start": "2026-08-20",
       "period_end": "2026-08-21",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周七大来源共新增 13 篇文章（ECGI 4 篇、Harvard 2 篇、ProMarket 1 篇、CLS 4 篇、Yale JREG 2 篇；OBLB 与 Jotwell 周期内无新文）。主题分布以公司治理为绝对核心（7 篇），反垄断、金融监管、其他各 2 篇。最显著的几条研究主线：1）特拉华公司法的契约主义回应与欧洲公司治理的法律移植困境；2）反垄断执法在 DOJ 与中国 SAMR 两端同步加码；3）\"价值观优先\"治理范式重组与最高法院政治披露立场。",
       "trends": [
         "特拉华公司法的契约回应与欧洲治理移植困境——ECGI 两篇 blog（Bobby Reddy 重思 Moelis 后 SB 313 的可能路径、Katja Langenbucher 评论 Optional Firm 范式移植的限度）形成共振，从司法判决、立法回应到比较法移植三层联动观察公司治理的契约主义转向。",
@@ -350,7 +358,7 @@
       "date": "2026-08-24",
       "period_start": "2026-08-22",
       "period_end": "2026-08-24",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周七大来源共新增6篇文章（ECGI 2、Harvard 3、Yale 1，含2篇上期遗漏补录），OBLB暑期休刊、ProMarket/CLS/Jotwell无新增。主线：股东积极主义攻防两端的数据叙事（2026代理季结构剧变 + 激进者锁定的战略盲区）、私募市场制度供给（SBIC中介层实验 + 私募资产估值泡沫机制）、AI治理下沉至私营公司与行政法授权理论更新。",
       "trends": [
         "股东积极主义的攻防转换：代理季总量退潮但代理权争夺占比升至38%，90%被攻击公司存在长期路线图或董事会战略投入缺口",
@@ -371,7 +379,7 @@
       "date": "2026-08-25",
       "period_start": "2026-08-25",
       "period_end": "2026-08-25",
-      "title": "商业法律研究动向",
+      "title": "法律与金融研究动向",
       "summary": "本周七大来源共新增7篇文章。",
       "trends": [
         "本周新增7篇文章，主题分布: {'corporate_governance': 4, 'financial_regulation': 3}",
@@ -6218,6 +6226,146 @@
       "url": "https://www.bankingsupervision.europa.eu/press/blog/2026/html/ssm.blog20260626~ee5a4794d4.en.html",
       "type": "article",
       "id": "25",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Who’s paying attention? How firms form policy rate expectations",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-08-20",
+      "abstract": "Lea Havemeister, Nicholas Bloom, Philip Bunn, Paul Mizen, Gregory Thwaites and Ivan Yotzov Monetary policymakers carefully craft their policy decisions and communication, and financial markets respond quickly. Yet the effect of policy on the economy ultimately depends on how firms perceive and anticipate monetary policy. We present new data from an economy-wide UK business survey … Continue reading Who’s paying attention? How firms form policy rate expectations →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/08/20/whos-paying-attention-how-firms-form-policy-rate-expectations/",
+      "type": "article",
+      "id": "26",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Does higher productivity create inflationary or disinflationary pressure?",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-08-20",
+      "abstract": "Ludovica Ambrosino, Jenny Chan and Silvana Tenreyro Recent technological advances raise an important question for policymakers: will higher productivity lead to disinflationary or inflationary pressure? A coming wave of AI-driven productivity growth is often described as a disinflationary tailwind that would allow central banks to hold interest rates lower without reigniting inflationary pressures. Yet faster … Continue reading Does higher productivity create inflationary or disinflationary pressure? →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/08/20/is-higher-productivity-inflationary-or-disinflationary/",
+      "type": "article",
+      "id": "27",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "If AI disappoints? The transmission of US big-tech earnings news",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-08-13",
+      "abstract": "Daniel Ostry, Roger Vicquéry and Emilio Zaratiegui There is growing concern among policymakers, international organisations, and even big-tech Chief Executive Officers (exhibits I, II and III) that the current artificial intelligence (AI) boom features valuations increasingly detached from fundamentals. The Bank’s February 2026 Monetary Policy Report noted that an asset price correction is a key … Continue reading If AI disappoints? The transmission of US big-tech earnings news →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/08/13/if-ai-disappoints-the-transmission-of-us-big-tech-earnings-news/",
+      "type": "article",
+      "id": "28",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Is artificial intelligence making us more productive? What the UK industry data show",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-08-06",
+      "abstract": "Sandra Batten Unlike previous waves of automation, machine learning and generative AI (Gen AI) technologies can perform non-routine cognitive tasks, such as those involving written or spoken language, and have the potential to affect a wider range of occupations. By augmenting or replacing workers in these tasks, these technologies promise to deliver significant productivity gains. … Continue reading Is artificial intelligence making us more productive? What the UK industry data show →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/08/06/is-artificial-intelligence-making-us-more-productive-what-the-uk-industry-data-show/",
+      "type": "article",
+      "id": "29",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Canaries in the column? AI exposure and the UK’s hiring slowdown",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-08-06",
+      "abstract": "Haley Schlicht From Silicon Valley executives promising to automate white-collar work to headlines claiming AI is foreclosing the graduate entry market, the strained ‘low fire, low hire’ environment has increasingly been ascribed to technological transformation. UK vacancies nearly halved since their 2022 peak – a contraction so sustained it has reshaped the British hiring market … Continue reading Canaries in the column? AI exposure and the UK’s hiring slowdown →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/08/06/canaries-in-the-column-ai-exposure-and-the-uks-hiring-slowdown/",
+      "type": "article",
+      "id": "30",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Demographics, deposits and data: using machine learning to segment UK mortgages",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-07-16",
+      "abstract": "Joe Grimshaw Who are the UK’s mortgage borrowers, and how do their characteristics differ? Despite extensive literature on mortgage profiles, loan-level segmentation remains limited, existing work relies on aggregates or predefined categories. I address this gap by applying unsupervised machine learning to 20 years of data, allowing the model determine segments without prior assumptions. Three … Continue reading Demographics, deposits and data: using machine learning to segment UK mortgages →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/07/16/demographics-deposits-and-data-using-machine-learning-to-segment-uk-mortgages/",
+      "type": "article",
+      "id": "31",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Credit constraints and housing market access",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-07-09",
+      "abstract": "Belinda Tracey and Neeltje van Horen The Help-to-Buy (HTB) programme introduced in 2013 reopened the 95% loan to value (LTV) segment of the UK mortgage market, thereby reducing the minimum deposit requirement for many first-time buyers (FTBs) from 10% to 5% (Chart 1). That policy change offers a useful natural experiment to study how deposit … Continue reading Credit constraints and housing market access →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/07/09/credit-constraints-and-housing-market-access/",
+      "type": "article",
+      "id": "32",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "When travel restrictions became trade frictions: evidence from Covid-era border closures",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-06-18",
+      "abstract": "John Lewis Covid travel restrictions limited movement of people but also made cross-border goods trade more difficult. Did this contribute to the fall in global goods trade during the pandemic, and if so by how much? In a recent paper using a structural gravity model on global trade flows with domestic trade, I show that … Continue reading When travel restrictions became trade frictions: evidence from Covid-era border closures →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/06/18/when-travel-restrictions-became-trade-frictions-evidence-from-covid-era-border-closures/",
+      "type": "article",
+      "id": "33",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Explainability in machine learning: do popular methods deliver on their promises?",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-06-11",
+      "abstract": "Ivona Cickovic and Andrea Serafino Machine learning models are increasingly used in organisational decision-making, yet their inner workings often remain opaque. When these systems influence real world outcomes, knowing what they predict is not enough – we also need to understand why. Explainability methods aim to illuminate this ‘black box,’ and feature attribution tools that … Continue reading Explainability in machine learning: do popular methods deliver on their promises? →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/06/11/explainability-in-machine-learning-do-popular-methods-deliver-on-their-promises/",
+      "type": "article",
+      "id": "34",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "A ‘group washing machine’ and ‘tangled skein’: the failure of Slater Walker",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-06-04",
+      "abstract": "David Rule In August 1977, the Bank of England purchased the bank Slater Walker Limited, completing its rescue. The bank had been a subsidiary of Slater Walker Securities, controlled by Jim Slater, which also owned an insurer. This post describes how Slater misused depositors’ and policyholders’ funds to finance his wider business interests. The Bank … Continue reading A ‘group washing machine’ and ‘tangled skein’: the failure of Slater Walker →",
+      "keywords": "",
+      "url": "https://bankunderground.co.uk/2026/06/04/a-group-washing-machine-and-tangled-skein-the-failure-of-slater-walker/",
+      "type": "article",
+      "id": "35",
       "report_id": "2026-08-25"
     }
   ],

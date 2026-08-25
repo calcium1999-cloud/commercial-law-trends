@@ -49,11 +49,12 @@ from scrapers.jotwell import JotwellScraper
 from scrapers.banking_with_interest import BankingWithInterestScraper
 from scrapers.nyfed import NYFedScraper
 from scrapers.ecb_supervision import ECBSupervisionScraper
+from scrapers.bank_underground import BankUndergroundScraper
 from utils.classifier import classify
 from utils.report_gen import generate_report, generate_report_metadata
 from utils.url_normalize import normalize_url
 
-SOURCE_ORDER = ["ecgi", "harvard", "oblb", "promarket", "cls", "yale", "jotwell", "banking_with_interest", "nyfed_liberty", "ecb_supervision"]
+SOURCE_ORDER = ["ecgi", "harvard", "oblb", "promarket", "cls", "yale", "jotwell", "banking_with_interest", "nyfed_liberty", "ecb_supervision", "bank_underground"]
 SCRAPERS = {
     "ecgi": ECGIScraper,
     "harvard": HarvardScraper,
@@ -65,6 +66,7 @@ SCRAPERS = {
     "banking_with_interest": BankingWithInterestScraper,
     "nyfed_liberty": NYFedScraper,
     "ecb_supervision": ECBSupervisionScraper,
+    "bank_underground": BankUndergroundScraper,
 }
 
 
