@@ -5431,7 +5431,8 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/23/the-strategic-blind-spots-attracting-shareholder-activists/",
       "type": "blog",
-      "id": "art_205"
+      "id": "art_205",
+      "abstract_cn": "2025年年全球股东积极主义创纪录（超 255起次活动，美国同比增 28% ）。 FCLT全球分析美、日、欧100强起活动样本的目标公司缺乏可信的长期路线图：三年期增长与利润率展望、清晰资本配置框架 71% ， 55%的董事会投入战略议题时间不足 ； 90%的样本公司至少存在其一。霍尼韦日本公司的资本配置不透明为另一高频缺口。只回应激进者具体要求而不弥补战略缺口的公司尔因无法解释多元化协同价值而数月内宣布拆分是典型案例往往在激进者退出后回吐收益；长期价值创造是终极防御。"
     },
     {
       "report_id": "2026-08-24",
@@ -5455,7 +5456,8 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/revisiting-delegation-and-time/",
       "type": "blog",
-      "id": "art_206"
+      "id": "art_206",
+      "abstract_cn": "乔作者为其圣母大学法律评论研讨会论文撰写的导读纳森·阿德勒（重访与 Jonathan Adler ） 2020年年《代表团和时间》的主张的授权与独立判断问题：第二国会应恢复对联邦机构授权法的定期重新授权。六年来的授权与时间问题之上叠加了条第三尊重虽意在驯服行政机构条：重大问题学说与 Loper Bright独立判断取代 Chevron却使国会立法更难并引入法院解释违背立法国会、现任国会或两者意志的风险。行政法新均衡下定期重新授权的重要性不降反升 ，第二批评与条第三条越权者都应支持。"
     },
     {
       "title": "Liability Management's Limited Runway: Corporate Restructuring Today",
@@ -5483,7 +5485,7 @@
         "Contracts"
       ],
       "source_id": "ecgi",
-      "title_cn": "",
+      "title_cn": "责任管理的有限跑道：今天的公司重组",
       "topics": [
         "corporate_governance",
         "financial_regulation"
@@ -5491,7 +5493,8 @@
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_207"
+      "id": "art_207",
+      "abstract_cn": "在过去十年中，强制性、非按比例债务重组（现在被广泛称为“负债管理练习” （ LME ） ）已成为陷入困境的借款人的核心工具。支持者认为，强制性LME通常会为公司争取有压力的时间来扭转局面和起飞，从而避免破产及其成本。在一篇新文章中，我们认为这种期望被夸大了。我们的论文很简单。从概念上讲，强制性LME的价值转移性质不需要产生稳定的、提升价值的结果：从被冻结的债权人到参与者的价值转移对参与交易者来说比固定公司更重要。他们的动机是采取价值转移，只要可归因于公司的损失小于转移的价值。然后，我们根据经验搜索这些强制性LME之后的实际结果。基于我们手工收集的一组强制性LME的结果与庆祝活动相矛盾：大多数LME债务人很快就会再次违约或申请破产，公司层面的利益总体上似乎不大，多个财务指标减弱或没有改善。从广义上讲， LME是一种庭外债务重新谈判，即昨天的“锻炼”。近年来，中立的LME标签已经取代了更直截了当的“债权人对债权人的暴力” ，这种暴力曾经描述债务人将债权人团体相互对立，并与获胜的联盟保持一致，以提高参与者的优先级（ “上升者” ）或在交换中将价值从其余部分转移（ “下拉式” ）"
     },
     {
       "title": "Private Equity for All: The Paradoxical Push to Democratize Private Markets",
@@ -5518,7 +5521,7 @@
         "Contracts"
       ],
       "source_id": "ecgi",
-      "title_cn": "",
+      "title_cn": "人人享有私募股权：推动私募市场民主化的矛盾动力",
       "topics": [
         "corporate_governance",
         "financial_regulation"
@@ -5527,7 +5530,8 @@
       "affiliations": "Not stated",
       "abstract": "Not available",
       "report_id": "2026-08-25",
-      "id": "art_208"
+      "id": "art_208",
+      "abstract_cn": ""
     },
     {
       "title": "Control Is Not the Same as Board Leadership: Why Do PE-backed Companies Appoint Outside Chairs?",
@@ -5554,7 +5558,7 @@
         "Contracts"
       ],
       "source_id": "ecgi",
-      "title_cn": "",
+      "title_cn": "控制与董事会领导不一样：为什么私募股权支持的公司会任命外部主席？",
       "topics": [
         "corporate_governance",
         "financial_regulation"
@@ -5563,7 +5567,8 @@
       "affiliations": "Not stated",
       "abstract": "Not available",
       "report_id": "2026-08-25",
-      "id": "art_209"
+      "id": "art_209",
+      "abstract_cn": ""
     },
     {
       "title": "LPACs Are Gaining Authority, But Not Accountability",
@@ -5590,7 +5595,7 @@
         "Performance"
       ],
       "source_id": "ecgi",
-      "title_cn": "",
+      "title_cn": "LPAC正在获得权力，但不是问责制",
       "topics": [
         "corporate_governance",
         "financial_regulation"
@@ -5599,7 +5604,8 @@
       "affiliations": "Not stated",
       "abstract": "Not available",
       "report_id": "2026-08-25",
-      "id": "art_210"
+      "id": "art_210",
+      "abstract_cn": ""
     },
     {
       "title": "‘Made in Europe’ or ‘Made to Measure’? The Legal Fault Lines of the Industrial Accelerator Actby: Luciano Magaldi Sardella, Matteo Mantuano",
@@ -5609,14 +5615,15 @@
       "abstract": "TheIndustrial Accelerator Act, proposed by the European Commission in March 2026 and now subject to trilogue negotiations, promises to reforge European industrial policy around a single, deceptively simple idea: preference for what is ‘Made in Europe’. Yet behind this slogan lies a thicket of legal ambiguities, jurisdictional tensions, and trade-law vulnerabilities that may render the Act’s most ambitious provisions as fragile as they are attractive. The Council’s recent‘partner origin’ compromise, circulated under the Irish presidency in late July 2026, does not resolve these tensions but it redistributes them. The ambition and its discontents TheIndustrial Accelerator Act (IAA), formally presented as COM(2026) 100, is the legislative centrepiece of the Commission’sClean Industrial Deal. Its declared ambition is to reverse a decade of deindustrialisation by lifting manufacturing’s share of European Union gross domestic product from 14.3 per cent in 2024 to 20 per cent by 2035—a target first articulated in theDraghi reporton European competitiveness and since elevated to the status of political gospel. To achieve this, the Act introduces ‘Made in EU’ and low-carbon preferences across public procurement and public support schemes, targeting strategic sectors including steel, cement, aluminium, batteries, solar panels, heat pumps, and electric vehicles.",
       "authors": "Author(s):Luciano Magaldi SardellaPhD and MBA, European Open University, Faculty of EconomicsMatteo MantuanoProfessor of Behavioural Economics and Psychology, Unitré University of Milan",
       "source_id": "oblb",
-      "title_cn": "",
+      "title_cn": "“欧洲制造”还是“量身定制” ？《工业加速器的法律故障线》作者： Luciano Magaldi Sardella、Matteo Mantuano",
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_211"
+      "id": "art_211",
+      "abstract_cn": "欧盟委员会于2026年3月提出的《工业加速器法案》（ Industrial Accelerator Act ）目前正在进行三方谈判，该法案承诺围绕一个看似简单的想法重塑欧洲工业政策：偏好“欧洲制造”。然而，在这个口号的背后是一堆法律模糊性、管辖权紧张和贸易法漏洞，可能使该法案最雄心勃勃的规定既脆弱又有吸引力。理事会最近于2026年7月下旬在爱尔兰总统任期内发布的“伙伴起源”妥协方案并没有解决这些紧张局势，而是重新分配了这些紧张局势。雄心壮志及其不满工业加速器法案（ IAA ） ，正式称为COM （ 2026 ） 100 ，是委员会清洁工业协议的立法核心。其宣布的雄心壮志是通过将制造业在欧盟国内生产总值中的份额从2024年的14.3 ％提高到2035年的20 ％来扭转十年的去工业化，这一目标首先在德拉吉关于欧洲竞争力的报告中得到阐述，自此提升到政治福音的地位。为实现这一目标，该法案在公共采购和公共支持计划中引入了“欧盟制造”和低碳偏好，针对包括钢铁、水泥、铝、电池、太阳能电池板、热泵和电动汽车在内的战略行业。"
     },
     {
       "title": "Position Limits in Commodity Derivatives: A Quantitative Regulatory Technique for the Efficiency of Financial Markets?by: Luca Orciani",
@@ -5626,7 +5633,7 @@
       "abstract": "Position limits in commodity derivatives rank among the most distinctive and least explored innovations of MiFID II. In my recent article published in theCapital Markets Law Journal(available open accesshere), I offer a systematic and exegetical analysis of the EU position limits regime, reconstructing its genesis and rationale, its material and personal scope, along with the controversial, highly technical calculation methodology, and the complementary position reporting apparatus. The study ultimately raises a broader policy question: is a quantitative regulatory technique, one constraining market conduct through numerical thresholds, the optimal tool for curbing excessive speculation, or does it risk introducing undue rigidity into the system and hindering the development of commodity derivatives markets? The regime originates in the far-reaching changes in commodity markets in the early years of this century. Once a niche instruments through which producers and merchants transferred price risk to counterparties willing to bear it (a mechanism reflecting the socially useful, liquidity-preserving function of speculation), commodity derivatives became a destination for return-seeking institutional investors, with a marked intensification of financial speculation and raw material price volatility. The G20 commitments of Pittsburgh (2009) and Cannes (2011) prompted the EU legislator to move away from the disclosure-centred paradigm of MiFID I. The genesis of Article 57 MiFID I",
       "authors": "Author(s):Luca OrcianiResearch Fellow in Business Law at the University of Bologna",
       "source_id": "oblb",
-      "title_cn": "",
+      "title_cn": "商品衍生品的头寸限制：金融市场效率的定量监管技术？作者： Luca Orciani",
       "topics": [
         "financial_regulation",
         "corporate_governance"
@@ -5634,7 +5641,8 @@
       "primary_topic": "financial_regulation",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_212"
+      "id": "art_212",
+      "abstract_cn": "商品衍生品的头寸限制是MiFID II最具特色和最少探索的创新之一。在我最近发表在《资本市场法学杂志》（ Capital Markets Law Journal ）上的一篇文章中（可在此处获取） ，我对欧盟的头寸限制制度进行了系统和注释性的分析，重构了它的起源和原理，它的物质和个人范围，以及有争议的、高度技术性的计算方法和互补的头寸报告机制。该研究最终提出了一个更广泛的政策问题：是一种定量监管技术，一种通过数值阈值限制市场行为的技术，抑制过度投机的最佳工具，还是有可能给系统带来不适当的僵化并阻碍商品衍生品市场的发展？该制度源于本世纪初大宗商品市场的深远变化。商品衍生品曾经是一种利基工具，生产商和商人通过它将价格风险转移给愿意承担风险的交易对手（一种反映投机具有社会效用、流动性保持功能的机制） ，成为寻求回报的机构投资者的目的地，金融投机和原材料价格波动明显加剧。匹兹堡（ 2009年）和戛纳（ 2011年）的G20承诺促使欧盟立法者摆脱了以披露为中心的MiFID I范式。第57条MiFID I的起源"
     },
     {
       "title": "Oppression or Involuntariness? Reassessing the Marketability Discount in Bharti Telecomby: Hardik",
@@ -5644,7 +5652,7 @@
       "abstract": "Earlier this year, the Supreme Court of India in the case ofPannalal Bhansali v Bharti Telecom Ltdupheld a selective reduction of capital undersection 66 of the Companies Act 2013, which cancelled shares of the company’s minority shareholders and approved a 25% discount for lack of marketability (DLOM) in valuing those shares. This post builds on the contention that because the court found no oppression, it treated‘fair value’and‘fair market value’as similar, thereby allowing a marketability discount. It argues that it is the wrong trigger, and the approach is too broad. Under the same logic, a minority shareholder who never wanted an exit could also receive a discounted price simply because the majority chose to use section 66, under which there is no requirement of mandatory valuation by an independent valuer.Bharti Telecom,converts a fact-sensitive inquiry into a legal rule by making the applicability of a DLOM dependent upon the existence of oppression. The Decision and the Discount",
       "authors": "Author(s):HardikGraduate from the National Law School of India University, Bengaluru",
       "source_id": "oblb",
-      "title_cn": "",
+      "title_cn": "压迫还是非自愿？重新评估Bharti Telecomby: Hardik的市场折扣",
       "topics": [
         "financial_regulation",
         "tech_data_ai"
@@ -5652,7 +5660,8 @@
       "primary_topic": "financial_regulation",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_213"
+      "id": "art_213",
+      "abstract_cn": "今年早些时候，印度最高法院在Pannalal Bhansali诉Bharti Telecom Ltdu一案中，根据2013年《公司法》第66条选择性地减少了资本，该法案注销了该公司少数股东的股份，并批准了25%的折扣，原因是这些股份缺乏市场性（ DLOM ）。这篇文章基于这样一种观点，即由于法院没有发现压迫，它将“公平价值”和“公平市场价值”视为相似的，从而允许可销售性折扣。它认为这是错误的触发器，方法过于宽泛。根据同样的逻辑，从未想要退出的少数股东也可以获得折扣价，仅仅因为大多数人选择使用第66条，根据该条规定，独立评估师不需要强制性估值。巴帝电信通过使DLOM的适用性取决于压迫的存在，将事实敏感的调查转化为法律规则。决定和折扣"
     },
     {
       "title": "AI Is Coming for the Economic Consulting Industry",
@@ -5662,7 +5671,7 @@
       "abstract": "Mona Birjandi is Principal Economist and Director of Data Analytics at Outten & Golden, LLP. As the head of Outten & Golden’s Economics and Data Analytics team, she leads the firm’s efforts to leverage economic analysis, statistical modeling, AI, machine learning, and other tools to support the firm’s employment and digital discrimination cases and investigations. She also serves as Chair of the National Association for Business Economics (NABE) Litigation Economics Group, where she led the inaugural Econ + Law Summit—the first event of its kind convening economists and legal practitioners around the evolving role of data, analytics, and expert evidence in modern litigation. Birjandi earned both a Ph.D. and M.A. in economics from Yale University, and an M.A. in Law and Diplomacy from Tufts University. She is the author of numerous publications on litigation economics. Mery Zadeh is Senior Vice President of AI Governance & Risk at Lumenova AI. With over a decade of experience spanning i",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "",
+      "title_cn": "人工智能即将进入经济咨询行业",
       "topics": [
         "tech_data_ai",
         "corporate_governance"
@@ -5670,7 +5679,8 @@
       "primary_topic": "tech_data_ai",
       "affiliations": "Not stated",
       "report_id": "2026-08-25",
-      "id": "art_214"
+      "id": "art_214",
+      "abstract_cn": "Mona Birjandi是Outten & Golden, LLP的首席经济学家兼数据分析总监。作为Outten & Golden经济和数据分析团队的负责人，她领导公司利用经济分析、统计建模、人工智能、机器学习和其他工具来支持公司的就业和数字歧视案件和调查。她还担任全国商业经济学协会（ NABE ）诉讼经济小组的主席，在那里她领导了首届经济+法律峰会，这是第一次围绕数据、分析和专家证据在现代诉讼中不断发展的作用召集经济学家和法律从业者。Birjandi同时获得了博士学位耶鲁大学经济学硕士学位，塔夫茨大学法律和外交硕士学位。她是众多诉讼经济学出版物的作者。Mery Zadeh是Lumenova AI的人工智能治理和风险高级副总裁。凭借十多年的经验，我"
     }
   ],
   "monthly_reports": [
