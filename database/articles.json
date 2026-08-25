@@ -60,6 +60,14 @@
       "name_cn": "Jotwell公司法评论",
       "url": "https://corp.jotwell.com",
       "description": "学者撰写的公司法最新论文评介，高质量学术书评（RSS: /feed/）"
+    },
+    {
+      "id": "banking_with_interest",
+      "name": "Banking with Interest (IntraFi)",
+      "short_name": "BWI",
+      "type": "podcast",
+      "url": "https://www.intrafi.com/press-insights/podcasts/",
+      "description": "IntraFi出品的银行政策播客，主持人Rob Blackwell深度访谈监管者、银行家和政策分析师。"
     }
   ],
   "topics": [
@@ -5778,6 +5786,182 @@
       "report_id": "2026-08-25",
       "id": "art_214",
       "abstract_cn": "Mona Birjandi是Outten & Golden, LLP的首席经济学家兼数据分析总监。作为Outten & Golden经济和数据分析团队的负责人，她领导公司利用经济分析、统计建模、人工智能、机器学习和其他工具来支持公司的就业和数字歧视案件和调查。她还担任全国商业经济学协会（ NABE ）诉讼经济小组的主席，在那里她领导了首届经济+法律峰会，这是第一次围绕数据、分析和专家证据在现代诉讼中不断发展的作用召集经济学家和法律从业者。Birjandi同时获得了博士学位耶鲁大学经济学硕士学位，塔夫茨大学法律和外交硕士学位。她是众多诉讼经济学出版物的作者。Mery Zadeh是Lumenova AI的人工智能治理和风险高级副总裁。凭借十多年的经验，我"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "If AI Can't See Your Bank, Does It Really Exist?",
+      "title_cn": "如果AI看不到你的银行，它真的存在吗？",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-08-04",
+      "abstract": "Penny Crosman, American Banker's executive editor for technology, discusses why some banks dominate AI-generated answers while others are nearly invisible, including tackling what community banks can do to improve their visibility.",
+      "abstract_cn": "《美国银行家》（ American Banker ）技术执行编辑佩妮·克罗斯曼（ Penny Crosman ）讨论了为什么一些银行主导人工智能生成的答案，而另一些银行几乎看不见，包括解决社区银行可以做些什么来提高其可见性。",
+      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+      "keywords_cn": "银行政策；金融监管；银行监督",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/if-ai-cant-see-your-bank-does-it-really-exist",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "id": "1",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "After Vought's Exit, Will CFPB Return to Normal?",
+      "title_cn": "Vought退出后， CFPB会恢复正常吗？",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-07-28",
+      "abstract": "Over the past year and a half, Acting CFPB Russell Vought has sought to largely shut down the CFPB by severely cutting staff, stopping enforcement actions and cutting back on supervision. But with the nomination of a new director, Brian Johnson, is that about to change? Alan Kaplinsky, senior counsel at Ballard Spahr and author of the Consumer Finance Monitor blog and host of its weekly podcast, discusses how the CFPB may change and what it will mean for banks.",
+      "abstract_cn": "",
+      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+      "keywords_cn": "银行政策；金融监管；银行监督",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/after-voughts-exit-will-cfpb-return-to-normal",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "id": "2",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "The Affordability Debate Comes for Banks",
+      "title_cn": "",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-07-21",
+      "abstract": "Lindsey Johnson, president and CEO of the Consumer Bankers Association, talks about why affordability concerns are putting renewed political pressure on banks over credit card rates, overdraft and late fees. She also tackles the future of the CFPB, open banking, crypto legislation, agentic AI and why she's optimistic in the fight against fraud.",
+      "abstract_cn": "",
+      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+      "keywords_cn": "银行政策；金融监管；银行监督",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/the-affordability-debate-comes-for-banks",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "id": "3",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "The Big Question for Banks: How Durable Is This Moment?",
+      "title_cn": "",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-06-30",
+      "abstract": "Brian Gardner, chief Washington policy strategist at Stifel, tackles how durable the Trump administration's fast-moving regulatory and other changes are likely to be for banks. He discusses what banks still misunderstand about Washington, why the M&A environment is improving, what Kevin Warsh's first press conference signaled, and what the midterm elections could mean for bank regulation if Democrats win back one chamber or both.",
+      "abstract_cn": "",
+      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+      "keywords_cn": "银行政策；金融监管；银行监督",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/the-big-question-for-banks-how-durable-is-this-moment",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "id": "4",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "What Policymakers Still Get Wrong About Housing Finance",
+      "title_cn": "",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-06-24",
+      "abstract": "Michael Bright, CEO of the Structured Finance Association and a former head of Ginnie Mae, joins the show to discuss the state of the U.S. housing finance system nearly two decades after the financial crisis. He explains why he does not think the system is fundamentally broken, what policymakers still misunderstand about the secondary mortgage market, and how issues like GSE reform, Basel III, private credit and fraud could reshape housing finance in the years ahead.",
+      "abstract_cn": "",
+      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+      "keywords_cn": "银行政策；金融监管；银行监督",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/what-policymakers-still-get-wrong-about-housing-finance",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "id": "5",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "Banks Are Asking the Wrong Question About AI",
+      "title_cn": "",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-06-17",
+      "abstract": "Alex Johnson, founder of Fintech Takes , details why many banks are thinking about AI the wrong way. He updates his views on stablecoins vs. tokenized deposits, discusses why fintech competition remains a potent threat to banks and talks about why the bigger issue may be how customers use AI to make financial decisions.",
+      "abstract_cn": "",
+      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+      "keywords_cn": "",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/banks-are-asking-the-wrong-question-about-ai",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "id": "6",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "Have Banks Already Lost the Fight Over Stablecoin Yield?",
+      "title_cn": "",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-06-10",
+      "abstract": "Banks have fought a comprehensive effort to ensure stablecoins cannot offer yield. But the Senate Banking Committee passed a bill that the banking industry still says falls short. Does that mean banks have lost the fight? Will a crypto market structure bill pass this year? Brendan Pedersen of Punchbowl News offers insights into the current and future state of play.",
+      "abstract_cn": "",
+      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+      "keywords_cn": "",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/have-banks-already-lost-the-fight-over-stablecoin-yield",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "id": "7",
+      "report_id": "2026-08-25"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "The New Push to Refocus Bank Supervision",
+      "title_cn": "",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-06-02",
+      "abstract": "Andrew Olmem, managing partner of Mayer Brown's Washington office and a former deputy director of the National Economic Council, talks about how the second Trump administration has moved much faster than the first to reshape financial regulation. He discusses why he believes bank supervision became too bureaucratic and too focused on process, how the administration is approaching capital and the Fed, and what stablecoins, the Clarity Act and OCC preemption could mean for the future of the regulatory system.",
+      "abstract_cn": "",
+      "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+      "keywords_cn": "",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/the-new-push-to-refocus-bank-supervision",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "id": "8",
+      "report_id": "2026-08-25"
     }
   ],
   "monthly_reports": [
