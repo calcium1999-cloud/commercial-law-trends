@@ -5002,7 +5002,16 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.ecgi.global/publications/working-papers/different-markets-different-regulatory-priorities-insider-trading",
       "type": "working_paper",
-      "id": "art_188"
+      "id": "art_188",
+      "abstract_cn": "证券市场与预测市场存在根本差异：前者配置资本、为退休储蓄提供基础设施 ，后者唯一的社会产品是蕴含于价格中的概率预测信息。这一功能性分野决定了监管重心的反向配置 ——证券市场严控内幕交易以保护有价值的信息财产权 ，却少干预相对自我校正的操纵行为预测市场则应放任合法知情交易以保全其信息功能 ，对操纵施以更严格规制。文章提出易腐败事件合约 （易腐败事件合约）概念 ：合约结算受参与者自身或其影响范围内人员的行为左右 ，激励结构内生催生操纵。文章援引保险利益的法理逻辑 ，建议在挂牌阶段即予排除 ，理由是事后追诉不足以遏制已发生的社会危害。既有挪用、公司、伦理及涉密规则仍管辖真正的背信行为 ，合法的知情交易者理应自由交易 ；交易所与 CFTC 应在合约设计环节剔除易腐败事件合约，特别是颗粒度过细、可由市场参与者左右的事件 ，以及一旦挂牌即引发严重不当行为动机的结果。作者主张抛弃以证券法逻辑监管预测市场的旧范式 ，转向功能性二元监管。",
+      "keywords_cn": [
+        "CFTC",
+        "证券市场",
+        "内幕交易",
+        "市场操纵",
+        "挪用理论",
+        "预测市场"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5181,7 +5190,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/21/the-supreme-court-reaffirms-its-embrace-of-political-disclosure/",
       "type": "blog",
-      "id": "art_195"
+      "id": "art_195",
+      "abstract_cn": "Sandstrom 与 Freed 评析最高法院近期在竞选融资领域的一项里程碑裁决：法院出人意料地强烈重申披露制度作为反腐利器的核心地位预期各州将以本案为楔机强化竞选融资披露规则。文章落点虽在选举法 ，对公司治理的传导却显著 ——股东积极主义长期将公司政治支出披露作为公司治理议题推向 SEC 与各州，公司政治问责中心 （ CPA ）等组织主导的股东提案正推动董事会披露政治支出。该裁决意味着公司层面的政治披露规则获联邦最高法院背书 ，但具体落地仍取决于 SEC 规则与州法互动。文章提示公司实务：公司法务与政府事务部门应重新评估政治支出披露的范围与边界 ，董事会治理委员会应将其纳入与气候披露、董事会多元化并行的常态化披露议程。",
+      "keywords_cn": [
+        "最高法院",
+        "政治献金",
+        "政治披露",
+        "股东激进主义",
+        "企业政治支出"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5208,7 +5225,17 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/21/debevoise-discusses-empowering-consumers-for-the-green-transition-directive/",
       "type": "blog",
-      "id": "art_196"
+      "id": "art_196",
+      "abstract_cn": "Debevoise 团队解析欧盟《赋能消费者绿色转型指令》（ ECGTD ，指令EU 2024/825 ）对企业在向个人消费者销售产品或服务时作出的环境及可持续性声明的实质性变革。核心要点 ：原则上禁止未经认证的绿色声明 （ 1如生态友好、气候中性、绿色等模糊表述 ） ，须基于优异环境绩效或公认优良做法的认证计划 （ 2禁止基于排放抵消计划的气候中和主张以未来承诺为唯一依托 ） ， （ 3 ）要求可靠性、可持续性、可循环性等可持续性标签须基于认证体系或由公权力机构设立 ， （ 4禁止将软件或硬件设备的自主能效升级作为核心卖点除非法律要求 ）。文章提示合规时间表 ：成员国转化截止 2026 年 3 月 27 日，适用时间为 2026 年 9 月 27 日。对在欧盟销售产品的跨国公司（包括间接面向消费者的 B2B2C 业务） ，法务、市场与可持续报告团队需要全面审视环境主张并重构产品包装与营销话术。",
+      "keywords_cn": [
+        "欧盟",
+        "ECGTD",
+        "绿色过渡",
+        "消费者保护",
+        "漂綠",
+        "ESG",
+        "可持续发展声明"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5383,7 +5410,15 @@
       "primary_topic": "tech_data_ai",
       "url": "https://corpgov.law.harvard.edu/2026/08/21/ai-governance-for-private-companies/",
       "type": "blog",
-      "id": "art_203"
+      "id": "art_203",
+      "abstract_cn": "近四分之三的公司计划两年内部署代理式AI ，但仅约五分之一拥有成熟治理模型。文章梳理五大类 AI风险 ：数据隐私与知识产权、自主行动、可靠性、客户影响与供应商依赖 ，并分析欧盟《 AI法案》与美国分散式监管格局。提出六项最佳实践 ：明确问责归属、业务目标导向、风险分级管理、数据安全与供应商尽调、客户利益保护、持续监控与故障应对。核心观点 ：最能从 AI获益的公司并非部署最快者 ，而是能将试验与问责、客户意识和严谨执行相结合的公司。",
+      "keywords_cn": [
+        "人工智能治理",
+        "Agentic AI",
+        "私营公司",
+        "风险管理",
+        "欧盟人工智能法案"
+      ]
     },
     {
       "report_id": "2026-08-24",
@@ -5407,7 +5442,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/22/2026-proxy-season-review-structural-change-in-a-lower-volume-season/",
       "type": "report",
-      "id": "art_204"
+      "id": "art_204",
+      "abstract_cn": "基于Russell 3000公司 2026年上半年投票数据 ：股东提案量下降约 20% ，激进主义活动较 2024年峰值锐减约 75% ； Say-on-Pay支持率回升 ， 76%公司获 90%以上赞成。 SEC工作人员退出 Rule 14A-8实质审查 ，排除请求量下降近 50% ，公司诉讼风险上升。治理类提案逆势增长近 19% （ 70%由 John Chevedden提交 ） ； HCM提案较 2024年下降近 60%、平均支持率仅 6% ；反 ESG提案支持率几近翻倍至 5%。代理权争夺战占激进主义活动比例从 7%升至 38% ，激进投资者转向更具针对性、更高风险策略。",
+      "keywords_cn": [
+        "代理季节",
+        "股东提案",
+        "规则14a-8",
+        "Say-on-Pay",
+        "股东激进主义"
+      ]
     },
     {
       "report_id": "2026-08-24",
@@ -5528,10 +5571,28 @@
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
-      "abstract": "Not available",
+      "abstract": "This post was originallypublishedon 28 February 2026 by the Harvard Law School Forum on Corporate Governance. Efforts to open private equity and other private assets to retail investors—including now through 401(k) plans—are often framed as a long-overdue democratization of superior investment opportunities. Indeed, private equity has always been viewed as special, both for its market-beating returns and its success in making companies more profitable, yet it has historically been off-limits to retail investors. InPrivate Equity for All: The Paradoxical Push to Democratize Private Markets, we argue that the push to democratize private equity is subject to a glaring paradox. Far from sharing the spoils of private equity with the public, opening private markets to retail investors at scale is likely to erode or eliminate each and every one of the supposed advantages of private equity over public markets—not just for retail investors but across the market. Consequently, whether private equity’s appeal lies in superior investor returns or superior corporate governance, broad retail access is likely to ensure that neither one is achieved. The debate has become urgent. New products targeting retail investors are continually being launched by private-asset managers and blessed by regulators. And in the summer of 2025, an executive order directed the U.S. Securities and Exchange Commission and U.S. Department of Labor to pave the way for private equity to access a particularly massiv",
       "report_id": "2026-08-25",
       "id": "art_208",
-      "abstract_cn": ""
+      "abstract_cn": "本文最初于2026年2月28日由哈佛法学院公司治理论坛发布。向散户投资者开放私募股权和其他私人资产的努力--包括现在通过401 (k)计划--通常被认为是早该实现的优质投资机会的民主化。事实上，私募股权一直被视为特殊的，无论是因为它的市场击败回报还是成功地使公司更有利可图，但它在历史上一直是散户投资者的禁区。InPrivate Equity for All: The Paradoxical Push to Democratize Private Markets ，我们认为推动私募股权民主化存在明显的悖论。远非与公众分享私募股权的战利品，大规模向散户投资者开放私募市场可能会侵蚀或消除私募股权相对于公共市场的所谓优势--不仅对散户投资者，而且对整个市场。因此，无论私募股权的吸引力在于卓越的投资者回报还是卓越的公司治理，广泛的零售渠道都可能确保这两者都不会实现。辩论变得十分紧迫。针对散户投资者的新产品不断由私人资产经理推出，并得到监管机构的青睐。2025年夏天，一项行政命令指示美国证券交易委员会和美国劳工部为私募股权进入",
+      "keywords_cn": [
+        "私募股权和风险资本",
+        "私募股权",
+        "市场",
+        "散户投资者",
+        "监管",
+        "债务",
+        "债权",
+        "破产",
+        "所有权",
+        "板",
+        "收购",
+        "绩效",
+        "资金",
+        "诚信责任",
+        "机构",
+        "合同"
+      ]
     },
     {
       "title": "Control Is Not the Same as Board Leadership: Why Do PE-backed Companies Appoint Outside Chairs?",
@@ -5565,10 +5626,28 @@
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
-      "abstract": "Not available",
+      "abstract": "Private equity (PE) investors are commonly portrayed as highly active owners. They negotiate extensive control rights, appoint directors, approve major strategic decisions and closely monitor performance. Against this background, one governance choice remains surprisingly underexplored: why do some buyouts appoint a new outside chairperson while others do not? This question matters because a chair is not a mandatory feature of private company boards.  PE sponsors can protect their investment through ownership rights, contractual consent provisions, management incentive alignment, and direct board representation. Concentrated ownership might therefore appear to make a separate external board leader unnecessary. Yet new outside chairs remain common in practice. Our findings suggest that these appointments are not simply a staffing decision. They appear to be a deliberate governance choice in PE-backed buyouts. Our study examines 1,065 UK PE-backed buyouts completed between 2004 and 2018, sponsored by 331 PE firms and tracked through 2024. The hand-collected dataset comprises 7,627 firm-year observations and detailed information on board composition, chair appointments, operating performance, and add-on acquisitions. Approximately 61 per cent of the sample buyouts had a chair at some point during the holding period, while 39 per cent appointed a new outside chair after the buyout. We define a new outside chair as an individual appointed as chair after the buyout who had not serv",
       "report_id": "2026-08-25",
       "id": "art_209",
-      "abstract_cn": ""
+      "abstract_cn": "私募股权（ PE ）投资者通常被描述为高度活跃的所有者。他们就广泛的控制权进行谈判，任命董事，批准重大战略决策并密切监控绩效。在这种背景下，一个治理选择仍然令人惊讶地未被充分挖掘：为什么有些收购公司会任命一位新的外部董事长，而另一些则不会？这个问题很重要，因为椅子不是私人公司董事会的强制性特征。私募股权发起人可以通过所有权、合同同意条款、管理激励调整和直接董事会代表来保护其投资。因此，集中所有权似乎使一个单独的外部董事会领导者变得没有必要。然而，在实践中，新的室外椅子仍然很常见。我们的调查结果表明，这些预约不仅仅是人员配置的决定。在私募股权支持的收购中，它们似乎是深思熟虑的治理选择。我们的研究调查了2004年至2018年期间完成的1,065项英国私募股权支持的收购，这些收购由331家私募股权公司赞助，并追踪到2024年。手工收集的数据集包括7,627个公司年份的观察结果以及有关董事会组成、主席任命、运营绩效和附加收购的详细信息。大约61%的样本收购在持有期间的某个时间点有一把椅子，而39%的样本收购在收购后任命了一把新的外部椅子。我们将新的外部椅子定义为在收购后被任命为椅子的个人",
+      "keywords_cn": [
+        "私募股权和风险资本",
+        "私募股权",
+        "所有权",
+        "板",
+        "收购",
+        "绩效",
+        "债务",
+        "债权",
+        "破产",
+        "市场",
+        "散户投资者",
+        "监管",
+        "资金",
+        "诚信责任",
+        "机构",
+        "合同"
+      ]
     },
     {
       "title": "LPACs Are Gaining Authority, But Not Accountability",
@@ -5602,10 +5681,28 @@
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
-      "abstract": "Not available",
+      "abstract": "Over the last decade, continuation funds have become an important component within the private equity market. The increased use of secondary transactions has been accompanied by concerns about the role played by General Partners (GPs) in structuring these alternative vehicles. Prior research has studied the dual agency problem that arises when GPs act on both sides of the transaction. There has been some debate about the effectiveness of the Limited Partner Advisory Committees (LPACs) in reducing conflicts of interest. On the one hand, the monitoring view argues that stronger committee oversight and tighter feasibility thresholds can reduce GP opportunism. On the other hand, a nascent empirical literature suggests that concentrated LPAC representation, close continuing GP–LP relationships, and specific side letter protections may shield GPs from effective scrutiny. In theirnew research, Yaron Nili and Elisabeth de Fontenayshed light on these two conflicting views by examining whether variation in LPAC composition and contractual design is associated with systematic differences in formal LPAC authority. Using a dataset of 217 fund governance documents from one large institutional investor, including 155 LPAs, the authors document that LPACs address GP–LP conflicts through consent, waiver, and approval rights. At the same time, this structure may create a second conflict between inner circle and outer circle LPs. The evidence shows that the LPAC governance structure is influenc",
       "report_id": "2026-08-25",
       "id": "art_210",
-      "abstract_cn": ""
+      "abstract_cn": "在过去十年中，持续基金已成为私募股权市场的重要组成部分。二级交易使用的增加伴随着对普通合伙人（ GP ）在构建这些替代车辆方面所起作用的担忧。先前的研究已经研究了当全科医生在交易双方采取行动时出现的双重代理问题。关于有限合伙人咨询委员会（ LPAC ）在减少利益冲突方面的有效性存在一些争议。一方面，监测观点认为，更强有力的委员会监督和更严格的可行性阈值可以减少GP机会主义。另一方面，新出现的经验文献表明，集中的LPAC表示、密切的持续GP-LP关系和特定的边字母保护可能会保护全科医生免受有效的审查。在他们的新研究中， Yaron Nili和Elisabeth de Fontenays通过检查LPAC组成和合同设计的变化是否与正式LPAC权威的系统差异有关，阐明了这两种相互矛盾的观点。作者使用来自一家大型机构投资者的217份基金治理文件（包括155份LPA ）的数据集，记录了LPAC通过同意、放弃和批准权来解决GP-LP冲突。同时，这种结构可能在内圆和外圆LP之间产生第二冲突。证据表明， LPAC治理结构具有影响力",
+      "keywords_cn": [
+        "私募股权和风险资本",
+        "私募股权",
+        "资金",
+        "诚信责任",
+        "机构",
+        "合同",
+        "债务",
+        "债权",
+        "破产",
+        "市场",
+        "散户投资者",
+        "监管",
+        "所有权",
+        "板",
+        "收购",
+        "绩效"
+      ]
     },
     {
       "title": "‘Made in Europe’ or ‘Made to Measure’? The Legal Fault Lines of the Industrial Accelerator Actby: Luciano Magaldi Sardella, Matteo Mantuano",

@@ -63,10 +63,12 @@ class ECGIScraper(BaseScraper):
             if desc and desc.get("content"):
                 detail["abstract"] = self._clean(desc["content"])
             if not detail.get("abstract"):
-                content = soup.find("div", class_="node__content") or soup.find("article")
+                content = soup.find("div", class_="field--name-body") or \
+                          soup.find("div", class_="node__content") or \
+                          soup.find("article")
                 if content:
                     paras = content.find_all("p")
-                    text = " ".join(p.get_text(strip=True) for p in paras[:3] if p.get_text(strip=True))
+                    text = " ".join(p.get_text(strip=True) for p in paras[:5] if p.get_text(strip=True))
                     if text:
                         detail["abstract"] = text[:1500]
             tags = soup.find_all("a", href=re.compile(r"/taxonomy/term"))
