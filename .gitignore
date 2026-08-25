@@ -1,0 +1,44 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+logs/
+*.bak*
+*.corrupted-bak*
+
+# WorkBuddy 依赖（系统已脱离 WorkBuddy 独立运行）
+.workbuddy/
+
+# 视频制作和素材（不属于核心系统）
+remotion-videos/
+deck-assets/
+scripts/promo/
+wechat-miniprogram/
+*.mp4
+# 方正小标宋简.TTF — 保留，index.html 引用此字体
+
+# 历史报告目录（含 PDF/PNG 大文件，周报 Markdown 已在 周报/ 目录）
+2026年7月22日*/
+7-30*/
+7月25日*/
+7月28日*/
+7月31日*/
+8月10日*/
+8月13日*/
+8月14日*/
+8月3日*/
+8月5日*/
+8月7号*/
+小红书宣传/
+未命名文件夹/
+*.pdf
+*.png
+*.jpg
+*.webm
+*.wav
+
+# 其他
+.Phistory
+index.html.bak*
+PPT设计方案.md
+slide-outline.md
