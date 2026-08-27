@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-08-25",
+    "last_updated": "2026-08-27",
     "version": "1.0"
   },
   "sources": [
@@ -431,6 +431,26 @@
         "33",
         "34",
         "35"
+      ]
+    },
+    {
+      "id": "2026-08-27",
+      "date": "2026-08-27",
+      "period_start": "2026-08-26",
+      "period_end": "2026-08-27",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增3篇文章。",
+      "trends": [
+        "本周十一大来源共新增3篇文章，来自OBLB、ProMarket，主题分布以公司治理（1篇）、金融监管（1篇）、反垄断（1篇）为主。",
+        "公司治理领域新增1篇，来自OBLB。本期重点议题包括Saxon Woods Investments Ltd v Costa: A Warning to 。",
+        "金融监管领域新增2篇，来自OBLB。本期重点议题包括Saxon Woods Investments Ltd v Costa: A Warning to ；Why Prediction Markets and Securities Markets Requ。",
+        "反垄断领域新增2篇，来自OBLB、ProMarket。本期重点议题包括Why Prediction Markets and Securities Markets Requ；Your 401(k) Is Propping Up the AI Bubble。",
+        "科技、数据与AI领域新增1篇，来自ProMarket。本期重点议题包括Your 401(k) Is Propping Up the AI Bubble。"
+      ],
+      "article_ids": [
+        "art_215",
+        "art_216",
+        "art_217"
       ]
     }
   ],
@@ -6037,7 +6057,11 @@
       "type": "article",
       "abstract_cn": "",
       "id": "9",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6052,7 +6076,11 @@
       "type": "article",
       "abstract_cn": "",
       "id": "10",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6067,7 +6095,12 @@
       "type": "article",
       "abstract_cn": "",
       "id": "11",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6081,7 +6114,11 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/stripping-strips-trading-activity/",
       "type": "article",
       "id": "12",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6095,7 +6132,11 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/why-do-fewer-renters-expect-to-move/",
       "type": "article",
       "id": "13",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6109,7 +6150,12 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/ais-impact-on-labor-and-hiring/",
       "type": "article",
       "id": "14",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai",
+        "corporate_governance"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6123,7 +6169,12 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
       "type": "article",
       "id": "15",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai",
+        "corporate_governance"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6137,7 +6188,12 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update/",
       "type": "article",
       "id": "16",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6151,7 +6207,12 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/nonbank-subsidiaries-and-the-hidden-fragility-of-internal-capital-markets-reallocation/",
       "type": "article",
       "id": "17",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6165,7 +6226,11 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/how-basel-iii-changes-where-capital-sits-nonbank-subsidiaries-as-equity-reservoirs/",
       "type": "article",
       "id": "18",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6179,7 +6244,11 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/capitalizing-on-nonbanks-regulatory-arbitrage-within-bank-holding-companies/",
       "type": "article",
       "id": "19",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6193,7 +6262,12 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/effect-of-tariffs-on-u-s-small-businesses/",
       "type": "article",
       "id": "20",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai",
+        "financial_regulation"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6207,7 +6281,11 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
       "type": "article",
       "id": "21",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6221,7 +6299,12 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/what-do-over-3000-bank-runs-teach-us-about-banking-crises/",
       "type": "article",
       "id": "22",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6235,7 +6318,12 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/using-ai-to-let-history-speak-about-bank-runs/",
       "type": "article",
       "id": "23",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai",
+        "financial_regulation"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "nyfed_liberty",
@@ -6249,7 +6337,11 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/the-disappearing-overnight-drift/",
       "type": "article",
       "id": "24",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other"
     },
     {
       "source_id": "ecb_supervision",
@@ -6263,7 +6355,12 @@
       "url": "https://www.bankingsupervision.europa.eu/press/blog/2026/html/ssm.blog20260626~ee5a4794d4.en.html",
       "type": "article",
       "id": "25",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation"
     },
     {
       "source_id": "bank_underground",
@@ -6277,7 +6374,11 @@
       "url": "https://bankunderground.co.uk/2026/08/20/whos-paying-attention-how-firms-form-policy-rate-expectations/",
       "type": "article",
       "id": "26",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "bank_underground",
@@ -6291,7 +6392,11 @@
       "url": "https://bankunderground.co.uk/2026/08/20/is-higher-productivity-inflationary-or-disinflationary/",
       "type": "article",
       "id": "27",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "bank_underground",
@@ -6305,7 +6410,11 @@
       "url": "https://bankunderground.co.uk/2026/08/13/if-ai-disappoints-the-transmission-of-us-big-tech-earnings-news/",
       "type": "article",
       "id": "28",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "bank_underground",
@@ -6319,7 +6428,12 @@
       "url": "https://bankunderground.co.uk/2026/08/06/is-artificial-intelligence-making-us-more-productive-what-the-uk-industry-data-show/",
       "type": "article",
       "id": "29",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai",
+        "financial_regulation"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "bank_underground",
@@ -6333,7 +6447,11 @@
       "url": "https://bankunderground.co.uk/2026/08/06/canaries-in-the-column-ai-exposure-and-the-uks-hiring-slowdown/",
       "type": "article",
       "id": "30",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "bank_underground",
@@ -6347,7 +6465,11 @@
       "url": "https://bankunderground.co.uk/2026/07/16/demographics-deposits-and-data-using-machine-learning-to-segment-uk-mortgages/",
       "type": "article",
       "id": "31",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "bank_underground",
@@ -6361,7 +6483,11 @@
       "url": "https://bankunderground.co.uk/2026/07/09/credit-constraints-and-housing-market-access/",
       "type": "article",
       "id": "32",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "bank_underground",
@@ -6375,7 +6501,11 @@
       "url": "https://bankunderground.co.uk/2026/06/18/when-travel-restrictions-became-trade-frictions-evidence-from-covid-era-border-closures/",
       "type": "article",
       "id": "33",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other"
     },
     {
       "source_id": "bank_underground",
@@ -6389,7 +6519,11 @@
       "url": "https://bankunderground.co.uk/2026/06/11/explainability-in-machine-learning-do-popular-methods-deliver-on-their-promises/",
       "type": "article",
       "id": "34",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai"
     },
     {
       "source_id": "bank_underground",
@@ -6403,7 +6537,66 @@
       "url": "https://bankunderground.co.uk/2026/06/04/a-group-washing-machine-and-tangled-skein-the-failure-of-slater-walker/",
       "type": "article",
       "id": "35",
-      "report_id": "2026-08-25"
+      "report_id": "2026-08-25",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation"
+    },
+    {
+      "title": "Saxon Woods Investments Ltd v Costa: A Warning to Maverick Directorsby: Duncan Henderson",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/08/saxon-woods-investments-ltd-v-costa-warning-maverick-directors",
+      "date": "2026-08-26",
+      "type": "blog",
+      "abstract": "History is littered with examples of high-profile leaders who were sure they were right until disaster struck. Honest people’s judgments can become misguided or even delusional. According to legend or Hollywood, Captain Edward Smith took The Titanic full steam ahead into an ice field believing it couldn’t sink.  In the corporate context, Adam Neumann drove WeWork into a frenzy of long-term leases and debt-fuelled expansion; Richard Fuld at Lehman Brothers kept doubling down on mortgage-backed risk. The Supreme Court’s decision inSaxon Woods Investments Ltd v Costais a sharp reminder that section 172 of the Companies Act 2006 is not a safe-harbour for ‘I know best’ directors. Francesco Costa (director and chairman of the board of Spring Media Investments) genuinely believed that delaying the sale of the business would maximise value for him and other shareholders. But instead of arguing that case openly at board level, he sidelined his colleagues, kept the investment bank’s true mandate to himself and quietly steered the process away from the agreed timetable. When Covid struck, the value of the company collapsed. The Court’s decision confirms that the section 172 duty to promote the success of the company is a loyalty-based duty with an objective ‘good faith’ component that governs what directors do and how they go about doing it. The judgment is interesting less because it gives a major new shape or scope to an existing statutory duty than as a practical illustration of the ",
+      "authors": "Author(s):Duncan HendersonPartner, Marriott Harrison LLP",
+      "source_id": "oblb",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "Not stated",
+      "report_id": "2026-08-27",
+      "id": "art_215"
+    },
+    {
+      "title": "Why Prediction Markets and Securities Markets Require Different Regulatory Prioritiesby: Jonathan R. Macey, Luca Enriques",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/08/why-prediction-markets-and-securities-markets-require-different-regulatory",
+      "date": "2026-08-26",
+      "type": "blog",
+      "abstract": "Prediction markets are in the regulatory crosshairs. In the United States, within the span of a few months this year, federal prosecutors brought the first criminal insider trading case involving an event contract against an Army master sergeant with a top-secret clearance who allegedly traded on classified information about an upcoming military operation. Next the CFTC and DOJ pursued a Google engineer who made about $1.2 million trading contracts on Google’s unreleased ‘Year in Search’ rankings. A House Oversight Committee investigation and at least eight bills in the 119th Congress quickly ensued. Most of the legislative proposals envision importing some version of insider trading law from securities markets to prediction markets. In a newpaper, we argue that adjustments in regulatory approach should be made to reflect the very profound differences between securities markets and prediction markets. The case for strict insider trading regulation in securities markets does not automatically translate to prediction markets. The distinctive regulatory challenge that prediction markets do present is that some, but not all, contracts on prediction markets create a serious moral hazard of giving market participants an incentive to engage in corrupt, illegal, or dangerous actions in order to rig the outcome of the contract on the prediction market. These corruption-prone contracts, combined with other institutional features of prediction markets such as their small size and limite",
+      "authors": "Author(s):Jonathan R. MaceySam Harris Professor of Corporate Law, Corporate Finance and Securities Law at Yale University, and Professor in the Yale School of Management.Luca EnriquesProfessor of Business Law at Bocconi University and IECL Visiting Research Fellow at the University of Oxford",
+      "source_id": "oblb",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation",
+        "antitrust"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "Not stated",
+      "report_id": "2026-08-27",
+      "id": "art_216"
+    },
+    {
+      "title": "Your 401(k) Is Propping Up the AI Bubble",
+      "url": "https://www.promarket.org/2026/08/26/your-401k-is-propping-up-the-ai-bubble/",
+      "date": "2026-08-26",
+      "authors": "Hera Hyeonseo Lee",
+      "abstract": "Hera Hyeonseo Lee is a doctoral researcher in sociology at Binghamton University (SUNY). Her research examines the political economy of AI infrastructure, focusing on the financial structures underpinning cloud computing markets and their implications for public policy. She recently submitted a public comment to the DOJ and FTC on competitor collaboration guidelines as they relate to AI industry financial architectures (Docket No. ATR-2026-0001). Americans’ retirement savings are disproportionately tied to the dozen Big Tech firms that now dominate the S&P. This makes any intervention into regulating Big Tech that risks devaluing them politically difficult, writes Hera Hyeonseo Lee. Editor’s note:ProMarketis off this week for our annual summer break, so we will be republishing some of our most popular content from the first half of the year instead.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "antitrust",
+        "tech_data_ai"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "Not stated",
+      "report_id": "2026-08-27",
+      "id": "art_217"
     }
   ],
   "monthly_reports": [
@@ -6444,7 +6637,8 @@
         "2026-08-19",
         "2026-08-21",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-27"
       ],
       "summary": "2026年8月，七大来源共收录 112 篇文章。股东权力光谱在 SEC 政策转向后全面再校准，特拉华公司法在监督义务与契约主义之间持续重塑，监管收缩、私募市场制度供给与反垄断执法加码构成全月主线。",
       "trends": [

@@ -1,9 +1,9 @@
 {
-  "last_successful_run": "2026-08-25T18:32:07",
-  "last_run_started": "2026-08-25T18:31:12",
-  "last_run_finished": "2026-08-25T18:32:07",
-  "last_report_id": "2026-08-25",
-  "last_new_articles": 1,
+  "last_successful_run": "2026-08-27T10:10:07",
+  "last_run_started": "2026-08-27T10:09:28",
+  "last_run_finished": "2026-08-27T10:10:07",
+  "last_report_id": "2026-08-27",
+  "last_new_articles": 3,
   "last_duplicate_urls": 5,
   "source_status": {
     "ecgi": "SUCCESS",
@@ -12,6 +12,10 @@
     "promarket": "SUCCESS",
     "cls": "SUCCESS",
     "yale": "SUCCESS",
-    "jotwell": "SUCCESS"
+    "jotwell": "SUCCESS",
+    "banking_with_interest": "SUCCESS",
+    "nyfed_liberty": "SUCCESS",
+    "ecb_supervision": "SUCCESS",
+    "bank_underground": "SUCCESS"
   }
 }

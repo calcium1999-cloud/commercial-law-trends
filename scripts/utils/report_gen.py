@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent.parent
 
-SOURCE_ORDER = ["ecgi", "harvard", "oblb", "promarket", "cls", "yale", "jotwell"]
+SOURCE_ORDER = ["ecgi", "harvard", "oblb", "promarket", "cls", "yale", "jotwell", "banking_with_interest", "nyfed_liberty", "ecb_supervision", "bank_underground"]
 SOURCE_NAMES = {
     "ecgi": "ECGI",
     "harvard": "Harvard",
@@ -17,6 +17,10 @@ SOURCE_NAMES = {
     "cls": "CLS",
     "yale": "Yale JREG",
     "jotwell": "Jotwell",
+    "banking_with_interest": "BWI",
+    "nyfed_liberty": "NY Fed",
+    "ecb_supervision": "ECB",
+    "bank_underground": "BoE",
 }
 TOPIC_NAMES = {
     "corporate_governance": "公司治理",
@@ -36,7 +40,7 @@ def generate_report(report_id, period_start, period_end, articles, source_status
     lines = []
     lines.append("# 商业法律研究动向\n")
     lines.append(f"**报告周期**：{period_start} — {period_end}")
-    lines.append(f"**数据来源**：ECGI | Harvard | OBLB | ProMarket | CLS | Yale JREG | Jotwell\n")
+    lines.append(f"**数据来源**：ECGI | Harvard | OBLB | ProMarket | CLS | Yale JREG | Jotwell | BWI | NY Fed | ECB | BoE\n")
 
     # Group articles by source
     by_source = defaultdict(list)
@@ -52,21 +56,27 @@ def generate_report(report_id, period_start, period_end, articles, source_status
 
     trends = []
     if total == 0:
-        trends.append("本周七大来源均无新增文章。")
+        trends.append("本周十一大来源均无新增文章，可能是各机构发布周期所致。")
     else:
+        # Overview paragraph
+        active_sources = [s for s in source_dist if source_dist[s] > 0]
+        active_source_names = "、".join(SOURCE_NAMES.get(s, s) for s in active_sources)
         top_topics = topic_dist.most_common(3)
         topic_str = "、".join(f"{TOPIC_NAMES.get(t, t)}（{c}篇）" for t, c in top_topics)
-        trends.append(f"本周七大来源共新增{total}篇文章，主题分布以{topic_str}为主。")
+        trends.append(f"本周十一大来源共新增{total}篇文章，来自{active_source_names}，主题分布以{topic_str}为主。")
 
+        # Analytical paragraph per topic
         for topic_id in TOPIC_ORDER:
             topic_arts = [a for a in articles if topic_id in (a.get("topics") or [])]
             if topic_arts:
                 topic_name = TOPIC_NAMES[topic_id]
                 sources_in_topic = set(a.get("source_id") for a in topic_arts)
                 source_str = "、".join(SOURCE_NAMES.get(s, s) for s in sources_in_topic)
+                titles = [a.get("title_cn") or a.get("title", "") for a in topic_arts]
+                titles_short = [t[:50] for t in titles[:3]]
                 trends.append(
-                    f"{topic_name}领域新增{len(topic_arts)}篇，来自{source_str}，"
-                    f"涉及{'; '.join(a['title'][:40] for a in topic_arts[:3])}等核心议题。"
+                    f"{topic_name}领域新增{len(topic_arts)}篇，来自{source_str}。"
+                    f"本期重点议题包括{'；'.join(titles_short)}{'等' if len(titles) > 3 else ''}。"
                 )
 
         failed_sources = [s for s, st in source_status.items() if st == "FAILED"]
@@ -137,7 +147,7 @@ def generate_report(report_id, period_start, period_end, articles, source_status
 def generate_report_metadata(report_id, period_start, period_end, articles, trends):
     """Generate report metadata dict for temp_report.json."""
     total = len(articles)
-    summary = f"本周七大来源共新增{total}篇文章。"
+    summary = f"本周十一大来源共新增{total}篇文章。"
     return {
         "id": report_id,
         "date": report_id,
