@@ -63,7 +63,7 @@ def generate_report(report_id, period_start, period_end, articles, source_status
         active_source_names = "、".join(SOURCE_NAMES.get(s, s) for s in active_sources)
         top_topics = topic_dist.most_common(3)
         topic_str = "、".join(f"{TOPIC_NAMES.get(t, t)}（{c}篇）" for t, c in top_topics)
-        trends.append(f"本周十一大来源共新增{total}篇文章，来自{active_source_names}，主题分布以{topic_str}为主。")
+        trends.append(f"本周十一大来源共收录{total}篇文章，来自{active_source_names}，主题分布以{topic_str}为主。")
 
         # Analytical paragraph per topic
         for topic_id in TOPIC_ORDER:
@@ -147,7 +147,7 @@ def generate_report(report_id, period_start, period_end, articles, source_status
 def generate_report_metadata(report_id, period_start, period_end, articles, trends):
     """Generate report metadata dict for temp_report.json."""
     total = len(articles)
-    summary = f"本周十一大来源共新增{total}篇文章。"
+    summary = f"本周十一大来源共收录{total}篇文章。"
     return {
         "id": report_id,
         "date": report_id,

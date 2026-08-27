@@ -315,13 +315,10 @@ def main():
     for art in new_articles:
         art["report_id"] = report_id
 
-    # 6. Determine report period
-    if state.get("last_successful_run"):
-        last_date = state["last_successful_run"][:10]
-    else:
-        last_date = since_date
-    period_start = last_date
+    # 6. Determine report period (rolling 7-day window)
+    from datetime import timedelta
     period_end = start_time.strftime("%Y-%m-%d")
+    period_start = (start_time - timedelta(days=7)).strftime("%Y-%m-%d")
 
     # Check if report already exists in DB
     report_exists = any(r["id"] == report_id for r in db.get("reports", []))
@@ -355,17 +352,25 @@ def main():
         print(f"{'=' * 60}")
         return 0
 
-    # 7. Generate report metadata
+    # 6.5 Build report articles (rolling 7-day window from DB + new)
+    report_articles = [a for a in db.get("articles", []) if a.get("date", "") >= period_start]
+    existing_ids = {a.get("id") for a in report_articles}
+    for art in new_articles:
+        if art.get("id") not in existing_ids:
+            report_articles.append(art)
+    logging.info(f"报告文章数: {len(report_articles)} (7天滚动窗口 {period_start}~{period_end}, 新增{len(new_articles)})")
+
+    # 7. Generate report metadata (using 7-day rolling window)
     trends = []
-    if new_articles:
+    if report_articles:
         from collections import Counter
-        topic_dist = Counter(a.get("primary_topic", "other") for a in new_articles)
-        source_dist = Counter(a.get("source_id", "") for a in new_articles)
+        topic_dist = Counter(a.get("primary_topic", "other") for a in report_articles)
+        source_dist = Counter(a.get("source_id", "") for a in report_articles)
         active_sources = "、".join(SOURCE_NAMES.get(s, s) for s in source_dist if source_dist[s] > 0)
         topic_str = "、".join(f"{TOPIC_NAMES.get(t, t)}（{c}篇）" for t, c in topic_dist.most_common(3))
-        trends.append(f"本周十一大来源共新增{len(new_articles)}篇文章，来自{active_sources}，主题分布以{topic_str}为主。")
+        trends.append(f"本周十一大来源共收录{len(report_articles)}篇文章，来自{active_sources}，主题分布以{topic_str}为主。")
         for topic_id in TOPIC_ORDER:
-            topic_arts = [a for a in new_articles if topic_id in (a.get("topics") or [])]
+            topic_arts = [a for a in report_articles if topic_id in (a.get("topics") or [])]
             if topic_arts:
                 topic_name = TOPIC_NAMES[topic_id]
                 sources_in_topic = set(a.get("source_id") for a in topic_arts)
@@ -383,7 +388,7 @@ def main():
         failed_names = "、".join(SOURCE_NAMES.get(s, s) for s in failed)
         trends.append(f"本周{failed_names}来源无法访问，未完成抓取。")
 
-    report_meta = generate_report_metadata(report_id, period_start, period_end, new_articles, trends)
+    report_meta = generate_report_metadata(report_id, period_start, period_end, report_articles, trends)
 
     # 8. Write temp files
     with TEMP_REPORT_PATH.open("w", encoding="utf-8") as f:
@@ -392,8 +397,8 @@ def main():
         json.dump(new_articles, f, ensure_ascii=False, indent=2)
     logging.info(f"临时文件已写入: {TEMP_REPORT_PATH}, {TEMP_ARTICLES_PATH}")
 
-    # 9. Generate Markdown report
-    report_md = generate_report(report_id, period_start, period_end, new_articles, source_status, start_time)
+    # 9. Generate Markdown report (using 7-day rolling window)
+    report_md = generate_report(report_id, period_start, period_end, report_articles, source_status, start_time)
     REPORTS_DIR.mkdir(exist_ok=True)
     with report_path.open("w", encoding="utf-8") as f:
         f.write(report_md)
