@@ -298,6 +298,19 @@ def main():
     # 4. Classify
     new_articles = classify_articles(new_articles)
 
+    # 4.5 Translate (title + abstract + keywords → Chinese)
+    if new_articles:
+        from utils.translator import enrich_article_with_cn
+        logging.info(f"开始翻译 {len(new_articles)} 篇新文章...")
+        for i, art in enumerate(new_articles, 1):
+            try:
+                enrich_article_with_cn(art)
+                title_cn = art.get("title_cn", "")
+                logging.info(f"  [{i}/{len(new_articles)}] 翻译完成: {title_cn[:40]}")
+            except Exception as e:
+                logging.warning(f"  [{i}/{len(new_articles)}] 翻译失败: {e}")
+        logging.info("翻译步骤完成")
+
     # 5. Assign report_id
     for art in new_articles:
         art["report_id"] = report_id
