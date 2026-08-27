@@ -358,6 +358,9 @@ def main():
     for art in new_articles:
         if art.get("id") not in existing_ids:
             report_articles.append(art)
+    # Assign all articles in the 7-day window to the current report
+    for art in report_articles:
+        art["report_id"] = report_id
     logging.info(f"报告文章数: {len(report_articles)} (7天滚动窗口 {period_start}~{period_end}, 新增{len(new_articles)})")
 
     # 7. Generate report metadata (using 7-day rolling window)
