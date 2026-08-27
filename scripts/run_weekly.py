@@ -5,17 +5,18 @@ run_weekly.py — 商业法律研究动向 周自动化主协调器
 工作流:
   1. 记录 start_time
   2. 读取 state.json（增量窗口）
-  3. 抓取 7 个来源（单来源失败不影响其他）
+  3. 抓取 11 个来源（单来源失败不影响其他）
   4. 增量判断（last_successful_run → now）
   5. 去重（规范化 URL）
   6. 主题分类
-  7. 生成周报 Markdown
-  8. 生成 temp_report.json + temp_new_articles.json
-  9. 调用 add_report.py + update_db.py
-  10. 验证数据库
-  11. 更新 state.json
-  12. 记录日志
-  13. 清理临时文件
+  7. 中英翻译（标题、摘要、关键词）
+  8. 生成周报 Markdown
+  9. 生成 temp_report.json + temp_new_articles.json
+  10. 调用 add_report.py + update_db.py
+  11. 验证数据库
+  12. 更新 state.json
+  13. 部署到 GitHub Pages
+  14. 清理临时文件
 """
 import json
 import sys
@@ -125,7 +126,7 @@ def get_existing_urls(db):
 
 
 def run_scrapers(since_date):
-    """Run all 7 scrapers. Returns (all_articles, source_status)."""
+    """Run all 11 scrapers. Returns (all_articles, source_status)."""
     all_articles = []
     source_status = {}
     for sid in SOURCE_ORDER:

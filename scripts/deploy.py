@@ -72,6 +72,11 @@ def git_push():
         subprocess.run(["git", "add", "周报/"], cwd=str(PROJECT_DIR),
                        capture_output=True, timeout=10)
 
+    db_dir = PROJECT_DIR / "database"
+    if db_dir.exists():
+        subprocess.run(["git", "add", "database/"], cwd=str(PROJECT_DIR),
+                       capture_output=True, timeout=10)
+
     status = subprocess.run(["git", "status", "--porcelain"],
                            cwd=str(PROJECT_DIR), capture_output=True, text=True, timeout=10)
     if not status.stdout.strip():
