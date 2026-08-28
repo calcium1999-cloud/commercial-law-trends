@@ -8352,26 +8352,26 @@
         "Investment Decisions"
       ],
       "source_id": "ecgi",
-      "title_cn": "",
+      "title_cn": "资产管理人的俘获",
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
       "abstract": "Not available",
-      "abstract_cn": "",
+      "abstract_cn": "暂无摘要",
       "keywords_cn": [
-        "Stewardship",
-        "Capital",
+        "尽责管理",
+        "资本",
         "ESG",
-        "Institutional Investors",
-        "Technology",
-        "Voting",
-        "Control",
-        "Litigation",
-        "Carbon emission",
-        "Climate Change",
-        "Investment Decisions"
+        "机构投资者",
+        "技术",
+        "投票权",
+        "控制权",
+        "诉讼",
+        "碳排放",
+        "气候变化",
+        "投资决策"
       ],
       "report_id": "2026-08-28",
       "id": "art_218"
@@ -8394,7 +8394,7 @@
         "Political Economy"
       ],
       "source_id": "ecgi",
-      "title_cn": "",
+      "title_cn": "印度银行与金融服务领域的公司治理丑闻",
       "topics": [
         "corporate_governance",
         "financial_regulation"
@@ -8402,17 +8402,17 @@
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
       "abstract": "Not available",
-      "abstract_cn": "",
+      "abstract_cn": "暂无摘要",
       "keywords_cn": [
-        "Banking",
-        "Related Party Transactions",
-        "Regulation",
-        "Capital",
-        "Technology",
-        "Agency",
-        "Executive compensation",
-        "Bankruptcy",
-        "Political Economy"
+        "银行业",
+        "关联交易",
+        "监管",
+        "资本",
+        "技术",
+        "代理问题",
+        "高管薪酬",
+        "破产",
+        "政治经济学"
       ],
       "report_id": "2026-08-28",
       "id": "art_219"
@@ -8440,28 +8440,28 @@
         "Management"
       ],
       "source_id": "ecgi",
-      "title_cn": "",
+      "title_cn": "并购中目的能否在买方手中存续？结构决定一切",
       "topics": [
         "corporate_governance",
         "tech_data_ai"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "Not stated",
-      "abstract_cn": "",
+      "abstract_cn": "当大型企业收购一家目的驱动型公司时，理由通常如出一轸：买方获得真实性和声誉提升，目标公司获得资本和规模。然而，在宣布交易的新闻稿发布之后，情况可能迅速变化。目的是否能在交割后存续，取决于交易的公司和经济结构。决策权、财务激励和监督机制的分配，决定了证明收购合理性的那些属性是被保留，还是被逐渐吸收进大企业的运营模式中。Lucian Bebchuk和Roberto Tallarita在《康奈尔法律评论》中考察了对利益相关者的公开承诺，结论是它们“多半只是做做样子”。他们的发现将问题从买方在理论上公开承诺什么，转向交易在实践中究竟意味着什么。使命漂移是由交割后次日仍在生效的机制所阻止的。好的和坏的例子：可口可乐收购Innocent Drinks被广泛援引为大型企业与目的驱动型公司之间成功整合的案例。该交易分阶段进行—2009年收购少数股权，2010年取得控股权，2013年达到90%以上——创始人在这段过渡期内保留了运营控制权。Innocent至今仍将其10%的利润用于社会和环境事业，并于2018年获得了B Corporation认证。",
       "keywords_cn": [
-        "Mergers and Acquisitions",
-        "M&A",
-        "Purpose",
-        "Control",
-        "Incentives",
-        "Contracts",
-        "Takeovers",
-        "Performance",
-        "Employees",
-        "Activism",
-        "Shareholders",
-        "CEO",
-        "Management"
+        "并购",
+        "并购",
+        "目的",
+        "控制权",
+        "激励机制",
+        "合同",
+        "收购",
+        "业绩",
+        "员工",
+        "激进主义",
+        "股东",
+        "首席执行官",
+        "管理层"
       ],
       "report_id": "2026-08-28",
       "id": "art_220"
@@ -8474,15 +8474,16 @@
       "abstract": "In a decision with significant implications for the UK litigation funding market, the High Court has confirmed that insolvency administrators can enter into litigation funding agreements and pay funders ahead of so-called 'super priority' creditors, where doing so serves the purposes of the administration. The ruling inRe Cross Transport Ltd (In Administration) [2026] EWHC 1636 (Ch), handed down on 30 June 2026 by ICC Judge Jones, resolves a tension that has been a growing concern in the insolvency market, not only in the UK but also in other jurisdictions applying similar insolvency rules. The background",
       "authors": "Author(s):Guido DemarcoDirector, Stonward Litigation Funding",
       "source_id": "oblb",
-      "title_cn": "",
+      "title_cn": "英国高等法院确认破产管理人可将融资成本优先于“超级优先权”债权人支付",
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "Not stated",
-      "abstract_cn": "",
+      "abstract_cn": "在一项对英国诉讼融资市场具有重大影响的判决中，高等法院确认破产管理人可以签订诉讼融资协议，并在符合破产管理目的时，向融资方支付优先于所谓“超级优先权”债权人的款项。该判决为Re Cross Transport Ltd (In Administration) [2026] EWHC 1636 (Ch)，由ICC法官Jones于2026年6月30日作出，解决了一个在破产市场中日益突出的矛盾——这一问题不仅存在于英国，也存在于其他适用类似破产规则的司法管辖区。",
       "report_id": "2026-08-28",
-      "id": "art_221"
+      "id": "art_221",
+      "keywords_cn": []
     },
     {
       "title": "Decentralization: The Search for a Legal Definitionby: Salvatore Luciano Furnari",
@@ -8492,16 +8493,17 @@
       "abstract": "Decentralization is the criterion on which the regulatory treatment of decentralized finance ultimately depends, yet no legal instrument defines it. In a recentpaper, I argue that this definitional vacuum is the root cause of the uncertainty surrounding decentralized protocols and so I propose a legal definition resting on three cumulative and verifiable criteria: the presence of at least three independent decision-making centres; the structural interdependence of participants within a protocol-governed environment; and the non-custodial nature of the infrastructure. A threshold criterion without content The most legally significant reference to decentralization in EU law is Recital 22 of theMarkets in Crypto-Assets Regulation (MiCA), under which crypto-asset services provided ‘in a fully decentralised manner without any intermediary’ fall outside the scope of the Regulation. The concept is therefore decisive, but it appears only in a recital: no operative provision refers to protocols or to the offering of decentralized services, and no definition is supplied.",
       "authors": "Author(s):Salvatore Luciano FurnariPhD at the University of Roma Tor Vergata and Fintech and MiCAR lawyer with a focus on blockchain, crypto-assets, and DeFi",
       "source_id": "oblb",
-      "title_cn": "",
+      "title_cn": "去中心化：法律定义的探索",
       "topics": [
         "financial_regulation",
         "tech_data_ai"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "Not stated",
-      "abstract_cn": "",
+      "abstract_cn": "去中心化是决定去中心化金融监管待遇的标准，然而没有任何法律文件对其作出定义。在近期论文中，笔者论证了这一定义真空是不确定性的根源，并提出了一个基于三个累积且可验证标准的法律定义：至少存在三个独立的决策中心；参与者在协议治理环境中的结构性相互依赖；以及基础设施的非托管性质。欧盟法律中对去中心化最具法律意义的引用是《加密资产市场监管条例》（MiCA）序言第22条，其中规定以“完全去中心化方式且无任何中介”提供的加密资产服务不在该条例范围之内。因此这一概念具有决定性，但它仅出现在序言中：没有任何操作性条款提及协议或去中心化服务的提供，也未提供任何定义。",
       "report_id": "2026-08-28",
-      "id": "art_222"
+      "id": "art_222",
+      "keywords_cn": []
     },
     {
       "title": "Consumers Prefer AI Music Until They’re Told It’s AI",
@@ -8511,21 +8513,22 @@
       "abstract": "Jana Friedrichsen is a professor at the Institute of Economics at Kiel University. Prior to that, she had held academic positions at Freie Universität Berlin, Humboldt-Universität zu Berlin, WZB Berlin Social Science Center and DIW. She holds a doctoral degree in Economics from the University of Mannheim. Her research lies in the areas of applied microeconomic theory and behavioral and experimental economics. Her research often deals with the effects of reputational concerns and consumer preferences for fairness and sustainability on individual behavior and markets. Julia Schwarz is a Doctoral Researcher at the Chair for Economics and Ethics and a member of the Doctoral Programme in Quantitative Economics at Kiel University. She holds a B.Sc. in Economics and Business Administration from Justus Liebig University Gießen and an M.Sc. in Economics from Humboldt-Universität zu Berlin. Her research uses experimental and behavioral economics to investigate the interplay between artificial in",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "",
+      "title_cn": "消费者偏好AI音乐——直到被告知这是AI创作的",
       "topics": [
         "tech_data_ai",
         "corporate_governance"
       ],
       "primary_topic": "tech_data_ai",
       "affiliations": "Not stated",
-      "abstract_cn": "",
+      "abstract_cn": "Jana Friedrichsen是基尔大学经济学研究所教授。此前她曾在柏林自由大学、柏林洪堡大学、柏林社会科学中心（WZB）和德国经济研究所（DIW）任职。她拥有曼海姆大学经济学博士学位。研究方向涵盖应用微观经济理论和行为与实验经济学，常涉及声誉关切及消费者对公平和可持续性的偏好对个体行为与市场的影响。Julia Schwarz是基尔大学经济学与伦理学教席博士研究员，也是基尔大学量化经济学博士项目成员。她拥有吉森大学经济学与企业治理学士学位和柏林洪堡大学经济学硕士学位。她的研究运用实验经济学和行为经济学方法，探讨人工智能与个体行为之间的相互作用。",
       "report_id": "2026-08-28",
-      "id": "art_223"
+      "id": "art_223",
+      "keywords_cn": []
     },
     {
       "source_id": "bank_underground",
       "title": "Has UK food inflation been under the weather?",
-      "title_cn": "",
+      "title_cn": "英国食品通胀是否受到了天气影响？",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-08-27",
@@ -8538,14 +8541,15 @@
         "tech_data_ai"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "",
+      "abstract_cn": "India Rimmer、Hannah Copeland和Boromeus Wanengkirtyo撰文指出，全球极端天气事件似乎遥远，但它们在我们购物篮中留下了更高价格的痕迹。正如以往货币政策报告所述，海外发生的干旱、洪水和热浪经常影响英国食品通胀——2025年英国食品通胀平均为4.2%。但究竟有多大程度的影响……",
       "report_id": "2026-08-28",
-      "id": "art_224"
+      "id": "art_224",
+      "keywords_cn": []
     },
     {
       "source_id": "bank_underground",
       "title": "Is UK productivity growth low? A historical and cross-country perspective",
-      "title_cn": "",
+      "title_cn": "英国生产率增长是否偏低？历史与跨国视角",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-08-27",
@@ -8557,9 +8561,10 @@
         "other"
       ],
       "primary_topic": "other",
-      "abstract_cn": "",
+      "abstract_cn": "Sophie Piton和Fabrizio Cadamagnani撰文称，关于英国生产率及其近年来的疲弱表现已有大量讨论。本文从历史和跨国比较视角评估英国生产率趋势。过去二十年间，G7经济体的生产率增长普遍疲弱，反映出信息通信技术（ICT）红利期的终结……",
       "report_id": "2026-08-28",
-      "id": "art_225"
+      "id": "art_225",
+      "keywords_cn": []
     }
   ],
   "monthly_reports": [
