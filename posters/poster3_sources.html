@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>十一权威来源</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --color-primary: #1a365d;
+            --color-ink: #12294a;
+            --color-secondary: #2c5282;
+            --color-accent: #3182ce;
+            --color-cinnabar: #a63a2b;
+            --color-paper: #f7f3eb;
+            --color-paper-dark: #ede6d6;
+            --color-text: #1a202c;
+            --color-text-secondary: #4a5568;
+            --color-text-light: #718096;
+            --color-border: #cbd5e0;
+            --font-cn: "Songti SC", "SimSun", "STSong", "Noto Serif SC", serif;
+            --font-en: "Cambria", "Georgia", serif;
+        }
+
+        html, body {
+            width: 1080px;
+            height: 1440px;
+            overflow: hidden;
+            font-family: var(--font-cn);
+            background: var(--color-paper);
+        }
+
+        .poster {
+            width: 1080px;
+            height: 1440px;
+            position: relative;
+            background-color: var(--color-paper);
+            background-image: 
+                url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='2'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+            overflow: hidden;
+        }
+
+        /* ===== 四角装饰 ===== */
+        .corner {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            z-index: 10;
+        }
+        .corner-tl { top: 30px; left: 30px; border-top: 2px solid var(--color-primary); border-left: 2px solid var(--color-primary); }
+        .corner-tr { top: 30px; right: 30px; border-top: 2px solid var(--color-primary); border-right: 2px solid var(--color-primary); }
+        .corner-bl { bottom: 30px; left: 30px; border-bottom: 2px solid var(--color-primary); border-left: 2px solid var(--color-primary); }
+        .corner-br { bottom: 30px; right: 30px; border-bottom: 2px solid var(--color-primary); border-right: 2px solid var(--color-primary); }
+
+        .corner-inner {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+        }
+        .corner-tl .corner-inner { top: 12px; left: 12px; border-top: 1px solid var(--color-secondary); border-left: 1px solid var(--color-secondary); }
+        .corner-tr .corner-inner { top: 12px; right: 12px; border-top: 1px solid var(--color-secondary); border-right: 1px solid var(--color-secondary); }
+        .corner-bl .corner-inner { bottom: 12px; left: 12px; border-bottom: 1px solid var(--color-secondary); border-left: 1px solid var(--color-secondary); }
+        .corner-br .corner-inner { bottom: 12px; right: 12px; border-bottom: 1px solid var(--color-secondary); border-right: 1px solid var(--color-secondary); }
+
+        /* ===== 顶部区域 ===== */
+        .header-section {
+            padding: 85px 80px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .header-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 6px 20px;
+            border: 1px solid var(--color-cinnabar);
+            border-radius: 2px;
+            margin-bottom: 24px;
+        }
+        .header-badge span {
+            font-family: var(--font-cn);
+            font-size: 18px;
+            color: var(--color-cinnabar);
+            letter-spacing: 4px;
+        }
+        .header-badge .badge-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--color-cinnabar);
+            border-radius: 50%;
+        }
+
+        .main-title {
+            font-family: var(--font-cn);
+            font-size: 66px;
+            color: var(--color-primary);
+            letter-spacing: 12px;
+            font-weight: bold;
+            margin-bottom: 14px;
+            text-shadow: 0 2px 4px rgba(26, 54, 93, 0.1);
+        }
+
+        .subtitle-en {
+            font-family: var(--font-en);
+            font-size: 24px;
+            color: var(--color-secondary);
+            letter-spacing: 4px;
+            font-style: italic;
+            opacity: 0.8;
+            margin-bottom: 36px;
+        }
+
+        /* 回纹分隔带 */
+        .fret-band {
+            height: 16px;
+            margin: 0 60px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='16' viewBox='0 0 32 16'%3E%3Cg fill='none' stroke='%232c5282' stroke-opacity='0.35' stroke-width='1.2'%3E%3Cpath d='M1 15 V5 H12 V10 H5'/%3E%3Cpath d='M17 15 V5 H28 V10 H21'/%3E%3C/g%3E%3C/svg%3E");
+            background-repeat: repeat-x;
+            background-position: center;
+        }
+
+        /* ===== 来源区域 ===== */
+        .sources-section {
+            padding: 55px 70px 0;
+        }
+
+        .source-category {
+            margin-bottom: 42px;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 22px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--color-primary);
+            position: relative;
+        }
+
+        .category-icon {
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--color-primary);
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+        .category-icon svg {
+            width: 22px;
+            height: 22px;
+            stroke: #fff;
+            fill: none;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .category-title {
+            flex: 1;
+        }
+        .category-title .zh {
+            font-family: var(--font-cn);
+            font-size: 28px;
+            color: var(--color-primary);
+            letter-spacing: 4px;
+            font-weight: bold;
+        }
+        .category-title .en {
+            font-family: var(--font-en);
+            font-size: 14px;
+            color: var(--color-text-light);
+            letter-spacing: 2px;
+            margin-top: 2px;
+            font-style: italic;
+        }
+
+        .category-count {
+            font-family: var(--font-en);
+            font-size: 36px;
+            color: var(--color-cinnabar);
+            font-weight: bold;
+            line-height: 1;
+        }
+        .category-count .unit {
+            font-size: 16px;
+            color: var(--color-text-secondary);
+            font-weight: normal;
+            margin-left: 2px;
+        }
+
+        /* 来源卡片网格 */
+        .source-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+        }
+
+        .source-card {
+            display: flex;
+            align-items: stretch;
+            background: #fff;
+            border: 1px solid rgba(44, 82, 130, 0.12);
+            border-radius: 4px;
+            overflow: hidden;
+            transition: all 0.25s;
+            box-shadow: 0 1px 3px rgba(26, 54, 93, 0.04);
+        }
+
+        .source-color-bar {
+            width: 5px;
+            flex-shrink: 0;
+        }
+
+        .source-body {
+            flex: 1;
+            padding: 14px 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .source-name {
+            font-family: var(--font-en);
+            font-size: 17px;
+            color: var(--color-primary);
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .source-desc {
+            font-family: var(--font-cn);
+            font-size: 13px;
+            color: var(--color-text-light);
+            letter-spacing: 1px;
+        }
+
+        /* 颜色分类 */
+        .clr-ecgi { background: #2c7a7b; }
+        .clr-harvard { background: #c53030; }
+        .clr-oblb { background: #6b46c1; }
+        .clr-promarket { background: #b7791f; }
+        .clr-cls { background: #2f855a; }
+        .clr-yale { background: #2b6cb0; }
+        .clr-jotwell { background: #b83280; }
+        .clr-banking { background: #dd6b20; }
+        .clr-nyfed { background: #005792; }
+        .clr-ecb { background: #003366; }
+        .clr-boe { background: #c8102e; }
+
+        /* 银行监管类 - 4个来源 2x2 */
+        .banking-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+        }
+
+        /* ===== 底部统计 ===== */
+        .stats-section {
+            position: absolute;
+            bottom: 90px;
+            left: 80px;
+            right: 80px;
+        }
+
+        .stats-fret {
+            height: 12px;
+            margin-bottom: 36px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='12' viewBox='0 0 28 12'%3E%3Cg fill='none' stroke='%232c5282' stroke-opacity='0.25' stroke-width='1'%3E%3Cpath d='M1 11 V4 H11 V8 H5'/%3E%3Cpath d='M15 11 V4 H25 V8 H19'/%3E%3C/g%3E%3C/svg%3E");
+            background-repeat: repeat-x;
+            background-position: center;
+        }
+
+        .stats-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: var(--font-en);
+            font-size: 72px;
+            color: var(--color-primary);
+            font-weight: bold;
+            line-height: 1;
+            letter-spacing: 2px;
+            position: relative;
+            display: inline-block;
+        }
+        .stat-number::after {
+            content: "";
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 3px;
+            background: var(--color-cinnabar);
+            border-radius: 2px;
+        }
+
+        .stat-label {
+            font-family: var(--font-cn);
+            font-size: 20px;
+            color: var(--color-text-secondary);
+            letter-spacing: 4px;
+            margin-top: 20px;
+        }
+
+        .stat-divider {
+            width: 2px;
+            height: 80px;
+            background: linear-gradient(180deg, transparent, var(--color-border), transparent);
+        }
+
+        .stat-growing {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .stat-growing span {
+            font-family: var(--font-cn);
+            font-size: 18px;
+            color: var(--color-cinnabar);
+            letter-spacing: 6px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .stat-growing span::before,
+        .stat-growing span::after {
+            content: "";
+            width: 30px;
+            height: 1px;
+            background: var(--color-cinnabar);
+            opacity: 0.4;
+        }
+
+        /* 底部云纹装饰 */
+        .cloud-decoration {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            opacity: 0.05;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='100' viewBox='0 0 300 100'%3E%3Cpath d='M0 100 Q40 60 80 80 T160 70 T240 85 T300 65 L300 100 Z' fill='%231a365d'/%3E%3Cpath d='M0 100 Q50 75 100 90 T200 82 T280 95 T300 88 L300 100 Z' fill='%232c5282' opacity='0.7'/%3E%3C/svg%3E");
+            background-repeat: repeat-x;
+            background-size: 600px 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <!-- 四角装饰 -->
+        <div class="corner corner-tl"><div class="corner-inner"></div></div>
+        <div class="corner corner-tr"><div class="corner-inner"></div></div>
+        <div class="corner corner-bl"><div class="corner-inner"></div></div>
+        <div class="corner corner-br"><div class="corner-inner"></div></div>
+
+        <!-- 顶部标题区 -->
+        <div class="header-section">
+            <div class="header-badge">
+                <span class="badge-dot"></span>
+                <span>权威来源</span>
+                <span class="badge-dot"></span>
+            </div>
+            <h1 class="main-title">十一权威来源</h1>
+            <p class="subtitle-en">11 Authoritative Sources</p>
+            <div class="fret-band"></div>
+        </div>
+
+        <!-- 来源列表区 -->
+        <div class="sources-section">
+            <!-- 公司治理类 -->
+            <div class="source-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                            <path d="M17 11l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <div class="category-title">
+                        <div class="zh">公司治理类</div>
+                        <div class="en">Corporate Governance</div>
+                    </div>
+                    <div class="category-count">7<span class="unit">家</span></div>
+                </div>
+                <div class="source-grid">
+                    <div class="source-card">
+                        <div class="source-color-bar clr-ecgi"></div>
+                        <div class="source-body">
+                            <div class="source-name">ECGI</div>
+                            <div class="source-desc">欧洲公司治理研究院</div>
+                        </div>
+                    </div>
+                    <div class="source-card">
+                        <div class="source-color-bar clr-harvard"></div>
+                        <div class="source-body">
+                            <div class="source-name">Harvard Forum</div>
+                            <div class="source-desc">哈佛公司法论坛</div>
+                        </div>
+                    </div>
+                    <div class="source-card">
+                        <div class="source-color-bar clr-oblb"></div>
+                        <div class="source-body">
+                            <div class="source-name">OBLB</div>
+                            <div class="source-desc">牛津法商研究博客</div>
+                        </div>
+                    </div>
+                    <div class="source-card">
+                        <div class="source-color-bar clr-cls"></div>
+                        <div class="source-body">
+                            <div class="source-name">CLS Blue Sky</div>
+                            <div class="source-desc">哥伦比亚蓝天博客</div>
+                        </div>
+                    </div>
+                    <div class="source-card">
+                        <div class="source-color-bar clr-yale"></div>
+                        <div class="source-body">
+                            <div class="source-name">Yale JREG</div>
+                            <div class="source-desc">耶鲁规制期刊</div>
+                        </div>
+                    </div>
+                    <div class="source-card">
+                        <div class="source-color-bar clr-jotwell"></div>
+                        <div class="source-body">
+                            <div class="source-name">Jotwell</div>
+                            <div class="source-desc">法学佳作文摘</div>
+                        </div>
+                    </div>
+                    <div class="source-card" style="grid-column: span 2;">
+                        <div class="source-color-bar clr-promarket"></div>
+                        <div class="source-body">
+                            <div class="source-name">ProMarket</div>
+                            <div class="source-desc">芝加哥大学斯蒂格勒中心 · 市场与监管研究</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 银行监管类 -->
+            <div class="source-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M3 21h18"/>
+                            <path d="M3 10h18"/>
+                            <path d="M5 6l7-3 7 3"/>
+                            <path d="M4 10v11"/>
+                            <path d="M20 10v11"/>
+                            <path d="M8 10v11"/>
+                            <path d="M12 10v11"/>
+                            <path d="M16 10v11"/>
+                        </svg>
+                    </div>
+                    <div class="category-title">
+                        <div class="zh">银行监管类</div>
+                        <div class="en">Banking Supervision</div>
+                    </div>
+                    <div class="category-count">4<span class="unit">家</span></div>
+                </div>
+                <div class="banking-grid">
+                    <div class="source-card">
+                        <div class="source-color-bar clr-nyfed"></div>
+                        <div class="source-body">
+                            <div class="source-name">NY Fed Liberty Street</div>
+                            <div class="source-desc">纽约联储自由街经济学</div>
+                        </div>
+                    </div>
+                    <div class="source-card">
+                        <div class="source-color-bar clr-ecb"></div>
+                        <div class="source-body">
+                            <div class="source-name">ECB Banking Supervision</div>
+                            <div class="source-desc">欧洲央行银行监管</div>
+                        </div>
+                    </div>
+                    <div class="source-card">
+                        <div class="source-color-bar clr-boe"></div>
+                        <div class="source-body">
+                            <div class="source-name">Bank Underground (BoE)</div>
+                            <div class="source-desc">英格兰银行地下博客</div>
+                        </div>
+                    </div>
+                    <div class="source-card">
+                        <div class="source-color-bar clr-banking"></div>
+                        <div class="source-body">
+                            <div class="source-name">Banking with Interest</div>
+                            <div class="source-desc">银行法专业博客</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部云纹装饰 -->
+        <div class="cloud-decoration"></div>
+
+        <!-- 底部统计 -->
+        <div class="stats-section">
+            <div class="stats-fret"></div>
+            <div class="stats-row">
+                <div class="stat-item">
+                    <div class="stat-number">249</div>
+                    <div class="stat-label">篇文章</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">11</div>
+                    <div class="stat-label">权威来源</div>
+                </div>
+            </div>
+            <div class="stat-growing">
+                <span>持续增长中</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

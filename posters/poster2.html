@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>海报2 - 设计风格</title>
+<style>
+  @font-face {
+    font-family: 'FZXiaoBiaoSong';
+    src: url('../方正小标宋简.TTF') format('truetype');
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1440px;
+    font-family: 'Songti SC', 'SimSun', serif;
+    background: #faf8f3;
+    position: relative;
+    overflow: hidden;
+  }
+  body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      radial-gradient(circle at 50% 30%, rgba(139, 0, 20, 0.025) 0%, transparent 60%),
+      radial-gradient(circle at 80% 70%, rgba(27, 54, 93, 0.03) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  .border-outer {
+    position: absolute;
+    top: 40px; left: 40px; right: 40px; bottom: 40px;
+    border: 1.5px solid #1b365d;
+    pointer-events: none;
+  }
+  .border-inner {
+    position: absolute;
+    top: 52px; left: 52px; right: 52px; bottom: 52px;
+    border: 0.5px solid #1b365d;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .corner {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #8b0014;
+  }
+  .corner.tl { top: 40px; left: 40px; border-right: none; border-bottom: none; }
+  .corner.tr { top: 40px; right: 40px; border-left: none; border-bottom: none; }
+  .corner.bl { bottom: 40px; left: 40px; border-right: none; border-top: none; }
+  .corner.br { bottom: 40px; right: 40px; border-left: none; border-top: none; }
+  .huiwen-top {
+    position: absolute;
+    top: 65px; left: 80px; right: 80px;
+    height: 14px;
+    background: repeating-linear-gradient(
+      90deg,
+      #1b365d 0px, #1b365d 4px,
+      transparent 4px, transparent 8px,
+      #1b365d 8px, #1b365d 12px,
+      transparent 12px, transparent 28px
+    );
+    opacity: 0.6;
+    -webkit-mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+            mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  }
+  .huiwen-bottom {
+    position: absolute;
+    bottom: 65px; left: 80px; right: 80px;
+    height: 14px;
+    background: repeating-linear-gradient(
+      90deg,
+      #1b365d 0px, #1b365d 4px,
+      transparent 4px, transparent 8px,
+      #1b365d 8px, #1b365d 12px,
+      transparent 12px, transparent 28px
+    );
+    opacity: 0.6;
+    -webkit-mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+            mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  }
+  .content {
+    position: absolute;
+    top: 120px; left: 100px; right: 100px; bottom: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  .title-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .poster-num {
+    font-family: 'Cambria', 'Georgia', serif;
+    font-size: 18px;
+    color: #8b0014;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  .main-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 68px;
+    color: #1b365d;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    margin-bottom: 14px;
+  }
+  .sub-title {
+    font-family: 'Cambria', 'Georgia', serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #5a6f8a;
+    letter-spacing: 5px;
+  }
+  .title-divider {
+    width: 100px;
+    height: 3px;
+    background: #8b0014;
+    margin: 24px auto 0;
+  }
+
+  /* 设计元素展示 */
+  .design-showcase {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+  .design-row {
+    display: flex;
+    gap: 40px;
+  }
+  .design-item {
+    flex: 1;
+    text-align: center;
+    padding: 28px 20px;
+    border: 1px solid rgba(27, 54, 93, 0.15);
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+  }
+  .design-item::before {
+    content: '';
+    position: absolute;
+    top: 8px; left: 8px; right: 8px; bottom: 8px;
+    border: 0.5px solid rgba(139, 0, 20, 0.2);
+    pointer-events: none;
+  }
+  .design-label {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 22px;
+    color: #1b365d;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+  }
+  .design-preview {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+  }
+  /* 字体预览 */
+  .font-preview-song {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 38px;
+    color: #1b365d;
+    letter-spacing: 4px;
+  }
+  .font-preview-en {
+    font-family: 'Cambria', 'Georgia', serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #5a6f8a;
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+  /* 配色预览 */
+  .color-swatches {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  .swatch {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  .swatch::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    color: #8b98a8;
+    white-space: nowrap;
+    font-family: 'Songti SC', serif;
+  }
+  /* 纹饰预览 */
+  .pattern-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+  .pattern-line {
+    height: 12px;
+    background: repeating-linear-gradient(
+      90deg,
+      #1b365d 0px, #1b365d 3px,
+      transparent 3px, transparent 6px,
+      #1b365d 6px, #1b365d 9px,
+      transparent 9px, transparent 20px
+    );
+    opacity: 0.7;
+  }
+  .pattern-line.thin {
+    height: 6px;
+    opacity: 0.4;
+  }
+  /* 版式预览 */
+  .layout-preview {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    height: 70px;
+  }
+  .layout-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .layout-bar {
+    background: #1b365d;
+    border-radius: 2px;
+    opacity: 0.6;
+  }
+  .layout-bar.short { width: 60%; }
+  .layout-bar.med { width: 85%; }
+  .layout-bar.long { width: 100%; }
+  .layout-bar.accent { background: #8b0014; opacity: 0.8; }
+
+  /* 设计理念 */
+  .design-philosophy {
+    text-align: center;
+    margin-top: 10px;
+    padding: 30px;
+    border-top: 1px solid rgba(27, 54, 93, 0.15);
+    border-bottom: 1px solid rgba(27, 54, 93, 0.15);
+  }
+  .philosophy-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 28px;
+    color: #1b365d;
+    letter-spacing: 6px;
+    margin-bottom: 14px;
+  }
+  .philosophy-text {
+    font-size: 18px;
+    color: #5a6f8a;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-family: 'Songti SC', serif;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .footer-line {
+    width: 60px;
+    height: 1px;
+    background: #1b365d;
+    margin: 0 auto 20px;
+    opacity: 0.4;
+  }
+  .footer-text {
+    font-size: 16px;
+    color: #8b98a8;
+    letter-spacing: 3px;
+    font-family: 'Songti SC', serif;
+  }
+  .footer-url {
+    font-size: 14px;
+    color: #5a6f8a;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    font-family: 'Cambria', serif;
+  }
+</style>
+</head>
+<body>
+  <div class="border-outer"></div>
+  <div class="border-inner"></div>
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+  <div class="huiwen-top"></div>
+  <div class="huiwen-bottom"></div>
+
+  <div class="content">
+    <div class="title-section">
+      <div class="poster-num">02 / 设计美学</div>
+      <div class="main-title">东方意蕴<br>学术风骨</div>
+      <div class="sub-title">Chinese Aesthetics · Academic Rigor</div>
+      <div class="title-divider"></div>
+    </div>
+
+    <div class="design-showcase">
+      <div class="design-row">
+        <div class="design-item">
+          <div class="design-label">字 · 宋体风骨</div>
+          <div class="design-preview">
+            <div>
+              <div class="font-preview-song">方正小标宋</div>
+              <div class="font-preview-en" style="margin-top: 8px;">Cambria Serif</div>
+            </div>
+          </div>
+        </div>
+        <div class="design-item">
+          <div class="design-label">色 · 深蓝朱砂</div>
+          <div class="design-preview">
+            <div class="color-swatches">
+              <div class="swatch" style="background: #1b365d;" data-label="藏蓝"></div>
+              <div class="swatch" style="background: #8b0014;" data-label="朱砂"></div>
+              <div class="swatch" style="background: #faf8f3; border-color: #ddd;" data-label="宣纸"></div>
+              <div class="swatch" style="background: #5a6f8a;" data-label="墨灰"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="design-row">
+        <div class="design-item">
+          <div class="design-label">纹 · 回纹绵长</div>
+          <div class="design-preview">
+            <div class="pattern-preview">
+              <div class="pattern-line"></div>
+              <div class="pattern-line thin"></div>
+              <div class="pattern-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="design-item">
+          <div class="design-label">局 · 疏密有致</div>
+          <div class="design-preview">
+            <div class="layout-preview">
+              <div class="layout-col">
+                <div class="layout-bar accent short" style="height: 12px;"></div>
+                <div class="layout-bar long" style="height: 8px;"></div>
+                <div class="layout-bar med" style="height: 8px;"></div>
+              </div>
+              <div class="layout-col">
+                <div class="layout-bar med" style="height: 8px;"></div>
+                <div class="layout-bar long" style="height: 12px;"></div>
+                <div class="layout-bar short" style="height: 8px;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="design-philosophy">
+      <div class="philosophy-title">设计理念</div>
+      <div class="philosophy-text">
+        取宋体之方正典雅　　配藏蓝之沉稳厚重<br>
+        以朱砂点睛　　用回纹织底<br>
+        东方式的留白与克制　　现代法的理性与秩序
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-line"></div>
+      <div class="footer-text">学术前沿 · 每周追踪</div>
+      <div class="footer-url">calcium1999-cloud.github.io/commercial-law-trends</div>
+    </div>
+  </div>
+</body>
+</html>

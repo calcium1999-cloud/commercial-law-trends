@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法律与金融研究动向 · 功能介绍</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --color-primary: #1a365d;
+            --color-ink: #12294a;
+            --color-secondary: #2c5282;
+            --color-accent: #3182ce;
+            --color-cinnabar: #a63a2b;
+            --color-paper: #f7f3eb;
+            --color-paper-dark: #ede6d6;
+            --color-text: #1a202c;
+            --color-text-secondary: #4a5568;
+            --color-text-light: #718096;
+            --color-border: #cbd5e0;
+            --font-cn: "Songti SC", "SimSun", "STSong", "Noto Serif SC", serif;
+            --font-cn-title: "Songti SC", "SimSun", "STSong", "Noto Serif SC", serif;
+            --font-en: "Cambria", "Georgia", serif;
+        }
+
+        html, body {
+            width: 1080px;
+            height: 1440px;
+            overflow: hidden;
+            font-family: var(--font-cn);
+            background: var(--color-paper);
+        }
+
+        .poster {
+            width: 1080px;
+            height: 1440px;
+            position: relative;
+            background-color: var(--color-paper);
+            background-image: 
+                url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='2'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+            overflow: hidden;
+        }
+
+        /* ===== 四角装饰 ===== */
+        .corner {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            z-index: 10;
+        }
+        .corner-tl { top: 30px; left: 30px; border-top: 2px solid var(--color-primary); border-left: 2px solid var(--color-primary); }
+        .corner-tr { top: 30px; right: 30px; border-top: 2px solid var(--color-primary); border-right: 2px solid var(--color-primary); }
+        .corner-bl { bottom: 30px; left: 30px; border-bottom: 2px solid var(--color-primary); border-left: 2px solid var(--color-primary); }
+        .corner-br { bottom: 30px; right: 30px; border-bottom: 2px solid var(--color-primary); border-right: 2px solid var(--color-primary); }
+
+        .corner-inner {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+        }
+        .corner-tl .corner-inner { top: 12px; left: 12px; border-top: 1px solid var(--color-secondary); border-left: 1px solid var(--color-secondary); }
+        .corner-tr .corner-inner { top: 12px; right: 12px; border-top: 1px solid var(--color-secondary); border-right: 1px solid var(--color-secondary); }
+        .corner-bl .corner-inner { bottom: 12px; left: 12px; border-bottom: 1px solid var(--color-secondary); border-left: 1px solid var(--color-secondary); }
+        .corner-br .corner-inner { bottom: 12px; right: 12px; border-bottom: 1px solid var(--color-secondary); border-right: 1px solid var(--color-secondary); }
+
+        /* ===== 顶部区域 ===== */
+        .header-section {
+            padding: 90px 80px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        /* 印章 */
+        .seal {
+            position: absolute;
+            top: 70px;
+            right: 90px;
+            width: 90px;
+            height: 90px;
+            border: 3px solid var(--color-cinnabar);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotate(6deg);
+            opacity: 0.85;
+        }
+        .seal-text {
+            font-family: var(--font-cn);
+            color: var(--color-cinnabar);
+            font-size: 22px;
+            letter-spacing: 2px;
+            writing-mode: vertical-rl;
+            line-height: 1.3;
+            font-weight: bold;
+        }
+
+        .main-title {
+            font-family: var(--font-cn-title);
+            font-size: 72px;
+            color: var(--color-primary);
+            letter-spacing: 12px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            text-shadow: 0 2px 4px rgba(26, 54, 93, 0.1);
+        }
+
+        .subtitle-en {
+            font-family: var(--font-en);
+            font-size: 26px;
+            color: var(--color-secondary);
+            letter-spacing: 4px;
+            font-style: italic;
+            opacity: 0.85;
+            margin-bottom: 36px;
+        }
+
+        /* 回纹分隔带 */
+        .fret-band {
+            height: 16px;
+            margin: 0 60px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='16' viewBox='0 0 32 16'%3E%3Cg fill='none' stroke='%232c5282' stroke-opacity='0.35' stroke-width='1.2'%3E%3Cpath d='M1 15 V5 H12 V10 H5'/%3E%3Cpath d='M17 15 V5 H28 V10 H21'/%3E%3C/g%3E%3C/svg%3E");
+            background-repeat: repeat-x;
+            background-position: center;
+            position: relative;
+        }
+        .fret-band::before,
+        .fret-band::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 1px;
+            background: var(--color-secondary);
+            opacity: 0.3;
+        }
+        .fret-band::before { left: -50px; }
+        .fret-band::after { right: -50px; }
+
+        /* ===== 功能列表区域 ===== */
+        .features-section {
+            padding: 70px 100px 0;
+        }
+
+        .section-label {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-label .label-cn {
+            font-family: var(--font-cn);
+            font-size: 28px;
+            color: var(--color-primary);
+            letter-spacing: 8px;
+            display: inline-block;
+            position: relative;
+            padding: 0 30px;
+        }
+        .section-label .label-cn::before,
+        .section-label .label-cn::after {
+            content: "❖";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--color-cinnabar);
+            font-size: 16px;
+        }
+        .section-label .label-cn::before { left: 0; }
+        .section-label .label-cn::after { right: 0; }
+
+        .feature-list {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            padding: 28px 36px;
+            background: rgba(255, 255, 255, 0.5);
+            border: 1px solid rgba(44, 82, 130, 0.15);
+            border-radius: 4px;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .feature-item::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 15%;
+            bottom: 15%;
+            width: 4px;
+            background: var(--color-cinnabar);
+            border-radius: 0 2px 2px 0;
+        }
+
+        .feature-icon {
+            width: 72px;
+            height: 72px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+            border-radius: 50%;
+            position: relative;
+        }
+        .feature-icon::after {
+            content: "";
+            position: absolute;
+            inset: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+        }
+
+        .feature-icon svg {
+            width: 36px;
+            height: 36px;
+            stroke: #fff;
+            fill: none;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .feature-content {
+            flex: 1;
+        }
+
+        .feature-title {
+            font-family: var(--font-cn);
+            font-size: 30px;
+            color: var(--color-primary);
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 6px;
+        }
+
+        .feature-desc {
+            font-family: var(--font-en);
+            font-size: 16px;
+            color: var(--color-text-secondary);
+            letter-spacing: 1px;
+            opacity: 0.75;
+        }
+
+        /* ===== 底部区域 ===== */
+        .footer-section {
+            position: absolute;
+            bottom: 80px;
+            left: 80px;
+            right: 80px;
+            text-align: center;
+        }
+
+        .footer-fret {
+            height: 12px;
+            margin-bottom: 40px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='12' viewBox='0 0 28 12'%3E%3Cg fill='none' stroke='%232c5282' stroke-opacity='0.25' stroke-width='1'%3E%3Cpath d='M1 11 V4 H11 V8 H5'/%3E%3Cpath d='M15 11 V4 H25 V8 H19'/%3E%3C/g%3E%3C/svg%3E");
+            background-repeat: repeat-x;
+            background-position: center;
+        }
+
+        .footer-url {
+            font-family: var(--font-en);
+            font-size: 22px;
+            color: var(--color-secondary);
+            letter-spacing: 2px;
+            margin-bottom: 14px;
+        }
+
+        .footer-note {
+            font-family: var(--font-cn);
+            font-size: 20px;
+            color: var(--color-cinnabar);
+            letter-spacing: 4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .footer-note::before,
+        .footer-note::after {
+            content: "";
+            width: 24px;
+            height: 1px;
+            background: var(--color-cinnabar);
+            opacity: 0.5;
+        }
+
+        /* 底部装饰云纹 */
+        .cloud-decoration {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            opacity: 0.06;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='120' viewBox='0 0 200 120'%3E%3Cpath d='M0 120 Q25 80 50 95 T100 90 T150 100 T200 85 L200 120 Z' fill='%231a365d'/%3E%3Cpath d='M0 120 Q30 90 60 105 T120 100 T180 110 T200 100 L200 120 Z' fill='%232c5282' opacity='0.7'/%3E%3C/svg%3E");
+            background-repeat: repeat-x;
+            background-size: 400px 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <!-- 四角装饰 -->
+        <div class="corner corner-tl"><div class="corner-inner"></div></div>
+        <div class="corner corner-tr"><div class="corner-inner"></div></div>
+        <div class="corner corner-bl"><div class="corner-inner"></div></div>
+        <div class="corner corner-br"><div class="corner-inner"></div></div>
+
+        <!-- 顶部标题区 -->
+        <div class="header-section">
+            <div class="seal">
+                <span class="seal-text">法学<br>前沿</span>
+            </div>
+            <h1 class="main-title">法律与金融研究动向</h1>
+            <p class="subtitle-en">Review of Law and Finance</p>
+            <div class="fret-band"></div>
+        </div>
+
+        <!-- 功能列表区 -->
+        <div class="features-section">
+            <div class="section-label">
+                <span class="label-cn">核心功能</span>
+            </div>
+
+            <div class="feature-list">
+                <!-- 功能1 -->
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                            <path d="M19 13v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-6"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-title">11 个权威来源 · 每周自动更新</div>
+                        <div class="feature-desc">11 Authoritative Sources · Weekly Auto-Update</div>
+                    </div>
+                </div>
+
+                <!-- 功能2 -->
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 8h14M5 8a2 2 0 1 1 0-4h14a2 2 0 1 1 0 4M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8m-9 4h4"/>
+                            <path d="M12 12v8M9 17h6"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-title">中英对照 · 专业翻译</div>
+                        <div class="feature-desc">Bilingual Edition · Professional Translation</div>
+                    </div>
+                </div>
+
+                <!-- 功能3 -->
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M3 4h18v4H3V4z"/>
+                            <path d="M6 12h12v4H6v-4z"/>
+                            <path d="M10 20h4"/>
+                            <circle cx="6" cy="6" r="0.5" fill="white" stroke="none"/>
+                            <circle cx="12" cy="6" r="0.5" fill="white" stroke="none"/>
+                            <circle cx="18" cy="6" r="0.5" fill="white" stroke="none"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-title">主题分类 · 智能筛选</div>
+                        <div class="feature-desc">Topic Classification · Smart Filtering</div>
+                    </div>
+                </div>
+
+                <!-- 功能4 -->
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                            <circle cx="12" cy="12" r="5"/>
+                            <path d="M12 9v3l2 2"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-title">增量抓取 · 不重复不遗漏</div>
+                        <div class="feature-desc">Incremental Crawling · Complete & Unique</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部装饰 -->
+        <div class="cloud-decoration"></div>
+
+        <!-- 底部信息 -->
+        <div class="footer-section">
+            <div class="footer-fret"></div>
+            <div class="footer-url">law-finance.research</div>
+            <div class="footer-note">每周一三五 · 自动更新</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>海报1 - 功能介绍</title>
+<style>
+  @font-face {
+    font-family: 'FZXiaoBiaoSong';
+    src: url('../方正小标宋简.TTF') format('truetype');
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1440px;
+    font-family: 'Songti SC', 'SimSun', serif;
+    background: #faf8f3;
+    position: relative;
+    overflow: hidden;
+  }
+  /* 背景纹理 */
+  body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      radial-gradient(circle at 20% 80%, rgba(139, 0, 20, 0.03) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(27, 54, 93, 0.04) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  /* 外边框 */
+  .border-outer {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    border: 1.5px solid #1b365d;
+    pointer-events: none;
+  }
+  .border-inner {
+    position: absolute;
+    top: 52px;
+    left: 52px;
+    right: 52px;
+    bottom: 52px;
+    border: 0.5px solid #1b365d;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  /* 四角装饰 */
+  .corner {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #8b0014;
+  }
+  .corner.tl { top: 40px; left: 40px; border-right: none; border-bottom: none; }
+  .corner.tr { top: 40px; right: 40px; border-left: none; border-bottom: none; }
+  .corner.bl { bottom: 40px; left: 40px; border-right: none; border-top: none; }
+  .corner.br { bottom: 40px; right: 40px; border-left: none; border-top: none; }
+  /* 顶部回纹 */
+  .huiwen-top {
+    position: absolute;
+    top: 65px;
+    left: 80px;
+    right: 80px;
+    height: 14px;
+    background: repeating-linear-gradient(
+      90deg,
+      #1b365d 0px, #1b365d 4px,
+      transparent 4px, transparent 8px,
+      #1b365d 8px, #1b365d 12px,
+      transparent 12px, transparent 28px
+    );
+    opacity: 0.6;
+    -webkit-mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+            mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  }
+  .huiwen-bottom {
+    position: absolute;
+    bottom: 65px;
+    left: 80px;
+    right: 80px;
+    height: 14px;
+    background: repeating-linear-gradient(
+      90deg,
+      #1b365d 0px, #1b365d 4px,
+      transparent 4px, transparent 8px,
+      #1b365d 8px, #1b365d 12px,
+      transparent 12px, transparent 28px
+    );
+    opacity: 0.6;
+    -webkit-mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+            mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  }
+  /* 内容区 */
+  .content {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    right: 100px;
+    bottom: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* 标题区 */
+  .title-section {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .main-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', 'SimSun', serif;
+    font-size: 82px;
+    color: #1b365d;
+    letter-spacing: 12px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .sub-title {
+    font-family: 'Cambria', 'Georgia', serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #5a6f8a;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+  }
+  .title-divider {
+    width: 120px;
+    height: 3px;
+    background: #8b0014;
+    margin: 28px auto 0;
+  }
+  /* 海报编号 */
+  .poster-num {
+    font-family: 'Cambria', 'Georgia', serif;
+    font-size: 18px;
+    color: #8b0014;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  /* 功能列表 */
+  .features {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+    padding: 0 20px;
+  }
+  .feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+  }
+  .feature-icon {
+    width: 64px;
+    height: 64px;
+    border: 1.5px solid #1b365d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    background: #faf8f3;
+  }
+  .feature-icon::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 0.5px solid #8b0014;
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+  .feature-icon span {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 26px;
+    color: #8b0014;
+    font-weight: normal;
+  }
+  .feature-text {
+    padding-top: 6px;
+  }
+  .feature-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 32px;
+    color: #1b365d;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+  }
+  .feature-desc {
+    font-size: 20px;
+    color: #5a6f8a;
+    line-height: 1.8;
+    font-family: 'Songti SC', 'SimSun', serif;
+    letter-spacing: 1px;
+  }
+  /* 底部 */
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .footer-line {
+    width: 60px;
+    height: 1px;
+    background: #1b365d;
+    margin: 0 auto 20px;
+    opacity: 0.4;
+  }
+  .footer-text {
+    font-size: 16px;
+    color: #8b98a8;
+    letter-spacing: 3px;
+    font-family: 'Songti SC', serif;
+  }
+  .footer-url {
+    font-size: 14px;
+    color: #5a6f8a;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    font-family: 'Cambria', serif;
+  }
+</style>
+</head>
+<body>
+  <div class="border-outer"></div>
+  <div class="border-inner"></div>
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+  <div class="huiwen-top"></div>
+  <div class="huiwen-bottom"></div>
+
+  <div class="content">
+    <div class="title-section">
+      <div class="poster-num">01 / 功能概览</div>
+      <div class="main-title">法律与金融<br>研究动向</div>
+      <div class="sub-title">Review of Law and Finance</div>
+      <div class="title-divider"></div>
+    </div>
+
+    <div class="features">
+      <div class="feature-item">
+        <div class="feature-icon"><span>周</span></div>
+        <div class="feature-text">
+          <div class="feature-title">每周自动更新</div>
+          <div class="feature-desc">每周一、三、五 自动抓取、分类、生成周报<br>无需人工干预，持续追踪学术前沿</div>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><span>源</span></div>
+        <div class="feature-text">
+          <div class="feature-title">十一大权威来源</div>
+          <div class="feature-desc">涵盖公司治理、金融监管、银行监管、反垄断<br>横跨欧美顶级学术机构与央行</div>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><span>译</span></div>
+        <div class="feature-text">
+          <div class="feature-title">中英双语对照</div>
+          <div class="feature-desc">标题、摘要、关键词逐段对照<br>法律学术语言，准确不意译</div>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><span>类</span></div>
+        <div class="feature-text">
+          <div class="feature-title">智能主题分类</div>
+          <div class="feature-desc">公司治理 / 金融监管 / 反垄断 / 科技数据与AI<br>按主题快速筛选，精准定位</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-line"></div>
+      <div class="footer-text">学术前沿 · 每周追踪</div>
+      <div class="footer-url">calcium1999-cloud.github.io/commercial-law-trends</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国风 · 学术美学</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --color-primary: #1a365d;
+            --color-ink: #12294a;
+            --color-secondary: #2c5282;
+            --color-accent: #3182ce;
+            --color-cinnabar: #a63a2b;
+            --color-cinnabar-light: #c94b3a;
+            --color-paper: #f7f3eb;
+            --color-paper-dark: #ede6d6;
+            --color-gold: #b8860b;
+            --color-text: #1a202c;
+            --color-text-secondary: #4a5568;
+            --font-cn: "Songti SC", "SimSun", "STSong", "Noto Serif SC", serif;
+            --font-en: "Cambria", "Georgia", serif;
+        }
+
+        html, body {
+            width: 1080px;
+            height: 1440px;
+            overflow: hidden;
+            font-family: var(--font-cn);
+            background: var(--color-primary);
+        }
+
+        .poster {
+            width: 1080px;
+            height: 1440px;
+            position: relative;
+            background: linear-gradient(160deg, #0f2744 0%, var(--color-primary) 50%, #1e4070 100%);
+            overflow: hidden;
+        }
+
+        /* 背景纹理 */
+        .poster::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.03' stroke-width='1'%3E%3Cpath d='M30 5a25 25 0 1 1 0 50 25 25 0 1 1 0-50z'/%3E%3Cpath d='M30 15a15 15 0 1 1 0 30 15 15 0 1 1 0-30z'/%3E%3Cpath d='M30 25a5 5 0 1 1 0 10 5 5 0 1 1 0-10z'/%3E%3C/g%3E%3C/svg%3E");
+            pointer-events: none;
+        }
+
+        /* 四角装饰 */
+        .corner {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            z-index: 10;
+        }
+        .corner-tl { top: 40px; left: 40px; border-top: 2px solid rgba(255,255,255,0.4); border-left: 2px solid rgba(255,255,255,0.4); }
+        .corner-tr { top: 40px; right: 40px; border-top: 2px solid rgba(255,255,255,0.4); border-right: 2px solid rgba(255,255,255,0.4); }
+        .corner-bl { bottom: 40px; left: 40px; border-bottom: 2px solid rgba(255,255,255,0.4); border-left: 2px solid rgba(255,255,255,0.4); }
+        .corner-br { bottom: 40px; right: 40px; border-bottom: 2px solid rgba(255,255,255,0.4); border-right: 2px solid rgba(255,255,255,0.4); }
+
+        .corner-inner {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+        }
+        .corner-tl .corner-inner { top: 15px; left: 15px; border-top: 1px solid rgba(255,255,255,0.2); border-left: 1px solid rgba(255,255,255,0.2); }
+        .corner-tr .corner-inner { top: 15px; right: 15px; border-top: 1px solid rgba(255,255,255,0.2); border-right: 1px solid rgba(255,255,255,0.2); }
+        .corner-bl .corner-inner { bottom: 15px; left: 15px; border-bottom: 1px solid rgba(255,255,255,0.2); border-left: 1px solid rgba(255,255,255,0.2); }
+        .corner-br .corner-inner { bottom: 15px; right: 15px; border-bottom: 1px solid rgba(255,255,255,0.2); border-right: 1px solid rgba(255,255,255,0.2); }
+
+        /* ===== 顶部标题 ===== */
+        .header-section {
+            padding: 110px 80px 0;
+            text-align: center;
+            position: relative;
+            z-index: 5;
+        }
+
+        .main-title {
+            font-family: var(--font-cn);
+            font-size: 68px;
+            color: #fff;
+            letter-spacing: 14px;
+            font-weight: bold;
+            margin-bottom: 18px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .main-title .dot {
+            color: var(--color-cinnabar-light);
+            margin: 0 8px;
+        }
+
+        .subtitle-en {
+            font-family: var(--font-en);
+            font-size: 26px;
+            color: rgba(255,255,255,0.7);
+            letter-spacing: 5px;
+            font-style: italic;
+            margin-bottom: 45px;
+        }
+
+        /* 回纹分隔带 - 白色 */
+        .fret-band {
+            height: 18px;
+            margin: 0 60px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='18' viewBox='0 0 36 18'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='0.3' stroke-width='1.2'%3E%3Cpath d='M1 17 V5 H14 V11 H6'/%3E%3Cpath d='M19 17 V5 H32 V11 H24'/%3E%3C/g%3E%3C/svg%3E");
+            background-repeat: repeat-x;
+            background-position: center;
+            position: relative;
+        }
+
+        /* ===== 设计元素展示区 ===== */
+        .design-section {
+            padding: 70px 90px 0;
+            position: relative;
+            z-index: 5;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-title .zh {
+            font-family: var(--font-cn);
+            font-size: 26px;
+            color: rgba(255,255,255,0.9);
+            letter-spacing: 10px;
+            display: inline-block;
+            position: relative;
+            padding: 0 40px;
+        }
+        .section-title .zh::before,
+        .section-title .zh::after {
+            content: "◆";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--color-cinnabar-light);
+            font-size: 12px;
+        }
+        .section-title .zh::before { left: 0; }
+        .section-title .zh::after { right: 0; }
+
+        .design-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .design-card {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 6px;
+            padding: 36px 30px;
+            position: relative;
+            backdrop-filter: blur(10px);
+        }
+
+        .design-card::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 3px;
+            pointer-events: none;
+        }
+
+        .design-icon {
+            width: 56px;
+            height: 56px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--color-cinnabar-light);
+            border-radius: 50%;
+            background: rgba(166, 58, 43, 0.15);
+        }
+
+        .design-icon svg {
+            width: 28px;
+            height: 28px;
+            stroke: var(--color-cinnabar-light);
+            fill: none;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .design-title {
+            font-family: var(--font-cn);
+            font-size: 26px;
+            color: #fff;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .design-subtitle {
+            font-family: var(--font-en);
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.5);
+            letter-spacing: 1.5px;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+
+        .design-desc {
+            font-family: var(--font-cn);
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.65);
+            line-height: 1.8;
+            letter-spacing: 1px;
+        }
+
+        /* 设计展示 - 字体样本 */
+        .font-sample {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        .font-sample .sample-cn {
+            font-family: var(--font-cn);
+            font-size: 22px;
+            color: #fff;
+            letter-spacing: 4px;
+            margin-bottom: 4px;
+        }
+        .font-sample .sample-en {
+            font-family: var(--font-en);
+            font-size: 16px;
+            color: rgba(255,255,255,0.6);
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+        /* 颜色展示 */
+        .color-swatches {
+            display: flex;
+            gap: 10px;
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        .swatch {
+            flex: 1;
+            height: 36px;
+            border-radius: 3px;
+            position: relative;
+        }
+        .swatch::after {
+            content: attr(data-label);
+            position: absolute;
+            bottom: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: var(--font-en);
+            font-size: 10px;
+            color: rgba(255,255,255,0.5);
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+
+        /* ===== 中间装饰区 ===== */
+        .middle-decoration {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin: 60px 0 50px;
+        }
+
+        .deco-line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            max-width: 200px;
+        }
+
+        .deco-seal {
+            width: 120px;
+            height: 120px;
+            border: 4px solid var(--color-cinnabar-light);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transform: rotate(-4deg);
+            background: rgba(166, 58, 43, 0.1);
+        }
+        .deco-seal::before {
+            content: "";
+            position: absolute;
+            inset: 8px;
+            border: 1px solid var(--color-cinnabar-light);
+            border-radius: 4px;
+            opacity: 0.5;
+        }
+        .deco-seal span {
+            font-family: var(--font-cn);
+            color: var(--color-cinnabar-light);
+            font-size: 28px;
+            letter-spacing: 4px;
+            writing-mode: vertical-rl;
+            line-height: 1.4;
+            font-weight: bold;
+        }
+
+        /* ===== 底部设计细节 ===== */
+        .footer-details {
+            position: absolute;
+            bottom: 100px;
+            left: 80px;
+            right: 80px;
+            z-index: 5;
+        }
+
+        .details-title {
+            text-align: center;
+            font-family: var(--font-cn);
+            font-size: 20px;
+            color: rgba(255,255,255,0.6);
+            letter-spacing: 6px;
+            margin-bottom: 30px;
+        }
+
+        .details-row {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+            background: rgba(255,255,255,0.04);
+            border-radius: 6px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .detail-item {
+            text-align: center;
+        }
+
+        .detail-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+        }
+        .detail-icon svg {
+            width: 22px;
+            height: 22px;
+            stroke: rgba(255,255,255,0.7);
+            fill: none;
+            stroke-width: 1.5;
+        }
+
+        .detail-text {
+            font-family: var(--font-cn);
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+            letter-spacing: 2px;
+        }
+
+        .detail-en {
+            font-family: var(--font-en);
+            font-size: 11px;
+            color: rgba(255,255,255,0.35);
+            letter-spacing: 1px;
+            margin-top: 2px;
+        }
+
+        /* 底部品牌 */
+        .footer-brand {
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 5;
+        }
+        .footer-brand .brand-text {
+            font-family: var(--font-en);
+            font-size: 14px;
+            color: rgba(255,255,255,0.3);
+            letter-spacing: 4px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <!-- 四角装饰 -->
+        <div class="corner corner-tl"><div class="corner-inner"></div></div>
+        <div class="corner corner-tr"><div class="corner-inner"></div></div>
+        <div class="corner corner-bl"><div class="corner-inner"></div></div>
+        <div class="corner corner-br"><div class="corner-inner"></div></div>
+
+        <!-- 顶部标题 -->
+        <div class="header-section">
+            <h1 class="main-title">中国风<span class="dot">·</span>学术美学</h1>
+            <p class="subtitle-en">Chinese Academic Aesthetics</p>
+            <div class="fret-band"></div>
+        </div>
+
+        <!-- 设计元素展示 -->
+        <div class="design-section">
+            <div class="section-title">
+                <span class="zh">四大设计元素</span>
+            </div>
+
+            <div class="design-grid">
+                <!-- 字体 -->
+                <div class="design-card">
+                    <div class="design-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M4 7V4h16v3M9 20h6M12 4v16"/>
+                        </svg>
+                    </div>
+                    <div class="design-title">字体之美</div>
+                    <div class="design-subtitle">Typography</div>
+                    <div class="design-desc">方正小标宋为骨，宋体衬线为韵，Cambria 承英文之雅</div>
+                    <div class="font-sample">
+                        <div class="sample-cn">法学研究</div>
+                        <div class="sample-en">Law & Finance Research</div>
+                    </div>
+                </div>
+
+                <!-- 配色 -->
+                <div class="design-card">
+                    <div class="design-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="13.5" cy="6.5" r="2.5"/>
+                            <circle cx="17.5" cy="10.5" r="2.5"/>
+                            <circle cx="8.5" cy="7.5" r="2.5"/>
+                            <circle cx="6.5" cy="12.5" r="2.5"/>
+                            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.9 0 1.5-.6 1.5-1.5 0-.4-.2-.8-.4-1.1-.3-.3-.4-.7-.4-1.1 0-.8.7-1.5 1.5-1.5H16c3.3 0 6-2.7 6-6 0-4.4-4.5-8-10-8z"/>
+                        </svg>
+                    </div>
+                    <div class="design-title">配色之雅</div>
+                    <div class="design-subtitle">Color Palette</div>
+                    <div class="design-desc">藏青为底，沉稳庄重；朱砂点缀，画龙点睛</div>
+                    <div class="color-swatches">
+                        <div class="swatch" style="background: #1a365d;" data-label="藏青"></div>
+                        <div class="swatch" style="background: #2c5282;" data-label="靛蓝"></div>
+                        <div class="swatch" style="background: #a63a2b;" data-label="朱砂"></div>
+                        <div class="swatch" style="background: #f7f3eb; border: 1px solid rgba(255,255,255,0.2);" data-label="米白"></div>
+                    </div>
+                </div>
+
+                <!-- 纹饰 -->
+                <div class="design-card">
+                    <div class="design-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/>
+                            <path d="M7 7v3h3M17 7v3h-3M17 17v-3h-3M7 17v-3H4"/>
+                        </svg>
+                    </div>
+                    <div class="design-title">纹饰之韵</div>
+                    <div class="design-subtitle">Ornamentation</div>
+                    <div class="design-desc">回纹连绵不断，寓意吉祥深远；印章朱红印迹，彰显学术品格</div>
+                    <div class="font-sample" style="display: flex; align-items: center; gap: 15px;">
+                        <div style="flex:1; height: 14px; background-image: url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2714%27 viewBox=%270 0 24 14%27%3E%3Cg fill=%27none%27 stroke=%27%23ffffff%27 stroke-opacity=%270.5%27 stroke-width=%271.2%27%3E%3Cpath d=%27M1 13 V4 H10 V9 H5%27/%3E%3Cpath d=%27M13 13 V4 H22 V9 H17%27/%3E%3C/g%3E%3C/svg%3E'); background-repeat: repeat-x;"></div>
+                    </div>
+                </div>
+
+                <!-- 排版 -->
+                <div class="design-card">
+                    <div class="design-icon">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="3" y="3" width="7" height="18" rx="1"/>
+                            <rect x="14" y="3" width="7" height="18" rx="1"/>
+                            <line x1="6" y1="7" x2="7" y2="7"/>
+                            <line x1="17" y1="7" x2="18" y2="7"/>
+                            <line x1="6" y1="11" x2="7" y2="11"/>
+                            <line x1="17" y1="11" x2="18" y2="11"/>
+                        </svg>
+                    </div>
+                    <div class="design-title">排版之序</div>
+                    <div class="design-subtitle">Layout</div>
+                    <div class="design-desc">中英对照，左右分栏；左文右译，井然有序；中西合璧，相得益彰</div>
+                    <div class="font-sample">
+                        <div style="display: flex; gap: 10px;">
+                            <div style="flex:1; height: 30px; background: rgba(255,255,255,0.15); border-radius: 2px;"></div>
+                            <div style="flex:1; height: 30px; background: rgba(255,255,255,0.08); border-radius: 2px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 中间印章装饰 -->
+        <div class="middle-decoration">
+            <div class="deco-line"></div>
+            <div class="deco-seal">
+                <span>学以致道</span>
+            </div>
+            <div class="deco-line"></div>
+        </div>
+
+        <!-- 底部设计细节 -->
+        <div class="footer-details">
+            <div class="details-title">—— 设计细节 ——</div>
+            <div class="details-row">
+                <div class="detail-item">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <div class="detail-text">分层设计</div>
+                    <div class="detail-en">Layered Design</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <div class="detail-text">每周更新</div>
+                    <div class="detail-en">Weekly Update</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <div class="detail-text">学术社区</div>
+                    <div class="detail-en">Academic Community</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    </div>
+                    <div class="detail-text">双语阅读</div>
+                    <div class="detail-en">Bilingual Reading</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部品牌 -->
+        <div class="footer-brand">
+            <div class="brand-text">Review of Law and Finance · 法律与金融研究动向</div>
+        </div>
+    </div>
+</body>
+</html>

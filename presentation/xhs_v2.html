@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>小红书长图 v2</title>
+<style>
+  @font-face {
+    font-family: 'FZXiaoBiaoSong';
+    src: url('../方正小标宋简.TTF') format('truetype');
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    background: #f0f4f9;
+    font-family: 'Songti SC', 'SimSun', 'Noto Serif CJK SC', serif;
+    color: #1b365d;
+  }
+
+  .seal {
+    width: 40px;
+    height: 40px;
+    background: #8b0014;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 20px;
+  }
+  .accent-line {
+    width: 50px;
+    height: 3px;
+    background: #8b0014;
+    margin: 20px auto 0;
+  }
+
+  /* ===== Poster 1 ===== */
+  .poster1 {
+    width: 1080px;
+    min-height: 1920px;
+    padding: 60px 60px 70px;
+    position: relative;
+    background: #f0f4f9;
+  }
+  .p1-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .p1-en {
+    font-family: 'Cambria', 'Georgia', serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    color: #5a8ab0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  .p1-title-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .p1-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 76px;
+    color: #1b365d;
+    letter-spacing: 6px;
+    line-height: 1.2;
+    margin-bottom: 14px;
+  }
+  .p1-tagline {
+    font-size: 30px;
+    color: #1b365d;
+    letter-spacing: 3px;
+    font-family: 'Songti SC', serif;
+  }
+
+  /* Screenshot with annotations */
+  .screenshot-area {
+    position: relative;
+    margin: 45px 0 50px;
+    padding: 0 30px;
+  }
+  .screenshot-img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(27, 54, 93, 0.15);
+    display: block;
+  }
+  .annotation {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-family: 'Songti SC', serif;
+    font-size: 18px;
+    color: #1b365d;
+    letter-spacing: 1px;
+  }
+  .anno-dot {
+    width: 8px;
+    height: 8px;
+    background: #8b0014;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .anno-line {
+    width: 36px;
+    height: 1px;
+    background: #8b0014;
+    flex-shrink: 0;
+  }
+  .anno-text {
+    background: rgba(255,255,255,0.95);
+    padding: 5px 14px;
+    border-radius: 4px;
+    white-space: nowrap;
+    box-shadow: 0 2px 8px rgba(27, 54, 93, 0.08);
+  }
+  /* Right side annotations */
+  .anno-right { right: -10px; justify-content: flex-start; }
+  .anno-right .anno-text { order: 3; }
+  .anno-right .anno-line { order: 2; }
+  .anno-right .anno-dot { order: 1; }
+  /* Left side annotations */
+  .anno-left { left: -10px; justify-content: flex-end; }
+  .anno-left .anno-text { order: 1; }
+  .anno-left .anno-line { order: 2; }
+  .anno-left .anno-dot { order: 3; }
+
+  .p1-caption {
+    text-align: center;
+    font-size: 16px;
+    color: #8b98a8;
+    letter-spacing: 2px;
+    margin-top: -30px;
+    margin-bottom: 40px;
+  }
+
+  .p1-info-row {
+    display: flex;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(27, 54, 93, 0.06);
+    overflow: hidden;
+  }
+  .info-col {
+    flex: 1;
+    padding: 32px 36px;
+  }
+  .info-col:first-child {
+    border-right: 1px solid #e2e8f0;
+  }
+  .info-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 24px;
+    color: #1b365d;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+  .info-list {
+    font-size: 18px;
+    color: #5a6f8a;
+    line-height: 2.2;
+    letter-spacing: 1px;
+  }
+  .info-foot {
+    font-size: 15px;
+    color: #8b98a8;
+    margin-top: 12px;
+    letter-spacing: 1px;
+  }
+
+  .p1-bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #5a6f8a;
+    letter-spacing: 2px;
+  }
+
+  .pagenum {
+    position: absolute;
+    bottom: 36px;
+    right: 60px;
+    font-family: 'Cambria', serif;
+    font-size: 16px;
+    color: rgba(27, 54, 93, 0.35);
+    letter-spacing: 2px;
+  }
+
+  /* ===== Poster 2 ===== */
+  .poster2 {
+    width: 1080px;
+    min-height: 1920px;
+    padding: 60px 60px 70px;
+    position: relative;
+    background: #f0f4f9;
+  }
+  .p2-top {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .p2-eyebrow {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 22px;
+    color: #5a8ab0;
+    letter-spacing: 12px;
+    margin-bottom: 16px;
+  }
+  .p2-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 56px;
+    color: #1b365d;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+  }
+  .p2-sub {
+    font-size: 22px;
+    color: #5a6f8a;
+    letter-spacing: 2px;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+  .feature-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 28px 28px 24px;
+    box-shadow: 0 8px 24px rgba(27, 54, 93, 0.06);
+  }
+  .fc-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .fc-square {
+    width: 12px;
+    height: 12px;
+    background: #8b0014;
+    flex-shrink: 0;
+  }
+  .fc-num {
+    font-family: 'Cambria', serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #1b365d;
+  }
+  .fc-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 26px;
+    color: #1b365d;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  .fc-desc {
+    font-size: 17px;
+    color: #5a6f8a;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+  .fc-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #eef2f7;
+    overflow: hidden;
+    background: #faf8f3;
+  }
+  .fc-img img {
+    width: 100%;
+    display: block;
+  }
+
+  .p2-next {
+    text-align: center;
+    margin-top: 36px;
+    font-size: 18px;
+    color: #8b98a8;
+    letter-spacing: 3px;
+  }
+
+  /* ===== Poster 3 ===== */
+  .poster3 {
+    width: 1080px;
+    min-height: 1920px;
+    padding: 60px 60px 70px;
+    position: relative;
+    background: #f0f4f9;
+  }
+  .p3-top {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .p3-eyebrow {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 22px;
+    color: #5a8ab0;
+    letter-spacing: 12px;
+    margin-bottom: 16px;
+  }
+  .p3-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 56px;
+    color: #1b365d;
+    letter-spacing: 4px;
+    margin-bottom: 14px;
+  }
+  .p3-sub {
+    font-size: 22px;
+    color: #5a6f8a;
+    letter-spacing: 2px;
+  }
+
+  .value-items {
+    margin-bottom: 50px;
+    padding: 0 20px;
+  }
+  .value-item {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 40px;
+  }
+  .value-item:last-child { margin-bottom: 0; }
+  .vi-num {
+    font-family: 'Cambria', serif;
+    font-size: 44px;
+    font-weight: 300;
+    color: #8b0014;
+    line-height: 1;
+    flex-shrink: 0;
+    width: 60px;
+    text-align: center;
+  }
+  .vi-content {
+    flex: 1;
+    padding-top: 4px;
+  }
+  .vi-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 28px;
+    color: #1b365d;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  .vi-desc {
+    font-size: 18px;
+    color: #5a6f8a;
+    line-height: 1.9;
+    letter-spacing: 1px;
+  }
+
+  .audience-section {
+    margin-bottom: 50px;
+  }
+  .audience-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 24px;
+    color: #5a8ab0;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .audience-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 40px;
+  }
+  .audience-btn {
+    background: #fff;
+    border-radius: 999px;
+    padding: 22px 36px;
+    text-align: center;
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 24px;
+    color: #1b365d;
+    letter-spacing: 3px;
+    box-shadow: 0 4px 16px rgba(27, 54, 93, 0.06);
+  }
+
+  .cta-card {
+    background: linear-gradient(135deg, #1b365d 0%, #2c4a7a 100%);
+    border-radius: 20px;
+    padding: 50px 40px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(27, 54, 93, 0.25);
+    position: relative;
+  }
+  .cta-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+  }
+  .cta-url {
+    font-family: 'Cambria', serif;
+    font-size: 22px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    word-break: break-all;
+  }
+  .cta-sub {
+    font-size: 18px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 3px;
+  }
+
+  .p3-end {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .p3-end-title {
+    font-family: 'FZXiaoBiaoSong', 'Songti SC', serif;
+    font-size: 24px;
+    color: #1b365d;
+    letter-spacing: 3px;
+  }
+  .p3-end-sub {
+    font-size: 16px;
+    color: #8b98a8;
+    margin-top: 8px;
+    letter-spacing: 2px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== POSTER 1 ==================== -->
+<div class="poster1">
+  <div class="p1-top">
+    <div class="p1-en">Review of Law and Finance</div>
+    <div class="seal">法</div>
+  </div>
+
+  <div class="p1-title-section">
+    <div class="p1-title">法律与金融研究动向</div>
+    <div class="p1-tagline">全球法金前沿，尽收眼底。</div>
+    <div class="accent-line"></div>
+  </div>
+
+  <div class="screenshot-area">
+    <img src="xhs-assets/top_section.png" class="screenshot-img" alt="网页全景">
+    <!-- Left annotations -->
+    <div class="annotation anno-left" style="top: 70px;">
+      <div class="anno-text">站点头部</div>
+      <div class="anno-line"></div>
+      <div class="anno-dot"></div>
+    </div>
+    <div class="annotation anno-left" style="top: 170px;">
+      <div class="anno-text">检索筛选</div>
+      <div class="anno-line"></div>
+      <div class="anno-dot"></div>
+    </div>
+    <div class="annotation anno-left" style="top: 310px;">
+      <div class="anno-text">周报归档</div>
+      <div class="anno-line"></div>
+      <div class="anno-dot"></div>
+    </div>
+    <div class="annotation anno-left" style="top: 450px;">
+      <div class="anno-text">数据来源</div>
+      <div class="anno-line"></div>
+      <div class="anno-dot"></div>
+    </div>
+    <!-- Right annotations -->
+    <div class="annotation anno-right" style="top: 90px;">
+      <div class="anno-dot"></div>
+      <div class="anno-line"></div>
+      <div class="anno-text">数据一览</div>
+    </div>
+    <div class="annotation anno-right" style="top: 210px;">
+      <div class="anno-dot"></div>
+      <div class="anno-line"></div>
+      <div class="anno-text">本期按语</div>
+    </div>
+    <div class="annotation anno-right" style="top: 350px;">
+      <div class="anno-dot"></div>
+      <div class="anno-line"></div>
+      <div class="anno-text">主题分布</div>
+    </div>
+    <div class="annotation anno-right" style="top: 520px;">
+      <div class="anno-dot"></div>
+      <div class="anno-line"></div>
+      <div class="anno-text">文献卡片</div>
+    </div>
+  </div>
+
+  <div class="p1-caption">界面实拍 · 首页全景</div>
+
+  <div class="p1-info-row">
+    <div class="info-col">
+      <div class="info-title">信息来源</div>
+      <div class="info-list">
+        ECGI · Harvard Forum<br>
+        Oxford OBLB · ProMarket<br>
+        Columbia CLS · Yale JREG<br>
+        NY Fed · ECB · BoE · BWI · Jotwell
+      </div>
+      <div class="info-foot">十一家欧美法金研究与评论机构</div>
+    </div>
+    <div class="info-col">
+      <div class="info-title">友情链接</div>
+      <div class="info-list">
+        中国政法大学法与经济学研究院<br>
+        UCL Faculty of Laws<br>
+        厦门大学法学院<br>
+        Freie Universität Berlin
+      </div>
+      <div class="info-foot">四所国内外顶尖法学院</div>
+    </div>
+  </div>
+
+  <div class="p1-bottom-text">写给法学研究者、学生与法律人的每周读物</div>
+
+  <div class="pagenum">01 · 共 3 张</div>
+</div>
+
+<!-- ==================== POSTER 2 ==================== -->
+<div class="poster2">
+  <div class="p2-top">
+    <div class="p2-eyebrow">功 能 一 览</div>
+    <div class="p2-title">四大功能，一站配齐。</div>
+    <div class="p2-sub">界面实拍，所见即所得。</div>
+    <div class="accent-line"></div>
+  </div>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="fc-head">
+        <div class="fc-square"></div>
+        <div class="fc-num">01</div>
+      </div>
+      <div class="fc-title">本期按语</div>
+      <div class="fc-desc">每期一段趋势概括，先读大势再读文献。</div>
+      <div class="fc-img">
+        <img src="xhs-assets/top_section.png" style="height: 180px; object-fit: cover; object-position: top;">
+      </div>
+    </div>
+
+    <div class="feature-card">
+      <div class="fc-head">
+        <div class="fc-square"></div>
+        <div class="fc-num">02</div>
+      </div>
+      <div class="fc-title">文献卡片</div>
+      <div class="fc-desc">摘要、标签、作者机构，中英对照一次给齐。</div>
+      <div class="fc-img">
+        <img src="xhs-assets/article_cards.png" style="height: 180px; object-fit: cover; object-position: top;">
+      </div>
+    </div>
+
+    <div class="feature-card">
+      <div class="fc-head">
+        <div class="fc-square"></div>
+        <div class="fc-num">03</div>
+      </div>
+      <div class="fc-title">主题词云</div>
+      <div class="fc-desc">学界在讨论什么，一眼即知。</div>
+      <div class="fc-img" style="padding: 24px; background: #faf8f3; display: flex; align-items: center; justify-content: center; height: 180px;">
+        <div style="position: relative; width: 100%; height: 100%;">
+          <span style="position: absolute; top: 10px; left: 10px; font-size: 22px; font-weight: bold; color: #1b365d; font-family: 'Cambria', serif;">Governance</span>
+          <span style="position: absolute; top: 40px; right: 20px; font-size: 16px; color: #2c5282; font-family: 'Cambria', serif;">ESG</span>
+          <span style="position: absolute; top: 70px; left: 40px; font-size: 26px; font-weight: bold; color: #1b365d; font-family: 'Cambria', serif;">Banking</span>
+          <span style="position: absolute; top: 95px; right: 10px; font-size: 14px; color: #5a6f8a; font-family: 'Cambria', serif;">M&amp;A</span>
+          <span style="position: absolute; bottom: 30px; left: 20px; font-size: 20px; color: #b7791f; font-family: 'Cambria', serif;">Antitrust</span>
+          <span style="position: absolute; bottom: 10px; right: 30px; font-size: 18px; color: #8b0014; font-family: 'Cambria', serif;">FinTech</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-card">
+      <div class="fc-head">
+        <div class="fc-square"></div>
+        <div class="fc-num">04</div>
+      </div>
+      <div class="fc-title">检索筛选</div>
+      <div class="fc-desc">信源与主题双筛，秒级定位文献。</div>
+      <div class="fc-img" style="padding: 20px; background: #faf8f3; display: flex; justify-content: center; height: 180px;">
+        <img src="xhs-assets/sidebar.png" style="height: 100%; width: auto; border-radius: 6px;">
+      </div>
+    </div>
+  </div>
+
+  <div class="p2-next">下一张 · 为什么值得一藏</div>
+
+  <div class="pagenum">02 · 共 3 张</div>
+</div>
+
+<!-- ==================== POSTER 3 ==================== -->
+<div class="poster3">
+  <div class="p3-top">
+    <div class="p3-eyebrow">为 什 么 值 得 一 藏</div>
+    <div class="p3-title">每周十分钟，读懂全球法金。</div>
+    <div class="accent-line"></div>
+  </div>
+
+  <div class="value-items">
+    <div class="value-item">
+      <div class="vi-num">01</div>
+      <div class="vi-content">
+        <div class="vi-title">中文摘要</div>
+        <div class="vi-desc">用母语读遍牛津、哈佛、耶鲁、纽联储、欧央行的研究现场，法律学术语言，准确不意译。</div>
+      </div>
+    </div>
+    <div class="value-item">
+      <div class="vi-num">02</div>
+      <div class="vi-content">
+        <div class="vi-title">主题归档</div>
+        <div class="vi-desc">五大领域分类，公司治理 / 金融监管 / 反垄断 / 科技数据与AI，写作选题随取随用。</div>
+      </div>
+    </div>
+    <div class="value-item">
+      <div class="vi-num">03</div>
+      <div class="vi-content">
+        <div class="vi-title">周报成书</div>
+        <div class="vi-desc">每期自动汇编 Markdown 周报，可下载、可回溯、可分享，一期不落。</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="audience-section">
+    <div class="audience-title">适 合 这 样 的 你</div>
+    <div class="audience-buttons">
+      <div class="audience-btn">写论文、找选题的研究者</div>
+      <div class="audience-btn">跟踪监管动态的律师</div>
+      <div class="audience-btn">备课找案例的法学老师</div>
+    </div>
+  </div>
+
+  <div class="cta-card">
+    <div class="cta-title">前沿不等人，每周一见。</div>
+    <div class="cta-url">calcium1999-cloud.github.io/commercial-law-trends</div>
+    <div class="cta-sub">无需注册 · 浏览器打开即读</div>
+  </div>
+
+  <div class="p3-end">
+    <div class="p3-end-title">法律与金融研究动向</div>
+    <div class="p3-end-sub">学术前沿 · 每周追踪</div>
+  </div>
+
+  <div class="pagenum">03 · 共 3 张</div>
+</div>
+
+</body>
+</html>
