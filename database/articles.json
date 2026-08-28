@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-08-27",
+    "last_updated": "2026-08-28",
     "version": "1.0"
   },
   "sources": [
@@ -436,19 +436,47 @@
     {
       "id": "2026-08-27",
       "date": "2026-08-27",
-      "period_start": "2026-08-25",
+      "period_start": "2026-08-26",
       "period_end": "2026-08-27",
       "title": "商业法律研究动向",
       "summary": "本周十一大来源共新增3篇文章。",
       "trends": [
-        "本周十一大来源共新增3篇文章，来自OBLB、ProMarket，主题分布以公司治理（2篇）、金融监管（1篇）为主。",
-        "公司治理领域新增2篇，来自OBLB。本期重点议题包括Saxon Woods Investments Ltd v Costa 案：对独断董事的警示；为什么预测市场和证券市场需要不同的监管优先级。",
-        "金融监管领域新增1篇，来自ProMarket。本期重点议题包括你的401(k)正在支撑AI泡沫。"
+        "本周十一大来源共新增3篇文章，来自OBLB、ProMarket，主题分布以公司治理（1篇）、金融监管（1篇）、反垄断（1篇）为主。",
+        "公司治理领域新增1篇，来自OBLB。本期重点议题包括Saxon Woods Investments Ltd v Costa: A Warning to 。",
+        "金融监管领域新增2篇，来自OBLB。本期重点议题包括Saxon Woods Investments Ltd v Costa: A Warning to ；Why Prediction Markets and Securities Markets Requ。",
+        "反垄断领域新增2篇，来自OBLB、ProMarket。本期重点议题包括Why Prediction Markets and Securities Markets Requ；Your 401(k) Is Propping Up the AI Bubble。",
+        "科技、数据与AI领域新增1篇，来自ProMarket。本期重点议题包括Your 401(k) Is Propping Up the AI Bubble。"
       ],
       "article_ids": [
         "art_215",
         "art_216",
         "art_217"
+      ]
+    },
+    {
+      "id": "2026-08-28",
+      "date": "2026-08-28",
+      "period_start": "2026-08-28",
+      "period_end": "2026-08-28",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增8篇文章。",
+      "trends": [
+        "本周十一大来源共新增8篇文章，来自ECGI、OBLB、ProMarket、BoE，主题分布以公司治理（3篇）、金融监管（3篇）、科技、数据与AI（1篇）为主。",
+        "公司治理领域新增4篇，来自ECGI、ProMarket。本期重点议题包括Asset Manager Capture；Corporate Governance Scandals in India's Banking a；Can Purpose Survive the Buyer in M&A? The Structur等。",
+        "金融监管领域新增4篇，来自OBLB、ECGI、BoE。本期重点议题包括Corporate Governance Scandals in India's Banking a；UK High Court confirms administrators can prioriti；Decentralization: The Search for a Legal Definitio等。",
+        "科技、数据与AI领域新增4篇，来自OBLB、ECGI、BoE、ProMarket。本期重点议题包括Can Purpose Survive the Buyer in M&A? The Structur；Decentralization: The Search for a Legal Definitio；Consumers Prefer AI Music Until They’re Told It’s 等。",
+        "其他领域新增1篇，来自BoE。本期重点议题包括Is UK productivity growth low? A historical and cr。",
+        "本周BWI来源无法访问，未完成抓取。"
+      ],
+      "article_ids": [
+        "art_218",
+        "art_219",
+        "art_220",
+        "art_221",
+        "art_222",
+        "art_223",
+        "art_224",
+        "art_225"
       ]
     }
   ],
@@ -476,7 +504,15 @@
       ],
       "url": "https://www.ecgi.global/publications/working-papers/should-directors-control-reporting-frequency",
       "type": "working_paper",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "mandatory disclosure",
+        "quarterly reporting",
+        "semiannual reporting",
+        "SEC",
+        "agency costs"
+      ]
     },
     {
       "id": "art_002",
@@ -500,7 +536,14 @@
       ],
       "url": "https://www.ecgi.global/publications/working-papers/ciscos-consequences-for-caremark",
       "type": "working_paper",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Caremark",
+        "ESG",
+        "corporate governance",
+        "human rights litigation"
+      ]
     },
     {
       "id": "art_003",
@@ -524,7 +567,14 @@
       ],
       "url": "https://www.ecgi.global/publications/working-papers/pay-versus-performance-and-investor-voting-decisions",
       "type": "working_paper",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC disclosures",
+        "pay-for-performance",
+        "executive compensation",
+        "information processing costs"
+      ]
     },
     {
       "id": "art_004",
@@ -548,7 +598,15 @@
       ],
       "url": "https://www.ecgi.global/publications/blog/second-chances-in-the-boardroom-reputation-pardons-and-the-limits-of-perpetual",
       "type": "blog",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "reputation",
+        "criminal record",
+        "board eligibility",
+        "pardons",
+        "Brazil"
+      ]
     },
     {
       "id": "art_005",
@@ -573,7 +631,15 @@
       ],
       "url": "https://www.ecgi.global/publications/blog/the-red-card-football-can-show-infantino",
       "type": "blog",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "FIFA",
+        "association law",
+        "board removal",
+        "voting rights",
+        "governance"
+      ]
     },
     {
       "id": "art_006",
@@ -597,7 +663,15 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/20/international-sustainability-reporting-divergence-and-equivalence/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "CSRD",
+        "ESRS",
+        "ISSB",
+        "double materiality",
+        "equivalence"
+      ]
     },
     {
       "id": "art_007",
@@ -623,7 +697,16 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/20/what-sustainability-disclosures-actually-disclose/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "sustainability disclosure",
+        "ESG",
+        "GRI",
+        "SASB",
+        "TCFD",
+        "LLM"
+      ]
     },
     {
       "id": "art_008",
@@ -646,7 +729,14 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/20/chancery-finds-potential-liability-for-blocking-company-financings-despite-contractual-veto-rights/",
       "type": "blog",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Zync v. Porsche",
+        "fiduciary duty",
+        "contract veto rights",
+        "aiding and abetting"
+      ]
     },
     {
       "id": "art_009",
@@ -671,7 +761,16 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/19/the-secs-registered-offering-reform-proposal-expanding-access-to-public-capital-markets/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Form S-3",
+        "Form S-1",
+        "WKSI",
+        "ELI",
+        "SELI",
+        "IPO"
+      ]
     },
     {
       "id": "art_010",
@@ -694,7 +793,14 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/18/comment-letter-on-the-secs-proposal-to-replace-quarterly-reporting-with-semiannual-reporting-5/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "semiannual reporting",
+        "Form 10-S",
+        "Rule 10b5-1",
+        "Eli Lilly"
+      ]
     },
     {
       "id": "art_011",
@@ -716,7 +822,13 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/17/statement-by-chair-atkins-on-regulation-e-delivery/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Regulation E-Delivery",
+        "electronic delivery",
+        "SEC"
+      ]
     },
     {
       "id": "art_012",
@@ -741,7 +853,15 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/16/2026-say-on-pay-trends/",
       "type": "blog",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Say-on-Pay",
+        "executive compensation",
+        "ISS",
+        "Glass Lewis",
+        "proxy season 2026"
+      ]
     },
     {
       "id": "art_013",
@@ -764,7 +884,14 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/16/quarterly-sec-round-up-q2/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC roundup",
+        "semiannual reporting",
+        "FPI",
+        "climate disclosure"
+      ]
     },
     {
       "id": "art_014",
@@ -788,7 +915,14 @@
       ],
       "url": "https://corpgov.law.harvard.edu/2026/07/15/sec-chairman-signals-reassessment-of-rule-14a-8-regime/",
       "type": "blog",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Rule 14a-8",
+        "shareholder proposals",
+        "Regulation S-K",
+        "Atkins agenda"
+      ]
     },
     {
       "id": "art_015",
@@ -811,7 +945,14 @@
       ],
       "url": "https://www.promarket.org/2026/07/20/firm-coordination-creates-unstable-merger-waves/",
       "type": "blog",
-      "primary_topic": "antitrust"
+      "primary_topic": "antitrust",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "merger waves",
+        "coordination equilibrium",
+        "antitrust",
+        "R&D policy"
+      ]
     },
     {
       "id": "art_016",
@@ -834,7 +975,14 @@
       ],
       "url": "https://www.promarket.org/2026/07/17/how-oxycontin-and-the-opioid-epidemic-reshaped-american-communities/",
       "type": "blog",
-      "primary_topic": "other"
+      "primary_topic": "other",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "OxyContin",
+        "opioid epidemic",
+        "marketing strategy",
+        "demographic change"
+      ]
     },
     {
       "id": "art_017",
@@ -857,7 +1005,14 @@
       ],
       "url": "https://www.promarket.org/2026/07/16/the-draft-merger-guidelines-must-make-more-explicit-the-eus-constitutional-values/",
       "type": "blog",
-      "primary_topic": "antitrust"
+      "primary_topic": "antitrust",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "EU Merger Guidelines",
+        "constitutional values",
+        "media pluralism",
+        "EMFA"
+      ]
     },
     {
       "id": "art_018",
@@ -880,7 +1035,14 @@
       ],
       "url": "https://www.promarket.org/2026/07/15/what-economists-are-missing-about-ai/",
       "type": "blog",
-      "primary_topic": "tech_data_ai"
+      "primary_topic": "tech_data_ai",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AI economic impact",
+        "productivity",
+        "job displacement",
+        "workflow completeness"
+      ]
     },
     {
       "id": "art_019",
@@ -904,7 +1066,15 @@
       ],
       "url": "https://www.promarket.org/2026/07/14/presidential-control-of-independent-agencies-has-a-price/",
       "type": "blog",
-      "primary_topic": "other"
+      "primary_topic": "other",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Trump v. Slaughter",
+        "independent agencies",
+        "removal protection",
+        "partisan balance",
+        "event study"
+      ]
     },
     {
       "id": "art_020",
@@ -927,7 +1097,14 @@
       ],
       "url": "https://www.promarket.org/2026/07/13/bank-mergers-arent-raising-your-mortgage-rate/",
       "type": "blog",
-      "primary_topic": "antitrust"
+      "primary_topic": "antitrust",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "bank mergers",
+        "mortgage rates",
+        "HMDA",
+        "antitrust"
+      ]
     },
     {
       "id": "art_021",
@@ -950,7 +1127,14 @@
       ],
       "url": "https://www.promarket.org/2026/07/10/dynamic-competition-is-also-a-pro-enforcement-framework/",
       "type": "blog",
-      "primary_topic": "antitrust"
+      "primary_topic": "antitrust",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "dynamic competition",
+        "EU Merger Guidelines",
+        "innovation competition",
+        "antitrust enforcement"
+      ]
     },
     {
       "id": "art_022",
@@ -974,7 +1158,15 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/20/why-we-need-mutual-fund-boilerplate/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "mutual fund disclosure",
+        "boilerplate",
+        "prospectus",
+        "TF-IDF",
+        "n-gram similarity"
+      ]
     },
     {
       "id": "art_023",
@@ -997,7 +1189,14 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/20/arnold-porter-discusses-proposed-fdic-overhaul-of-confidential-information-regulations/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "FDIC",
+        "Confidential Supervisory Information",
+        "disclosure",
+        "banking regulation"
+      ]
     },
     {
       "id": "art_024",
@@ -1022,7 +1221,15 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/17/the-documentation-paradox-ai-and-the-corporate-duty-to-record/",
       "type": "blog",
-      "primary_topic": "tech_data_ai"
+      "primary_topic": "tech_data_ai",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AI",
+        "documentation duty",
+        "Caremark",
+        "attorney-client privilege",
+        "spoliation"
+      ]
     },
     {
       "id": "art_025",
@@ -1044,7 +1251,13 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/17/sec-commissioner-peirce-discusses-proposed-regulation-e-delivery/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Regulation E-Delivery",
+        "Hester Peirce",
+        "SEC"
+      ]
     },
     {
       "id": "art_026",
@@ -1068,7 +1281,15 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/16/how-misinformation-is-muddying-the-dexit-debate/",
       "type": "blog",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Dexit",
+        "Nevada",
+        "Texas",
+        "corporate law competition",
+        "特拉华州"
+      ]
     },
     {
       "id": "art_027",
@@ -1092,7 +1313,15 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/16/cleary-gottlieb-discusses-secs-2026-rulemaking-agenda/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC rulemaking agenda",
+        "Atkins",
+        "deregulation",
+        "IPO",
+        "crypto"
+      ]
     },
     {
       "id": "art_028",
@@ -1115,7 +1344,14 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/15/against-corporate-contractualism/",
       "type": "blog",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporate contractarianism",
+        "Jensen & Meckling",
+        "agency cost",
+        "nexus of contracts"
+      ]
     },
     {
       "id": "art_029",
@@ -1138,7 +1374,14 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/15/skadden-discusses-sec-plan-to-amend-investment-adviser-pay-to-play-rule/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "pay-to-play",
+        "Rule 206(4)-5",
+        "investment adviser",
+        "SEC"
+      ]
     },
     {
       "id": "art_030",
@@ -1161,7 +1404,14 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/14/stock-as-currency/",
       "type": "blog",
-      "primary_topic": "corporate_governance"
+      "primary_topic": "corporate_governance",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "IPO",
+        "acquisition currency",
+        "SpaceX",
+        "stock-for-stock M&A"
+      ]
     },
     {
       "id": "art_031",
@@ -1184,7 +1434,14 @@
       ],
       "url": "https://clsbluesky.law.columbia.edu/2026/07/13/sustainability-assurance/",
       "type": "blog",
-      "primary_topic": "financial_regulation"
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "sustainability assurance",
+        "green gatekeepers",
+        "ESG",
+        "audit regulation"
+      ]
     },
     {
       "id": "art_032",
@@ -1207,7 +1464,14 @@
       ],
       "url": "https://www.yalejreg.com/nc/ad-law-reading-room-the-case-for-administrative-law-pluralism-by-menand-and-rosenblum/",
       "type": "blog",
-      "primary_topic": "other"
+      "primary_topic": "other",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "administrative law pluralism",
+        "trans-substantivity",
+        "Roberts Court",
+        "Loper Bright"
+      ]
     },
     {
       "id": "art_033",
@@ -1230,7 +1494,14 @@
       ],
       "url": "https://www.yalejreg.com/nc/little-lambs-to-the-slaughter-rethinking-federal-officer-liability-by-alisa-klein/",
       "type": "blog",
-      "primary_topic": "other"
+      "primary_topic": "other",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "federal officer liability",
+        "Trump v. Slaughter",
+        "qualified immunity",
+        "Bivens"
+      ]
     },
     {
       "id": "art_034",
@@ -1252,7 +1523,13 @@
       ],
       "url": "https://www.yalejreg.com/nc/comparative-administrative-law-new-scholarship-corner-may-2026/",
       "type": "blog",
-      "primary_topic": "other"
+      "primary_topic": "other",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "comparative administrative law",
+        "scholarship corner",
+        "regulatory pluralism"
+      ]
     },
     {
       "id": "art_035",
@@ -1276,7 +1553,15 @@
       ],
       "url": "https://www.yalejreg.com/nc/legal-and-practical-independence-after-slaughter-and-cook/",
       "type": "blog",
-      "primary_topic": "other"
+      "primary_topic": "other",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Slaughter",
+        "Cook",
+        "unitary executive",
+        "removal protection",
+        "Federal Reserve"
+      ]
     },
     {
       "id": "art_036",
@@ -1301,7 +1586,15 @@
       ],
       "url": "https://www.yalejreg.com/nc/a-procedural-framework-for-frontier-ai-cyber-risk-convenings-the-case-of-anthropics-project-glasswing/",
       "type": "blog",
-      "primary_topic": "tech_data_ai"
+      "primary_topic": "tech_data_ai",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "frontier AI",
+        "cybersecurity",
+        "Project Glasswing",
+        "Anthropic",
+        "Caremark"
+      ]
     },
     {
       "id": "art_037",
@@ -1324,7 +1617,14 @@
       ],
       "url": "https://www.yalejreg.com/nc/the-unitary-executives-collision-course/",
       "type": "blog",
-      "primary_topic": "other"
+      "primary_topic": "other",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "NAACP v. xAI",
+        "unitary executive",
+        "citizen suits",
+        "Clean Air Act"
+      ]
     },
     {
       "report_id": "2026-07-22",
@@ -1349,7 +1649,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/21/governance-proposals-dominate-the-2026-proxy-season/",
       "type": "blog",
-      "id": "art_038"
+      "id": "art_038",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "proxy season 2026",
+        "shareholder proposals",
+        "independent board chair",
+        "SEC SLB 14M",
+        "governance proposals"
+      ]
     },
     {
       "report_id": "2026-07-22",
@@ -1373,7 +1681,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/21/disclosure-schedules-are-a-waste-of-money/",
       "type": "blog",
-      "id": "art_039"
+      "id": "art_039",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "disclosure schedules",
+        "M&A",
+        "public company deals",
+        "merger agreements",
+        "due diligence"
+      ]
     },
     {
       "report_id": "2026-07-22",
@@ -1399,7 +1715,16 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/07/21/aicoa-ii-is-americas-reverse-industrial-policy-initiative/",
       "type": "blog",
-      "id": "art_040"
+      "id": "art_040",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AICOA",
+        "antitrust",
+        "Big Tech",
+        "self-preferencing",
+        "interoperability",
+        "industrial policy"
+      ]
     },
     {
       "report_id": "2026-07-22",
@@ -1426,7 +1751,18 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/21/shadow-sec-statement-no-11-the-sec-offering-reform-proposals/",
       "type": "blog",
-      "id": "art_041"
+      "id": "art_041",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC offering reform",
+        "Form S-3",
+        "WKSI",
+        "ELI",
+        "SELI",
+        "shelf registration",
+        "market efficiency",
+        "investor protection"
+      ]
     },
     {
       "report_id": "2026-07-22",
@@ -1451,7 +1787,16 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/the-right-to-raise-due-process-defenses-in-cfius-enforcement-actions/",
       "type": "blog",
-      "id": "art_042"
+      "id": "art_042",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "CFIUS",
+        "due process",
+        "Suirui",
+        "divestment order",
+        "national security",
+        "Yakus"
+      ]
     },
     {
       "report_id": "2026-07-22",
@@ -1478,7 +1823,18 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/22/sec-chair-atkins-speaks-at-the-small-business-capital-formation-advisory-committee-meeting/",
       "type": "blog",
-      "id": "art_043"
+      "id": "art_043",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC",
+        "Atkins",
+        "IPO",
+        "capital formation",
+        "semiannual reporting",
+        "registered offering reform",
+        "filer status",
+        "climate disclosure"
+      ]
     },
     {
       "report_id": "2026-07-22",
@@ -1507,7 +1863,19 @@
       "primary_topic": "corporate_governance",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/can-eu-inc-keep-secret-disclosure-opacity-and-competitive-logic-startup-law",
       "type": "blog",
-      "id": "art_044"
+      "id": "art_044",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "EU Inc",
+        "disclosure",
+        "opacity",
+        "startup law",
+        "competitiveness",
+        "特拉华州",
+        "Accounting Directive",
+        "AML Directive",
+        "venture capital"
+      ]
     },
     {
       "report_id": "2026-07-22",
@@ -1535,7 +1903,18 @@
       "primary_topic": "financial_regulation",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/stablecoin-yield-prohibition-and-rise-tokenized-treasury-funds-regulatory",
       "type": "blog",
-      "id": "art_045"
+      "id": "art_045",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "stablecoin",
+        "tokenized treasury funds",
+        "MiCA",
+        "GENIUS Act",
+        "regulatory arbitrage",
+        "crypto regulation",
+        "DeFi",
+        "BlackRock BUIDL"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1560,7 +1939,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/are-bidder-initiated-takeovers-opportunistic",
       "type": "blog",
-      "id": "art_046"
+      "id": "art_046",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "takeovers",
+        "mergers and acquisitions",
+        "stock financing",
+        "adverse selection",
+        "rational payment design",
+        "bidder opportunism"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1585,7 +1973,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/rollover-risk-not-maturity-decides-which-deals-happen",
       "type": "blog",
-      "id": "art_047"
+      "id": "art_047",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "rollover risk",
+        "debt maturity",
+        "M&A financing",
+        "merger waves",
+        "all-cash bids",
+        "maturity overhang"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1610,7 +2007,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/buying-international-supply-chain-networks-through-domestic-ma",
       "type": "blog",
-      "id": "art_048"
+      "id": "art_048",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "supply chain resilience",
+        "M&A",
+        "tariffs",
+        "import-related mergers",
+        "supplier networks",
+        "trade policy"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1636,7 +2042,16 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/07/23/emission-impossible-corporate-climate-goals-moving-from-adoption-to-execution/",
       "type": "article",
-      "id": "art_049"
+      "id": "art_049",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporate climate goals",
+        "Scope 1/2/3 emissions",
+        "climate disclosure",
+        "AI energy demand",
+        "ESG execution",
+        "S&P 500"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1662,7 +2077,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/23/the-2026-shareholder-proposal-exclusion-experience-and-takeaways-for-the-2027-season/",
       "type": "article",
-      "id": "art_050"
+      "id": "art_050",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Rule 14a-8",
+        "shareholder proposal exclusion",
+        "SEC hands-off approach",
+        "no-action requests",
+        "advance notice bylaws",
+        "2027 proxy season"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1690,7 +2114,18 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/07/22/remarks-by-chair-atkins-on-revitalizing-public-markets-and-expanding-small-business-access-to-the-ipo-market/",
       "type": "article",
-      "id": "art_051"
+      "id": "art_051",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC",
+        "Atkins",
+        "IPO",
+        "capital formation",
+        "semiannual reporting",
+        "registered offering reform",
+        "filer status reform",
+        "climate disclosure"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1717,7 +2152,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/22/the-enduring-value-of-holding-ourselves-to-our-enduring-values-a-reflection-honoring-the-oecds-guidelines-for-multinational-enterprises-on-responsible-business-conduct/",
       "type": "article",
-      "id": "art_052"
+      "id": "art_052",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "OECD Guidelines",
+        "responsible business conduct",
+        "corporate governance",
+        "disclosure",
+        "workforce committees",
+        "AI governance",
+        "stakeholder capitalism"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1744,7 +2189,17 @@
       "primary_topic": "tech_data_ai",
       "url": "https://corpgov.law.harvard.edu/2026/07/22/are-ai-legal-chats-by-non-lawyer-officers-and-directors-discoverable/",
       "type": "article",
-      "id": "art_053"
+      "id": "art_053",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AI legal chats",
+        "attorney-client privilege",
+        "work product doctrine",
+        "discovery",
+        "officers and directors",
+        "ChatGPT",
+        "Claude"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1768,7 +2223,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/how-fit-and-proper-regulation-shapes-strategic-adaptability-eu-financial",
       "type": "blog",
-      "id": "art_054"
+      "id": "art_054",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "fit and proper",
+        "EU financial regulation",
+        "dynamic managerial capabilities",
+        "banking supervision",
+        "regulatory simplification"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1794,7 +2257,17 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/07/22/if-venture-capital-believes-merger-control-stymies-growth-they-have-the-resources-to-prove-it/",
       "type": "article",
-      "id": "art_055"
+      "id": "art_055",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "merger retrospectives",
+        "venture capital",
+        "Figma",
+        "Adobe",
+        "antitrust enforcement",
+        "Lina Khan",
+        "merger control"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1820,7 +2293,17 @@
       "primary_topic": "other",
       "url": "https://www.promarket.org/2026/07/23/faculty-campaign-contributions-reveal-a-homogeneous-academic-marketplace-of-ideas/",
       "type": "article",
-      "id": "art_056"
+      "id": "art_056",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "faculty ideology",
+        "campaign contributions",
+        "CFscore",
+        "viewpoint diversity",
+        "FIRE",
+        "higher education",
+        "marketplace of ideas"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1845,7 +2328,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/23/the-governance-payoff-of-board-refreshment/",
       "type": "blog",
-      "id": "art_057"
+      "id": "art_057",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "board refreshment",
+        "board diversity",
+        "CEO turnover-performance sensitivity",
+        "pay-for-performance",
+        "corporate governance",
+        "S&P 1500"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1872,7 +2364,17 @@
       "primary_topic": "other",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/23/wachtell-lipton-discusses-the-supreme-courts-business-docket-for-october-term-2025/",
       "type": "blog",
-      "id": "art_058"
+      "id": "art_058",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Supreme Court",
+        "October Term 2025",
+        "independent agencies",
+        "tariffs",
+        "merger retrospectives",
+        "securities law",
+        "antitrust"
+      ]
     },
     {
       "report_id": "2026-07-24",
@@ -1899,7 +2401,17 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.yalejreg.com/nc/non-security-crypto-investment-contracts-and-sec-compliance/",
       "type": "article",
-      "id": "art_059"
+      "id": "art_059",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "crypto regulation",
+        "investment contracts",
+        "SEC compliance",
+        "Howey test",
+        "broker-dealer",
+        "Project Crypto",
+        "digital commodities"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -1924,7 +2436,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/sticky-pricing-in-corporate-ma-bargaining",
       "type": "blog",
-      "id": "art_060"
+      "id": "art_060",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "M&A bargaining",
+        "price-first protocol",
+        "contract design",
+        "MAE clauses",
+        "SIGA v. PharmAthene",
+        "特拉华州"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -1950,7 +2471,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/when-takeovers-meet-github-users-productivity-takes-a-hit",
       "type": "blog",
-      "id": "art_061"
+      "id": "art_061",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "takeovers",
+        "knowledge workers",
+        "GitHub",
+        "productivity",
+        "layoff anxiety",
+        "Inevitable Disclosure Doctrine",
+        "MARC 2026"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -1974,7 +2505,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/activism-and-takeovers-friends-or-competitors",
       "type": "blog",
-      "id": "art_062"
+      "id": "art_062",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "shareholder activism",
+        "takeovers",
+        "managerial discipline",
+        "threat of intervention",
+        "MARC 2026"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2000,7 +2539,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/27/what-you-are-likely-to-hear-in-the-boardroom-external-forces-reshaping-executive-compensation/",
       "type": "article",
-      "id": "art_063"
+      "id": "art_063",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "executive compensation",
+        "SEC disclosure reform",
+        "Say-on-Pay",
+        "proxy advisory firms",
+        "AI proxy voting",
+        "compensation committee"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2025,7 +2573,16 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/07/27/narrow-supreme-court-ruling-allows-sec-to-obtain-disgorgement-but-leaves-questions-unresolved/",
       "type": "article",
-      "id": "art_064"
+      "id": "art_064",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC disgorgement",
+        "Sripetch v. SEC",
+        "Liu",
+        "equitable remedies",
+        "Seventh Amendment",
+        "securities enforcement"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2051,7 +2608,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/26/new-day-new-rules-five-key-aspects-of-amended-dgcl-section-144-and-section-220/",
       "type": "article",
-      "id": "art_065"
+      "id": "art_065",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "DGCL Section 144",
+        "DGCL Section 220",
+        "SB21",
+        "Delaware corporate law",
+        "controller transactions",
+        "books and records",
+        "safe harbors"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2076,7 +2643,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/25/delaware-chancery-clarifies-implied-covenant-limits/",
       "type": "blog",
-      "id": "art_066"
+      "id": "art_066",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "implied covenant of good faith",
+        "Delaware Chancery",
+        "contract gaps",
+        "Nemec",
+        "further assurances",
+        "third-party consent"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2103,7 +2679,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/disclosure-corporate-governance-tool-channels-and-challenges",
       "type": "blog",
-      "id": "art_067"
+      "id": "art_067",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "mandatory disclosure",
+        "corporate governance",
+        "SEC",
+        "materiality",
+        "cost-benefit analysis",
+        "AI and disclosure",
+        "Oxford Handbook"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2129,7 +2715,17 @@
       "primary_topic": "other",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/recognition-without-remedy-totalenergies-and-judicial-ceiling-corporate",
       "type": "blog",
-      "id": "art_068"
+      "id": "art_068",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "TotalEnergies",
+        "French Duty of Vigilance Law",
+        "scope 3 emissions",
+        "climate litigation",
+        "judicial restraint",
+        "Global South",
+        "corporate climate accountability"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2156,7 +2752,18 @@
       "primary_topic": "other",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/causation-contribution-totalenergies-decision-and-emergence-contribution",
       "type": "blog",
-      "id": "art_069"
+      "id": "art_069",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "contribution-based accountability",
+        "climate due diligence",
+        "UNGPs",
+        "OECD Guidelines",
+        "CSDDD",
+        "scope 3",
+        "leverage",
+        "environmental due diligence"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2182,7 +2789,17 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/07/24/when-competitors-share-owners-they-automate-more-and-hire-less/",
       "type": "blog",
-      "id": "art_070"
+      "id": "art_070",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "common ownership",
+        "automation",
+        "labor markets",
+        "institutional investors",
+        "innovation direction",
+        "wage bill internalization",
+        "antitrust"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2210,7 +2827,19 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/27/entityness-takeover-premiums-and-coases-error/",
       "type": "blog",
-      "id": "art_071"
+      "id": "art_071",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "takeover premium",
+        "Coase",
+        "theory of the firm",
+        "entityness",
+        "ECMH",
+        "CAPM",
+        "fair value",
+        "Delaware appraisal",
+        "DCF"
+      ]
     },
     {
       "report_id": "2026-07-28",
@@ -2237,7 +2866,18 @@
       "primary_topic": "other",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/27/davis-polk-discusses-dojs-most-recent-fcpa-case/",
       "type": "blog",
-      "id": "art_072"
+      "id": "art_072",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "FCPA enforcement",
+        "Scoular",
+        "cartels",
+        "TCOs",
+        "deferred prosecution agreement",
+        "DOJ priorities",
+        "Mexico",
+        "cross-border compliance"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2266,7 +2906,19 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/07/28/comment-letter-on-the-proposed-semiannual-reporting-rule/",
       "type": "blog",
-      "id": "art_073"
+      "id": "art_073",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC",
+        "Form 10-Q",
+        "Form 10-S",
+        "quarterly reporting",
+        "semiannual reporting",
+        "investor protection",
+        "agency costs",
+        "transparency",
+        "cost of capital"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2293,7 +2945,18 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/28/the-delaware-supreme-court-issues-a-3-2-split-decision-allowing-post-demand-evidence-to-be-admissible-in-section-220-actions/",
       "type": "blog",
-      "id": "art_074"
+      "id": "art_074",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Section 220",
+        "books and records",
+        "post-demand evidence",
+        "Delaware Supreme Court",
+        "Paramount Global",
+        "credible basis",
+        "DGCL amendments",
+        "shareholder inspection rights"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2320,7 +2983,18 @@
       "primary_topic": "other",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/soft-law-hard-liability-what-un-tax-convention-should-say-about-its-own",
       "type": "blog",
-      "id": "art_075"
+      "id": "art_075",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "UN Tax Convention",
+        "international tax cooperation",
+        "soft law",
+        "legal hierarchy",
+        "Pillar Two",
+        "GloBE",
+        "Vienna Convention on the Law of Treaties",
+        "Conference of State Parties"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2349,7 +3023,19 @@
       "primary_topic": "financial_regulation",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/acting-concert-and-notification-major-holdings-cjeu-requires-principle",
       "type": "blog",
-      "id": "art_076"
+      "id": "art_076",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "acting in concert",
+        "major holdings notification",
+        "CJEU",
+        "Transparency Directive",
+        "Valora",
+        "maximum harmonisation",
+        "Takeover Directive",
+        "French Commercial Code",
+        "agreement"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2378,7 +3064,19 @@
       "primary_topic": "tech_data_ai",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/board-oversight-ai-why-process-controls-may-not-be-enough",
       "type": "blog",
-      "id": "art_077"
+      "id": "art_077",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AI governance",
+        "董事会监督",
+        "process controls",
+        "functional continuity",
+        "EU AI Act",
+        "model updates",
+        "accountability",
+        "transparency",
+        "decision-making"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2405,7 +3103,18 @@
       "primary_topic": "corporate_governance",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/him-too-corporate-consequences-epstein-connections",
       "type": "blog",
-      "id": "art_078"
+      "id": "art_078",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Epstein",
+        "director networks",
+        "corporate misconduct",
+        "reputation risk",
+        "board composition",
+        "network analysis",
+        "norm contagion",
+        "event study"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2433,7 +3142,18 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/07/28/fears-of-anticompetitive-acquiescence-in-ai-copyright-do-not-survive-empiricism/",
       "type": "blog",
-      "id": "art_079"
+      "id": "art_079",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "anticompetitive acquiescence",
+        "AI copyright",
+        "fair use",
+        "licensing",
+        "input foreclosure",
+        "raising rivals' costs",
+        "litigation economics",
+        "patent trolls"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2461,7 +3181,19 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/29/401k-plans-are-a-poor-fit-for-private-markets/",
       "type": "blog",
-      "id": "art_080"
+      "id": "art_080",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "401(k)",
+        "private equity",
+        "DOL",
+        "retail investors",
+        "ERISA",
+        "fiduciary duty",
+        "target date funds",
+        "defined contribution plans",
+        "illiquidity"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2488,7 +3220,18 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/29/sullivan-cromwell-discusses-second-circuit-decision-on-breadth-of-pslra-stay/",
       "type": "blog",
-      "id": "art_081"
+      "id": "art_081",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "PSLRA",
+        "automatic stay",
+        "motion to dismiss",
+        "securities litigation",
+        "Second Circuit",
+        "expert discovery",
+        "class certification",
+        "Patel v. Philips"
+      ]
     },
     {
       "report_id": "2026-07-29",
@@ -2516,7 +3259,18 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/28/the-perverse-effect-of-corporate-leniency-programs/",
       "type": "blog",
-      "id": "art_082"
+      "id": "art_082",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporate leniency",
+        "DOJ enforcement",
+        "compliance programs",
+        "self-reporting",
+        "deterrence",
+        "corporate misconduct",
+        "societal corporate governance",
+        "prosecutorial discretion"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2540,7 +3294,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/nepotism-or-stewardship-what-ceo-successions-in-family-firms-really-tell",
       "type": "blog",
-      "id": "art_083"
+      "id": "art_083",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "family firms",
+        "CEO succession",
+        "corporate governance",
+        "stewardship",
+        "professionalization"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2564,7 +3326,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/leave-the-family-firm-before-you-lead-it",
       "type": "blog",
-      "id": "art_084"
+      "id": "art_084",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "family firms",
+        "CEO succession",
+        "outside work experience",
+        "firm performance",
+        "Norway"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2588,7 +3358,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/who-gets-the-job-ceo-successions-in-family-firms",
       "type": "blog",
-      "id": "art_085"
+      "id": "art_085",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "family firms",
+        "CEO succession",
+        "succession planning",
+        "founder-CEO",
+        "gender"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2613,7 +3391,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/family-values",
       "type": "blog",
-      "id": "art_086"
+      "id": "art_086",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "family firms",
+        "values",
+        "gender",
+        "directors",
+        "corporate governance",
+        "diversity"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2637,7 +3424,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/30/anticipating-the-swing-of-the-corporate-responsibility-pendulum/",
       "type": "blog",
-      "id": "art_087"
+      "id": "art_087",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporate responsibility",
+        "business ethics",
+        "board governance",
+        "fiduciary duties",
+        "Sarbanes-Oxley"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2662,7 +3457,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/07/30/are-hints-disclosures-delaware-supreme-court-revives-ma-fraud-claim-despite-buyers-red-flags/",
       "type": "blog",
-      "id": "art_088"
+      "id": "art_088",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Delaware law",
+        "M&A",
+        "fraud",
+        "disclosure",
+        "red flags",
+        "anti-reliance"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2688,7 +3492,16 @@
       "primary_topic": "tech_data_ai",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/epistemic-contamination-corporate-insolvency-ai-hallucinations-under",
       "type": "blog",
-      "id": "art_089"
+      "id": "art_089",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AI hallucinations",
+        "corporate insolvency",
+        "digital evidence",
+        "India",
+        "algorithmic evidence",
+        "IBC"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2714,7 +3527,16 @@
       "primary_topic": "financial_regulation",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/statute-courtroom-are-climate-transition-plans-still-binding-after-omnibus",
       "type": "blog",
-      "id": "art_090"
+      "id": "art_090",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "climate transition plans",
+        "CSDDD",
+        "CSRD",
+        "Omnibus reform",
+        "EU disclosure",
+        "climate litigation"
+      ]
     },
     {
       "report_id": "2026-07-31",
@@ -2739,7 +3561,16 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/30/the-case-for-more-disaggregated-labor-cost-disclosure/",
       "type": "blog",
-      "id": "art_091"
+      "id": "art_091",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "labor cost disclosure",
+        "FASB",
+        "DISE",
+        "income statement",
+        "financial reporting",
+        "disaggregation"
+      ]
     },
     {
       "report_id": "2026-08-03",
@@ -2765,7 +3596,16 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/08/02/petition-on-sec-rule-14a-8-reform/",
       "type": "blog",
-      "id": "art_092"
+      "id": "art_092",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC",
+        "Rule 14a-8",
+        "shareholder proposals",
+        "no-action process",
+        "corporate governance",
+        "investor protection"
+      ]
     },
     {
       "report_id": "2026-08-03",
@@ -2791,7 +3631,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/01/what-you-are-likely-to-hear-in-the-boardroom-boardroom-decisions-shaping-compensation-strategy/",
       "type": "blog",
-      "id": "art_093"
+      "id": "art_093",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "executive compensation",
+        "compensation committee",
+        "PSU",
+        "ESG metrics",
+        "human capital",
+        "CEO succession",
+        "split leadership"
+      ]
     },
     {
       "report_id": "2026-08-03",
@@ -2818,7 +3668,17 @@
       "primary_topic": "tech_data_ai",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/tokenised-assets-emdes",
       "type": "blog",
-      "id": "art_094"
+      "id": "art_094",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "tokenisation",
+        "RWA",
+        "DLT",
+        "blockchain",
+        "EMDEs",
+        "financial regulation",
+        "digital assets"
+      ]
     },
     {
       "report_id": "2026-08-03",
@@ -2844,7 +3704,17 @@
       "primary_topic": "other",
       "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/07/lawfares-new-frontier-arbitration-shadow-sanctions",
       "type": "blog",
-      "id": "art_095"
+      "id": "art_095",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "international arbitration",
+        "sanctions",
+        "lawfare",
+        "Russia",
+        "Article 248",
+        "blocking statute",
+        "New York Convention"
+      ]
     },
     {
       "report_id": "2026-08-03",
@@ -2870,7 +3740,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/31/how-the-return-of-the-shareholder-state-affects-corporate-governance/",
       "type": "blog",
-      "id": "art_096"
+      "id": "art_096",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "state ownership",
+        "SOE",
+        "corporate governance",
+        "industrial policy",
+        "SASAC",
+        "Temasek",
+        "OECD Guidelines"
+      ]
     },
     {
       "report_id": "2026-08-03",
@@ -2897,7 +3777,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/07/31/lessons-from-frontier-industry-governance/",
       "type": "blog",
-      "id": "art_097"
+      "id": "art_097",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "DAO governance",
+        "digital assets",
+        "independent directors",
+        "frontier industry",
+        "AI governance",
+        "OpenAI",
+        "Anthropic"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -2921,7 +3811,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/how-corporate-scandals-reshaped-korean-corporate-law",
       "type": "blog",
-      "id": "art_098"
+      "id": "art_098",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporate scandals",
+        "Korea",
+        "duty of loyalty",
+        "minority shareholders",
+        "shareholder activism"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -2945,7 +3843,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/japans-corporate-scandals-reconsidered",
       "type": "blog",
-      "id": "art_099"
+      "id": "art_099",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporate scandals",
+        "Japan",
+        "third-party committee",
+        "independent directors",
+        "activism"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -2969,7 +3875,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/indonesias-corporate-scandal-playbook-for-soes",
       "type": "blog",
-      "id": "art_100"
+      "id": "art_100",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SOEs",
+        "corruption",
+        "Indonesia",
+        "political capture",
+        "business judgment rule"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -2993,7 +3907,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/malaysian-corporate-scandals-and-how-to-avoid-them",
       "type": "blog",
-      "id": "art_101"
+      "id": "art_101",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "1MDB",
+        "Malaysia",
+        "state-owned companies",
+        "disclosure",
+        "political economy"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3017,7 +3939,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/when-reputation-becomes-a-governance-risk-the-singapore-paradox",
       "type": "blog",
-      "id": "art_102"
+      "id": "art_102",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Singapore",
+        "reputation",
+        "Hyflux",
+        "Hin Leong",
+        "nominee directors"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3040,7 +3970,14 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/04/tracking-shareholder-proposals-and-company-exclusions-post-season-observations/",
       "type": "blog",
-      "id": "art_103"
+      "id": "art_103",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "shareholder proposals",
+        "no-action relief",
+        "代理季节",
+        "anti-ESG"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3063,7 +4000,14 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/04/iss-annual-policy-survey-signals-2027-changes-flexibility-on-the-horizon/",
       "type": "blog",
-      "id": "art_104"
+      "id": "art_104",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "ISS",
+        "proxy voting policies",
+        "say-on-pay",
+        "reincorporation"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3085,7 +4029,13 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/03/gaining-decision-leverage-with-ceo-progression-what-boards-ceos-and-chros-need-to-know/",
       "type": "blog",
-      "id": "art_105"
+      "id": "art_105",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "CEO succession",
+        "board planning",
+        "talent development"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3109,7 +4059,14 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/03/5-strategies-to-strengthen-corporate-governance/",
       "type": "blog",
-      "id": "art_106"
+      "id": "art_106",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AI proxy voting",
+        "disclosure",
+        "Regulation S-K",
+        "machine-readable"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3132,7 +4089,14 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/08/04/green-public-procurement-was-supposed-to-reduce-emissions-its-also-reducing-competition/",
       "type": "blog",
-      "id": "art_107"
+      "id": "art_107",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "green public procurement",
+        "Buy Clean",
+        "competition",
+        "market structure"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3156,7 +4120,15 @@
       "primary_topic": "tech_data_ai",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/04/ai-at-work-is-a-global-governance-stress-test/",
       "type": "blog",
-      "id": "art_108"
+      "id": "art_108",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AI governance",
+        "labor rights",
+        "ICESCR",
+        "ILO",
+        "algorithmic management"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3179,7 +4151,14 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/04/cleary-gottlieb-discusses-fourth-circuit-decision-on-class-certification-in-boeing-litigation/",
       "type": "blog",
-      "id": "art_109"
+      "id": "art_109",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "securities fraud",
+        "class certification",
+        "predominance",
+        "Boeing"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3203,7 +4182,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/03/going-long-on-social-impact-prediction-markets/",
       "type": "blog",
-      "id": "art_110"
+      "id": "art_110",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "prediction markets",
+        "ESG",
+        "social impact",
+        "corporate accountability",
+        "CFTC"
+      ]
     },
     {
       "report_id": "2026-08-05",
@@ -3227,7 +4214,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/03/wachtell-lipton-discusses-delaware-chancery-decision-on-public-benefit-corporations/",
       "type": "blog",
-      "id": "art_111"
+      "id": "art_111",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "public benefit corporation",
+        "Revlon",
+        "change of control",
+        "特拉华州",
+        "fiduciary duty"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3250,7 +4245,14 @@
       "primary_topic": "other",
       "url": "https://www.ecgi.global/publications/working-papers/the-myth-of-debtor-friendly-or-creditor-friendly-insolvency-systems",
       "type": "working_paper",
-      "id": "art_112"
+      "id": "art_112",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "破产",
+        "重整",
+        "债权人权利",
+        "全球破产指数"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3274,7 +4276,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/working-papers/who-initiates-takeovers",
       "type": "working_paper",
-      "id": "art_113"
+      "id": "art_113",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "收购",
+        "并购",
+        "交易发起",
+        "CEO激励",
+        "要约溢价"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3298,7 +4308,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/working-papers/splitting-caremarks-atom",
       "type": "working_paper",
-      "id": "art_114"
+      "id": "art_114",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Caremark",
+        "监督义务",
+        "公司合规",
+        "服从义务",
+        "董事会监督"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3322,7 +4340,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/working-papers/unpacking-board-model-choice-in-europe-a-multi-methods-approach",
       "type": "working_paper",
-      "id": "art_115"
+      "id": "art_115",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "董事会模式",
+        "单层制",
+        "双层制",
+        "欧洲公司法",
+        "随机森林"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3347,7 +4373,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/08/06/beyond-the-filing-calendar-the-questions-boards-must-ask-before-changing-reporting-cadence/",
       "type": "blog",
-      "id": "art_116"
+      "id": "art_116",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC",
+        "半年度报告",
+        "报告频率",
+        "董事会",
+        "审计委员会"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3370,7 +4404,14 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/08/06/sec-proposes-new-e-delivery-framework/",
       "type": "blog",
-      "id": "art_117"
+      "id": "art_117",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC",
+        "电子交付",
+        "信息披露",
+        "Regulation E-Delivery"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3394,7 +4435,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/05/2026-shareholder-proposal-trends/",
       "type": "blog",
-      "id": "art_118"
+      "id": "art_118",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "股东提案",
+        "代理季",
+        "ESG",
+        "人工智能",
+        "政治支出"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3418,7 +4467,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/05/delaware-court-of-chancery-issues-first-decision-addressing-public-benefit-corporations/",
       "type": "blog",
-      "id": "art_119"
+      "id": "art_119",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "公益公司",
+        "PBC",
+        "信义义务",
+        "特拉华",
+        "控制权出售"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3443,7 +4500,15 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/08/05/chilean-regulators-are-exploring-the-effects-of-a-no-exception-rule-against-most-favored-nation-clauses-in-digital-markets/",
       "type": "blog",
-      "id": "art_120"
+      "id": "art_120",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "最惠国条款",
+        "数字市场",
+        "智利",
+        "纵向限制",
+        "竞争执法"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3467,7 +4532,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/06/has-dodd-frank-improved-or-impeded-swap-markets/",
       "type": "blog",
-      "id": "art_121"
+      "id": "art_121",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "多德-弗兰克法案",
+        "互换",
+        "衍生品",
+        "金融监管",
+        "实证研究"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3490,7 +4563,14 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/06/skadden-discusses-second-circuit-decision-expanding-loss-causation-pleading-requirements/",
       "type": "blog",
-      "id": "art_122"
+      "id": "art_122",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "证券欺诈",
+        "损失因果关系",
+        "第二巡回法院",
+        "集体诉讼"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3514,7 +4594,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/05/insider-trading-in-connected-firms-during-trading-bans/",
       "type": "blog",
-      "id": "art_123"
+      "id": "art_123",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "内幕交易",
+        "交易禁令",
+        "关联公司",
+        "英国",
+        "市场滥用监管"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3538,7 +4626,15 @@
       "primary_topic": "other",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/05/sullivan-cromwell-discusses-first-doj-fraud-declination-under-new-corporate-enforcement-policy/",
       "type": "blog",
-      "id": "art_124"
+      "id": "art_124",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "司法部",
+        "公司执法政策",
+        "自愿自我披露",
+        "欺诈",
+        "不起诉"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3562,7 +4658,15 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/funding-ideologies-not-ideas-factions-not-facts/",
       "type": "blog",
-      "id": "art_125"
+      "id": "art_125",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "OMB",
+        "科研拨款",
+        "行政程序法",
+        "政治任命官员",
+        "择优评审"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3586,7 +4690,15 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/epistemic-humility-as-a-principle-of-adaptive-regulation/",
       "type": "blog",
-      "id": "art_126"
+      "id": "art_126",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "认知谦逊",
+        "适应性规制",
+        "哈耶克",
+        "日落条款",
+        "行政法"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3609,7 +4721,14 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/issue-vs-comment/",
       "type": "blog",
-      "id": "art_127"
+      "id": "art_127",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "行政程序法",
+        "通知评论程序",
+        "规则制定",
+        "司法审查"
+      ]
     },
     {
       "report_id": "2026-08-07",
@@ -3633,7 +4752,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/07/when-is-information-public-under-the-european-market-abuse-regulation/",
       "type": "blog",
-      "id": "art_128"
+      "id": "art_128",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "市场滥用条例",
+        "内幕信息",
+        "信息公开",
+        "欧盟法院",
+        "Brännelius案"
+      ]
     },
     {
       "report_id": "2026-08-10",
@@ -3659,7 +4786,16 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.ecgi.global/publications/working-papers/private-equitys-accountability-deficit-the-case-for-mandatory",
       "type": "working_paper",
-      "id": "art_129"
+      "id": "art_129",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "私募股权",
+        "证券监管",
+        "强制披露",
+        "并购",
+        "零售投资者",
+        "SEC"
+      ]
     },
     {
       "report_id": "2026-08-10",
@@ -3684,7 +4820,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/working-papers/do-esg-governance-ratings-reward-form-over-substance-evidence-from",
       "type": "working_paper",
-      "id": "art_130"
+      "id": "art_130",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "ESG评级",
+        "象征性治理",
+        "公司治理",
+        "薪酬委员会",
+        "治理质量"
+      ]
     },
     {
       "report_id": "2026-08-10",
@@ -3709,7 +4853,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/08/bye-bye-80s-its-time-to-revisit-the-exchange-ban-on-dual-class-companies-extending-sunsets/",
       "type": "blog_post",
-      "id": "art_131"
+      "id": "art_131",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "双重股权",
+        "日落条款",
+        "交易所上市规则",
+        "投票权",
+        "Nasdaq",
+        "信义义务"
+      ]
     },
     {
       "report_id": "2026-08-10",
@@ -3735,7 +4888,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/07/a-cross-section-of-company-statements-supporting-climate-action/",
       "type": "blog_post",
-      "id": "art_132"
+      "id": "art_132",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "气候变化",
+        "ESG披露",
+        "信义义务",
+        "绿色噤声",
+        "投资者信息",
+        "公司声明"
+      ]
     },
     {
       "report_id": "2026-08-10",
@@ -3760,7 +4922,16 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/slaughter-marked-the-end-of-administrative-agencies-independence-could-it-cripple-their-very-ability-to-operate-too/",
       "type": "blog_post",
-      "id": "art_133"
+      "id": "art_133",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Slaughter案",
+        "Humphrey's Executor",
+        "独立机构",
+        "可分性",
+        "行政法",
+        "Article II"
+      ]
     },
     {
       "report_id": "test-2026-08-11",
@@ -3783,7 +4954,14 @@
       "primary_topic": "corporate_governance",
       "url": "https://corp.jotwell.com/when-corporations-govern-matteo-gattis-timely-framework-for-understanding-corporate-power/",
       "type": "article",
-      "id": "art_134"
+      "id": "art_134",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporate power",
+        "corporate governance",
+        "book review",
+        "political economy"
+      ]
     },
     {
       "report_id": "test-2026-08-11",
@@ -3806,7 +4984,14 @@
       "primary_topic": "corporate_governance",
       "url": "https://corp.jotwell.com/protecting-the-interests-of-non-parties-in-corporate-governance/",
       "type": "article",
-      "id": "art_135"
+      "id": "art_135",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporate governance",
+        "shareholder agreements",
+        "non-parties",
+        "contract flexibility"
+      ]
     },
     {
       "report_id": "test-2026-08-11",
@@ -3830,7 +5015,14 @@
       "primary_topic": "financial_regulation",
       "url": "https://corp.jotwell.com/private-equity-retail-investors-and-litigation-risk/",
       "type": "article",
-      "id": "art_136"
+      "id": "art_136",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "private equity",
+        "retail investors",
+        "securities litigation",
+        "public-private divide"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -3854,7 +5046,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/working-papers/institutional-ownership-overstates-voting-power-the-allocation-of",
       "type": "working_paper",
-      "id": "art_137"
+      "id": "art_137",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "机构投资者",
+        "投票权",
+        "投票利用率",
+        "名义持股",
+        "管家职责"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -3879,7 +5079,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.ecgi.global/publications/blog/the-hidden-architecture-of-global-finance",
       "type": "blog",
-      "id": "art_138"
+      "id": "art_138",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "金融市场基础设施",
+        "中央对手方",
+        "结算终局性",
+        "代币化",
+        "地缘经济"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -3904,7 +5112,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.ecgi.global/publications/blog/leveraging-technology-for-capital-markets-development",
       "type": "blog",
-      "id": "art_139"
+      "id": "art_139",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "原子结算",
+        "T+1",
+        "结算终局性",
+        "分布式账本",
+        "破产安全港"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -3929,7 +5145,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.ecgi.global/publications/blog/asian-capital-markets-from-rapid-expansion-to-sustainable-value-creation",
       "type": "blog",
-      "id": "art_140"
+      "id": "art_140",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "亚洲资本市场",
+        "机构投资者",
+        "所有权集中度",
+        "估值折价",
+        "OECD"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -3953,7 +5177,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/08/11/secs-proposal-to-simplify-filer-status-for-public-companies-comment-from-chro-association/",
       "type": "blog",
-      "id": "art_141"
+      "id": "art_141",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC",
+        "申报人身份",
+        "高管薪酬披露",
+        "薪酬话语权",
+        "非加速申报人"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -3978,7 +5210,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/11/mas-employee-costs-and-labor-reallocation/",
       "type": "blog",
-      "id": "art_142"
+      "id": "art_142",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "并购",
+        "劳动力再配置",
+        "非自愿解雇",
+        "工资溢价",
+        "公司控制权市场"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4001,7 +5241,14 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/10/do-ceos-trust-their-boards-rras-leadership-confidence-index-finds-an-emerging-gap/",
       "type": "blog",
-      "id": "art_143"
+      "id": "art_143",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "CEO-董事会关系",
+        "董事会构成",
+        "董事会更新",
+        "领导力信心指数"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4025,7 +5272,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/08/10/judicial-review-of-sec-rulemaking/",
       "type": "blog",
-      "id": "art_144"
+      "id": "art_144",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC规则制定",
+        "司法审查",
+        "通知评论程序",
+        "诉讼风险",
+        "行政程序法"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4049,7 +5304,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/10/staying-alive-iss-continues-its-influence-on-2026-voting-outcomes/",
       "type": "blog",
-      "id": "art_145"
+      "id": "art_145",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "ISS",
+        "代理顾问",
+        "薪酬话语权",
+        "股东提案",
+        "2026代理季"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4073,7 +5336,15 @@
       "primary_topic": "other",
       "url": "https://www.promarket.org/2026/08/11/corporate-leaders-have-moved-left-but-the-money-hasnt-followed/",
       "type": "blog",
-      "id": "art_146"
+      "id": "art_146",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "企业政治支出",
+        "意识形态",
+        "董事与高管",
+        "竞选财务",
+        "觉醒资本主义"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4097,7 +5368,15 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/08/10/how-merger-review-should-extend-maverick-analysis-into-labor-markets/",
       "type": "blog",
-      "id": "art_147"
+      "id": "art_147",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "合并审查",
+        "劳动力市场",
+        "买方垄断",
+        "特立独行企业",
+        "2023合并指南"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4121,7 +5400,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/11/how-does-the-sec-respond-to-reputation-shocks/",
       "type": "blog",
-      "id": "art_148"
+      "id": "art_148",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC执法",
+        "官僚声誉",
+        "丑闻",
+        "事件研究",
+        "执法强度"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4145,7 +5432,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/10/shadow-sec-statement-no-12-the-secs-retreat-from-enforcement-and-the-special-case-of-mandatory-arbitration-clauses/",
       "type": "blog",
-      "id": "art_149"
+      "id": "art_149",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC执法",
+        "强制仲裁",
+        "集体诉讼",
+        "反弃权条款",
+        "多德-弗兰克法案"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4169,7 +5464,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/10/wachtell-lipton-discusses-delaware-decision-drawing-line-between-expert-and-arbitrator-in-earnout-disputes/",
       "type": "blog",
-      "id": "art_150"
+      "id": "art_150",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "或有对价",
+        "专家认定",
+        "仲裁",
+        "特拉华衡平法院",
+        "并购争议"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4193,7 +5496,15 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/beyond-psychedelics-what-executive-order-14401-signals-for-drug-regulation-and-innovation/",
       "type": "blog",
-      "id": "art_151"
+      "id": "art_151",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "行政令",
+        "FDA",
+        "药品监管",
+        "迷幻药",
+        "行政法"
+      ]
     },
     {
       "report_id": "2026-08-12",
@@ -4217,7 +5528,15 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/ad-law-reading-room-faithful-agencies-by-feinstein-freeman-jacobs/",
       "type": "blog",
-      "id": "art_152"
+      "id": "art_152",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "机构独立性",
+        "Slaughter案",
+        "忠诚结构",
+        "权力分立",
+        "制度设计"
+      ]
     },
     {
       "report_id": "2026-08-13",
@@ -4241,7 +5560,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/12/2026-say-on-pay-results-strong-overall-with-large-special-awards-common-among-low-vote-outcomes/",
       "type": "blog",
-      "id": "art_153"
+      "id": "art_153",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "薪酬话语权投票",
+        "高管薪酬",
+        "特别奖励",
+        "ISS",
+        "代理投票"
+      ]
     },
     {
       "report_id": "2026-08-13",
@@ -4265,7 +5592,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/12/legacies-lessons-and-launchpads-charting-delawares-course-in-a-new-era/",
       "type": "blog",
-      "id": "art_154"
+      "id": "art_154",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "特拉华公司法",
+        "特拉华最高法院",
+        "判例法",
+        "设立地竞争",
+        "DGCL"
+      ]
     },
     {
       "report_id": "2026-08-13",
@@ -4289,7 +5624,15 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/08/12/pay-for-half-offers-a-better-remedy-for-googles-search-monopoly/",
       "type": "blog",
-      "id": "art_155"
+      "id": "art_155",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "反垄断",
+        "Google",
+        "搜索垄断",
+        "救济设计",
+        "默认位"
+      ]
     },
     {
       "report_id": "2026-08-13",
@@ -4313,7 +5656,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/13/prediction-markets-need-informed-traders/",
       "type": "blog",
-      "id": "art_156"
+      "id": "art_156",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "预测市场",
+        "内幕交易",
+        "信息优势",
+        "市场操纵",
+        "Polymarket"
+      ]
     },
     {
       "report_id": "2026-08-13",
@@ -4337,7 +5688,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/13/cleary-gottlieb-discusses-secs-financial-reporting-and-accounting-unit-within-enforcement-division/",
       "type": "blog",
-      "id": "art_157"
+      "id": "art_157",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "SEC",
+        "财务报告欺诈",
+        "执法",
+        "会计",
+        "审计"
+      ]
     },
     {
       "report_id": "2026-08-13",
@@ -4362,7 +5721,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/12/accelerated-share-repurchases-corporate-governance-and-market-integrity/",
       "type": "blog",
-      "id": "art_158"
+      "id": "art_158",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "加速股份回购",
+        "Rule 10b-18",
+        "市场操纵",
+        "股东价值",
+        "轧空"
+      ]
     },
     {
       "report_id": "2026-08-13",
@@ -4386,7 +5753,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/12/sullivan-cromwell-discusses-proposed-revisions-to-rules-on-bank-lending-to-insiders/",
       "type": "blog",
-      "id": "art_159"
+      "id": "art_159",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Regulation O",
+        "美联储",
+        "内部人贷款",
+        "FDIC",
+        "Dodd-Frank"
+      ]
     },
     {
       "report_id": "2026-08-13",
@@ -4411,7 +5786,15 @@
       "primary_topic": "tech_data_ai",
       "url": "https://corp.jotwell.com/owning-the-ai-revolution/",
       "type": "blog",
-      "id": "art_160"
+      "id": "art_160",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "生成式AI",
+        "股权税",
+        "所有权与控制",
+        "公司法",
+        "税法"
+      ]
     },
     {
       "report_id": "2026-08-14",
@@ -4435,7 +5818,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/13/global-ceo-turnover-index/",
       "type": "blog",
-      "id": "art_161"
+      "id": "art_161",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "CEO继任",
+        "高管流动",
+        "董事会",
+        "内部任命",
+        "领导力稳定"
+      ]
     },
     {
       "report_id": "2026-08-14",
@@ -4459,7 +5850,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/13/the-sound-of-silence/",
       "type": "blog",
-      "id": "art_162"
+      "id": "art_162",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "sandbagging",
+        "并购合同",
+        "特拉华法",
+        "实证研究",
+        "法官律师沟通"
+      ]
     },
     {
       "report_id": "2026-08-14",
@@ -4485,7 +5884,16 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.yalejreg.com/nc/statute-by-statute-the-future-of-esg-after-loper-bright/",
       "type": "blog",
-      "id": "art_163"
+      "id": "art_163",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Loper Bright",
+        "ESG",
+        "ERISA",
+        "气候披露",
+        "行政法",
+        "SEC"
+      ]
     },
     {
       "report_id": "2026-08-14",
@@ -4505,7 +5913,11 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/14/how-corporate-ownership-concentration-differs-down-under/",
       "type": "blog",
-      "id": "art_164"
+      "id": "art_164",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "股权集中度; 超级年金; 机构投资者; 公司影响力市场; 比较公司治理"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4529,7 +5941,15 @@
       ],
       "primary_topic": "corporate_governance",
       "url": "https://ecgi.global/publications/working-papers/deprogramming-corporations",
-      "id": "art_165"
+      "id": "art_165",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "corporations",
+        "corporate governance",
+        "law and economics",
+        "law and political economy",
+        "social consequences"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4555,7 +5975,17 @@
       ],
       "primary_topic": "corporate_governance",
       "url": "https://ecgi.global/publications/working-papers/splitting-caremarks-atom",
-      "id": "art_166"
+      "id": "art_166",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Caremark",
+        "duty of oversight",
+        "corporate compliance",
+        "duty of obedience",
+        "agency costs",
+        "public enforcement",
+        "board monitoring"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4579,7 +6009,15 @@
       ],
       "primary_topic": "other",
       "url": "https://ecgi.global/publications/working-papers/the-myth-of-debtor-friendly-or-creditor-friendly-insolvency-systems",
-      "id": "art_167"
+      "id": "art_167",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "insolvency",
+        "restructuring",
+        "debtors",
+        "creditors",
+        "reorganization procedures"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4605,7 +6043,17 @@
       ],
       "primary_topic": "corporate_governance",
       "url": "https://ecgi.global/publications/working-papers/who-initiates-takeovers",
-      "id": "art_168"
+      "id": "art_168",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Takeover",
+        "Merger",
+        "Deal Initiation",
+        "Target Board",
+        "CEO Age",
+        "CEO Incentives",
+        "Offer Premium"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4629,7 +6077,15 @@
       ],
       "primary_topic": "corporate_governance",
       "url": "https://ecgi.global/publications/working-papers/unpacking-board-model-choice-in-europe-a-multi-methods-approach",
-      "id": "art_169"
+      "id": "art_169",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "board model",
+        "one-tier",
+        "two-tier",
+        "supervisory board",
+        "comparative corporate governance"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4652,7 +6108,14 @@
       ],
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/16/2026-proxy-season-cpa-political-disclosure-and-accountability-effort-maintains-strong-momentum/",
-      "id": "art_170"
+      "id": "art_170",
+      "abstract_cn": "2026 年代理投票季， CPA政治披露与问责提案在日益艰难的环境中仍获股东强支持。本季向 29家公司提交政治支出披露与董事会监督提案 ，其中 10家达成实施协议 ，进入表决的 12项平均支持率 31.7% ，虽有回落但优于同季几乎所有 ESG议题。尽管 SEC规则变更允许公司单方排除提案 ， 29家中仅 6家选择排除股东 ，显示退出 SEC程序并非支持者预期的完胜。 2025 CPA-Zicklin指数显示 S&P 500中 391家已全部或部分披露政治支出 ，较 2015年的 243家显著提升 ，股东参与是持续改进的主要驱动力。",
+      "keywords_cn": [
+        "股东提案",
+        "政治披露",
+        "董事会监督",
+        "代理季节"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4675,7 +6138,14 @@
       ],
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/15/debunking-five-investor-relations-fallacies-for-controlled-companies/",
-      "id": "art_171"
+      "id": "art_171",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "investor relations",
+        "controlled companies",
+        "shareholder activism",
+        "dual-class"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4698,7 +6168,14 @@
       ],
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/14/boardroom-catalysts-patterns-in-activist-director-selection/",
-      "id": "art_172"
+      "id": "art_172",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "shareholder activism",
+        "activist director",
+        "proxy contest",
+        "board representation"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4722,7 +6199,15 @@
       ],
       "primary_topic": "financial_regulation",
       "url": "https://www.promarket.org/2026/08/15/anatomy-of-a-supervisory-failure/",
-      "id": "art_173"
+      "id": "art_173",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "bank supervision",
+        "SVB",
+        "prudential regulation",
+        "held-to-maturity",
+        "CAMELS"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4748,7 +6233,16 @@
       ],
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/17/the-sec-opened-the-door-to-mandatory-shareholder-arbitration-will-companies-walk-through-it/",
-      "id": "art_174"
+      "id": "art_174",
+      "abstract_cn": "本文提出采纳之谜： SEC年政策转向 2025不再以含强制仲裁条款为由拒绝加速注册声明移除了上市公司股东仲裁的联邦行政壁垒 ，公司为何仍可能不采纳这一法律上可用、且能减少昂贵股东诉讼的机制 ？作者从制度均衡视角分析 ：特拉华衡平法院的判例法生产循环、机构投资者与代理顾问的反对、原告律师集团的抵制、以及得州与内华达等州的公司设立竞争共同构成约束。历史类比 （辩论 DExit双层股权从例外变为市场常态 ）显示 ，若高绩效公司率先采纳仲裁而未受市场惩罚 ，可能降低后续采纳者的声誉成本。结论是公司治理不只是法律上可允许的合同条款集合 ，而是监管者、法院、投资者、管理层与诉讼中介共同支撑的制度均衡。",
+      "keywords_cn": [
+        "强制公断 ,强制仲裁",
+        "股东诉讼",
+        "SEC",
+        "特拉华州",
+        "D退出",
+        "制度均衡"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4773,7 +6267,16 @@
       ],
       "primary_topic": "antitrust",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/17/paul-weiss-discusses-delaware-decision-ordering-specific-performance-of-2-35-billion-merger/",
-      "id": "art_175"
+      "id": "art_175",
+      "abstract_cn": "特拉华衡平法院在Verisk Analytics诉ExactLogix案 （副校长David主笔 ，判决于提交后仅四天作出 ）中裁定 ，买方终止与目标公司竞争对手的商业整合谈判构成故意行为 （故意行为） ，是反垄断交割条件未能成就的主因 （主要原因） ，故买方终止合并协议无效 ，命令其特定履行 ：继续推进 FTC反垄断批准并在获批后完成 23.5亿美元合并。法院认为故意行为仅需自愿且有意之行为，无须恶意 ； FTC基于市场重置 （市场重置）纵向封锁新理论要求全面遵守第二次请求。判决的实务要点 ：合并协议中行为与因果标准的措辞选择会产生实质后果 ；交易待决期间的商业决策可能被调查机关以竞争效果视角解读 ； FTC quick look二次请求的两阶段程序仍可能升级为全面合规。",
+      "keywords_cn": [
+        "Delaware Chancery",
+        "具体履行 ,强制履行,实际履行,依约履行",
+        "HSR",
+        "FTC",
+        "合并协议",
+        "故意行为"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4796,7 +6299,14 @@
       ],
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/void-where-not-prohibited-the-vacancy-at-the-heart-of-federal-vacancies-law/",
-      "id": "art_176"
+      "id": "art_176",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Federal Vacancies Reform Act",
+        "acting officers",
+        "administrative law",
+        "APA"
+      ]
     },
     {
       "report_id": "2026-08-17",
@@ -4821,7 +6331,15 @@
       ],
       "primary_topic": "tech_data_ai",
       "url": "https://www.yalejreg.com/nc/move-fast-and-delegate-things-can-a-finra-for-ai-survive-constitutional-scrutiny/",
-      "id": "art_177"
+      "id": "art_177",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "AI governance",
+        "self-regulation",
+        "nondelegation",
+        "FINRA",
+        "frontier AI"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -4845,7 +6363,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.ecgi.global/publications/blog/putting-a-dollar-number-on-the-risk-factors",
       "type": "blog",
-      "id": "art_178"
+      "id": "art_178",
+      "abstract_cn": "综述哥伦比亚商学院 Rajgopal 教授在第十三期 NBS-PRI-ECGI 讲座提出的方法论：典型 10-K 中三至四成风险因素实质是环境或社会议题，却无人能说出其财务代价。他主张按 SASB 行业图谱将风险因素标记为 E/S/G勾连至损益表与资产负债表科目 ，用 AI 模拟高、基准、低情景下的现金流区间。以埃克森美孚为例：计入范围三排放并按每吨 39 美元碳价折算约产生 亿美元社会成本250但需求弹性与储量寿命决定其短期财务重大性有限 ；方法论的价值在于把 ESG 争论从政治立场转移到参数之争。",
+      "keywords_cn": [
+        "可持续披露",
+        "ESG",
+        "风险因素",
+        "现金流情景模拟",
+        "ISSB"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -4869,7 +6395,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/17/wildest-campaigns-of-2026/",
       "type": "blog",
-      "id": "art_179"
+      "id": "art_179",
+      "abstract_cn": "Diligent Market Intelligence 盘点 2026 年上半年股东积极主义五大战役：派拉蒙天舞全现金竞购华纳兄弟探索击败 Netflix （但 14 亿美元黄金降落伞遭 82% 反对） ； Lululemon 创始人 Chip Wilson 以重振产品纲领发起代理权争夺，最终和解获两席董事 ； Broadwood 牵头股东联盟在特别股东大会上否决 STAAR 与爱尔康 15 亿美元合并并促成董事会改组； 反对BP 因拒绝气候提案上榜遭 19% ，董事长月余后去职 ； Starboard 以 AI 整合为核心主张入主 Tripadvisor 董事会。上半年积极主义活动量与去年同期持平，并购阻击与AI 议题成为新杠杆。",
+      "keywords_cn": [
+        "股东积极主义",
+        "代理权争夺",
+        "并购阻击",
+        "和解",
+        "董事会改组"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -4893,7 +6427,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/17/shareholder-engagement-responses-to-adverse-sayon-pay-votes/",
       "type": "blog",
-      "id": "art_180"
+      "id": "art_180",
+      "abstract_cn": "DragonGC 第三份年度报告追踪 2025-2026 季薪酬话语权投票支持率低于 80% 的 14 家财富 1000 强公司，考察其次年股东参与计划的回应方式。结果显示几乎所有公司都启动了股东参与计划 ， 14 家公司在 2026 年股东大会上的支持率全部回升（增幅 3.9% 至 66.1% ）。回应措施可归纳为六类 ：参与策略、薪酬削减与奖励限制、激励计划与股权结构改革、治理与政策改进、透明度与披露增强 ，以及保留核心薪酬框架。",
+      "keywords_cn": [
+        "Say-on-Pay",
+        "高管薪酬",
+        "股东参与",
+        "委托书披露",
+        "代理顾问"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -4918,7 +6460,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/18/dropbox-and-the-evolving-governance-debate-over-corporate-domicile/",
       "type": "blog",
-      "id": "art_181"
+      "id": "art_181",
+      "abstract_cn": "分析 Dropbox 迁册内华达案修改后诉状：原告主张迁册旨在巩固创始人 Houston 的控制权、回应积极投资者 Half Moon 对双重股权结构的挑战，且评估委员会缺乏独立性、披露存在重大遗漏。该案试图区分特拉华最高法院 Maffei诉Palkon 案确立的晴天商业判断保护，测试迁册何时构成控制股东不可摊薄利益 ；同时援引 SB 21 修法主张迁册理由已被削弱。文章指出迁册未必消灭诉讼风险而只是重定向诉讼对象，并揭示治理悖论 ：离开特拉华的公司又通过章程条款复制衡平法院的程序优势。",
+      "keywords_cn": [
+        "公司迁册",
+        "特拉华",
+        "内华达",
+        "信义义务",
+        "控制股东",
+        "SB 21"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -4942,7 +6493,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/08/18/prediction-market-surveillance-a-view-from-the-trenches/",
       "type": "blog",
-      "id": "art_182"
+      "id": "art_182",
+      "abstract_cn": "Kalshi 执法负责人与沃顿法务会计实验室主任结合实务经验论证：预测市场不能照搬股票市场监控体系。其一 ，许多合约直接以公司绩效指标或政治事件结算知情人可直接变现内幕信息 ，理性策略是立即交易而非等待 ，监控须转向结算后的事后分析 ；其二 ，合约价格在 0 至 1 美元之间，百分比涨跌幅无法定义重大性 ，应以交易者的实际收益衡量其三 ，粘合策略 （高价买入近确定合约 ）天然产生高胜率 ，简单胜率指标会误伤合规交易。平台须为预测市场量身设计反内幕交易体系。",
+      "keywords_cn": [
+        "预测市场",
+        "市场监控",
+        "内幕交易",
+        "二元合约",
+        "Kalshi"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -4966,7 +6525,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://corpgov.law.harvard.edu/2026/08/18/what-to-expect-in-sec-rulemaking-takeaways-from-the-secs-spring-2026-regulatory-agenda/",
       "type": "blog",
-      "id": "art_183"
+      "id": "art_183",
+      "abstract_cn": "解读 SEC 2026 年春季监管灵活性议程：近 40 项规则制定项目多数带有鲜明的去监管色彩，体现第 14192号行政令下的金融市场减负目标。阿特金斯主席治下的SEC 在扩大规则议程的同时进行全面去监管重置，重点包括减轻经纪交易商与投资顾问合规负担、改革托管与记录保存规则、调整代理投票与高管薪酬披露规则、促进资本形成 ，并为数字资产与去中心化金融提供更大的监管确定性 ，散户进入私募市场的渠道也在拓宽之列。",
+      "keywords_cn": [
+        "SEC",
+        "监管议程",
+        "去监管化",
+        "数字资产",
+        "资本形成"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -4991,7 +6558,15 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/08/17/how-to-preserve-the-online-information-ecosystem-in-the-presence-of-google-ai-overviews/",
       "type": "blog",
-      "id": "art_184"
+      "id": "art_184",
+      "abstract_cn": "作者以定制浏览器插件对千余名用户进行随机田野实验首次给出 Google AI 概览（ AIO ）的因果证据 ： AIO 出现使用户对第三方网站的有机点击下降 39.8% ，零点击搜索上升 34.5%且点击质量与用户自报体验均无改善 ，反驳了 Google 更高质量流量的公开说法。文章据此检讨英国 CMA 的退出机制提案、按引用付费与内容授权等救济路径的局限，指出当同一平台同时控制发现渠道与答案呈现时 ，自优待问题不可回避 ，救济设计应聚焦于维系原创内容生产的经济激励。",
+      "keywords_cn": [
+        "Google AI概览",
+        "平台自优待",
+        "出版商流量",
+        "随机实验",
+        "平台监管"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -5015,7 +6590,15 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/08/18/the-dynamic-competition-framework-petit-et-al-advocate-is-neither-pro-enforcement-nor-anti-enforcement-it-doesnt-exist/",
       "type": "blog",
-      "id": "art_185"
+      "id": "art_185",
+      "abstract_cn": "批判 Petit 等人倡导的动态竞争学派：该学派所谓分析框架实际并不存在 ，因为执法机构无法仅凭企业能力保护动态竞争。作者提出未来市场模型 ，主张保护创新竞争的分析必须首先识别并购双方正在研发的未来产品唯有双方产品构成未来竞争关系 ，阻止交易才有经济与法律依据。文章逐一复盘应用材料/东京电子签、证/格子、Adobe/Figma 与 Nvidia/Arm 四案，论证执法机构在实践中识别的始终是具体竞争产品或市场 ，而非抽象的动态竞争框架。",
+      "keywords_cn": [
+        "动态竞争",
+        "并购审查",
+        "创新竞争",
+        "未来市场模型",
+        "扼杀式收购"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -5039,7 +6622,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/18/should-the-rules-be-different-when-prediction-markets-play-sportsbook/",
       "type": "blog",
-      "id": "art_186"
+      "id": "art_186",
+      "abstract_cn": "预测市场月交易额从 2025 年 8 月的 10 亿美元飙升至 2026 年 7 月的近 460 亿美元， Kalshi而 KalshiEX 八成交易量来自体育合约。文章指出第三巡回法院 v. Flaherty 案认定《商品交易法》优先于州博彩法只是序曲： Murphy v. NCAA 确立的反强制原则与联邦权限清晰声明规则意味着，当合约实质是娱乐性博彩而非风险转移或价格发现时并批评商品联邦优先权难以证成。作者主张功能主义分轨期宏观经济与金融变量合约归联邦衍生品监管体育娱乐合约归州博彩监管或联邦州协调框架货交易委员会 六月提案在功能测试上半途而废。",
+      "keywords_cn": [
+        "预测市场",
+        "CFTC",
+        "联邦优先权",
+        "体育博彩",
+        "功能主义监管"
+      ]
     },
     {
       "report_id": "2026-08-19",
@@ -5063,7 +6654,15 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/18/wachtell-lipton-discusses-delaware-chancery-decision-reaffirming-that-caremark-liability-turns-on-bad-faith/",
       "type": "blog",
-      "id": "art_187"
+      "id": "art_187",
+      "abstract_cn": "解读特拉华衡平法院驳回波音股东派生诉讼的裁决编号： 空难后2018-2019 年 波音董事会设立航空航天安全委员会、重组安全汇报线并逐会听取安全风险报告737 MAX 年舱门塞空中脱落事件后， 2024 责任不以疏忽或重大疏忽为已足须达不忠诚的恶意，股东仍提起 索赔。法院重申 即董事明知未履行信义义务Caremark红旗须与公司创伤足够相似仍是 Caremark不能将详尽的风险汇报从最佳实践颠倒为不忠诚证据。裁决确认针对关键法律义务定制的监督体系加上留痕的善意努力 ， Caremark 责任的坚固防线。",
+      "keywords_cn": [
+        "Caremark",
+        "监督义务",
+        "恶意",
+        "波音",
+        "红旗规则"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5193,7 +6792,16 @@
       "primary_topic": "corporate_governance",
       "url": "https://www.ecgi.global/publications/blog/why-the-optional-firm-resists-legal-transplantation",
       "type": "blog",
-      "id": "art_191"
+      "id": "art_191",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "合法移植",
+        "可选公司",
+        "风险投资",
+        "德国",
+        "利益相关者治理",
+        "资本主义的多样性"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5219,7 +6827,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/20/what-companies-reward-the-changing-mix-of-metrics-in-executive-incentive-pay/",
       "type": "blog",
-      "id": "art_192"
+      "id": "art_192",
+      "abstract_cn": "会议委员会治理与可持续性中心基于美国上市公司样本研究高管激励计划中财务与非财务绩效指标的演变趋势。核心发现在于：财务指标在长期激励计划中仍占主导权重 （约 70% -75% ） ，但非财务指标的使用正变得更加精挑细选而非全面撤退 ——企业并未放弃 ESG 类指标，而是优先保留与业务战略强关联、可被客观验证的项目。非财务指标的进入路径亦呈差异化 ：客户满意度、员工敬业度、安全事故率等操作性指标渗透率最高 ，多元与包容、温室气体减排等可持续性指标的渗透则与企业是否处于高敏感行业成正相关。文章对代理顾问机构、薪酬委员会、外部董事具有直接参考价值 ：一方面回应 ISS、 Glass Lewis 对指标过于分散的关切，另一方面提示非财务指标并非软指标 ，其在短期激励中的份量正向中长期激励延伸。",
+      "keywords_cn": [
+        "经理人员报酬",
+        "ESG指标",
+        "Performance Metrics",
+        "长期奖励",
+        "短期奖励",
+        "Say on Pay",
+        "薪酬委员会"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5246,7 +6864,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://corpgov.law.harvard.edu/2026/08/20/supreme-court-all-but-ends-corporate-liability-for-aiding-and-abetting-human-rights-abuses/",
       "type": "blog",
-      "id": "art_193"
+      "id": "art_193",
+      "abstract_cn": "Freshfields 团队评析美国最高法院在 Cisco Systems, Inc.诉DOE I 中的判决：联邦法院无权依《外侨侵权法》 （ ATS ）创设新的私人诉因 ，且《酷刑受害者保护法》 （ TVPA ）的协助教唆索赔范围不被认可 ——足令跨国公司在美国法院因涉嫌协助海外人权侵犯而面临二级责任的风险实质上终结。判决从两方面压缩既有路径 ：其一 ，明确 ATS 不允许联邦普通法院为人类所理解的国际法义务创造新的私人救济渠道，扭转自 Filartiga 以来形成的私人执行张力；其二 ，认定 TVPA 的协助教唆责任需有独立的国内法基础，原告既不能援用 ATS 也不能简单借助 TVPA 主条款包装教唆主张。文章提示对跨国公司的实务影响：尽管风险管理实务不会改变 （供应链人权尽职调查、反洗钱、 KYC 等合规动因未受波及） ，但 SEC 披露与人权诉讼之间的传导路径被切断，欧洲《企业可持续性尽职调查指令》 （ CSDDD/CSDD ）下的跨境合规反而变得相对重要 ——人权议题正式从美国法院出口转向欧洲监管者入口。",
+      "keywords_cn": [
+        "外侨侵权法规",
+        "《酷刑受害者保护法》",
+        "联合国工商企业与人权",
+        "法人责任",
+        "教唆行为 ;n.教唆",
+        "跨国公司",
+        "美国最高法院"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5271,7 +6899,16 @@
       "primary_topic": "antitrust",
       "url": "https://www.promarket.org/2026/08/20/the-ctrip-case-reveals-the-limits-of-administrative-interviews-in-chinas-antitrust-enforcement/",
       "type": "blog",
-      "id": "art_194"
+      "id": "art_194",
+      "abstract_cn": "2026 年 1 月 SAMR对中国在线旅游平台携程启动反垄断调查， 7 月开出 51.8 亿元（约 7.2 亿美元）罚单 ——没收违法所得 16.6 亿元、罚款 35.2 亿元。但案件的反垄断政策意义起始于中央介入之前： 2025 年 8 月贵州省市监局、9月郑州市市监局先后对携程实施二选一等行为的行政约谈，发出整改令却成效式微 ，直至 SAMR 升级处罚。文章剖析三书一函分级框架的核心张力——省级机关在法律上确被授权为先行者 ，但面对一家全国性垄断平台 ，其强制合规的资源与权威严重不足。文章提出四方面改革路径 ：明确升级触发器 （如特定时间未整改自动升级 ）、公开整改时间表以制造声誉压力、要求独立第三方合规审计、对重复或重大不合规则径直启动调查。文章的深层关切是 ：当企业视约谈为低成本延期手段时 ，约谈制度本身蜕变为拖延工具而非治理工具。携程案的真正意义不在于SAMR 创下罚单纪录，而在于揭示分级框架前端威慑力的不足 ——检验中国反垄断是否成功的真正问题 ，不是 SAMR 能否开出天价罚单（已可证明 ） ，而是省级机关能否在中央介入之前被认真对待。",
+      "keywords_cn": [
+        "中国反垄断局",
+        "SAMR",
+        "行政面试",
+        "携程旅行网",
+        "三个字母和一个通知",
+        "平台监管"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5367,7 +7004,17 @@
       "primary_topic": "corporate_governance",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/20/the-values-primacy-paradigm-in-corporate-governance/",
       "type": "blog",
-      "id": "art_197"
+      "id": "art_197",
+      "abstract_cn": "Chatman 与 Gramitto Ricci 以 Target 公司 2025 年 1 月悄然拆除 DEI 基础设施的事件为切入点，描述美国公司治理中价值观优先 （价值范式的退潮与重组。优先）目标的退出与Costco 同期持续推进的多元化与包容路径形成镜像对照。作者梳理四种典型路径：完全退出、调整但保留 （如目标如沃尔玛）、坚守并制度化 （如 Costco、 Apple ）、以此为核心战略品牌 （如 Salesforce ）。文章落点在于公司法层面而是可被制度设计塑造的治理产物。结论 ：股东提案机制、机构投资者代理投票偏好、消费者抵制之间的张力在 董事会在面对社会议题时究竟应优先回应股东、客户、员工还是社会整体利益的传统难题再度浮现。文章从比较视角援引意大利、欧盟成员国关于利益相关者治理的最新立法2025论证价值观优先并非简单美式例外主义年年下半年显著重组公司治理的价值观问题不会因一家企业的退出而消解；它会随监管与代理市场的演化持续回归议程。",
+      "keywords_cn": [
+        "鍏徃娌荤悊",
+        "Dei",
+        "价值观至上",
+        "目标",
+        "Costco",
+        "利益相关者治理",
+        "股东激进主义"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5391,7 +7038,15 @@
       "primary_topic": "antitrust",
       "url": "https://clsbluesky.law.columbia.edu/2026/08/20/morrison-foerster-discusses-doj-revival-of-expedited-second-request-review/",
       "type": "blog",
-      "id": "art_198"
+      "id": "art_198",
+      "abstract_cn": "MoFo 反垄断团队评析美国司法部反垄断局于 2026 年 7 月 23 日宣布的加速第二请求（加急第二次请求）调查恢复及配套修订示范时间协议。第二请求是 DOJ 并购审查进入实质调查阶段后向各方发出的正式信息要求，过去十年因耗时过长、范围过宽饱受批评。新机制的预期改进在于 ：明确第二请求触发与加速路径启动的双重门槛预设最早的位置陈述提交截止 ； ；限制在第二请求启动前与第三方的强制约谈次数。文章落点 ：第二请求的时间预期重置将改变交易端等待 vs 退出的策略选择，律所并购团队与反垄断团队需重新校准反垄断风险定价模型。 MoFo 团队特别提示：参议院司法委员会拟推动的第二请求透明度法案将与新机制形成制度耦合 ，预订立法窗口在 2027 年第一季度。",
+      "keywords_cn": [
+        "美国司法部反垄断法",
+        "第二个请求",
+        "兼并审查",
+        "快速审查",
+        "Morrison & Foerster"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5417,7 +7072,16 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/attempted-administrative-entrenchment/",
       "type": "blog",
-      "id": "art_199"
+      "id": "art_199",
+      "abstract_cn": "价格教授以新近论文为底本描述第二特朗普政府在回避国会、避开常规规则制定的前提下追求单边、持久政策变更的锁定策略。识别三种技术创新： （ 1 ）结构性去监管 ——通过解雇员工、扣留资金削弱机构能力 ，构成 Freeman 与 Jacobs 命名的策略形态强制继任总统花时间重建， （ 2 ）震慑敬畏式威慑 - ，以超出法律预期的资金切断 （如哥伦比亚大学 2.21 亿美元使未来政治风向变换时机构重新推行多元化等做法的合规成本被人为放大）等手段抬高对方预期违约成本 ， （ 3 ）激活私人诉讼 ——利用《虚假申报法》 （ FCA、毒丸、董事会分级制度 ）的检举人机制将大学招生数据、移民合规等议题转化为可被私人原告追诉的请求 ，使执法被市场力量放大。文章指出这些策略与传统公司治理的章程锁定 （如特拉华 203其道德风险也同源一方得手的策略将激励对手方在未来复制 ）在结构上同源形成锁定螺旋。结尾警示 ——跨党派的自我克制早已荡然 ，行政权锁定已成新常态。",
+      "keywords_cn": [
+        "行政壕沟",
+        "单一执行",
+        "结构性放松管制",
+        "虚假索赔法",
+        "大学定居点",
+        "特朗普政府"
+      ]
     },
     {
       "report_id": "2026-08-21",
@@ -5443,7 +7107,17 @@
       "primary_topic": "other",
       "url": "https://www.yalejreg.com/nc/the-regulatory-three-body-problem/",
       "type": "blog",
-      "id": "art_200"
+      "id": "art_200",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "行政",
+        "监管",
+        "政治经济学",
+        "规则制定",
+        "特朗普政府",
+        "工业大麻",
+        "三体问题"
+      ]
     },
     {
       "report_id": "2026-08-24",
@@ -5467,7 +7141,15 @@
       "primary_topic": "other",
       "url": "https://www.ecgi.global/publications/blog/can-government-help-create-silicon-valleys-start-with-the-intermediaries",
       "type": "blog",
-      "id": "art_201"
+      "id": "art_201",
+      "abstract_cn": "针对欧洲创新缺口而在培育专业化风投中介层。以美国SBIC作者提出政策杠杆不在直接补贴初创企业计划为历史案例 ：政府通过 SBA担保债券向持牌私募基金提供杠杆 ，投资选择留予私人。基于 SBIC持牌人历史登记册与风投交易数据的分析显示 ， SBIC活动与本地风投活跃度、初创退出、专利相关新设企业及技能劳动需求显著正相关 ，参与过 SBIC剔除硅谷等成熟枢纽后效应依然成立本地轮次的基金家族后续更可能重返同一地域。创新政策应认真对待中介层 ：项目设计会影响私人投资者是否习得本地信息并在干预后持续经营。",
+      "keywords_cn": [
+        "风险投资",
+        "私募股权",
+        "创新",
+        "SBIC",
+        "创业生态系统"
+      ]
     },
     {
       "report_id": "2026-08-24",
@@ -5491,7 +7173,15 @@
       "primary_topic": "financial_regulation",
       "url": "https://www.ecgi.global/publications/blog/addressing-valuation-as-core-issue-of-the-private-asset-bubble",
       "type": "blog",
-      "id": "art_202"
+      "id": "art_202",
+      "abstract_cn": "作者主张细分判断：针对私募资产泡沫危及金融稳定的监管共识部分主体有估值问题 ，多数主体审慎。问题源于基金规模、 2/20薪酬、 25%年化回报预期与估值技术的不健康组合 ：百亿欧元基金今日需约 250亿欧元估值退出方能兑现便携，而公开市场每年仅吸收 40-50只独角兽。点对点估值法让少量现金驱动全行业估值上旋私募市场缺乏做空套利者；退出时点的合谋与资产切片交易可操纵账面价值。作者呼吁提升估值、交易与行业关联性的透明度 ，使银行监管者、证券监管者与央行更好理解私募市场估值机制与系统性关联。",
+      "keywords_cn": [
+        "私募股权",
+        "估价服务",
+        "财务稳定性",
+        "AIFMD",
+        "透明度"
+      ]
     },
     {
       "report_id": "2026-08-24",
@@ -5910,12 +7600,12 @@
     {
       "source_id": "banking_with_interest",
       "title": "After Vought's Exit, Will CFPB Return to Normal?",
-      "title_cn": "Vought离任后，CFPB会回归常态吗？",
+      "title_cn": "Vought退出后， CFPB会恢复正常吗？",
       "authors": "Rob Blackwell",
       "affiliations": "IntraFi",
       "date": "2026-07-28",
       "abstract": "Over the past year and a half, Acting CFPB Russell Vought has sought to largely shut down the CFPB by severely cutting staff, stopping enforcement actions and cutting back on supervision. But with the nomination of a new director, Brian Johnson, is that about to change? Alan Kaplinsky, senior counsel at Ballard Spahr and author of the Consumer Finance Monitor blog and host of its weekly podcast, discusses how the CFPB may change and what it will mean for banks.",
-      "abstract_cn": "过去一年半，CFPB代理局长Russell Vought试图通过大幅裁减人员、停止执法行动和缩减监管来基本关闭CFPB。但随着新局长Brian Johnson的提名，这一切即将改变吗？Ballard Spahr高级顾问、Consumer Finance Monitor博客作者及播客主持人Alan Kaplinsky讨论了CFPB可能的变化及其对银行的影响。",
+      "abstract_cn": "",
       "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
       "keywords_cn": "银行政策；金融监管；银行监督",
       "topics": [
@@ -5932,12 +7622,12 @@
     {
       "source_id": "banking_with_interest",
       "title": "The Affordability Debate Comes for Banks",
-      "title_cn": "可负担性之争直指银行业",
+      "title_cn": "",
       "authors": "Rob Blackwell",
       "affiliations": "IntraFi",
       "date": "2026-07-21",
       "abstract": "Lindsey Johnson, president and CEO of the Consumer Bankers Association, talks about why affordability concerns are putting renewed political pressure on banks over credit card rates, overdraft and late fees. She also tackles the future of the CFPB, open banking, crypto legislation, agentic AI and why she's optimistic in the fight against fraud.",
-      "abstract_cn": "消费者银行家协会主席兼CEO Lindsey Johnson谈论为何可负担性问题正在就信用卡利率、透支和滞纳金对银行施加新的政治压力。她还探讨了CFPB的未来、开放银行、加密立法、代理AI以及她为何对反欺诈斗争保持乐观。",
+      "abstract_cn": "",
       "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
       "keywords_cn": "银行政策；金融监管；银行监督",
       "topics": [
@@ -5954,12 +7644,12 @@
     {
       "source_id": "banking_with_interest",
       "title": "The Big Question for Banks: How Durable Is This Moment?",
-      "title_cn": "银行面临的大问题：这一刻能持续多久？",
+      "title_cn": "",
       "authors": "Rob Blackwell",
       "affiliations": "IntraFi",
       "date": "2026-06-30",
       "abstract": "Brian Gardner, chief Washington policy strategist at Stifel, tackles how durable the Trump administration's fast-moving regulatory and other changes are likely to be for banks. He discusses what banks still misunderstand about Washington, why the M&A environment is improving, what Kevin Warsh's first press conference signaled, and what the midterm elections could mean for bank regulation if Democrats win back one chamber or both.",
-      "abstract_cn": "Stifel首席华盛顿政策策略师Brian Gardner探讨特朗普政府快速推进的监管及其他变革对银行而言能持续多久。他讨论了银行对华盛顿仍有哪些误解、为何并购环境正在改善、Kevin Warsh首次新闻发布会释放了什么信号，以及如果民主党夺回一院或两院中期选举对银行监管意味着什么。",
+      "abstract_cn": "",
       "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
       "keywords_cn": "银行政策；金融监管；银行监督",
       "topics": [
@@ -5976,12 +7666,12 @@
     {
       "source_id": "banking_with_interest",
       "title": "What Policymakers Still Get Wrong About Housing Finance",
-      "title_cn": "决策者仍误读了什么：住房金融",
+      "title_cn": "",
       "authors": "Rob Blackwell",
       "affiliations": "IntraFi",
       "date": "2026-06-24",
       "abstract": "Michael Bright, CEO of the Structured Finance Association and a former head of Ginnie Mae, joins the show to discuss the state of the U.S. housing finance system nearly two decades after the financial crisis. He explains why he does not think the system is fundamentally broken, what policymakers still misunderstand about the secondary mortgage market, and how issues like GSE reform, Basel III, private credit and fraud could reshape housing finance in the years ahead.",
-      "abstract_cn": "Structured Finance Association CEO、前Ginnie Mae负责人Michael Bright做客节目，讨论金融危机近二十年后美国住房金融体系的现状。他解释为何认为体系并非从根本上失灵、决策者仍误读了二级抵押贷款市场的什么，以及GSE改革、Basel III、私人信贷和欺诈等问题如何可能重塑未来数年的住房金融。",
+      "abstract_cn": "",
       "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
       "keywords_cn": "银行政策；金融监管；银行监督",
       "topics": [
@@ -5998,14 +7688,14 @@
     {
       "source_id": "banking_with_interest",
       "title": "Banks Are Asking the Wrong Question About AI",
-      "title_cn": "银行问错了关于AI的问题",
+      "title_cn": "",
       "authors": "Rob Blackwell",
       "affiliations": "IntraFi",
       "date": "2026-06-17",
       "abstract": "Alex Johnson, founder of Fintech Takes , details why many banks are thinking about AI the wrong way. He updates his views on stablecoins vs. tokenized deposits, discusses why fintech competition remains a potent threat to banks and talks about why the bigger issue may be how customers use AI to make financial decisions.",
-      "abstract_cn": "Fintech Takes创始人Alex Johnson详述为何许多银行对AI的思考方式是错误的。他更新了对稳定币与代币化存款的看法，讨论了为何金融科技竞争仍是银行的强劲威胁，以及更大的问题可能是客户如何利用AI做出金融决策。",
+      "abstract_cn": "",
       "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "",
+      "keywords_cn": "Banking Policy；Financial Regulation；Bank Supervision",
       "topics": [
         "financial_regulation"
       ],
@@ -6020,14 +7710,14 @@
     {
       "source_id": "banking_with_interest",
       "title": "Have Banks Already Lost the Fight Over Stablecoin Yield?",
-      "title_cn": "银行是否已经输掉了稳定币收益之战？",
+      "title_cn": "",
       "authors": "Rob Blackwell",
       "affiliations": "IntraFi",
       "date": "2026-06-10",
       "abstract": "Banks have fought a comprehensive effort to ensure stablecoins cannot offer yield. But the Senate Banking Committee passed a bill that the banking industry still says falls short. Does that mean banks have lost the fight? Will a crypto market structure bill pass this year? Brendan Pedersen of Punchbowl News offers insights into the current and future state of play.",
-      "abstract_cn": "银行展开全面努力以确保稳定币不能提供收益。但参议院银行委员会通过了一项银行业仍认为不够的法案。这是否意味着银行已经输掉了这场战斗？今年会通过加密市场结构法案吗？Punchbowl News的Brendan Pedersen对当前和未来的态势提供了洞察。",
+      "abstract_cn": "",
       "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "",
+      "keywords_cn": "Banking Policy；Financial Regulation；Bank Supervision",
       "topics": [
         "financial_regulation"
       ],
@@ -6042,14 +7732,14 @@
     {
       "source_id": "banking_with_interest",
       "title": "The New Push to Refocus Bank Supervision",
-      "title_cn": "重塑银行监管的新动向",
+      "title_cn": "",
       "authors": "Rob Blackwell",
       "affiliations": "IntraFi",
       "date": "2026-06-02",
       "abstract": "Andrew Olmem, managing partner of Mayer Brown's Washington office and a former deputy director of the National Economic Council, talks about how the second Trump administration has moved much faster than the first to reshape financial regulation. He discusses why he believes bank supervision became too bureaucratic and too focused on process, how the administration is approaching capital and the Fed, and what stablecoins, the Clarity Act and OCC preemption could mean for the future of the regulatory system.",
-      "abstract_cn": "Mayer Brown华盛顿办公室执行合伙人、前国家经济委员会副主任Andrew Olmem谈论特朗普第二届政府如何比第一届更快地重塑金融监管。他讨论了为何认为银行监管变得过于官僚化、过于关注流程，政府如何对待资本和美联储，以及稳定币、Clarity Act和OCC先占权对监管体系未来的意义。",
+      "abstract_cn": "",
       "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
-      "keywords_cn": "",
+      "keywords_cn": "Banking Policy；Financial Regulation；Bank Supervision",
       "topics": [
         "financial_regulation"
       ],
@@ -6064,7 +7754,7 @@
     {
       "source_id": "nyfed_liberty",
       "title": "Has Broader Stock Market Participation Changed How Interest Rates Affect the Economy?",
-      "title_cn": "更广泛的股市参与是否改变了利率对经济的影响？",
+      "title_cn": "更广泛的股票市场参与是否改变了利率对经济的影响？",
       "authors": "Juan M. Morelli",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-08-19",
@@ -6072,7 +7762,7 @@
       "keywords": "",
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/has-broader-stock-market-participation-changed-how-interest-rates-affect-the-economy/",
       "type": "article",
-      "abstract_cn": "过去四十年来，美国股市参与率发生了显著变化。1980年代中期，不到30%的家庭持有股票。到2000年代初，超过一半的美国家庭通过直接持有或共同基金、401(k)和IRA持有股票。随着参与率扩大，股市波动传导至家庭消费的方式可能已经改变，对整体经济行为产生潜在影响。有观点认为，股市参与率的上升抑制了产出对利率变动的反应。",
+      "abstract_cn": "在过去的四十年里，美国股市的参与发生了巨大的变化。在20世纪80年代中期，只有不到30%的家庭持有股权。到21世纪初，超过一半的美国家庭直接或通过共同基金、401 (k)和IRA持有股权。随着参与度的扩大，股市波动转化为家庭支出的方式可能已经发生了变化，这对更广泛的经济行为产生了潜在影响。可以提出一个论点，即股票市场参与度的提高抑制了产出对利率变化的反应，因为",
       "id": "9",
       "report_id": "2026-08-25",
       "topics": [
@@ -6083,7 +7773,7 @@
     {
       "source_id": "nyfed_liberty",
       "title": "Does the Equity Term Structure Respond to Monetary Policy Shocks?",
-      "title_cn": "股权期限结构是否对货币政策冲击做出反应？",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-08-12",
@@ -6091,7 +7781,7 @@
       "keywords": "",
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/does-the-equity-term-structure-respond-to-monetary-policy-shocks/",
       "type": "article",
-      "abstract_cn": "受Bernanke和Kuttner (2005)启发，大量文献记录了美联储利率意外对股市的影响。虽然股市提供了关于投资者风险溢价和股息增长预期的信息，但研究者最近才开发出更全面的工具来估计跨多个期限的风险溢价和股息增长预期的期限结构。本文研究货币政策意外对短期和长期风险溢价及增长预期估计值的影响。",
+      "abstract_cn": "",
       "id": "10",
       "report_id": "2026-08-25",
       "topics": [
@@ -6102,7 +7792,7 @@
     {
       "source_id": "nyfed_liberty",
       "title": "How Distressed Are Consumers? Reconciling Diverging Credit Card Delinquency Measures",
-      "title_cn": "消费者有多困境？调和分歧的信用卡违约率指标",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-08-11",
@@ -6110,7 +7800,7 @@
       "keywords": "",
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/",
       "type": "article",
-      "abstract_cn": "根据纽约联储微观经济数据中心最新的《家庭债务与信贷季度报告》，2026年第二季度总债务余额微降130亿美元。抵押贷款和学生贷款余额小幅下降，其他债务产品有所增加。多数产品的违约率保持相对稳定。然而，2022年Q3至2026年Q1期间，信用卡余额90天以上违约率从7.6%升至12.8%，引发对美国人对债务支付能力恶化的担忧。",
+      "abstract_cn": "",
       "id": "11",
       "report_id": "2026-08-25",
       "topics": [
@@ -6122,7 +7812,7 @@
     {
       "source_id": "nyfed_liberty",
       "title": "Stripping STRIPs Trading Activity",
-      "title_cn": "STRIPS交易活动解析",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-08-10",
@@ -6136,12 +7826,12 @@
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "2020年3月，FINRA开始报告美国财政部发行证券的汇总交易量。但公开数据不包括STRIPS（注册利息和本金分离交易）的交易活动信息。STRIPS由现有国债分离创建，提供无再投资风险的零息债券敞口。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "Why Do Fewer Renters Expect to Move?",
-      "title_cn": "为何更少租户预期搬家？",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-08-06",
@@ -6155,12 +7845,12 @@
         "other"
       ],
       "primary_topic": "other",
-      "abstract_cn": "美国人搬家频率比过去低。搬家率数十年来持续下降，从1980年代中期的近20%降至2019年的不到10%。这一下降贯穿商业周期、遍及所有地区、影响广泛人口群体。流动性下降值得关注，因为搬家有助于家庭获取就业机会、适应环境变化和改善居住条件。本文显示搬家率的下降同样存在于租户群体，而拥有住房的日益困难是其中的重要因素。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "AI’s Impact on Labor and Hiring",
-      "title_cn": "AI对劳动力市场与招聘的影响",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-08-05",
@@ -6175,12 +7865,12 @@
         "corporate_governance"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作为纽约联储研究主管的Liberty Street Economics新系列「Street Level」首篇文章，本文对纽约联储经济学家们关于人工智能如何改变劳动力市场和招聘行为的研究进行了主题性讨论和观察。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
-      "title_cn": "债券投资者对R-Star不确定性的窗口",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-08-04",
@@ -6195,12 +7885,12 @@
         "corporate_governance"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "货币政策制定者密切关注主权债券收益率期限结构，以揭示市场参与者对未来货币政策立场、通胀和经济活动的信念。其中一个关注焦点是自然实际回报率（r-star），它充当货币政策决策的指南。大量文献质疑投资者掌握多少信息以及他们对r-star的认知有多精确。本文基于近期Staff Report，探讨利率期限结构能教给我们关于r-star及其投资者认知的什么。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "Stablecoins and (Non)Crypto Shocks: A 2026 Update",
-      "title_cn": "稳定币与（非）加密冲击：2026年更新",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-31",
@@ -6215,12 +7905,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "稳定币是与法定货币（通常为美元，1:1挂钩）挂钩的数字资产。在之前的文章中，我们描述了稳定币到2025年初的快速增长，强调了稳定币储备资产构成的变化，并考察了它们对比特币价格冲击的反应。本文记录了稳定币自上次以来的增长，并研究来自加密行业外部的冲击如何影响稳定币储备资产的构成。以2023年硅谷银行倒闭为案例研究。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "Nonbank Subsidiaries and the Hidden Fragility of Internal Capital Markets Reallocation",
-      "title_cn": "非银行子公司与内部资本市场再配置的隐性脆弱性",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-17",
@@ -6235,12 +7925,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "本文是关于银行监管如何与银行企业组织结构互动的三部曲系列的第三篇。第一篇记录了银行控股公司（BHC）内部股权充裕的非银行子公司；第二篇表明BHC通过内部重新配置资本——将股权从非银行关联机构转移到银行子公司而非筹集外部新资本——来满足Basel III。本文追问这种再配置对金融稳定意味着什么。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "How Basel III Changes Where Capital Sits: Nonbank Subsidiaries as Equity Reservoirs",
-      "title_cn": "Basel III如何改变资本所在：非银行子公司作为股权蓄水池",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-16",
@@ -6254,12 +7944,12 @@
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "本文是银行监管与企业组织结构三部曲的第二篇。第一篇记录了银行控股公司内部的非银行子公司是大型、股权充裕的「蓄水池」，以及Basel III于2015年生效后银行层面资本与合并资本出现显著分化。本文追问原因，并通过控股公司内部管道追踪答案。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "Capitalizing on Nonbanks: Regulatory Arbitrage Within Bank Holding Companies",
-      "title_cn": "利用非银行：银行控股公司内部的监管套利",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-15",
@@ -6273,12 +7963,12 @@
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "本文是关于银行监管如何与银行企业组织结构互动的三部曲系列的第一篇。本系列基于作者近期的Staff Report《企业内部的监管套利》。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "Effect of Tariffs on U.S. Small Businesses",
-      "title_cn": "关税对美国小企业的影响",
+      "title_cn": "",
       "authors": "Will Aarons and Asani Sarkar",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-09",
@@ -6293,12 +7983,12 @@
         "financial_regulation"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "近期实施的关税如何影响小企业？由于数据匮乏，这一问题知之甚少。本文使用2025年小企业信贷调查（SBCS）数据，从全国和第二区（纽约、新泽西和康涅狄格）层面探讨这一问题。研究发现，商品和零售行业的大多数全国性企业报告在2025年因关税遭遇财务困难，区域性企业的比例更高。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "More Tariff Pass‑Through Is in the Pipeline",
-      "title_cn": "更多关税传导仍在管道中",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-08",
@@ -6312,12 +8002,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "过去一年美国贸易政策发生剧变，包括全面新关税和最高法院重塑关税格局的裁决。许多企业成本大幅上升，面临是否通过降低利润率吸收关税、提价转嫁成本或两者兼施的复杂决策。去年我们发现多数企业已将至少部分高成本通过提价转嫁给消费者。一年后，企业是否已完成价格调整？"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "What Do Over 3,000 Bank Runs Teach Us About Banking Crises?",
-      "title_cn": "3000余次银行挤兑教会了我们什么？",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-07",
@@ -6332,12 +8022,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "金融机构挤兑是金融危机的显著标志之一。但挤兑在危机中的角色是长期争论的话题。一种观点认为挤兑是关键转折点，即使小冲击也能引发伴随大规模银行倒闭的严重危机。另一种观点认为挤兑主要是金融体系深层腐朽的症状，加剧危机而非根本原因。理解这一争论对如何思考金融危机和制定适当政策应对具有一阶意义。本文使用一个包含3000余次银行挤兑的新数据库进行分析。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "Using AI to Let History Speak About Bank Runs",
-      "title_cn": "用AI让历史开口讲述银行挤兑",
+      "title_cn": "",
       "authors": "Liberty Street Economics",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-07",
@@ -6352,12 +8042,12 @@
         "financial_regulation"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "银行危机通常与银行挤兑和银行恐慌联系在一起，但我们对银行挤兑的实证理解受限于缺乏银行层面数据。在一篇新论文中，我们使用大语言模型（LLM）从数百万页数字化历史报纸中提取银行挤兑信息，创建了美国历史上最全面的银行挤兑数据库。"
+      "abstract_cn": ""
     },
     {
       "source_id": "nyfed_liberty",
       "title": "The Disappearing Overnight Drift",
-      "title_cn": "消失的隔夜漂移",
+      "title_cn": "",
       "authors": "Nina Boyarchenko, Lars C. Larsen, and Paul Whelan",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-07-01",
@@ -6371,12 +8061,12 @@
         "other"
       ],
       "primary_topic": "other",
-      "abstract_cn": "在2021年的一篇文章中，我们记录了「隔夜漂移」——在欧洲股市开盘的美国东部时间凌晨2点至3点窄窗口内持有美国股指期货的大幅持续回报。五年后，这一模式似乎已消退：此前年化约3.7%的2:00-3:00窗口自2021年以来平均接近零。本文结合发布后样本重新审视隔夜漂移，并运用库存风险框架分析三个可观测渠道中哪个能解释这一消退。"
+      "abstract_cn": ""
     },
     {
       "source_id": "ecb_supervision",
       "title": "Simpler guidance, more effective supervision European banking supervision has reviewed over 130 publications to make them more concise and user friend",
-      "title_cn": "更简明的指引，更有效的监管",
+      "title_cn": "",
       "authors": "Frank EldersonMember of the ECB's Executive Board",
       "affiliations": "European Central Bank",
       "date": "2026-06-26",
@@ -6391,12 +8081,12 @@
         "corporate_governance"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "作者：Frank Elderson，欧洲央行执行委员会成员兼监管委员会副主席。欧洲银行监管审查了130余份出版物，使其更简明、更用户友好。约40份将停止发布，其他已进行针对性修订，若干正在进行更深入的审查（包括治理与风险文化指南）。审慎框架规定了银行必须满足的法律要求。在该框架内，银行负责建立与其规模、业务模式和风险状况相适应的治理、风险管理和控制安排。这正是监管指引增值之处——欧洲银行监管拥有任何单一银行都无法具备的跨机构视角。通过指引、方法论、信函和报告分享这些洞察，确保监管方法的一致性，帮助银行理解监管者将审视的问题。"
+      "abstract_cn": ""
     },
     {
       "source_id": "bank_underground",
       "title": "Who’s paying attention? How firms form policy rate expectations",
-      "title_cn": "谁在关注？企业如何形成政策利率预期",
+      "title_cn": "谁在关注？公司如何形成政策利率预期",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-08-20",
@@ -6410,12 +8100,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作者：Lea Havemeister、Nicholas Bloom、Philip Bunn、Paul Mizen、Gregory Thwaites和Ivan Yotzov。货币政策制定者精心设计政策决策和沟通，金融市场迅速反应。然而政策对经济的影响最终取决于企业如何感知和预期货币政策。本文基于一项全英范围的企业调查，呈现关于企业如何形成政策利率预期的新数据。"
+      "abstract_cn": "Lea Havemeister、Nicholas Bloom、Philip Bunn、Paul Mizen、Gregory Thwaites和Ivan Yotzov货币政策制定者精心制定政策决策和沟通，金融市场迅速做出反应。然而，政策对经济的影响最终取决于企业如何看待和预测货币政策。我们展示了全经济范围的英国商业调查的新数据……继续阅读谁在关注？公司如何形成政策利率预期 →"
     },
     {
       "source_id": "bank_underground",
       "title": "Does higher productivity create inflationary or disinflationary pressure?",
-      "title_cn": "更高的生产力带来通胀还是通缩压力？",
+      "title_cn": "更高的生产率是否会产生通货膨胀或反通货膨胀压力？",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-08-20",
@@ -6429,12 +8119,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作者：Ludovica Ambrosino、Jenny Chan和Silvana Tenreyro。近期技术进步向政策制定者提出了一个重要问题：更高的生产力会导致通缩还是通胀压力？即将到来的AI驱动生产力增长常被描述为一种通缩顺风，将允许央行维持更低利率而不会重新点燃通胀压力。然而更快的生产力增长可能产生不同效果。"
+      "abstract_cn": "Ludovica Ambrosino、Jenny Chan和Silvana Tenreyro最近的技术进步为政策制定者提出了一个重要问题：更高的生产力会导致通货膨胀压力还是通货膨胀压力？即将到来的人工智能驱动的生产率增长浪潮通常被描述为一种反通胀的顺风，它将允许央行在不重新引发通胀压力的情况下将利率保持在较低水平。更快……继续阅读更高的生产率是否会产生通货膨胀或反通货膨胀压力？ →"
     },
     {
       "source_id": "bank_underground",
       "title": "If AI disappoints? The transmission of US big-tech earnings news",
-      "title_cn": "如果AI令人失望？美国大型科技股盈利消息的传导",
+      "title_cn": "",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-08-13",
@@ -6448,12 +8138,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作者：Daniel Ostry、Roger Vicquéry和Emilio Zaratiegui。政策制定者、国际组织乃至大型科技公司CEO越来越担忧当前人工智能繁荣中的估值与基本面日益脱节。英格兰银行2026年2月货币政策报告指出，资产价格修正是关键风险之一。"
+      "abstract_cn": ""
     },
     {
       "source_id": "bank_underground",
       "title": "Is artificial intelligence making us more productive? What the UK industry data show",
-      "title_cn": "人工智能让我们更高效了吗？英国产业数据显示了什么",
+      "title_cn": "",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-08-06",
@@ -6468,12 +8158,12 @@
         "financial_regulation"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作者：Sandra Batten。与以往自动化浪潮不同，机器学习和生成式AI技术能够执行非常规认知任务（如涉及书面或口头语言的任务），有望影响更广泛的职业。通过增强或替代这些任务中的工人，这些技术有望带来显著的生产力提升。"
+      "abstract_cn": ""
     },
     {
       "source_id": "bank_underground",
       "title": "Canaries in the column? AI exposure and the UK’s hiring slowdown",
-      "title_cn": "井中之金丝雀？AI暴露与英国招聘放缓",
+      "title_cn": "",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-08-06",
@@ -6487,12 +8177,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作者：Haley Schlicht。从硅谷高管承诺自动化白领工作，到声称AI正在关闭毕业生入门市场的头条新闻，「低解雇、低招聘」的紧张环境越来越多地被归因于技术变革。英国空缺岗位自2022年峰值以来下降近半——这一持续收缩已重塑英国招聘市场。"
+      "abstract_cn": ""
     },
     {
       "source_id": "bank_underground",
       "title": "Demographics, deposits and data: using machine learning to segment UK mortgages",
-      "title_cn": "人口、存款与数据：用机器学习细分英国抵押贷款",
+      "title_cn": "",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-07-16",
@@ -6506,12 +8196,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作者：Joe Grimshaw。英国抵押贷款借款人是谁，他们的特征有何差异？尽管有大量关于抵押贷款特征的文献，但贷款层面的细分仍然有限，现有研究依赖总量或预定义类别。本文通过对20年数据应用无监督机器学习来解决这一空白，允许模型在无先验假设的情况下确定细分。"
+      "abstract_cn": ""
     },
     {
       "source_id": "bank_underground",
       "title": "Credit constraints and housing market access",
-      "title_cn": "信贷约束与住房市场准入",
+      "title_cn": "",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-07-09",
@@ -6525,12 +8215,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作者：Belinda Tracey和Neeltje van Horen。2013年推出的Help-to-Buy（HTB）计划重新开放了英国95%贷款价值比（LTV）抵押贷款市场，从而将许多首次购房者的最低首付要求从10%降至5%。这一政策变化提供了一个有用的自然实验，用于研究存款要求如何影响住房市场准入。"
+      "abstract_cn": ""
     },
     {
       "source_id": "bank_underground",
       "title": "When travel restrictions became trade frictions: evidence from Covid-era border closures",
-      "title_cn": "当旅行限制变成贸易摩擦：来自新冠边境关闭的证据",
+      "title_cn": "",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-06-18",
@@ -6544,12 +8234,12 @@
         "other"
       ],
       "primary_topic": "other",
-      "abstract_cn": "作者：John Lewis。新冠旅行限制限制了人员流动，但也使跨境货物贸易更加困难。这是否导致了疫情期间全球货物贸易的下降，如果是，幅度有多大？在一篇使用结构重力模型分析全球贸易流动的新论文中，作者展示了旅行限制对贸易的额外影响。"
+      "abstract_cn": ""
     },
     {
       "source_id": "bank_underground",
       "title": "Explainability in machine learning: do popular methods deliver on their promises?",
-      "title_cn": "机器学习中的可解释性：流行方法兑现承诺了吗？",
+      "title_cn": "",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-06-11",
@@ -6563,12 +8253,12 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "作者：Ivona Cickovic和Andrea Serafino。机器学习模型越来越多地用于组织决策，但其内部运作往往仍不透明。当这些系统影响现实世界的结果时，仅知道预测什么是不够的——我们还需要理解为什么。可解释性方法旨在照亮这个「黑箱」，而特征归因工具则试图揭示哪些因素驱动了模型的预测。"
+      "abstract_cn": ""
     },
     {
       "source_id": "bank_underground",
       "title": "A ‘group washing machine’ and ‘tangled skein’: the failure of Slater Walker",
-      "title_cn": "「团体洗衣机」与「乱线团」：Slater Walker的失败",
+      "title_cn": "",
       "authors": "BankUnderground",
       "affiliations": "Bank of England",
       "date": "2026-06-04",
@@ -6583,7 +8273,7 @@
         "tech_data_ai"
       ],
       "primary_topic": "financial_regulation",
-      "abstract_cn": "作者：David Rule。1977年8月，英格兰银行收购了Slater Walker Limited银行，完成了对其救助。该银行是Jim Slater控制的Slater Walker Securities的子公司，后者同时持有一家保险公司。本文描述了Slater如何滥用存款人和保单持有人的资金来为其更广泛的商业利益融资。英格兰银行的介入旨在保护存款人和保单持有人，但也暴露了金融集团内部资金滥用的风险。"
+      "abstract_cn": ""
     },
     {
       "title": "Saxon Woods Investments Ltd v Costa: A Warning to Maverick Directorsby: Duncan Henderson",
@@ -6593,7 +8283,7 @@
       "abstract": "History is littered with examples of high-profile leaders who were sure they were right until disaster struck. Honest people’s judgments can become misguided or even delusional. According to legend or Hollywood, Captain Edward Smith took The Titanic full steam ahead into an ice field believing it couldn’t sink.  In the corporate context, Adam Neumann drove WeWork into a frenzy of long-term leases and debt-fuelled expansion; Richard Fuld at Lehman Brothers kept doubling down on mortgage-backed risk. The Supreme Court’s decision inSaxon Woods Investments Ltd v Costais a sharp reminder that section 172 of the Companies Act 2006 is not a safe-harbour for ‘I know best’ directors. Francesco Costa (director and chairman of the board of Spring Media Investments) genuinely believed that delaying the sale of the business would maximise value for him and other shareholders. But instead of arguing that case openly at board level, he sidelined his colleagues, kept the investment bank’s true mandate to himself and quietly steered the process away from the agreed timetable. When Covid struck, the value of the company collapsed. The Court’s decision confirms that the section 172 duty to promote the success of the company is a loyalty-based duty with an objective ‘good faith’ component that governs what directors do and how they go about doing it. The judgment is interesting less because it gives a major new shape or scope to an existing statutory duty than as a practical illustration of the ",
       "authors": "Author(s):Duncan HendersonPartner, Marriott Harrison LLP",
       "source_id": "oblb",
-      "title_cn": "Saxon Woods Investments Ltd v Costa 案：对独断董事的警示",
+      "title_cn": "Saxon Woods Investments Ltd诉Costa ：对Maverick董事的警告by ： Duncan Henderson",
       "topics": [
         "corporate_governance",
         "financial_regulation"
@@ -6602,7 +8292,7 @@
       "affiliations": "Not stated",
       "report_id": "2026-08-27",
       "id": "art_215",
-      "abstract_cn": "历史上不乏高调领袖坚信自己正确却最终酿成灾难的例子。诚实之人的判断也可能被误导甚至陷入妄想。据传或如好莱坞所述，泰坦尼克号船长爱德华·史密斯相信船不会沉，全速驶入冰区。在公司领域，亚当·诺依曼将WeWork推向长期租赁和债务扩张的狂热；雷曼兄弟的理查德·福尔德不断押注抵押贷款支持风险。英国最高法院在Saxon Woods Investments Ltd v Costa案中的裁决是对《2006年公司法》第172条不构成「我最懂」董事避风港的严厉警示。弗朗切斯科·科斯塔（Spring Media Investments董事兼董事长）确实相信推迟出售业务将为他和其他股东实现价值最大化。但他没有在董事会层面公开论证这一主张，而是排挤同事、隐瞒投行的真实委托，悄然将流程推离既定时间表。当新冠疫情来袭，公司价值崩盘。法院裁决确认，第172条促进公司成功的义务是一项以忠实为基础的义务，其客观的「善意」要件既约束董事做什么，也约束他们怎么做。"
+      "abstract_cn": "历史上充斥着一些备受瞩目的领导者的例子，他们在灾难发生之前确信自己是对的。诚实的人的判断可能会被误导，甚至产生妄想。根据传说或好莱坞，爱德华·史密斯船长将泰坦尼克号全速驶入冰原，认为它不会下沉。在企业背景下，亚当·诺依曼（ Adam Neumann ）将WeWork推向了长期租赁和债务驱动扩张的狂潮；雷曼兄弟（ Lehman Brothers ）的理查德·富尔德（ Richard Fuld ）不断加大抵押贷款支持风险。最高法院在Saxon Woods Investments Ltd诉Costa案中的裁决尖锐地提醒我们， 2006年《公司法》第172条不是“我最了解”董事的安全港。Francesco Costa （ Spring Media Investments董事兼董事会主席）真诚地认为，推迟出售业务将为他和其他股东带来最大价值。但是，他没有在董事会层面公开争论这一案件，而是将同事排除在外，将投资银行的真正授权保留给自己，并悄悄地将流程从商定的时间表中引导开来。当新冠疫情爆发时，公司的价值崩溃了。法院的裁决确认，促进公司成功的第172条义务是一项以忠诚为基础的义务，具有客观的“诚信”组成部分，管理董事的工作和工作方式。该判决之所以有趣，与其说是因为它为现有的法定义务提供了一种新的重要形式或范围，不如说是作为"
     },
     {
       "title": "Why Prediction Markets and Securities Markets Require Different Regulatory Prioritiesby: Jonathan R. Macey, Luca Enriques",
@@ -6612,7 +8302,7 @@
       "abstract": "Prediction markets are in the regulatory crosshairs. In the United States, within the span of a few months this year, federal prosecutors brought the first criminal insider trading case involving an event contract against an Army master sergeant with a top-secret clearance who allegedly traded on classified information about an upcoming military operation. Next the CFTC and DOJ pursued a Google engineer who made about $1.2 million trading contracts on Google’s unreleased ‘Year in Search’ rankings. A House Oversight Committee investigation and at least eight bills in the 119th Congress quickly ensued. Most of the legislative proposals envision importing some version of insider trading law from securities markets to prediction markets. In a newpaper, we argue that adjustments in regulatory approach should be made to reflect the very profound differences between securities markets and prediction markets. The case for strict insider trading regulation in securities markets does not automatically translate to prediction markets. The distinctive regulatory challenge that prediction markets do present is that some, but not all, contracts on prediction markets create a serious moral hazard of giving market participants an incentive to engage in corrupt, illegal, or dangerous actions in order to rig the outcome of the contract on the prediction market. These corruption-prone contracts, combined with other institutional features of prediction markets such as their small size and limite",
       "authors": "Author(s):Jonathan R. MaceySam Harris Professor of Corporate Law, Corporate Finance and Securities Law at Yale University, and Professor in the Yale School of Management.Luca EnriquesProfessor of Business Law at Bocconi University and IECL Visiting Research Fellow at the University of Oxford",
       "source_id": "oblb",
-      "title_cn": "为什么预测市场和证券市场需要不同的监管优先级",
+      "title_cn": "为什么预测市场和证券市场需要不同的监管优先级： Jonathan R. Macey ， Luca Enriques",
       "topics": [
         "financial_regulation",
         "antitrust"
@@ -6621,7 +8311,7 @@
       "affiliations": "Not stated",
       "report_id": "2026-08-27",
       "id": "art_216",
-      "abstract_cn": "预测市场正面临监管的聚焦审视。在美国，今年短短几个月内，联邦检察官对一名涉嫌利用机密军事情报进行事件合约交易的陆军上士提起了首例刑事内幕交易案件。随后CFTC和DOJ追查了一名通过交易Google未发布的「年度搜索」排名合约获利约120万美元的Google工程师。众议院监督委员会调查和第119届国会至少八项法案随之而来。多数立法提案设想从证券市场引入某种版本的内幕交易法到预测市场。在一篇新论文中，我们论证监管方式的调整应反映证券市场与预测市场之间的深刻差异。证券市场严格内幕交易监管的理由并不自动适用于预测市场。预测市场确实面临的独特监管挑战是：部分（但非全部）预测市场合约会产生严重的道德风险，使市场参与者有动机从事腐败、非法或危险行为以操纵合约结果。"
+      "abstract_cn": "预测市场正处于监管的十字路口。在美国，在今年的几个月内，联邦检察官提起了第一起犯罪内幕交易案件，涉及针对一名陆军军士长的活动合同，该中士拥有绝密许可，据称他根据有关即将到来的军事行动的机密信息进行交易。接下来，美国商品期货交易委员会和美国司法部追捕了一名谷歌工程师，该工程师在谷歌未发布的“搜索年”排名中获得了大约120万美元的交易合同$。众议院监督委员会的调查和第119届国会的至少八项法案很快就接踵而至。大多数立法提案都设想将某种版本的内幕交易法从证券市场引入预测市场。在一份报纸上，我们认为应该对监管方法进行调整，以反映证券市场和预测市场之间非常深刻的差异。证券市场严格的内幕交易监管并不会自动转化为预测市场。预测市场确实存在的独特的监管挑战是，预测市场上的一些（但不是全部）合同造成了严重的道德风险，使市场参与者有动力从事腐败、非法或危险的行为，以便在预测市场上操纵合同的结果。这些容易发生腐败的合同，加上预测市场的其他制度特征，如规模小和局限性"
     },
     {
       "title": "Your 401(k) Is Propping Up the AI Bubble",
@@ -6631,7 +8321,7 @@
       "abstract": "Hera Hyeonseo Lee is a doctoral researcher in sociology at Binghamton University (SUNY). Her research examines the political economy of AI infrastructure, focusing on the financial structures underpinning cloud computing markets and their implications for public policy. She recently submitted a public comment to the DOJ and FTC on competitor collaboration guidelines as they relate to AI industry financial architectures (Docket No. ATR-2026-0001). Americans’ retirement savings are disproportionately tied to the dozen Big Tech firms that now dominate the S&P. This makes any intervention into regulating Big Tech that risks devaluing them politically difficult, writes Hera Hyeonseo Lee. Editor’s note:ProMarketis off this week for our annual summer break, so we will be republishing some of our most popular content from the first half of the year instead.",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "你的401(k)正在支撑AI泡沫",
+      "title_cn": "您的401 (k)正在支撑人工智能泡沫",
       "topics": [
         "antitrust",
         "tech_data_ai"
@@ -6640,7 +8330,236 @@
       "affiliations": "Not stated",
       "report_id": "2026-08-27",
       "id": "art_217",
-      "abstract_cn": "Hera Hyeonseo Lee是宾汉姆顿大学（SUNY）社会学博士研究员，研究方向为AI基础设施的政治经济学，聚焦云计算市场的金融结构及其对公共政策的影响。她近期向DOJ和FTC提交了关于AI行业金融架构与竞争者合作指南的公开评论。美国人的退休储蓄过度集中于如今主导标普指数的十余家大型科技公司。这使得任何可能贬低这些公司价值的科技监管干预在政治上变得困难重重。"
+      "abstract_cn": "Hera Hyeonseo Lee是宾厄姆顿大学（ SUNY ）的社会学博士研究员。她的研究考察了人工智能基础设施的政治经济学，重点关注支撑云计算市场的金融结构及其对公共政策的影响。她最近向美国司法部和联邦贸易委员会提交了一份关于竞争对手合作指南的公开评论，因为它们与人工智能行业金融架构有关（ Docket No. ATR-2026-0001 ）。美国人的退休储蓄与现在主导标准普尔指数的十几家大型科技公司不成比例地挂钩。Hera Hyeonseo Lee写道，这使得对监管大型科技公司的任何干预都有可能使他们在政治上贬值。编者按： ProMarket本周将在我们的年度暑假期间休假，因此我们将重新发布今年上半年最受欢迎的一些内容。"
+    },
+    {
+      "title": "Asset Manager Capture",
+      "url": "https://www.ecgi.global/publications/working-papers/asset-manager-capture",
+      "date": "2026-08-27",
+      "type": "working_paper",
+      "authors": "Assaf HamdaniDorothy S. Lund",
+      "keywords": [
+        "Stewardship",
+        "Capital",
+        "ESG",
+        "Institutional Investors",
+        "Technology",
+        "Voting",
+        "Control",
+        "Litigation",
+        "Carbon emission",
+        "Climate Change",
+        "Investment Decisions"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "Not stated",
+      "abstract": "Not available",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Stewardship",
+        "Capital",
+        "ESG",
+        "Institutional Investors",
+        "Technology",
+        "Voting",
+        "Control",
+        "Litigation",
+        "Carbon emission",
+        "Climate Change",
+        "Investment Decisions"
+      ],
+      "report_id": "2026-08-28",
+      "id": "art_218"
+    },
+    {
+      "title": "Corporate Governance Scandals in India's Banking and Financial Services Sector",
+      "url": "https://www.ecgi.global/publications/working-papers/corporate-governance-scandals-in-indias-banking-and-financial-services",
+      "date": "2026-08-27",
+      "type": "working_paper",
+      "authors": "Umakanth VarottilParam Pandya",
+      "keywords": [
+        "Banking",
+        "Related Party Transactions",
+        "Regulation",
+        "Capital",
+        "Technology",
+        "Agency",
+        "Executive compensation",
+        "Bankruptcy",
+        "Political Economy"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "Not stated",
+      "abstract": "Not available",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Banking",
+        "Related Party Transactions",
+        "Regulation",
+        "Capital",
+        "Technology",
+        "Agency",
+        "Executive compensation",
+        "Bankruptcy",
+        "Political Economy"
+      ],
+      "report_id": "2026-08-28",
+      "id": "art_219"
+    },
+    {
+      "title": "Can Purpose Survive the Buyer in M&A? The Structure Decides",
+      "url": "https://www.ecgi.global/publications/blog/can-purpose-survive-the-buyer-in-ma-the-structure-decides",
+      "date": "2026-08-27",
+      "type": "blog",
+      "authors": "Pedro Henrique Galani Vasconcelos",
+      "abstract": "When a mega corporation buys a purpose-driven company, the rationale is usually the same: the buyer acquires authenticity and a reputational boost, while the target company gains capital and scale. After the press release announcing the deal, however, the situation can change rapidly. Whether purpose survives post-closing depends on the corporate and economic structure of the transaction. The allocation of decision rights, financial incentives, and oversight mechanisms determines whether the attributes that justified the acquisition are preserved or gradually absorbed into the mega corporation’s operating model. Lucian Bebchuk and Roberto Tallarita, writing in theCornell Law Review, examined public commitments to stakeholders and concluded that they were “mostly for show”. Their finding shifts the question from what a buyer publicly commits to in theory to what the deal effectively entails in practice. Mission drift is prevented by the mechanisms still in force the day after closing. Good and bad examples Coca-Cola’s acquisition of Innocent Drinks is widely cited as a successful integration between a mega corporation and a purpose-driven company. The transaction was staged as a minority stake in 2009, majority control in 2010, and more than 90% by 2013, with the founders retaining operational control through the transition years. Innocent still commits 10% of its profits to social and environmental causes and was certified as a B Corporation in 2018.",
+      "keywords": [
+        "Mergers and Acquisitions",
+        "M&A",
+        "Purpose",
+        "Control",
+        "Incentives",
+        "Contracts",
+        "Takeovers",
+        "Performance",
+        "Employees",
+        "Activism",
+        "Shareholders",
+        "CEO",
+        "Management"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance",
+        "tech_data_ai"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "Not stated",
+      "abstract_cn": "",
+      "keywords_cn": [
+        "Mergers and Acquisitions",
+        "M&A",
+        "Purpose",
+        "Control",
+        "Incentives",
+        "Contracts",
+        "Takeovers",
+        "Performance",
+        "Employees",
+        "Activism",
+        "Shareholders",
+        "CEO",
+        "Management"
+      ],
+      "report_id": "2026-08-28",
+      "id": "art_220"
+    },
+    {
+      "title": "UK High Court confirms administrators can prioritise funding costs over 'super priority' creditorby: Guido Demarco",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/08/uk-high-court-confirms-administrators-can-prioritise-funding-costs-over",
+      "date": "2026-08-27",
+      "type": "blog",
+      "abstract": "In a decision with significant implications for the UK litigation funding market, the High Court has confirmed that insolvency administrators can enter into litigation funding agreements and pay funders ahead of so-called 'super priority' creditors, where doing so serves the purposes of the administration. The ruling inRe Cross Transport Ltd (In Administration) [2026] EWHC 1636 (Ch), handed down on 30 June 2026 by ICC Judge Jones, resolves a tension that has been a growing concern in the insolvency market, not only in the UK but also in other jurisdictions applying similar insolvency rules. The background",
+      "authors": "Author(s):Guido DemarcoDirector, Stonward Litigation Funding",
+      "source_id": "oblb",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "Not stated",
+      "abstract_cn": "",
+      "report_id": "2026-08-28",
+      "id": "art_221"
+    },
+    {
+      "title": "Decentralization: The Search for a Legal Definitionby: Salvatore Luciano Furnari",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/08/decentralization-search-legal-definition",
+      "date": "2026-08-27",
+      "type": "blog",
+      "abstract": "Decentralization is the criterion on which the regulatory treatment of decentralized finance ultimately depends, yet no legal instrument defines it. In a recentpaper, I argue that this definitional vacuum is the root cause of the uncertainty surrounding decentralized protocols and so I propose a legal definition resting on three cumulative and verifiable criteria: the presence of at least three independent decision-making centres; the structural interdependence of participants within a protocol-governed environment; and the non-custodial nature of the infrastructure. A threshold criterion without content The most legally significant reference to decentralization in EU law is Recital 22 of theMarkets in Crypto-Assets Regulation (MiCA), under which crypto-asset services provided ‘in a fully decentralised manner without any intermediary’ fall outside the scope of the Regulation. The concept is therefore decisive, but it appears only in a recital: no operative provision refers to protocols or to the offering of decentralized services, and no definition is supplied.",
+      "authors": "Author(s):Salvatore Luciano FurnariPhD at the University of Roma Tor Vergata and Fintech and MiCAR lawyer with a focus on blockchain, crypto-assets, and DeFi",
+      "source_id": "oblb",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "Not stated",
+      "abstract_cn": "",
+      "report_id": "2026-08-28",
+      "id": "art_222"
+    },
+    {
+      "title": "Consumers Prefer AI Music Until They’re Told It’s AI",
+      "url": "https://www.promarket.org/2026/08/27/consumers-prefer-ai-music-until-theyre-told-its-ai/",
+      "date": "2026-08-27",
+      "authors": "Jana Friedrichsen, Julia Schwarz and Michel Clement",
+      "abstract": "Jana Friedrichsen is a professor at the Institute of Economics at Kiel University. Prior to that, she had held academic positions at Freie Universität Berlin, Humboldt-Universität zu Berlin, WZB Berlin Social Science Center and DIW. She holds a doctoral degree in Economics from the University of Mannheim. Her research lies in the areas of applied microeconomic theory and behavioral and experimental economics. Her research often deals with the effects of reputational concerns and consumer preferences for fairness and sustainability on individual behavior and markets. Julia Schwarz is a Doctoral Researcher at the Chair for Economics and Ethics and a member of the Doctoral Programme in Quantitative Economics at Kiel University. She holds a B.Sc. in Economics and Business Administration from Justus Liebig University Gießen and an M.Sc. in Economics from Humboldt-Universität zu Berlin. Her research uses experimental and behavioral economics to investigate the interplay between artificial in",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "tech_data_ai",
+        "corporate_governance"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "Not stated",
+      "abstract_cn": "",
+      "report_id": "2026-08-28",
+      "id": "art_223"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Has UK food inflation been under the weather?",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-08-27",
+      "abstract": "India Rimmer, Hannah Copeland and Boromeus Wanengkirtyo Global extreme weather events may feel far away, but they leave behind a trail of higher prices in our shopping baskets. As outlined in past Monetary Policy Reports, droughts, flooding and heatwaves occurring overseas often impact UK food inflation, which averaged 4.2% in 2025. But how much of … Continue reading Has UK food inflation been under the weather? →",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/08/27/has-uk-food-inflation-been-under-the-weather/",
+      "type": "article",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "report_id": "2026-08-28",
+      "id": "art_224"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Is UK productivity growth low? A historical and cross-country perspective",
+      "title_cn": "",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-08-27",
+      "abstract": "Sophie Piton and Fabrizio Cadamagnani A lot has been written about UK productivity and how weak it’s been in recent years. This post assesses UK productivity trends in a historical and cross-country perspective. Productivity growth has been weak across G7 economies over the past two decades, reflecting the end of the information and communications technology … Continue reading Is UK productivity growth low? A historical and cross-country perspective →",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/08/27/is-uk-productivity-growth-low-a-historical-and-cross-country-perspective/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "",
+      "report_id": "2026-08-28",
+      "id": "art_225"
     }
   ],
   "monthly_reports": [
@@ -6682,7 +8601,8 @@
         "2026-08-21",
         "2026-08-24",
         "2026-08-25",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ],
       "summary": "2026年8月，七大来源共收录 112 篇文章。股东权力光谱在 SEC 政策转向后全面再校准，特拉华公司法在监督义务与契约主义之间持续重塑，监管收缩、私募市场制度供给与反垄断执法加码构成全月主线。",
       "trends": [
