@@ -36,18 +36,42 @@ def curl_get(url, timeout=TIMEOUT):
 
 
 WAYBACK_PREFIX = "https://web.archive.org/web/2026if_/"
+JINA_PREFIX = "https://r.jina.ai/"
+
+
+def jina_get(url, timeout=TIMEOUT):
+    """Fetch via Jina AI reader with text format. Uses urllib to avoid curl/Cloudflare issues."""
+    import urllib.request
+    jina_url = f"{JINA_PREFIX}{url}"
+    req = urllib.request.Request(jina_url, headers={
+        "User-Agent": "Mozilla/5.0",
+        "X-Return-Format": "text",
+    })
+    resp = urllib.request.urlopen(req, timeout=timeout * 2)
+    data = resp.read().decode("utf-8", errors="replace")
+    if not data:
+        raise ConnectionError("jina returned empty response")
+    return data
 
 
 def curl_get_with_fallback(url, timeout=TIMEOUT):
-    """Try direct curl_get first; on SSL/connection failure, fall back to Wayback Machine."""
+    """Try direct curl_get first; on failure, fall back to Jina AI, then Wayback Machine."""
     try:
         return curl_get(url, timeout)
-    except (ConnectionError, subprocess.TimeoutExpired) as e:
-        wayback_url = f"{WAYBACK_PREFIX}{url}"
-        try:
-            return curl_get(wayback_url, timeout)
-        except Exception:
-            raise e
+    except (ConnectionError, subprocess.TimeoutExpired):
+        pass
+    # Jina AI fallback — works when VPN blocks direct TLS to certain sites
+    try:
+        return jina_get(url, timeout)
+    except Exception:
+        pass
+    # Wayback Machine fallback
+    wayback_url = f"{WAYBACK_PREFIX}{url}"
+    try:
+        return curl_get(wayback_url, timeout)
+    except Exception:
+        pass
+    raise ConnectionError(f"All fetch methods failed for {url}")
 
 
 def fetch_url(url):
@@ -190,6 +214,41 @@ class BaseScraper:
             if author:
                 item["authors"] = author
             items.append(item)
+        return items
+
+    @staticmethod
+    def _parse_rss_flexible(text):
+        """Parse RSS from XML or Jina AI text/markdown fallback. Returns list of dicts."""
+        # Try XML first
+        items = BaseScraper._parse_rss(text)
+        if items:
+            return items
+        # Jina AI text format: Title / URL / Date blocks separated by blank lines
+        lines = [l.strip() for l in text.splitlines() if l.strip()]
+        items = []
+        i = 0
+        while i < len(lines):
+            title = lines[i]
+            url = ""
+            date_str = ""
+            if i + 1 < len(lines) and lines[i + 1].startswith("http"):
+                url = lines[i + 1]
+                if i + 2 < len(lines):
+                    date_str = lines[i + 2]
+                i += 3
+            else:
+                i += 1
+                continue
+            if title and url:
+                if "weekly roundup" in title.lower():
+                    i += 1
+                    continue
+                items.append({
+                    "title": BaseScraper._clean(title),
+                    "url": url,
+                    "date": parse_date(date_str),
+                    "description": "",
+                })
         return items
 
     @staticmethod

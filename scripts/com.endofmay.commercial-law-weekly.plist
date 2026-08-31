@@ -6,8 +6,8 @@
     <string>com.endofmay.commercial-law-weekly</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/bin/bash</string>
-        <string>/Users/endofmay/Documents/博士/商法研究趋势/scripts/run_weekly.sh</string>
+        <string>/Users/endofmay/Documents/博士/商法研究趋势/.venv/bin/python</string>
+        <string>/Users/endofmay/Documents/博士/商法研究趋势/scripts/run_weekly.py</string>
     </array>
     <key>StartCalendarInterval</key>
     <array>
