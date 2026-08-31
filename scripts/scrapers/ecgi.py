@@ -79,3 +79,32 @@ class ECGIScraper(BaseScraper):
             return detail
         except Exception:
             return {}
+
+    def fetch_detail_with_fallback(self, url):
+        """Try HTML parsing first; fall back to Jina AI text if no abstract found."""
+        detail = self.fetch_detail(url)
+        if detail.get("abstract"):
+            return detail
+        # Jina AI fallback
+        try:
+            from .base import jina_get
+            text = jina_get(url, timeout=30)
+            lines = [l.strip() for l in text.splitlines() if l.strip()]
+            paras = []
+            for line in lines:
+                if len(line) > 100 and not line.startswith("http") and "cookie" not in line.lower() and "gdpr" not in line.lower():
+                    paras.append(line)
+                    if len(paras) >= 2:
+                        break
+            if paras:
+                detail["abstract"] = " ".join(paras)[:1500]
+            if not detail.get("authors"):
+                for i, line in enumerate(lines):
+                    if "author" in line.lower() and i + 1 < len(lines):
+                        detail["authors"] = lines[i + 1].strip()
+                        break
+        except Exception:
+            pass
+        if not detail.get("abstract"):
+            detail.pop("abstract", None)
+        return detail
