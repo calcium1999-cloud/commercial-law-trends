@@ -71,6 +71,15 @@ class ECGIScraper(BaseScraper):
                     text = " ".join(p.get_text(strip=True) for p in paras[:5] if p.get_text(strip=True))
                     if text:
                         detail["abstract"] = text[:1500]
+            # Fallback: h2 "Abstract" → next <p> (ECGI new layout)
+            if not detail.get("abstract"):
+                h2_abstract = soup.find("h2", string="Abstract")
+                if h2_abstract:
+                    next_p = h2_abstract.find_next("p")
+                    if next_p:
+                        text = next_p.get_text(strip=True)
+                        if text and len(text) > 30:
+                            detail["abstract"] = text[:1500]
             tags = soup.find_all("a", href=re.compile(r"/taxonomy/term"))
             if tags:
                 detail["keywords"] = list(dict.fromkeys(t.get_text(strip=True) for t in tags if t.get_text(strip=True)))
