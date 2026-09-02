@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-08-31",
+    "last_updated": "2026-09-02",
     "version": "1.0"
   },
   "sources": [
@@ -499,6 +499,32 @@
         "art_233",
         "art_234",
         "art_235"
+      ]
+    },
+    {
+      "id": "2026-09-02",
+      "date": "2026-09-02",
+      "period_start": "2026-09-01",
+      "period_end": "2026-09-02",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增9篇文章。",
+      "trends": [
+        "本周十一大来源共新增9篇文章，来自ECGI、OBLB、ProMarket、NY Fed，主题分布以公司治理（4篇）、金融监管（3篇）、科技、数据与AI（2篇）为主。",
+        "公司治理领域新增4篇，来自ECGI、OBLB、ProMarket。本期重点议题包括How does the Mandatory Bid Rule Reshape Corporate ；The Governance of Dual-Class Firms；Precatory Proposals: A Broad Shareholder Right Und等。",
+        "金融监管领域新增4篇，来自ECGI、OBLB、ProMarket。本期重点议题包括The Governance of Dual-Class Firms；Corporate Law Competition in the EU Revisited；Climate Stress Testing and the Cautious Approach o等。",
+        "反垄断领域新增1篇，来自ECGI。本期重点议题包括Corporate Law Competition in the EU Revisited。",
+        "科技、数据与AI领域新增4篇，来自NY Fed、OBLB、ProMarket。本期重点议题包括Restructuring and Bargaining Theoryby: Sarah Pater；Climate Stress Testing and the Cautious Approach o；Occupational Licensing Is Everywhere: Regulating J等。"
+      ],
+      "article_ids": [
+        "art_236",
+        "art_237",
+        "art_238",
+        "art_239",
+        "art_240",
+        "art_241",
+        "art_242",
+        "art_243",
+        "art_244"
       ]
     }
   ],
@@ -8807,6 +8833,202 @@
       "report_id": "2026-08-31",
       "id": "art_235",
       "abstract_cn": "作为监管格局更广泛转变的一部分，联邦银行监管机构正致力于使检查更加客观并聚焦于财务层面。例如，联邦金融机构检查委员会（FFIEC）近期发布了拟议规则制定通知，将修订评估体系。本文分析了银行机构对检查结果提出异议的法律途径与实务策略。"
+    },
+    {
+      "title": "How does the Mandatory Bid Rule Reshape Corporate Acquisition Deals?",
+      "url": "https://www.ecgi.global/publications/working-papers/how-does-the-mandatory-bid-rule-reshape-corporate-acquisition-deals",
+      "date": "2026-09-01",
+      "type": "working_paper",
+      "authors": "Yong Kyu GamWoochan KimYongjoon Lee",
+      "keywords": [
+        "M&A",
+        "Takeovers",
+        "Investment Decisions",
+        "Private Equity",
+        "Capital",
+        "Stewardship",
+        "Contracts",
+        "Stakeholderism",
+        "Activism",
+        "Poison Pill"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "Not stated",
+      "abstract": "Not available",
+      "report_id": "2026-09-02",
+      "id": "art_236"
+    },
+    {
+      "title": "The Governance of Dual-Class Firms",
+      "url": "https://www.ecgi.global/publications/working-papers/the-governance-of-dual-class-firms",
+      "date": "2026-09-01",
+      "type": "working_paper",
+      "authors": "Renée AdamsDaniel Ferreira",
+      "keywords": [
+        "Dual Class Shares",
+        "Takeovers",
+        "Technology",
+        "Venture capital",
+        "M&A",
+        "Voting",
+        "Company Law",
+        "Institutional Investors",
+        "IPO",
+        "Agency"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "Not stated",
+      "abstract": "Not available",
+      "report_id": "2026-09-02",
+      "id": "art_237"
+    },
+    {
+      "title": "Corporate Law Competition in the EU Revisited",
+      "url": "https://www.ecgi.global/publications/blog/corporate-law-competition-in-the-eu-revisited",
+      "date": "2026-08-31",
+      "type": "blog",
+      "authors": "Ben William Fuhrmann",
+      "abstract": "Ask a European corporate lawyer whether member states compete for incorporations and the answer will usually be „no“. More than twenty-five years afterCentros, Überseering and Inspire Art, the settled view is that the European Court of Justice opened a door that almost nobody walked through. The UK Limited had its moment, Brexit closed it, and continental legislatures responded defensively rather than competitively. In a newarticlein the University of Chicago Business Law Review, I argue that this common consensus no longer holds. The Evidence: Italian Corporations Moving North and the Missing German SPACs The first case is Italian. Exor, Ferrari, Campari, Mediaset and Brembo have all reincorporated in the Netherlands, typically by cross-border conversion or merger, often followed by an Amsterdam listing and sometimes a Milan delisting. By 2023, fifteen companies worth more than €1 billion had left Italy for the Netherlands. This represents roughly 22% of theBorsa Italiana's market capitalisation and 27% of the FTSE MIB. Whatever else one makes of this evidence, it is not economically negligible, and it is not confined to small closely held firms. That alone breaks with the standard account of European mobility. The second case is German, and it turns on an absence. Six SPACs listed on theDeutsche Börsein 2021 and 2022. Not a single one was a German company. All were Luxembourg SEs. German stock corporation law makes the market-standard SPAC essentially unbuildable: capital c",
+      "keywords": [
+        "Policy Watch",
+        "Domiciliation",
+        "Mobility",
+        "Company Law",
+        "Competition",
+        "Regulation",
+        "Startups",
+        "Venture capital",
+        "Contracts",
+        "Creditor Rights",
+        "Insolvency",
+        "Capital"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation",
+        "antitrust"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "Not stated",
+      "report_id": "2026-09-02",
+      "id": "art_238"
+    },
+    {
+      "title": "Precatory Proposals: A Broad Shareholder Right Under Delaware Lawby: Salvatore Saltarelli",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/precatory-proposals-broad-shareholder-right-under-delaware-law",
+      "date": "2026-09-01",
+      "type": "blog",
+      "abstract": "Do shareholders of Delaware corporations have any right to have their precatory proposals voted on at their general meeting? Or does the decision to call a vote belong entirely to the board?For more than eight decades, the federal proxy rules have required companies subject to those rules to include qualifying shareholder proposals in their proxy materials, enabling dispersed investors to communicate preferences, signal concerns, and influence corporate policy at relatively low cost. Precatory proposals nonbinding in character account for the overwhelming majority of proposals submitted each proxy season. The opportunity to have a proposal included in the company’s proxy materials is an extremely important tool for shareholder proposals. Most shareholders in public companies attend the general meeting not in person but by conferring proxies, and they do so by using the proxy cards that the company management sends using company resources. If shareholders had no right to have their proposals included in the company’s proxy materials, they would need to disseminate their own proxy cards and to cover the related expenses. The federal proxy rules recognize several causes that warrant exclusion of a precatory proposal from the company card. The cause of exclusion to which companies appeal most frequently is the ‘ordinary business’ exclusion, which concerns proposals dealing with the company’s ordinary business operations. However, this cause of exclusion is vaguely formulated and ",
+      "authors": "Author(s):Salvatore SaltarelliAttorney admitted in New York who previously practiced as an attorney and notary in Italy. LLM, New York University School of Law; PhD and a law degree from Sapienza University of Rome.",
+      "source_id": "oblb",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "Not stated",
+      "report_id": "2026-09-02",
+      "id": "art_239"
+    },
+    {
+      "title": "Restructuring and Bargaining Theoryby: Sarah Paterson, Matti Engelberg",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/restructuring-and-bargaining-theory",
+      "date": "2026-09-01",
+      "type": "blog",
+      "abstract": "Ronald Coase famously proposed that, in a world of zero transaction costs, negotiations between parties would lead to arrangements that would maximise their wealth, irrespective of the initial assignment of rights between them.  We live, though, in a world of positive transaction costs. Thus, Coase highlighted the important role that law plays in determining the efficiency of negotiation by controlling these costs. In ourpaper, ‘Restructuring and Bargaining Theory’ we explore restructuring law in the US, the UK, and Europe through this Coasean lens. We start with the proposition that if the vast majority of a company’s creditors believe that restructuring the company’s liabilities will return it to profitability, then Coase theorem would lead us to predict that the parties will be able to reach agreement on how to capture and divide the gains between them.  This is because renegotiation will be mutually beneficial—at least in a world of zero transaction costs.  However, restructuring law implicates high transaction costs and, in many cases, it may not be possible to reduce costs sufficiently to motivate bargaining.  We therefore argue that an optimal restructuring law not only operates to reduce renegotiation costs but also stands ready to facilitate the imposition of a new deal on dissenting creditors if agreement cannot be reached. We pause over the public interest in restructuring law intervening in this way, given that capital markets are now sufficiently deep and liquid ",
+      "authors": "Author(s):Sarah PatersonProfessor of Law, LSE Law SchoolMatti EngelbergFounder of Engelberg & Co Ltd, Helsinki, Finland",
+      "source_id": "oblb",
+      "title_cn": "",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "Not stated",
+      "report_id": "2026-09-02",
+      "id": "art_240"
+    },
+    {
+      "title": "Climate Stress Testing and the Cautious Approach of European Supervisory Authoritiesby: Federica Agostini, Marloes van Rijsbergen, Ebbe Rogge",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/08/climate-stress-testing-and-cautious-approach-european-supervisory",
+      "date": "2026-08-31",
+      "type": "blog",
+      "abstract": "This summer has seenheatwavesand a long period ofdroughthit large parts of Europe. Among the many risk and policy implications, this development puts a spotlight on thefinancial risks caused by climate change. This blogpost examinesclimate risk as a risk to financial stability or as a systemic risk. One nascent risk management tool that regulators and supervisors around the world are grappling with isclimate stress testing. While the rise in the use ofclimate stress testsis aglobal trend, our recentpaper, forthcoming in Utrecht Law Review, focuses on the three European Supervisory Authorities (ESAs) in the European Union, ie, the European Banking Authority (EBA), the European Securities and Markets Authority (ESMA) and the European Insurance and Occupational Pensions Authority (EIOPA). The ESAs are increasingly active in the area of climate-related financial risks. Although sustainability matters might already beviewedas part of their original mandate, the revisedESA Regulations, introduced in 2019, have made these duties more explicit. Their mandates now expressly include assessing market exposure to systemic environmental risks and developing common methodologies for institutions to test their resilience to adverse environmental developments. Our paper accordingly provides an overview of the ESAs’ work on climate stress testing against the broader backdrop of EU’s continuing process ofagencification. It also examines the legal nature of the broad spectrum ofsoft lawtools, s",
+      "authors": "Author(s):Federica AgostiniAssistant Professor, International and European Law Department, and Affiliated Researcher at Utrecht Centre for Regulation and Enforcement in Europe (RENFORCE), Utrecht UniversityMarloes van RijsbergenSenior Policy Advisor at the Dutch Authority for the Financial MarketsEbbe RoggeAssociate Professor at the Leiden University and Senior Policy Advisor at the Dutch Authority for the Financial Markets",
+      "source_id": "oblb",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "Not stated",
+      "report_id": "2026-09-02",
+      "id": "art_241"
+    },
+    {
+      "title": "Taking on Corporate Power Requires Deprogramming Corporate Law",
+      "url": "https://www.promarket.org/2026/09/01/taking-on-corporate-power-requires-deprogramming-corporate-law/",
+      "date": "2026-09-01",
+      "authors": "Mariana Pargendler",
+      "abstract": "Mariana Pargendler is full professor of law and director of the Center for Law, Economics, and Governance at Fundação Getulio Vargas Law School in São Paulo (FGV Direito SP). The current law and economics framework of corporate law rests on four theoretical underpinnings that restrict students’ and regulators’ understanding of the stakes of corporate law. Innew research, Mariana Pargendler argues that creating corporate laws that are more attuned to social welfare will require deprogramming its dominant framework. What does corporate law have to do with corporate power, inequality, and social harm? Generally, business and law schools teach that the answer is nothing. This disregard for how business organizations—some richer and more powerful than many American states—interact with society beyond the provision of goods and services is a remarkable feat. My recent essay, “Deprogramming Corporations,” examines how the law and economics framework narrows corporate law’s subject matter and ",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "Not stated",
+      "report_id": "2026-09-02",
+      "id": "art_242"
+    },
+    {
+      "title": "Occupational Licensing Is Everywhere: Regulating Jobs Across Nations",
+      "url": "https://www.promarket.org/2026/08/31/occupational-licensing-is-everywhere-regulating-jobs-across-nations/",
+      "date": "2026-08-31",
+      "authors": "Jon Hartley and Morris M. Kleiner",
+      "abstract": "JonHartleyis an Assistant Professor of Economics at the UT-Austin School of Civic Leadership, a Visiting Fellow at the Hoover Institution, a Research Fellow at the UT-Austin Civitas Institute, a Regulatory Policy Fellow at the Archbridge Institute, and an Affiliated Scholar at the Mercatus Center. His research interests include macroeconomics, finance, and labor economics. Jon earned his Ph.D. in economics from Stanford University. Morris M. Kleiner is a professor at the Humphrey School of Public Affairs at the University of Minnesota and a research associate at the National Bureau of Economic Research. His research and policy focus is the role of institutions in labor markets and employment issues in enhancing productivity. Kleiner was selected as one of the Michael A. and Anita Paleologos Yagjian Visiting Fellows at the Hoover Institution at Stanford University for 2026. He is currently serving as a visiting scholar at the Federal Reserve Bank of Minneapolis. Inrecent research, Johna",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "Not stated",
+      "report_id": "2026-09-02",
+      "id": "art_243"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Businesses Are Using AI to Transform Work, Not Cut Jobs",
+      "title_cn": "",
+      "authors": "Jaison R. Abel, Richard Deitz, Natalia Emanuel, and Nick Montalbano",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-09-01",
+      "abstract": "The ongoing advancement and adoption of artificial intelligence continues to raise concerns about widespread job losses. Over the past three years, our regional business surveys have asked firms about their AI adoption and its effects on their workforces. This year, we found that AI use among regional businesses has continued to rise sharply, with more than 60 percent of service firms and about half of manufacturers now using AI—a notable increase from 40 percent and 26 percent, respectively, reported in 2025. Despite this rapid adoption, regional firms’ investments in AI are generally modest,",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs/",
+      "type": "article",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "report_id": "2026-09-02",
+      "id": "art_244"
     }
   ],
   "monthly_reports": [
@@ -8861,6 +9083,16 @@
         "反垄断执法在中美两端同步加码：Google 搜索垄断救济进入 Pay for Half 付费上限方案阶段，DOJ 恢复加速第二请求审查以重置并购确定性，中国 SAMR 在 Ctrip 案创下 51.8 亿元罚单，劳动力市场正式进入并购与反垄断分析核心。",
         "AI 治理从公司工具变为规制对象：JPMorgan 以内部 AI 取代代理顾问、披露文件面向 AI 读者起草、FINRA 式审计自我监管能否适用于前沿 AI 的合宪性难题，AI 从公司治理工具转变为被治理与规制的对象。"
       ]
+    },
+    {
+      "id": "2026-09",
+      "month": "2026-09",
+      "label": "2026年9月",
+      "report_ids": [
+        "2026-09-02"
+      ],
+      "summary": "",
+      "trends": []
     }
   ]
 }
