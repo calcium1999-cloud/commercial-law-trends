@@ -181,11 +181,24 @@ class BaseScraper:
         if not raw_list:
             return [], "SUCCESS", None
 
+        # Regex to detect timestamp-as-title patterns
+        _TS_TITLE_RE = re.compile(
+            r'^(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s+\d{1,2}\s+'
+            r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}'
+        )
+
         articles = []
         for item in raw_list:
             try:
                 url = item.get("url", "")
                 if not self._is_valid_url(url):
+                    continue
+                title = item.get("title", "")
+                # Skip timestamp-as-title garbage
+                if _TS_TITLE_RE.match(title):
+                    continue
+                # Skip URL-as-title
+                if title.startswith("http://") or title.startswith("https://"):
                     continue
                 pub_date = item.get("date")
                 if pub_date and since_date:
