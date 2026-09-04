@@ -140,6 +140,37 @@ class BaseScraper:
     source_id = ""
     source_name = ""
 
+    # URL patterns to exclude (garbage/placeholder links)
+    _URL_BLACKLIST = [
+        "wordpress.org",
+        "wp-json",
+        "xmlrpc.php",
+        "feed",
+        "/author/",
+        "/tag/",
+        "/category/",
+        "/page/",
+        "/about/",
+        "/faq/",
+        "/contact/",
+        "/privacy",
+        "editorial-board",
+        "/cdn-cgi/",
+        "wp-admin",
+        "wp-content",
+        "wp-includes",
+    ]
+
+    def _is_valid_url(self, url):
+        """Check if URL is a real article, not a garbage/placeholder link."""
+        if not url:
+            return False
+        url_lower = url.lower()
+        for pattern in self._URL_BLACKLIST:
+            if pattern in url_lower:
+                return False
+        return True
+
     def scrape(self, since_date):
         """Fetch list, filter by date, fetch details. Returns (articles, status, error_msg)."""
         try:
@@ -153,6 +184,9 @@ class BaseScraper:
         articles = []
         for item in raw_list:
             try:
+                url = item.get("url", "")
+                if not self._is_valid_url(url):
+                    continue
                 pub_date = item.get("date")
                 if pub_date and since_date:
                     if pub_date < since_date:

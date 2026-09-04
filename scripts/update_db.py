@@ -93,10 +93,13 @@ def normalize_article(art: dict):
 def validate_article(art: dict, source_ids: set, report_ids: set, idx: int):
     """Return a list of error strings (empty = valid)."""
     errors = []
-    required = ["source_id", "title", "date", "abstract", "url"]
+    required = ["source_id", "title", "abstract", "url"]
     for field in required:
         if not art.get(field):
             errors.append(f"#{idx}: 缺少必填字段 {field!r}")
+    # date 允许为空，自动填充 report_id 日期
+    if not art.get("date"):
+        art["date"] = art.get("report_id", datetime.now().strftime("%Y-%m-%d"))
 
     if art.get("source_id") and art["source_id"] not in source_ids:
         errors.append(

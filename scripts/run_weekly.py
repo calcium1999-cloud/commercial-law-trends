@@ -106,10 +106,15 @@ def load_db():
 
 
 def get_since_date(state, db):
-    """Determine the incremental window start date."""
+    """Determine the incremental window start date.
+    
+    留 1 天缓冲，避免因运行时差漏掉上次运行同日稍晚发布的文章。
+    """
+    from datetime import datetime, timedelta
     last_run = state.get("last_successful_run")
     if last_run:
-        return last_run[:10]
+        last_date = datetime.strptime(last_run[:10], "%Y-%m-%d")
+        return (last_date - timedelta(days=1)).strftime("%Y-%m-%d")
     dates = sorted([a.get("date", "") for a in db.get("articles", []) if a.get("date")])
     if dates:
         return dates[-1]
@@ -187,11 +192,11 @@ def classify_articles(articles):
         if not art.get("title_cn"):
             art["title_cn"] = ""
         if not art.get("authors"):
-            art["authors"] = "Not stated"
+            art["authors"] = ""
         if not art.get("affiliations"):
-            art["affiliations"] = "Not stated"
+            art["affiliations"] = ""
         if not art.get("abstract"):
-            art["abstract"] = "Not available"
+            art["abstract"] = ""
         if not art.get("type"):
             art["type"] = "article"
     return articles

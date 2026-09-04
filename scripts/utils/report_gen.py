@@ -105,8 +105,8 @@ def generate_report(report_id, period_start, period_end, articles, source_status
             lines.append(f"### {sname}（{len(arts)} 篇）\n")
             for art in arts:
                 lines.append(f"#### {art.get('title', 'N/A')}")
-                lines.append(f"**作者**：{art.get('authors', 'Not stated')}")
-                lines.append(f"**Affiliations**：{art.get('affiliations', 'Not stated')}")
+                lines.append(f"**作者**：{art.get('authors') or ''}")
+                lines.append(f"**Affiliations**：{art.get('affiliations') or ''}")
                 abstract = art.get("abstract", "")
                 if abstract:
                     lines.append(f"**摘要**：{abstract}")
