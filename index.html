@@ -1296,6 +1296,383 @@
             .footer-grid { grid-template-columns: 1fr; gap: 1.8rem; }
             .footer-bottom { flex-direction: column; align-items: flex-start; }
         }
+
+        /* ===== 2026 Editorial redesign ===== */
+        :root {
+            --color-primary: #142d4f;
+            --color-ink: #102640;
+            --color-secondary: #2c5d8e;
+            --color-accent: #3478b7;
+            --color-light: #eaf3fb;
+            --color-lighter: #f5f8fb;
+            --color-text-light: #64748b;
+            --color-cinnabar: #a43b2d;
+            --header-h: 142px;
+        }
+
+        body { background-color: #f7f9fb; }
+
+        .journal-topline {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 32px;
+            padding: 0 2rem;
+            border-bottom: 1px solid rgba(255,255,255,.11);
+            color: rgba(255,255,255,.68);
+            background: #102640;
+            font-family: var(--font-en);
+            font-size: .72rem;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+        }
+
+        header {
+            color: var(--color-primary);
+            border-bottom: 1px solid var(--color-border-light);
+            overflow: visible;
+        }
+
+        header .header-bg { background: rgba(255,255,255,.97); animation: none; }
+        header .header-pattern { opacity: .06; }
+
+        .header-inner {
+            min-height: 106px;
+            padding: 1.25rem 2rem 1.15rem;
+            align-items: center;
+        }
+
+        header.compact .header-inner { min-height: 64px; padding: .55rem 2rem; }
+        .header-title h1 {
+            color: var(--color-primary);
+            font-size: clamp(1.7rem, 3vw, 2.6rem);
+            letter-spacing: .2em;
+            text-shadow: none;
+        }
+        header.compact .header-title h1 { font-size: 1.25rem; }
+        .header-title .subtitle { color: var(--color-text-light); opacity: 1; letter-spacing: .16em; text-transform: uppercase; }
+        .header-meta { display: flex; flex-direction: column; align-items: flex-end; }
+        .header-counts { color: var(--color-text-light); opacity: 1; }
+        .source-badges { max-width: 760px; }
+        .source-badge {
+            appearance: none;
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid transparent;
+            border-radius: 0;
+            color: var(--color-text-light);
+            cursor: pointer;
+            font-size: .75rem;
+            padding: .16rem .2rem;
+        }
+        .source-badge:hover,
+        .source-badge.active {
+            background: transparent;
+            border-bottom-color: var(--color-cinnabar);
+            color: var(--color-primary);
+            transform: none;
+        }
+
+        .editorial-cover {
+            display: grid;
+            grid-template-columns: minmax(0, 1.45fr) minmax(280px, .7fr);
+            min-height: 255px;
+            color: var(--color-white);
+            background: linear-gradient(128deg, #153457 0%, var(--color-primary) 58%, #28567f 100%);
+        }
+        .editorial-cover-copy { padding: 2.2rem 3rem 2.35rem; border-right: 1px solid rgba(255,255,255,.13); }
+        .editorial-kicker { display: flex; align-items: center; gap: .75rem; color: rgba(255,255,255,.68); font-size: .75rem; letter-spacing: .12em; }
+        .editorial-seal {
+            display: inline-grid;
+            width: 30px; height: 30px;
+            place-items: center;
+            border: 1px solid rgba(255,255,255,.68);
+            background: var(--color-cinnabar);
+            color: var(--color-white);
+            font-family: var(--font-cn);
+        }
+        .editorial-cover h2 {
+            max-width: 880px;
+            margin: 1.4rem 0 .8rem;
+            font-family: var(--font-cn);
+            font-size: clamp(1.8rem, 3.4vw, 3.25rem);
+            font-weight: 600;
+            line-height: 1.28;
+            letter-spacing: .04em;
+        }
+        .editorial-cover p { max-width: 850px; color: rgba(255,255,255,.76); font-family: var(--font-cn); font-size: 1rem; line-height: 1.9; }
+        .editorial-index { display: flex; flex-direction: column; justify-content: center; padding: 2rem; background: rgba(255,255,255,.035); }
+        .editorial-index-title { margin-bottom: .8rem; color: rgba(255,255,255,.7); font-family: var(--font-en); font-size: .76rem; letter-spacing: .15em; text-transform: uppercase; }
+        .editorial-index-row { display: grid; grid-template-columns: minmax(80px,1fr) 110px 30px; align-items: center; gap: .75rem; min-height: 34px; border-top: 1px solid rgba(255,255,255,.15); font-size: .8rem; }
+        .editorial-index-track { height: 2px; background: rgba(255,255,255,.15); }
+        .editorial-index-fill { display: block; height: 100%; background: #93bee2; }
+        .editorial-index-count { text-align: right; font-family: var(--font-en); }
+
+        .command-bar {
+            position: sticky;
+            top: var(--header-h);
+            z-index: 90;
+            display: grid;
+            grid-template-columns: minmax(260px, 1fr) auto auto;
+            align-items: center;
+            gap: 1rem;
+            padding: .78rem 2rem;
+            border-bottom: 1px solid var(--color-border-light);
+            background: rgba(255,255,255,.96);
+            backdrop-filter: blur(14px);
+        }
+        .command-search { display: flex; align-items: center; gap: .7rem; min-height: 40px; padding: 0 .8rem; border: 1px solid var(--color-border); background: var(--color-lighter); }
+        .command-search:focus-within { border-color: var(--color-accent); box-shadow: 0 0 0 3px rgba(52,120,183,.12); }
+        .command-search-mark { color: var(--color-secondary); font-size: 1.05rem; }
+        .command-search .search-box { padding: 0; border: 0; background: transparent; font-size: .9rem; }
+        .command-search .search-box:focus { box-shadow: none; }
+        .command-shortcut { color: var(--color-text-light); border: 1px solid var(--color-border); padding: 0 .35rem; font-family: var(--font-en); font-size: .7rem; }
+        .command-filter-summary { color: var(--color-text-light); font-family: var(--font-cn); font-size: .8rem; white-space: nowrap; }
+        .mobile-filter-toggle {
+            min-height: 40px;
+            padding: 0 1rem;
+            border: 1px solid var(--color-border);
+            background: var(--color-white);
+            color: var(--color-primary);
+            cursor: pointer;
+            font-family: var(--font-cn);
+            font-size: .86rem;
+            letter-spacing: .08em;
+        }
+
+        .container { grid-template-columns: minmax(0, 1fr) 310px; max-width: 1680px; }
+        main { order: 1; min-width: 0; padding: 2rem 2.4rem 3.4rem; }
+        aside { order: 2; top: calc(var(--header-h) + 66px); height: calc(100vh - var(--header-h) - 66px); border-right: 0; border-left: 1px solid var(--color-border-light); padding: 1.6rem 1.35rem 2rem; }
+        .drawer-head { display: none; }
+        .filter-backdrop { display: none; }
+        aside .search-only-section { display: none; }
+
+        .stats-bar { gap: 0; margin-bottom: 2rem; border-top: 3px double var(--color-primary); border-bottom: 1px solid var(--color-border-light); background: var(--color-white); }
+        .stat-card { min-width: 120px; border: 0; border-right: 1px solid var(--color-border-light); border-radius: 0; box-shadow: none; padding: 1rem 1.25rem .9rem; text-align: left; }
+        .stat-card:last-child { border-right: 0; }
+        .stat-card:hover { transform: none; box-shadow: none; border-color: var(--color-border-light); }
+        .stat-card::before { display: none; }
+        .stat-card .number { font-size: 1.65rem; }
+        .stat-card .label { margin-top: .3rem; font-size: .78rem; letter-spacing: .12em; }
+
+        .trends-section { padding: 1.55rem 1.8rem; margin-bottom: 2.2rem; border: 0; border-left: 3px solid var(--color-cinnabar); border-radius: 0; box-shadow: inset 0 -1px var(--color-border-light), inset 0 1px var(--color-border-light); }
+        .trend-summary p, .trend-item p { max-width: 88ch; font-size: 1rem; line-height: 1.95; }
+        .chart-row { min-height: 44px; }
+        .wc-word { appearance: none; border: 0; border-bottom: 1px solid transparent; background: transparent; }
+
+        .articles-header { margin-bottom: 1rem; border-bottom: 3px double var(--color-primary); }
+        .articles-header h2 { font-size: 1.35rem; }
+        .sort-select { min-height: 34px; border: 1px solid var(--color-border); background: var(--color-white); color: var(--color-secondary); font-family: var(--font-cn); font-size: .8rem; }
+
+        #articlesList { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+        .article-card { margin-bottom: 0; border-radius: 0; cursor: default; padding: 1.35rem 1.5rem; }
+        .article-card:hover { transform: none; }
+        .article-card.featured-card { grid-column: 1 / -1; display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 1rem; padding: 1.8rem 2rem; border-top: 3px solid var(--color-primary); }
+        .article-sequence { color: var(--color-cinnabar); font-family: var(--font-en); font-size: 2.4rem; line-height: 1; }
+        .article-card:not(.featured-card) .article-abstract,
+        .article-card:not(.featured-card) .article-abstract-cn { -webkit-line-clamp: 2; }
+        .article-card.expanded .article-abstract,
+        .article-card.expanded .article-abstract-cn { -webkit-line-clamp: unset; }
+        .article-title { font-size: 1.08rem; }
+        .featured-card .article-title { font-size: 1.35rem; }
+        .article-title-cn { font-size: .98rem; color: #41556d; }
+        .article-abstract, .article-abstract-cn { font-size: .94rem; max-width: 90ch; }
+        .source-tag, .period-tag, .topic-tag { font-size: .76rem; }
+        .topic-tag { cursor: pointer; }
+        .keyword { appearance: none; background: transparent; font-size: .76rem; }
+        .expand-hint { appearance: none; width: 100%; border: 0; background: transparent; cursor: pointer; min-height: 32px; }
+        .load-more-btn {
+            display: block;
+            width: 100%;
+            min-height: 48px;
+            margin-top: 1.25rem;
+            border: 1px solid var(--color-border);
+            background: var(--color-white);
+            color: var(--color-primary);
+            cursor: pointer;
+            font-family: var(--font-cn);
+            font-size: .86rem;
+            letter-spacing: .12em;
+        }
+        .load-more-btn:hover { border-color: var(--color-secondary); background: var(--color-light); }
+        .load-more-btn[hidden] { display: none; }
+
+        .sidebar-section h3 { font-size: 1rem; }
+        .filter-item, .month-header {
+            appearance: none;
+            width: 100%;
+            border: 0;
+            text-align: left;
+            background: transparent;
+            font-family: var(--font-ui);
+            font-size: .9rem;
+        }
+
+        footer { margin-top: 0; }
+        .footer-inner { max-width: 1680px; }
+
+        @media (min-width: 1400px) {
+            .container { grid-template-columns: minmax(0, 1fr) 330px; }
+            main { padding: 2.4rem 3rem 3.6rem; }
+            aside { padding: 1.8rem 1.6rem 2.2rem; }
+        }
+        @media (min-width: 1800px) {
+            .container { grid-template-columns: minmax(0, 1fr) 340px; }
+            main { padding: 2.6rem 3.2rem 3.8rem; }
+        }
+
+        @media (max-width: 1100px) {
+            :root { --header-h: 132px; }
+            .source-badges { max-width: 520px; }
+            .container { grid-template-columns: minmax(0, 1fr) 270px; }
+            main { padding: 1.8rem 1.5rem 3rem; }
+        }
+
+        @media (max-width: 900px) {
+            :root { --header-h: 88px; }
+            .journal-topline { display: none; }
+            .header-inner { min-height: 88px; padding: .85rem 1rem; flex-direction: row; align-items: center; flex-wrap: nowrap; }
+            header.compact .header-inner { min-height: 62px; padding: .55rem 1rem; }
+            .header-title h1 { font-size: 1.3rem; letter-spacing: .12em; }
+            .header-title .subtitle { font-size: .68rem; }
+            .header-meta { min-width: 0; }
+            .header-counts { display: none; }
+            .source-badges { max-width: 42vw; flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; scrollbar-width: none; }
+            .source-badges::-webkit-scrollbar { display: none; }
+            header.compact .source-badges { display: none; }
+            .editorial-cover { grid-template-columns: 1fr; min-height: 0; }
+            .editorial-cover-copy { padding: 1.7rem 1.25rem; border-right: 0; }
+            .editorial-cover h2 { margin: 1rem 0 .65rem; font-size: 2rem; }
+            .editorial-cover p { font-size: .94rem; line-height: 1.8; }
+            .editorial-index { padding: 1.2rem 1.25rem; border-top: 1px solid rgba(255,255,255,.13); }
+            .command-bar { top: var(--header-h); grid-template-columns: minmax(0, 1fr) auto; gap: .6rem; padding: .65rem .8rem; }
+            .command-filter-summary { display: none; }
+            .command-shortcut { display: none; }
+            .container { display: block; }
+            main { padding: 1.35rem .9rem 2.5rem; }
+            aside {
+                position: fixed;
+                inset: 0 0 0 auto;
+                z-index: 520;
+                width: min(88vw, 380px);
+                height: 100dvh;
+                padding: 0 1.2rem 2rem;
+                border-left: 1px solid var(--color-border);
+                transform: translateX(102%);
+                transition: transform .28s var(--ease-out);
+                box-shadow: -16px 0 44px rgba(16,38,64,.16);
+            }
+            aside.open { transform: translateX(0); }
+            .drawer-head { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; min-height: 64px; margin: 0 -1.2rem 1.1rem; padding: 0 1.2rem; border-bottom: 3px double var(--color-primary); background: var(--color-white); }
+            .drawer-head strong { color: var(--color-primary); font-family: var(--font-cn); letter-spacing: .12em; }
+            .drawer-close { width: 38px; height: 38px; border: 0; background: transparent; color: var(--color-primary); cursor: pointer; font-size: 1.35rem; }
+            .filter-backdrop { position: fixed; inset: 0; z-index: 510; display: block; background: rgba(16,38,64,.42); opacity: 0; pointer-events: none; transition: opacity .25s; }
+            .filter-backdrop.show { opacity: 1; pointer-events: auto; }
+            body.filter-drawer-open { overflow: hidden; }
+            #articlesList { grid-template-columns: 1fr; }
+            .article-card.featured-card { grid-template-columns: 42px minmax(0, 1fr); padding: 1.45rem 1.15rem; }
+            .article-sequence { font-size: 1.8rem; }
+            .stats-bar { display: grid; grid-template-columns: 1fr 1fr; }
+            .stat-card:nth-child(2) { border-right: 0; }
+            .stat-card:nth-child(-n+2) { border-bottom: 1px solid var(--color-border-light); }
+            .articles-header { align-items: flex-start; gap: .7rem; }
+            .ah-controls { flex-wrap: wrap; justify-content: flex-end; gap: .45rem; }
+        }
+
+        @media (max-width: 520px) {
+            .source-badges { display: none; }
+            .header-inner { justify-content: center; }
+            .header-title { text-align: center; }
+            .editorial-cover h2 { font-size: 1.72rem; }
+            .editorial-index-row { grid-template-columns: 1fr 90px 24px; }
+            .trends-section { padding: 1.3rem 1.1rem; }
+            .article-header { display: block; }
+            .article-date { margin-top: .45rem; }
+            .article-card.featured-card { grid-template-columns: 1fr; }
+            .article-sequence { font-size: 1rem; letter-spacing: .12em; }
+        }
+
+        /* Editorial controls share the existing type, ink and border system. */
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+        .journal-nav { display: flex; gap: 1.25rem; margin-bottom: .45rem; }
+        .journal-nav button { appearance: none; padding: .35rem 0; border: 0; border-bottom: 1px solid transparent; background: transparent; color: var(--color-primary); font-family: var(--font-cn); font-size: .88rem; cursor: pointer; }
+        .journal-nav button:hover, .journal-nav button[aria-pressed="true"], .journal-nav button[aria-current] { border-bottom-color: var(--color-cinnabar); }
+        .header-title, .header-meta { min-width: 0; }
+        .header-bg { pointer-events: none; }
+        .editorial-cover { max-width: 1680px; margin: 0 auto; }
+        .editorial-index-row { width: 100%; padding: .4rem 0; border: 0; border-top: 1px solid rgba(255,255,255,.15); color: inherit; background: transparent; text-align: left; font-family: var(--font-cn); cursor: pointer; }
+        .editorial-index-row:hover, .editorial-index-row[aria-pressed="true"] { color: #fff; background: rgba(255,255,255,.07); }
+        .editorial-cover :focus-visible { outline-color: #fff; }
+        .command-bar { max-width: 1680px; margin: 0 auto; }
+        .command-search { min-width: 0; }
+        .command-search .search-box { min-width: 0; min-height: 40px; }
+        .command-filter-summary { max-width: 28vw; overflow: hidden; text-overflow: ellipsis; }
+        .drawer-search-section, .drawer-actions { display: none; }
+        .article-body { min-width: 0; }
+        .article-card { align-self: start; }
+        .article-card:not(.featured-card) .article-sequence { margin-bottom: .7rem; font-size: .84rem; letter-spacing: .12em; }
+        .article-title, .article-title-cn, .article-abstract, .article-abstract-cn, .article-authors { overflow-wrap: anywhere; }
+        .article-title { line-height: 1.5; }
+        .article-title-cn { line-height: 1.7; }
+        .article-date { flex-shrink: 0; }
+        button.source-tag { appearance: none; border-top: 0; border-right: 0; border-bottom: 0; cursor: pointer; }
+        button.source-tag:hover { background: var(--color-light); }
+        .source-tag, .topic-tag, .keyword { min-height: 28px; }
+        .expand-hint { font-family: var(--font-cn); font-size: .8rem; }
+        .no-results { grid-column: 1 / -1; }
+        .chart-row { width: 100%; border: 0; background: transparent; text-align: left; font: inherit; color: inherit; }
+        .chart-fill { display: block; }
+        .word-cloud { display: flex; flex-wrap: wrap; align-content: center; justify-content: center; align-items: center; gap: .55rem 1rem; height: auto !important; min-height: 120px; padding: 1.3rem .5rem; }
+        .wc-word { position: static; display: inline-block; transform: none; opacity: 1; min-height: 32px; max-width: 100%; padding: .25rem .4rem; white-space: normal; overflow-wrap: anywhere; line-height: 1.5; }
+        .wc-word:hover, .wc-word.in { transform: none; }
+        #mainContent, #articleListHeading, #trendsSection { scroll-margin-top: calc(var(--header-h) + 86px); }
+        .article-card .article-link, .copy-link, .text-btn { min-height: 32px; }
+        @media (min-width: 901px) { #mobileFilterToggle { display: none; } .command-bar { grid-template-columns: minmax(260px, 1fr) auto; } }
+        @media (min-width: 901px) and (max-width: 1200px) { #articlesList { grid-template-columns: 1fr; } }
+        @media (max-width: 900px) {
+            .header-inner { flex-wrap: wrap; gap: .55rem; justify-content: space-between; }
+            .header-meta { align-items: flex-end; }
+            .journal-nav { gap: .9rem; margin-bottom: 0; }
+            .journal-nav button { min-height: 32px; font-size: .8rem; }
+            .source-badges { display: none; }
+            .editorial-index { display: none; }
+            .editorial-cover-copy { padding: 1.4rem 1.25rem 1.6rem; }
+            .editorial-cover h2 { font-size: clamp(1.55rem, 4.7vw, 2rem); }
+            .editorial-cover p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+            aside { height: 100vh; height: 100dvh; overscroll-behavior: contain; padding-bottom: 0; }
+            .drawer-search-section { display: block; }
+            .drawer-search-label { display: block; margin-bottom: .6rem; color: var(--color-secondary); font-size: .9rem; }
+            .drawer-actions { position: sticky; bottom: 0; display: block; margin: 0 -1.2rem; padding: .85rem 1.2rem max(.85rem, env(safe-area-inset-bottom)); border-top: 1px solid var(--color-border); background: var(--color-white); }
+            .drawer-actions button { width: 100%; color: var(--color-white); background: var(--color-primary); }
+            .filter-item, .month-header { min-height: 40px; }
+            .article-card { padding: 1.25rem; }
+            .article-header { display: block; }
+            .article-date { margin-top: .5rem; }
+            .article-actions { flex-wrap: wrap; }
+            .articles-header { flex-direction: column; }
+            .ah-controls { width: 100%; justify-content: flex-start; }
+            .result-count { margin-left: auto; }
+            .command-bar { gap: .5rem; }
+            .command-search .search-box, #drawerSearchBox { font-size: 16px; }
+            .mobile-filter-toggle { padding: 0 .65rem; letter-spacing: 0; }
+            .source-tag, .topic-tag, .keyword { min-height: 32px; }
+        }
+        @media (max-width: 520px) {
+            .header-inner { justify-content: center; }
+            .header-meta { flex-basis: 100%; align-items: center; }
+            .header-title h1 { font-size: 1.15rem; letter-spacing: .1em; }
+            header.compact .header-inner { padding: .4rem .8rem; gap: .15rem; }
+            header.compact .header-title h1 { font-size: 1.1rem; }
+            .header-title .subtitle { font-size: .62rem; }
+            .stat-card { min-width: 0; padding: .8rem 1rem; }
+            .article-card.featured-card { padding: 1.25rem; }
+            .article-card.featured-card .article-title { font-size: 1.17rem; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+        }
     </style>
 </head>
 <body>
@@ -1322,6 +1699,7 @@
 <header id="siteHeader">
     <div class="header-bg"></div>
     <div class="header-pattern"></div>
+    <div class="journal-topline"><span>Review of Law and Finance</span><span>学术观察 · 每周更新</span></div>
     <div class="header-inner">
         <div class="header-title">
             <div>
@@ -1330,6 +1708,11 @@
             </div>
         </div>
         <div class="header-meta">
+            <nav class="journal-nav" aria-label="周报导航">
+                <button type="button" id="navLatest">最新一期</button>
+                <button type="button" id="navOverview">研究总览</button>
+                <button type="button" id="navArchive">历史档案</button>
+            </nav>
             <div class="header-counts" id="headerCounts"></div>
             <div class="source-badges" id="sourceBadges"></div>
         </div>
@@ -1338,37 +1721,31 @@
 
 <div class="fret-band" aria-hidden="true"></div>
 
+<section class="editorial-cover" id="editorialCover" aria-labelledby="editorialTitle">
+    <div class="editorial-cover-copy">
+        <div class="editorial-kicker"><span class="editorial-seal" aria-hidden="true">研</span><span id="editorialIssue">本期观察</span></div>
+        <h2 id="editorialTitle">法律、金融与制度变迁</h2>
+        <p id="editorialSummary"></p>
+    </div>
+    <div class="editorial-index">
+        <div id="editorialIndex"></div>
+    </div>
+</section>
+
+<div class="command-bar" id="commandBar">
+    <label class="command-search" for="searchBox">
+        <span class="command-search-mark" aria-hidden="true">⌕</span>
+        <span class="sr-only">检索标题、摘要、作者、机构或来源</span>
+        <input type="search" class="search-box" id="searchBox" placeholder="检索标题、摘要、作者或机构" autocomplete="off">
+        <span class="command-shortcut" aria-hidden="true">/</span>
+    </label>
+    <span class="command-filter-summary" id="activeFilterSummary" role="status"></span>
+    <button type="button" class="mobile-filter-toggle" id="mobileFilterToggle" aria-expanded="false" aria-controls="filterSidebar">筛选与检索</button>
+</div>
+<div class="filter-backdrop" id="filterBackdrop" aria-hidden="true"></div>
+
 <div class="container">
-    <aside>
-        <div class="sidebar-section">
-            <h3>检索</h3>
-            <div class="search-wrap">
-                <input type="text" class="search-box" id="searchBox" placeholder="输入关键词检索">
-                <span class="kbd">/</span>
-            </div>
-        </div>
-
-        <div class="sidebar-section">
-            <h3>周报</h3>
-            <div id="reportList"></div>
-        </div>
-
-        <div class="sidebar-section">
-            <h3>数据来源</h3>
-            <div id="sourceList"></div>
-        </div>
-
-        <div class="sidebar-section">
-            <h3>研究主题</h3>
-            <div id="topicList"></div>
-        </div>
-
-        <div class="sidebar-section">
-            <button class="reset-btn" id="resetFilters">重置筛选</button>
-        </div>
-    </aside>
-
-    <main>
+    <main id="mainContent">
         <div class="stats-bar" id="statsBar"></div>
 
         <div class="trends-section reveal" id="trendsSection">
@@ -1393,17 +1770,36 @@
         </div>
 
         <div class="articles-header">
-            <h2>文章列表</h2>
+            <h2 id="articleListHeading" tabindex="-1">本期文章</h2>
             <div class="ah-controls">
+                <label class="sr-only" for="sortSelect">文章排序</label>
+                <select id="sortSelect" class="sort-select">
+                    <option value="newest">最新发表</option>
+                    <option value="source">按来源排序</option>
+                    <option value="title">按标题排序</option>
+                </select>
                 <button class="text-btn" id="expandAll">全部展开</button>
                 <span class="ah-divider"></span>
                 <button class="text-btn" id="collapseAll">全部收起</button>
                 <span class="ah-divider"></span>
-                <span class="result-count" id="resultCount"></span>
+                <span class="result-count" id="resultCount" role="status" aria-live="polite"></span>
             </div>
         </div>
         <div id="articlesList"></div>
+        <button type="button" class="load-more-btn" id="loadMoreBtn" hidden>加载更多</button>
     </main>
+    <aside id="filterSidebar" aria-label="筛选与检索">
+        <div class="drawer-head"><strong>筛选与检索</strong><button type="button" class="drawer-close" id="filterDrawerClose" aria-label="关闭筛选抽屉">×</button></div>
+        <div class="sidebar-section drawer-search-section">
+            <label class="drawer-search-label" for="drawerSearchBox">中文与英文检索</label>
+            <input type="search" class="search-box" id="drawerSearchBox" placeholder="标题、摘要、作者、机构或来源" autocomplete="off">
+        </div>
+        <div class="sidebar-section"><h3>研究档案</h3><div id="reportList"></div></div>
+        <div class="sidebar-section"><h3>数据来源</h3><div id="sourceList"></div></div>
+        <div class="sidebar-section"><h3>研究主题</h3><div id="topicList"></div></div>
+        <div class="sidebar-section"><button type="button" class="reset-btn" id="resetFilters">重置筛选</button></div>
+        <div class="drawer-actions"><button type="button" id="viewFiltersBtn" class="mobile-filter-toggle">查看筛选结果</button></div>
+    </aside>
 </div>
 
 <footer>
@@ -1412,7 +1808,7 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>关于本站</h4>
-                <p>法律与金融研究动向是一份自动化生成的法律与金融学术周报，追踪欧美十家主要法律、金融与监管研究机构及播客的最新内容，按公司治理、金融监管、反垄断、科技数据与人工智能等主题分类汇编，仅供学术研究与教学参考之用。</p>
+                <p>法律与金融研究动向是一份自动化生成的法律与金融学术周报，追踪欧美 <span id="footerSourceCount">11</span> 家主要法律、金融与监管研究机构及播客的最新内容，按公司治理、金融监管、反垄断、科技数据与人工智能等主题分类汇编，仅供学术研究与教学参考之用。</p>
             </div>
             <div class="footer-col">
                 <h4>数据来源</h4>
@@ -1440,7 +1836,7 @@
 </footer>
 
 <button class="back-top" id="backTop" aria-label="回到顶部"><span class="bt-char">顶</span></button>
-<div class="toast" id="toast"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script id="db-data" type="application/json">
 {
@@ -11430,786 +11826,446 @@
 }
 </script>
 <script>
-// ===== Database (loaded from <script type="application/json">) =====
-var DB;
+// ===== Database and indexed search =====
+let DB;
 try {
-    DB = JSON.parse(document.getElementById("db-data").textContent);
-} catch(e) {
-    console.error('JSON parse failed:', e);
+    DB = JSON.parse(document.getElementById('db-data').textContent);
+} catch (error) {
+    console.error('Database could not be read:', error);
     DB = { meta: {}, sources: [], topics: [], reports: [], articles: [] };
 }
 
-// 防御性归一化：authors/affiliations/keywords/topics 类型修正，避免渲染抛错导致列表空白
-DB.articles.forEach(a => {
-    if (Array.isArray(a.authors)) a.authors = a.authors.join(', ');
-    if (Array.isArray(a.affiliations)) a.affiliations = a.affiliations.join('; ');
-    if (typeof a.authors !== 'string') a.authors = String(a.authors || '');
-    if (typeof a.affiliations !== 'string') a.affiliations = String(a.affiliations || '');
-    if (!Array.isArray(a.keywords)) a.keywords = typeof a.keywords === 'string' ? a.keywords.split(',').map(s=>s.trim()).filter(Boolean) : (a.keywords || []);
-    if (!Array.isArray(a.keywords_cn)) a.keywords_cn = Array.isArray(a.keywords_cn) ? a.keywords_cn : [];
-    if (!Array.isArray(a.topics)) a.topics = (a.topics ? [a.topics] : []);
+const PAGE_SIZE = 40;
+const $ = id => document.getElementById(id);
+const textValue = value => value == null ? '' : String(value);
+const escapeHTML = value => textValue(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+const normalizeSearch = value => textValue(value).normalize('NFKC').toLocaleLowerCase().replace(/\s+/g, ' ').trim();
+const toList = value => Array.isArray(value) ? value.map(textValue).filter(Boolean) : typeof value === 'string' ? value.split(/[,，;；]/).map(s => s.trim()).filter(Boolean) : [];
+const sourceById = new Map(DB.sources.map(source => [source.id, source]));
+const topicById = new Map(DB.topics.map(topic => [topic.id, topic]));
+const reportById = new Map(DB.reports.map(report => [report.id, report]));
+const reportMonth = report => textValue(report && (report.date || report.id)).slice(0, 7);
+const newestReport = [...DB.reports].sort((a, b) => textValue(b.date || b.id).localeCompare(textValue(a.date || a.id)))[0];
+const months = new Set(DB.reports.map(reportMonth));
+const searchIndex = new Map();
+const SOURCE_DOTS = { ecgi: '#4fd1c5', harvard: '#fc8181', oblb: '#b794f4', promarket: '#f6e05e', cls: '#68d391', yale: '#63b3ed', jotwell: '#ec4899' };
+
+DB.articles.forEach(article => {
+    ['authors', 'affiliations'].forEach(key => { article[key] = Array.isArray(article[key]) ? article[key].join('; ') : textValue(article[key]); });
+    ['keywords', 'keywords_cn', 'topics'].forEach(key => { article[key] = toList(article[key]); });
+    const source = sourceById.get(article.source_id) || {};
+    searchIndex.set(article.id, normalizeSearch([
+        article.title, article.title_cn, article.authors, article.affiliations,
+        article.abstract, article.abstract_cn, ...article.keywords, ...article.keywords_cn,
+        source.id, source.name, source.name_cn, source.short_name,
+        ...article.topics.flatMap(id => { const topic = topicById.get(id) || {}; return [id, topic.name, topic.name_cn, topic.name_en]; })
+    ].join(' ')));
 });
 
-// ===== State =====
 let state = {
-    selectedReport: 'all',
-    selectedSource: 'all',
-    selectedTopic: 'all',
-    searchTerm: '',
-    expandedCards: new Set(),
-    selectedMonth: null,
-    expandedMonths: new Set()
+    selectedReport: newestReport ? newestReport.id : 'all', selectedMonth: null,
+    selectedSource: 'all', selectedTopic: 'all', searchTerm: '', sortMode: 'newest',
+    visibleLimit: PAGE_SIZE, expandedCards: new Set(), expandedMonths: new Set()
 };
-
-const SOURCE_DOTS = {
-    ecgi: '#4fd1c5',
-    harvard: '#fc8181',
-    oblb: '#b794f4',
-    promarket: '#f6e05e',
-    cls: '#68d391',
-    yale: '#63b3ed',
-    jotwell: '#ec4899'
-};
-
-// ===== Reveal Observer =====
-const revealObserver = new IntersectionObserver(entries => {
-    entries.forEach(e => {
-        if (e.isIntersecting) {
-            e.target.classList.add('visible');
-            revealObserver.unobserve(e.target);
-        }
-    });
-}, { threshold: 0.05 });
-
-function observeReveals(scope) {
-    const els = scope.querySelectorAll('.reveal:not(.visible)');
-    els.forEach((el, i) => {
-        el.style.transitionDelay = (i % 8) * 45 + 'ms';
-        revealObserver.observe(el);
-    });
-}
-
-// ===== Init =====
-function init() {
-    try {
-        var fns = [renderHeaderMeta, renderSidebar, renderStats, renderTrends, renderArticles, renderFooter, bindEvents, bindScroll];
-        fns.forEach(function(fn) {
-            try { fn.call(null, true); } catch(e) { console.error('[init] ' + fn.name + ':', e); }
-        });
-        try { observeReveals(document); } catch(e) { console.error('[init] observeReveals:', e); }
-    } catch(e) {
-        console.error('[init] fatal:', e);
-    } finally {
-        // 移除加载遮罩
-        var overlay = document.getElementById('loadingOverlay');
-        if (overlay) {
-            overlay.style.opacity = '0';
-            setTimeout(function() { overlay.remove(); }, 400);
-        }
-    }
-}
-
-// ===== Header Meta =====
-function renderHeaderMeta() {
-    document.getElementById('headerCounts').textContent =
-        DB.sources.length + ' Sources · ' + DB.articles.length + ' Articles · ' + DB.reports.length + ' Reports';
-
-    // 动态渲染 header 来源徽标
-    var badgesEl = document.getElementById('sourceBadges');
-    if (badgesEl && DB.sources && DB.sources.length) {
-        var badgeOrder = ['ecgi', 'harvard', 'oblb', 'promarket', 'cls', 'yale', 'jotwell', 'banking_with_interest', 'nyfed_liberty', 'ecb_supervision', 'bank_underground'];
-        var sorted = DB.sources.slice().sort(function(a, b) {
-            var ia = badgeOrder.indexOf(a.id);
-            var ib = badgeOrder.indexOf(b.id);
-            if (ia === -1) ia = 999;
-            if (ib === -1) ib = 999;
-            return ia - ib;
-        });
-        badgesEl.innerHTML = sorted.map(function(s) {
-            return '<span class="source-badge source-badge-" + s.id + "">' + (s.short_name || s.name) + '</span>';
-        }).join('');
-    }
-}
-
-// ===== Render Sidebar =====
-function renderSidebar() {
-    // Reports — 两级索引：年份+月份（一级）→ 各期报告（二级）
-    const reportList = document.getElementById('reportList');
-    const reportCounts = {};
-    DB.articles.forEach(a => { reportCounts[a.report_id] = (reportCounts[a.report_id] || 0) + 1; });
-
-    // 按报告生成日期（date）的月份分组，最新月份在上
-    const monthMap = {};
-    DB.reports.forEach(r => {
-        const m = (r.date || r.id).slice(0, 7);
-        if (!monthMap[m]) monthMap[m] = [];
-        monthMap[m].push(r);
-    });
-    const monthKeys = Object.keys(monthMap).sort().reverse();
-    // 默认展开最新月份
-    if (state.expandedMonths.size === 0 && monthKeys.length > 0) {
-        state.expandedMonths.add(monthKeys[0]);
-    }
-
-    let reportHTML = '<div class="filter-item' + (state.selectedReport === 'all' && !state.selectedMonth ? ' active' : '') + '" data-report="all">全部周报<span class="count">' + DB.articles.length + '</span></div>';
-    monthKeys.forEach(m => {
-        const ms = monthMap[m];
-        const mCount = ms.reduce((s, r) => s + (reportCounts[r.id] || 0), 0);
-        const open = state.expandedMonths.has(m);
-        const mActive = state.selectedReport === 'all' && state.selectedMonth === m;
-        reportHTML += '<div class="month-header' + (open ? ' open' : '') + (mActive ? ' active' : '') + '" data-month="' + m + '">' +
-            '<span class="arrow">▶</span>' + parseInt(m.slice(0, 4), 10) + '年' + parseInt(m.slice(5), 10) + '月' +
-            '<span class="count">' + mCount + '</span></div>';
-        reportHTML += '<div class="month-body"' + (open ? ' style="max-height:none"' : ' style="max-height:0"') + '>';
-        ms.forEach(r => {
-            const count = reportCounts[r.id] || 0;
-            const periodStr = r.period_start.slice(5).replace('-', '/') + ' — ' + r.period_end.slice(5).replace('-', '/');
-            reportHTML += '<div class="filter-item' + (r.id === state.selectedReport ? ' active' : '') + '" data-report="' + r.id + '">' + periodStr + '<span class="count">' + count + '</span></div>';
-        });
-        reportHTML += '</div>';
-    });
-    reportList.innerHTML = reportHTML;
-
-    // Sources
-    const sourceList = document.getElementById('sourceList');
-    const sourceCounts = {};
-    DB.articles.forEach(a => { sourceCounts[a.source_id] = (sourceCounts[a.source_id] || 0) + 1; });
-
-    let sourceHTML = '<div class="filter-item' + (state.selectedSource === 'all' ? ' active' : '') + '" data-source="all">全部来源<span class="count">' + DB.articles.length + '</span></div>';
-    DB.sources.forEach(s => {
-        const count = sourceCounts[s.id] || 0;
-        if (count > 0 || s.id === 'oblb') {
-            const dot = SOURCE_DOTS[s.id] || '#cbd5e0';
-            sourceHTML += '<div class="filter-item' + (state.selectedSource === s.id ? ' active' : '') + '" data-source="' + s.id + '"><span class="src-dot" style="background:' + dot + '"></span>' + s.short_name + '<span class="count">' + count + '</span></div>';
-        }
-    });
-    sourceList.innerHTML = sourceHTML;
-
-    // Topics
-    const topicList = document.getElementById('topicList');
-    const topicCounts = {};
-    DB.articles.forEach(a => {
-        a.topics.forEach(t => { topicCounts[t] = (topicCounts[t] || 0) + 1; });
-    });
-
-    let topicHTML = '<div class="filter-item' + (state.selectedTopic === 'all' ? ' active' : '') + '" data-topic="all">全部主题<span class="count">' + DB.articles.length + '</span></div>';
-    DB.topics.forEach(t => {
-        const count = topicCounts[t.id] || 0;
-        if (count > 0) {
-            topicHTML += '<div class="filter-item" data-topic="' + t.id + '">' + t.name_cn + '<span class="count">' + count + '</span></div>';
-        }
-    });
-    topicList.innerHTML = topicHTML;
-}
-
-// ===== Count Up =====
-function countUp(el, target, dur) {
-    dur = dur || 900;
-    const start = performance.now();
-    function frame(now) {
-        const p = Math.min((now - start) / dur, 1);
-        const eased = 1 - Math.pow(1 - p, 3);
-        el.textContent = Math.round(target * eased);
-        if (p < 1) requestAnimationFrame(frame);
-    }
-    requestAnimationFrame(frame);
-}
-
-// ===== Render Stats =====
-function renderStats(animate) {
-    const filtered = getFilteredArticles();
-    const sourceCount = new Set(filtered.map(a => a.source_id)).size;
-    const topicCount = new Set(filtered.flatMap(a => a.topics)).size;
-
-    const stats = [
-        { n: filtered.length, label: '文章总数' },
-        { n: sourceCount, label: '数据来源' },
-        { n: topicCount, label: '研究主题' },
-        { n: DB.reports.length, label: '周报期数' }
-    ];
-
-    document.getElementById('statsBar').innerHTML = stats.map(s =>
-        '<div class="stat-card"><div class="number" data-n="' + s.n + '">' + (animate ? '0' : s.n) + '</div><div class="label">' + s.label + '</div></div>'
-    ).join('');
-
-    if (animate) {
-        document.querySelectorAll('#statsBar .number').forEach(el => {
-            countUp(el, parseInt(el.dataset.n, 10));
-        });
-    }
-}
-
-// ===== Render Trends =====
-function renderTrends(animate) {
-    if (!DB.reports || DB.reports.length === 0) return;
-    const tag = document.getElementById('trendsTag');
-    const title = document.getElementById('trendsTitle');
-    const period = document.getElementById('trendsPeriod');
-    const narrative = document.getElementById('trendsNarrative');
-    const chart = document.getElementById('trendsChart');
-
-    // 月份视图 → 当月月报按语（点击月份目录时出现，与每期按语同构）
-    if (state.selectedReport === 'all' && state.selectedMonth) {
-        const mReport = (DB.monthly_reports || []).find(m => m.id === state.selectedMonth);
-        tag.textContent = '本月按语';
-        title.textContent = '当月研究趋势概括';
-        period.textContent = mReport && mReport.label ? mReport.label : state.selectedMonth;
-        narrative.style.display = '';
-        chart.style.display = 'none';
-        const dlBtnM = document.getElementById('dlReportBtn');
-        if (dlBtnM) dlBtnM.style.display = 'none';
-
-        document.getElementById('trendSummary').innerHTML = mReport && mReport.summary
-            ? '<p>' + mReport.summary + '</p>' : '<p>该月月报按语整理中。</p>';
-
-        let html = '';
-        if (mReport && mReport.trends && mReport.trends.length > 0) {
-            mReport.trends.forEach(trend => {
-                html += '<div class="trend-item"><p>' + trend + '</p></div>';
-            });
-        }
-        document.getElementById('trendsContent').innerHTML = html;
-        return;
-    }
-
-    // 全部周报 → 主题分布条形图
-    if (state.selectedReport === 'all') {
-        const filtered = getFilteredArticles();
-        tag.textContent = '总览';
-        title.textContent = '主题分布与研究趋势';
-        period.textContent = '基于 ' + filtered.length + ' 篇文章';
-        narrative.style.display = 'none';
-        chart.style.display = '';
-        const dlBtnAll = document.getElementById('dlReportBtn');
-        if (dlBtnAll) dlBtnAll.style.display = 'none';
-        renderTrendsChart(filtered, animate !== false);
-        return;
-    }
-
-    // 单期周报 → 当期按语
-    const report = DB.reports.find(r => r.id === state.selectedReport) || DB.reports[DB.reports.length - 1];
-    tag.textContent = '本期按语';
-    title.textContent = '研究趋势概括';
-    period.textContent = report.period_start + ' — ' + report.period_end;
-    narrative.style.display = '';
-    chart.style.display = 'none';
-
-    document.getElementById('trendSummary').innerHTML = report.summary
-        ? '<p>' + report.summary + '</p>' : '';
-
-    let html = '';
-    if (report.trends && report.trends.length > 0) {
-        report.trends.forEach(trend => {
-            html += '<div class="trend-item"><p>' + trend + '</p></div>';
-        });
-    }
-    document.getElementById('trendsContent').innerHTML = html;
-
-    // 更新下载按钮
-    const dlBtn = document.getElementById('dlReportBtn');
-    const dlMeta = document.getElementById('dlMeta');
-    if (dlBtn) {
-        dlBtn.style.display = '';
-        dlMeta.textContent = report.period_start + ' — ' + report.period_end + ' · Markdown';
-        dlBtn.onclick = () => downloadReport(report.id);
-    }
-}
-
-// ===== Download Report as Markdown =====
-function downloadReport(reportId) {
-    const report = DB.reports.find(r => r.id === reportId);
-    if (!report) return;
-    const articles = DB.articles.filter(a => a.report_id === reportId);
-
-    let md = '# 法律与金融研究动向\n';
-    md += '**报告周期**：' + report.period_start + ' — ' + report.period_end + '\n';
-    md += '**数据来源**：ECGI | 哈佛商法评论 | OBLB | ProMarket | CLS | Yale JREG\n\n';
-    md += '## 📊 本周研究趋势概括\n\n';
-    if (report.summary) md += report.summary + '\n\n';
-    if (report.trends) {
-        const cnNums = ['一','二','三','四','五'];
-        report.trends.forEach((t, i) => {
-            md += '**趋势' + (cnNums[i] || (i+1)) + '：** ' + t + '\n\n';
-        });
-    }
-    md += '## 📄 各来源新文章\n\n';
-    DB.sources.forEach(s => {
-        const arts = articles.filter(a => a.source_id === s.id);
-        md += '### ' + (s.name_cn || s.short_name) + '\n\n';
-        if (arts.length === 0) {
-            md += '**本周无新文章。**\n\n';
-        } else {
-            arts.forEach(a => {
-                md += '#### ' + (a.title_cn || a.title) + '\n';
-                md += '**作者**：' + a.authors + '\n';
-                md += '**日期**：' + a.date + '\n';
-                md += '**摘要**：' + a.abstract + '\n';
-                if (a.keywords && a.keywords.length) md += '**关键词**：' + a.keywords.join(', ') + '\n';
-                md += '**原文链接**：' + a.url + '\n\n';
-            });
-        }
-    });
-    md += '## 📌 索引\n\n';
-    DB.topics.forEach(t => {
-        const arts = articles.filter(a => a.primary_topic === t.id);
-        if (arts.length > 0) {
-            md += '### ' + t.name_cn + '\n';
-            arts.forEach(a => {
-                const src = DB.sources.find(s => s.id === a.source_id);
-                md += '- **' + (a.title_cn || a.title) + '**（' + (src ? src.name_cn : a.source_id) + '，' + a.date + '）\n';
-            });
-            md += '\n';
-        }
-    });
-    md += '*报告生成时间：' + (report.date || reportId) + '*\n';
-
-    const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = '法律与金融研究动向_' + reportId + '.md';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-}
-
-// ===== Render Trends Chart =====
-function renderTrendsChart(articles, animate) {
-    const chart = document.getElementById('trendsChart');
-    const counts = {};
-    articles.forEach(a => a.topics.forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
-    const total = DB.topics.reduce((s, t) => s + (counts[t.id] || 0), 0) || 1;
-    const max = Math.max(1, ...DB.topics.map(t => counts[t.id] || 0));
-
-    chart.innerHTML = DB.topics.map(t => {
-        const n = counts[t.id] || 0;
-        const pct = Math.round(n / total * 100);
-        const w = Math.round(n / max * 100);
-        const active = state.selectedTopic === t.id ? ' active' : '';
-        return '<div class="chart-row' + active + '" data-topic="' + t.id + '" title="点击筛选「' + t.name_cn + '」">' +
-            '<div class="chart-label">' + t.name_cn + '</div>' +
-            '<div class="chart-track"><div class="chart-fill" data-w="' + w + '"></div></div>' +
-            '<div class="chart-value"><span class="cv-n" data-n="' + n + '">' + (animate ? '0' : n) + '</span><span class="cv-p">' + pct + '%</span></div>' +
-        '</div>';
-    }).join('') + '<div class="chart-note">条形长度按各领域文章数计，点击条目可筛选对应主题。</div>' +
-        '<div class="wc-head"><span class="wc-title">关键词词频分布</span></div>' +
-        '<div class="word-cloud" id="wordCloud"></div>';
-
-    // 双 rAF 确保过渡动画从 0 开始
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-        chart.querySelectorAll('.chart-fill').forEach((el, i) => {
-            el.style.transitionDelay = (i * 90) + 'ms';
-            el.style.width = el.dataset.w + '%';
-        });
-        if (animate) {
-            chart.querySelectorAll('.cv-n').forEach((el, i) => {
-                setTimeout(() => countUp(el, parseInt(el.dataset.n, 10), 800), i * 90);
-            });
-        }
-    }));
-
-    // 点击条形 → 切换主题筛选
-    chart.querySelectorAll('.chart-row').forEach(row => {
-        row.addEventListener('click', () => {
-            const t = row.dataset.topic;
-            state.selectedTopic = (state.selectedTopic === t) ? 'all' : t;
-            document.querySelectorAll('#topicList .filter-item').forEach(el => {
-                el.classList.toggle('active', el.dataset.topic === state.selectedTopic);
-            });
-            renderArticles(true);
-            renderStats(true);
-            renderTrends(false);
-        });
-    });
-
-    renderWordCloud(articles, animate);
-}
-
-// ===== Render Word Cloud =====
-// 经典云图布局：按词频降序从中心螺旋向外排布，碰撞检测，全部横排不旋转
-function renderWordCloud(articles, animate) {
-    const cloud = document.getElementById('wordCloud');
-    if (!cloud) return;
-
-    const freq = {}, forms = {};
-    articles.forEach(a => (a.keywords || []).forEach(k => {
-        const key = String(k).trim().toLowerCase();
-        if (!key) return;
-        freq[key] = (freq[key] || 0) + 1;
-        if (!forms[key]) forms[key] = String(k).trim();
-    }));
-
-    const entries = Object.entries(freq).sort((a, b) => b[1] - a[1]).slice(0, 38);
-    if (entries.length === 0) {
-        cloud.style.height = 'auto';
-        cloud.innerHTML = '<span class="wc-empty">暂无关键词数据</span>';
-        return;
-    }
-
-    const W = Math.max(cloud.clientWidth || 800, 320);
-    const H = 360;
-    const measurer = document.createElement('canvas').getContext('2d');
-    const maxN = entries[0][1], minN = entries[entries.length - 1][1];
-    const placed = [];
-    const nodes = [];
-
-    entries.forEach(([key, n]) => {
-        const r = maxN === minN ? 1 : (n - minN) / (maxN - minN);
-        const size = Math.round(11 + Math.pow(r, 0.62) * 23); // 11–34px
-        const weight = r > 0.66 ? 700 : 400;
-        measurer.font = weight + ' ' + size + 'px "Caladea", Cambria, serif';
-        const w = measurer.measureText(forms[key]).width + 10;
-        const h = size * 1.35;
-
-        // 阿基米德螺线放置 + 包围盒碰撞检测
-        let theta = 0, guard = 0, ok = false, x = 0, y = 0;
-        while (!ok && guard < 1200) {
-            const rad = 1.15 * theta;
-            x = W / 2 + rad * Math.cos(theta);
-            y = H / 2 + rad * Math.sin(theta) * 0.72; // 椭圆云
-            const b = { x1: x - w / 2, y1: y - h / 2, x2: x + w / 2, y2: y + h / 2 };
-            ok = b.x1 >= 2 && b.y1 >= 2 && b.x2 <= W - 2 && b.y2 <= H - 2 &&
-                placed.every(p => b.x2 < p.x1 - 5 || b.x1 > p.x2 + 5 || b.y2 < p.y1 - 3 || b.y1 > p.y2 + 3);
-            if (!ok) { theta += 0.35; guard++; }
-        }
-        if (!ok) return; // 放不下则舍弃该词
-        placed.push({ x1: x - w / 2, y1: y - h / 2, x2: x + w / 2, y2: y + h / 2 });
-        nodes.push({ text: forms[key], x: x, y: y, size: size, r: r, weight: weight });
-    });
-
-    cloud.style.height = H + 'px';
-    cloud.innerHTML = nodes.map(nd => {
-        let color = '#718096';
-        if (nd.r > 0.66) color = '#1a365d';
-        else if (nd.r > 0.4) color = '#2c5282';
-        else if (nd.r > 0.22) color = '#3182ce';
-        return '<span class="wc-word" data-kw="' + nd.text.replace(/"/g, '&quot;') + '" style="left:' + nd.x.toFixed(1) + 'px;top:' + nd.y.toFixed(1) + 'px;font-size:' + nd.size + 'px;color:' + color + ';font-weight:' + nd.weight + '">' + nd.text + '</span>';
-    }).join('');
-
-    // 从中心向外依词频顺序成形
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-        cloud.querySelectorAll('.wc-word').forEach((el, i) => {
-            el.style.transitionDelay = animate ? (i * 55) + 'ms' : '0ms';
-            el.classList.add('in');
-        });
-    }));
-
-    // 点击词 → 检索
-    cloud.querySelectorAll('.wc-word').forEach(w => {
-        w.addEventListener('click', () => {
-            const term = w.dataset.kw;
-            state.searchTerm = term;
-            document.getElementById('searchBox').value = term;
-            renderArticles();
-            renderStats();
-            renderTrends(false);
-            showToast('已检索：' + term);
-        });
-    });
-}
-
-// ===== Filter Articles =====
-function getFilteredArticles() {
-    return DB.articles.filter(a => {
-        if (state.selectedReport !== 'all') {
-            if (a.report_id !== state.selectedReport) return false;
-        } else if (state.selectedMonth) {
-            // 月份视图：筛选该月各期报告下的全部文章
-            const m = (a.report_id || '').slice(0, 7);
-            if (m !== state.selectedMonth) return false;
-        }
-        if (state.selectedSource !== 'all' && a.source_id !== state.selectedSource) return false;
-        if (state.selectedTopic !== 'all' && !a.topics.includes(state.selectedTopic)) return false;
-        if (state.searchTerm) {
-            const term = state.searchTerm.toLowerCase();
-            const searchText = (a.title + ' ' + a.title_cn + ' ' + a.authors + ' ' + a.abstract + ' ' + a.keywords.join(' ')).toLowerCase();
-            if (!searchText.includes(term)) return false;
-        }
-        return true;
-    });
-}
-
-// ===== Render Articles =====
-function renderArticles(reveal) {
-    const filtered = getFilteredArticles();
-    const list = document.getElementById('articlesList');
-    const countEl = document.getElementById('resultCount');
-
-    countEl.textContent = '共 ' + filtered.length + ' 篇';
-
-    if (filtered.length === 0) {
-        list.innerHTML = '<div class="no-results">未找到匹配的文章，请调整筛选条件。</div>';
-        return;
-    }
-
-    filtered.sort((a, b) => b.date.localeCompare(a.date));
-
-    list.innerHTML = filtered.map(a => {
-        const source = DB.sources.find(s => s.id === a.source_id);
-        const topics = a.topics.map(tId => DB.topics.find(t => t.id === tId)).filter(Boolean);
-        const isExpanded = state.expandedCards.has(a.id);
-        const rep = DB.reports.find(r => r.id === a.report_id);
-        const repTag = rep ? '<span class="period-tag">' + rep.period_start.slice(5).replace('-', '/') + '—' + rep.period_end.slice(5).replace('-', '/') + '</span>' : '';
-
-        return '<div class="article-card' + (reveal ? ' reveal' : '') + (isExpanded ? ' expanded' : '') + '" data-id="' + a.id + '">' +
-            '<div class="article-header">' +
-                '<div>' +
-                    '<div class="article-title">' + (a.type === 'podcast' ? '<span class="podcast-icon" title="播客">🎧</span> ' : '') + a.title + '</div>' +
-                    '<div class="article-title-cn">' + (a.title_cn || '') + '</div>' +
-                '</div>' +
-                '<div class="article-date">' + a.date + '</div>' +
-            '</div>' +
-            '<div class="article-meta">' +
-                '<span class="source-tag ' + a.source_id + '">' + (source ? source.short_name : a.source_id) + '</span>' +
-                repTag +
-                topics.map(t => '<span class="topic-tag">' + t.name_cn + '</span>').join('') +
-            '</div>' +
-            '<div class="article-authors"><strong>' + a.authors + '</strong>' +
-                (a.affiliations && a.affiliations.trim() ? '<span class="affiliation"> &mdash; ' + a.affiliations + '</span>' : '') +
-            '</div>' +
-            '<div class="article-abstract">' + a.abstract + '</div>' +
-            (a.abstract_cn ? '<div class="article-abstract-cn">' + a.abstract_cn + '</div>' : '') +
-            '<div class="article-footer">' +
-                '<div class="article-keywords">' +
-                    a.keywords.slice(0, 6).map(k => '<span class="keyword" data-kw="' + k.replace(/"/g, '&quot;') + '">' + k + '</span>').join('') +
-                '</div>' +
-                (a.keywords_cn && a.keywords_cn.length ? '<div class="article-keywords keywords-cn">' +
-                    a.keywords_cn.slice(0, 6).map(k => '<span class="keyword">' + k + '</span>').join('') +
-                '</div>' : '') +
-                '<div class="article-actions">' +
-                    '<button class="copy-link" data-url="' + a.url + '">复制链接</button>' +
-                    '<a href="' + a.url + '" target="_blank" rel="noopener" class="article-link">阅读原文 →</a>' +
-                '</div>' +
-            '</div>' +
-            '<div class="expand-hint">' + (isExpanded ? '收起全文' : '展开全文') + '<span class="tri ' + (isExpanded ? 'up' : 'down') + '"></span></div>' +
-        '</div>';
-    }).join('');
-
-    // Card expand/collapse
-    document.querySelectorAll('.article-card').forEach(card => {
-        card.addEventListener('click', () => {
-            const id = card.dataset.id;
-            const hint = card.querySelector('.expand-hint');
-            if (state.expandedCards.has(id)) {
-                state.expandedCards.delete(id);
-                card.classList.remove('expanded');
-                hint.innerHTML = '展开全文<span class="tri down"></span>';
-            } else {
-                state.expandedCards.add(id);
-                card.classList.add('expanded');
-                hint.innerHTML = '收起全文<span class="tri up"></span>';
-            }
-        });
-    });
-
-    // Keyword -> search
-    document.querySelectorAll('.keyword').forEach(kw => {
-        kw.addEventListener('click', e => {
-            e.stopPropagation();
-            const term = kw.dataset.kw;
-            state.searchTerm = term;
-            document.getElementById('searchBox').value = term;
-            renderArticles();
-            renderStats();
-            renderTrends(false);
-            showToast('已检索：' + term);
-        });
-    });
-
-    // Copy link
-    document.querySelectorAll('.copy-link').forEach(btn => {
-        btn.addEventListener('click', e => {
-            e.stopPropagation();
-            copyText(btn.dataset.url).then(ok => {
-                showToast(ok ? '链接已复制' : '复制失败，请手动复制');
-            });
-        });
-    });
-
-    if (reveal) observeReveals(list);
-}
-
-// ===== Clipboard =====
-function copyText(text) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(text).then(() => true).catch(() => false);
-    }
-    return new Promise(resolve => {
-        const ta = document.createElement('textarea');
-        ta.value = text;
-        ta.style.position = 'fixed';
-        ta.style.opacity = '0';
-        document.body.appendChild(ta);
-        ta.select();
-        let ok = false;
-        try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
-        document.body.removeChild(ta);
-        resolve(ok);
-    });
-}
-
-// ===== Toast =====
+let drawerOpen = false;
+let drawerReturnFocus = null;
+let inertBackground = [];
+let searchTimer = null;
 let toastTimer = null;
-function showToast(msg) {
-    const toast = document.getElementById('toast');
-    toast.textContent = msg;
-    toast.classList.add('show');
-    if (toastTimer) clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => toast.classList.remove('show'), 1800);
+
+function safeURL(value) {
+    try { const url = new URL(textValue(value)); return ['https:', 'http:'].includes(url.protocol) ? url.href : ''; }
+    catch (_) { return ''; }
 }
 
-// ===== Footer =====
-function renderFooter() {
-    document.getElementById('footerSources').innerHTML = DB.sources.map(s =>
-        '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a></li>'
-    ).join('');
-    document.getElementById('copyrightYear').textContent = new Date().getFullYear();
-    document.getElementById('lastUpdated').textContent = (DB.meta && DB.meta.last_updated) || '';
+function readURLState() {
+    const params = new URLSearchParams(location.search);
+    // Shared source/topic/search links cover the archive unless a report is explicit.
+    const hasFilter = ['source', 'topic', 'q', 'month', 'sort'].some(key => params.has(key));
+    const requestedReport = params.get('report');
+    state.selectedReport = requestedReport === 'all' || (!requestedReport && hasFilter) ? 'all'
+        : reportById.has(requestedReport) ? requestedReport : newestReport ? newestReport.id : 'all';
+    state.selectedMonth = state.selectedReport === 'all' && months.has(params.get('month')) ? params.get('month') : null;
+    state.selectedSource = sourceById.has(params.get('source')) ? params.get('source') : 'all';
+    state.selectedTopic = topicById.has(params.get('topic')) ? params.get('topic') : 'all';
+    state.searchTerm = (params.get('q') || '').slice(0, 500).trim();
+    state.sortMode = ['newest', 'source', 'title'].includes(params.get('sort')) ? params.get('sort') : 'newest';
+    const limit = Number(params.get('limit'));
+    state.visibleLimit = Number.isFinite(limit) && limit >= PAGE_SIZE ? Math.min(Math.floor(limit / PAGE_SIZE) * PAGE_SIZE, Math.max(PAGE_SIZE, Math.ceil(DB.articles.length / PAGE_SIZE) * PAGE_SIZE)) : PAGE_SIZE;
+    const selectedMonth = state.selectedMonth || reportMonth(reportById.get(state.selectedReport));
+    if (selectedMonth) state.expandedMonths.add(selectedMonth);
 }
 
-// ===== Bind Events =====
-function bindEvents() {
-    // 统一刷新：侧栏由 state 驱动重建，其余视图联动
-    function refreshView(animate) {
-        renderSidebar();
-        renderArticles(animate);
-        renderStats(animate);
-        renderTrends(animate);
+function syncURL(mode = 'push') {
+    const url = new URL(location.href);
+    ['report', 'month', 'source', 'topic', 'q', 'sort', 'limit'].forEach(key => url.searchParams.delete(key));
+    url.searchParams.set('report', state.selectedReport);
+    if (state.selectedMonth && state.selectedReport === 'all') url.searchParams.set('month', state.selectedMonth);
+    if (state.selectedSource !== 'all') url.searchParams.set('source', state.selectedSource);
+    if (state.selectedTopic !== 'all') url.searchParams.set('topic', state.selectedTopic);
+    if (state.searchTerm) url.searchParams.set('q', state.searchTerm);
+    if (state.sortMode !== 'newest') url.searchParams.set('sort', state.sortMode);
+    if (state.visibleLimit > PAGE_SIZE) url.searchParams.set('limit', String(state.visibleLimit));
+    const target = url.pathname + url.search + url.hash;
+    if (mode === 'push' && target !== location.pathname + location.search + location.hash) {
+        history.replaceState({ ...history.state, scrollY: window.scrollY }, '', location.href);
+        history.pushState({ scrollY: window.scrollY }, '', target);
+    } else history.replaceState({ ...history.state, scrollY: window.scrollY }, '', target);
+}
+
+function focusIdentity() {
+    const active = document.activeElement;
+    return active && { id: active.id, key: active.dataset && active.dataset.focus };
+}
+function restoreFocus(identity) {
+    if (!identity) return;
+    const element = identity.id ? $(identity.id) : identity.key ? [...document.querySelectorAll('[data-focus]')].find(el => el.dataset.focus === identity.key) : null;
+    if (element && !element.closest('[inert]')) element.focus({ preventScroll: true });
+}
+function applyFilters(change, mode = 'push') {
+    clearTimeout(searchTimer);
+    Object.assign(state, change, { visibleLimit: PAGE_SIZE });
+    syncURL(mode);
+    refreshView();
+}
+function refreshView() {
+    const focus = focusIdentity();
+    renderHeaderMeta(); renderSidebar(); renderEditorialCover(); renderStats(); renderTrends(); renderArticles();
+    ['searchBox', 'drawerSearchBox'].forEach(id => { if ($(id) && $(id).value !== state.searchTerm) $(id).value = state.searchTerm; });
+    if ($('sortSelect')) $('sortSelect').value = state.sortMode;
+    if ($('articleListHeading')) $('articleListHeading').textContent = state.selectedReport !== 'all' ? '本期文章' : state.selectedMonth ? '本月文章' : '研究文章';
+    const scope = state.selectedMonth ? state.selectedMonth + ' 月报' : state.selectedReport === 'all' ? '全部周报' : '第 ' + (DB.reports.indexOf(reportById.get(state.selectedReport)) + 1) + ' 期';
+    const labels = [scope];
+    if (state.selectedSource !== 'all') labels.push(sourceById.get(state.selectedSource).short_name || state.selectedSource);
+    if (state.selectedTopic !== 'all') labels.push(topicById.get(state.selectedTopic).name_cn);
+    if (state.searchTerm) labels.push('检索：' + state.searchTerm);
+    if ($('activeFilterSummary')) { $('activeFilterSummary').textContent = labels.join(' · '); $('activeFilterSummary').title = labels.join(' · '); }
+    if ($('viewFiltersBtn')) $('viewFiltersBtn').textContent = '查看 ' + getFilteredArticles().length + ' 篇文章';
+    ['navLatest', 'navOverview'].forEach(id => { if ($(id)) { const active = id === 'navLatest' ? newestReport && state.selectedReport === newestReport.id : state.selectedReport === 'all' && !state.selectedMonth; $(id).classList.toggle('active', Boolean(active)); $(id).setAttribute('aria-pressed', String(Boolean(active))); } });
+    restoreFocus(focus);
+}
+
+function renderHeaderMeta() {
+    $('headerCounts').textContent = DB.sources.length + ' Sources · ' + DB.articles.length + ' Articles · ' + DB.reports.length + ' Reports';
+    $('sourceBadges').innerHTML = DB.sources.map(source => '<button type="button" class="source-badge' + (state.selectedSource === source.id ? ' active' : '') + '" data-source="' + escapeHTML(source.id) + '" data-focus="badge:' + escapeHTML(source.id) + '" aria-pressed="' + (state.selectedSource === source.id) + '" title="筛选来源：' + escapeHTML(source.name_cn || source.name) + '">' + escapeHTML(source.short_name || source.name) + '</button>').join('');
+}
+
+function filterButton(type, id, label, count, active, prefix = '') {
+    return '<button type="button" class="filter-item' + (active ? ' active' : '') + '" data-' + type + '="' + escapeHTML(id) + '" data-focus="filter:' + type + ':' + escapeHTML(id) + '" aria-pressed="' + active + '">' + prefix + escapeHTML(label) + '<span class="count">' + count + '</span></button>';
+}
+
+function renderSidebar() {
+    const reportCounts = {}, sourceCounts = {}, topicCounts = {}, grouped = {};
+    DB.articles.forEach(article => { reportCounts[article.report_id] = (reportCounts[article.report_id] || 0) + 1; sourceCounts[article.source_id] = (sourceCounts[article.source_id] || 0) + 1; article.topics.forEach(id => { topicCounts[id] = (topicCounts[id] || 0) + 1; }); });
+    [...DB.reports].sort((a, b) => textValue(b.date || b.id).localeCompare(textValue(a.date || a.id))).forEach(report => { const month = reportMonth(report); (grouped[month] ||= []).push(report); });
+    let html = filterButton('report', 'all', '全部周报', DB.articles.length, state.selectedReport === 'all' && !state.selectedMonth);
+    Object.keys(grouped).sort().reverse().forEach(month => {
+        const open = state.expandedMonths.has(month);
+        const selected = state.selectedMonth === month && state.selectedReport === 'all';
+        const count = grouped[month].reduce((sum, report) => sum + (reportCounts[report.id] || 0), 0);
+        html += '<button type="button" class="month-header' + (open ? ' open' : '') + (selected ? ' active' : '') + '" data-month="' + escapeHTML(month) + '" data-focus="month:' + escapeHTML(month) + '" aria-expanded="' + open + '" aria-controls="month-' + escapeHTML(month) + '" aria-pressed="' + selected + '"><span class="arrow" aria-hidden="true">▶</span>' + escapeHTML(month.replace('-', '年') + '月') + '<span class="count">' + count + '</span></button>';
+        html += '<div class="month-body" id="month-' + escapeHTML(month) + '"' + (open ? ' style="max-height:none"' : ' hidden') + '>';
+        grouped[month].forEach(report => { html += filterButton('report', report.id, textValue(report.period_start).slice(5).replace('-', '/') + ' — ' + textValue(report.period_end).slice(5).replace('-', '/'), reportCounts[report.id] || 0, state.selectedReport === report.id); });
+        html += '</div>';
+    });
+    $('reportList').innerHTML = html;
+    $('sourceList').innerHTML = filterButton('source', 'all', '全部来源', DB.articles.length, state.selectedSource === 'all') + DB.sources.map(source => filterButton('source', source.id, source.short_name || source.name, sourceCounts[source.id] || 0, state.selectedSource === source.id, '<span class="src-dot" aria-hidden="true" style="background:' + (SOURCE_DOTS[source.id] || '#8b9bb1') + '"></span>')).join('');
+    $('topicList').innerHTML = filterButton('topic', 'all', '全部主题', DB.articles.length, state.selectedTopic === 'all') + DB.topics.map(topic => filterButton('topic', topic.id, topic.name_cn || topic.name, topicCounts[topic.id] || 0, state.selectedTopic === topic.id)).join('');
+}
+
+function getFilteredArticles() {
+    const terms = normalizeSearch(state.searchTerm).split(' ').filter(Boolean);
+    return DB.articles.filter(article => {
+        if (state.selectedReport !== 'all' && article.report_id !== state.selectedReport) return false;
+        if (state.selectedReport === 'all' && state.selectedMonth && reportMonth(reportById.get(article.report_id)) !== state.selectedMonth) return false;
+        if (state.selectedSource !== 'all' && article.source_id !== state.selectedSource) return false;
+        if (state.selectedTopic !== 'all' && !article.topics.includes(state.selectedTopic)) return false;
+        return terms.every(term => (searchIndex.get(article.id) || '').includes(term));
+    });
+}
+function sortedArticles() {
+    return getFilteredArticles().sort((a, b) => {
+        if (state.sortMode === 'source') {
+            const sourceA = sourceById.get(a.source_id) || {}, sourceB = sourceById.get(b.source_id) || {};
+            const order = textValue(sourceA.short_name || a.source_id).localeCompare(textValue(sourceB.short_name || b.source_id), 'zh-Hans');
+            if (order) return order;
+        }
+        if (state.sortMode === 'title') return textValue(a.title_cn || a.title).localeCompare(textValue(b.title_cn || b.title), 'zh-Hans') || textValue(a.id).localeCompare(textValue(b.id));
+        return textValue(b.date).localeCompare(textValue(a.date)) || textValue(a.id).localeCompare(textValue(b.id));
+    });
+}
+function topicCountsFor(articles) {
+    const counts = new Map();
+    articles.forEach(article => article.topics.forEach(id => counts.set(id, (counts.get(id) || 0) + 1)));
+    return DB.topics.map(topic => ({ topic, count: counts.get(topic.id) || 0 })).sort((a, b) => b.count - a.count);
+}
+function renderEditorialCover() {
+    if (!$('editorialTitle')) return;
+    const report = reportById.get(state.selectedReport);
+    const filtered = getFilteredArticles();
+    const topics = topicCountsFor(filtered).filter(item => item.count > 0).slice(0, 4);
+    $('editorialIssue').textContent = report ? report.period_start + ' — ' + report.period_end + ' · 本期研究' : state.selectedMonth ? state.selectedMonth + ' · 月度回望' : '研究档案 · 持续更新';
+    $('editorialTitle').textContent = report ? '在制度与市场之间，读懂本期研究' : state.selectedMonth ? '以月为尺，观察制度的演进' : '循研究脉络，连接制度与市场';
+    const hasSubFilter = state.selectedSource !== 'all' || state.selectedTopic !== 'all' || Boolean(state.searchTerm);
+    $('editorialSummary').textContent = report && report.summary && !hasSubFilter ? report.summary : '当前收录 ' + filtered.length + ' 篇研究，覆盖 ' + new Set(filtered.map(article => article.source_id)).size + ' 个来源。' + (topics.length ? '从' + topics.slice(0, 2).map(item => item.topic.name_cn).join('、') + '切入，追踪法律与金融的交汇。' : '选择来源、主题或关键词，开始阅读。');
+    const max = Math.max(1, ...topics.map(item => item.count));
+    $('editorialIndex').innerHTML = '<div class="editorial-index-title">本页主题 · Research Index</div>' + (topics.length ? topics.map(({ topic, count }) => '<button type="button" class="editorial-index-row" data-topic="' + escapeHTML(topic.id) + '" data-focus="index:' + escapeHTML(topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '"><span>' + escapeHTML(topic.name_cn) + '</span><span class="editorial-index-track"><span class="editorial-index-fill" style="width:' + Math.round(count / max * 100) + '%"></span></span><span class="editorial-index-count">' + count + '</span></button>').join('') : '<p>暂无匹配主题</p>');
+}
+function renderStats() {
+    const articles = getFilteredArticles();
+    const stats = [ [articles.length, '当前文章'], [new Set(articles.map(a => a.source_id)).size, '数据来源'], [new Set(articles.flatMap(a => a.topics)).size, '研究主题'], [new Set(articles.map(a => a.report_id).filter(id => reportById.has(id))).size, '相关周报'] ];
+    $('statsBar').innerHTML = stats.map(([number, label]) => '<div class="stat-card"><div class="number">' + number + '</div><div class="label">' + label + '</div></div>').join('');
+}
+
+function renderTrends() {
+    const report = reportById.get(state.selectedReport);
+    const monthly = state.selectedMonth && (DB.monthly_reports || []).find(item => item.id === state.selectedMonth);
+    const narrative = report || monthly;
+    $('trendsTag').textContent = report ? '本期按语' : state.selectedMonth ? '本月按语' : '研究总览';
+    $('trendsTitle').textContent = narrative ? '研究趋势概括' : '主题分布与关键词';
+    $('trendsPeriod').textContent = report ? report.period_start + ' — ' + report.period_end : state.selectedMonth ? (monthly && monthly.label) || state.selectedMonth : '基于 ' + getFilteredArticles().length + ' 篇文章';
+    $('trendsNarrative').style.display = narrative ? '' : 'none';
+    $('trendsChart').style.display = narrative ? 'none' : '';
+    $('dlReportBtn').style.display = report ? '' : 'none';
+    if (narrative) {
+        $('trendSummary').innerHTML = '<p>' + escapeHTML(narrative.summary || '本期研究按语整理中，可先阅读下方文章。') + '</p>';
+        $('trendsContent').innerHTML = (narrative.trends || []).map(trend => '<div class="trend-item"><p>' + escapeHTML(trend) + '</p></div>').join('');
+        if (report) { $('dlMeta').textContent = report.period_start + ' — ' + report.period_end + ' · Markdown'; $('dlReportBtn').onclick = () => downloadReport(report.id); }
+    } else renderTrendsChart(getFilteredArticles());
+}
+function renderTrendsChart(articles) {
+    const distribution = topicCountsFor(articles);
+    const max = Math.max(1, ...distribution.map(item => item.count));
+    $('trendsChart').innerHTML = distribution.map(({ topic, count }) => '<button type="button" class="chart-row' + (state.selectedTopic === topic.id ? ' active' : '') + '" data-topic="' + escapeHTML(topic.id) + '" data-focus="chart:' + escapeHTML(topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '"><span class="chart-label">' + escapeHTML(topic.name_cn) + '</span><span class="chart-track"><span class="chart-fill" style="width:' + Math.round(count / max * 100) + '%"></span></span><span class="chart-value"><span class="cv-n">' + count + '</span><span class="cv-p">' + (articles.length ? Math.round(count / articles.length * 100) : 0) + '%</span></span></button>').join('') + '<div class="chart-note">百分比为当前文章的主题覆盖率；一篇文章可涉及多个主题。选择条目即可筛选。</div><div class="wc-head"><span class="wc-title">关键词词云 · 点击检索</span></div><div class="word-cloud" id="wordCloud" aria-label="关键词检索"></div>';
+    renderWordCloud(articles);
+}
+function renderWordCloud(articles) {
+    const cloud = $('wordCloud');
+    if (!cloud) return;
+    const frequency = new Map();
+    articles.forEach(article => {
+        const seen = new Set();
+        [...article.keywords_cn, ...article.keywords].forEach(word => {
+            const key = normalizeSearch(word);
+            if (!key || seen.has(key)) return;
+            seen.add(key);
+            const entry = frequency.get(key) || { word, count: 0 };
+            entry.count += 1; frequency.set(key, entry);
+        });
+    });
+    const words = [...frequency.values()].sort((a, b) => b.count - a.count || a.word.localeCompare(b.word, 'zh-Hans')).slice(0, 30);
+    const max = words.length ? words[0].count : 1;
+    cloud.innerHTML = words.length ? words.map(({ word, count }) => '<button type="button" class="wc-word in" data-kw="' + escapeHTML(word) + '" data-focus="cloud:' + escapeHTML(word) + '" title="检索 ' + escapeHTML(word) + '（' + count + ' 篇）" style="font-size:' + (0.85 + count / max * 0.5).toFixed(2) + 'rem">' + escapeHTML(word) + '</button>').join('') : '<span class="wc-empty">暂无关键词数据</span>';
+}
+
+function articleMarkup(article, index) {
+    const source = sourceById.get(article.source_id) || {};
+    const report = reportById.get(article.report_id);
+    const expanded = state.expandedCards.has(article.id);
+    const id = 'abstract-' + encodeURIComponent(article.id);
+    const url = safeURL(article.url);
+    const keyword = word => '<button type="button" class="keyword" data-kw="' + escapeHTML(word) + '" data-focus="keyword:' + escapeHTML(article.id + ':' + word) + '">' + escapeHTML(word) + '</button>';
+    return '<article class="article-card' + (index === 0 ? ' featured-card' : '') + (expanded ? ' expanded' : '') + '" data-id="' + escapeHTML(article.id) + '">' + (index === 0 ? '<span class="article-sequence" aria-hidden="true">01</span>' : '') + '<div class="article-body">' +
+        '<div class="article-header"><div><h3 class="article-title">' + (article.type === 'podcast' ? '<span class="podcast-icon" title="播客">🎧</span> ' : '') + escapeHTML(article.title) + '</h3>' + (article.title_cn ? '<div class="article-title-cn">' + escapeHTML(article.title_cn) + '</div>' : '') + '</div><time class="article-date" datetime="' + escapeHTML(article.date) + '">' + escapeHTML(article.date) + '</time></div>' +
+        '<div class="article-meta"><button type="button" class="source-tag ' + escapeHTML(article.source_id) + '" data-source="' + escapeHTML(article.source_id) + '" data-focus="article-source:' + escapeHTML(article.id) + '" aria-pressed="' + (state.selectedSource === article.source_id) + '">' + escapeHTML(source.short_name || article.source_id) + '</button>' + (report ? '<span class="period-tag">' + escapeHTML(textValue(report.period_start).slice(5).replace('-', '/') + '—' + textValue(report.period_end).slice(5).replace('-', '/')) + '</span>' : '') + article.topics.map(id => topicById.get(id)).filter(Boolean).map(topic => '<button type="button" class="topic-tag' + (state.selectedTopic === topic.id ? ' active' : '') + '" data-topic="' + escapeHTML(topic.id) + '" data-focus="article-topic:' + escapeHTML(article.id + ':' + topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '">' + escapeHTML(topic.name_cn) + '</button>').join('') + '</div>' +
+        '<div class="article-authors"><strong>' + escapeHTML(article.authors) + '</strong>' + (article.affiliations.trim() ? '<span class="affiliation"> — ' + escapeHTML(article.affiliations) + '</span>' : '') + '</div>' +
+        '<div id="' + escapeHTML(id) + '"><div class="article-abstract">' + escapeHTML(article.abstract) + '</div>' + (article.abstract_cn ? '<div class="article-abstract-cn">' + escapeHTML(article.abstract_cn) + '</div>' : '') + '</div>' +
+        '<div class="article-footer"><div class="article-keywords">' + article.keywords.slice(0, 6).map(keyword).join('') + '</div>' + (article.keywords_cn.length ? '<div class="article-keywords keywords-cn">' + article.keywords_cn.slice(0, 6).map(keyword).join('') + '</div>' : '') + '<div class="article-actions">' + (url ? '<button type="button" class="copy-link" data-url="' + escapeHTML(url) + '">复制链接</button><a href="' + escapeHTML(url) + '" target="_blank" rel="noopener noreferrer" class="article-link">阅读原文 →</a>' : '<span class="article-link">原文链接待补充</span>') + '</div></div>' +
+        '<button type="button" class="expand-hint" data-expand="' + escapeHTML(article.id) + '" data-focus="expand:' + escapeHTML(article.id) + '" aria-expanded="' + expanded + '" aria-controls="' + escapeHTML(id) + '">' + (expanded ? '收起全文' : '展开全文') + '<span class="tri ' + (expanded ? 'up' : 'down') + '" aria-hidden="true"></span></button></div></article>';
+}
+function renderArticles(append = false) {
+    const articles = sortedArticles();
+    const shown = Math.min(state.visibleLimit, articles.length);
+    const list = $('articlesList');
+    if (append) {
+        const previousCount = list.querySelectorAll('.article-card').length;
+        list.insertAdjacentHTML('beforeend', articles.slice(previousCount, shown).map((article, offset) => articleMarkup(article, previousCount + offset)).join(''));
+    } else list.innerHTML = articles.length ? articles.slice(0, shown).map(articleMarkup).join('') : '<div class="no-results">未找到匹配文章。可减少筛选条件，或切换到全部周报检索。</div>';
+    $('resultCount').textContent = '显示 ' + shown + ' / 共 ' + articles.length + ' 篇';
+    $('loadMoreBtn').hidden = shown >= articles.length;
+    $('loadMoreBtn').textContent = '加载更多 · 还有 ' + Math.max(0, articles.length - shown) + ' 篇';
+}
+
+function syncDrawerViewport() {
+    const sidebar = $('filterSidebar');
+    if (!sidebar) return;
+    const mobile = matchMedia('(max-width: 900px)').matches;
+    if (!mobile && drawerOpen) closeDrawer(false);
+    sidebar.inert = mobile && !drawerOpen;
+    if (mobile && !drawerOpen) sidebar.setAttribute('aria-hidden', 'true'); else sidebar.removeAttribute('aria-hidden');
+}
+function openDrawer() {
+    const sidebar = $('filterSidebar');
+    if (!matchMedia('(max-width: 900px)').matches) { sidebar.scrollIntoView({ behavior: 'smooth', block: 'start' }); sidebar.querySelector('button')?.focus({ preventScroll: true }); return; }
+    if (drawerOpen) return;
+    drawerReturnFocus = document.activeElement;
+    drawerOpen = true;
+    sidebar.inert = false; sidebar.removeAttribute('aria-hidden'); sidebar.setAttribute('role', 'dialog'); sidebar.setAttribute('aria-modal', 'true'); sidebar.setAttribute('aria-label', '筛选与检索'); sidebar.classList.add('open');
+    $('filterBackdrop').classList.add('show'); $('mobileFilterToggle').setAttribute('aria-expanded', 'true'); document.body.classList.add('filter-drawer-open');
+    inertBackground = [];
+    let branch = sidebar;
+    while (branch.parentElement) {
+        [...branch.parentElement.children].forEach(sibling => { if (sibling !== branch && sibling !== $('filterBackdrop') && !['SCRIPT', 'STYLE'].includes(sibling.tagName)) { inertBackground.push([sibling, sibling.inert]); sibling.inert = true; } });
+        if (branch.parentElement === document.body) break;
+        branch = branch.parentElement;
     }
-
-    document.getElementById('reportList').addEventListener('click', e => {
-        // 月份一级菜单：展开/折叠 + 切换到当月月报视图
-        const header = e.target.closest('.month-header');
-        if (header) {
-            const m = header.dataset.month;
-            if (state.expandedMonths.has(m)) state.expandedMonths.delete(m);
-            else state.expandedMonths.add(m);
-            state.selectedReport = 'all';
-            state.selectedMonth = m;
-            refreshView(true);
-            return;
-        }
-        const item = e.target.closest('.filter-item');
-        if (!item) return;
-        if (item.dataset.report === 'all') {
-            // 全部周报 → 总览视图
-            state.selectedReport = 'all';
-            state.selectedMonth = null;
-        } else {
-            state.selectedReport = item.dataset.report;
-            const rep = DB.reports.find(r => r.id === item.dataset.report);
-            state.selectedMonth = rep ? (rep.date || rep.id).slice(0, 7) : null;
-            // 确保所在月份处于展开状态
-            if (state.selectedMonth) state.expandedMonths.add(state.selectedMonth);
-        }
-        refreshView(true);
-    });
-
-    document.getElementById('sourceList').addEventListener('click', e => {
-        const item = e.target.closest('.filter-item');
-        if (!item) return;
-        state.selectedSource = item.dataset.source;
-        refreshView(true);
-    });
-
-    document.getElementById('topicList').addEventListener('click', e => {
-        const item = e.target.closest('.filter-item');
-        if (!item) return;
-        state.selectedTopic = item.dataset.topic;
-        refreshView(true);
-    });
-
-    document.getElementById('searchBox').addEventListener('input', e => {
-        state.searchTerm = e.target.value.trim();
-        renderArticles();
-        renderStats();
-        renderTrends(false);
-    });
-
-    document.getElementById('resetFilters').addEventListener('click', () => {
-        state.selectedReport = 'all';
-        state.selectedSource = 'all';
-        state.selectedTopic = 'all';
-        state.searchTerm = '';
-        state.selectedMonth = null;
-        document.getElementById('searchBox').value = '';
-        renderSidebar();
-        renderArticles(true);
-        renderStats(true);
-        renderTrends(true);
-        showToast('筛选已重置');
-    });
-
-    document.getElementById('expandAll').addEventListener('click', () => {
-        getFilteredArticles().forEach(a => state.expandedCards.add(a.id));
-        renderArticles();
-    });
-
-    document.getElementById('collapseAll').addEventListener('click', () => {
-        state.expandedCards.clear();
-        renderArticles();
-    });
-
-    // Keyboard shortcuts
-    document.addEventListener('keydown', e => {
-        const tag = (e.target.tagName || '').toLowerCase();
-        if (e.key === '/' && tag !== 'input' && tag !== 'textarea') {
-            e.preventDefault();
-            document.getElementById('searchBox').focus();
-        } else if (e.key === 'Escape' && tag === 'input') {
-            e.target.value = '';
-            e.target.dispatchEvent(new Event('input'));
-            e.target.blur();
-        }
-    });
-
-    document.getElementById('backTop').addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-    // 窗口尺寸变化时重排词云（不重播动画）
-    let wcResizeTimer = null;
-    window.addEventListener('resize', () => {
-        clearTimeout(wcResizeTimer);
-        wcResizeTimer = setTimeout(() => {
-            if (state.selectedReport === 'all') renderTrends(false);
-        }, 250);
-    });
+    ($('drawerSearchBox') || $('filterDrawerClose')).focus({ preventScroll: true });
+}
+function closeDrawer(restore = true) {
+    if (!drawerOpen) return;
+    const sidebar = $('filterSidebar');
+    drawerOpen = false;
+    sidebar.classList.remove('open'); sidebar.removeAttribute('role'); sidebar.removeAttribute('aria-modal');
+    $('filterBackdrop').classList.remove('show'); $('mobileFilterToggle').setAttribute('aria-expanded', 'false'); document.body.classList.remove('filter-drawer-open');
+    inertBackground.forEach(([element, previous]) => { element.inert = previous; }); inertBackground = [];
+    if (restore && drawerReturnFocus && drawerReturnFocus.isConnected) drawerReturnFocus.focus({ preventScroll: true });
+    syncDrawerViewport();
 }
 
-// ===== Scroll Effects =====
-function bindScroll() {
-    const progress = document.getElementById('scrollProgress');
-    const header = document.getElementById('siteHeader');
-    const backTop = document.getElementById('backTop');
-    let ticking = false;
+function bindEvents() {
+    document.addEventListener('click', event => {
+        const button = event.target.closest('button');
+        if (!button) return;
+        if (button.dataset.expand) {
+            const id = button.dataset.expand;
+            const expanded = !state.expandedCards.has(id);
+            expanded ? state.expandedCards.add(id) : state.expandedCards.delete(id);
+            button.closest('.article-card').classList.toggle('expanded', expanded);
+            button.setAttribute('aria-expanded', String(expanded));
+            button.innerHTML = (expanded ? '收起全文' : '展开全文') + '<span class="tri ' + (expanded ? 'up' : 'down') + '" aria-hidden="true"></span>';
+        } else if (button.dataset.kw) applyFilters({ searchTerm: button.dataset.kw });
+        else if (button.dataset.source) applyFilters({ selectedSource: button.dataset.source });
+        else if (button.dataset.topic) applyFilters({ selectedTopic: button.dataset.topic });
+        else if (button.dataset.report) {
+            const report = reportById.get(button.dataset.report);
+            if (report) state.expandedMonths.add(reportMonth(report));
+            applyFilters({ selectedReport: report ? report.id : 'all', selectedMonth: null });
+        } else if (button.dataset.month) {
+            const month = button.dataset.month;
+            state.expandedMonths.has(month) ? state.expandedMonths.delete(month) : state.expandedMonths.add(month);
+            applyFilters({ selectedReport: 'all', selectedMonth: month });
+        } else if (button.classList.contains('copy-link')) copyText(button.dataset.url).then(ok => showToast(ok ? '链接已复制' : '复制失败，请手动复制原文链接'));
+    });
+    ['searchBox', 'drawerSearchBox'].forEach(id => {
+        const input = $(id);
+        if (!input) return;
+        input.addEventListener('input', event => {
+            const value = event.target.value;
+            ['searchBox', 'drawerSearchBox'].forEach(other => { if ($(other) && other !== id) $(other).value = value; });
+            state.searchTerm = value.trim().slice(0, 500);
+            clearTimeout(searchTimer);
+            if (event.isComposing) return;
+            searchTimer = setTimeout(() => applyFilters({ searchTerm: value.trim().slice(0, 500) }, 'replace'), 160);
+        });
+        input.addEventListener('compositionend', () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => applyFilters({ searchTerm: input.value.trim().slice(0, 500) }, 'replace'), 160); });
+        input.addEventListener('keydown', event => { if (event.key === 'Enter' && !event.isComposing) { clearTimeout(searchTimer); applyFilters({ searchTerm: input.value.trim().slice(0, 500) }, 'replace'); } });
+    });
+    $('resetFilters').addEventListener('click', () => { applyFilters({ selectedReport: 'all', selectedMonth: null, selectedSource: 'all', selectedTopic: 'all', searchTerm: '', sortMode: 'newest' }); showToast('已显示全部周报'); });
+    $('sortSelect').addEventListener('change', event => applyFilters({ sortMode: event.target.value }));
+    $('loadMoreBtn').addEventListener('click', () => {
+        const previousCount = $('articlesList').querySelectorAll('.article-card').length;
+        state.visibleLimit += PAGE_SIZE; syncURL(); renderArticles(true);
+        // Keep existing cards intact and move the keyboard reading position to the new batch.
+        const firstNew = $('articlesList').querySelectorAll('.article-card')[previousCount];
+        if (firstNew) { firstNew.setAttribute('tabindex', '-1'); firstNew.focus({ preventScroll: true }); }
+        showToast('已加载更多，当前显示 ' + $('articlesList').querySelectorAll('.article-card').length + ' 篇');
+    });
+    $('expandAll').addEventListener('click', () => { sortedArticles().slice(0, state.visibleLimit).forEach(article => state.expandedCards.add(article.id)); renderArticles(); });
+    $('collapseAll').addEventListener('click', () => { state.expandedCards.clear(); renderArticles(); });
+    $('mobileFilterToggle').addEventListener('click', openDrawer);
+    $('filterDrawerClose').addEventListener('click', () => closeDrawer());
+    $('filterBackdrop').addEventListener('click', () => closeDrawer());
+    $('viewFiltersBtn').addEventListener('click', () => { clearTimeout(searchTimer); applyFilters({ searchTerm: $('drawerSearchBox').value.trim().slice(0, 500) }, 'replace'); closeDrawer(); $('articleListHeading')?.focus({ preventScroll: true }); $('articleListHeading')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    $('navLatest').addEventListener('click', () => { applyFilters({ selectedReport: newestReport ? newestReport.id : 'all', selectedMonth: null, selectedSource: 'all', selectedTopic: 'all', searchTerm: '' }); });
+    $('navOverview').addEventListener('click', () => applyFilters({ selectedReport: 'all', selectedMonth: null, selectedSource: 'all', selectedTopic: 'all', searchTerm: '' }));
+    $('navArchive').addEventListener('click', openDrawer);
+    $('backTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && drawerOpen) { event.preventDefault(); closeDrawer(); return; }
+        if (event.key === 'Tab' && drawerOpen) {
+            const focusable = [...$('filterSidebar').querySelectorAll('button:not([disabled]), input:not([disabled]), select, a[href], [tabindex="0"]')].filter(el => !el.closest('[hidden]') && el.getClientRects().length);
+            const first = focusable[0], last = focusable[focusable.length - 1];
+            if (!first) return;
+            if (event.shiftKey && (document.activeElement === first || !$('filterSidebar').contains(document.activeElement))) { event.preventDefault(); last.focus(); }
+            else if (!event.shiftKey && (document.activeElement === last || !$('filterSidebar').contains(document.activeElement))) { event.preventDefault(); first.focus(); }
+        }
+        const editing = event.target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName);
+        if (event.key === '/' && !editing && !event.metaKey && !event.ctrlKey && !event.altKey) { event.preventDefault(); if (matchMedia('(max-width: 900px)').matches) openDrawer(); else $('searchBox').focus(); }
+        else if (event.key === 'Escape' && ['searchBox', 'drawerSearchBox'].includes(event.target.id)) { event.preventDefault(); applyFilters({ searchTerm: '' }, 'replace'); }
+    });
+    window.addEventListener('popstate', event => { clearTimeout(searchTimer); readURLState(); refreshView(); requestAnimationFrame(() => window.scrollTo({ top: event.state && Number.isFinite(event.state.scrollY) ? event.state.scrollY : 0, behavior: 'instant' })); });
+    window.addEventListener('resize', syncDrawerViewport);
+    syncDrawerViewport();
+}
 
-    function onScroll() {
-        if (ticking) return;
-        ticking = true;
+function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(text).then(() => true).catch(() => false);
+    const previousFocus = document.activeElement;
+    const area = document.createElement('textarea'); area.value = text; area.style.cssText = 'position:fixed;opacity:0'; document.body.appendChild(area); area.select();
+    let copied = false;
+    try { copied = document.execCommand('copy'); } catch (_) { /* Offer the original link when clipboard is unavailable. */ }
+    area.remove(); if (previousFocus) previousFocus.focus({ preventScroll: true }); return Promise.resolve(copied);
+}
+function showToast(message) {
+    $('toast').textContent = message; $('toast').classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => $('toast').classList.remove('show'), 2200);
+}
+function renderFooter() {
+    $('footerSources').innerHTML = DB.sources.map(source => { const url = safeURL(source.url); return '<li>' + (url ? '<a href="' + escapeHTML(url) + '" target="_blank" rel="noopener noreferrer">' + escapeHTML(source.name) + '</a>' : escapeHTML(source.name)) + '</li>'; }).join('');
+    $('copyrightYear').textContent = new Date().getFullYear(); $('lastUpdated').textContent = DB.meta.last_updated || '';
+    if ($('footerSourceCount')) $('footerSourceCount').textContent = String(DB.sources.length);
+}
+function downloadReport(reportId) {
+    const report = reportById.get(reportId);
+    if (!report) return;
+    const articles = DB.articles.filter(article => article.report_id === reportId);
+    let markdown = '# 法律与金融研究动向\n\n**报告周期**：' + report.period_start + ' — ' + report.period_end + '\n\n**监测来源（' + DB.sources.length + '）**：' + DB.sources.map(source => source.short_name || source.name).join(' | ') + '\n\n## 本期研究趋势\n\n' + textValue(report.summary) + '\n\n';
+    (report.trends || []).forEach(trend => { markdown += textValue(trend) + '\n\n'; });
+    DB.sources.forEach(source => {
+        const fromSource = articles.filter(article => article.source_id === source.id);
+        markdown += '## ' + textValue(source.name_cn || source.name) + '\n\n';
+        if (!fromSource.length) markdown += '本期无新文章。\n\n';
+        fromSource.forEach(article => {
+            markdown += '### ' + textValue(article.title_cn || article.title) + '\n\n' + (article.title_cn ? textValue(article.title) + '\n\n' : '') + '**作者**：' + article.authors + '\n\n';
+            if (article.affiliations) markdown += '**机构**：' + article.affiliations + '\n\n';
+            markdown += '**日期**：' + textValue(article.date) + '\n\n**摘要**：' + textValue(article.abstract) + '\n\n';
+            if (article.abstract_cn) markdown += '**中文摘要**：' + article.abstract_cn + '\n\n';
+            if (article.keywords.length) markdown += '**关键词**：' + article.keywords.join(', ') + '\n\n';
+            if (article.keywords_cn.length) markdown += '**中文关键词**：' + article.keywords_cn.join('、') + '\n\n';
+            const url = safeURL(article.url); if (url) markdown += '**原文链接**：' + url + '\n\n';
+        });
+    });
+    markdown += '*报告生成时间：' + textValue(report.date || reportId) + '*\n';
+    const url = URL.createObjectURL(new Blob([markdown], { type: 'text/markdown;charset=utf-8' }));
+    const link = document.createElement('a'); link.href = url; link.download = '法律与金融研究动向_' + reportId + '.md'; document.body.appendChild(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function bindScroll() {
+    const header = $('siteHeader');
+    const syncHeaderHeight = () => document.documentElement.style.setProperty('--header-h', header.getBoundingClientRect().height + 'px');
+    let ticking = false;
+    const onScroll = () => {
+        if (ticking) return; ticking = true;
         requestAnimationFrame(() => {
             const doc = document.documentElement;
             const max = doc.scrollHeight - doc.clientHeight;
-            const pct = max > 0 ? doc.scrollTop / max : 0;
-            progress.style.transform = 'scaleX(' + pct + ')';
-            header.classList.toggle('compact', doc.scrollTop > 60);
-            backTop.classList.toggle('show', doc.scrollTop > 320);
-            backTop.style.setProperty('--p', pct);
-            ticking = false;
+            const progress = max > 0 ? window.scrollY / max : 0;
+            $('scrollProgress').style.transform = 'scaleX(' + progress + ')'; header.classList.toggle('compact', window.scrollY > 60); $('backTop').classList.toggle('show', window.scrollY > 320); $('backTop').style.setProperty('--p', progress); syncHeaderHeight(); ticking = false;
         });
-    }
-
-    window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
+    };
+    if (typeof ResizeObserver !== 'undefined') new ResizeObserver(syncHeaderHeight).observe(header);
+    window.addEventListener('resize', syncHeaderHeight); window.addEventListener('scroll', onScroll, { passive: true }); syncHeaderHeight(); onScroll();
 }
-
-// ===== Start =====
-// 安全超时：5 秒后强制移除加载遮罩（防止 JS 异常导致页面永久空白）
-setTimeout(function() {
-    var overlay = document.getElementById('loadingOverlay');
-    if (overlay) { overlay.style.opacity = '0'; setTimeout(function() { overlay.remove(); }, 400); }
-}, 5000);
+function init() {
+    try {
+        readURLState(); syncURL('replace'); refreshView(); renderFooter(); bindEvents(); bindScroll();
+        // Static section reveals remain visible even without animation support.
+        document.querySelectorAll('.reveal').forEach(element => element.classList.add('visible'));
+    } catch (error) {
+        console.error('Page initialization failed:', error);
+        if ($('toast')) showToast('页面未能完整加载，请刷新重试。');
+    } finally { if ($('loadingOverlay')) $('loadingOverlay').remove(); }
+}
+setTimeout(() => { if ($('loadingOverlay')) $('loadingOverlay').remove(); }, 5000);
 init();
 </script>
 
