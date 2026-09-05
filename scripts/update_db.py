@@ -204,7 +204,9 @@ def update_html(db):
         r'<script id="db-data" type="application/json">.*?</script>',
         re.DOTALL,
     )
-    new_html, n = pattern.subn(new_block, html, count=1)
+    # Use a callable replacement so JSON backslashes (for example ``\\n`` in
+    # scraped abstracts) are not interpreted as regex replacement escapes.
+    new_html, n = pattern.subn(lambda _match: new_block, html, count=1)
     if n != 1:
         raise RuntimeError(
             f"未在 index.html 中找到 <script id=\"db-data\"> 块（实际匹配 {n} 次）"

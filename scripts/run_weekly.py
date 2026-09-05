@@ -37,6 +37,7 @@ LOGS_DIR = PROJECT_DIR / "logs"
 REPORTS_DIR = PROJECT_DIR / "周报"
 TEMP_REPORT_PATH = PROJECT_DIR / "database" / "temp_report.json"
 TEMP_ARTICLES_PATH = PROJECT_DIR / "database" / "temp_new_articles.json"
+HTML_PATH = PROJECT_DIR / "index.html"
 
 sys.path.insert(0, str(SCRIPTS_DIR))
 
@@ -106,15 +107,15 @@ def load_db():
 
 
 def get_since_date(state, db):
-    """Determine the incremental window start date.
-    
-    留 1 天缓冲，避免因运行时差漏掉上次运行同日稍晚发布的文章。
+    """Return the date containing the exact incremental boundary.
+
+    Scrapers accept dates rather than timestamps, so fetching the boundary date
+    plus URL deduplication retains later same-day publications without looking
+    back into the previous calendar day.
     """
-    from datetime import datetime, timedelta
     last_run = state.get("last_successful_run")
     if last_run:
-        last_date = datetime.strptime(last_run[:10], "%Y-%m-%d")
-        return (last_date - timedelta(days=1)).strftime("%Y-%m-%d")
+        return last_run[:10]
     dates = sorted([a.get("date", "") for a in db.get("articles", []) if a.get("date")])
     if dates:
         return dates[-1]
@@ -240,6 +241,61 @@ def validate_db(db_path):
     return errors
 
 
+def validate_html(html_path=HTML_PATH):
+    """Validate the JSON embedded in the generated page."""
+    try:
+        html = Path(html_path).read_text(encoding="utf-8")
+    except OSError as e:
+        return [f"页面无法读取: {e}"]
+    match = re.search(
+        r'<script id="db-data" type="application/json">\s*(.*?)\s*</script>',
+        html,
+        re.DOTALL,
+    )
+    if not match:
+        return ["页面缺少 db-data JSON"]
+    try:
+        json.loads(match.group(1))
+    except json.JSONDecodeError as e:
+        return [f"页面 db-data JSON 无效: {e}"]
+    return []
+
+
+def is_complete_run(source_status, translation_failures, db_errors, html_errors):
+    """Only a complete run may advance last_successful_run."""
+    return (
+        all(source_status.get(sid) == "SUCCESS" for sid in SOURCE_ORDER)
+        and not translation_failures
+        and not db_errors
+        and not html_errors
+    )
+
+
+def deploy_site():
+    """Deploy generated files and return (success, public URL)."""
+    try:
+        venv_python = str(PROJECT_DIR / ".venv" / "bin" / "python")
+        if not Path(venv_python).exists():
+            venv_python = sys.executable
+        cmd = [venv_python, str(SCRIPTS_DIR / "deploy.py"), "--push"]
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=120,
+            cwd=str(PROJECT_DIR),
+            env={**os.environ, "PYTHONHOME": "", "PYTHONPATH": ""},
+        )
+        if result.returncode == 0:
+            url = result.stdout.strip().split("\n")[-1].replace("部署成功: ", "")
+            logging.info(f"部署成功: {url}")
+            return True, url
+        logging.warning(f"部署失败: {result.stderr[:200]}")
+    except Exception as e:
+        logging.warning(f"部署异常: {e}")
+    return False, ""
+
+
 def run_update_db(temp_articles_path):
     """Run update_db.py as subprocess."""
     import subprocess
@@ -285,6 +341,7 @@ def main():
 
     # 1. Read state
     state = load_state()
+    previous_successful_run = state.get("last_successful_run")
     db = load_db()
     since_date = get_since_date(state, db)
     existing_urls = get_existing_urls(db)
@@ -305,6 +362,7 @@ def main():
     new_articles = classify_articles(new_articles)
 
     # 4.5 Translate (title + abstract + keywords → Chinese)
+    translation_failures = []
     if new_articles:
         from utils.translator import enrich_article_with_cn
         logging.info(f"开始翻译 {len(new_articles)} 篇新文章...")
@@ -312,8 +370,26 @@ def main():
             try:
                 enrich_article_with_cn(art)
                 title_cn = art.get("title_cn", "")
+                missing = []
+                if art.get("title") and not title_cn:
+                    missing.append("标题")
+                abstract = art.get("abstract", "")
+                if abstract and len(abstract) > 10 and "not available" not in abstract.lower() and not art.get("abstract_cn"):
+                    missing.append("摘要")
+                if missing:
+                    translation_failures.append({
+                        "title": art.get("title", ""),
+                        "url": art.get("url", ""),
+                        "fields": missing,
+                    })
+                    logging.warning(f"  [{i}/{len(new_articles)}] 翻译不完整: {','.join(missing)}")
                 logging.info(f"  [{i}/{len(new_articles)}] 翻译完成: {title_cn[:40]}")
             except Exception as e:
+                translation_failures.append({
+                    "title": art.get("title", ""),
+                    "url": art.get("url", ""),
+                    "fields": ["异常"],
+                })
                 logging.warning(f"  [{i}/{len(new_articles)}] 翻译失败: {e}")
         logging.info("翻译步骤完成")
 
@@ -333,26 +409,58 @@ def main():
     report_exists = any(r["id"] == report_id for r in db.get("reports", []))
     report_path = REPORTS_DIR / f"商业法律研究动向_{report_id}.md"
 
-    # If no new articles and report already exists, skip report generation
-    if not new_articles and report_exists and report_path.exists():
-        logging.info("无新文章且报告已存在，跳过报告生成")
-        # Still update state and clean up
+    # No new articles: do not create a formal report, but still validate and deploy.
+    if not new_articles:
+        logging.info("本次增量窗口无新增文章，不生成正式 Markdown 或报告元数据")
+        db_errors = validate_db(DB_PATH)
+        html_errors = validate_html()
         finish_time = datetime.now()
         elapsed = (finish_time - start_time).total_seconds()
-        state["last_successful_run"] = finish_time.strftime("%Y-%m-%dT%H:%M:%S")
         state["last_run_started"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
         state["last_run_finished"] = finish_time.strftime("%Y-%m-%dT%H:%M:%S")
         state["last_new_articles"] = 0
         state["last_duplicate_urls"] = skipped
         state["source_status"] = source_status
+        if report_exists and report_path.exists():
+            state["last_report_id"] = report_id
+        complete_run = is_complete_run(source_status, translation_failures, db_errors, html_errors)
+        if complete_run:
+            # Advance to the run start, leaving publications during this run recoverable.
+            state["last_successful_run"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
         save_state(state)
-        logging.info(f"运行完成（增量检查：0 新增，{skipped} 重复）")
+
+        if db_errors or html_errors:
+            for error in db_errors + html_errors:
+                logging.error(f"验证失败: {error}")
+            return 1
+
+        if complete_run:
+            for p in [TEMP_REPORT_PATH, TEMP_ARTICLES_PATH]:
+                if p.exists():
+                    p.unlink()
+                    logging.info(f"已清理已入库临时文件: {p}")
+
+        deploy_ok, deploy_url = deploy_site()
+        if not deploy_ok:
+            if previous_successful_run is None:
+                state.pop("last_successful_run", None)
+            else:
+                state["last_successful_run"] = previous_successful_run
+            save_state(state)
+            logging.error("部署失败，已恢复 last_successful_run 以保留增量窗口")
+            return 1
+
+        if complete_run:
+            logging.info(f"完整运行完成（增量检查：0 新增，{skipped} 重复）")
+        else:
+            logging.warning("部分运行已部署；last_successful_run 未推进")
         print(f"\n{'=' * 60}")
-        print(f"周报路径: {report_path} (未修改)")
+        print("周报路径: 本期无新增文章，因此未生成")
         print(f"新增文章数: 0")
         print(f"跳过的重复 URL 数: {skipped}")
         print(f"数据库当前总文章数: {len(db.get('articles', []))}")
         print(f"运行时间: {elapsed:.1f}s")
+        print(f"网页公网链接: {deploy_url}")
         failed_sources = [s for s, st in source_status.items() if st == "FAILED"]
         if failed_sources:
             print(f"异常: 以下来源抓取失败: {', '.join(failed_sources)}")
@@ -427,14 +535,21 @@ def main():
             logging.error("运行结束（数据库更新失败）")
             return 1
 
-    # 12. Validate DB
-    errors = validate_db(DB_PATH)
-    if errors:
-        logging.warning(f"数据库验证发现 {len(errors)} 个问题:")
-        for e in errors[:10]:
-            logging.warning(f"  - {e}")
-    else:
-        logging.info("数据库验证通过")
+    # 12. Validate database and generated page before deployment.
+    db_errors = validate_db(DB_PATH)
+    html_errors = validate_html()
+    if db_errors or html_errors:
+        logging.error(f"数据库/页面验证发现 {len(db_errors) + len(html_errors)} 个问题:")
+        for e in (db_errors + html_errors)[:10]:
+            logging.error(f"  - {e}")
+        finish_time = datetime.now()
+        state["last_run_started"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
+        state["last_run_finished"] = finish_time.strftime("%Y-%m-%dT%H:%M:%S")
+        state["source_status"] = source_status
+        save_state(state)
+        logging.error("运行结束（验证失败，last_successful_run 未推进）")
+        return 1
+    logging.info("数据库与页面验证通过")
 
     # 13. Clean up temp files (only on success)
     for p in [TEMP_REPORT_PATH, TEMP_ARTICLES_PATH]:
@@ -446,37 +561,33 @@ def main():
     db_final = load_db()
     total_articles = len(db_final.get("articles", []))
 
-    # 15. Update state
+    # 15. Write the candidate state before deployment so the pushed tree is
+    # internally consistent. Roll back the boundary locally if push fails.
     finish_time = datetime.now()
     elapsed = (finish_time - start_time).total_seconds()
-    state["last_successful_run"] = finish_time.strftime("%Y-%m-%dT%H:%M:%S")
     state["last_run_started"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
     state["last_run_finished"] = finish_time.strftime("%Y-%m-%dT%H:%M:%S")
     state["last_report_id"] = report_id
     state["last_new_articles"] = len(new_articles)
     state["last_duplicate_urls"] = skipped
     state["source_status"] = source_status
+    complete_run = is_complete_run(source_status, translation_failures, db_errors, html_errors)
+    if complete_run:
+        state["last_successful_run"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
     save_state(state)
 
     # 16. Deploy
-    deploy_ok = False
-    deploy_url = ""
-    try:
-        venv_python = str(PROJECT_DIR / ".venv" / "bin" / "python")
-        if not Path(venv_python).exists():
-            venv_python = sys.executable
-        cmd = [venv_python, str(SCRIPTS_DIR / "deploy.py"), "--push"]
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120,
-                                 cwd=str(PROJECT_DIR),
-                                 env={**os.environ, "PYTHONHOME": "", "PYTHONPATH": ""})
-        if result.returncode == 0:
-            deploy_ok = True
-            deploy_url = result.stdout.strip().split("\n")[-1].replace("部署成功: ", "")
-            logging.info(f"部署成功: {deploy_url}")
+    deploy_ok, deploy_url = deploy_site()
+    if not deploy_ok:
+        if previous_successful_run is None:
+            state.pop("last_successful_run", None)
         else:
-            logging.warning(f"部署失败（不影响数据完整性）: {result.stderr[:200]}")
-    except Exception as e:
-        logging.warning(f"部署异常（不影响数据完整性）: {e}")
+            state["last_successful_run"] = previous_successful_run
+        save_state(state)
+        logging.error("部署失败，已恢复 last_successful_run 以保留增量窗口")
+        return 1
+    if not complete_run:
+        logging.warning("部分运行已部署；last_successful_run 未推进")
 
     # 17. Final summary
     logging.info("=" * 60)
