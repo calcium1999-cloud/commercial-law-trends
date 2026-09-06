@@ -1594,6 +1594,21 @@
             .article-sequence { font-size: 1rem; letter-spacing: .12em; }
         }
 
+        .chinese-primary { font-family: var(--font-cn); font-size: 1.25rem; font-weight: 500; }
+        .featured-card .chinese-primary { font-size: 1.65rem; }
+        .article-title-en { margin-top: .5rem; font-family: var(--font-en); font-size: .88rem; line-height: 1.6; color: var(--color-text-light); }
+        .research-threads { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.2rem; margin-top: 1rem; }
+        .research-thread { min-width: 0; border-top: 1px solid var(--color-border); padding-top: .8rem; }
+        .thread-number { color: var(--color-cinnabar); font-size: .8rem; }
+        .research-thread h3 { font-size: 1.1rem; margin: .4rem 0; }
+        .research-thread p { font-size: .9rem; color: var(--color-text-secondary); line-height: 1.8; }
+        .thread-link { display: block; width: 100%; margin-top: .65rem; border: 0; background: transparent; text-align: left; color: var(--color-secondary); font: inherit; font-size: .83rem; cursor: pointer; }
+        .thread-link:hover { text-decoration: underline; }
+        @media(max-width:900px) {
+            .research-threads { grid-template-columns: 1fr; }
+            #filterSidebar { inset: auto 0 0; width: 100%; height: min(85vh,760px); height: min(85dvh,760px); transform: translateY(102%); border-left: 0; border-top: 3px double var(--color-primary); box-shadow: 0 -12px 40px rgba(16,38,64,.15); }
+            #filterSidebar.open { transform: translateY(0); }
+        }
         /* Editorial controls share the existing type, ink and border system. */
         .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
         .journal-nav { display: flex; gap: 1.25rem; margin-bottom: .45rem; }
@@ -11985,6 +12000,11 @@ function getFilteredArticles() {
 }
 function sortedArticles() {
     return getFilteredArticles().sort((a, b) => {
+        if (state.sortMode === 'newest' && state.selectedReport !== 'all') {
+            const lead = editorialFor(state.selectedReport).lead;
+            if (a.id === lead && b.id !== lead) return -1;
+            if (b.id === lead && a.id !== lead) return 1;
+        }
         if (state.sortMode === 'source') {
             const sourceA = sourceById.get(a.source_id) || {}, sourceB = sourceById.get(b.source_id) || {};
             const order = textValue(sourceA.short_name || a.source_id).localeCompare(textValue(sourceB.short_name || b.source_id), 'zh-Hans');
@@ -11999,15 +12019,50 @@ function topicCountsFor(articles) {
     articles.forEach(article => article.topics.forEach(id => counts.set(id, (counts.get(id) || 0) + 1)));
     return DB.topics.map(topic => ({ topic, count: counts.get(topic.id) || 0 })).sort((a, b) => b.count - a.count);
 }
+const ISSUE_EDITS = {
+    '2026-09-05': {
+        lead: 'art_312',
+        title: '从披露要求，到估值权力的重新分配',
+        summary: '私人资产进入散户组合，谁来决定其价值？本期以估值治理为主稿，将披露要求、稳定币的法律归类与客户锁定并置，观察信息与市场权力如何在制度中分配。',
+        threads: [
+            {name:'信息与价值治理', note:'把披露要求与私人资产估值放在一起读：投资者获得什么信息，又由谁决定资产价值？', ids:['art_312','art_307','art_308']},
+            {name:'监管边界', note:'稳定币究竟应进入证券监管还是支付监管？法律分类决定监管工具的选择。', ids:['art_310']},
+            {name:'市场与跨境秩序', note:'从客户转换成本到跨境商业研究，关注市场关系的持续性与制度边界。', ids:['art_311','art_309']}
+        ]
+    }
+};
+const TITLE_EDITS = { art_308:'2026 年股东大会季：股东提案的热门议题', art_310:'如何监管稳定币：证券监管与支付监管之间的边界' };
+function chineseTitle(article) { return TITLE_EDITS[article.id] || article.title_cn || article.title; }
+function editorialFor(reportId) {
+    if (ISSUE_EDITS[reportId]) return ISSUE_EDITS[reportId];
+    const articles = DB.articles.filter(article => article.report_id === reportId);
+    const ranked = [...articles].sort((a,b) => {
+        const score = article => (/(seminar|schedule|webinar|conference)/i.test(article.title) ? -10 : 0) + Math.min(article.topics.length,3) + (article.abstract_cn ? 1 : 0);
+        return score(b)-score(a) || textValue(b.date).localeCompare(textValue(a.date));
+    });
+    const lead = ranked[0];
+    const threads = topicCountsFor(articles).filter(item=>item.count).slice(0,3).map(({topic})=>({name:topic.name_cn, note:'围绕这一议题，联读本期相关研究。', ids:articles.filter(article=>article.topics.includes(topic.id)).slice(0,3).map(article=>article.id)}));
+    return {lead:lead && lead.id, title:lead ? chineseTitle(lead) : '本期研究待更新', summary:'阅读线索依据本期文章主题自动整理，主稿按跨主题关联与摘要完整度推荐。', threads, automatic:true};
+}
+function renderResearchThreads(articles, edit) {
+    const available = new Set(articles.map(article=>article.id));
+    const threads = edit ? edit.threads : topicCountsFor(articles).filter(item=>item.count).slice(0,4).map(({topic})=>({name:topic.name_cn, note:'沿这一主题阅读当前档案中的相关研究。', ids:articles.filter(article=>article.topics.includes(topic.id)).slice(0,3).map(article=>article.id)}));
+    return '<div class="research-threads">' + threads.map((thread,index)=>{
+        const items = thread.ids.filter(id=>available.has(id)).map(id=>DB.articles.find(article=>article.id===id));
+        if (!items.length) return '';
+        return '<section class="research-thread"><span class="thread-number">0'+(index+1)+'</span><h3>'+escapeHTML(thread.name)+'</h3><p>'+escapeHTML(thread.note)+'</p>'+items.map(article=>'<button type="button" class="thread-link" data-kw="'+escapeHTML(chineseTitle(article)===article.title_cn ? article.title_cn : article.title)+'">'+escapeHTML(chineseTitle(article))+' ↗</button>').join('')+'</section>';
+    }).join('')+'</div>';
+}
 function renderEditorialCover() {
     if (!$('editorialTitle')) return;
     const report = reportById.get(state.selectedReport);
     const filtered = getFilteredArticles();
     const topics = topicCountsFor(filtered).filter(item => item.count > 0).slice(0, 4);
     $('editorialIssue').textContent = report ? report.period_start + ' — ' + report.period_end + ' · 本期研究' : state.selectedMonth ? state.selectedMonth + ' · 月度回望' : '研究档案 · 持续更新';
-    $('editorialTitle').textContent = report ? '在制度与市场之间，读懂本期研究' : state.selectedMonth ? '以月为尺，观察制度的演进' : '循研究脉络，连接制度与市场';
+    const edit = report && editorialFor(report.id);
+    $('editorialTitle').textContent = edit ? edit.title : state.selectedMonth ? '以月为尺，观察制度的演进' : '循研究脉络，连接制度与市场';
     const hasSubFilter = state.selectedSource !== 'all' || state.selectedTopic !== 'all' || Boolean(state.searchTerm);
-    $('editorialSummary').textContent = report && report.summary && !hasSubFilter ? report.summary : '当前收录 ' + filtered.length + ' 篇研究，覆盖 ' + new Set(filtered.map(article => article.source_id)).size + ' 个来源。' + (topics.length ? '从' + topics.slice(0, 2).map(item => item.topic.name_cn).join('、') + '切入，追踪法律与金融的交汇。' : '选择来源、主题或关键词，开始阅读。');
+    $('editorialSummary').textContent = edit && !hasSubFilter ? edit.summary : '当前收录 ' + filtered.length + ' 篇研究，覆盖 ' + new Set(filtered.map(article => article.source_id)).size + ' 个来源。' + (topics.length ? '从' + topics.slice(0, 2).map(item => item.topic.name_cn).join('、') + '切入，追踪法律与金融的交汇。' : '选择来源、主题或关键词，开始阅读。');
     const max = Math.max(1, ...topics.map(item => item.count));
     $('editorialIndex').innerHTML = '<div class="editorial-index-title">本页主题 · Research Index</div>' + (topics.length ? topics.map(({ topic, count }) => '<button type="button" class="editorial-index-row" data-topic="' + escapeHTML(topic.id) + '" data-focus="index:' + escapeHTML(topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '"><span>' + escapeHTML(topic.name_cn) + '</span><span class="editorial-index-track"><span class="editorial-index-fill" style="width:' + Math.round(count / max * 100) + '%"></span></span><span class="editorial-index-count">' + count + '</span></button>').join('') : '<p>暂无匹配主题</p>');
 }
@@ -12029,7 +12084,12 @@ function renderTrends() {
     $('dlReportBtn').style.display = report ? '' : 'none';
     if (narrative) {
         $('trendSummary').innerHTML = '<p>' + escapeHTML(narrative.summary || '本期研究按语整理中，可先阅读下方文章。') + '</p>';
-        $('trendsContent').innerHTML = (narrative.trends || []).map(trend => '<div class="trend-item"><p>' + escapeHTML(trend) + '</p></div>').join('');
+        if (report) {
+            const edit = editorialFor(report.id);
+            $('trendsTitle').textContent = '本期研究脉络';
+            $('trendSummary').textContent = edit.automatic ? '以下线索由文章主题自动整理。' : '编辑选读 · 三条制度线索';
+            $('trendsContent').innerHTML = renderResearchThreads(getFilteredArticles(), edit);
+        } else $('trendsContent').innerHTML = (narrative.trends || []).map(trend => '<div class="trend-item"><p>' + escapeHTML(trend) + '</p></div>').join('');
         if (report) { $('dlMeta').textContent = report.period_start + ' — ' + report.period_end + ' · Markdown'; $('dlReportBtn').onclick = () => downloadReport(report.id); }
     } else renderTrendsChart(getFilteredArticles());
 }
@@ -12037,7 +12097,8 @@ function renderTrendsChart(articles) {
     const distribution = topicCountsFor(articles);
     const max = Math.max(1, ...distribution.map(item => item.count));
     $('trendsChart').innerHTML = distribution.map(({ topic, count }) => '<button type="button" class="chart-row' + (state.selectedTopic === topic.id ? ' active' : '') + '" data-topic="' + escapeHTML(topic.id) + '" data-focus="chart:' + escapeHTML(topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '"><span class="chart-label">' + escapeHTML(topic.name_cn) + '</span><span class="chart-track"><span class="chart-fill" style="width:' + Math.round(count / max * 100) + '%"></span></span><span class="chart-value"><span class="cv-n">' + count + '</span><span class="cv-p">' + (articles.length ? Math.round(count / articles.length * 100) : 0) + '%</span></span></button>').join('') + '<div class="chart-note">百分比为当前文章的主题覆盖率；一篇文章可涉及多个主题。选择条目即可筛选。</div><div class="wc-head"><span class="wc-title">关键词词云 · 点击检索</span></div><div class="word-cloud" id="wordCloud" aria-label="关键词检索"></div>';
-    renderWordCloud(articles);
+    $('wordCloud').outerHTML = renderResearchThreads(articles);
+    $('trendsChart').querySelector('.wc-title').textContent = '研究脉络 · 关联阅读';
 }
 function renderWordCloud(articles) {
     const cloud = $('wordCloud');
@@ -12066,7 +12127,7 @@ function articleMarkup(article, index) {
     const url = safeURL(article.url);
     const keyword = word => '<button type="button" class="keyword" data-kw="' + escapeHTML(word) + '" data-focus="keyword:' + escapeHTML(article.id + ':' + word) + '">' + escapeHTML(word) + '</button>';
     return '<article class="article-card' + (index === 0 ? ' featured-card' : '') + (expanded ? ' expanded' : '') + '" data-id="' + escapeHTML(article.id) + '">' + (index === 0 ? '<span class="article-sequence" aria-hidden="true">01</span>' : '') + '<div class="article-body">' +
-        '<div class="article-header"><div><h3 class="article-title">' + (article.type === 'podcast' ? '<span class="podcast-icon" title="播客">🎧</span> ' : '') + escapeHTML(article.title) + '</h3>' + (article.title_cn ? '<div class="article-title-cn">' + escapeHTML(article.title_cn) + '</div>' : '') + '</div><time class="article-date" datetime="' + escapeHTML(article.date) + '">' + escapeHTML(article.date) + '</time></div>' +
+        '<div class="article-header"><div><h3 class="article-title chinese-primary">' + (article.type === 'podcast' ? '<span class="podcast-icon" title="播客">🎧</span> ' : '') + escapeHTML(chineseTitle(article)) + '</h3>' + (article.title_cn ? '<div class="article-title-en" lang="en">' + escapeHTML(article.title) + '</div>' : '') + '</div><time class="article-date" datetime="' + escapeHTML(article.date) + '">' + escapeHTML(article.date) + '</time></div>' +
         '<div class="article-meta"><button type="button" class="source-tag ' + escapeHTML(article.source_id) + '" data-source="' + escapeHTML(article.source_id) + '" data-focus="article-source:' + escapeHTML(article.id) + '" aria-pressed="' + (state.selectedSource === article.source_id) + '">' + escapeHTML(source.short_name || article.source_id) + '</button>' + (report ? '<span class="period-tag">' + escapeHTML(textValue(report.period_start).slice(5).replace('-', '/') + '—' + textValue(report.period_end).slice(5).replace('-', '/')) + '</span>' : '') + article.topics.map(id => topicById.get(id)).filter(Boolean).map(topic => '<button type="button" class="topic-tag' + (state.selectedTopic === topic.id ? ' active' : '') + '" data-topic="' + escapeHTML(topic.id) + '" data-focus="article-topic:' + escapeHTML(article.id + ':' + topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '">' + escapeHTML(topic.name_cn) + '</button>').join('') + '</div>' +
         '<div class="article-authors"><strong>' + escapeHTML(article.authors) + '</strong>' + (article.affiliations.trim() ? '<span class="affiliation"> — ' + escapeHTML(article.affiliations) + '</span>' : '') + '</div>' +
         '<div id="' + escapeHTML(id) + '"><div class="article-abstract">' + escapeHTML(article.abstract) + '</div>' + (article.abstract_cn ? '<div class="article-abstract-cn">' + escapeHTML(article.abstract_cn) + '</div>' : '') + '</div>' +
