@@ -12156,6 +12156,10 @@ function renderTrendsChart(articles) {
 function renderWordCloud(articles) {
     const cloud = $('keywordCloud');
     if (!cloud) return;
+    const overview = cloud.closest('.keyword-overview');
+    const singleIssue = state.selectedReport !== 'all';
+    if (overview) overview.hidden = singleIssue;
+    if (singleIssue) { cloud.replaceChildren(); return; }
     const frequency = new Map();
     articles.forEach(article => {
         const seen = new Set();
