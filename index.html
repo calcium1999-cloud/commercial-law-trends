@@ -1688,6 +1688,33 @@
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
         }
+        /* Screenshot feedback: unified masthead and consistent article rows. */
+        header .header-bg { background: #153457; }
+        header { color: #fff; border-bottom-color: rgba(255,255,255,.18); }
+        .header-title h1 { color: #fff; }
+        .header-title .subtitle, .header-counts, .source-badge { color: #bdcfe0; }
+        .journal-nav button { color: #edf4fb; }
+        .source-badge:hover, .source-badge.active { color: #fff; border-bottom-color: #c7d9e9; }
+        header :focus-visible { outline-color: #b9daf5; }
+        .fret-band { background-color: #153457; }
+        .editorial-cover h2 { font-size: clamp(1.4rem, 2.05vw, 2rem); font-weight: 400; line-height: 1.65; letter-spacing: .025em; margin: 1rem 0 .65rem; }
+        #articlesList { align-items: stretch; }
+        #articlesList .article-card { align-self: stretch; display: flex; padding: 1.3rem 1.5rem; }
+        #articlesList .article-body { display: flex; flex-direction: column; width: 100%; }
+        #articlesList .article-header { display: block; }
+        #articlesList .article-date { display: block; margin: .45rem 0; }
+        #articlesList .article-footer { margin-top: auto; padding-top: .85rem; }
+        #articlesList .article-body > div[id^="abstract-"] { margin-bottom: .85rem; }
+        #articlesList .chinese-primary { font-size: 1.15rem; line-height: 1.7; }
+        .keyword-overview { margin: 0 0 2rem; padding: 1.25rem 1.5rem; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); background: var(--color-white); }
+        .keyword-overview h2 { font-size: 1.15rem; color: var(--color-primary); }
+        .keyword-overview > p { font-size: .8rem; color: var(--color-text-light); }
+        #keywordCloud { gap: .65rem 1.15rem; }
+        #keywordCloud .wc-word { color: var(--color-secondary); }
+        @media(max-width:900px) {
+            .editorial-cover h2 { font-size: 1.45rem; }
+            #articlesList .article-card { padding: 1.2rem; }
+        }
     </style>
 </head>
 <body>
@@ -1784,6 +1811,11 @@
             </button>
         </div>
 
+        <section class="keyword-overview" aria-labelledby="keywordHeading">
+            <h2 id="keywordHeading">主题词云</h2>
+            <p>词越大，出现于越多篇文章；点击词语即可检索。</p>
+            <div class="word-cloud" id="keywordCloud" aria-label="按词频展示的关键词"></div>
+        </section>
         <div class="articles-header">
             <h2 id="articleListHeading" tabindex="-1">本期文章</h2>
             <div class="ah-controls">
@@ -12073,6 +12105,7 @@ function renderStats() {
 }
 
 function renderTrends() {
+    renderWordCloud(getFilteredArticles());
     const report = reportById.get(state.selectedReport);
     const monthly = state.selectedMonth && (DB.monthly_reports || []).find(item => item.id === state.selectedMonth);
     const narrative = report || monthly;
@@ -12101,7 +12134,7 @@ function renderTrendsChart(articles) {
     $('trendsChart').querySelector('.wc-title').textContent = '研究脉络 · 关联阅读';
 }
 function renderWordCloud(articles) {
-    const cloud = $('wordCloud');
+    const cloud = $('keywordCloud');
     if (!cloud) return;
     const frequency = new Map();
     articles.forEach(article => {
@@ -12126,7 +12159,7 @@ function articleMarkup(article, index) {
     const id = 'abstract-' + encodeURIComponent(article.id);
     const url = safeURL(article.url);
     const keyword = word => '<button type="button" class="keyword" data-kw="' + escapeHTML(word) + '" data-focus="keyword:' + escapeHTML(article.id + ':' + word) + '">' + escapeHTML(word) + '</button>';
-    return '<article class="article-card' + (index === 0 ? ' featured-card' : '') + (expanded ? ' expanded' : '') + '" data-id="' + escapeHTML(article.id) + '">' + (index === 0 ? '<span class="article-sequence" aria-hidden="true">01</span>' : '') + '<div class="article-body">' +
+    return '<article class="article-card' + (expanded ? ' expanded' : '') + '" data-id="' + escapeHTML(article.id) + '"><div class="article-body">' +
         '<div class="article-header"><div><h3 class="article-title chinese-primary">' + (article.type === 'podcast' ? '<span class="podcast-icon" title="播客">🎧</span> ' : '') + escapeHTML(chineseTitle(article)) + '</h3>' + (article.title_cn ? '<div class="article-title-en" lang="en">' + escapeHTML(article.title) + '</div>' : '') + '</div><time class="article-date" datetime="' + escapeHTML(article.date) + '">' + escapeHTML(article.date) + '</time></div>' +
         '<div class="article-meta"><button type="button" class="source-tag ' + escapeHTML(article.source_id) + '" data-source="' + escapeHTML(article.source_id) + '" data-focus="article-source:' + escapeHTML(article.id) + '" aria-pressed="' + (state.selectedSource === article.source_id) + '">' + escapeHTML(source.short_name || article.source_id) + '</button>' + (report ? '<span class="period-tag">' + escapeHTML(textValue(report.period_start).slice(5).replace('-', '/') + '—' + textValue(report.period_end).slice(5).replace('-', '/')) + '</span>' : '') + article.topics.map(id => topicById.get(id)).filter(Boolean).map(topic => '<button type="button" class="topic-tag' + (state.selectedTopic === topic.id ? ' active' : '') + '" data-topic="' + escapeHTML(topic.id) + '" data-focus="article-topic:' + escapeHTML(article.id + ':' + topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '">' + escapeHTML(topic.name_cn) + '</button>').join('') + '</div>' +
         '<div class="article-authors"><strong>' + escapeHTML(article.authors) + '</strong>' + (article.affiliations.trim() ? '<span class="affiliation"> — ' + escapeHTML(article.affiliations) + '</span>' : '') + '</div>' +
