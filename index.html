@@ -1725,6 +1725,14 @@
             .editorial-cover h2 { font-size: 1.45rem; }
             #articlesList .article-card { padding: 1.2rem; }
         }
+        #keywordCloud { position: relative; display: block; height: 360px !important; min-height: 0; padding: 0; overflow: hidden; }
+        #keywordCloud .wc-word { position: absolute; margin: 0; padding: 3px 6px; line-height: 1.35; max-width: 46%; border: 0; border-radius: 2px; opacity: 1; transform: none; transition: color .2s, background .2s; }
+        #keywordCloud .wc-word[hidden] { display: none; }
+        #keywordCloud .wc-word.cloud-enter { animation: cloudBloom .6s both; animation-delay: var(--cloud-delay); }
+        #keywordCloud .wc-word:hover, #keywordCloud .wc-word:focus-visible { color: var(--color-primary) !important; background: #eaf3fb; z-index: 2; }
+        @keyframes cloudBloom { from { opacity: 0; transform: scale(.82) translateY(8px); } to { opacity: 1; transform: none; } }
+        @media(max-width:600px) { #keywordCloud { height: 420px !important; } }
+        @media(prefers-reduced-motion:reduce) { #keywordCloud .wc-word.cloud-enter { animation: none; } }
     </style>
 </head>
 <body>
@@ -11900,6 +11908,8 @@ const normalizeSearch = value => textValue(value).normalize('NFKC').toLocaleLowe
 const toList = value => Array.isArray(value) ? value.map(textValue).filter(Boolean) : typeof value === 'string' ? value.split(/[,，;；]/).map(s => s.trim()).filter(Boolean) : [];
 const sourceById = new Map(DB.sources.map(source => [source.id, source]));
 const topicById = new Map(DB.topics.map(topic => [topic.id, topic]));
+const isOtherTopic = topic => /^(other|others|其他)$/i.test(topic.id) || /^其他/.test(topic.name_cn || '');
+DB.topics.sort((a,b) => Number(isOtherTopic(a)) - Number(isOtherTopic(b)));
 const reportById = new Map(DB.reports.map(report => [report.id, report]));
 const reportMonth = report => textValue(report && (report.date || report.id)).slice(0, 7);
 const newestReport = [...DB.reports].sort((a, b) => textValue(b.date || b.id).localeCompare(textValue(a.date || a.id)))[0];
@@ -12059,7 +12069,7 @@ function sortedArticles() {
 function topicCountsFor(articles) {
     const counts = new Map();
     articles.forEach(article => article.topics.forEach(id => counts.set(id, (counts.get(id) || 0) + 1)));
-    return DB.topics.map(topic => ({ topic, count: counts.get(topic.id) || 0 })).sort((a, b) => b.count - a.count);
+    return DB.topics.map(topic => ({ topic, count: counts.get(topic.id) || 0 })).sort((a, b) => Number(isOtherTopic(a.topic)) - Number(isOtherTopic(b.topic)) || b.count - a.count);
 }
 const ISSUE_EDITS = {
     '2026-09-05': {
@@ -12159,7 +12169,39 @@ function renderWordCloud(articles) {
     });
     const words = [...frequency.values()].sort((a, b) => b.count - a.count || a.word.localeCompare(b.word, 'zh-Hans')).slice(0, 30);
     const max = words.length ? words[0].count : 1;
-    cloud.innerHTML = words.length ? words.map(({ word, count }) => '<button type="button" class="wc-word in" data-kw="' + escapeHTML(word) + '" data-focus="cloud:' + escapeHTML(word) + '" title="检索 ' + escapeHTML(word) + '（' + count + ' 篇）" style="font-size:' + (0.85 + count / max * 0.5).toFixed(2) + 'rem">' + escapeHTML(word) + '</button>').join('') : '<span class="wc-empty">暂无关键词数据</span>';
+    const min = words.length ? words[words.length - 1].count : 1;
+    cloud.innerHTML = words.length ? words.map(({ word, count }, index) => {
+        const weight = max === min ? 0.5 : (count - min) / (max - min);
+        const size = Math.round(13 + Math.sqrt(weight) * 23);
+        const light = [139,148,158], dark = [20,45,79];
+        const color = dark.map((channel,i) => Math.round(light[i] + (channel-light[i])*weight));
+        return '<button type="button" class="wc-word" data-count="'+count+'" data-kw="' + escapeHTML(word) + '" data-focus="cloud:' + escapeHTML(word) + '" aria-label="'+escapeHTML(word)+'，'+count+'篇，点击检索" title="检索 ' + escapeHTML(word) + '（' + count + ' 篇）" style="font-size:'+size+'px;font-weight:'+(weight>.6?600:400)+';color:rgb('+color.join(',')+');--cloud-delay:'+Math.min(index*30,700)+'ms">' + escapeHTML(word) + '</button>';
+    }).join('') : '<span class="wc-empty">暂无关键词数据</span>';
+    requestAnimationFrame(() => layoutWordCloud(true));
+}
+
+function layoutWordCloud(animate = false) {
+    const cloud = $('keywordCloud');
+    if (!cloud) return;
+    const width = cloud.clientWidth || 760, height = cloud.clientHeight || 360;
+    const placed = [];
+    [...cloud.querySelectorAll('.wc-word')].forEach((word,index) => {
+        word.hidden = false;
+        const w = word.offsetWidth || Math.min(width*.46,word.textContent.length*parseFloat(word.style.fontSize)*.65+12);
+        const h = word.offsetHeight || parseFloat(word.style.fontSize)*1.35+6;
+        let found = null;
+        for (let step=0; step<4000; step++) {
+            const angle=step*.24, radius=step*.18;
+            const x=width/2+radius*Math.cos(angle)-w/2;
+            const y=height/2+radius*Math.sin(angle)*.65-h/2;
+            if (x<3 || y<3 || x+w>width-3 || y+h>height-3) continue;
+            if (placed.some(p=>x<p.x+p.w+6 && x+w+6>p.x && y<p.y+p.h+5 && y+h+5>p.y)) continue;
+            found={x,y,w,h}; break;
+        }
+        if (!found) { word.hidden=true; return; }
+        placed.push(found); word.style.left=found.x+'px'; word.style.top=found.y+'px';
+        if (animate) word.classList.add('cloud-enter');
+    });
 }
 
 function articleMarkup(article, index) {
@@ -12299,6 +12341,9 @@ function bindEvents() {
     });
     window.addEventListener('popstate', event => { clearTimeout(searchTimer); readURLState(); refreshView(); requestAnimationFrame(() => window.scrollTo({ top: event.state && Number.isFinite(event.state.scrollY) ? event.state.scrollY : 0, behavior: 'instant' })); });
     window.addEventListener('resize', syncDrawerViewport);
+    let cloudResizeTimer;
+    window.addEventListener('resize', () => { clearTimeout(cloudResizeTimer); cloudResizeTimer=setTimeout(()=>layoutWordCloud(),120); });
+    if (document.fonts) document.fonts.ready.then(()=>layoutWordCloud());
     syncDrawerViewport();
 }
 
