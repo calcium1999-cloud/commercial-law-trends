@@ -37,7 +37,7 @@ TOPIC_KEYWORDS = {
         "sec rule", "commission", "enforcement", "sanction",
         "antifraud", "antifraud", "material misstatement",
         "insider trading", "short swing", "schedule 13",
-        "section 16", "regulation", "rule 10b", "rule 14a",
+        "section 16", "securities regulation", "rule 10b", "rule 14a",
         "perril", "pma", "benefit corporation",
         "federal reserve", "fsb", "financial stability",
     ],
@@ -91,7 +91,11 @@ def classify(title, abstract, keywords):
     for topic, kws in TOPIC_KEYWORDS.items():
         score = 0
         for kw in kws:
-            if kw in text:
+            # Short tokens such as "ai", "sec" and "occ" must match whole
+            # words; substring matching creates false positives in ordinary
+            # words such as "sustainability" and "section".
+            if (re.search(rf"\b{re.escape(kw)}\b", text)
+                    if len(kw) <= 3 and kw.isascii() else kw in text):
                 score += 1
         if score > 0:
             scores[topic] = score
