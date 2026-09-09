@@ -25,7 +25,9 @@ class OBLBScraper(BaseScraper):
             date_m = re.search(r'(\d{1,2}\s+\w+\s+\d{4})', text)
             date_str = date_m.group(1) if date_m else ""
             title = re.sub(r'^\d{1,2}\s+\w+\s+\d{4}', '', text).strip()
-            title = re.sub(r'^by:.*$', '', title).strip()
+            # The listing concatenates the visible author byline directly onto
+            # the title (sometimes without whitespace), e.g. ``Titleby: Name``.
+            title = re.sub(r'\s*by\s*:\s*.*$', '', title, flags=re.I).strip()
             if not title:
                 continue
             items.append({
