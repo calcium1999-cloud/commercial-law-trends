@@ -487,7 +487,7 @@ def main():
                 sources_in_topic = set(a.get("source_id") for a in topic_arts)
                 source_str = "、".join(SOURCE_NAMES.get(s, s) for s in sources_in_topic)
                 titles = [a.get("title_cn") or a.get("title", "") for a in topic_arts]
-                titles_short = [t[:50] for t in titles[:3]]
+                titles_short = [t[:50].rstrip("。！？?!") for t in titles[:3]]
                 trends.append(
                     f"{topic_name}领域新增{len(topic_arts)}篇，来自{source_str}。"
                     f"本期重点议题包括{'；'.join(titles_short)}{'等' if len(titles) > 3 else ''}。"
