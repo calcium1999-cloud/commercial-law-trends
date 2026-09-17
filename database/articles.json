@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-09-14",
+    "last_updated": "2026-09-17",
     "version": "1.0"
   },
   "sources": [
@@ -724,6 +724,54 @@
         "art_356",
         "art_357",
         "art_358"
+      ]
+    },
+    {
+      "id": "2026-09-17",
+      "date": "2026-09-17",
+      "period_start": "2026-09-15",
+      "period_end": "2026-09-17",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增30篇文章。",
+      "trends": [
+        "本周十一大来源共新增30篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、BWI、BoE，主题分布以公司治理（13篇）、金融监管（6篇）、反垄断（5篇）为主。",
+        "公司治理领域新增20篇，来自ECGI、Harvard、CLS、ProMarket。本期重点议题包括共同所有权和共谋；都清楚了吗？有关公司法指令 (CLD) 所涵盖的跨境经营范围的争议、不确定性和界定问题；治理全球外部性：碎片化政策中的投资者声音等。",
+        "金融监管领域新增9篇，来自Harvard、ECGI、CLS、BWI、BoE。本期重点议题包括中介世界中的股东治理；乌耶达专员关于提议废除第 14a-8 条规则和代理征集现代化的声明；Red State AG 对 ESG 的攻击继续失败等。",
+        "反垄断领域新增8篇，来自BWI、ECGI、CLS、ProMarket。本期重点议题包括共同所有权和共谋；指数所有权已走向全球；矿产集中危及美国人工智能产业等。",
+        "科技、数据与AI领域新增7篇，来自Harvard、ECGI、OBLB、CLS、ProMarket。本期重点议题包括股东的声音如何影响董事会议程；董事会对人工智能转型的监督；巴西全面出售业务：为何 363 条款模式未能实现等。",
+        "其他领域新增1篇，来自OBLB。本期重点议题包括401(k) 个人养老金计划不适合私人市场投资。"
+      ],
+      "article_ids": [
+        "art_359",
+        "art_360",
+        "art_361",
+        "art_362",
+        "art_363",
+        "art_364",
+        "art_365",
+        "art_366",
+        "art_367",
+        "art_368",
+        "art_369",
+        "art_370",
+        "art_371",
+        "art_372",
+        "art_373",
+        "art_374",
+        "art_375",
+        "art_376",
+        "art_377",
+        "art_378",
+        "art_379",
+        "art_380",
+        "art_381",
+        "art_382",
+        "art_383",
+        "art_384",
+        "art_385",
+        "art_386",
+        "art_387",
+        "art_388"
       ]
     }
   ],
@@ -11126,6 +11174,832 @@
       "abstract_cn": "今天 [9 月 3 日]，委员会提议废除《投资顾问法》第 206(4)-5 条规则，即投资顾问“付费规则”。我很高兴我们提议消除而不是简单地修改该规则，这一直困扰着我的第一修正案敏感性。",
       "report_id": "2026-09-14",
       "id": "art_358"
+    },
+    {
+      "title": "Common Ownership and Collusion",
+      "url": "https://www.ecgi.global/publications/working-papers/common-ownership-and-collusion",
+      "date": "2026-09-15",
+      "type": "working_paper",
+      "authors": "Vincent AbrahamFlorian EdererCatarina Marvao",
+      "abstract": "We provide the first empirical evidence that common ownership can facilitate explicit collusion. Our unique setting, the population of legal cartels in Sweden, lets us observe cartel formation, duration, and dissolution without the sample-selection bias that plagues studies of detected cartels. Combining hand-collected ownership data with the universe of registered cartels, we compute firm-pair profit weights (κ) that measure how much one firm internalizes a rival’s profits. Higher profit weights are associated with a greater likelihood of cartel participation, predict future cartel involvement, and are linked to longer cartel duration. Firms also reduce their profit weights immediately after a cartel dissolves. However, this relationship is concentrated among pairs in which the firm that internalizes the rival firm’s profits colludes while the rival does not. Common ownership therefore complements a firm’s own participation in explicit collusion but substitutes for cartel participation by the rival whose profits it internalizes.",
+      "keywords": [
+        "Common Ownership",
+        "Investment Decisions",
+        "ESG",
+        "Technology",
+        "Boards",
+        "Institutional Investors",
+        "Voting",
+        "Competition",
+        "M&A",
+        "Agency",
+        "Hedge Funds",
+        "Activism",
+        "Innovation",
+        "R&D"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "共同所有权和共谋",
+      "topics": [
+        "antitrust",
+        "corporate_governance"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "我们提供了第一个经验证据，表明共同所有权可以促进明确的共谋。我们独特的环境，即瑞典合法卡特尔的人口，使我们能够观察卡特尔的形成、持续时间和解散，而不会出现困扰已发现卡特尔研究的样本选择偏差。将手工收集的所有权数据与注册卡特尔的范围相结合，我们计算企业配对利润权重（κ），衡量一个公司将竞争对手的利润内部化的程度。预测，较高的利润权重与卡特尔参与的可能性更大相关。未来的卡特尔参与，并与更长的卡特尔持续时间有关。卡特尔解散后，企业也会立即降低其利润权重。 然而，这种关系集中在这样的配对中：将竞争对手公司的利润内部化的公司进行共谋，而竞争对手却没有共谋。因此，共同所有权补充了公司自己参与明确的共谋，但却取代了其利润内部化的竞争对手参与卡特尔的情况。",
+      "keywords_cn": [
+        "共同所有权",
+        "投资决策",
+        "环境、社会及治理",
+        "技术",
+        "板",
+        "机构投资者",
+        "表决",
+        "竞赛",
+        "并购",
+        "机构",
+        "对冲基金",
+        "行动主义",
+        "创新",
+        "研发"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_359"
+    },
+    {
+      "title": "All clear? Disputes, uncertainties and delimitation issues regarding the scope of cross-border operations covered by the Company Law Directive (CLD)",
+      "url": "https://www.ecgi.global/publications/working-papers/all-clear-disputes-uncertainties-and-delimitation-issues-regarding-the",
+      "date": "2026-09-15",
+      "type": "working_paper",
+      "authors": "Jessica Schmidt",
+      "abstract": "Following the creation of a special EU legal framework for cross-border mergers in 2005, the Mobility Directive of 2019 introduced further special EU legal frameworks for cross-border conversions and cross-border divisions into the Company Law Directive (CLD). As a result, there is now, at last, a secure foundation for all three “classic” types of cross-border operations. However, regarding its precise scope, a wide range of disputes, uncertainties and delimitation issues persists. The paper examines where exactly these boundaries currently lie and which desiderata arise from them de lege ferenda.",
+      "keywords": [
+        "Company Law",
+        "M&A",
+        "Takeovers",
+        "Investment Decisions",
+        "Private Equity",
+        "Capital",
+        "Stewardship",
+        "Contracts",
+        "Stakeholderism"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "都清楚了吗？有关公司法指令 (CLD) 所涵盖的跨境经营范围的争议、不确定性和界定问题",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "继2005年针对跨境合并制定了欧盟特殊法律框架后，2019年的流动性指令在公司法指令（CLD）中进一步引入了针对跨境转换和跨境分立的欧盟特殊法律框架。结果，现在所有三种“经典”类型的跨境业务终于有了一个安全的基础。然而，就其精确范围而言，仍然存在广泛的争议、不确定性和划界问题。本文根据拟议法研究了这些边界目前的确切位置以及由此产生的需求。",
+      "keywords_cn": [
+        "公司法",
+        "并购",
+        "收购",
+        "投资决策",
+        "私募股权",
+        "首都",
+        "管理职责",
+        "合约",
+        "利益相关者主义"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_360"
+    },
+    {
+      "title": "Governing Global Externalities: Investor Voice Amid Fragmented Policy",
+      "url": "https://www.ecgi.global/publications/working-papers/governing-global-externalities-investor-voice-amid-fragmented-policy",
+      "date": "2026-09-14",
+      "type": "working_paper",
+      "authors": "Robin DöttlingDoron LevitNadya MalenkoMagdalena Rola-Janicka",
+      "abstract": "We study whether investor voice can help address global externalities under fragmented regulation. In our setting, a multinational firm generates externalities across jurisdictions, national regulators face political frictions that can impede corrective regulation, and policy differences create scope for regulatory arbitrage and production leakage. We compare two channels of investor influence: corporate stewardship, which affects firms' global operations, and policy advocacy, which affects local regulation. Both channels can help address global externalities, but their relative effectiveness depends on political frictions abroad. When these frictions are severe enough to prevent foreign regulation, leakage weakens policy advocacy but strengthens stewardship. When foreign regulation is politically feasible, however, stewardship can crowd out foreign regulation and reinforce policy miscoordination, while local policy advocacy can crowd in foreign regulation and reduce externalities abroad.",
+      "keywords": [
+        "Activism",
+        "Stewardship",
+        "Regulation",
+        "Technology",
+        "ESG",
+        "Investment Decisions",
+        "Climate Change",
+        "Greenwashing",
+        "Institutional Investors",
+        "Voting"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "治理全球外部性：碎片化政策中的投资者声音",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "我们研究投资者的声音是否有助于解决分散监管下的全球外部性。在我们的背景下，跨国公司会产生跨司法管辖区的外部性，国家监管机构面临可能阻碍纠正性监管的政治摩擦，而政策差异为监管套利和生产泄漏创造了空间。我们比较了投资者影响力的两种渠道：影响公司全球运营的公司管理和影响地方监管的政策倡导。这两种渠道都可以帮助解决全球外部性，但它们的相对有效性取决于国外的政治摩擦。摩擦严重到足以阻止外国监管，泄漏削弱了政策倡导，但加强了管理。 然而，当外国监管在政治上可行时，管理可能会排挤外国监管并加剧政策不协调，而地方政策倡导可能会挤入外国监管并减少国外的外部性。",
+      "keywords_cn": [
+        "行动主义",
+        "管理职责",
+        "Regulation",
+        "技术",
+        "环境、社会及治理",
+        "投资决策",
+        "Climate Change",
+        "漂绿",
+        "机构投资者",
+        "表决"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_361"
+    },
+    {
+      "title": "Engines of External Governance",
+      "url": "https://www.ecgi.global/publications/blog/engines-of-external-governance",
+      "date": "2026-09-15",
+      "type": "blog",
+      "authors": "Mariana PargendlerElizabeth Pollman",
+      "abstract": "Who shapes corporate governance? Most accounts focus on shareholders, directors, and officers, and treat corporate governance as largely an intra-firm issue. Recent scholarship has identified additional actors and forces, including the various constituents of the “corporate governance machine,” and organizations that have propelled “the rise of international corporate law.” Other commonly explored influences include individual corporate gadflies, the state as a shareholder, and broader forces such as geopolitics. In our forthcoming articleEngines of External Governance, we examine how nonprofits have become key actors aiming to shape the governance of for-profit business corporations. Nonprofit influencers ranging from Oxfam and Greenpeace to the Interfaith Center for Corporate Responsibility and the National Center for Public Policy Research target corporate governance as a means of pursuing their own missions through change at some of the world’s largest corporations. We describe key features across the universe of nonprofits involved in this activity, their multipronged strategic playbook, and the patterns and implications that emerge from focused study. A Wide Range of Nonprofits Shaping Corporate Governance By mapping nonprofit influencers across jurisdictions, we show how they vary along several salient dimensions: when they emerge, how centrally governance figures in their missions, and whether they operate domestically or transnationally. They also vary in funding and",
+      "keywords": [
+        "ESG",
+        "Non-Profit",
+        "Shareholders",
+        "Activism",
+        "Climate Change",
+        "Innovation",
+        "Regulation",
+        "Political Economy",
+        "Sustainability",
+        "Reporting",
+        "Institutional Investors",
+        "Executive compensation",
+        "Performance",
+        "Reputation"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "外部治理的引擎",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "谁塑造公司治理？大多数账户都关注股东、董事和高管，并将公司治理主要视为公司内部问题。最近的学术研究已经确定了其他参与者和力量，包括“公司治理机器”的各个组成部分，以及推动“国际公司法兴起”的组织。其他常见的影响包括个体企业牛虻、作为股东的国家以及地缘政治等更广泛的力量。在我们即将发表的文章《外部治理的引擎》中，我们研究了非营利组织如何成为旨在塑造营利性商业公司治理的关键参与者。 从乐施会和绿色和平组织到跨宗教企业责任中心和国家公共政策研究中心，非营利组织的影响者将公司治理视为通过世界上一些最大的公司的变革来追求自己使命的一种手段。我们描述了参与这项活动的非营利组织的主要特征、他们多管齐下的战略行动手册，以及重点研究中出现的模式和影响。广泛的非营利组织塑造公司治理跨司法管辖区，我们展示了它们在几个显着维度上的差异：它们何时出现、其使命中治理的集中程度如何，以及它们是在国内还是跨国运作。 它们在资金和方面也有所不同。",
+      "keywords_cn": [
+        "环境、社会及治理",
+        "非营利组织",
+        "股东",
+        "行动主义",
+        "气候变化",
+        "创新",
+        "规定",
+        "政治经济学",
+        "可持续发展",
+        "报告",
+        "机构投资者",
+        "高管薪酬",
+        "表现",
+        "名声"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_362"
+    },
+    {
+      "title": "How Shareholder Voice Shapes Board Agendas",
+      "url": "https://www.ecgi.global/publications/blog/how-shareholder-voice-shapes-board-agendas",
+      "date": "2026-09-15",
+      "type": "blog",
+      "authors": "Nadya MalenkoRonald MasulisQi Wang",
+      "abstract": "Corporate governance often focuses on formal votes for evidence of influence: for example, when a director dissents or shareholders reject a proposal. Yet much of the influence may arise earlier in the decision process, when insiders and directors who monitor them negotiate which proposals reach the board agenda in the first place. If a contentious proposal never reaches the agenda, the formal record may show unanimity, even though governance has worked. Inour presentationat the2026 Global Corporate Governance Colloquium, we study this earlier stage of the decision process. We connect more than 1.2 million board proposals and 10.8 million individual director votes with 780,000 shareholder-meeting proposals at Chinese listed firms from 2005 to 2018. These data allow us to trace proposals through the full decision process: from the board agenda to director voting and, when shareholder approval is required, to voting at the shareholder meeting. Chinese listed firms provide a useful setting because ownership is concentrated and larger minority blockholders often appoint directors under cumulative voting. These minority-blockholder-affiliated directors (MBDs) occupy only 0.67 seats on an average nine-member board, so they usually lack the voting power to block a board proposal on their own. However, their influence can come from the shareholders who support them. A blockholder who helped appoint a director can hold a meaningful equity stake and can oppose a contentious proposal if",
+      "keywords": [
+        "Corporate Governance in Asia",
+        "Minority Shareholders",
+        "Tunneling",
+        "Voting",
+        "Boards",
+        "Related Party Transactions",
+        "Financing",
+        "Capital",
+        "Markets",
+        "Investment Decisions",
+        "Technology",
+        "AI",
+        "Innovation",
+        "Bankruptcy",
+        "Private Equity",
+        "Institutional Investors"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "股东的声音如何影响董事会议程",
+      "topics": [
+        "corporate_governance",
+        "tech_data_ai"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "公司治理通常侧重于对影响力证据进行正式投票：例如，当董事提出异议或股东拒绝提案时。然而，大部分影响力可能会在决策过程的早期产生，即监督他们的内部人士和董事协商哪些提案首先进入董事会议程。如果有争议的提案从未进入议程，即使治理发挥了作用，正式记录也可能会显示出一致意见。在 2026 年全球公司治理研讨会上的演讲中，我们研究了这一早期阶段我们将 2005 年至 2018 年中国上市公司超过 120 万份董事会提案和 1,080 万张个人董事投票与 78 万份股东大会提案联系起来。 这些数据使我们能够追踪提案的整个决策过程：从董事会议程到董事投票，以及需要股东批准时再到股东大会投票。中国上市公司提供了一个有用的环境，因为所有权集中，较大的少数股东通常以累积投票方式任命董事。这些少数股东附属董事（MBD）在平均九名成员的董事会中仅占据0.67个席位，因此他们通常缺乏自行否决董事会提案的投票权。然而，他们的影响力可以来自支持他们的股东。帮助任命董事的大股东可以持有有意义的股权，并且可以反对有争议的提案，如果。",
+      "keywords_cn": [
+        "亚洲公司治理",
+        "少数股东",
+        "隧道技术",
+        "表决",
+        "板",
+        "关联交易",
+        "融资",
+        "首都",
+        "市场",
+        "投资决策",
+        "技术",
+        "人工智能",
+        "创新",
+        "破产",
+        "私募股权",
+        "机构投资者"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_363"
+    },
+    {
+      "title": "Shareholder governance in an intermediated world",
+      "url": "https://www.ecgi.global/publications/blog/shareholder-governance-in-an-intermediated-world",
+      "date": "2026-09-15",
+      "type": "blog",
+      "authors": "Amil DasguptaRichmond Mathews",
+      "abstract": "Well-functioning equity markets both spread risk across investors and create incentives for owners to keep management honest. The classical academic view of these twin functions — risk sharing and monitoring — visualizes a world of proprietary ownership in which an investor buys shares with her own money, bears the risk, and monitors because she profits when the firm improves. The link between the two is mechanical: more equity, more skin in the game, more monitoring. This is elegant and tractable, but is a description of a world that no longer exists. Todaymost equity is held by professional asset managers— mutual funds, hedge funds and the like — on behalf of clients. Such delegation breaks the mechanical link: the entity that trades and monitors (the fund) is not the entity that bears the consequences (the clients), and the relationship between them is governed by a contract someone had to design. InDelegated Blocks, presented at the ECGI'sGCGC conference in Singaporethis June, we ask a foundational question: how does the delegation of equity ownership reshape the link between risk sharing and monitoring? The separation principle Our headline answer: optimal delegation contractsseparaterisk sharing from monitoring. The key force is the free-riding logic ofGrossman and Hart (1980), applied through two distinct lenses depending on who — clients or managers — has bargaining power and thus can dictate terms. A client with bargaining power wants the fund tobuyequity for risk-sh",
+      "keywords": [
+        "Policy Watch",
+        "Contracts",
+        "Investment Decisions",
+        "Ownership",
+        "Incentives",
+        "Hedge Funds",
+        "Funds",
+        "Institutional Investors",
+        "Indices",
+        "Domiciliation",
+        "Mobility",
+        "Company Law",
+        "Competition",
+        "Regulation",
+        "Startups",
+        "Venture capital"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "中介世界中的股东治理",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "运作良好的股票市场既可以在投资者之间分散风险，又可以激励所有者保持管理层的诚实。对于这两种功能（风险分担和监控）的经典学术观点，想象了一个专有所有权的世界，其中投资者用自己的钱购买股票，承担风险并进行监控，因为当公司改善时她会获利。两者之间的联系是机械的：更多的股权，更多的利益参与，更多的监控。这很优雅且容易处理，但这是对一个不再存在的世界的描述。由专业资产管理公司（共同基金、对冲基金等）代表客户持有。 这种授权打破了机械联系：交易和监控的实体（基金）不是承担后果的实体（客户），它们之间的关系受某人必须设计的合同的约束。在今年六月于新加坡举行的 ECGI GCGC 会议上提出的《授权区块》中，我们提出了一个基本问题：股权授权如何重塑风险分担和监控之间的联系？分离原则 我们的主要答案是：最优授权合同将风险分担与监控分开。关键力量是 Grossman 和 Hart (1980) 的搭便车逻辑，通过两个不同的视角来应用，具体取决于谁——客户或经理——拥有讨价还价能力，从而可以决定条款。 具有议价能力的客户希望基金购买股票以规避风险。",
+      "keywords_cn": [
+        "政策观察",
+        "合约",
+        "投资决策",
+        "所有权",
+        "激励措施",
+        "对冲基金",
+        "资金",
+        "机构投资者",
+        "指数",
+        "住所",
+        "移动性",
+        "公司法",
+        "竞赛",
+        "规定",
+        "初创公司",
+        "风险投资"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_364"
+    },
+    {
+      "title": "Index Ownership Has Gone Global",
+      "url": "https://www.ecgi.global/publications/blog/index-ownership-has-gone-global",
+      "date": "2026-09-15",
+      "type": "blog",
+      "authors": "Bo BeckerRuediger FahlenbrachEhsan Mahdikhani",
+      "abstract": "Twenty years ago, the share register of a large European company was made up of families, banks, the state, insurers and active fund managers, who liked the shares for any number of reasons. Today a substantial and growing part of it belongs to investors who own shares because the company is in an index. Index ownership has several well understood effects. Index investing is very cheap and has provided diversified equity exposure at a fraction of what it used to cost. Index funds tend to hold large pools of assets for a long time. This makes index funds stable, long-horizon owners, and they tend tovote for independent directors and against takeover defenses. They are also owners who did not choose the company, hold thousands of investment positions in other companies, can give none of them much attention, and trade mechanically, which affectsprice formation. The substantial and high-quality research on these topics is almost exclusively American. How important is index-driven ownership outside the U.S.? In ourrecent study, we address this by using portfolio data and fund descriptions to classify shareholders globally as index-based or not. Our method does not need third party classifications (often absent outside the U.S.), and uses data that is broadly available for public companies around the world. Our method also separatesexplicitindexing — funds that say in their name or description that they track an index — fromclosetindexing, portfolios that behave like index funds wi",
+      "keywords": [
+        "Policy Watch",
+        "Ownership",
+        "Funds",
+        "Institutional Investors",
+        "Indices",
+        "Contracts",
+        "Investment Decisions",
+        "Incentives",
+        "Hedge Funds",
+        "Domiciliation",
+        "Mobility",
+        "Company Law",
+        "Competition",
+        "Regulation",
+        "Startups",
+        "Venture capital"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "指数所有权已走向全球",
+      "topics": [
+        "corporate_governance",
+        "antitrust"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "二十年前，一家大型欧洲公司的股东名册由家族、银行、国家、保险公司和主动型基金经理组成，他们出于多种原因喜欢这些股票。如今，其中很大一部分属于持有股票的投资者，因为该公司属于指数。指数所有权有几个众所周知的影响。指数投资非常便宜，并且以过去成本的一小部分提供了多元化的股票投资。指数基金往往长期持有大量资产。这使得指数资金稳定、目光长远的所有者，他们倾向于投票支持独立董事，反对收购防御。 他们也是没有选择公司的所有者，在其他公司持有数千个投资头寸，无法给予其中任何一个太多关注，并且进行机械交易，这影响了价格形成。关于这些主题的大量和高质量的研究几乎完全是美国的。美国以外的指数驱动所有权有多重要？在我们最近的研究中，我们通过使用投资组合数据和基金描述将全球股东分类为基于指数或非指数来解决这个问题。我们的方法不需要第三方分类（在美国境外通常不存在），并使用世界各地上市公司广泛使用的数据。 我们的方法还将显式指数化（在名称或描述中表明它们跟踪指数的基金）与秘密指数化（表现类似于指数基金的投资组合）分开。",
+      "keywords_cn": [
+        "政策观察",
+        "所有权",
+        "资金",
+        "机构投资者",
+        "指数",
+        "合约",
+        "投资决策",
+        "激励措施",
+        "对冲基金",
+        "住所",
+        "移动性",
+        "公司法",
+        "竞赛",
+        "规定",
+        "初创公司",
+        "风险投资"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_365"
+    },
+    {
+      "title": "Statement by Commissioner Uyeda on Proposing Rescission of Rule 14a-8 and Proxy Solicitation Modernization",
+      "url": "https://corpgov.law.harvard.edu/2026/09/17/statement-by-commissioner-uyeda-on-proposing-rescission-of-rule-14a-8-and-proxy-solicitation-modernization/?utm_source=rss&utm_medium=rss&utm_campaign=statement-by-commissioner-uyeda-on-proposing-rescission-of-rule-14a-8-and-proxy-solicitation-modernization",
+      "date": "2026-09-17",
+      "authors": "Mark T. Uyeda, U.S. Securities and Exchange Commission",
+      "keywords": [
+        "Proxy Rules",
+        "Proxy Solicitation",
+        "Rule 14a-8",
+        "SEC",
+        "SEC rulemaking",
+        "Securities regulation",
+        "Shareholder activism",
+        "Shareholder proposals"
+      ],
+      "abstract": "Mark T. Uyeda is a Commissioner of the U.S. Securities and Exchange Commission. This post is based on his recent statement. The views expressed in this post are those of Commissioner Uyeda and do not necessarily reflect those of the Securities and Exchange Commission or its staff. Today, the Commission proposes to rescind Rule 14a-8, which leaves determination about whether a shareholder proposal may be properly placed on a proxy statement to the states, companies, and shareholders. The Commission also proposes to amend Rule 14a-4 to expand the circumstances under which a company may exercise discretionary voting authority on certain proposals.[1] Lastly, the Commission proposes amendments that would modernize certain rules related to proxy solicitations.[2]",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "乌耶达专员关于提议废除第 14a-8 条规则和代理征集现代化的声明",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "马克·T·乌耶达 (Mark T. Uyeda) 是美国证券交易委员会委员。这篇文章是基于他最近的声明。这篇文章中表达的观点是上田委员的观点，并不一定反映证券交易委员会或其工作人员的观点。今天，委员会提议废除第 14a-8 条规则，该规则将股东提案是否可以适当地列入股东委托书的决定权留给各州、公司和股东。委员会还提议修改规则 14a-4，以扩大公司可以对某些提案行使酌情投票权的情况。 [1]最后，委员会提出修正案，以使与代理征集相关的某些规则现代化。 [2]",
+      "keywords_cn": [
+        "代理规则",
+        "委托书征集",
+        "规则 14a-8",
+        "美国证券交易委员会",
+        "美国证券交易委员会规则制定",
+        "证券监管",
+        "股东积极性",
+        "股东提案"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_366"
+    },
+    {
+      "title": "The Red State AG Attack on ESG Continues to Misfire",
+      "url": "https://corpgov.law.harvard.edu/2026/09/17/the-red-state-ag-attack-on-esg-continues-to-misfire/?utm_source=rss&utm_medium=rss&utm_campaign=the-red-state-ag-attack-on-esg-continues-to-misfire",
+      "date": "2026-09-17",
+      "authors": "Robert G. Eccles (University of Oxford) and Daniel F. C. Crowley (K&L Gates LLP)",
+      "keywords": [
+        "Climate Disclosure",
+        "ESG",
+        "Securities regulation",
+        "State Attorneys General"
+      ],
+      "abstract": "Robert G. Eccles is a Visiting Professor of Management Practice at Saïd Business School, University of Oxford; and Daniel F. C. Crowley is a Partner at K&L Gates LLP. On August 24, sixteen Republican state attorneys general (AGs) sent a 38-page letter to the chief executives of Deloitte, EY, KPMG and PwC, copying the SEC’s Chairman and its Director of Enforcement. The AGs allege that the firms compromised their professional independence by publicly supporting climate-related disclosure, and end with thirty-eight demands for documents.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "Red State AG 对 ESG 的攻击继续失败",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "Robert G. Eccles 是牛津大学赛德商学院管理实践客座教授；Daniel F. C. Crowley 是 K&L Gates LLP 的合伙人。8月24日，16名共和党州总检察长（AG）向德勤、安永、毕马威和普华永道的首席执行官发送了一封长达38页的信函，抄送了SEC主席及其执法总监。总检察长声称，这些公司公开支持气候相关信息披露，损害了他们的专业独立性，并最终提出了 38 项提供文件的要求。",
+      "keywords_cn": [
+        "气候信息披露",
+        "环境、社会及治理",
+        "证券监管",
+        "州总检察长"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_367"
+    },
+    {
+      "title": "The State of U.S. Executive Pay Today",
+      "url": "https://corpgov.law.harvard.edu/2026/09/17/the-state-of-u-s-executive-pay-today/?utm_source=rss&utm_medium=rss&utm_campaign=the-state-of-u-s-executive-pay-today",
+      "date": "2026-09-17",
+      "authors": "Stephen F. O'Byrne, Shareholder Value Advisors, Inc.",
+      "abstract": "Stephen F. O’Byrne is the President of Shareholder Value Advisors, Inc. This post is based on his Shareholder Value Advisors memorandum. The basic objectives of executive pay have been the same since the rise of large corporations in the late 19th century. Shareholders want to give managers strong incentives to increase shareholder value while retaining key talent and limiting shareholder cost. Today, it’s widely accepted that these three objectives can be achieved by managing two dimensions of executive pay: the percent of pay at risk and the company’s target pay percentile.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "当今美国高管薪酬状况",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Stephen F. O’Byrne 是 Shareholder Value Advisors, Inc. 的总裁。本文基于他的 Shareholder Value Advisors 备忘录。自 19 世纪末大公司兴起以来，高管薪酬的基本目标一直保持不变。股东希望给予管理者强有力的激励，以增加股东价值，同时留住关键人才并限制股东成本。如今，人们普遍认为这三个目标可以通过管理高管薪酬的两个维度来实现：风险薪酬百分比和公司目标薪酬百分位。",
+      "report_id": "2026-09-17",
+      "id": "art_368"
+    },
+    {
+      "title": "From Say-on-Pay to the Boardroom: Making Off-Season Engagement Count",
+      "url": "https://corpgov.law.harvard.edu/2026/09/16/from-say-on-pay-to-the-boardroom-making-off-season-engagement-count/?utm_source=rss&utm_medium=rss&utm_campaign=from-say-on-pay-to-the-boardroom-making-off-season-engagement-count",
+      "date": "2026-09-17",
+      "authors": "Serdar Sikca and Kenneth Sparling, FW Cook",
+      "abstract": "Serdar Sikca is a Principal and Kenneth Sparling is a Managing Director at FW Cook. This post is based on their FW Cook memorandum. This is the final article in our summer series on reading the 2026 say-on-pay results, preparing for off-season shareholder engagement, and bringing investor feedback into the compensation committee’s fall planning cycle.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "从薪酬发言权到董事会：让淡季参与变得有意义",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Serdar Sikca 是 FW Cook 的负责人，Kenneth Sparling 是董事总经理。这篇文章基于他们的 FW Cook 备忘录。这是我们夏季系列的最后一篇文章，内容涉及阅读 2026 年薪酬发言权结果、为淡季股东参与做准备，以及将投资者反馈纳入薪酬委员会的秋季规划周期。",
+      "report_id": "2026-09-17",
+      "id": "art_369"
+    },
+    {
+      "title": "Open Letter to Corporate America’s Executives and Investors About Shareholder Proposals",
+      "url": "https://corpgov.law.harvard.edu/2026/09/16/open-letter-to-corporate-americas-executives-and-investors-about-shareholder-proposals/?utm_source=rss&utm_medium=rss&utm_campaign=open-letter-to-corporate-americas-executives-and-investors-about-shareholder-proposals",
+      "date": "2026-09-17",
+      "authors": "Frederick Alexander, The Shareholder Commons",
+      "keywords": [
+        "Executives",
+        "S&P 500",
+        "SEC",
+        "Shareholders"
+      ],
+      "abstract": "Frederick Alexander is the Founder of the Shareholder Commons. Since the maturation of the industrial age, our nation’s economic success has rested on a delicate balance of power between the investors who fund and own large companies and the executives who run them. That balance is now at risk, as government officials are substantially remaking the rules that govern the relationship between shareholders and corporations. Most imminently, on August 28, the US Securities and Exchange Commission (the SEC) sent the White House a proposal to rescind Rule 14a-8, the right of shareholders to have their proposals presented to fellow shareholders, a right that has been in place in some form for more than seventy years. If this right is eliminated, state law and private ordering will have to fill the gap.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "致美国企业高管和投资者关于股东提案的公开信",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "弗雷德里克·亚历山大 (Frederick Alexander) 是 Shareholder Commons 的创始人。自工业时代成熟以来，我们国家的经济成功依赖于资助和拥有大公司的投资者与经营这些公司的高管之间微妙的权力平衡。这种平衡现在面临风险，因为政府官员正在大幅修改股东与公司之间关系的规则。最紧迫的是，8 月 28 日，美国证券交易委员会 (SEC) 向白宫提交了一份废除第 14a-8 条规则的提案，即股东向其他股东提出提案的权利，这项权利以某种形式存在了七十多年。如果这项权利被取消，州法律和私人命令将不得不填补空白。",
+      "keywords_cn": [
+        "行政人员",
+        "标准普尔 500 指数",
+        "美国证券交易委员会",
+        "股东"
+      ],
+      "report_id": "2026-09-17",
+      "id": "art_370"
+    },
+    {
+      "title": "Shareholder Activism: Ten Trends for 2027",
+      "url": "https://corpgov.law.harvard.edu/2026/09/15/shareholder-activism-ten-trends-for-2027/?utm_source=rss&utm_medium=rss&utm_campaign=shareholder-activism-ten-trends-for-2027",
+      "date": "2026-09-17",
+      "authors": "Elina Tetelbaum and Loren Braswell, Wachtell, Lipton, Rosen & Katz",
+      "abstract": "Elina Tetelbaum is a Partner and Loren Braswell is Counsel at Wachtell, Lipton, Rosen & Katz. This post is based on their Wachtell Lipton memorandum. Last year, we identified ten trends that we expected to shape shareholder activism in 2026. Those trends included: increasing M&A-focused activism, emboldened occasional activists, less visibility into shareholder views, the normalization of serving as a dissident nominee, and more “withhold” campaigns.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "股东积极主义：2027 年十大趋势",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Elina Tetelbaum 是 Wachtell, Lipton, Rosen & Katz 的合伙人，Loren Braswell 是法律顾问。这篇文章基于他们的 Wachtell Lipton 备忘录。去年，我们确定了预计将在 2026 年塑造股东激进主义的十大趋势。这些趋势包括：以并购为重点的激进主义不断增加、偶尔积极分子的大胆、股东观点的可见性降低、作为持不同政见提名人的正常化以及更多的“保留”运动。",
+      "report_id": "2026-09-17",
+      "id": "art_371"
+    },
+    {
+      "title": "Executive Security and Protection Continues to Expand",
+      "url": "https://corpgov.law.harvard.edu/2026/09/15/executive-security-and-protection-continues-to-expand/?utm_source=rss&utm_medium=rss&utm_campaign=executive-security-and-protection-continues-to-expand",
+      "date": "2026-09-17",
+      "authors": "Aubrey Bout, Rebecca Friday, and Ben Futterman, Pay Governance LLC",
+      "abstract": "Aubrey Bout is a Managing Partner and Rebecca Friday and Ben Futterman are Consultants at Pay Governance LLC. This post is based on their Pay Governance memorandum. Personal security benefits are becoming more common. Among S&P 500 companies, prevalence of CEO personal security increased from 35% to 54% year over year, while approximately 47% of companies now provide personal security to at least one additional named executive officer (NEOs).",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "行政安全和保护持续扩大",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Aubrey Bout 是 Pay Governance LLC 的执行合伙人，Rebecca Friday 和 Ben Futterman 是顾问。这篇文章基于他们的薪酬治理备忘录。个人安全福利变得越来越普遍。在标准普尔 500 强公司中，CEO 人身安全保障的普及率逐年从 35% 上升至 54%，而大约 47% 的公司现在为至少一名额外的指定执行官 (NEO) 提供人身安全保障。",
+      "report_id": "2026-09-17",
+      "id": "art_372"
+    },
+    {
+      "title": "Board Oversight of AI Transformation",
+      "url": "https://corpgov.law.harvard.edu/2026/09/14/board-oversight-of-ai-transformation/?utm_source=rss&utm_medium=rss&utm_campaign=board-oversight-of-ai-transformation",
+      "date": "2026-09-17",
+      "authors": "Dan Priest, Jenn Kosar, and Barbara Berlin, PricewaterhouseCoopers LLP",
+      "abstract": "Dan Priest is a Chief AI Officer, Jenn Kosar is an AI Assurance Leader, and Barbara Berlin is a Managing Director at PricewaterhouseCoopers LLP. This post is based on their PwC memorandum. Since the launch of ChatGPT in late 2022, AI has rapidly evolved from a breakthrough technology into a core driver of business transformation. The pace of change has been rapid, and companies are now moving beyond experimentation to redesign how work gets done across products and services, decision-making, operations, and the workforce itself. As with other major technology shifts, the long-term impact will depend less on the tools themselves and more on how efficiently companies redesign the business around them.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "董事会对人工智能转型的监督",
+      "topics": [
+        "tech_data_ai",
+        "corporate_governance"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "Dan Priest 是首席人工智能官，Jenn Kosar 是人工智能保障领导者，Barbara Berlin 是普华永道会计师事务所的董事总经理。这篇文章基于他们的普华永道备忘录。自2022年底ChatGPT推出以来，人工智能已从一项突破性技术迅速发展成为业务转型的核心驱动力。变革的步伐很快，公司现在正在超越实验，重新设计产品和服务、决策、运营以及员工本身的工作方式。与其他重大技术变革一样，长期影响将更少取决于工具本身，而更多地取决于公司围绕工具重新设计业务的效率。",
+      "report_id": "2026-09-17",
+      "id": "art_373"
+    },
+    {
+      "title": "DATs and Crypto-Pivot Companies: Understanding and Mitigating Shareholder Activism Risks",
+      "url": "https://corpgov.law.harvard.edu/2026/09/14/dats-and-crypto-pivot-companies-understanding-and-mitigating-shareholder-activism-risks/?utm_source=rss&utm_medium=rss&utm_campaign=dats-and-crypto-pivot-companies-understanding-and-mitigating-shareholder-activism-risks",
+      "date": "2026-09-17",
+      "authors": "Leonard Wood, Daniel Roeser, and Karen Ubell, Goodwin Procter LLP",
+      "abstract": "Leonard Wood is Chair of the Shareholder Activism and Takeover Defense Practice, Daniel Roeser is a Partner in the Securities Litigation and White Collar Defense groups, and Karen Ubell is Co-Chair, Digital Currency & Blockchain at Goodwin Procter LLP. This post is based on their Goodwin memorandum. The emergence of digital asset treasury companies (“DATs”) and crypto-pivot companies – public companies that have repositioned all or a substantial portion of their corporate strategy around the acquisition, accumulation, and management of digital assets – has introduced a new and rapidly evolving sector of public companies to the market. Since the beginning of 2025, a growing number of public companies have adopted some version of the playbook: reposition legacy businesses around digital asset treasury strategies; accumulate digital assets on the balance sheet; and, in some cases, deploy digital assets to generate returns through staking,[1]  lending, protocol participation, and related activities. Early DATs and crypto-pivot companies attracted substantial institutional and retail capital because their stocks traded at a significant premium to the market values of their accumulated digital assets (i.e., their net asset value or “NAV”).",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "DAT 和加密货币枢轴公司：了解和减轻股东激进主义风险",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Leonard Wood 是股东积极主义和收购辩护业务的主席，Daniel Roeser 是证券诉讼和白领辩护小组的合伙人，Karen Ubell 是 Goodwin Procter LLP 数字货币和区块链联合主席。这篇文章基于他们的 Goodwin 备忘录。数字资产财务公司（“DAT”）和加密枢轴公司的出现 - 已重新定位其全部或大部分公司的上市公司围绕数字资产的收购、积累和管理的战略——将一个新的、快速发展的上市公司部门引入市场。 自 2025 年初以来，越来越多的上市公司采用了某种版本的策略：围绕数字资产财务战略重新定位传统业务；在资产负债表上积累数字资产；在某些情况下，部署数字资产以通过质押、[1] 借贷、协议参与和相关活动产生回报。早期的 DAT 和加密枢轴公司吸引了大量的机构和零售资本，因为它们的股票交易价格远高于其积累的数字资产的市场价值（即其净资产价值或“NAV”）。",
+      "report_id": "2026-09-17",
+      "id": "art_374"
+    },
+    {
+      "title": "Brazil’s Full Business Sale: Why the Section 363 Model Did Not Translate",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/brazils-full-business-sale-why-section-363-model-did-not-translate",
+      "date": "2026-09-17",
+      "type": "blog",
+      "abstract": "Over the past two decades, Section 363 of the U.S. Bankruptcy Code has become one of the most important tools in modern Chapter 11 practice. By allowing a debtor to sell substantially all its assets “free and clear” of liens, claims, and encumbrances, the mechanism enables the rapid transfer of a distressed business to a new owner while preserving its going-concern value. Inspired by the U.S. model,Brazilian Law No. 14,112/2020introduced thevenda integral da empresa, referred to here as the “Full Business Sale,” as an alternative restructuring mechanism within judicial reorganization proceedings. Nearly six years after its enactment, however, the mechanism has produced no meaningful precedent in Brazil. The reason is not a lack of interest in distressed M&A, nor a merely procedural deficiency. It is a structural incompatibility between the proposed sale mechanism and the broad universe of creditors that remain outside Brazilian judicial reorganization proceedings. A Section 363 Sale is effective because it separates two questions that do not necessarily need to be resolved at the same time: the transactional question of how much the business is worth and the distributional question of how the sale proceeds should be allocated among creditors. The bankruptcy court may authorize the sale of the business to a good-faith purchaser, generally through a competitive process, while disputes among creditors over the proceeds remain within the Chapter 11 case. The purchaser receives th",
+      "authors": "Author(s):Arthur Lourenço GasparAssociate, Restructuring and Insolvency Practice, Demarest AdvogadosFernanda DrugowichPartner at Galdino, Takemi, Ayoub, Salgueiro, Rezende de Almeida, Costa, Faria Advogados",
+      "source_id": "oblb",
+      "title_cn": "巴西全面出售业务：为何 363 条款模式未能实现",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "在过去的二十年里，美国破产法第 363 条已成为现代破产法第 11 章实践中最重要的工具之一。通过允许债务人“自由且清除”留置权、债权和产权负担的情况下出售其几乎所有资产，该机制能够将陷入困境的企业快速转移给新所有者，同时保留其持续经营价值。受美国模式的启发，巴西法律第14,112/2020 引入了 thevendaintegrationdaempresa（此处称为“全面业务出售”），作为司法重组程序中的替代重组机制。然而，在其颁布近六年后，该机制在巴西尚未产生任何有意义的先例。 原因不是对陷入困境的并购缺乏兴趣，也不仅仅是程序上的缺陷。这是拟议的出售机制与仍然处于巴西司法重组程序之外的广大债权人之间的结构性不相容。第 363 条出售之所以有效，是因为它将两个不一定需要同时解决的问题分开：企业价值多少的交易问题和如何在债权人之间分配出售收益的分配问题。破产法院可以授权将业务出售给善意购买者，通常是通过竞争程序，而债权人之间关于收益的争议仍属于第 11 章案件的范围。",
+      "report_id": "2026-09-17",
+      "id": "art_375"
+    },
+    {
+      "title": "Legal Compliance of AI Agents",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/legal-compliance-ai-agents",
+      "date": "2026-09-16",
+      "type": "blog",
+      "abstract": "In acybersecurity incidentin July 2026, OpenAI models exploited a series of vulnerabilities during a routine internal evaluation to gain unauthorized access to the servers of another company, Hugging Face. Approximately 700 distinct AI agents were involved, many of which took actions that, if taken by humans, would haveviolated the law—specifically, theUS Computer Fraud and Abuse Act. As AI agents becomemore capableand aredelegatedgreater responsibility in both professional and personal contexts, we will need to contend with the possibility that AI agents will continue toviolate the law. The field oflegal alignmentaims to address this challenge by designing AI agents to act in accordance with legal rules and principles. Recent empirical studies acrosscorporate law,copyright law, andEU lawexamine whether AI agents take actions that violate the law, the results of which are less than flattering. While these studies provide vital information regarding the extent to which AI agents comply with law, another equally important question remains unexplored:whymight AI agents obey (or disobey) the law? Tackling this question is critical to understanding the underlying attitudes of AI agents toward legal rules and institutions, and predicting—if not preventing—the future occurrence of scenarios like the Hugging Face incident, or worse.",
+      "authors": "Author(s):Noam KoltAssistant Professor, Hebrew University Faculty of Law and School of Computer Science and EngineeringPratik SachdevaResearch Scientist, UC Berkeley D-Lab",
+      "source_id": "oblb",
+      "title_cn": "AI代理的合法合规性",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "在 2026 年 7 月的网络安全事件中，OpenAI 模型在例行内部评估期间利用了一系列漏洞，未经授权访问了另一家公司 Hugging Face 的服务器。涉及大约 700 个不同的 AI 代理，其中许多行为如果由人类采取，将违反法律，特别是美国计算机欺诈和滥用法案。随着 AI 代理在专业和个人环境中变得更加有能力并被委以更大的责任，我们将需要应对人工智能代理将继续违反法律的可能性。法律联盟领域旨在通过设计人工智能代理按照法律规则和原则行事来应对这一挑战。 最近的跨公司法、版权法和欧盟法的实证研究考察了人工智能主体是否采取了违反法律的行为，其结果并不令人满意。虽然这些研究提供了有关人工智能主体遵守法律程度的重要信息，但另一个同样重要的问题仍未得到探索：人工智能主体为什么会遵守（或违反）法律？解决这个问题对于理解人工智能代理对法律规则和机构的基本态度至关重要，并预测（如果不能防止的话）未来发生“抱脸事件”或更糟糕的情况。",
+      "report_id": "2026-09-17",
+      "id": "art_376"
+    },
+    {
+      "title": "401(k) Personal Pension Plans Are a Poor Fit for Private Market Investing",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/401k-personal-pension-plans-are-poor-fit-private-market-investing",
+      "date": "2026-09-15",
+      "type": "blog",
+      "abstract": "In spring 2026, the US Department of Labor (the ‘DOL’) issued aproposed rule(the ‘Proposal’) creating a safe harbor that would facilitate large-scale retail investment in private markets through 401(k) plans. In a recentcomment letter, we take issue with the Proposal. While much of the DOL’s analysis was careful and thoughtful, the Proposal’s assumptions do not hold up when the realities of private market investing and 401(k) intermediation are seriously reckoned with. Background on the US Retirement System 401(k) plans—named after the provision of the Internal Revenue Code that authorizes them—are the dominant employer-sponsored retirement savings vehicle for American private sector workers. Employees pay into individual 401(k) accounts on a tax-favored basis over the course of their careers, often with matching employer contributions, and their eventual retirement benefit is simply the amount that has accumulated in those accounts over time. Participants bear both the upside and the downside of the investment performance in their accounts. 401(k) plans currently hold roughly $10 trillion in assets, and much of the $19 trillion held in individual retirement accounts (‘IRAs’) started in 401(k)s before being rolled over into IRAs by employees changing employers. Together, 401(k) plans and IRAs account for the bulk of private-sector retirement savings in the US.",
+      "authors": "Author(s):William W ClaytonProfessor of Law and Associate Dean for Faculty and Curriculumat at Brigham Young University, J Reuben Clark Law School.Elisabeth de FontenayProfessor of Law at Duke University School of Law",
+      "source_id": "oblb",
+      "title_cn": "401(k) 个人养老金计划不适合私人市场投资",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "2026 年春季，美国劳工部（“DOL”）发布了一项拟议规则（“提案”），旨在通过 401(k) 计划创建一个安全港，促进私募市场的大规模零售投资。在最近的一封评论信中，我们对该提案提出了质疑。虽然劳工部的大部分分析是仔细和深思熟虑的，但当私募市场投资的现实情况和401(k) 中介受到认真考虑。美国退休制度的背景 401(k) 计划（以授权该计划的《国内税收法》条款命名）是美国私营部门工人主要的雇主资助的退休储蓄工具。 员工在其职业生涯中以税收优惠的方式存入个人 401(k) 账户，通常还会有相应的雇主缴款，而他们最终的退休福利只是这些账户中随着时间的推移而积累的金额。参与者承担其账户投资业绩的上行和下行。401(k) 计划目前持有大约 10 万亿美元的资产，其中大部分在个人退休账户 (“IRA”) 中持有的 19 万亿美元于 2017 年开始持有。401(k) 计划，然后由更换雇主的员工转入 IRA。401(k) 计划和 IRA 共同构成了美国私营部门退休储蓄的大部分。",
+      "report_id": "2026-09-17",
+      "id": "art_377"
+    },
+    {
+      "title": "Mineral Concentration Jeopardizes America’s AI Industry",
+      "url": "https://www.promarket.org/2026/09/17/mineral-concentration-jeopardizes-americas-ai-industry/",
+      "date": "2026-09-17",
+      "authors": "Piyush Akimitsu",
+      "abstract": "Piyush Akimitsu is a PhD candidate in economics and instructor of record at the University at Albany, SUNY. His research focuses on the role of information, technology and regulation in financial, health and labor markets. The discussion about concentration in artificial intelligence markets focuses on the least concentrated layer, the models. The chokepoint that actually threatens AI is the production of refined minerals that go into chips, data centers, and electricity production, writes Piyush Akimitsu. The discussion about market concentration in artificial intelligence makes a costly omission by focusing on foundational models and the cloud. A host of open- and closed-weight models are being released on a regular basis. Most of these models come from the United States. However, a good number like Deepseek and Moonshot’s Kimi K3 come from China. Data on concentration at different levels of the AI stack, which I organized intoa public dashboard, shows the model market has a Herfinda",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "矿产集中危及美国人工智能产业",
+      "topics": [
+        "tech_data_ai",
+        "antitrust"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "Piyush Akimitsu 是纽约州立大学奥尔巴尼分校的经济学博士研究生和记录讲师。他的研究重点是信息、技术和监管在金融、健康和劳动力市场中的作用。关于人工智能市场集中度的讨论主要集中在最不集中的一层，即模型。Piyush Akimitsu 写道，真正威胁人工智能的瓶颈是用于芯片、数据中心和电力生产的精炼矿物的生产。关于人工智能市场集中度的讨论因关注基础模型和云而造成了代价高昂的遗漏。许多开放式和封闭式重量模型正在定期发布。这些型号大部分来自美国。然而，像 Deepseek 和 Moonshot 的 Kimi K3 这样的好数字都来自中国。我将人工智能堆栈不同级别的集中度数据组织到公共仪表板中，显示模型市场存在 Herfinda",
+      "report_id": "2026-09-17",
+      "id": "art_378"
+    },
+    {
+      "title": "Competition Law Must Protect the Citizen, Too",
+      "url": "https://www.promarket.org/2026/09/16/competition-law-must-protect-the-citizen-too/",
+      "date": "2026-09-16",
+      "authors": "Walid Chaiehloudj",
+      "abstract": "Walid Chaiehloudj is a Professor of Law at Université Côte d’Azur, a member of the Institut universitaire de France, a member of the board of the Autorité de la concurrence (France), Vice-President of Autorité de la concurrence de la Nouvelle-Calédonie (New Caledonia), and an affiliate researcher at Sorbonne University Abu Dhabi Research Institute. Walid Chaiehloudj argues that when a scientifically substantiated large but uncertain risk, like environmental damage, conflicts with standard competition analysis, competition authorities need to defer to a precautionary citizen-consumer standard that takes into consideration the risks of that harm. When we buy something, competition law sees us in one guise only: as consumers. How much are we paying? Do we have enough choice? But we are also citizens, exposed to many potential harms that fall outside the purview of standard competition policy: health, political capture, inequality, and climate change, for example. Mitigation of these conce",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "竞争法也必须保护公民",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "Walid Chaiehloudj 是蔚蓝海岸大学法学教授、法国大学研究所成员、Autorité de la concurrence（法国）董事会成员、Autorité de la concurrence de la Nouvelle-Calédonie（新喀里多尼亚）副主席以及索邦大学阿布扎比研究所附属研究员。Walid Chaiehloudj 认为，当科学证实的巨大但不确定的风险（例如环境破坏）与标准竞争分析相冲突时，竞争主管机构需要遵循考虑到这种损害风险的预防性公民消费者标准。当我们购买东西时，竞争法只以一种形式看待我们：作为消费者。我们付多少钱？我们有足够的选择吗？但我们也是公民，面临许多超出标准竞争政策范围的潜在危害：例如健康、政治俘获、不平等和气候变化。缓解这些问题",
+      "report_id": "2026-09-17",
+      "id": "art_379"
+    },
+    {
+      "title": "Can Regulation Prevent Collusion Against Environmental Standards?",
+      "url": "https://www.promarket.org/2026/09/15/can-regulation-prevent-collusion-against-environmental-standards/",
+      "date": "2026-09-15",
+      "authors": "Jorge Alé-Chilet",
+      "abstract": "JorgeAlé-Chilet is an Assistant Professor at the School of Business and Economics at Universidad de los Andes in Santiago, Chile, and an Affiliate Fellow of the Stigler Center at the University of Chicago Booth School of Business. He earned his Ph.D. in Economics from the Hebrew University of Jerusalem in 2017. His research examines how regulatory design shapes competition and welfare distribution, studying in recent work collusion, healthcare and retail markets. His work has been published in the Review of Economic Studies, RAND Journal of Economics, and Marketing Science. Inrecent research, Jorge Alé-Chilet, Cuicui Chen, Jing Li, and Mathias Reynaert find that when faced with environmental regulations, collusion among German car manufacturers reduced their expected non-compliance fines and significantly increased consumer and producer surplus. At the same time, social welfare decreased by billions of euros because of increased pollution. Non-compliance with environmental standards is",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "监管能否防止违反环境标准的串通行为？",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "JorgeAlé-Chilet 是智利圣地亚哥洛斯安第斯大学商业与经济学院的助理教授，也是芝加哥大学布斯商学院斯蒂格勒中心的附属研究员。他获得了博士学位。2017 年获得耶路撒冷希伯来大学经济学博士学位。他的研究探讨了监管设计如何塑造竞争和福利分配，研究了最近的工作勾结、医疗保健和零售市场。他的研究成果发表在《经济研究评论》、《兰德经济学杂志》和《营销科学》上。Jorge Alé-Chilet、Cuicui Chen、Jing Li 和 Mathias Reynaert 最近的研究发现，在面对环境法规时，德国汽车制造商之间的串通减少了预期的违规罚款，并显着增加了消费者和生产者剩余。与此同时，由于污染加剧，社会福利减少了数十亿欧元。不符合环保标准",
+      "report_id": "2026-09-17",
+      "id": "art_380"
+    },
+    {
+      "title": "Wealth Taxes Can Make Capital Markets More Efficient",
+      "url": "https://www.promarket.org/2026/09/14/wealth-taxes-can-make-capital-markets-more-efficient/",
+      "date": "2026-09-14",
+      "authors": "Sergio Ocampo, Guttorm Schjelderup and Floris Zoutman",
+      "abstract": "Sergio Ocampo is an Assistant Professor of Economics at the University of Western Ontario, where he works since 2020 after graduating from the University of Minnesota and spending a term at the University of Oslo. His research on wealth taxes, self-employment, and retail concentration has been published in the Quarterly Journal of Economics, the Journal of Monetary Economics, and the American Economic Journal: Macroeconomics. Guttorm Schjelderup is professor of economics at the Norwegian School of Economics, where he heads the Norwegian Centre for Taxation. He has work experience from the World Bank and is a research fellow at leading institutions such as CESifo and the Oxford Centre for Business Taxation. His research spans a wide range of topics in public finance, and he has chaired several government-appointed committees advising the Norwegian parliament on tax policy. Floris Zoutman is professor of economics at the Norwegian School of Economics, where he is Deputy Director of the N",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "财富税可以提高资本市场的效率",
+      "topics": [
+        "antitrust",
+        "corporate_governance"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "Sergio Ocampo 是西安大略大学经济学助理教授，从明尼苏达大学毕业并在奥斯陆大学学习了一学期后，他自 2020 年起在该大学工作。他关于财富税、自营职业和零售集中度的研究发表在《经济学季刊》、《货币经济学杂志》和《美国经济杂志：宏观经济学》上。古托姆·谢尔德鲁普 (Guttorm Schjelderup) 是挪威经济学院的经济学教授，也是挪威税务中心的负责人。他拥有世界银行的工作经验，并且是CESifo和牛津商业税务中心等领先机构的研究员。他的研究涵盖公共财政领域的广泛主题，并担任多个政府任命的委员会主席，为挪威议会提供税收政策方面的建议。弗洛里斯·佐特曼 (Floris Zoutman) 是挪威经济学院经济学教授，兼任挪威国家研究中心副主任。",
+      "report_id": "2026-09-17",
+      "id": "art_381"
+    },
+    {
+      "title": "What Anthropic’s Antitrust Waiver Says About the Law and Economics of AI",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/17/what-anthropics-antitrust-waiver-says-about-the-law-and-economics-of-ai/",
+      "date": "2026-09-17",
+      "authors": "Marco Mari",
+      "abstract": "In September 2026, Dario Amodei proposed an unusual response to the race to develop frontier artificial intelligence. If competition pushes leading laboratories to move faster than safety allows, Washington should let them coordinate. The Anthropic chief executive wants outside evaluators embedded inside AI companies, common safety standards, and, where necessary, coordinated limits on development. Because some of those discussions could breach antitrust law, he also asks for a narrow waiver.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Anthropic 的反垄断豁免对人工智能的法律和经济学有何影响",
+      "topics": [
+        "antitrust",
+        "tech_data_ai"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月，达里奥·阿莫代 (Dario Amodei) 对前沿人工智能开发竞赛提出了不同寻常的回应。如果竞争促使领先实验室的行动速度超过安全允许的速度，华盛顿应该让他们进行协调。这位 Anthropic 首席执行官希望人工智能公司内部嵌入外部评估人员、共同的安全标准，并在必要时协调对发展的限制。由于其中一些讨论可能违反反垄断法，他还要求狭隘的豁免。",
+      "report_id": "2026-09-17",
+      "id": "art_382"
+    },
+    {
+      "title": "SEC Chair on Plan to Rescind Shareholder Proposal Rule and Modernize Proxy Solicitation",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/17/sec-chair-on-plan-to-rescind-shareholder-proposal-rule-and-modernize-proxy-solicitation/",
+      "date": "2026-09-17",
+      "authors": "Paul S. Atkins",
+      "abstract": "Today [September 16], the Commission issued two proposing releases related to its proxy rules under the Securities Exchange Act of 1934. The proposals reflect two of my highest regulatory priorities. First, ensuring that the Commission does not improperly intrude into state corporate law when applying the federal securities laws. Second, updating the Commission’s rules to reflect developments in market practice and technology, and other innovations, since the rules’ adoption or last amendment.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "SEC 主席讨论废除股东提案规则和现代化委托书征集的计划",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "今天 [9 月 16 日]，委员会发布了两份与 1934 年证券交易法下的代理规则相关的提案发布。这些提案反映了我的两项最高监管优先事项。首先，确保委员会在适用联邦证券法时不会不当侵入州公司法。其次，更新委员会的规则，以反映自规则通过或上次修订以来市场实践和技术以及其他创新的发展。",
+      "report_id": "2026-09-17",
+      "id": "art_383"
+    },
+    {
+      "title": "How Generative AI Could Change the Mutual Fund Industry",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/16/how-generative-ai-could-change-the-mutual-fund-industry/",
+      "date": "2026-09-17",
+      "authors": "Mengqiao Du and Xiumin Martin",
+      "abstract": "The mutual fund industry has become increasingly concentrated. The five largest fund families managed about 35% of industry assets in 2005, compared with 57% in 2024. One explanation is economic efficiency: Successful managers attract more capital, and larger organizations benefit from economies of scale. Another possibility is that large fund families enjoy an advantage because they are easier for investors to find and evaluate. Brand recognition, advertising, established distribution networks, and prominence in online searches can make investors more likely to consider well-known families.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "生成式人工智能如何改变共同基金行业",
+      "topics": [
+        "tech_data_ai",
+        "financial_regulation"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "共同基金行业日趋集中。2005 年，五个最大的基金家族管理着约 35% 的行业资产，而 2024 年这一比例为 57%。一种解释是经济效率：成功的管理者吸引更多资本，而较大的组织则从规模经济中受益。另一种可能性是，大型基金家族享有优势，因为投资者更容易发现和评估它们。品牌知名度、广告、成熟的分销网络以及在线搜索中的突出地位可以使投资者更有可能考虑知名家族。",
+      "report_id": "2026-09-17",
+      "id": "art_384"
+    },
+    {
+      "title": "Skadden Discusses Delaware Chancery Decision Not to Apply Section 144 Safe Harbors",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/16/skadden-discusses-delaware-chancery-decision-not-to-apply-section-144-safe-harbors/",
+      "date": "2026-09-17",
+      "authors": "Arthur R. Bookout, Joseph O. Larkin and Edward B. Micheletti",
+      "abstract": "The Delaware Court of Chancery issued the first opinion analyzing the DGCL Section 144 safe harbors in the context of a challenged merger transaction involving a conflicted director/officer, holding the safe harbors were unavailable at the pleading stage but dismissing most defendants under common law protections.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "世达讨论特拉华州衡平法院不适用第 144 条安全港的决定",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "特拉华州衡平法院在涉及冲突董事/高级管理人员的受质疑合并交易的背景下发布了第一份分析 DGCL 第 144 条安全港的意见，认为安全港在诉状阶段不可用，但在普通法保护下驳回了大多数被告。",
+      "report_id": "2026-09-17",
+      "id": "art_385"
+    },
+    {
+      "title": "Why SPACs Need a Deadline",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/15/why-spacs-need-a-deadline/",
+      "date": "2026-09-17",
+      "authors": "Andrew A. Schwartz",
+      "abstract": "SPACs are public companies designed to die. Ordinary corporations, like Coca-Cola, enjoy perpetual existence under the law. Special-purpose acquisition companies, by contrast, are organized with a termination date from the outset—usually two years, and never more than three under stock exchange rules.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "为什么SPAC需要最后期限",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "SPAC是注定要消亡的上市公司。Ordinary corporations, like Coca-Cola, enjoy perpetual existence under the law.相比之下，特殊目的收购公司从一开始就设有终止日期——通常为两年，根据证券交易所规则，绝不会超过三年。",
+      "report_id": "2026-09-17",
+      "id": "art_386"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "Inside Treasury's Push to Reset Bank Regulation",
+      "title_cn": "财政部推动重置银行监管的内幕",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-09-15",
+      "abstract": "Former Treasury undersecretary Jonathan McKernan explains why the department took a more active role coordinating bank regulation and what officials hoped to accomplish with a broader regulatory reset. He also discusses lessons from the 2023 bank failures, changes to capital, liquidity and AML rules, and how AI could reshape deposit competition and the banking system itself.",
+      "abstract_cn": "前财政部副部长乔纳森·麦克南 (Jonathan McKernan) 解释了为什么财政部在协调银行监管方面发挥了更积极的作用，以及官员们希望通过更广泛的监管重置来实现什么目标。他还讨论了 2023 年银行倒闭的教训、资本、流动性和反洗钱规则的变化，以及人工智能如何重塑存款竞争和银行体系本身。",
+      "keywords": [
+        "Banking Policy; Financial Regulation; Bank Supervision"
+      ],
+      "keywords_cn": [
+        "银行政策；金融监管；银行监管"
+      ],
+      "topics": [
+        "financial_regulation",
+        "antitrust"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/inside-treasurys-push-to-reset-bank-regulation",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "report_id": "2026-09-17",
+      "id": "art_387"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Distributional consequences of borrower-based macroprudential tools",
+      "title_cn": "基于借款人的宏观审慎工具的分配后果",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-09-17",
+      "abstract": "Jagdish Tripathy, Arzu Uluc, José-Luis Peydró and Francesc Rodriguez-Tous Borrower-based macroprudential measures – such as limits on loan to income (LTI) and loan to value (LTV) ratios – have become a standard feature of the post-crisis regulatory landscape. A growing body of country-specific evidence suggests these measures are effective in moderating the self-reinforcing loop between … Continue reading Distributional consequences of borrower-based macroprudential tools →",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/09/17/distributional-consequences-of-borrower-based-macroprudential-tools/",
+      "type": "article",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "Jagdish Tripathy、Arzu Uluc、José-Luis Peydró 和 Francesc Rodriguez-Tous 基于借款人的宏观审慎措施 — — 例如贷款与收入 (LTI) 和贷款与价值 (LTV) 比率的限制 — — 已成为危机后监管环境的标准特征。越来越多的针对特定国家的证据表明，这些措施可以有效缓解……之间的自我强化循环。继续阅读基于借款人的宏观审慎工具的分配后果 →",
+      "report_id": "2026-09-17",
+      "id": "art_388"
     }
   ],
   "monthly_reports": [
@@ -11191,7 +12065,8 @@
         "2026-09-05",
         "2026-09-07",
         "2026-09-09",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-17"
       ],
       "summary": "",
       "trends": []
