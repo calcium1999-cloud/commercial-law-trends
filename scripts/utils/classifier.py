@@ -96,7 +96,7 @@ def classify(title, abstract, keywords):
             # words; substring matching creates false positives in ordinary
             # words such as "sustainability" and "section".
             if (re.search(rf"\b{re.escape(kw)}\b", text)
-                    if len(kw) <= 3 and kw.isascii() else kw in text):
+                    if len(kw) <= 4 and kw.isascii() else kw in text):
                 score += 1
         if score > 0:
             scores[topic] = score
