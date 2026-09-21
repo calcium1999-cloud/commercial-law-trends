@@ -11,7 +11,25 @@ from urllib.parse import urljoin
 SCRIPTS_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(SCRIPTS_DIR))
 
-from scrapers.base import BaseScraper, parse_date, fetch_url
+from scrapers.base import BaseScraper, UA, parse_date, fetch_url
+
+
+def fetch_ecb_url(url):
+    """Fetch ECB pages with certifi when the system curl CA chain is stale."""
+    try:
+        import certifi
+        import requests
+
+        response = requests.get(
+            url,
+            headers={"User-Agent": UA},
+            timeout=30,
+            verify=certifi.where(),
+        )
+        response.raise_for_status()
+        return response.text
+    except Exception:
+        return fetch_url(url)
 
 
 class ECBSupervisionScraper(BaseScraper):
@@ -23,7 +41,7 @@ class ECBSupervisionScraper(BaseScraper):
     def scrape(self, since_date):
         """从博客列表页抓取。"""
         try:
-            html = fetch_url(self.list_url)
+            html = fetch_ecb_url(self.list_url)
             if not html:
                 return [], "FAILED", "无法获取列表页"
 
@@ -108,7 +126,7 @@ class ECBSupervisionScraper(BaseScraper):
 
     def fetch_detail(self, url):
         """Fetch article detail page for abstract and authors."""
-        html = fetch_url(url)
+        html = fetch_ecb_url(url)
         if not html:
             return {}
 
