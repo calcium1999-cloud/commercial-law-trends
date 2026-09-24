@@ -1,10 +1,10 @@
 {
   "last_successful_run": "2026-09-21T11:46:47",
-  "last_run_started": "2026-09-21T11:46:47",
-  "last_run_finished": "2026-09-21T11:47:48",
-  "last_report_id": "2026-09-21",
-  "last_new_articles": 0,
-  "last_duplicate_urls": 16,
+  "last_run_started": "2026-09-24T12:57:26",
+  "last_run_finished": "2026-09-24T13:08:50",
+  "last_report_id": "2026-09-24",
+  "last_new_articles": 29,
+  "last_duplicate_urls": 19,
   "source_status": {
     "ecgi": "SUCCESS",
     "harvard": "SUCCESS",

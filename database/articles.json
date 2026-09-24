@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-09-21",
+    "last_updated": "2026-09-24",
     "version": "1.0"
   },
   "sources": [
@@ -823,6 +823,53 @@
         "art_403",
         "art_404",
         "art_405"
+      ]
+    },
+    {
+      "id": "2026-09-24",
+      "date": "2026-09-24",
+      "period_start": "2026-09-22",
+      "period_end": "2026-09-24",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增29篇文章。",
+      "trends": [
+        "本周十一大来源共新增29篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、BWI、NY Fed，主题分布以金融监管（10篇）、公司治理（9篇）、其他（6篇）为主。",
+        "公司治理领域新增14篇，来自Harvard、ECGI、CLS、OBLB、ProMarket。本期重点议题包括共同基金家族的去中心化投票；综合 I 指令和欧盟可持续金融三难困境：可持续性、简化和协调；自由签约环境中的股东授权和所有权结构等。",
+        "金融监管领域新增12篇，来自Harvard、NY Fed、ECGI、CLS、OBLB、ProMarket、BWI。本期重点议题包括共同基金家族的去中心化投票；信用评级机构的责任；SEC 提议废除第 14a-8 条规则等。",
+        "反垄断领域新增6篇，来自Harvard、NY Fed、ECGI、CLS、BWI。本期重点议题包括信用评级机构的责任；CEO决策：PE投资者如何选择和重新评估从进入到退出的领导者；CVR 的突破之年：2025 年和 2026 年上半年生命科学上市并购趋势等。",
+        "科技、数据与AI领域新增3篇，来自ProMarket、OBLB。本期重点议题包括数字资产作为“第三件事”：Yuen v Li 未解决的问题；财富可以买到权力，但美国人关注的是错误的富人；Call for Papers for 2027 Stigler Center Conference。",
+        "其他领域新增6篇，来自ProMarket、OBLB、CLS。本期重点议题包括猜测真的不是判断吗？对 Eidenmüller 和 Hochgürtel 的答复；猜测真的不是判断吗？反驳；Media Capture Doesn’t Need the Newsroom等。"
+      ],
+      "article_ids": [
+        "art_406",
+        "art_407",
+        "art_408",
+        "art_409",
+        "art_410",
+        "art_411",
+        "art_412",
+        "art_413",
+        "art_414",
+        "art_415",
+        "art_416",
+        "art_417",
+        "art_418",
+        "art_419",
+        "art_420",
+        "art_421",
+        "art_422",
+        "art_423",
+        "art_424",
+        "art_425",
+        "art_426",
+        "art_427",
+        "art_428",
+        "art_429",
+        "art_430",
+        "art_431",
+        "art_432",
+        "art_433",
+        "art_434"
       ]
     }
   ],
@@ -12554,6 +12601,685 @@
       "abstract_cn": "请求中止执行可能看起来与根据案情受到质疑的措施相去甚远。First Majestic Silver 诉墨西哥案表明了为什么这一顺序可能具有欺骗性。根据北美自由贸易协定第 1134 条，仲裁庭可以授予临时保护，但不得下令扣押或“禁止实施”被指控构成违约的措施。真正的问题是法律身份：何时执行是可以受到限制的下游行为，何时限制它只是中止执行的另一种方式。挑战措施本身？这篇文章提出了一个四个阶段的答案：确定所请求的措施，测试客观连续性，询问后来的行为是否发生了实质性转变，并审查所寻求的救济的法律效力。 First Majestic 将诉状放在第一位。仲裁庭的两项临时措施裁决之间的对比非常具有启发性。2023 年 5 月 26 日，仲裁庭建议墨西哥不要阻止欠原告墨西哥子公司 PEM 的增值税退税。第 1134 条并没有阻止这种保护，因为拒绝自由获得未来增值税退税并不是仲裁请求中提出质疑的措施，也不是诉状中讨论的措施。2026 年 1 月 29 日，结果恰恰相反。First Majestic 要求仲裁庭暂停与 2012 年税务重新评估相关的强制付款措施。仲裁庭将该请求的目的与就案情提出的措施进行了比较。这些诉状已经攻击了非法追溯重新评估者。",
       "report_id": "2026-09-21",
       "id": "art_405"
+    },
+    {
+      "title": "Decentralized Voting in Mutual Fund Families",
+      "url": "https://www.ecgi.global/publications/working-papers/decentralized-voting-in-mutual-fund-families",
+      "date": "2026-09-23",
+      "type": "working_paper",
+      "authors": "Roni MichaelyMatthew C. RinggenbergSilvina RubioIrene Yi",
+      "abstract": "We provide the first large-sample evidence that decentralized voting is widespread within mutual fund families. Contrary to the view that families vote as unified blocs, we find that more than one-third of families exhibit evidence of decentralized voting, starting as early as 2006. We measure decentralization using voting disagreement within the family, which is low unconditionally due to the high volume of routine proposals, but rises substantially for controversial proposals, environmental and social issues, and when proxy advisors recommend voting \"against.\" Decentralized voting is more prevalent in families with more active funds and greater stewardship resources, and funds within a family vote more similarly when they share management structures and characteristics. Decentralization has consequences for governance and fund investors. First, it weakens the monitoring effectiveness of institutional investors-a result we corroborate using Vanguard's 2019 adoption of decentralized voting as a quasi-natural experiment. Second, funds that deviate from their family's voting stance charge higher fees without delivering higher returns for clients. Yet, funds that deviate attract higher inflows.",
+      "keywords": [
+        "Voting",
+        "Institutional Investors",
+        "Funds",
+        "Stewardship",
+        "Investment Decisions",
+        "Shareholder Rights",
+        "Shareholders",
+        "Diversity",
+        "ESG",
+        "Regulation",
+        "Securities"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "共同基金家族的去中心化投票",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "我们提供了第一个大样本证据，表明去中心化投票在共同基金家族中广泛存在。与家庭作为统一集团进行投票的观点相反，我们发现早在 2006 年开始，超过三分之一的家庭就表现出去中心化投票的证据。我们使用家庭内部的投票分歧来衡量去中心化程度，由于常规提案数量较多，这种分歧无条件地较低，但对于有争议的提案、环境和社会问题以及代理顾问建议投票“反对”时，该分歧大幅上升。去中心化投票在拥有更活跃的基金和更多管理资源的家族中更为普遍，而当家族内的基金具有相同的管理结构和特征时，投票也更加相似。 去中心化会对治理和基金投资者产生影响。首先，它削弱了机构投资者的监督有效性——我们用先锋集团 2019 年采用去中心化投票作为准自然实验证实了这一结果。其次，偏离家族投票立场的基金收取更高的费用，却没有为客户带来更高的回报。然而，偏离家族投票立场的基金会吸引更多的资金流入。",
+      "keywords_cn": [
+        "表决",
+        "机构投资者",
+        "资金",
+        "管理职责",
+        "投资决策",
+        "股东权利",
+        "股东",
+        "多样性",
+        "环境、社会及治理",
+        "规定",
+        "证券"
+      ],
+      "report_id": "2026-09-24",
+      "id": "art_406"
+    },
+    {
+      "title": "Credit Rating Agencies' Liabilities",
+      "url": "https://www.ecgi.global/publications/working-papers/credit-rating-agencies-liabilities",
+      "date": "2026-09-23",
+      "type": "working_paper",
+      "authors": "Patrick C. Leyens",
+      "abstract": "Credit ratings assess the creditworthiness of an issuer or financial instrument. They help overcome information asymmetries and facilitate the functioning of financial markets. Credit ratings also serve a regulatory function, as they are used, inter alia, to determine the regulatory capital requirements of banks. Credit rating agencies thus act as private gatekeepers in financial markets. The global financial crisis of 2008 revealed serious shortcomings in the credit rating industry and led to a significant tightening of regulation and oversight. This paper focuses on the civil liability of credit rating agencies.",
+      "keywords": [
+        "Creditor Rights",
+        "Debt",
+        "Company Law",
+        "Capital",
+        "Contracts",
+        "Private Equity",
+        "Accounting",
+        "Bankruptcy"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "信用评级机构的责任",
+      "topics": [
+        "financial_regulation",
+        "antitrust"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "信用评级评估发行人或金融工具的信誉。它们有助于克服信息不对称并促进金融市场的运作。信用评级还具有监管功能，因为它们除其他外还用于确定银行的监管资本要求。因此，信用评级机构充当金融市场的私人看门人。2008年的全球金融危机暴露了信用评级行业的严重缺陷，并导致监管大幅收紧。本文主要研究信用评级机构的民事责任。",
+      "keywords_cn": [
+        "债权人权利",
+        "债务",
+        "公司法",
+        "首都",
+        "合约",
+        "私募股权",
+        "会计",
+        "破产"
+      ],
+      "report_id": "2026-09-24",
+      "id": "art_407"
+    },
+    {
+      "title": "The Omnibus I Directive and the EU Sustainable Finance Trilemma: Sustainability, Simplification and Harmonization",
+      "url": "https://www.ecgi.global/publications/working-papers/the-omnibus-i-directive-and-the-eu-sustainable-finance-trilemma",
+      "date": "2026-09-23",
+      "type": "working_paper",
+      "authors": "Giovanni Strampelli",
+      "abstract": "This article examines the balance that Directive (EU) 2026/470 (“Omnibus I Directive”) strikes between sustainability, simplification and harmonization. It analyzes the Directive’s amendments to the Corporate Sustainability Reporting Directive (CSRD) and the Corporate Sustainability Due Diligence Directive (CS3D) against the simplification agenda developed in the Letta and Draghi Reports and in the Commission’s Competitiveness Compass. The article distinguishes genuine simplification of regulatory requirements from the contraction of their scope. Under the CSRD, several amendments reduce unnecessary complexity, but the substantial narrowing of mandatory reporting weakens the availability, comparability and assured quality of the company-level information on which the wider sustainable finance framework depends. The CS3D presents a more mixed picture: the revised due diligence process is more practicable, while higher thresholds, the repeal of the transition-plan obligation, and the removal of uniform civil liability conditions entail a more substantial retrenchment. The Directive also adopts a selective approach to harmonization, strengthening it for the core due diligence obligations while returning other matters to national law. The article traces these choices to a structural constraint: because maximum harmonization requires a degree of precision that itself generates compliance costs, simplification and harmonization have in significant part been reconciled by narrowing ",
+      "keywords": [
+        "ESG",
+        "Stakeholderism",
+        "Regulation",
+        "Company Law",
+        "Private Equity",
+        "Venture capital",
+        "Reform",
+        "Arbitrage",
+        "Shareholder Rights"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "综合 I 指令和欧盟可持续金融三难困境：可持续性、简化和协调",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "本文探讨了指令 (EU) 2026/470（“综合 I 指令”）在可持续性、简化和协调之间取得的平衡。它根据莱塔和德拉吉报告以及委员会竞争力中制定的简化议程，分析了指令对企业可持续发展报告指令 (CSRD) 和企业可持续发展尽职调查指令 (CS3D) 的修订指南针..本文将监管要求的真正简化与其范围的收缩区分开来.. 根据 CSRD，多项修正案减少了不必要的复杂性，但强制性报告的大幅缩小削弱了更广泛的可持续金融框架所依赖的公司级信息的可用性、可比性和保证质量。CS3D 呈现出更加复杂的情况：修订后的尽职调查流程更加切实可行，而更高的门槛、废除过渡计划义务以及取消统一民事责任条件需要更大幅度的缩减。该指令还采取了选择性的方法来协调、加强它履行核心尽职调查义务，同时将其他事项归还给国家法律。 本文将这些选择追溯到结构性约束：因为最大程度的协调需要一定程度的精确性，而这本身就会产生合规成本，因此简化和协调在很大程度上是通过缩小范围来协调的。",
+      "keywords_cn": [
+        "环境、社会及治理",
+        "利益相关者主义",
+        "规定",
+        "公司法",
+        "私募股权",
+        "风险投资",
+        "改革",
+        "套利",
+        "股东权利"
+      ],
+      "report_id": "2026-09-24",
+      "id": "art_408"
+    },
+    {
+      "title": "Shareholder Empowerment and Ownership Structure in a Free-Contracting Environment",
+      "url": "https://www.ecgi.global/publications/working-papers/shareholder-empowerment-and-ownership-structure-in-a-free-contracting",
+      "date": "2026-09-22",
+      "type": "working_paper",
+      "authors": "Mike BurkartSalvatore MigliettaCharlotte Ostergaard",
+      "abstract": "We study how firms choose to allocate control over strategic corporate decisions between shareholders and management in a historical setting where governance design was not mandated by corporate law, but ownership structures were constrained by differences in regional wealth distributions. The general shareholder meeting is the dominant governance body, retaining control over the largest number of strategic decisions. Nevertheless, firms with a predominance of small —and plausibly less informed— shareholders empower managers by delegating control over a larger number of strategic decisions to them. Furthermore, shareholder empowerment is accompanied by statutory provisions that facilitate information acquisition, suggesting that control and information are complements. Our findings highlight that the debate on shareholder empowerment should account for the role of ownership structure and information as key determinants of the allocation of control  between shareholders and management.",
+      "keywords": [
+        "Ownership",
+        "Stewardship",
+        "COVID-19",
+        "Family Firms",
+        "Control",
+        "Foreign Investment",
+        "Political Economy",
+        "Dual Class Shares",
+        "Shareholders",
+        "Activism",
+        "Institutional Investors",
+        "Business Groups",
+        "Reporting"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "自由签约环境中的股东授权和所有权结构",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "We study how firms choose to allocate control over strategic corporate decisions between shareholders and management in a historical setting where governance design was not mandated by corporate law, but ownership structures were constrained by differences in regional wealth distributions.股东大会是主导治理机构，保留对最多数量的战略决策的控制权。Nevertheless, firms with a predominance of small —and plausibly less informed— shareholders empower managers by delegating control over a larger number of strategic decisions to them.Furthermore, shareholder empowerment is accompanied by statutory provisions that facilitate information acquisition, suggesting that control and information are complements.Our findings highlight that the debate on shareholder empowerment should account for the role of ownership structure and information as key determinants of the allocation of control  between shareholders and management.",
+      "keywords_cn": [
+        "所有权",
+        "管理职责",
+        "新冠肺炎",
+        "家族企业",
+        "控制",
+        "外资",
+        "政治经济学",
+        "双重类别股份",
+        "股东",
+        "行动主义",
+        "机构投资者",
+        "商业团体",
+        "报告"
+      ],
+      "report_id": "2026-09-24",
+      "id": "art_409"
+    },
+    {
+      "title": "Political Risk Does Not Live at the Border",
+      "url": "https://www.ecgi.global/publications/blog/political-risk-does-not-live-at-the-border",
+      "date": "2026-09-22",
+      "type": "blog",
+      "abstract": "A review of the lecture“Are we listening? Using conflicts analytics to manage corporate political risk”by Professor Witold Henisz, Vice Dean and Faculty Director of Wharton Impact and Deloitte & Touche Professor of Management,8th September 2026. A solar project in the Moroccan desert had everything in its favour. Morocco is on track to produce more than half its power from renewables, and sits low on the major political risk scores. What those scores did not carry was that solar needs water as well as sun, to clean sand from the panels and cool equipment, and the places with both are where subsistence farming happens. Security  walls cut farmers off from communal land, roads and water. They protested and went to court.The question left with the audience was which story would carry an investment committee: the miracle in the Sahara, or the small, discordant voices of the farmers. The lecture's argument was that political risk does not live at the level of the country. It lives where a firm's operations meet local grievances, and indicators built on national averages cannot see it. This was the fourteenth public lecture in the NBS-PRI-ECGI series, given byWitold Henisz, Deloitte and Touche Professor of Management in Honor of Russell E. Palmer at the Wharton School, University of Pennsylvania. It drew on almost three decades of work on political risk and on the Business and Conflict Barometer, a project of the past five or six years.Jessica Wan, Social Research Lead at Redwheel,",
+      "keywords": [
+        "Risk",
+        "Geopolitics",
+        "Supply Chain",
+        "Responsible Investment",
+        "Stakeholders",
+        "Political Economy",
+        "Investment Decisions",
+        "Institutional Investors",
+        "Carbon emission",
+        "Activism",
+        "Reporting",
+        "ESG",
+        "Shareholders",
+        "Sustainability",
+        "Common Ownership",
+        "Funds",
+        "Voting"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "政治风险不在边境",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "authors": "",
+      "affiliations": "",
+      "abstract_cn": "沃顿影响力学院副院长兼教务主任、德勤管理学教授 Witold Henisz 教授对讲座“我们在听吗？利用冲突分析来管理企业政治风险”的回顾，2026 年 9 月 8 日。摩洛哥沙漠中的一个太阳能项目一切都对它有利。摩洛哥有望通过可再生能源生产一半以上的电力，并且在主要政治风险评分中排名较低。这些分数没有带来的是太阳能需要水和阳光，以清洁面板上的沙子和冷却设备，而拥有这两种资源的地方就是自给农业发生的地方。安全墙将农民与公共土地、道路和水隔绝。 他们抗议并上法庭。留给观众的问题是哪个故事会带来投资委员会：撒哈拉沙漠的奇迹，还是农民微小的、不和谐的声音。讲座的论点是，政治风险并不存在于国家层面。它存在于公司的运营遇到当地不满的地方，而建立在全国平均水平上的指标无法看到它。这是NBS-PRI-ECGI系列中的第十四场公开讲座，由Witold主讲。宾夕法尼亚大学沃顿商学院德勤和图奇管理学教授赫尼兹 (Henisz)，以纪念拉塞尔·帕尔默 (Russell E. Palmer)。 它借鉴了近三十年关于政治风险和商业与冲突晴雨表（过去五六年的一个项目）的工作。Redwheel 社会研究主管 Jessica Wan。",
+      "keywords_cn": [
+        "风险",
+        "地缘政治",
+        "供应链",
+        "责任投资",
+        "利益相关者",
+        "政治经济学",
+        "投资决策",
+        "机构投资者",
+        "碳排放",
+        "行动主义",
+        "报告",
+        "环境、社会及治理",
+        "股东",
+        "可持续发展",
+        "共同所有权",
+        "资金",
+        "表决"
+      ],
+      "report_id": "2026-09-24",
+      "id": "art_410"
+    },
+    {
+      "title": "The CEO Decision: How PE Investors Select and Reassess Leaders from Entry to Exit",
+      "url": "https://corpgov.law.harvard.edu/2026/09/23/the-ceo-decision-how-pe-investors-select-and-reassess-leaders-from-entry-to-exit/?utm_source=rss&utm_medium=rss&utm_campaign=the-ceo-decision-how-pe-investors-select-and-reassess-leaders-from-entry-to-exit",
+      "date": "2026-09-24",
+      "authors": "Emily Taylor, Heather Hammond, and Courtney Byrne, Russell Reynolds Associates",
+      "abstract": "Emily Taylor and Heather Hammond are Consultants, and Courtney Byrne is an Associate at Russell Reynolds Associates. This post is based on their Russell Reynolds memorandum. For much of the past decade, private equity (PE) performance has benefited from favorable market conditions. Cheap financing, easy multiple expansion and relatively short hold periods meant that even subpar execution could produce attractive returns. [1] These conditions peaked in 2021 and early 2022, when abundant capital, intense competition for assets and supportive financing markets drove deal activity and valuations to record levels. Many sponsors moved quickly to acquire companies at elevated entry multiples and underwrote ambitious growth plans.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "CEO决策：PE投资者如何选择和重新评估从进入到退出的领导者",
+      "topics": [
+        "corporate_governance",
+        "antitrust"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Emily Taylor 和 Heather Hammond 是 Russell Reynolds Associates 的顾问，Courtney Byrne 是律师。这篇文章基于他们的 Russell Reynolds 备忘录。在过去十年的大部分时间里，私募股权（PE）的业绩受益于有利的市场条件。廉价的融资、轻松的多重扩张和相对较短的持有期意味着，即使是低于标准的执行也能产生有吸引力的回报。[1] 这些情况在 2021 年和 2022 年初达到顶峰，当时充足的资本、激烈的资产竞争和支持性的融资市场推动交易活动和估值达到创纪录水平。许多赞助商迅速采取行动，以较高的入场倍数收购公司，并承保雄心勃勃的增长计划。",
+      "report_id": "2026-09-24",
+      "id": "art_411"
+    },
+    {
+      "title": "SEC Proposes to Rescind Rule 14a-8",
+      "url": "https://corpgov.law.harvard.edu/2026/09/23/sec-proposes-to-rescind-rule-14a-8/?utm_source=rss&utm_medium=rss&utm_campaign=sec-proposes-to-rescind-rule-14a-8",
+      "date": "2026-09-24",
+      "authors": "Jennifer Zepralka, Ali Perry, and Liz Walsh, Mayer Brown LLP",
+      "abstract": "Jennifer Zepralka is a Partner, and Ali Perry and Liz Walsh are Counsels at Mayer Brown LLP. This post is based on a Mayer Brown memorandum by Ms. Zepralka, Ms. Perry, Ms. Walsh, and Christopher Nickas. In an awaited but not surprising proposing release, on September 16, 2026, the Securities and Exchange Commission (the “SEC” or the “Commission”) proposed rescinding Rule 14a-8 under the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which governs the processes under which a shareholder may include a proposal in a public company’s proxy materials. The SEC also proposed to amend Rule 14a-4(c) to expand the circumstances under which a company may exercise, with respect to proxies it receives, discretionary voting authority on proposals that will be presented at a shareholder meeting but not included in the company’s proxy materials. This proposal (the “Rule 14a-8 Rescission Release”) marks a significant change in the Commission’s view of the federal government’s role in interactions between companies and their shareholders.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "SEC 提议废除第 14a-8 条规则",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "Jennifer Zepralka 是 Mayer Brown LLP 的合伙人，Ali Perry 和 Liz Walsh 是律师。本文基于 Zepralka 女士、Perry 女士、Walsh 女士和 Christopher Nickas 的 Mayer Brown 备忘录。在 2026 年 9 月 16 日期待已久但并不令人意外的提案发布中，美国证券交易委员会（“SEC”或“委员会”）提议废除规则经修订的 1934 年《证券交易法》（“交易法”）第 14a-8 条规定了股东可将提案纳入上市公司代理材料的流程。 SEC 还提议修改第 14a-4(c) 规则，以扩大公司可以就其收到的委托书对将在股东大会上提交但未包含在公司委托书材料中的提案行使酌情投票权的情况。该提案（“第 14a-8 条撤销声明”）标志着委员会对联邦政府在公司与其股东互动中的作用的看法发生重大变化。",
+      "report_id": "2026-09-24",
+      "id": "art_412"
+    },
+    {
+      "title": "Compensation Clawbacks – Surveying the Disclosures to Date",
+      "url": "https://corpgov.law.harvard.edu/2026/09/22/compensation-clawbacks-surveying-the-disclosures-to-date/?utm_source=rss&utm_medium=rss&utm_campaign=compensation-clawbacks-surveying-the-disclosures-to-date",
+      "date": "2026-09-24",
+      "authors": "Mark Borges, Hannah Orowitz, and Brigid Rosati, Compensia",
+      "abstract": "Mark Borges and Hannah Orowitz are Principals and Brigid Rosati is a Senior Consultant at Compensia. This post is based on their Compensia memorandum. As we approach the third anniversary of the date when incentive compensation “received” is subject to clawback, we have taken a closer look at the disclosures companies have made since implementation.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "薪酬追回——调查迄今为止的披露情况",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "Mark Borges 和 Hannah Orowitz 是 Compensia 的负责人，Brigid Rosati 是高级顾问。这篇文章是基于他们的 Compensia 备忘录。随着“收到”的激励薪酬被追回的日期即将到来三周年，我们仔细研究了公司自实施以来所做的披露。",
+      "report_id": "2026-09-24",
+      "id": "art_413"
+    },
+    {
+      "title": "FDA and SEC Open a New Information-Sharing Channel: Implications for Public Life Sciences Companies",
+      "url": "https://corpgov.law.harvard.edu/2026/09/22/fda-and-sec-open-a-new-information-sharing-channel-implications-for-public-life-sciences-companies/?utm_source=rss&utm_medium=rss&utm_campaign=fda-and-sec-open-a-new-information-sharing-channel-implications-for-public-life-sciences-companies",
+      "date": "2026-09-24",
+      "authors": "Paul Rubin, Paul Rodel, and Melissa Runsten, Debevoise & Plimpton LLP",
+      "abstract": "Paul Rubin and Paul Rodel are Parterns, and Melissa Runsten is a Counsel at Debevoise & Plimpton LLP. This post is based on their Debevoise memorandum. The U.S. Food and Drug Administration and Securities and Exchange Commission recently announced a new three-year Memorandum of Understanding (“MOU”) establishing a formal framework for the agencies to exchange nonpublic information concerning FDA-regulated products, activities and companies.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "FDA 和 SEC 开辟新的信息共享渠道：对上市生命科学公司的影响",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "Paul Rubin 和 Paul Rodel 是合伙人，Melissa Runsten 是德普律师事务所的法律顾问。这篇文章基于他们的 Debevoise 备忘录。美国食品药品监督管理局和证券交易委员会最近宣布了一项新的为期三年的谅解备忘录（“MOU”），为各机构交换有关 FDA 监管产品、活动和公司的非公开信息建立了正式框架。",
+      "report_id": "2026-09-24",
+      "id": "art_414"
+    },
+    {
+      "title": "2026 U.S. Compensation Post Season Review: Strong Investor Support Despite Resurgence of One-Time Grants",
+      "url": "https://corpgov.law.harvard.edu/2026/09/21/2026-u-s-compensation-post-season-review-strong-investor-support-despite-resurgence-of-one-time-grants-2/?utm_source=rss&utm_medium=rss&utm_campaign=2026-u-s-compensation-post-season-review-strong-investor-support-despite-resurgence-of-one-time-grants-2",
+      "date": "2026-09-21",
+      "authors": "Subodh Mishra, ISS STOXX",
+      "abstract": "Subodh Mishra is the Global Head of Communications at ISS STOXX. This post is based on an ISS STOXX by Pranav Pradeep, Compensation & Governance Advisor; Tim Sessing, Compensation & Governance Advisor; & Chris Sayo, Data Analytics, at ISS-Corporate. CEO pay continued to climb to record levels in fiscal 2025, with median S&P 500 CEO compensation reaching $17.5 million, while median pay among Russell 3000 companies (excluding the S&P 500) remained relatively stable;",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "2026 年美国薪酬季后回顾：尽管一次性补助卷土重来，投资者仍给予大力支持",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Subodh Mishra 是 ISS STOXX 的全球通讯主管。这篇文章基于薪酬与治理顾问 Pranav Pradeep 的 ISS STOXX；Tim Sessing，薪酬与治理顾问；& Chris Sayo，ISS-Corporate 数据分析员。2025财年，首席执行官薪酬继续攀升至创纪录水平，标准普尔500指数公司首席执行官薪酬中位数达到1750万美元，而罗素3000指数公司（不包括标准普尔500指数）的薪酬中位数保持相对稳定；",
+      "report_id": "2026-09-24",
+      "id": "art_415"
+    },
+    {
+      "title": "A Breakout Year for CVRs: 2025 and First-Half 2026 Trends in Life Sciences Public M&A",
+      "url": "https://corpgov.law.harvard.edu/2026/09/21/a-breakout-year-for-cvrs-2025-and-first-half-2026-trends-in-life-sciences-public-ma/?utm_source=rss&utm_medium=rss&utm_campaign=a-breakout-year-for-cvrs-2025-and-first-half-2026-trends-in-life-sciences-public-ma",
+      "date": "2026-09-24",
+      "authors": "Sally Wagner Partin and Sharon Flanagan, Sidley Austin LLP",
+      "abstract": "Sally Wagner Partin and Sharon R. Flanagan are Partners at Sidley Austin LLP. This post is based on their Sidley Austin memorandum. Three years after our first survey documented the reemergence of contingent value rights (“CVRs”) in public life sciences M&A, 2025 marked their biggest year yet. A record 28 of 59 announced public life sciences transactions (approximately 47%) included a CVR, the highest ever annual count and share. The concentration was even greater in biopharma, where over half of announced public biopharma transactions included a CVR. CVRs also moved upmarket and carried more of the potential deal value. More than a third (approximately 37%) of the $1 billion-plus life sciences CVR deals in our full dataset (going back to 2008) were announced in 2025 and the first half of 2026. Moreover, nearly half of all life sciences CVR deals above $3 billion were announced in 2025 and the first half of 2026, with two additional CVR deals over $3 billion announced since June 30, 2026. In addition, 2025 produced more CVRs with maximum potential payouts exceeding 100% of the upfront consideration than any other year surveyed.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "CVR 的突破之年：2025 年和 2026 年上半年生命科学上市并购趋势",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "Sally Wagner Partin 和 Sharon R.. Flanagan 是盛德国际律师事务所 (Sidley Austin LLP) 的合伙人。这篇文章基于他们的盛德国际备忘录。在我们的第一次调查记录了或有价值权利 (“CVR”) 在公共生命科学并购中重新出现的三年后，2025 年标志着其迄今为止最大的一年。在 59 项公布的公共生命科学交易中，创纪录的 28 项交易（约占 47%）包括CVR，有史以来最高的年度数量和份额。生物制药领域的集中度更高，超过一半的已公布的公开生物制药交易包括 CVR。CVR 也进入了高端市场，并带来了更多的潜在交易价值。 在我们的完整数据集中，超过 10 亿美元的生命科学 CVR 交易（可追溯到 2008 年）中，超过三分之一（约 37%）是在 2025 年和 2026 年上半年宣布的。此外，所有超过 30 亿美元的生命科学 CVR 交易中近一半是在 2025 年和 2026 年上半年宣布的，自 6 月 30 日以来又宣布了两笔超过 30 亿美元的 CVR 交易，2026..此外，2025 年产生的 CVR 的最大潜在支出超过预付款 100%，比任何其他调查年份都要多。",
+      "report_id": "2026-09-24",
+      "id": "art_416"
+    },
+    {
+      "title": "Digital Assets as ‘Third Things’: What Yuen v Li Leaves Unresolved",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/digital-assets-third-things-what-yuen-v-li-leaves-unresolved",
+      "date": "2026-09-24",
+      "type": "blog",
+      "abstract": "Yuen v Li[2026] EWHC 532 (KB)(‘Yuen’) is the first English decision to consider digital assets after the enactment of theProperty (Digital Assets etc) Act 2025. The case is important not because it confirms that digital assets may be property—English courts had already been moving in that direction—but because it shows how little that conclusion resolves. The claimant alleged that his estranged wife had obtained the seed phrase to his Trezor cold wallet and used it to recreate his private key, enabling the transfer of more than 2,300 Bitcoin from his blockchain address. He sought, among other things, damages and proprietary remedies, including claims in conversion and trespass to goods. The 2025 Act permits courts to recognise digital assets as a possible ‘third thing’: neither a thing in possession nor a thing in action. But the Act does not say what rights follow from that classification, against whom those rights operate, or what remedies should be available when they are infringed.Yuenexposes precisely those gaps. The conversion claim was struck out. Cotter J held that the Supreme Court’s decision inOBG v Allan, which rejected conversion of pure intangibles, remained a ‘clear block’ ([66]) to extending conversion to digital assets. This is significant. Some may have assumed that once digital assets were recognised as a new category of property, conversion would naturally follow.Yuenshows that this does not follow. Yet Cotter J also accepted that the common law might devel",
+      "authors": "Author(s):Hui JingAssociate Professor at the Faculty of Law, The University of Hong KongKelvin F.K. LowProfessor of Law, National University of Singapore",
+      "source_id": "oblb",
+      "title_cn": "数字资产作为“第三件事”：Yuen v Li 未解决的问题",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "Yuen v Li[2026] EWHC 532 (KB)(‘Yuen’) 是英国《2025 年财产（数字资产等）法》颁布后第一个考虑数字资产的判决。该案之所以重要，不是因为它确认了数字资产可能是财产——英国法院已经在朝这个方向迈进——而是因为它表明了这一结论的解决效果有多大。原告声称，他分居的妻子已经获得了助记词他的 Trezor 冷钱包并用它重新创建了他的私钥，从而能够从他的区块链地址转移超过 2,300 个比特币。除其他外，他寻求损害赔偿和专有补救措施，包括转换和侵入货物的索赔。 2025 年法案允许法院承认数字资产为可能的“第三物”：既不是占有的东西，也不是诉讼中的东西。但该法案没有说明该分类带来什么权利，这些权利针对谁，或者在受到侵犯时应采取哪些补救措施。Yuene 恰恰暴露了这些差距。转换索赔被驳回。Cotter J 认为，最高法院在 OBG v Allan 案中拒绝转换纯无形资产的裁决仍然存在。将转换范围扩大到数字资产的“明确障碍”（[66]）。这很重要。一些人可能认为，一旦数字资产被认为是一种新的财产类别，转换自然会随之而来。Yuen表明，事实并非如此。 然而科特 J 也承认普通法可能会发展。",
+      "report_id": "2026-09-24",
+      "id": "art_417"
+    },
+    {
+      "title": "What India Can Teach Us About Corporate Governance",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/what-india-can-teach-us-about-corporate-governance",
+      "date": "2026-09-23",
+      "type": "blog",
+      "abstract": "The prevailing law and economics account treats the evolution of corporate law as a series of neutral, efficiency-driven adjustments. Scholars who study the Global South describe something messier. Corporate law in any given country is the product of political and economic tensions among managers, controlling shareholders, institutional investors, employees, and the state. India—the world’s largest democracy and its fifth largest economy—is one of the best places to watch that process unfold, and, increasingly, it is a mirror for the United States. In a newessay, I draw on two strands of my existing scholarship on Indian corporate governance, one oncontrolling stockholder powerand one on the debate overcorporate purpose, to argue that the Indian experience is a cautionary tale. Governance reforms can be co-opted to fuel crony capitalism and deepen inequality when corporate power is unrestrained. Promoter Dominance and the Limits of ‘Good Governance’",
+      "authors": "Author(s):Afra AfsharipourJohn D Ayer Endowed Chair in Business Law & Martin Luther King, Jr Professor of Law at UC Davis School of Law",
+      "source_id": "oblb",
+      "title_cn": "关于公司治理，印度可以教给我们什么",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "流行的法律和经济学观点将公司法的演变视为一系列中立的、效率驱动的调整。研究南半球的学者描述了更为混乱的情况。任何特定国家的公司法都是管理者、控股股东、机构投资者、雇员和国家之间政治和经济紧张关系的产物。印度是世界上最大的民主国家和第五大经济体，是观察这一进程展开的最佳地点之一，而且它越来越成为美国的一面镜子。在一篇新闻文章中，我利用了我对印度公司治理的现有学术研究的两个方面，一个是关于控股股东权力，另一个是关于公司宗旨的争论，认为印度的经验是一个警示故事。当企业权力不受限制时，治理改革可能会助长裙带资本主义并加深不平等。发起人的主导地位和“良好治理”的局限性",
+      "report_id": "2026-09-24",
+      "id": "art_418"
+    },
+    {
+      "title": "Is Guessing Really Not Judging? A Reply to Eidenmüller and Hochgürtel",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/guessing-really-not-judging-reply-eidenmuller-and-hochgurtel",
+      "date": "2026-09-22",
+      "type": "blog",
+      "abstract": "Horst Eidenmüller and Anna-Sophie Hochgürtel have recently writtena post on this blogcritiquing decentralised arbitration protocols. In their post, the co-authors argued that decisions produced by these systems reward participants for predicting what the crowd will decide rather than for reasoning toward the most justified answer, and should therefore not be treated as arbitral awards. We are grateful to the authors for their thoughtful critique. However, their argument rests on a few assumptions, which in what follows we hope to clarify.In this post, we argue that the dichotomies the critique relies on (no focal point versus a focal point, convergence versus deliberation, and guessing versus judging) are better viewed as existing on continua, particularly once the Schelling point is understood as a shared strategy of honest evaluation rather than an obvious verdict. The Focal Point Is a Strategy, Not an Outcome In a well-known passage fromThe Strategy of Conflict(1981), Thomas Schelling argued that strangers would usually choose noon at the information booth in Grand Central Station as the most common meeting point in New York City. Nothing about this choice made it objectively superior to any other; it worked only because everyone expected everyone else to guess it too. This is what game theorists call a focal point.",
+      "authors": "Author(s):Federico AstFounder and CEO, KlerosWilliam GeorgeResearch Lead, KlerosFacundo TrotzAttorney and Legal Researcher, Kleros",
+      "source_id": "oblb",
+      "title_cn": "猜测真的不是判断吗？对 Eidenmüller 和 Hochgürtel 的答复",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "Horst Eidenmüller 和 Anna-Sophie Hochgürtel 最近在这个博客上写了一篇文章，批评去中心化仲裁协议。在他们的文章中，合著者认为，这些系统产生的决策奖励参与者预测人群将做出什么决定，而不是推理出最合理的答案，因此不应被视为仲裁裁决。我们感谢作者深思熟虑的批评。 然而，他们的论点建立在一些假设之上，我们希望在下文中予以澄清。在这篇文章中，我们认为，批评所依赖的二分法（没有焦点与焦点、趋同与审议、猜测与判断）最好被视为存在于连续体中，特别是当谢林点被理解为诚实评估的共同策略而不是明显的结论时。在《冲突策略》（1981）中，托马斯·谢林认为，陌生人通常会选择中午在大中央车站的信息亭作为纽约市最常见的见面点。 这一选择在客观上并没有优于任何其他选择。它之所以有效，只是因为每个人都希望其他人也能猜到。这就是博弈论学家所说的焦点。",
+      "report_id": "2026-09-24",
+      "id": "art_419"
+    },
+    {
+      "title": "Is Guessing Really Not Judging? A Rejoinder",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/guessing-really-not-judging-rejoinder",
+      "date": "2026-09-22",
+      "type": "blog",
+      "abstract": "Theresponse by Ast, George, and Trotzleaves the central point of our argument untouched. Instead, it recasts the issue as a continuum between ‘guessing’ and ‘judging’ and then argues that crowdsourced systems can incorporate elements of ‘honest evaluation’, written justifications, and appeals.But our argument is not that real-world adjudicators are infallible, or that Kleros jurors never think about the merits. It is that the defining incentive structure of the mechanism rewards participants for predicting the collective outcome, whereas adjudication is oriented toward determining the best justified answer through independent judgment, deliberation and reasoned decision-making.Adding elements associated with adjudication does not eliminate this fundamental difference in what the decision-maker is incentivized to do. There is no reliable focal point in the cases that matter The first response is that a Schelling point need not be an obvious answer. According to the authors, the contractual standard, the parties’ ‘dispute policies’, Kleros ‘court policies’, and the evidence provide a shared informational environment that can make honest evaluation the focal strategy.",
+      "authors": "Author(s):Horst EidenmüllerStatutory Professor for Commercial LawAnna-Sophie HochgürtelDPhil Candidate, University of Oxford",
+      "source_id": "oblb",
+      "title_cn": "猜测真的不是判断吗？反驳",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "Ast、George 和 Trotz 的回应没有触及我们论证的中心点。相反，它将问题重新定义为“猜测”和“判断”之间的连续体，然后认为众包系统可以纳入“诚实评估”、书面理由和上诉的元素。但我们的论点并不是说现实世界的裁决者是绝对正确的，或者 Kleros 陪审员从不考虑优点。 机制的定义激励结构奖励参与者预测集体结果，而裁决旨在通过独立判断、审议和理性决策来确定最佳合理答案。添加与裁决相关的元素并不能消除决策者被激励去做的这种根本差异。在重要的情况下没有可靠的焦点。第一个反应是谢林点不一定是一个明显的答案。根据作者的说法，合同标准，当事人的“争议政策”、Kleros“法院政策”和证据提供了一个共享的信息环境，可以使诚实的评估成为焦点策略。",
+      "report_id": "2026-09-24",
+      "id": "art_420"
+    },
+    {
+      "title": "Wealth Buys Power, but Americans Are Focused on the Wrong Wealthy",
+      "url": "https://www.promarket.org/2026/09/23/wealth-buys-power-but-americans-are-focused-on-the-wrong-wealthy/",
+      "date": "2026-09-23",
+      "authors": "Matthew Lucky",
+      "abstract": "Matthew Lucky is the senior assistant director of researchat the Stigler Center at the University of Chicago Booth School of Business. He received his PhD in Political Science from Indiana University and holds master's and bachelor's degrees from Arizona State University. His research focuses on the intersection of democratic theory and science & technology studies. A central point of focus for his scholarship is the incorporation of artificial intelligence into state bureaucracies and the public sphere. Matt’s research has been published inPolitical Theoryand theMarcusean Mind, and he has taught courses in government at Indiana University. Matthew Lucky reviewsThe Everywhere Millionaire: Who Is Really Rich in America and How They Got Thereby Owen Zidar and Eric Zwick, now out at Henry Holt and Co. Princeton University professor Owen Zidar and University of Chicago professor Eric Zwick argue in their upcoming book,The Everywhere Millionaire: Who Is Really Rich in America and How They G",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "财富可以买到权力，但美国人关注的是错误的富人",
+      "topics": [
+        "tech_data_ai",
+        "corporate_governance"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_421"
+    },
+    {
+      "title": "Call for Papers for 2027 Stigler Center Conference: Will AI Kill Markets (and Democracy)?",
+      "url": "https://www.promarket.org/2026/09/22/call-for-papers-for-2027-stigler-center-conference-will-ai-kill-markets-and-democracy/",
+      "date": "2026-09-22",
+      "authors": "ProMarket writers",
+      "abstract": "The Stigler Center is putting out a call for papers for its 2027 annual conference. The theme of this year’s conference will be the impact of artificial intelligence on markets and democracy. Please seeherefor more information. “The best argument in favor of both markets and democracies is that each system can aggregate the knowledge and preferences of millions of people more effectively than any centralized planner. But that argument traditionally assumed that the planner would be human. What if AI systems were the planners, and what if those AIs were owned by only a handful of companies?” This will be the guiding theme of the 2027 Stigler Center conference. The Center is opening the conference to a call for papers. Those whose papers are selected will be invited to present their ideas at the conference, to be held April 15-16. The deadline for submission is December 1, 2026. Please seeherefor more information and to submit papers.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_422"
+    },
+    {
+      "title": "Media Capture Doesn’t Need the Newsroom",
+      "url": "https://www.promarket.org/2026/09/22/media-capture-doesnt-need-the-newsroom/",
+      "date": "2026-09-22",
+      "authors": "Andrey Simonov, Daniil Mikhailov, Ruben Enikolopov and Ruben Durante",
+      "abstract": "Andrey Simonov is a Gary Winnick and Martin Granoff Associate Professor of Business at Columbia Business School, Columbia University. He studies marketing and economics of media products and markets, such as advertising, news, and entertainment. Daniil Mikhailov is a Predoctoral Research Fellow at Stanford GSB. His research interests include Industrial Organization and Political Economy. He holds a B.A. in Economics from Lomonosov Moscow State University. Ruben Enikolopov is an ICREA Research Professor at Universitat Pompeu Fabra (UPF), a Research Professor at Barcelona School of Economics (BSE), and a Researcher at Barcelona Institute for Political Economy and Governance (IPEG). He is also a Research Fellow for the CEPR and CESifo, and a Research Affiliate at the International Growth Centre.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_423"
+    },
+    {
+      "title": "New York’s Congestion Toll Helped Ambulances Move Faster",
+      "url": "https://www.promarket.org/2026/09/21/new-yorks-congestion-toll-helped-ambulances-move-faster/",
+      "date": "2026-09-21",
+      "authors": "Yulia Chikish, Gregory Colman, Dhaval Dave, Brad R. Humphreys, Zachary Santamaria and Zachary Winship",
+      "abstract": "Yulia Chikish is an Assistant Professor of Economics at SUNY Purchase. She holds a PhD in Economics from West Virginia University, and her research focuses on applied microeconomics, sports economics, and urban economics, with work examining labor markets, worker performance and health, sports organizations, and urban policy. Gregory Colman is Professor of Economics at Pace University, and a research economist in the NBER's Economics of Health program. His research examines health insurance reform; health-related behaviors, such as exercise and tobacco use; the labor market and households' time use; and the equity of public policies; and his work been suported by the National Institutes of Health and various private foundations. He is also the adviser to Pace University's nationally-winning Federal Reserve Challenge Team. Dhaval Dave is the Stanton Research Professor in the Department of Economics atBentley University, a research associate in the NBER’s Economics of Health andChildren ",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_424"
+    },
+    {
+      "title": "Guilt and Shame, from Homer to Corporate America",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/24/guilt-and-shame-from-homer-to-corporate-america/",
+      "date": "2026-09-24",
+      "authors": "Sergio Alberto Gramitto Ricci",
+      "abstract": "In the Iliad and the Odyssey, heroes are only what society says they are. What constrains the likes of Achilles and Odysseus, then, is not fear of the gods or some codified prohibitions, but models of honor and the gaze of others.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_425"
+    },
+    {
+      "title": "Weil Discusses How New SEC Staff Guidance May Ease Constraints on Shareholder Engagement for Schedule 13G Filers",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/24/weil-discusses-how-new-sec-staff-guidance-may-ease-constraints-on-shareholder-engagement-for-schedule-13g-filers/",
+      "date": "2026-09-24",
+      "authors": "Howard Dicker and Lyuba Goltser",
+      "abstract": "On September 2, 2026, the staff of the SEC’s Division of Corporation Finance issued three new interpretations addressing when a shareholder reporting beneficial ownership on Schedule 13G may engage with an issuer or with participants in a proxy contest without forfeiting its eligibility to remain on Schedule 13G. The new guidance is a welcome clarification of the staff’s February 2025 interpretations, which had an immediate chilling effect on communications between public companies and their significant institutional shareholders. In this Alert we discuss the new interpretations and provide important takeaways for companies and their 13G institutional investors.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_426"
+    },
+    {
+      "title": "Does Board Gender Diversity Temper Regulatory Enforcement?",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/23/does-board-gender-diversity-temper-regulatory-enforcement/",
+      "date": "2026-09-24",
+      "authors": "Yang Bai, Fred Bereskin, Xiaohu Guo and Miriam Schwartz-Ziv",
+      "abstract": "In a new paper, we examine whether the gender composition of companies’ boards affects the Securities and Exchange Commission’s (SEC’s) decision to investigate those companies and, ultimately, to pursue regulatory enforcement.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_427"
+    },
+    {
+      "title": "Wachtell Lipton Discusses Ten Shareholder Activism Trends for 2027",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/23/wachtell-lipton-discusses-ten-shareholder-activism-trends-for-2027/",
+      "date": "2026-09-24",
+      "authors": "Wachtell, Lipton, Rosen & Katz",
+      "abstract": "Last year, we identified ten trends that we expected to shape shareholder activism in 2026. Those trends included: increasing M&A-focused activism, emboldened occasional activists, less visibility into shareholder views, the normalization of serving as a dissident nominee, and more “withhold” campaigns.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_428"
+    },
+    {
+      "title": "When Are Insider Purchases Credible Signals of Private Information?",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/22/when-are-insider-purchases-credible-signals-of-private-information/",
+      "date": "2026-09-24",
+      "authors": "Todd D. Kravet and Minah Lee",
+      "abstract": "Empirical evidence shows that investors respond to corporate insiders’ open market purchases by increasing the company’s stock price, reflecting that insiders possess private information indicating that the firm is undervalued. Consistent with that evidence, in a new paper we find that the market reaction to insider purchases over a 5-day window starting at the Form 4 filing is significantly positive and approximately 2%. Moreover, prior studies find that when investors have far less information than corporate insiders do, their market reaction to insider purchases is even more positive as it resolves investors’ uncertainty.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_429"
+    },
+    {
+      "title": "Sidley Discusses Delaware Chancery Ruling on Public Benefit Corp. Directors’ Price-Maximization Duty",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/22/sidley-discusses-delaware-chancery-ruling-on-public-benefit-corp-directors-price-maximization-duty/",
+      "date": "2026-09-24",
+      "authors": "Ian M. Ross and Vincent J. Margiotta",
+      "abstract": "In Drakes Landing Associates, L.P. v. Tilden Park Capital Management, L.P. (Del. Ch. July 29, 2026), the Delaware Court of Chancery confronted an issue of first impression: how, if at all, the Revlon enhanced-scrutiny framework applies when the board of a public benefit corporation (“PBC”) navigates a change-of-control transaction.  Revlon directs a board, in a sale-of-control scenario, to obtain the best price reasonably available for stockholders.  However, under Section 365(a) of the Delaware General Corporation Law (“DGCL”), directors of a PBC are statutorily obligated to balance stockholders’ pecuniary interests against the interests of other stakeholders and the corporation’s stated public benefit when conducting corporate business.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_430"
+    },
+    {
+      "title": "Why Contracts Can’t Solve the Tragedy of the Horizon",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/21/why-contracts-cant-solve-the-tragedy-of-the-horizon/",
+      "date": "2026-09-24",
+      "authors": "Christos Cabolis and Karl Schmedders",
+      "abstract": "In 2015, Mark Carney, then Governor of the Bank of England and now Prime Minister of Canada, named a problem that financial markets had begun to confront but had difficulty articulating, “the tragedy of the horizon.” As we and a colleague wrote in 2023, climate risks can unfold over decades, while corporate decisions are often made much sooner. If the results of today’s investments emerge long after today’s decision-makers have moved on, firms may underinvest in projects whose benefits are realized only in the distant future.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_431"
+    },
+    {
+      "title": "White & Case Discusses M&A Regulatory Closing Risk and Superior-Proposal Determination",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/21/white-case-discusses-ma-regulatory-closing-risk-and-superior-proposal-determination/",
+      "date": "2026-09-24",
+      "authors": "Sašo Kraner",
+      "abstract": "In the fourth quarter of 2025, Novo Nordisk A/S (“Novo”) intervened as an interloper in the acquisition of Metsera, Inc. (“Metsera”), a clinical-stage developer of obesity and metabolic therapies that had entered into a merger agreement to be acquired by Pfizer Inc. (“Pfizer”). Novo offered a higher headline price than Pfizer, together with a structure designed to neutralize the greater antitrust risk its offer carried. The structure was less novel than it first appeared. Novo ultimately abandoned the proposal after the staff of the Federal Trade Commission (the “FTC”) signaled that it was inclined to recommend a challenge and Pfizer commenced actions in two courts seeking to block the transaction. Pfizer raised its offer in successive steps until it matched Novo’s final proposal in both amount and composition. Once the headline figures converged, Metsera’s board concluded that Novo’s structure carried unacceptable legal and regulatory risk relative to the deal certainty Pfizer offered.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "",
+      "topics": [
+        "antitrust",
+        "corporate_governance"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_432"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "How New Reciprocal Deposit Rules Help Community Banks Compete",
+      "title_cn": "",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-09-22",
+      "abstract": "Community banks have more room to compete for deposits following a new law that changes how reciprocal deposits are treated. Drew Keith of Texas Security Bank, Matt Nightingale of Katahdin Trust, and Kevin King of Saint Louis Bank discuss how it changes their funding options, why reciprocal deposits proved critical after Silicon Valley Bank failed, and what the change means as competition for deposits heats up.",
+      "abstract_cn": "",
+      "keywords": [
+        "Banking Policy; Financial Regulation; Bank Supervision"
+      ],
+      "keywords_cn": [
+        "Banking Policy; Financial Regulation; Bank Supervision"
+      ],
+      "topics": [
+        "financial_regulation",
+        "antitrust"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/how-new-reciprocal-deposit-rules-help-community-banks-compete",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "report_id": "2026-09-24",
+      "id": "art_433"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Treasury Trading at the Close",
+      "title_cn": "",
+      "authors": "Liberty Street Economics",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-09-22",
+      "abstract": "In past work , we showed that trading in U.S. Treasury securities is becoming increasingly concentrated on the last trading day of each month. In this post, we show that trading is also becoming more concentrated around the designated pricing, or “strike,” times for fixed-income indexes. The concentration is especially pronounced on month-end trading days. We also document a marked shift in trading activity from around 3 p.m. (ET) to around 4 p.m. after a major fixed-income index provider moved its strike time from 3 p.m. to 4 p.m. in January 2021.",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/treasury-trading-at-the-close/",
+      "type": "article",
+      "topics": [
+        "financial_regulation",
+        "antitrust"
+      ],
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "",
+      "report_id": "2026-09-24",
+      "id": "art_434"
     }
   ],
   "monthly_reports": [
@@ -12622,7 +13348,8 @@
         "2026-09-14",
         "2026-09-17",
         "2026-09-18",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-24"
       ],
       "summary": "",
       "trends": []
