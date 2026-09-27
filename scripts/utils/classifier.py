@@ -7,28 +7,28 @@ TOPIC_KEYWORDS = {
         "board of directors", "fiduciary duty", "shareholder", "executive compensation",
         "caremark", "delaware", "say-on-pay", "say on pay", "proxy access",
         "board independence", "shareholder activism", "shareholder proposal",
-        "bylaw", "charter", "esg voting", "director", "proxy season",
+        "bylaw", "charter", "esg voting", "company director", "corporate director", "proxy season",
         "stewardship", "corporate governance",
         "boardroom", "ceo", "independent director", "fiduciary",
         "shareholder vote", "annual meeting", "proxy statement",
-        "institutional investor", "hedge fund", "activist",
+        "shareholder activist",
         "compensation", "equity comp", "stock option",
         "信义义务", "董事会", "股东", "高管薪酬", "公司治理",
         "独立董事", "股东提案", "股东积极主义",
         "takeover", "merger", "acquisition", " Revlon",
         "duty of care", "duty of loyalty", "business judgment",
-        "private equity", "leveraged buyout", "lbo",
+        "leveraged buyout", "lbo",
         "controlling shareholder", "dual class", "sunset provision",
     ],
     "financial_regulation": [
-        "sec", "securities", "disclosure", "registration", "prospectus",
+        "sec", "securities", "registration", "prospectus",
         "10-k", "10-q", "form s-1", "form 8-k", "mutual fund",
         "investment adviser", "broker-dealer", "finra",
         "esg disclosure", "climate disclosure", "basel",
         "capital requirement", "banking", "bank regulation",
         "cftc", "fdic", "occ", "financial regulation",
         "prudential", "solvency", "market integrity",
-        "issuer", "underwriting", "going public", "ipo",
+        "underwriting", "going public", "ipo",
         "derivatives", "securitization", "shadow banking",
         "stress test", "living will", "bank resolution", "resolution planning",
         "crypto", "token", "digital asset",
@@ -71,7 +71,8 @@ TOPIC_KEYWORDS = {
         "cyber", "ransomware", "data security",
         "biometric", "facial recognition",
         "open source", "interoperability",
-        "smart contract", "blockchain", "nft",
+        "smart contract", "blockchain", "nft", "tokenized securities",
+        "automated market maker", "liquidity pool",
         "digital platform", "tech regulation",
     ],
 }
@@ -106,7 +107,15 @@ def classify(title, abstract, keywords):
 
     ranked = sorted(scores.items(), key=lambda x: (-x[1], TOPIC_PRIORITY.index(x[0]) if x[0] in TOPIC_PRIORITY else 99))
 
-    topics = [t for t, _ in ranked[:2]]
+    topics = [ranked[0][0]]
+    if len(ranked) > 1:
+        primary_score = ranked[0][1]
+        secondary_topic, secondary_score = ranked[1]
+        # Avoid a stray bio/keyword mention creating a second topic when the
+        # main subject has much stronger evidence. Balanced 2:1 cases still
+        # retain a useful dual label (for example AI in investor relations).
+        if secondary_score >= 2 or secondary_score * 2 >= primary_score:
+            topics.append(secondary_topic)
     primary = topics[0]
 
     return topics, primary
