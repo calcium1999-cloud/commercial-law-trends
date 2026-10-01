@@ -61,10 +61,15 @@ class OBLBScraper(BaseScraper):
                     text = " ".join(p.get_text(strip=True) for p in paras[:3] if p.get_text(strip=True))
                     if text:
                         detail["abstract"] = text[:1500]
-            author_el = soup.find(class_=lambda x: x and "author" in str(x).lower() if x else False)
-            if author_el:
-                author_text = re.sub(r'^by:\s*', '', author_el.get_text(strip=True), flags=re.I)
-                detail["authors"] = self._clean(author_text)
+            author_box = soup.select_one(".blog-authors")
+            if author_box:
+                author_names = [
+                    self._clean(el.get_text(" ", strip=True))
+                    for el in author_box.select(".person_teaser__title")
+                    if el.get_text(" ", strip=True)
+                ]
+                if author_names:
+                    detail["authors"] = ", ".join(dict.fromkeys(author_names))
             tags = soup.find_all("a", href=re.compile(r"/oblb/tag/|/taxonomy/term/"))
             if tags:
                 detail["keywords"] = list(dict.fromkeys(t.get_text(strip=True) for t in tags if t.get_text(strip=True)))
