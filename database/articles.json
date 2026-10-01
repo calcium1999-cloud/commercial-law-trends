@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-09-27",
+    "last_updated": "2026-10-01",
     "version": "1.0"
   },
   "sources": [
@@ -898,6 +898,55 @@
         "art_444",
         "art_445",
         "art_446"
+      ]
+    },
+    {
+      "id": "2026-10-01",
+      "date": "2026-10-01",
+      "period_start": "2026-09-28",
+      "period_end": "2026-10-01",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增32篇文章。",
+      "trends": [
+        "本期十一大来源共新增32篇文章：Harvard 9篇、CLS 8篇，OBLB、ProMarket与NY Fed各4篇，Jotwell、BWI与BoE各1篇；ECGI、Yale与ECB无新增。按主分类计，金融监管11篇、其他9篇、公司治理8篇、科技、数据与AI 3篇、反垄断1篇，研究重心明显落在资本市场规则重塑与公司权力配置的交叉地带。",
+        "公司治理研究呈现由内部决策机制向外部制度约束延伸的趋势。特拉华并购协议与或有对价案件强调契约条款和程序保障，日本公司治理准则修订及美国董事会指数关注董事会结构与长期价值，而政治支出、股东提案和委托书征集规则则显示，公司治理正在被监管合法性、公共责任与股东参与方式共同重塑。",
+        "金融监管议题的共同主线是重新划定市场准入、透明度与风险隔离的边界。散户进入私募市场、英国卖空披露、印度衍生品保证金隔离、代币化股票交易框架和投资顾问政治献金规则，分别回应创新与保护之间的张力；巴塞尔产出下限研究进一步表明，审慎规则会通过资本计量直接改变银行信贷配置。",
+        "科技与竞争法研究更强调可执行的制度接口。意大利以刑事责任约束高风险AI安全措施，加州拟对法律职业使用生成式AI设置核验与保密义务；数据许可研究尝试把FRAND原则移植到数据市场，并购审查研究则主张把不确定性显性纳入决策标准，反映数字经济治理正从抽象原则转向责任、许可和证据规则。",
+        "纽约联储关于回购市场的三篇系列研究把参与者结构、结算机制与货币政策执行连接起来；地缘经济风险、自然资产损失、离岸财富透明度和可持续报告研究，则将公司与金融法置于宏观财政、国际资本流动和气候风险框架中。本期材料整体显示，微观制度设计正在成为理解系统性风险和政策传导的关键入口。"
+      ],
+      "article_ids": [
+        "art_447",
+        "art_448",
+        "art_449",
+        "art_450",
+        "art_451",
+        "art_452",
+        "art_453",
+        "art_454",
+        "art_455",
+        "art_456",
+        "art_457",
+        "art_458",
+        "art_459",
+        "art_460",
+        "art_461",
+        "art_462",
+        "art_463",
+        "art_464",
+        "art_465",
+        "art_466",
+        "art_467",
+        "art_468",
+        "art_469",
+        "art_470",
+        "art_471",
+        "art_472",
+        "art_473",
+        "art_474",
+        "art_475",
+        "art_476",
+        "art_477",
+        "art_478"
       ]
     }
   ],
@@ -13559,6 +13608,613 @@
       "abstract_cn": "本文提出一种评估英国房地产市场风险的新模型。与只预测平均房价增长的传统方法不同，该模型估计房价变化的完整结果分布，使政策制定者能够识别房价大幅下跌等尾部风险，并据此改进房地产市场的宏观审慎监测。",
       "report_id": "2026-09-27",
       "id": "art_446"
+    },
+    {
+      "title": "Statement by Chairman Atkins on Expanding Retail Access to Private Markets",
+      "url": "https://corpgov.law.harvard.edu/2026/10/01/statement-by-chairman-atkins-on-expanding-retail-access-to-private-markets/?utm_source=rss&utm_medium=rss&utm_campaign=statement-by-chairman-atkins-on-expanding-retail-access-to-private-markets",
+      "date": "2026-10-01",
+      "authors": "Paul Atkins, U.S. Securities and Exchange Commission",
+      "abstract": "Paul S. Atkins is the Chairman of the U.S. Securities and Exchange Commission. This post is based on his recent statement. The views expressed in the post are those of Chairman Atkins and do not necessarily reflect those of the Securities and Exchange Commission or its staff. Good morning, ladies and gentlemen. And thank you for joining us today for this public  meeting of the Securities and Exchange Commission under the Government in the Sunshine Act.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "阿特金斯主席就扩大散户投资者进入私募市场发表声明",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "保罗·阿特金斯 (Paul S. Atkins) 是美国证券交易委员会主席。这篇文章是基于他最近的声明。帖子中表达的观点是阿特金斯主席的观点，并不一定反映美国证券交易委员会或其工作人员的观点。早上好，女士们先生们。感谢您今天参加我们根据《政府阳光法案》召开的证券交易委员会公开会议。",
+      "report_id": "2026-10-01",
+      "id": "art_447"
+    },
+    {
+      "title": "Merger Agreements in the Verisk Ruling",
+      "url": "https://corpgov.law.harvard.edu/2026/10/01/merger-agreements-in-the-verisk-ruling/?utm_source=rss&utm_medium=rss&utm_campaign=merger-agreements-in-the-verisk-ruling",
+      "date": "2026-10-01",
+      "authors": "Polina Demina, Rishab Kumar, and Miguel Vega, Cooley LLP",
+      "abstract": "Polina Demina is a Special Counsel, and Rishab Kumar and Miguel Vega are Partners at Cooley LLP. This post is based on their Cooley memorandum and is part of the Delaware law series; links to other posts in the series are available here. The Delaware Court of Chancery’s recent decision in Verisk Analytics, Inc. v. ExactLogix, Inc. d/b/a AccuLynx.com sheds light on how the Delaware courts will interpret contractual language, balance equities and grant specific performance. The outcome of this case should move the specific performance provision out of the merger agreement’s “boilerplate” section and into the boardroom.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "Verisk 裁决中的合并协议",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Polina Demina 是特别顾问，Rishab Kumar 和 Miguel Vega 是 Cooley LLP 的合伙人。这篇文章基于他们的库利备忘录，是特拉华州法律系列的一部分；此处提供了该系列其他帖子的链接。特拉华州衡平法院最近在 Verisk Analytics, Inc. 诉 ExactLogix, Inc. d/b/a AccuLynx.com 案中做出的裁决揭示了特拉华州法院将如何解释合同语言、平衡权益和授予具体履约。本案的结果应将具体绩效条款从合并协议的“样板”部分移至董事会。",
+      "report_id": "2026-10-01",
+      "id": "art_448"
+    },
+    {
+      "title": "2026 U.S. Board Index Highlights",
+      "url": "https://corpgov.law.harvard.edu/2026/09/30/2026-u-s-board-index-highlights/?utm_source=rss&utm_medium=rss&utm_campaign=2026-u-s-board-index-highlights",
+      "date": "2026-09-30",
+      "authors": "George Anderson, Rebecca Thornton, and Ann Yerger, Spencer Stuart",
+      "abstract": "George Anderson and Rebecca Thornton are both Partners and Co-Leaders of the Board practice at Spencer Stuart. This post is based on a Spencer Stuart memorandum by Mr. Anderson, Ms. Thornton, and Ann Yerger, all at Spencer Stuart. S&P 500 boards appointed 364 new independent directors in 2026, out of a total of 5,204 — the lowest number of new directors since 2016. Overall turnover remains low, declining from 0.8 new directors per board last year to 0.7 in 2026.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "2026年美国董事会指数要点",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "乔治·安德森 (George Anderson) 和丽贝卡·桑顿 (Rebecca Thornton) 都是史宾沙 (Spencer Stuart) 董事会业务的合伙人和联合领导者。本文基于 Spencer Stuart 的 Anderson 先生、Thornton 女士和 Ann Yerger（均来自 Spencer Stuart）的备忘录。标准普尔 500 指数董事会在 2026 年任命了 364 名新独立董事，总数为 5,204 名，这是自 2016 年以来新董事人数最少的一次。整体人员流动率仍然较低，从去年每个董事会的 0.8 名新董事下降到 2026 年的 0.7 名。",
+      "report_id": "2026-10-01",
+      "id": "art_449"
+    },
+    {
+      "title": "Court of Chancery Enforces Earnout Procedural Protections",
+      "url": "https://corpgov.law.harvard.edu/2026/09/30/court-of-chancery-enforces-earnout-procedural-protections/?utm_source=rss&utm_medium=rss&utm_campaign=court-of-chancery-enforces-earnout-procedural-protections",
+      "date": "2026-10-01",
+      "authors": "David A. Katz, Kevin S. Schwartz and Jenna E. Levine, Wachtell Lipton Rosen & Katz",
+      "abstract": "David A. Katz, Kevin S. Schwartz, and Jenna E. Levine are Partners at Wachtell Lipton Rosen & Katz. This post is based on a Wachtell Lipton memorandum by Mr. Katz, Mr. Schwartz, Ms. Levine, and Zachary David, all at Wachtell Lipton. The Delaware Court of Chancery recently ordered a buyer to provide information necessary for sellers to participate in a negotiated earnout process, while rejecting the buyer’s effort to impose unwritten limits on earnout credit. Winton v. The North Highland Co. LLC, C.A. No. 2026-0138-LWW (Del. Ch. Sept. 18, 2026). The decision illustrates how the implied covenant of good faith and fair dealing, though narrowly and carefully applied under Delaware law, can preserve a negotiated earnout procedure without expanding the parties’ substantive written bargain.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "特拉华衡平法院执行或有对价程序性保障",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "David A. Katz、Kevin S. Schwartz 和 Jenna E. Levine 是 Wachtell Lipton Rosen & Katz 的合伙人。本文基于 Wachtell Lipton 的 Katz 先生、Schwartz 先生、Levine 女士和 Zachary David 撰写的 Wachtell Lipton 备忘录。特拉华州衡平法院最近命令买方提供卖方参与协商的酬金流程所需的信息，同时拒绝买方对酬金信用施加不成文限制的努力。Winton 诉 The North Highland Co. LLC, C.A.编号 2026-0138-LWW（删除章节，2026 年 9 月 18 日）。该判决说明，尽管根据特拉华州法律严格而谨慎地适用了善意和公平交易的默示契约，但它可以在不扩大双方实质性书面谈判的情况下保留协商的报酬程序。",
+      "report_id": "2026-10-01",
+      "id": "art_450"
+    },
+    {
+      "title": "The 2026 Revision of Japan’s Corporate Governance Code: Toward Sustainable Growth and Medium to Long-Term Corporate Value Enhancement",
+      "url": "https://corpgov.law.harvard.edu/2026/09/29/the-2026-revision-of-japans-corporate-governance-code-toward-sustainable-growth-and-medium-to-long-term-corporate-value-enhancement/?utm_source=rss&utm_medium=rss&utm_campaign=the-2026-revision-of-japans-corporate-governance-code-toward-sustainable-growth-and-medium-to-long-term-corporate-value-enhancement",
+      "date": "2026-10-01",
+      "authors": "Haruyuki Yamashita, Tokyo Stock Exchange New York Office",
+      "keywords": [
+        "Board of Directors",
+        "Corporate governance",
+        "Japan",
+        "Tokyo Stock Exchange"
+      ],
+      "abstract": "Haruyuki Yamashita is the Head of Policy Engagement at the Tokyo Stock Exchange New York Office. Corporate governance codes have been adopted in jurisdictions around the world as frameworks that systematically set out governance disciplines for companies. The United Kingdom, which is generally regarded as having one of the longest histories in this area, developed its framework against the backdrop of a series of financial and corporate scandals in the late 1980s and early 1990s. The 1992 Cadbury Report, which made recommendations concerning the effectiveness and reporting responsibilities of boards and the role of external auditors, marked an important starting point. In 1998, the Financial Reporting Council (FRC) issued the Combined Code as a statement of best practices in corporate governance. The OECD Principles of Corporate Governance followed in 1999 and have since served as practical guidance for policymakers in both OECD member and non-member jurisdictions.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "日本公司治理准则2026年修订：实现可持续增长和中长期企业价值提升",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Haruyuki Yamashita 是东京证券交易所纽约办事处的政策参与主管。公司治理准则已被世界各地的司法管辖区采用，作为系统地制定公司治理纪律的框架。英国被普遍认为是该领域历史最悠久的国家之一，其框架是在 20 世纪 80 年代末和 90 年代初一系列金融和企业丑闻的背景下制定的。1992 年吉百利报告就董事会的有效性和报告责任以及外部审计师的作用提出了建议，这标志着一个重要的起点。1998 年，财务报告委员会 (FRC) 发布了综合准则，作为公司治理最佳实践的声明。经济合作与发展组织 (OECD) 公司治理原则于 1999 年颁布，此后一直为经济合作与发展组织 (OECD) 成员国和非成员国的政策制定者提供实践指导。",
+      "keywords_cn": [
+        "董事会",
+        "公司治理",
+        "日本",
+        "东京证券交易所"
+      ],
+      "report_id": "2026-10-01",
+      "id": "art_451"
+    },
+    {
+      "title": "M&A, Activism and Corporate Governance",
+      "url": "https://corpgov.law.harvard.edu/2026/09/29/ma-activism-and-corporate-governance-3/?utm_source=rss&utm_medium=rss&utm_campaign=ma-activism-and-corporate-governance-3",
+      "date": "2026-10-01",
+      "authors": "Matthew L. Ploszek, Adam M. Sanchez, Cravath, Swaine & Moore LLP",
+      "abstract": "Matthew L. Ploszek and Adam M. Sanchez are Partners at Cravath, Swaine & Moore LLP. This post is based on a Cravath memorandum by Mr. Ploszek, Mr. Sanchez, Kimberley S. Drexler, Evan A. Hill, and Margaret T. Segall. Why Divisive Mergers Are Gaining Popularity and How They Can Be Structured to Mitigate Risk",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "并购、激进主义和公司治理",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Matthew L. Ploszek 和 Adam M. Sanchez 是 Cravath, Swaine & Moore LLP 的合伙人。本文基于 Ploszek 先生、Sanchez 先生、Kimberley S. Drexler、Evan A. Hill 和 Margaret T. Segall 的 Cravath 备忘录。为什么分拆式合并越来越受欢迎以及如何构建它们以降低风险",
+      "report_id": "2026-10-01",
+      "id": "art_452"
+    },
+    {
+      "title": "Primer on Corporate Political Activity: The Risks Companies Face from Political Spending, and How to Manage Them",
+      "url": "https://corpgov.law.harvard.edu/2026/09/28/primer-on-corporate-political-activity-the-risks-companies-face-from-political-spending-and-how-to-manage-them/?utm_source=rss&utm_medium=rss&utm_campaign=primer-on-corporate-political-activity-the-risks-companies-face-from-political-spending-and-how-to-manage-them",
+      "date": "2026-10-01",
+      "authors": "Bruce F. Freed (Center for Political Accountability), and William S. Laufer (The Wharton School)",
+      "abstract": "Bruce F. Freed is president of the Center for Political Accountability; and William S. Laufer is the Julian Aresty Endowed Professor and Director of the Carol at The Wharton School at the University of Pennsylvania. This post is based on their recent memorandum. The primer was jointly produced by the Center for Political Accountability, an NGO leading the effort to bring transparency and accountability to corporate political spending, and The Impact, Value, and Sustainable Business Initiative at the Wharton School of the University of Pennsylvania (Wharton Impact).",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "企业政治活动入门：企业面临的政治支出风险以及如何管理这些风险",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "布鲁斯·F·弗里德 (Bruce F. Freed) 是政治问责中心主席；William S. Laufer 是宾夕法尼亚大学沃顿商学院朱利安·阿瑞斯蒂捐赠教授兼卡罗尔中心主任。这篇文章是基于他们最近的备忘录。该入门读物由政治问责中心（一个致力于为企业政治支出带来透明度和问责制的非政府组织）和宾夕法尼亚大学沃顿商学院的影响、价值和可持续商业计划（沃顿影响力）联合制作。",
+      "report_id": "2026-10-01",
+      "id": "art_453"
+    },
+    {
+      "title": "SEC Proposes to Modernize Proxy Solicitation Rules",
+      "url": "https://corpgov.law.harvard.edu/2026/09/28/sec-proposes-to-modernize-proxy-solicitation-rules/?utm_source=rss&utm_medium=rss&utm_campaign=sec-proposes-to-modernize-proxy-solicitation-rules",
+      "date": "2026-10-01",
+      "authors": "Sebastian Alsheimer, J.T. Ho, and Julie Rong, Cleary Gottlieb Steen & Hamilton LLP",
+      "abstract": "Sebastian Alsheimer is a Partner and Head of the Shareholder Engagement and Activism Defense Practice, J.T. Ho is a Partner, and Julie Rong is an Associate at Cleary Gottlieb Steen & Hamilton LLP. This post is based on a Cleary Gottlieb memorandum by Mr. Alsheimer, Mr. Ho, Ms. Rong, Francesca Odell, Lillian Tsu, and Shuangjun Wang, all at Cleary Gottlieb. On September 16, 2026, the SEC proposed a package of amendments intended to modernize the federal proxy solicitation rules. The proposal targets several paper-era or otherwise outdated requirements whose original rationale has largely been displaced by EDGAR, electronic communication and other changes in market practice, and would simplify annual meeting and proxy production and create flexibility in transaction and meeting calendars. As Commissioner Mark Uyeda stated, “Eliminating duplicative or outdated requirements reduces unnecessary compliance costs for issuers and intermediaries.”",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "美国证券交易委员会拟改革委托书征集规则",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "塞巴斯蒂安·阿尔斯海默 (Sebastian Alsheimer) 是 J.T. 合伙人兼股东参与和激进主义辩护实践部主管。Ho 是 Cleary Gottlieb Steen & Hamilton LLP 的合伙人，Julie Rong 是律师。本文基于 Cleary Gottlieb 的 Alsheimer 先生、Ho 先生、Rong 女士、Francesca Odell、Lillian Tsu 和 Shuangjun Wang（均来自 Cleary Gottlieb）的 Cleary Gottlieb 备忘录。2026 年 9 月 16 日，SEC 提出了一系列修正案，旨在使联邦委托书征集规则现代化。该提案针对的是一些纸质时代或其他过时的要求，其最初的基本原理已在很大程度上被 EDGAR、电子通信和市场实践中的其他变化所取代，并将简化年会和代理制作，并在交易和会议日历方面创造灵活性。正如专员 Mark Uyeda 所说，“消除重复或过时的要求可以减少发行人和中介机构不必要的合规成本。”",
+      "report_id": "2026-10-01",
+      "id": "art_454"
+    },
+    {
+      "title": "Staying the Course: The State of 2026 U.S. Sustainability Reports",
+      "url": "https://corpgov.law.harvard.edu/2026/09/27/staying-the-course-the-state-of-2026-u-s-sustainability-reports/?utm_source=rss&utm_medium=rss&utm_campaign=staying-the-course-the-state-of-2026-u-s-sustainability-reports",
+      "date": "2026-10-01",
+      "authors": "Diana Lee and Matt Filosa, Teneo",
+      "abstract": "Diana Lee is a Managing Director and Matt Filosa is a Senior Managing Director at Teneo. This post is based on a Teneo memorandum by Ms. Lee, Mr. Filosa, Rose James, Heidi Park, and Allie Ross, all at Teneo. It has been a year since we published our 2025 State of U.S. Sustainability Reports. The sustainability landscape remains marked by heightened scrutiny and uncertainty, as ongoing political conflicts and evolving global regulation continue to shape the expectations of key stakeholders.",
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "坚守路线：2026年美国可持续发展报告现状",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "Diana Lee 是 Teneo 的董事总经理，Matt Filosa 是高级董事总经理。本文基于 Teneo 的 Lee 女士、Filosa 先生、Rose James、Heidi Park 和 Allie Ross 撰写的 Teneo 备忘录。自我们发布 2025 年美国可持续发展状况报告以来已经一年了。由于持续的政治冲突和不断变化的全球监管继续影响主要利益相关者的期望，可持续发展格局仍然面临着严格的审查和不确定性。",
+      "report_id": "2026-10-01",
+      "id": "art_455"
+    },
+    {
+      "title": "Has India Tilted the Scales Too Far? Rethinking Collateral Rules Through a US-Singapore Lens",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/10/has-india-tilted-scales-too-far-rethinking-collateral-rules-through-us",
+      "date": "2026-10-01",
+      "type": "blog",
+      "abstract": "The Indian Supreme Court’s recent decision inEdelweiss Custodial Services Ltd v NSE Clearing Ltdbrought back the question of whether the current system of depositing collateral for futures and options (‘F&O’) trading is adequate to protect the investor while being operationally conducive to business. F&O are derivative contracts that allow traders to buy or sell an underlying asset at a predetermined price at a future date. The obligations created by these contracts move rapidly. Therefore, to prevent default by investors, stock exchanges across the world have mandated an amount to be submitted before undergoing this transaction (called collateral). Collateral regulation varies across jurisdictions. India has adopted a client-level segregation framework, while the US and Singapore demonstrate two different ways of combining operational flexibility with customer protection. This post compares these approaches to examine whether India can preserve investor protection while allowing greater operational flexibility.",
+      "authors": "Priya Garg, Megha Porwal",
+      "source_id": "oblb",
+      "title_cn": "印度是否矫枉过正？借鉴美国与新加坡经验反思保证金规则",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "印度最高法院最近在 Edelweiss Custodial Services Ltd 诉 NSE Clearing Ltd 案中的判决，带回了这样一个问题：当前为期货和期权交易存入抵押品的制度（“F&O”）是否足以保护投资者，同时在运营上有利于业务。F&O 是衍生品合约，允许交易者在未来日期以预定价格买卖标的资产。这些合约产生的义务迅速变化。因此，为了防止投资者违约，印度各地的证券交易所世界各地都强制要求在进行此交易之前提交一定金额（称为抵押品）。各个司法管辖区的抵押品监管各不相同。 印度采用了客户级隔离框架，而美国和新加坡则展示了将运营灵活性与客户保护相结合的两种不同方法。本文对这些方法进行了比较，以检验印度是否可以在保留投资者保护的同时提供更大的运营灵活性。",
+      "report_id": "2026-10-01",
+      "id": "art_456"
+    },
+    {
+      "title": "Subordination: A Functional and Theoretical Analysis",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/subordination-functional-and-theoretical-analysis",
+      "date": "2026-09-30",
+      "type": "blog",
+      "abstract": "There has been no serious scholarship on subordination since a 1961 Yale Law Journal article which described subordination as then utilized and discussed how it applied in practice.Our recent Articleupdates and, in scope, goes beyond that earlier article, analyzing subordination not only from a functional but also from a theoretical perspective. The inquiry is important because subordinated debt has become universal, representing hundreds of billions of dollars of outstanding financing domestically and trillions worldwide. The Article classifies and compares the four types of subordination—contractual, structural, equitable, and statutory—and examines their rationales and uses. The most widespread type is contractual subordination, which occurs when a party that holds an otherwise senior interest agrees to subordinate that interest to a normally lesser interest. Contractual subordination is a useful tool for creditors and borrowers alike. Contractual subordination allows creditors, for example, to invest according to their risk tolerances. Investors willing to assume more risk may accept a subordinated, or lower, repayment priority in exchange for a higher interest rate. In contrast, risk-averse investors may accept a lower interest rate in exchange for a senior, and thus safer, repayment priority.",
+      "authors": "Steven L. Schwarcz, Isabelle Stewart",
+      "source_id": "oblb",
+      "title_cn": "债权劣后：功能与理论分析",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "自从 1961 年《耶鲁法学杂志》的一篇文章描述了当时的使用情况并讨论了它在实践中的应用方式以来，就没有关于从属问题的严肃学术研究了。我们最近的文章更新了，并且在范围上超越了之前的文章，不仅从功能角度而且从理论角度分析了从属关系。这项调查很重要，因为次级债务已经变得普遍，代表了国内数千亿美元的未偿融资和全球数万亿美元的未偿融资。这篇文章对四种类型的从属债务进行了分类和比较。从属关系——合同性的、结构性的、公平的和法定的——并检查它们的基本原理和用途。 最普遍的类型是合同从属，当持有优先权益的一方同意将该利息从属于通常较低的利息时，就会发生这种情况。合同从属对债权人和借款人来说都是一个有用的工具。例如，合同从属允许债权人根据其风险承受能力进行投资。愿意承担更多风险的投资者可能会接受从属或较低的还款优先权，以换取更高的利率。相反，规避风险的投资者可能会接受较低的还款优先权。利率换取更高级、更安全的还款优先权。",
+      "report_id": "2026-10-01",
+      "id": "art_457"
+    },
+    {
+      "title": "From ‘Who Is Short?’ to ‘How Much Is Short?’: The UK’s Recalibration of Short-Selling Transparency",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/who-short-how-much-short-uks-recalibration-short-selling-transparency",
+      "date": "2026-09-29",
+      "type": "blog",
+      "abstract": "The UK’s new short-selling regime, which came into force on 13 July 2026, marks a significant shift in the way short-selling activity is made visible to the market. As a former EU Member State, the UK was subject to the EU Short Selling Regulation, including its identity-based public disclosure requirements, and retained that framework in domestic law following Brexit until the new UK regime came into force. The reform therefore represents a deliberate move away from the EU model: while the Financial Conduct Authority (‘FCA’) continues to receive individual position reports, public disclosure now takes place only on an aggregated, issuer-level basis. This is not a retreat from transparency, but a recalibration of its form. It reflects a different view of what the market needs to know: not necessarily who is short, but how much short exposure exists. The origins of identity-based disclosure The origins of the identity-based disclosure model lie in the regulatory response to the 2008 global financial crisis. Amid severe market volatility and declining asset prices, several European jurisdictions, including the UK, introduced emergency restrictions on short selling, including temporary bans and enhanced disclosure requirements. The resulting fragmentation prompted efforts to develop a more coordinated approach to short-selling regulation.",
+      "authors": "Mahammad Jafarov",
+      "source_id": "oblb",
+      "title_cn": "从“谁做空？”到“做空多少？”：英国重新调整卖空透明度",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "英国新的卖空制度于 2026 年 7 月 13 日生效，标志着卖空活动向市场公开的方式发生了重大转变。作为前欧盟成员国，英国受到欧盟卖空法规的约束，包括基于身份的公开披露要求，并在英国脱欧后的国内法中保留了该框架，直到英国新制度生效。因此，这项改革代表着对欧盟模式的有意转变：而金融行为监管局（“FCA”）继续收到个人头寸报告，公开披露现在仅在汇总的发行人层面上进行。这并不是透明度的倒退，而是对其形式的重新调整。 它反映了市场需要了解的不同观点：不一定是谁做空，而是存在多少空头敞口。基于身份的披露的起源基于身份的披露模型的起源在于对2008年全球金融危机的监管反应。在市场剧烈波动和资产价格下跌的情况下，包括英国在内的几个欧洲司法管辖区对卖空实行了紧急限制，包括临时禁令和加强披露要求。由此产生的碎片化促使人们努力制定更加协调的卖空监管方法。",
+      "report_id": "2026-10-01",
+      "id": "art_458"
+    },
+    {
+      "title": "Failure to Adopt Safety Measures in Artificial Intelligence Systems and Unlawful Alteration of Systems: Italy’s New Article 437-bis of the Criminal Code",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/09/failure-adopt-safety-measures-artificial-intelligence-systems-and-unlawful",
+      "date": "2026-09-28",
+      "type": "blog",
+      "abstract": "The relationship between artificial intelligence (‘AI’) regulation, business and corporate (criminal) liability has become an increasingly important issue in Europe. Although theEU AI Actestablishes a comprehensive regulatory framework for AI systems, it leaves Member States with considerable discretion as to whether, and how, criminal law should complement its enforcement in relation to certain business activities. Italy’snew implementationwhich will enter into force on 30 September 2026 (for the legislative process seehere,hereandhere) of the AI Act deserves particular attention, as it may mark an important step in the evolution of AI compliance in Europe. This blog post examines Italy’s Article 437-bisof the Criminal Code, which criminalises certain failures to adopt safety measures and, under specific circumstances, to implement human oversight in relation to high-risk AI systems. The provision is one of the first explicit criminal offences in Europe targeting AI governance failures, with significant implications for corporate compliance and business activities. It is therefore a development worth monitoring for all businesses operating in Italy, as well as for other EU Member States that will need to implement the AI Act. Italy’s New Crime: Failure to Adopt Safety Measures in Artificial Intelligence Systems and Unlawful Alteration of Systems",
+      "authors": "Marco Di Donato",
+      "source_id": "oblb",
+      "title_cn": "人工智能系统未采取安全措施和非法更改系统：意大利刑法新第437条之二",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "人工智能（“AI”）监管、商业和企业（刑事）责任之间的关系已成为欧洲日益重要的问题。尽管《欧盟人工智能法案》为人工智能系统建立了全面的监管框架，但它让成员国在刑法是否以及如何补充其与某些商业活动相关的执法方面拥有相当大的自由裁量权。意大利将于 2026 年 9 月 30 日生效的人工智能法案新实施方案（立法程序参见此处、此处和此处）值得特别关注，因为它可能标志着欧洲人工智能合规性发展的重要一步。 这篇博文探讨了意大利《刑法》第 437 条之二，该条款将某些未能采取安全措施的行为定为刑事犯罪，并在特定情况下对高风险人工智能系统实施人为监督。该条款是欧洲首批针对人工智能治理失败的明确刑事犯罪之一，对企业合规和商业活动产生重大影响。因此，对于在意大利运营的所有企业以及需要实施人工智能法案的其他欧盟成员国来说，这是一项值得关注的进展。犯罪：人工智能系统未采取安全措施和非法篡改系统。",
+      "report_id": "2026-10-01",
+      "id": "art_459"
+    },
+    {
+      "title": "Economics Is Opening Up at the Edges, but not at the Top",
+      "url": "https://www.promarket.org/2026/10/01/economics-is-opening-up-at-the-edges-but-not-at-the-top/",
+      "date": "2026-10-01",
+      "authors": "Markus Eberhardt, Giovanni Facchini and Valeria Rueda",
+      "abstract": "Markus Eberhardt is an associate professor in economics at the University ofNottingham. He is also a Research Fellow of the Centre for Economic PolicyResearch (CEPR). His research primarily focuses on topics in international anddevelopment economics. He has published in leading academic journals ineconomics on the economics of technology, productivity, and innovation, and oneconomic growth and development more broadly. Methodologically, he is an appliedeconomist with extensive expertise in panel data. He had a stint as visitingeconomist at the IMF in Washington, D.C. and consulted for the World Bank, UNIDO(Industrial Development Organization of the United Nations), UK DfID, and IDRC(Canada) on a variety of projects. He holds a DPhil from the University of Oxford. Giovanni Facchini is a professor of economics at the University of Nottingham and the director of the Nottingham Centre for Globalization and Economic Policy. He isalso a research fellow of the Centre for Economic Policy Resea",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "经济学正从边缘走向开放，却尚未触及顶层",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "马库斯·埃伯哈特 (Markus Eberhardt) 是诺丁汉大学经济学副教授。他还是经济政策研究中心（CEPR）的研究员。他的研究主要集中在国际和发展经济学主题。他在经济学领域的领先学术期刊上发表了有关技术、生产力和创新的经济学以及更广泛的经济增长和发展的文章。从方法论上来说，他是一位应用经济学家，在面板数据方面拥有丰富的专业知识。他曾在华盛顿特区的国际货币基金组织担任访问经济学家，并为世界银行、联合国工业发展组织、英国国际发展部和加拿大国际研究研究中心的多个项目提供咨询。他拥有牛津大学博士学位。乔瓦尼·法基尼 (Giovanni Facchini) 是诺丁汉大学经济学教授、诺丁汉全球化与经济政策中心主任。经济政策研究中心研究员",
+      "report_id": "2026-10-01",
+      "id": "art_460"
+    },
+    {
+      "title": "Merger Review Needs More Uncertainty",
+      "url": "https://www.promarket.org/2026/09/30/merger-review-needs-more-uncertainty/",
+      "date": "2026-09-30",
+      "authors": "Bart Lahcen",
+      "abstract": "Bart Lahcen is an economist and guest professor at Hasselt University in Belgium, with a PhD from KU Leuven. He works as an evaluation officer at the European Commission’s Joint Research Centre and has previously worked in the private sector, academia, and non-governmental organizations. He is writing a book on the reliability of economic knowledge and what happens to it on the way from research to decision-making, drawing on both research and his experience of seeing the same evidence used differently across those settings. All merger reviews come with uncertainty, but the culture among courts, consultants, and regulators is to pretend that sophisticated modeling can eliminate uncertainty, and thus any uncertainty reflects poor econometric analysis. Creating standards of uncertainty would produce more honest analysis and better competition outcomes, writes Bart Lahcen. For those familiar with antitrust practice, it is somewhat of an open secret that in a contested merger, those who pa",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "并购审查需要正视更多不确定性",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "Bart Lahcen 是比利时哈瑟尔特大学的经济学家和客座教授，拥有鲁汶大学博士学位。他在欧盟委员会联合研究中心担任评估官，此前曾在私营部门、学术界和非政府组织工作。他正在写一本关于经济知识的可靠性以及从研究到决策的过程中会发生什么的书，借鉴了研究和他在这些环境中看到相同证据以不同方式使用的经验。所有合并审查都伴随着不确定性，但法院、顾问和监管机构之间的文化是假装复杂的模型可以消除不确定性，因此任何不确定性都反映了糟糕的计量经济学分析。巴特·拉森（Bart Lahcen）写道，制定不确定性标准将产生更诚实的分析和更好的竞争结果。对于那些熟悉反垄断实践的人来说，在有争议的合并中，那些通过审查的人在某种程度上已经是一个公开的秘密了。",
+      "report_id": "2026-10-01",
+      "id": "art_461"
+    },
+    {
+      "title": "Financial Transparency Reduces the Accumulation of Offshore Fortunes",
+      "url": "https://www.promarket.org/2026/09/29/financial-transparency-reduces-the-accumulation-of-offshore-fortunes/",
+      "date": "2026-09-29",
+      "authors": "Annette Alstadsæter, Niels Johannesen, Ségal Le Guern Herry and Gabriel Zucman",
+      "abstract": "Annette Alstadsæter is professor and director of Skatteforsk–Norwegian Centre of Tax Research as well as program leader at the International Tax Observatory. Niels Johannesen is Professor of Economics and Business at the University of Oxford and Director of the Oxford University Centre for Business Taxation. SégalLe Guern Herry is an Assistant Professor at the Aix-Marseille School of Economics and a Senior Economist at the International Tax Observatory.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "金融透明度抑制离岸财富积累",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "Annette Alstadsæter 是挪威 Skatteforsk 税务研究中心的教授兼主任，也是国际税务观察站的项目负责人。尼尔斯·约翰内森 (Niels Johannesen) 是牛津大学经济学和商学教授，也是牛津大学企业税务中心主任。SégalLe Guern Herry 是艾克斯-马赛经济学院的助理教授和国际税务观察站的高级经济学家。",
+      "report_id": "2026-10-01",
+      "id": "art_462"
+    },
+    {
+      "title": "Transplanting FRAND Principles from SEP to Data Licensing",
+      "url": "https://www.promarket.org/2026/09/28/transplanting-frand-principles-from-sep-to-data-licensing/",
+      "date": "2026-09-28",
+      "authors": "Tingting Song",
+      "abstract": "TingtingSongis a PhD candidate in the Faculty of Law at the University of Hong Kong. Her research interests lie primarily in competition law, particularly competition issues arising in the context of data governance, the interaction between competition law and data protection law, and the theoretical foundations of competition law. She is a member of the Academic Society for Competition Law (ASCOLA) and the Society of Legal Scholars (SLS). In new research, Tingting Song examines how FRAND principles typically used to discipline excessive or discriminatory terms in SEP licensing can be applied to data brokers in data licensing. The legal process of acquiring, maintaining, and renewing the rights to use another entity’s property, also known as the licensing cycle, is essential for promoting innovation. In technology markets, devices often need to work together to ensure consumers can seamlessly use products from multiple companies. In order to achieve this uniformity, standard-setting or",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "将 FRAND 原则从 SEP 移植到数据许可",
+      "topics": [
+        "tech_data_ai",
+        "antitrust"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "宋婷婷是香港大学法学院的博士生。她的研究兴趣主要在于竞争法，特别是数据治理背景下出现的竞争问题、竞争法与数据保护法之间的相互作用以及竞争法的理论基础。她是竞争法学会 (ASCOLA) 和法律学者协会 (SLS) 的成员。在新的研究中，Tingting Song 研究了通常用于约束 SEP 许可中过度或歧视性条款的 FRAND 原则如何应用于数据许可中的数据经纪人。获取、维护和更新使用另一实体财产的权利的法律程序（也称为许可周期）对于促进创新至关重要。在技​​术市场中，设备通常需要协同工作，以确保消费者能够无缝地使用多家公司的产品。为了实现这种统一性，制定标准或",
+      "report_id": "2026-10-01",
+      "id": "art_463"
+    },
+    {
+      "title": "The Federal Corporate Law of Bankruptcy",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/01/the-federal-corporate-law-of-bankruptcy/",
+      "date": "2026-10-01",
+      "authors": "Adam J. Levitin and Stephen J. Lubben",
+      "abstract": "In a recent article, we argue that chapter 11 fundamentally changes the corporate-governance regime applicable to a business, but that courts and practitioners have largely failed to recognize the significance of that change. Although corporate law ordinarily is a matter of state law, the filing of a chapter 11 petition creates a federally defined “bankruptcy estate” and places the debtor’s assets under the control of a debtor in possession (“DIP”). Because the DIP and estate are creations of federal bankruptcy law, we argue that their governance should be governed by a distinct federal corporate law, applicable in bankruptcy, rather than by state corporate law.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "破产中的联邦公司法",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "在最近的一篇文章中，我们认为第 11 章从根本上改变了适用于企业的公司治理制度，但法院和从业者在很大程度上未能认识到这一变化的重要性。尽管公司法通常是州法律的问题，但提交第 11 章请愿书创建了联邦政府定义的“破产财产”，并将债务人的资产置于占有债务人（“DIP”）的控制之下。由于 DIP 和遗产是联邦破产法的产物，我们认为它们的治理应受适用于破产的独特联邦公司法管辖，而不是受州公司法管辖。",
+      "report_id": "2026-10-01",
+      "id": "art_464"
+    },
+    {
+      "title": "Covington Discusses SEC’s “Innovation Exemption” for Tokenized Stock",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/01/covington-discusses-secs-innovation-exemption-for-tokenized-stock/",
+      "date": "2026-10-01",
+      "authors": "David Fredrickson, Matthew Franker, William Mastrianna and McCall Wells",
+      "abstract": "On September 17, 2026, the U.S. Securities and Exchange Commission (“SEC”) issued an order (sometimes referred to as the “Innovation Exemption”) to address some questions on how to trade public company stock using distributed ledger technology – in other words, how to trade “tokenized” securities. A number of marketplaces have been created to trade digital assets, and traditional securities market players have been exploring the infrastructure necessary for trading digital securities. The SEC order addresses whether a marketplace where trading in tokenized securities occurs needs to register as an “exchange” and whether participants that provide liquidity to those marketplaces need to register as “dealers.”",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "卡温顿讨论 SEC 对代币化股票的“创新豁免”",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 17 日，美国证券交易委员会（“SEC”）发布了一项命令（有时称为“创新豁免”），以解决有关如何使用分布式账本技术交易上市公司股票的一些问题，即如何交易“代币化”证券。已经创建了许多市场来交易数字资产，传统证券市场参与者一直在探索交易数字证券所需的基础设施。SEC 的命令涉及进行代币化证券交易的市场是否需要注册为“交易所”，以及向这些市场提供流动性的参与者是否需要注册为“交易商”。",
+      "report_id": "2026-10-01",
+      "id": "art_465"
+    },
+    {
+      "title": "Who Needs SEC Rule 14a-8?",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/30/who-needs-sec-rule-14a-8/",
+      "date": "2026-10-01",
+      "authors": "Mohsen Manesh",
+      "abstract": "On September 16, the Securities and Exchange Commission proposed to rescind Rule 14a-8, the SEC rule that lets a shareholder holding as little as $2,000 of stock place a proposal in a company’s proxy statement, at the company’s expense, for a vote of all shareholders. The stated reason for the proposed rescission is that Congress never gave the Commission the power to adopt the rule,[1] a remarkable admission about a rule the agency has kept on the books for more than 80 years. Comments are due November 20.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "谁需要 SEC 规则 14a-8？",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "9 月 16 日，美国证券交易委员会提议废除第 14a-8 条，该规则允许持有 2,000 美元以下股票的股东在公司委托书中提出提案，费用由公司承担，供所有股东投票。拟议废除的理由是，国会从未赋予委员会通过该规则的权力，[1]这是对该机构已记录了 80 多年的规则的显着承认。意见截止日期为 11 月 20 日。",
+      "report_id": "2026-10-01",
+      "id": "art_466"
+    },
+    {
+      "title": "Skadden Discusses New SEC Framework for Trading Tokenized Stocks",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/30/skadden-discusses-new-sec-framework-for-trading-tokenized-stocks/",
+      "date": "2026-10-01",
+      "authors": "Aaron K. Washington, Alexander C. Drylewski, Stuart D. Levi and Daniel Michael",
+      "abstract": "On September 17, 2026, the U.S. Securities and Exchange Commission (SEC) took a significant step toward integrating tokenized securities into the U.S. equities market by issuing the long-awaited “Innovation Exemption.” The exemption creates a temporary framework that allows certain tokenized National Market System (NMS) securities listed on U.S. national securities exchanges to trade on-chain through automated market makers on Tokenized Securities Venues (TSVs). TSVs would be allowed to operate permissioned automated market makers and liquidity pools without registering as national securities exchanges or alternative trading systems. The SEC also provided relief to firms that supply liquidity to these markets and might otherwise need to register as broker-dealers.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "世达讨论 SEC 交易代币化股票的新框架",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 17 日，美国证券交易委员会 (SEC) 发布了期待已久的“创新豁免”，朝着将代币化证券纳入美国股票市场迈出了重要一步。该豁免创建了一个临时框架，允许在美国国家证券交易所上市的某些代币化国家市场系统（NMS）证券通过代币化证券交易场所（TSV）上的自动做市商进行链上交易。TSV 将被允许运营经许可的自动做市商和流动性池，而无需注册为国家证券交易所或替代交易系统。美国证券交易委员会还向向这些市场提供流动性的公司提供救济，否则可能需要注册为经纪自营商。",
+      "report_id": "2026-10-01",
+      "id": "art_467"
+    },
+    {
+      "title": "Sports Financial Indexes: When Your Favorite Team Becomes a Ticker",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/29/sports-financial-indexes-when-your-favorite-team-becomes-a-ticker/",
+      "date": "2026-10-01",
+      "authors": "Melinda Roth",
+      "abstract": "This week, professional sports crossed a threshold it had never crossed before. CME Group, the world’s largest derivatives exchange, began listing futures contracts on all 32 National Hockey League (NHL) teams.[1] These are not bets on who wins a game, but continuously priced financial indexes that move up or down with each team’s in-game statistical performance.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "体育金融指数：当你支持的球队成为行情代码",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "本周，职业体育跨越了以前从未跨越过的门槛。全球最大的衍生品交易所 CME 集团开始上市所有 32 支国家冰球联盟 (NHL) 球队的期货合约。[1]这些不是对谁赢得比赛的投注，而是连续定价的财务指数，随着每支球队在比赛中的统计表现而上下波动。",
+      "report_id": "2026-10-01",
+      "id": "art_468"
+    },
+    {
+      "title": "Latham Discusses SEC Proposal to Rescind Political Contribution Rule for Investment Advisers",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/29/latham-discusses-sec-proposal-to-rescind-political-contribution-rule-for-investment-advisers/",
+      "date": "2026-10-01",
+      "authors": "Laura Ferrell, Aaron Gilbride, Mike Hart-Slattery, Jennifer Y. Tian, Jamie Lynn Walter and Meghan Carey",
+      "abstract": "On September 3, 2026, the Securities and Exchange Commission (SEC) issued a proposal (the Proposal) to rescind Rule 206(4)-5, commonly referred to as the Pay-to-Play Rule (the Rule), in its entirety, eliminating the two-year time-out on compensated advisory services to government clients following a covered political contribution. The Proposal would also amend Rule 204-2, commonly referred to as the Recordkeeping Rule, to remove related provisions requiring investment advisers to make and keep political donation records.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "莱瑟姆讨论美国证券交易委员会关于废除投资顾问政治献金规则的提案",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 3 日，美国证券交易委员会 (SEC) 发布了一项提案（简称“提案”），全面废除第 206(4)-5 条规则（通常称为付费规则（简称“规则”）），取消向政府客户提供政治捐款后有偿咨询服务的两年暂停期。该提案还将修订规则 204-2（通常称为记录保存规则），删除要求投资顾问制作和保存政治捐赠记录的相关规定。",
+      "report_id": "2026-10-01",
+      "id": "art_469"
+    },
+    {
+      "title": "Does Loss of Natural Assets Raise Public Borrowing Costs?",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/28/does-loss-of-natural-assets-raise-public-borrowing-costs/",
+      "date": "2026-10-01",
+      "authors": "Jitendra Aswani and William W. Xiong",
+      "abstract": "Forests, fisheries, freshwater, and biodiversity are not only environmental resources. They also support economic activity and growth. When these natural assets deteriorate, the consequences can ripple through the economy and potentially affect the cost of government financing.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "自然资产的损失会增加公共借贷成本吗？",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "森林、渔业、淡水和生物多样性不仅仅是环境资源。它们还支持经济活动和增长。当这些自然资产恶化时，其后果可能会波及整个经济，并可能影响政府融资成本。",
+      "report_id": "2026-10-01",
+      "id": "art_470"
+    },
+    {
+      "title": "Sullivan & Cromwell Discusses California Bill on Lawyers’ Use of Generative AI",
+      "url": "https://clsbluesky.law.columbia.edu/2026/09/28/sullivan-cromwell-discuss-california-bill-on-lawyers-use-of-generative-ai/",
+      "date": "2026-10-01",
+      "authors": "Diane L. McGimsey, Adam S. Paris, David M.J. Rein and Maribeth Beyer",
+      "abstract": "On August 31, 2026, the California Legislature unanimously passed Senate Bill 574, a “first-in-the-nation” law that would establish statutory requirements governing the use of generative artificial intelligence by attorneys, arbitrators, judicial officers, and alternative dispute resolution providers.[1] The bill provides that an attorney “shall not delegate the practice of law to generative artificial intelligence.”[2] An attorney would be prohibited from entering “confidential, personal identifying, and other nonpublic information” into generative AI unless access to that information is restricted to the attorney and authorized persons obligated to protect its confidentiality.[3] Attorneys would also be required to take “reasonable steps” to “verify the accuracy” of AI outputs, including “all case and statutory citations,” and to “[c]orrect any erroneous or hallucinated output” in materials they use.[4] In addition, attorneys would be required to “[d]isclose the use of generative artificial intelligence to the court” for all court submissions and to consider disclosure of AI use for any content provided to the public.[5]",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "沙利文和克伦威尔讨论加州关于律师使用生成人工智能的法案",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "2026 年 8 月 31 日，加州立法机构一致通过了参议院第 574 号法案，这是一项“全国首创”的法律，将制定监管律师、仲裁员、司法官员和替代性争议解决提供商使用生成式人工智能的法定要求。 [1]该法案规定，律师“不得将法律实践委托给生成人工智能。”[2] 律师将被禁止将“机密、个人识别信息和其他非公开信息”输入生成人工智能，除非该信息的访问仅限于律师和有义务保护其机密性的授权人员。[3]律师还需要采取“合理步骤”来“验证人工智能输出的准确性”，包括“所有案例和法定引文”，并“纠正他们使用的材料中的任何错误或幻觉输出”。 [4]此外，律师将被要求在所有法庭提交材料中“向法庭披露生成人工智能的使用情况”，并考虑披露向公众提供的任何内容的人工智能使用情况。[5]。",
+      "report_id": "2026-10-01",
+      "id": "art_471"
+    },
+    {
+      "title": "Green SOX?",
+      "url": "https://corp.jotwell.com/green-sox/",
+      "date": "2026-09-28",
+      "authors": "Da Lin",
+      "abstract": "Da Lin Even though climate-related reporting is nownear-universal among the world’s largest companies, it remains one of the  most contentious, politically-explosive topics in contemporary corporate regulation. Questions surrounding the materiality of climate-related risks, the value of climate-related disclosures, and the regulation of greenwashing have dominated recent scholarly attention. What is less frequently addressed is the practical mechanics of how companies assess their climate risks and then reassure others about the credibility of those assessments. In fact, there is now a sprawling industry of people and institutions that function to vouch for the quality of climate-related reporting as well as other “green” signals sent by companies. There are obvious parallels between this industry and the traditional “gatekeepers” of corporate financial disclosures, whose failure to function as effective sentries famously contributed to the corporate scandals in the early 2000s and was",
+      "source_id": "jotwell",
+      "type": "article",
+      "title_cn": "绿色SOX？",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "大林 尽管气候相关报告现在在全球最大的公司中几乎是普遍的，但它仍然是当代企业监管中最具争议性、政治爆炸性的话题之一。围绕气候相关风险的重要性、气候相关信息披露的价值以及漂绿监管等问题主导了近期学术界的关注。不太常见的是公司如何评估其气候风险，然后向其他人保证这些评估的可信度的实用机制。事实上，现在有一个由人员和机构组成的庞大行业，其作用是保证气候相关报告以及公司发出的其他“绿色”信号的质量。这个行业与企业财务披露的传统“看门人”之间存在明显的相似之处，后者未能发挥有效的哨兵作用，导致了 2000 年代初期的公司丑闻，并被",
+      "report_id": "2026-10-01",
+      "id": "art_472"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "ICBA's Rainey on Crypto, AI and the Future of Community Banking",
+      "title_cn": "美国独立社区银行家协会主席谈加密资产、人工智能与社区银行未来",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-09-29",
+      "abstract": "ICBA President and CEO Rebeca Romero Rainey discusses the failed Senate vote on crypto market structure legislation, community bank concerns about stablecoin yield, and the broader fight over who gets to compete for deposits under what rules. She also weighs in on how AI could help and hurt institutions, core providers, novel charters, CRA reform and the competitive pressures shaping the future of community banking.",
+      "abstract_cn": "ICBA 总裁兼首席执行官丽贝卡·罗梅罗·雷尼 (Rebeca Romero Rainey) 讨论了参议院对加密货币市场结构立法的失败投票、社区银行对稳定币收益率的担忧，以及关于谁可以根据什么规则争夺存款的更广泛的争论。她还探讨了人工智能如何帮助和损害机构、核心提供商、新颖的章程、CRA 改革以及塑造社区银行未来的竞争压力。",
+      "keywords": [
+        "Banking Policy; Financial Regulation; Bank Supervision"
+      ],
+      "keywords_cn": [
+        "银行政策；金融监管；银行监管"
+      ],
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/icbas-rainey-on-crypto-ai-and-the-future-of-community-banking",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "report_id": "2026-10-01",
+      "id": "art_473"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Navigating Geoeconomic Risk in the U.S. Stock Market",
+      "title_cn": "美国股市中的地缘经济风险应对",
+      "authors": "Liberty Street Economics",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-10-01",
+      "abstract": "Geoeconomic risk—the risk that firms incur valuation losses when countries deploy economic, trade, or financial leverage for geopolitical aims—has become a first-order concern for investors. In this post, based on our recent Staff Report , we document that domestic U.S. stocks expose investors to substantial geoeconomic risk through firms' global supply-chain relationships, affecting investors' returns and portfolio allocation. We also find that investors are compensated for bearing geoeconomic risk through higher risk premia.",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/navigating-geoeconomic-risk-in-the-u-s-stock-market/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "地缘经济风险——当国家出于地缘政治目的而运用经济、贸易或金融杠杆时企业遭受估值损失的风险——已成为投资者首要关注的问题。在这篇文章中，根据我们最近的员工报告，我们记录了美国国内股票通过公司的全球供应链关系使投资者面临巨大的地缘经济风险，影响投资者的回报和投资组合配置。我们还发现，投资者因承担地缘经济风险而通过较高的风险溢价获得补偿。",
+      "report_id": "2026-10-01",
+      "id": "art_474"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "The Role of Repos in Monetary Policy Implementation",
+      "title_cn": "回购交易在货币政策执行中的作用",
+      "authors": "Gara Afonso, Jun-Davinci Choi, Gonzalo Cisternas, and Will Riordan",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-09-30",
+      "abstract": "In the first two posts of this three-part series, we discussed private market participants that are active in repo markets for profit-making motives. Central banks are also active repo market participants, but their reasons often differ from those of private participants. In today’s post, we discuss how central banks use repos to manage liquidity in the financial system and implement monetary policy.",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/the-role-of-repos-in-monetary-policy-implementation/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "在这个由三部分组成的系列的前两篇文章中，我们讨论了出于盈利动机而活跃于回购市场的私人市场参与者。央行也是活跃的回购市场参与者，但其理由往往与私人参与者不同。在今天的文章中，我们讨论央行如何使用回购协议来管理金融体系的流动性和实施货币政策。",
+      "report_id": "2026-10-01",
+      "id": "art_475"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Follow the Cash! Microstructure of Repo Markets",
+      "title_cn": "跟随现金！回购市场的微观结构",
+      "authors": "Gara Afonso, Jun-Davinci Choi, Gonzalo Cisternas, and Will Riordan",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-09-29",
+      "abstract": "The repo market in the U.S. is a mosaic of segments with distinct participants and various settlement and clearing practices. Why do large cash lenders typically settle their trades through a third-party agent? Why does the interdealer market clear through a central counterparty? Why do levered investors favor bilateral trades? In the second post of this series, we follow the cash as it navigates through repo markets to better understand the costs and benefits that shape the existing market structures.",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/follow-the-cash-microstructure-of-repo-markets/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "美国的回购市场是一个由不同参与者、不同结算和清算做法组成的细分市场。为什么大型现金贷方通常通过第三方代理结算其交易？为什么交易商间市场通过中央对手方进行清算？为什么杠杆投资者青睐双边交易？在本系列的第二篇文章中，我们将跟踪现金在回购市场中的流动情况，以更好地了解塑造现有市场结构的成本和收益。",
+      "report_id": "2026-10-01",
+      "id": "art_476"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Who’s Borrowing and Lending in Repo Markets?",
+      "title_cn": "谁在回购市场上借贷？",
+      "authors": "Gara Afonso, Jun-Davinci Choi, Gonzalo Cisternas, and Will Riordan",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-09-28",
+      "abstract": "Repo markets play a vital role in the U.S. financial system. In this three-part series, we examine who participates in these markets, what trade-offs influence how different repo segments are structured, and why repos matter for monetary policy. Today's post introduces repo transactions, focusing on the major private-sector participants and why they engage in these markets.",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/whos-borrowing-and-lending-in-repo-markets/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "回购市场在美国金融体系中发挥着至关重要的作用。在这个由三部分组成的系列中，我们研究了谁参与了这些市场，哪些权衡会影响不同回购细分市场的结构，以及为什么回购对货币政策很重要。今天的帖子介绍了回购交易，重点关注主要的私营部门参与者以及他们参与这些市场的原因。",
+      "report_id": "2026-10-01",
+      "id": "art_477"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "When the floor rises: how Basel output floor could tilt bank lending",
+      "title_cn": "当下限抬升：巴塞尔产出下限如何改变银行信贷配置",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-10-01",
+      "abstract": "Marzio Bassanin The 2017 finalisation package of the Basel III reforms to bank capital regulation aims to make capital requirements more robust and consistent across banks. One of its most significant changes is the introduction of the ‘output floor’, which limits how far capital requirements calculated using internal models can fall below those based on … Continue reading When the floor rises: how Basel output floor could tilt bank lending →",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/10/01/when-the-floor-rises-how-basel-output-floor-could-tilt-bank-lending/",
+      "type": "article",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "Marzio Bassanin 2017 年巴塞尔 III 银行资本监管改革最终确定方案旨在使各银行的资本要求更加稳健和一致。其最重要的变化之一是引入了“产出下限”，它限制了使用内部模型计算的资本要求可以低于基于……的资本要求的程度。继续阅读当下限上升时：巴塞尔产出下限如何倾斜银行贷款→",
+      "report_id": "2026-10-01",
+      "id": "art_478"
     }
   ],
   "monthly_reports": [
@@ -13630,6 +14286,16 @@
         "2026-09-21",
         "2026-09-24",
         "2026-09-27"
+      ],
+      "summary": "",
+      "trends": []
+    },
+    {
+      "id": "2026-10",
+      "month": "2026-10",
+      "label": "2026年10月",
+      "report_ids": [
+        "2026-10-01"
       ],
       "summary": "",
       "trends": []
