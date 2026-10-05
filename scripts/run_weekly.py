@@ -28,6 +28,12 @@ import subprocess
 from pathlib import Path
 from datetime import datetime
 
+# Production scheduling and persisted incremental boundaries are fixed to
+# Asia/Taipei, independent of the desktop host's current timezone.
+os.environ["TZ"] = "Asia/Taipei"
+if hasattr(time, "tzset"):
+    time.tzset()
+
 # Setup paths
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = PROJECT_DIR / "scripts"
