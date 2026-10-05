@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-10-01",
+    "last_updated": "2026-10-05",
     "version": "1.0"
   },
   "sources": [
@@ -947,6 +947,37 @@
         "art_476",
         "art_477",
         "art_478"
+      ]
+    },
+    {
+      "id": "2026-10-05",
+      "date": "2026-10-05",
+      "period_start": "2026-10-02",
+      "period_end": "2026-10-05",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增13篇文章。",
+      "trends": [
+        "本周十一大来源共新增13篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、BoE，主题分布以金融监管（5篇）、公司治理（3篇）、反垄断（3篇）为主。",
+        "公司治理领域新增3篇，来自ECGI、Harvard。本期重点议题包括特拉华州的最新困境：强制仲裁和公司章程的国家竞争；评估股东投票风险：上市公司面临的四个主要挑战概述；尽管受到代理顾问的审查，企业仍继续迁往德克萨斯州。",
+        "金融监管领域新增6篇，来自CLS、ECGI、Harvard。本期重点议题包括负债管理的有限跑道：当今的企业重组；特拉华州的最新困境：强制仲裁和公司章程的国家竞争；皮尔斯专员关于监护规则拟议修正案的声明等。",
+        "反垄断领域新增3篇，来自CLS、ProMarket。本期重点议题包括各州可以在没有联邦政府的情况下促进人工智能放缓；反垄断执法者应关注市场力量而不是模糊的福利概念；前沿人工智能实验室可以合法地同意放慢速度来拯救人类吗。",
+        "科技、数据与AI领域新增2篇，来自CLS。本期重点议题包括前沿人工智能实验室可以合法地同意放慢速度来拯救人类吗；Anthropic 的公共目的和创始人控制。",
+        "其他领域新增2篇，来自BoE、OBLB。本期重点议题包括当竞争对手的 ESG 丑闻改善企业投资时；当金融系统变得可搜索时。"
+      ],
+      "article_ids": [
+        "art_479",
+        "art_480",
+        "art_481",
+        "art_482",
+        "art_483",
+        "art_484",
+        "art_485",
+        "art_486",
+        "art_487",
+        "art_488",
+        "art_489",
+        "art_490",
+        "art_491"
       ]
     }
   ],
@@ -14215,6 +14246,378 @@
       "abstract_cn": "Marzio Bassanin 2017 年巴塞尔 III 银行资本监管改革最终确定方案旨在使各银行的资本要求更加稳健和一致。其最重要的变化之一是引入了“产出下限”，它限制了使用内部模型计算的资本要求可以低于基于……的资本要求的程度。继续阅读当下限上升时：巴塞尔产出下限如何倾斜银行贷款→",
       "report_id": "2026-10-01",
       "id": "art_478"
+    },
+    {
+      "title": "Liability Management's Limited Runway: Corporate Restructuring Today",
+      "url": "https://www.ecgi.global/publications/working-papers/liability-managements-limited-runway-corporate-restructuring-today",
+      "date": "2026-10-03",
+      "type": "working_paper",
+      "authors": "Mark RoeVasile Rotaru",
+      "abstract": "Coercive, non-pro rata debt restructurings, often driven by private equity sponsors, have become a major force for fixing distressed companies. They are promoted—by stressed companies, their owners, their advisors, and favored creditors—as the best way to avoid bankruptcy and reduce financial stress by extending distressed firms’ runways to recover and take off. If true, it would explain their growing frequency. But the post-deal results contradict proponents’ positive claims.",
+      "keywords": [
+        "Bankruptcy",
+        "Capital",
+        "Private Equity",
+        "Regulation",
+        "Debt",
+        "Creditor Rights",
+        "Insolvency",
+        "Bondholders",
+        "Markets"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "负债管理的有限跑道：当今的企业重组",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "通常由私募股权发起人推动的强制性、非按比例的债务重组已成为修复陷入困境的公司的主要力量。受到压力的公司、其所有者、顾问和受青睐的债权人都将它们宣传为通过延长陷入困境的公司恢复和起飞的跑道来避免破产和减轻财务压力的最佳方式。如果属实，那就可以解释它们的频率不断增加。但交易后的结果与支持者的积极主张相矛盾。",
+      "keywords_cn": [
+        "破产",
+        "首都",
+        "私募股权",
+        "规定",
+        "债务",
+        "债权人权利",
+        "破产",
+        "债券持有人",
+        "市场"
+      ],
+      "report_id": "2026-10-05",
+      "id": "art_479"
+    },
+    {
+      "title": "Delaware's Newest Dilemma: Mandatory Arbitration and State Competition for Corporate Charters",
+      "url": "https://www.ecgi.global/publications/working-papers/delawares-newest-dilemma-mandatory-arbitration-and-state-competition",
+      "date": "2026-10-03",
+      "type": "working_paper",
+      "authors": "Marcel KahanEdward Rock",
+      "abstract": "Mandatory arbitration of shareholder claims is poised to reshape corporate litigation and interstate competition for corporate charters. SEC Chair Paul Atkins has led the SEC to reverse its long-standing policy against mandatory arbitration of federal securities claims. SpaceX's bylaws, which conditionally require arbitration of internal corporate and federal securities disputes, bring longstanding debates over arbitrability, shareholder consent, and corporate governance to the forefront. This Article examines the complex legal status of arbitration provisions under state and federal law and their implications for state competition for corporate charters.",
+      "keywords": [
+        "Company Law",
+        "Regulation",
+        "Stewardship",
+        "Shareholder Rights",
+        "Political Economy",
+        "Stakeholders",
+        "Technology",
+        "Incentives",
+        "Competition",
+        "Contracts"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "特拉华州的最新困境：强制仲裁和公司章程的国家竞争",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "股东索赔的强制仲裁将重塑公司诉讼和公司章程的州际竞争。美国证券交易委员会主席保罗·阿特金斯领导美国证券交易委员会扭转了其反对联邦证券索赔强制仲裁的长期政策。SpaceX 的章程有条件地要求对公司内部和联邦证券纠纷进行仲裁，这使得围绕可仲裁性、股东同意和公司治理的长期争论成为焦点。本文探讨了州和联邦法律中仲裁条款的复杂法律地位及其对州公司章程竞争的影响。",
+      "keywords_cn": [
+        "公司法",
+        "规定",
+        "管理职责",
+        "股东权利",
+        "政治经济学",
+        "利益相关者",
+        "技术",
+        "激励措施",
+        "竞赛",
+        "合约"
+      ],
+      "report_id": "2026-10-05",
+      "id": "art_480"
+    },
+    {
+      "title": "Assessing Shareholder Vote Risks: An Overview of Four Key Challenges for Public Companies",
+      "url": "https://corpgov.law.harvard.edu/2026/10/04/assessing-shareholder-vote-risks-an-overview-of-four-key-challenges-for-public-companies/?utm_source=rss&utm_medium=rss&utm_campaign=assessing-shareholder-vote-risks-an-overview-of-four-key-challenges-for-public-companies",
+      "date": "2026-10-04",
+      "abstract": "Key Takeaways Companies have more information than ever about investor expectations, but synthesizing those inputs into timely voting-risk insight remains challenging. Voting risk extends beyond failed proposals; meaningful opposition, declining support, and shareholder proposal momentum can all require board attention. Effective investor engagement depends on knowing where to focus: which proposals may be exposed, which […]",
+      "authors": "Posted by Adam Riches, Glass, Lewis & Co., on",
+      "keywords": [
+        "Corporate governance",
+        "Public Companies",
+        "Risks",
+        "Shareholder voting",
+        "Adam Riches",
+        "Glass Lewis",
+        "Corporate governance",
+        "Public Companies",
+        "Risks",
+        "Shareholder voting",
+        "Adam Riches",
+        "Glass Lewis"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "评估股东投票风险：上市公司面临的四个主要挑战概述",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "要点 公司拥有比以往更多的有关投资者预期的信息，但将这些信息综合成及时的投票风险洞察仍然具有挑战性。投票风险不仅限于失败的提案；有意义的反对、支持的下降以及股东提案的势头都需要董事会的关注。有效的投资者参与取决于了解重点：哪些提案可能会被公开，哪些[...]",
+      "keywords_cn": [
+        "公司治理",
+        "上市公司",
+        "风险",
+        "股东投票",
+        "亚当·里奇斯",
+        "格拉斯·刘易斯",
+        "公司治理",
+        "上市公司",
+        "风险",
+        "股东投票",
+        "亚当·里奇斯",
+        "格拉斯·刘易斯"
+      ],
+      "report_id": "2026-10-05",
+      "id": "art_481"
+    },
+    {
+      "title": "Statement by Commissioner Peirce on Proposed Amendments to the Custody Rules",
+      "url": "https://corpgov.law.harvard.edu/2026/10/03/statement-by-commissioner-peirce-on-proposed-amendments-to-the-custody-rules/?utm_source=rss&utm_medium=rss&utm_campaign=statement-by-commissioner-peirce-on-proposed-amendments-to-the-custody-rules",
+      "date": "2026-10-03",
+      "abstract": "Last summer, two friends goaded me into riding a roller coaster for the first time in decades. The terrifying sense of dread that gripped me as we whipped around the curves and dropped down irrationally steep hills on a ride that was totally out of my control made me think, of course, of investment advisers’ […]",
+      "authors": "Posted by Hester M. Peirce, U.S. Securities and Exchange Commission, on",
+      "keywords": [
+        "Corporate governance",
+        "Crypto",
+        "Crypto Assets",
+        "SEC",
+        "Hester Peirce",
+        "U.S. Securities and Exchange Commission",
+        "Corporate governance",
+        "Crypto",
+        "Crypto Assets",
+        "SEC",
+        "Hester Peirce",
+        "U.S. Securities and Exchange Commission"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "皮尔斯专员关于监护规则拟议修正案的声明",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "去年夏天，两个朋友怂恿我几十年来第一次坐过山车。当我们在完全不受我控制的情况下绕过弯道并从不合理的陡峭山坡上掉下来时，一种可怕的恐惧感笼罩着我，当然，这让我想到了投资顾问的[…]",
+      "keywords_cn": [
+        "公司治理",
+        "加密货币",
+        "加密资产",
+        "美国证券交易委员会",
+        "海丝特·皮尔斯",
+        "美国证券交易委员会",
+        "公司治理",
+        "加密货币",
+        "加密资产",
+        "美国证券交易委员会",
+        "海丝特·皮尔斯",
+        "美国证券交易委员会"
+      ],
+      "report_id": "2026-10-05",
+      "id": "art_482"
+    },
+    {
+      "title": "Corporate Redomiciliation to Texas Continues Despite Proxy Advisor Scrutiny",
+      "url": "https://corpgov.law.harvard.edu/2026/10/02/corporate-redomiciliation-to-texas-continues-despite-proxy-advisor-scrutiny/?utm_source=rss&utm_medium=rss&utm_campaign=corporate-redomiciliation-to-texas-continues-despite-proxy-advisor-scrutiny",
+      "date": "2026-10-02",
+      "abstract": "KEY TAKEAWAYS Redomiciliation to Texas was on the rise in 2026. Recent Texas legal reforms and business court infrastructure have made the state an attractive alternative to Delaware for corporate domiciles. Proxy advisors remain skeptical of domicile moves to Texas. ISS and Glass Lewis have focused on concerns about loss of shareholder leverage, an untested […]",
+      "authors": "Posted by Chris Brindisi and Ryan Peterson, Pay Governance LLC, on",
+      "keywords": [
+        "Board of Directors",
+        "compensations",
+        "Proxy Advisor",
+        "Texas",
+        "Chris Brindisi",
+        "Ryan Peterson",
+        "Pay Governance",
+        "Board of Directors",
+        "compensations",
+        "Proxy Advisor",
+        "Texas",
+        "Chris Brindisi",
+        "Ryan Peterson",
+        "Pay Governance"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "尽管受到代理顾问的审查，企业仍继续迁往德克萨斯州",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "要点 2026 年，迁往德克萨斯州的人数呈上升趋势。德克萨斯州最近的法律改革和商业法庭基础设施使该州成为企业住所替代特拉华州的一个有吸引力的选择。代理顾问仍然对迁往德克萨斯州的住所持怀疑态度。ISS 和 Glass Lewis 重点关注对股东杠杆损失的担忧，这是一个未经检验的 […]",
+      "keywords_cn": [
+        "董事会",
+        "补偿",
+        "代理顾问",
+        "德克萨斯州",
+        "克里斯·布林迪西",
+        "瑞安彼得森",
+        "薪酬治理",
+        "董事会",
+        "补偿",
+        "代理顾问",
+        "德克萨斯州",
+        "克里斯·布林迪西",
+        "瑞安彼得森",
+        "薪酬治理"
+      ],
+      "report_id": "2026-10-05",
+      "id": "art_483"
+    },
+    {
+      "title": "When a Rival’s ESG Scandal Improves Corporate Investment",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/10/when-rivals-esg-scandal-improves-corporate-investment",
+      "date": "2026-10-02",
+      "type": "blog",
+      "abstract": "Environmental and social scandals do not stop at the boundaries of the company responsible. By creating information gaps and heightened uncertainty, they can damage the reputation and performance of innocent competitors. In our recentJournal of Corporate Financearticle, we examine whether an environmental or social incident at one company changes investment decisions at comparable firms not involved in the incident. Measuring spillovers between genuine competitors Our analysis covers observations of 3,872 US firms from 2007 to 2021. We identify negative environmental and social incidents using RepRisk, which monitors corporate controversies reported by media and other public sources.",
+      "authors": "Thang Ho, Duc Trung Do, Giray Gozgor, Jing Li",
+      "source_id": "oblb",
+      "title_cn": "当竞争对手的 ESG 丑闻改善企业投资时",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "环境和社会丑闻并不仅仅限于责任公司的范围。通过造成信息差距和增加不确定性，它们可能会损害无辜竞争对手的声誉和绩效。在我们最近的《企业融资杂志》文章中，我们研究了一家公司的环境或社会事件是否会改变未参与该事件的可比公司的投资决策。衡量真正竞争对手之间的溢出效应我们的分析涵盖了 2007 年至 2021 年对 3,872 家美国公司的观察。我们使用 RepRisk 来识别负面环境和社会事件，RepRisk 监控媒体和其他公共来源报道的企业争议。",
+      "report_id": "2026-10-05",
+      "id": "art_484"
+    },
+    {
+      "title": "States Can Facilitate an AI Slowdown Without the Federal Government",
+      "url": "https://www.promarket.org/2026/10/02/states-can-facilitate-an-ai-slowdown-without-the-federal-government/",
+      "date": "2026-10-02",
+      "authors": "Noah Hoffman and Fiona Scott Morton",
+      "abstract": "Noah Hoffman is an attorney living in Denver, Colorado. After graduating from Yale Law School in 2025, he did a fellowship in the consumer protection and antitrust section of the Colorado Attorney General's office. Previously, Noah was a professional cross-country skier, and he represented the United States in the 2014 and 2018 Olympic Winter Games. Fiona M. Scott Morton is the Theodore Nierenberg Professor of Economics at the Yale University School of Management and an Adjunct Professor at Yale Law School. Her field of economics is Industrial Organization, the study of firms, markets, and competition. The focus of her research is the economics of competition policy and antitrust enforcement, as well as competition in healthcare markets. From 2011-12 Professor Scott Morton served as the Deputy Assistant Attorney General for Economic Analysis (Chief Economist) at the Antitrust Division of the U.S. Department of Justice, where she helped enforce the nation’s antitrust laws. She frequentl",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "各州可以在没有联邦政府的情况下促进人工智能放缓",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "诺亚·霍夫曼 (Noah Hoffman) 是一位住在科罗拉多州丹佛市的律师。2025 年从耶鲁大学法学院毕业后，他在科罗拉多州总检察长办公室的消费者保护和反垄断部门担任研究员。此前，诺亚是一名职业越野滑雪运动员，曾代表美国参加2014年和2018年冬奥会。菲奥娜·M·斯科特·莫顿 (Fiona M. Scott Morton) 是耶鲁大学管理学院西奥多·尼伦伯格经济学教授和耶鲁大学法学院兼职教授。她的经济学领域是产业组织，研究企业、市场和竞争。她的研究重点是竞争政策和反垄断执法的经济学，以及医疗保健市场的竞争。2011-12 年间，Scott Morton 教授担任美国司法部反垄断部门负责经济分析的副助理司法部长（首席经济学家），帮助执行美国的反垄断法。她经常",
+      "report_id": "2026-10-05",
+      "id": "art_485"
+    },
+    {
+      "title": "Antitrust Enforcers Should Focus on Market Power Not on Vague Welfare Concepts",
+      "url": "https://www.promarket.org/2026/10/02/antitrust-enforcers-should-focus-on-market-power-not-on-vague-welfare-concepts/",
+      "date": "2026-10-02",
+      "authors": "Alberto Heimler",
+      "abstract": "Alberto Heimler chaired the OECD Working Party on Competition and Regulation from 1994 to 2024 and is the co-author, with Darryl Biggar, ofAntitrust and Competition Policy: A New Foundation(Cambridge University Press, 2026). Alberto Heimler argues that antitrust authorities should focus on whether market power allows one party to exploit relationship-specific sunk investments made by another and how that undermines potential innovation, investments, and competition. Competition authorities and antitrust scholars are reconsidering some of the central questions of antitrust policy: how to assess practices by dominant firms, including digital platforms; how to address labor-market restraints; how to control mergers without jeopardizing growth and innovation; and, more generally, what competition law is intended to achieve. The European Commission’s revision of its Article 102 competition guidelines and its recent consultation on revised merger guidelines have made steps in advancing enfor",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "反垄断执法者应关注市场力量而不是模糊的福利概念",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "阿尔贝托·海姆勒 (Alberto Heimler) 于 1994 年至 2024 年期间担任经合组织竞争与监管工作组主席，并与达里尔·比格 (Darryl Biggar) 合着了《反垄断与竞争政策：新基础》（剑桥大学出版社，2026 年）。阿尔贝托·海姆勒认为，反垄断当局应重点关注市场力量是否允许一方利用另一方进行的针对特定关系的沉没投资，以及这如何破坏潜在的创新、投资和竞争。竞争主管机构和反垄断学者正在重新考虑反垄断政策的一些核心问题：如何评估占主导地位的公司（包括数字平台）的做法；如何解决劳动力市场的限制；如何在不损害增长和创新的情况下控制合并；更一般地说，竞争法的目的是什么。欧盟委员会对其第 102 条竞争指南的修订以及最近就修订后的合并指南进行的磋商在推进强制执行方面迈出了步伐。",
+      "report_id": "2026-10-05",
+      "id": "art_486"
+    },
+    {
+      "title": "Can Frontier AI Labs Lawfully Agree to Slow Down to Save Humanity?",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/05/can-frontier-ai-labs-lawfully-agree-to-slow-down-to-save-humanity/",
+      "date": "2026-10-05",
+      "authors": "John C. Coffee, Jr.",
+      "abstract": "On September 12, 2026, Anthropic CEO Dario Amodei called for coordinated limits on the pace of frontier-AI development, with government support to address antitrust constraints.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "前沿人工智能实验室可以合法地同意放慢速度来拯救人类吗？",
+      "topics": [
+        "antitrust",
+        "tech_data_ai"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 12 日，Anthropic 首席执行官 Dario Amodei 呼吁在政府支持下协调限制前沿人工智能的发展速度，以解决反垄断限制。",
+      "report_id": "2026-10-05",
+      "id": "art_487"
+    },
+    {
+      "title": "Skadden Discusses Bank Agencies’ Proposed Changes to Third-Party Risk Management Guidance",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/05/skadden-discusses-bank-agencies-proposed-changes-to-third-party-risk-management-guidance/",
+      "date": "2026-10-05",
+      "authors": "John C. Coffee, Jr.",
+      "abstract": "On September 11, 2026, the Office of the Comptroller of the Currency (OCC), Board of Governors of the Federal Reserve System (Federal Reserve Board), Federal Deposit Insurance Corporation (FDIC) and National Credit Union Administration (collectively, the “agencies”) jointly issued proposed inte...",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "世达讨论银行机构对第三方风险管理指南的拟议变更",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 11 日，美国货币监理署 (OCC)、美国联邦储备委员会 (Federal Reserve Board)、联邦存款保险公司 (FDIC) 和国家信用社管理局 (统称“机构”) 联合发布了拟议的内部...",
+      "report_id": "2026-10-05",
+      "id": "art_488"
+    },
+    {
+      "title": "Public Purpose and Founder Control at Anthropic",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/02/public-purpose-and-founder-control-at-anthropic/",
+      "date": "2026-10-02",
+      "authors": "John C. Coffee, Jr.",
+      "abstract": "Anthropic, a public benefit corporation (PBC), continues to offer food for thought on corporate governance and its mission to develop AI responsibly and for the long-term benefit of humanity.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Anthropic 的公共目的和创始人控制",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "Anthropic 是一家公益公司 (PBC)，不断为企业治理及其负责任地开发人工智能并造福人类的长期利益的使命提供思考。",
+      "report_id": "2026-10-05",
+      "id": "art_489"
+    },
+    {
+      "title": "SEC Chair Atkins Speaks on Retailization of Private Markets",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/02/sec-chair-atkins-speaks-on-retailization-of-private-markets/",
+      "date": "2026-10-02",
+      "authors": "John C. Coffee, Jr.",
+      "abstract": "Good morning, ladies and gentlemen. And thank you for joining us today for this public meeting of the Securities and Exchange Commission under the Government in the Sunshine Act. We have three items on today’s agenda.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "美国证券交易委员会主席阿特金斯谈私募市场零售化",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "早上好，女士们先生们。感谢您今天参加我们根据政府阳光法案召开的证券交易委员会公开会议。我们今天的议程有三个项目。",
+      "report_id": "2026-10-05",
+      "id": "art_490"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "When the financial system becomes searchable",
+      "title_cn": "当金融系统变得可搜索时",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-10-01",
+      "abstract": "Andreas Viljoen Financial crises rarely begin with one self-contained weakness. They emerge when vulnerabilities connect: leverage meets a margin call; a margin call meets an illiquid market; falling prices meet common collateral; and a funding concern becomes a run. Before the event, each link may sit in a different spreadsheet, institution or jurisdiction. Afterwards, the … Continue reading When the financial system becomes searchable →",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/10/01/when-the-financial-system-becomes-searchable/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "安德烈亚斯·维尔容 (Andreas Viljoen) 金融危机很少始于一个独立的弱点。当漏洞相互关联时，它们就会出现：杠杆遇到追加保证金通知；追加保证金通知遇到流动性不足的市场；价格下跌与普通抵押品相遇；资金问题变成了挤兑。在事件发生之前，每个链接可能位于不同的电子表格、机构或管辖区中。之后，... 继续阅读当金融系统变得可搜索时 →",
+      "report_id": "2026-10-05",
+      "id": "art_491"
     }
   ],
   "monthly_reports": [
@@ -14295,7 +14698,8 @@
       "month": "2026-10",
       "label": "2026年10月",
       "report_ids": [
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-05"
       ],
       "summary": "",
       "trends": []
