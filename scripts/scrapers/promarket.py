@@ -44,7 +44,8 @@ class ProMarketScraper(BaseScraper):
             html = curl_get(url)
             soup = self._soup(html)
             detail = {}
-            desc = soup.find("meta", attrs={"name": "description"})
+            desc = soup.find("meta", attrs={"property": "og:description"}) or \
+                   soup.find("meta", attrs={"name": "description"})
             if desc:
                 detail["abstract"] = self._clean(desc.get("content", ""))
             if not detail.get("abstract"):

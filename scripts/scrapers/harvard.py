@@ -51,7 +51,10 @@ class HarvardScraper(BaseScraper):
                     detail["abstract"] = text[:1500]
         author_el = soup.find(class_=lambda x: x and "author" in str(x).lower() if x else False)
         if author_el:
-            detail["authors"] = self._clean(author_el.get_text(strip=True))
+            author_text = self._clean(author_el.get_text(" ", strip=True))
+            author_text = re.sub(r'^Posted by\s+', '', author_text, flags=re.I)
+            author_text = re.sub(r',\s*on\s*$', '', author_text, flags=re.I)
+            detail["authors"] = author_text
         tags = soup.find_all("a", rel="tag")
         if tags:
             detail["keywords"] = [t.get_text(strip=True) for t in tags if t.get_text(strip=True)]

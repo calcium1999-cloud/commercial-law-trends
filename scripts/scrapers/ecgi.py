@@ -105,7 +105,13 @@ class ECGIScraper(BaseScraper):
             # 作者
             author_els = soup.find_all(class_=lambda x: x and "author" in str(x).lower() if x else False)
             if author_els:
-                author_text = author_els[-1].get_text(strip=True)
+                author_links = [
+                    self._clean(a.get_text(" ", strip=True))
+                    for a in author_els[-1].find_all("a")
+                    if self._clean(a.get_text(" ", strip=True))
+                ]
+                author_text = ", ".join(dict.fromkeys(author_links)) if author_links else \
+                    author_els[-1].get_text(" ", strip=True)
                 author_text = re.sub(r'^Authors?\s*', '', author_text)
                 detail["authors"] = self._clean(author_text)
             # 摘要
