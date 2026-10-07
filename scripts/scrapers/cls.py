@@ -121,6 +121,25 @@ class CLSScraper(BaseScraper):
         )
         if m:
             return m.group(1).strip()
+        m = re.search(
+            r"This statement was issued.*?\bby\s+(.+?),\s+chief accountant,\s+and\s+(.+?),\s+director\b",
+            tail,
+            re.I,
+        )
+        if m:
+            return f"{m.group(1).strip()}, {m.group(2).strip()}"
+        m = re.search(
+            r"This post comes to us from the Shadow SEC, whose members are professors\s+(.+?)(?:\.\s+ENDNOTES|$)",
+            tail,
+            re.I,
+        )
+        if m:
+            names = re.findall(
+                r"([A-Z][A-Za-z.\-']+(?:\s+[A-Z][A-Za-z.\-']+){1,3}(?:,\s+Jr\.)?)\s+at\s+",
+                m.group(1),
+            )
+            if names:
+                return ", ".join(name.strip() for name in names)
         m = re.search(r"This post is based on a (.+? LLP) memorandum", tail, re.I)
         if m:
             return m.group(1).strip()

@@ -16,7 +16,7 @@ TOPIC_KEYWORDS = {
         "compensation", "equity comp", "stock option",
         "信义义务", "董事会", "股东", "高管薪酬", "公司治理",
         "独立董事", "股东提案", "股东积极主义",
-        "takeover", "merger", "acquisition", " Revlon",
+        "takeover", "corporate merger", "mergers and acquisitions", "acquisition", " Revlon",
         "duty of care", "duty of loyalty", "business judgment",
         "leveraged buyout", "lbo",
         "controlling shareholder", "dual class", "sunset provision",

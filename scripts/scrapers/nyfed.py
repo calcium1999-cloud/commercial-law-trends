@@ -3,6 +3,7 @@
 
 高质量的经济学/金融/银行监管研究博客，纽约联储出品。
 """
+import json
 import sys
 from pathlib import Path
 
@@ -45,6 +46,8 @@ class NYFedScraper(BaseScraper):
         url = item.get("url", "")
         date = item.get("date", "")
         authors = item.get("authors", "")
+        if not authors and url:
+            authors = self._fetch_authors(url)
         description = item.get("description", "")
 
         # 提取摘要：description 通常是 HTML，取前 500 字
@@ -70,3 +73,31 @@ class NYFedScraper(BaseScraper):
             "url": url,
             "type": "article",
         }
+
+    def _fetch_authors(self, url):
+        """Recover article authors from NY Fed JSON-LD when RSS omits them."""
+        try:
+            soup = self._soup(curl_get(url))
+            byline = soup.select_one(".ts-blog-article-author")
+            if byline:
+                text = self._clean(byline.get_text(" ", strip=True))
+                if text:
+                    return text
+            for node in soup.find_all("script", attrs={"type": "application/ld+json"}):
+                try:
+                    payload = json.loads(node.get_text(strip=True))
+                except (TypeError, json.JSONDecodeError):
+                    continue
+                graph = payload.get("@graph", []) if isinstance(payload, dict) else []
+                for entry in graph:
+                    if isinstance(entry, dict) and entry.get("@type") == "Article":
+                        raw_authors = entry.get("author", [])
+                        if isinstance(raw_authors, dict):
+                            raw_authors = [raw_authors]
+                        names = [a.get("name", "").strip() for a in raw_authors if isinstance(a, dict)]
+                        names = [name for name in names if name]
+                        if names:
+                            return ", ".join(names)
+        except Exception:
+            pass
+        return ""
