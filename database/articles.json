@@ -987,11 +987,11 @@
       "title": "商业法律研究动向",
       "summary": "本周十一大来源共新增18篇文章。",
       "trends": [
-        "本周十一大来源共新增18篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、BWI、NY Fed，主题分布以其他（7篇）、公司治理（5篇）、金融监管（5篇）为主。",
-        "公司治理领域新增6篇，来自OBLB、ECGI、Harvard。本期重点议题包括股东权利面临压力；治理人工智能：公司监督和股东参与；硅谷和标准普尔 100 指数：2026 年代理季结果比较等。",
-        "金融监管领域新增6篇，来自CLS、BWI、OBLB、Harvard。本期重点议题包括硅谷和标准普尔 100 指数：2026 年代理季结果比较；当隐藏的风险浮现时：过度自信的银行首席执行官和政策不确定性下的投资组合重新配置；卡希尔讨论 SEC 对代币化股票交易的“创新豁免”等。",
-        "科技、数据与AI领域新增2篇，来自CLS、Harvard。本期重点议题包括治理人工智能：公司监督和股东参与；影子 SEC 第 15 号声明：加密货币监管。",
-        "其他领域新增7篇，来自NY Fed、ProMarket、Harvard、CLS、OBLB。本期重点议题包括加州 SB 253：CARB 行业聆听会议的五个新优先事项；自然损失会增加公共借贷成本吗；在 PBM 改革惠及消费者之前，国会还有更多工作要做等。"
+        "本期十一大来源共新增18篇文章，覆盖公司治理、金融监管、数字资产、气候信息与家庭金融等议题。从主分类看，其他8篇、金融监管5篇、公司治理4篇、科技数据与人工智能1篇；没有以反垄断为主题的新文章。",
+        "公司治理的主线是股东权利、长期控制权与新技术监督的重新组合。两个来源同时关注股东权利承压，说明市场对差异表决权、可靠信息和法律救济的关切正从公司内部安排扩展到市场基础设施；IPO后风险投资的持续参与又进一步挑战了“上市即退出”的传统叙事。",
+        "金融监管与科技议题在代币化股票上出现明显交叉。SEC针对代币化国家市场系统股票的有条件豁免，一方面为区块链交易基础设施提供试验空间，另一方面仍要求代币化证券与底层股票保持经济权利和治理权利一致。与此同时，加密资产规制、私募资产公允价值计量与社区再投资法改革，显示监管讨论正在创新促进、会计可靠性与银行社会义务之间寻找新的平衡。",
+        "气候与发展金融文章共同指向“公共承诺如何转化为可执行约束”。加州SB 253的实施讨论聚焦报告负担和范围3排放；漂绿研究则提示，愿景性环境承诺虽可能误导市场，也可能通过组织内部压力和外部基准逐步硬化为行动。自然损失与主权借贷成本、非洲创业企业的外资依赖以及孟加拉投资法的制度整合，则把这一问题扩展到政府融资能力和投资行政效率。",
+        "宏观与家庭层面的研究则强调风险最终由谁承担。纽约联储的关税研究显示，进口成本冲击会同时通过进口商品和国内商品向消费者价格传导；房主保险研究则表明，即使投保，免赔额和保险限额仍会将部分灾害损失留给家庭。本期文献因此呈现出一个共同方向：无论是公司治理、金融创新还是气候政策，制度设计的核心都是在信息、激励与损失承担之间建立可验证的连接。"
       ],
       "article_ids": [
         "art_492",
@@ -14738,7 +14738,7 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "治理人工智能：公司监督和股东参与",
+      "title_cn": "人工智能治理：公司监督与股东参与",
       "topics": [
         "tech_data_ai",
         "corporate_governance"
@@ -14787,10 +14787,9 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "硅谷和标准普尔 100 指数：2026 年代理季结果比较",
+      "title_cn": "硅谷与标普100公司：2026年股东委托投票季对比",
       "topics": [
-        "corporate_governance",
-        "financial_regulation"
+        "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
@@ -14836,7 +14835,7 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "加州 SB 253：CARB 行业聆听会议的五个新优先事项",
+      "title_cn": "加州SB 253：CARB行业听证会显现的五项新重点",
       "topics": [
         "other"
       ],
@@ -14886,13 +14885,13 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "一次又一次的退出：首次公开募股后风险投资的参与",
+      "title_cn": "退出之后：风险投资在IPO后的持续参与",
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "首次公开募股通常被理解为风险投资 (VC) 在公司治理中的作用的终结。按照传统的说法，在首次公开募股后相对较短的锁定期之后，风险投资公司会出售其股票并让位于公开市场机构。所有权分散，控制权平衡发生变化，公司进入其生命管理的新阶段[...]",
+      "abstract_cn": "首次公开募股常被视为风险投资参与公司治理的终点。按照传统叙事，IPO后的锁定期结束后，风险投资机构会出售持股并让位于公开市场投资者，股权随之分散、控制权结构发生变化，公司进入新的治理阶段。",
       "keywords_cn": [
         "公司治理",
         "双重股权结构",
@@ -15014,9 +15013,9 @@
       "source_id": "oblb",
       "title_cn": "超越机构合并：为什么《2026 年孟加拉国投资法》可能还不够",
       "topics": [
-        "corporate_governance"
+        "other"
       ],
-      "primary_topic": "corporate_governance",
+      "primary_topic": "other",
       "affiliations": "",
       "abstract_cn": "Jatiyo Sangshad（议会）最近通过了《孟加拉国投资法案》（法案），以巩固孟加拉国的投资管理。该法案旨在通过将孟加拉国投资发展局（BIDA）、孟加拉国经济区管理局（BEZA）、孟加拉国高科技园区管理局（BHTPA）和公私合作管理局（PPPA）合并为一个机构，即孟加拉国投资局（IBA），创建一个单一机构“前门”并简化投资管理。因此，新成立的 IBA 值得被视为一项雄心勃勃的机构整合项目。 然而，我认为，尽管进行了全面的行政整合，但该法案未能成为孟加拉国全面的投资法典，原因在于三个主要因素：缺乏与投资相关的实质性条款、不连贯且顽固的保密条款以及留给授权立法的重大问题。该法案的正确之处由于机构重叠，孟加拉国的投资管理长期以来处于混乱状态。支离破碎的法律框架将投资机构分为促进机构、区域机构、PPP、许可机构和公用事业机构。因此，该法案整合了所有机构简化投资流程，从而增强投资者的信心。 它还将减少重复、重复记录和官僚繁文缛节。政府澄清说，该立法。",
       "report_id": "2026-10-07",
@@ -15048,13 +15047,13 @@
       "abstract": "Startups in Africa rely heavily on an equity market dominated by foreign investors and founders who studied or worked outside the continent. In new research, Emanuele Colonnelli, Marcio Cruz, Mariana Pereira-Lopez, Tommaso Porzio and Chun Zhao show that this dynamic exists because local equity is expensive, the pool of local entrepreneurs seeking out funding is small, and local entrepreneurs have limited access to foreign investors.",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "非洲创业生态系统的异域风情",
+      "title_cn": "非洲创业生态系统的外资依赖",
       "topics": [
         "other"
       ],
       "primary_topic": "other",
       "affiliations": "",
-      "abstract_cn": "非洲的初创企业严重依赖由在非洲大陆以外学习或工作的外国投资者和创始人主导的股票市场。Emanuele Colonnelli、Marcio Cruz、Mariana Pereira-Lopez、Tommaso Porzio 和 Chun Zhu 在新的研究中表明，这种动态的存在是因为当地股权价格昂贵，寻求资金的当地企业家人数很少，而且当地企业家接触外国投资者的机会有限。",
+      "abstract_cn": "非洲初创企业高度依赖由外国投资者，以及曾在非洲以外学习或工作的创始人主导的股权融资市场。Emanuele Colonnelli、Marcio Cruz、Mariana Pereira-Lopez、Tommaso Porzio和Chun Zhao的新研究表明，这一格局源于本地股权资本成本较高、寻求融资的本地创业者数量有限，以及本地创业者接触外国投资者的渠道不足。",
       "report_id": "2026-10-07",
       "id": "art_502"
     },
@@ -15066,7 +15065,7 @@
       "abstract": "Greenwashing is usually treated as a problem of corporate deception. Firms make environmental claims that exaggerate, selectively disclose, or obscure their actual sustainability performance.",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "漂绿作为理想信号",
+      "title_cn": "漂绿作为愿景性信号",
       "topics": [
         "other"
       ],
@@ -15086,7 +15085,8 @@
       "type": "article",
       "title_cn": "卡希尔讨论 SEC 对代币化股票交易的“创新豁免”",
       "topics": [
-        "financial_regulation"
+        "financial_regulation",
+        "tech_data_ai"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
@@ -15098,7 +15098,7 @@
       "title": "Shadow SEC Statement No. 15: Regulation Crypto",
       "url": "https://clsbluesky.law.columbia.edu/2026/10/06/shadow-sec-statement-no-15-regulation-crypto/",
       "date": "2026-10-06",
-      "authors": "John C. Coffee, Jr.",
+      "authors": "John Coates, John C. Coffee, Jr., James D. Cox, Merritt B. Fox, Joel Seligman",
       "abstract": "On September 15, the Clarity Act failed to secure a cloture vote in the U.S. Senate, with four Republicans and all 47 Democrats voting against considering the bill at this time. The Act may come back to life again next congressional session, but for this session it will not be enacted.",
       "source_id": "cls",
       "type": "article",
@@ -15109,7 +15109,7 @@
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "9 月 15 日，《澄清法案》未能在美国参议院获得最终投票，四名共和党人和全部 47 名民主党人投票反对此时考虑该法案。该法案可能会在下届国会会议上再次生效，但本次会议不会颁布。",
+      "abstract_cn": "9月15日，《澄清法案》未能在美国参议院获得结束辩论并推进审议所需的票数；4名共和党参议员与全47名民主党参议员均反对此时审议该法案。该法案可能在下届国会重新提出，但在本届会期内将不会通过。",
       "report_id": "2026-10-07",
       "id": "art_505"
     },
@@ -15117,7 +15117,7 @@
       "title": "SEC Issues Statement on Fair Value Measurement and Disclosure Considerations for Private Assets",
       "url": "https://clsbluesky.law.columbia.edu/2026/10/06/sec-issues-statement-on-fair-value-measurement-and-disclosure-considerations-for-private-assets/",
       "date": "2026-10-06",
-      "authors": "John C. Coffee, Jr.",
+      "authors": "Kurt Hohl, Brian Daly",
       "abstract": "Investment in private assets continues to grow, including for an increasing number of registrants that are required to subsequently measure these investments at fair value, such as registered closed-end funds, interval funds, tender offer funds, business development companies and private funds regis...",
       "source_id": "cls",
       "type": "article",
@@ -15139,7 +15139,7 @@
       "affiliations": "IntraFi",
       "date": "2026-10-06",
       "abstract": "The OCC and FDIC, but not the Fed, have released a new proposal to rework implementation of the Community Reinvestment Act. Is this one liable to stick when the past two have not? Jesse Van Tol, president of the National Community Reinvestment Coalition, offers his take, including why he sees this latest effort as deeply flawed because it will weaken community-development obligations for banks nationwide.",
-      "abstract_cn": "OCC 和 FDIC（但不是美联储）发布了一项重新实施《社区再投资法案》的新提案。当过去两个都没有的时候，这个容易粘住吗？全国社区再投资联盟主席杰西·范·托尔 (Jesse Van Tol) 提出了他的看法，包括为什么他认为这一最新举措存在严重缺陷，因为它将削弱全国银行的社区发展义务。",
+      "abstract_cn": "货币监理署和联邦存款保险公司已发布重新设计《社区再投资法》实施框架的新提案，美联储并未参与。在前两次改革均未能稳定落地的背景下，本轮方案能否持续实施仍存疑问。全国社区再投资联盟主席Jesse Van Tol认为，该提案将削弱银行在全国范围内的社区发展义务，因而存在严重缺陷。",
       "keywords": [
         "Banking Policy; Financial Regulation; Bank Supervision"
       ],
@@ -15179,8 +15179,8 @@
     {
       "source_id": "nyfed_liberty",
       "title": "Insured, but Still on the Hook: Who Bears the Most Risk in Homeowner’s Insurance?",
-      "title_cn": "已投保，但仍陷入困境：谁承担房主保险的最大风险？",
-      "authors": "Liberty Street Economics",
+      "title_cn": "已有保险却仍需自担损失：房主保险中谁承担最大风险？",
+      "authors": "Hyeyoon Jung, Jaehoon (Kyle) Jung",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-10-05",
       "abstract": "In an April post , using millions of homeowners' insurance contracts matched with property-level exposure and disaster risk, we showed that although households are insured, they are still \"on the hook” because deductibles and coverage limits leave homeowners responsible for part of a loss. Because insurers cannot perfectly observe how well homeowners maintain or protect their properties (a problem known as “moral hazard”), contract terms such as deductibles can play an important role in balancing risk sharing and incentives. By requiring homeowners to bear part of a loss, insurers can preserve",
