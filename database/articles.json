@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-10-10",
+    "last_updated": "2026-10-09",
     "version": "1.0"
   },
   "sources": [
@@ -92,14 +92,6 @@
       "type": "blog",
       "url": "https://bankunderground.co.uk/",
       "description": "英格兰银行官方博客，聚焦货币政策、银行监管与金融稳定研究。"
-    },
-    {
-      "id": "shaoda_wang",
-      "name": "Shaoda Wang Research",
-      "short_name": "王绍达",
-      "name_cn": "王绍达研究追踪",
-      "url": "https://www.sdwang.org/research.html",
-      "description": "官方研究目录：追踪新增作品、发表状态及论文链接；首次建立历史基线，变化日期为观测日期。"
     }
   ],
   "topics": [
@@ -1053,24 +1045,6 @@
         "art_523",
         "art_524",
         "art_525"
-      ]
-    },
-    {
-      "id": "2026-10-10",
-      "date": "2026-10-10",
-      "period_start": "2026-10-10",
-      "period_end": "2026-10-10",
-      "title": "商业法律研究动向",
-      "summary": "本周监测来源共新增3篇文章。",
-      "trends": [
-        "本周监测来源共新增3篇文章，来自Harvard、ProMarket、NY Fed，主题分布以科技、数据与AI（2篇）、金融监管（1篇）为主。",
-        "金融监管领域新增1篇，来自NY Fed。本期重点议题包括价格、价格、价格：整体通胀和您关心的成本。",
-        "科技、数据与AI领域新增2篇，来自Harvard、ProMarket。本期重点议题包括人工智能时代的网络安全风险监管；社区应该抓住人工智能数据中心的好处。"
-      ],
-      "article_ids": [
-        "art_526",
-        "art_527",
-        "art_528"
       ]
     }
   ],
@@ -15706,89 +15680,6 @@
       "abstract_cn": "英国房地产交易可通过英国大额支付系统CHAPS，在支付结算后数分钟内被直接识别和观察。借助2023年6月向ISO 20022支付标准的迁移，以及2025年5月起实行的强制用途代码，作者构建了一个房地产市场活动的实时指标。",
       "report_id": "2026-10-09",
       "id": "art_525"
-    },
-    {
-      "title": "Cybersecurity Risk Oversight in the Age of AI",
-      "url": "https://corpgov.law.harvard.edu/2026/10/09/cybersecurity-risk-oversight-in-the-age-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=cybersecurity-risk-oversight-in-the-age-of-ai",
-      "date": "2026-10-09",
-      "abstract": "As advanced AI models — and autonomous AI “agents” — grow more capable, so do the associated corporate cybersecurity risks. Atincreasingly modest cost, AIsystems can now identify and exploit latent software vulnerabilities, such as by planting malicious code or stealing data, at a speed and scale beyond the reach of human hackers or conventional automated […]",
-      "authors": "Martin Lipton, Wachtell, Lipton, Rosen & Katz",
-      "keywords": [
-        "AI",
-        "AI oversight",
-        "Artificial intelligence",
-        "Cybersecurity",
-        "Martin Lipton",
-        "Wachtell Lipton",
-        "AI",
-        "AI oversight",
-        "Artificial intelligence",
-        "Cybersecurity",
-        "Martin Lipton",
-        "Wachtell Lipton"
-      ],
-      "source_id": "harvard",
-      "type": "article",
-      "title_cn": "人工智能时代的网络安全风险监管",
-      "topics": [
-        "tech_data_ai"
-      ],
-      "primary_topic": "tech_data_ai",
-      "affiliations": "",
-      "abstract_cn": "随着先进的人工智能模型和自主人工智能“代理”的能力变得越来越强大，相关的企业网络安全风险也随之增强。人工智能系统现在可以以越来越低廉的成本识别和利用潜在的软件漏洞，例如通过植入恶意代码或窃取数据，其速度和规模超出了人类黑客或传统自动化的范围[...]",
-      "keywords_cn": [
-        "人工智能",
-        "人工智能监督",
-        "人工智能",
-        "网络安全",
-        "马丁·利普顿",
-        "瓦赫特尔·利普顿",
-        "人工智能",
-        "人工智能监督",
-        "人工智能",
-        "网络安全",
-        "马丁·利普顿",
-        "瓦赫特尔·利普顿"
-      ],
-      "report_id": "2026-10-10",
-      "id": "art_526"
-    },
-    {
-      "title": "Communities Should Capture the Benefits of AI Data Centers",
-      "url": "https://www.promarket.org/2026/10/09/communities-should-capture-the-benefits-of-ai-data-centers/",
-      "date": "2026-10-09",
-      "authors": "Sarah Kreps",
-      "abstract": "Sarah Kreps argues that elected officials should be cautious of immediately rejecting proposals for local data centers. Instead, officials should capture potential benefits and protect residents by negotiating for better terms.",
-      "source_id": "promarket",
-      "type": "article",
-      "title_cn": "社区应该抓住人工智能数据中心的好处",
-      "topics": [
-        "tech_data_ai"
-      ],
-      "primary_topic": "tech_data_ai",
-      "affiliations": "",
-      "abstract_cn": "萨拉·克雷普斯 (Sarah Kreps) 认为，民选官员应该谨慎行事，不要立即拒绝建立本地数据中心的提案。相反，官员们应该通过谈判争取更好的条件来抓住潜在的利益并保护居民。",
-      "report_id": "2026-10-10",
-      "id": "art_527"
-    },
-    {
-      "source_id": "nyfed_liberty",
-      "title": "Prices, Prices, Prices: Overall Inflation and the Costs You Care About",
-      "title_cn": "价格、价格、价格：整体通胀和您关心的成本",
-      "authors": "Kartik B. Athreya",
-      "affiliations": "Federal Reserve Bank of New York",
-      "date": "2026-10-09",
-      "abstract": "As fall starts to show itself in cooler weather, I want to discuss a topic that usually raises temperatures: inflation. Like a budget-conscious consumer, the Federal Reserve is highly attuned to changes in the price of goods and services; minimizing such swings is one of the Fed’s primary duties, after all. But how does the Fed’s view of prices differ from that of a consumer? And how does the Fed go about stabilizing prices writ large when it lacks the ability to set prices directly?",
-      "keywords": [],
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/prices-prices-prices-overall-inflation-and-the-costs-you-care-about/",
-      "type": "article",
-      "topics": [
-        "financial_regulation"
-      ],
-      "primary_topic": "financial_regulation",
-      "abstract_cn": "随着秋天开始在凉爽的天气中显现出来，我想讨论一个通常会引起气温升高的话题：通货膨胀。就像精打细算的消费者一样，美联储对商品和服务价格的变化高度敏感。毕竟，最大限度地减少这种波动是美联储的主要职责之一。但美联储对价格的看法与消费者的看法有何不同？当美联储缺乏直接定价的能力时，它如何稳定物价呢？",
-      "report_id": "2026-10-10",
-      "id": "art_528"
     }
   ],
   "monthly_reports": [
@@ -15872,8 +15763,7 @@
         "2026-10-01",
         "2026-10-05",
         "2026-10-07",
-        "2026-10-09",
-        "2026-10-10"
+        "2026-10-09"
       ],
       "summary": "",
       "trends": []

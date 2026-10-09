@@ -5,7 +5,7 @@ run_weekly.py — 商业法律研究动向 周自动化主协调器
 工作流:
   1. 记录 start_time
   2. 读取 state.json（增量窗口）
-  3. 抓取 12 个来源（单来源失败不影响其他）
+  3. 抓取 11 个来源（单来源失败不影响其他）
   4. 增量判断（last_successful_run → now）
   5. 去重（规范化 URL）
   6. 主题分类
@@ -47,7 +47,6 @@ HTML_PATH = PROJECT_DIR / "index.html"
 
 sys.path.insert(0, str(SCRIPTS_DIR))
 
-from scrapers.shaoda_wang import ShaodaWangScraper
 from scrapers.ecgi import ECGIScraper
 from scrapers.harvard import HarvardScraper
 from scrapers.oblb import OBLBScraper
@@ -63,9 +62,8 @@ from utils.classifier import classify
 from utils.report_gen import generate_report, generate_report_metadata, SOURCE_NAMES, TOPIC_NAMES, TOPIC_ORDER
 from utils.url_normalize import normalize_url
 
-SOURCE_ORDER = ["ecgi", "harvard", "oblb", "promarket", "cls", "yale", "jotwell", "banking_with_interest", "nyfed_liberty", "ecb_supervision", "bank_underground", "shaoda_wang"]
+SOURCE_ORDER = ["ecgi", "harvard", "oblb", "promarket", "cls", "yale", "jotwell", "banking_with_interest", "nyfed_liberty", "ecb_supervision", "bank_underground"]
 SCRAPERS = {
-    "shaoda_wang": ShaodaWangScraper,
     "ecgi": ECGIScraper,
     "harvard": HarvardScraper,
     "oblb": OBLBScraper,
@@ -140,7 +138,7 @@ def get_existing_urls(db):
 
 
 def run_scrapers(since_date):
-    """Run all configured scrapers. Returns (all_articles, source_status)."""
+    """Run all 11 scrapers. Returns (all_articles, source_status)."""
     all_articles = []
     source_status = {}
     for sid in SOURCE_ORDER:
@@ -487,7 +485,7 @@ def main():
         source_dist = Counter(a.get("source_id", "") for a in new_articles)
         active_sources = "、".join(SOURCE_NAMES.get(s, s) for s in source_dist if source_dist[s] > 0)
         topic_str = "、".join(f"{TOPIC_NAMES.get(t, t)}（{c}篇）" for t, c in topic_dist.most_common(3))
-        trends.append(f"本周监测来源共新增{len(new_articles)}篇文章，来自{active_sources}，主题分布以{topic_str}为主。")
+        trends.append(f"本周十一大来源共新增{len(new_articles)}篇文章，来自{active_sources}，主题分布以{topic_str}为主。")
         for topic_id in TOPIC_ORDER:
             topic_arts = [a for a in new_articles if topic_id in (a.get("topics") or [])]
             if topic_arts:
@@ -501,7 +499,7 @@ def main():
                     f"本期重点议题包括{'；'.join(titles_short)}{'等' if len(titles) > 3 else ''}。"
                 )
     else:
-        trends.append("本周监测来源均无新增文章，可能是各机构发布周期所致。")
+        trends.append("本周十一大来源均无新增文章，可能是各机构发布周期所致。")
     failed = [s for s, st in source_status.items() if st == "FAILED"]
     if failed:
         failed_names = "、".join(SOURCE_NAMES.get(s, s) for s in failed)
