@@ -3,6 +3,7 @@
 
 聚焦货币政策、银行监管、金融稳定，BoE 研究人员撰写。
 """
+import re
 import sys
 from pathlib import Path
 
@@ -46,6 +47,15 @@ class BankUndergroundScraper(BaseScraper):
         authors = item.get("authors", "")
         description = item.get("description", "")
 
+        # The Atom feed often exposes only the generic site account as author,
+        # while the real byline is the first bold paragraph in the article.
+        if not authors or authors.replace(" ", "").lower() in {"bankunderground", "bankofengland"}:
+            authors = self._fetch_byline(url) or authors
+
+        if authors and description.startswith(authors):
+            description = description[len(authors):].lstrip(" :-–—")
+        description = re.sub(r"\s*Continue reading\b.*$", "", description, flags=re.I).strip()
+
         # Atom feeds sometimes have content
         abstract = description[:600] if description else ""
 
@@ -61,3 +71,18 @@ class BankUndergroundScraper(BaseScraper):
             "url": url,
             "type": "article",
         }
+
+    def _fetch_byline(self, url):
+        """Recover the substantive article byline from the first bold paragraph."""
+        if not url:
+            return ""
+        try:
+            soup = self._soup(curl_get(url))
+            byline = soup.select_one(".entry-content p strong, article p strong, main p strong")
+            if byline:
+                text = self._clean(byline.get_text(" ", strip=True))
+                if 2 <= len(text.split()) <= 12:
+                    return text
+        except Exception:
+            pass
+        return ""

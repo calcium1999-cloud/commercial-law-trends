@@ -50,8 +50,12 @@ class NYFedScraper(BaseScraper):
             authors = self._fetch_authors(url)
         description = item.get("description", "")
 
-        # 提取摘要：description 通常是 HTML，取前 500 字
+        # 提取摘要：避免在固定字符位置截成半句。
         abstract = description[:600] if description else ""
+        if len(description) > 600:
+            sentence_end = max(abstract.rfind(". "), abstract.rfind("? "), abstract.rfind("! "))
+            if sentence_end >= 300:
+                abstract = abstract[:sentence_end + 1]
 
         # 尝试从 RSS 中提取更多信息
         # Liberty Street 的 RSS 包含 category

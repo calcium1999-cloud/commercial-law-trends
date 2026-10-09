@@ -1020,14 +1020,13 @@
       "period_start": "2026-10-08",
       "period_end": "2026-10-09",
       "title": "商业法律研究动向",
-      "summary": "本周十一大来源共新增16篇文章。",
+      "summary": "本期新增16篇文章，聚焦前瞻性风险治理、金融基础设施与算法证据。",
       "trends": [
-        "本周十一大来源共新增16篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、NY Fed、BoE，主题分布以金融监管（6篇）、科技、数据与AI（3篇）、其他（3篇）为主。",
-        "公司治理领域新增4篇，来自Harvard、ECGI。本期重点议题包括印度上市公司的继任计划：案例研究；股东提案作为公司风险预警系统以及忽视这些提案的成本；SEC 寻求改革代理程序：上市封闭式基金和 BDC 的可喜发展等。",
-        "金融监管领域新增6篇，来自Harvard、OBLB、CLS。本期重点议题包括SEC 寻求改革代理程序：上市封闭式基金和 BDC 的可喜发展；规则 14a-8：也许还有另一种方法；印度代币化证券实验的早期教训等。",
-        "反垄断领域新增3篇，来自Harvard、ProMarket、CLS。本期重点议题包括美国司法部为企业欺诈执法提供新路线图；定价算法是否成为价格垄断证据的两个问题；沙利文和克伦威尔讨论 FDIC 改革银行合并审查的提案。",
-        "科技、数据与AI领域新增5篇，来自NY Fed、ProMarket、OBLB、CLS。本期重点议题包括监管所经过的事物：新加坡对美国芯片控制的回应；定价算法是否成为价格垄断证据的两个问题；董事会可以依赖人工智能辅助管理报告吗等。",
-        "其他领域新增3篇，来自NY Fed、ProMarket、BoE。本期重点议题包括用账户到账户支付取代信用卡和借记卡将为美国人节省数十亿美元；企业异质性与投资对货币政策的反应；使用 CHAPS 用途代码近乎实时地跟踪房产完工情况。"
+        "本期16篇文章呈现出一条清晰主线：公司内部治理、资本市场规则与金融基础设施正在同时转向更具前瞻性的风险识别。研究重点不再只是事后追责，而是通过继任规划、股东提案、估值程序、实时支付数据和算法治理，把风险控制嵌入决策流程。",
+        "公司治理研究集中于“谁应当更早看见风险、谁应当据此行动”。印度上市公司的家族企业继任规划强调控制权交接的制度化；股东提案被重新理解为企业风险的预警机制；围绕规则14a-8与委托书程序的改革，则反映监管者在股东参与成本与基金治理秩序之间重新划线。董事会依赖人工智能辅助管理层报告的问题进一步表明，技术可以改变信息生成方式，却不能取代董事的审慎判断与监督责任。",
+        "金融监管议题从单一产品规制扩展到市场基础设施、平台治理和估值可信度。印度代币化证券试点把分布式账本、智能合约和央行数字货币结算引入公司债市场；SEC关于私人资产公允价值计量的考量、加密资产交易所的治理缺口以及FDIC银行合并审查改革，共同说明监管重心正在转向底层交易机制是否透明、可验证并具有明确责任边界。",
+        "竞争法与科技治理的交叉点主要体现在算法与数据如何成为法律证据。定价算法本身并不当然证明固定价格，信息交换的敏感性以及企业间是否存在互惠安排才是识别协同行为的关键；银行合并审查则同时承载金融稳定与竞争结构评估。新加坡应对美国芯片管制的研究显示，技术供应链治理还受到出口管制、刑法执法和域外政策压力的共同塑造。",
+        "宏观与支付研究展示了高频数据对政策分析的价值：纽约联储分别考察人工智能应用对小企业就业预期的影响，以及不同企业投资对货币政策冲击的异质性；英国CHAPS用途代码则可近实时识别房地产交易完成情况。与美国账户到账户支付的成本讨论结合来看，支付数据正从结算工具转变为观察经济活动、评估竞争成本并支持监管判断的信息基础设施。"
       ],
       "article_ids": [
         "art_510",
@@ -15234,7 +15233,7 @@
       "url": "https://www.ecgi.global/publications/blog/succession-plans-for-listed-companies-in-india-a-case-study",
       "date": "2026-10-08",
       "type": "blog",
-      "authors": "Shardul S. Shroff Ishana Tripathi Dharmil Doshi",
+      "authors": "Shardul S. Shroff, Ishana Tripathi, Dharmil Doshi",
       "abstract": "Family businesses account for70%of India's GDP, with aroundtwo-thirdsof the top 500 listed companies by market capitalisation being family-led, a percentage  projected to rise to85% by 2047. Listed companies in India have controlling shareholders classified as ‘promoter’ and ‘promoter group’, typically founders or legal persons who have predominantly inherited businesses through different succession models. A2025 Barclays and Hurun India reportfound that 76% of the most valuable family firms are run by second-generation leaders, while a2025 HSBC Entrepreneurial Wealth Reportrevealed that 79% businesses have family-oriented succession management plans. In this context, we review the existing governance frameworks with current ownership structures and focus on the enforcement of instruments such as family settlement agreements or constitutions through examples of the top ten listed entities at the National Stock Exchange. Ex Ante: Regulation India has a layered corporate governance framework for succession. The Companies Act, 2013 (CA 2013) mandates aNomination and Remuneration Committee (NRC)to identify qualified persons and formulate succession criteria for key managerial (executive/ non-executive) appointments. Under the applicablesecurities law, a board of directors (Board), based on the NRC criteria, confirm and disclose succession related events.",
       "keywords": [
         "Family Firms",
@@ -15295,7 +15294,7 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "股东提案作为公司风险预警系统以及忽视这些提案的成本",
+      "title_cn": "股东提案：企业风险的预警机制与忽视警示的代价",
       "topics": [
         "corporate_governance"
       ],
@@ -15347,7 +15346,7 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "SEC 寻求改革代理程序：上市封闭式基金和 BDC 的可喜发展",
+      "title_cn": "SEC拟改革委托书程序：上市封闭式基金与BDC的利好",
       "topics": [
         "financial_regulation",
         "corporate_governance"
@@ -15398,7 +15397,7 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "规则 14a-8：也许还有另一种方法",
+      "title_cn": "规则14a-8：或许还有另一条路",
       "topics": [
         "financial_regulation"
       ],
@@ -15448,12 +15447,11 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "美国司法部为企业欺诈执法提供新路线图",
+      "title_cn": "美国司法部公布企业欺诈执法新路线图",
       "topics": [
-        "antitrust",
-        "corporate_governance"
+        "other"
       ],
-      "primary_topic": "antitrust",
+      "primary_topic": "other",
       "affiliations": "",
       "abstract_cn": "关键要点 提高执法决策的透明度：司法部国家欺诈执法部门已确定 10 个将受到重要重视的因素，包括管理层参与、隐瞒、持续时间、财务损失、地理范围以及对政府项目的影响等。公司执法变得更加集中：欺诈部门新成立的公司执法部门将协调公司调查和[...]",
       "keywords_cn": [
@@ -15487,7 +15485,8 @@
       "source_id": "oblb",
       "title_cn": "印度代币化证券实验的早期教训",
       "topics": [
-        "financial_regulation"
+        "financial_regulation",
+        "tech_data_ai"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
@@ -15503,13 +15502,13 @@
       "abstract": "US export controls on advanced chips increasingly depend on jurisdictions whose strategic importance lies in what they host, handle, and route. In arecent article, I examine how Singapore, the paradigm of such a ‘hub economy’, responds to US pressure over AI-chip diversion. Singapore has kept its export-control law anchored to multilateral non-proliferation lists and has reached diversion through general criminal law instead. That balance holds for now, but pending US measures could narrow the space for maintaining it. The debate on semiconductor statecraft has centered on ‘chokepoint economies’ such as Taiwan, the Netherlands, and Japan, which hold nodes of the supply chain others cannot easily replicate. Washington asks them to restrict what they produce. Singapore does not control the leading edge, yet it accounts for around a tenth of global chip output and a fifth of chip-equipment production, and it is the region’s main node for routing and redistribution. Of hub economies, Washington asks something else: police what you host, handle, and route. A2026 House Select Committee reportnames Singapore, Malaysia, and Thailand repeatedly as routing points for smuggled hardware. Singapore’s Strategic Goods (Control) Actis territorial and list-based: it controls goods crossing Singapore’s border, technology transmitted from Singapore, and brokering conducted from Singapore, and its control list tracks the four multilateral export-control regimes. The US Export Administration Regu",
       "authors": "Han-Wei Liu",
       "source_id": "oblb",
-      "title_cn": "监管所经过的事物：新加坡对美国芯片控制的回应",
+      "title_cn": "管控流经之物：新加坡对美国芯片管制的回应",
       "topics": [
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
       "affiliations": "",
-      "abstract_cn": "美国对先进芯片的出口管制越来越依赖于其战略重要性在于其托管、处理和路线的司法管辖区。在最近的文章中，我研究了新加坡作为这种“枢纽经济”的典范，如何回应美国对人工智能芯片转移的压力。新加坡一直将其出口管制法固定在多边防扩散清单上，并通过一般刑法实现转移。目前这种平衡仍然存在，但美国采取的措施可能会缩小维持这种平衡的空间。关于半导体治国之道的辩论已经集中台湾、荷兰和日本等“瓶颈经济体”拥有其他国家无法轻易复制的供应链节点。华盛顿要求他们限制自己的生产。 新加坡并不控制领先优势，但它约占全球芯片产量的十分之一和芯片设备产量的五分之一，并且是该地区路由和再分配的主要节点。对于枢纽经济体，华盛顿提出了其他要求：监管你托管、处理和路由的东西。A2026众议院特别委员会报告多次将新加坡、马来西亚和泰国列为走私硬件的路由点。新加坡的战略物资（控制）英联领土和基于清单：它控制跨越新加坡边境的货物、从新加坡传输的技术以及从新加坡进行的经纪活动，其控制清单跟踪四个多边出口管制制度。",
+      "abstract_cn": "美国对先进芯片的出口管制日益依赖新加坡这类负责托管、处理和转运的“枢纽经济体”。文章考察新加坡如何回应美国关于AI芯片转移的压力：其出口管制法仍以多边防扩散清单为基础，同时借助一般刑法处理规避管制行为。随着美国拟议措施推进，这种在多边规则与美国域外压力之间维持平衡的空间可能进一步收窄。",
       "report_id": "2026-10-09",
       "id": "art_516"
     },
@@ -15521,7 +15520,7 @@
       "abstract": "The transaction fees that businesses incur using credit and debit cards cost Americans billions of dollars each year. Despite the availability of alternative, cheaper account-to-account options that cut out the middleman, Americans have been slow to move away from card payment systems due to market mechanisms that hide the true costs of card transactions to consumers, writes Eli Orbach.",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "用账户到账户支付取代信用卡和借记卡将为美国人节省数十亿美元",
+      "title_cn": "以账户到账户支付替代信用卡和借记卡，每年可为美国人节省数十亿美元",
       "topics": [
         "other"
       ],
@@ -15539,7 +15538,7 @@
       "abstract": "Two recent court rulings on casino-hotels using a shared software to fix prices reveal the importance of information exchanges as a super plus factor: an indicator of illegal conspiracy to limit trade. Roger D. Blair and Javier D. Donna discuss how these court cases and other recent lawsuits elucidate the role of the information exchange and the two vectors that determine its strength as a plus factor: data sensitivity and a give-to-get understanding among firms that if they shared their data, competitors would do the same.",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "定价算法是否成为价格垄断证据的两个问题",
+      "title_cn": "定价算法何时构成固定价格的证据：两个关键问题",
       "topics": [
         "antitrust",
         "tech_data_ai"
@@ -15558,11 +15557,12 @@
       "abstract": "Under corporate law, boards of directors have long had the right to rely on reports and other information supplied by management. This “right of reliance” derives from the board’s power to delegate day-to-day operational responsibility to management.",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "董事会可以依赖人工智能辅助管理报告吗？",
+      "title_cn": "董事会能否依赖人工智能辅助生成的管理层报告？",
       "topics": [
+        "corporate_governance",
         "tech_data_ai"
       ],
-      "primary_topic": "tech_data_ai",
+      "primary_topic": "corporate_governance",
       "affiliations": "",
       "abstract_cn": "根据公司法，董事会长期以来有权依赖管理层提供的报告和其他信息。这种“信赖权”源自董事会将日常运营责任委托给管理层的权力。",
       "report_id": "2026-10-09",
@@ -15576,7 +15576,7 @@
       "abstract": "On September 17, 2026, the Federal Deposit Insurance Corporation issued a notice of proposed rulemaking (the “Proposal”)[1] to modernize and reform its framework for reviewing transactions under the Bank Merger Act (the “BMA”).",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "沙利文和克伦威尔讨论 FDIC 改革银行合并审查的提案",
+      "title_cn": "Sullivan & Cromwell解读FDIC银行合并审查改革提案",
       "topics": [
         "financial_regulation",
         "antitrust"
@@ -15595,7 +15595,7 @@
       "abstract": "For more than a century, exchanges have governed markets as much as they have operated them. While creating liquidity, they have also functioned as private lawmakers within a public regulatory framework by establishing listing standards and disclosure obligations, monitoring issuers, enforcing marke...",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "加密货币交易所存在治理差距",
+      "title_cn": "加密资产交易所的治理缺口",
       "topics": [
         "financial_regulation",
         "tech_data_ai"
@@ -15614,7 +15614,7 @@
       "abstract": "On September 28, 2026, the U.S. Securities and Exchange Commission’s (the SEC) Office of Chief Accountant Kurt Hohl and Division of Investment Management Director Brian Daly (collectively, the Staff), issued a joint statement on fair value measurement and disclosure considerations for private asse...",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "Cleary 讨论 SEC 的公允价值计量和私人资产的披露因素",
+      "title_cn": "Cleary解读SEC关于私人资产公允价值计量与披露的考量因素",
       "topics": [
         "financial_regulation"
       ],
@@ -15627,7 +15627,7 @@
     {
       "source_id": "nyfed_liberty",
       "title": "AI Adoption and Employment Expectations: Evidence from a Survey of Small Business Owners",
-      "title_cn": "人工智能的采用和就业预期：来自小企业主调查的证据",
+      "title_cn": "人工智能应用与就业预期：来自小企业主调查的证据",
       "authors": "Will Aarons and Asani Sarkar",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-10-08",
@@ -15639,7 +15639,7 @@
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
-      "abstract_cn": "关于人工智能的采用对就业的影响几乎没有达成共识。尽管人工智能的采用迅速普及，但整个经济范围内的薪酬和员工人数指标几乎没有变化，但更狭窄的指标记录了职业生涯初期或受人工智能影响的职业的员工招聘人数下降。在这篇文章中，我们将重新讨论美国小企业的这个话题。我们使用 2025 年小型企业信用调查 (SBCS) 的数据来研究人工智能用户未来 12 个月的就业和收入预期。我们发现，目前使用人工智能的公司比非用户更有可能期望人工智能的增长",
+      "abstract_cn": "关于采用人工智能会如何影响就业，现有研究尚无共识。尽管人工智能迅速普及，整体经济的薪酬和就业人数变化不大，但更细分的指标显示，职业生涯初期劳动者及人工智能暴露度较高职业的招聘正在下降。本文利用2025年小企业信贷调查，考察美国小企业人工智能使用者未来十二个月的就业与收入预期。",
       "report_id": "2026-10-09",
       "id": "art_523"
     },
@@ -15658,18 +15658,18 @@
         "other"
       ],
       "primary_topic": "other",
-      "abstract_cn": "众所周知，货币政策影响企业的投资决策。但哪些公司对利率变化反应最灵敏？这种响应能力会随着时间的推移而变化吗？文献对这个问题给出了不同的答案，重点关注公司规模、年龄和财务状况等特征，并且大多是孤立地研究这些特征。在这篇基于最近的员工报告的文章中，我们探讨了投资对货币政策的反应如何在不同公司之间以及随着时间的推移而变化。我们发现大多数公司在大多数时期的投资对货币的反应很小",
+      "abstract_cn": "众所周知，货币政策会影响企业投资决策，但哪些企业对利率变化最敏感、这种敏感度是否随时间变化，文献尚无一致结论。本文基于纽约联储的一份最新工作人员报告，考察不同企业及不同时期的投资对货币政策变化的响应。",
       "report_id": "2026-10-09",
       "id": "art_524"
     },
     {
       "source_id": "bank_underground",
       "title": "Tracking property completions in near real time with CHAPS purpose codes",
-      "title_cn": "使用 CHAPS 用途代码近乎实时地跟踪房产完工情况",
-      "authors": "BankUnderground",
+      "title_cn": "利用CHAPS用途代码近实时追踪房地产交易完成情况",
+      "authors": "Simran Mehta and Valentina Macchiati",
       "affiliations": "Bank of England",
       "date": "2026-10-08",
-      "abstract": "Simran Mehta and Valentina Macchiati UK property transactions can be identified and observed directly within minutes of payment settlement using CHAPS, the UK’s high-value payment system. Taking advantage of the migration to the ISO 20022 payment standard in June 2023, and the introduction of mandatory purpose codes from May 2025, we have developed a real-time … Continue reading Tracking property completions in near real time with CHAPS purpose codes →",
+      "abstract": "UK property transactions can be identified and observed directly within minutes of payment settlement using CHAPS, the UK’s high-value payment system. Taking advantage of the migration to the ISO 20022 payment standard in June 2023 and the introduction of mandatory purpose codes from May 2025, the authors develop a real-time indicator of housing activity.",
       "keywords": [],
       "url": "https://bankunderground.co.uk/2026/10/08/tracking-property-completions-in-near-real-time-with-chaps-purpose-codes/",
       "type": "article",
@@ -15677,7 +15677,7 @@
         "other"
       ],
       "primary_topic": "other",
-      "abstract_cn": "Simran Mehta 和 Valentina Macchiati 英国房产交易可以使用英国的大额支付系统 CHAPS 在支付结算后几分钟内直接识别和观察。利用 2023 年 6 月向 ISO 20022 支付标准的迁移以及从 2025 年 5 月起引入的强制性目的代码，我们开发了实时……继续阅读使用 CHAPS 目的代码近乎实时地跟踪财产竣工情况 →",
+      "abstract_cn": "英国房地产交易可通过英国大额支付系统CHAPS，在支付结算后数分钟内被直接识别和观察。借助2023年6月向ISO 20022支付标准的迁移，以及2025年5月起实行的强制用途代码，作者构建了一个房地产市场活动的实时指标。",
       "report_id": "2026-10-09",
       "id": "art_525"
     }

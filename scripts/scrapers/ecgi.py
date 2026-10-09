@@ -103,8 +103,16 @@ class ECGIScraper(BaseScraper):
             soup = self._soup(html)
             detail = {}
             # 作者
+            meta_authors = []
+            for meta in soup.find_all("meta"):
+                name = (meta.get("name") or "").lower()
+                content = self._clean(meta.get("content", ""))
+                if name in {"dc.creator", "citation_author"} and content:
+                    meta_authors.append(content)
+            if meta_authors:
+                detail["authors"] = ", ".join(dict.fromkeys(meta_authors))
             author_els = soup.find_all(class_=lambda x: x and "author" in str(x).lower() if x else False)
-            if author_els:
+            if not detail.get("authors") and author_els:
                 author_links = [
                     self._clean(a.get_text(" ", strip=True))
                     for a in author_els[-1].find_all("a")

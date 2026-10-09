@@ -4,7 +4,7 @@ import re
 
 TOPIC_KEYWORDS = {
     "corporate_governance": [
-        "board of directors", "fiduciary duty", "shareholder", "executive compensation",
+        "board of directors", "boards of directors", "fiduciary duty", "shareholder", "executive compensation",
         "caremark", "delaware", "say-on-pay", "say on pay", "proxy access",
         "board independence", "shareholder activism", "shareholder proposal",
         "bylaw", "charter", "esg voting", "company director", "corporate director", "proxy season",
@@ -46,7 +46,7 @@ TOPIC_KEYWORDS = {
     "antitrust": [
         "antitrust", "competition", "merger control", "monopoly",
         "market power", "cartel", "price fixing", "sherman act",
-        "clayton act", "ftc", "doj", "dg comp",
+        "clayton act", "ftc", "doj antitrust", "antitrust division", "dg comp",
         "horizontal merger", "vertical merger", "killer acquisition",
         "market definition", "dominant position", "abuse of dominance",
         "exclusionary", "predatory", "tying", "refusal to deal",
@@ -72,7 +72,7 @@ TOPIC_KEYWORDS = {
         "cyber", "ransomware", "data security",
         "biometric", "facial recognition",
         "open source", "interoperability",
-        "smart contract", "blockchain", "nft", "tokenized securities",
+        "smart contract", "blockchain", "nft", "tokenized securities", "tokenised securities",
         "automated market maker", "liquidity pool",
         "digital platform", "tech regulation",
     ],
