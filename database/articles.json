@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-10-07",
+    "last_updated": "2026-10-09",
     "version": "1.0"
   },
   "sources": [
@@ -1012,6 +1012,40 @@
         "art_507",
         "art_508",
         "art_509"
+      ]
+    },
+    {
+      "id": "2026-10-09",
+      "date": "2026-10-09",
+      "period_start": "2026-10-08",
+      "period_end": "2026-10-09",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增16篇文章。",
+      "trends": [
+        "本周十一大来源共新增16篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、NY Fed、BoE，主题分布以金融监管（6篇）、科技、数据与AI（3篇）、其他（3篇）为主。",
+        "公司治理领域新增4篇，来自Harvard、ECGI。本期重点议题包括印度上市公司的继任计划：案例研究；股东提案作为公司风险预警系统以及忽视这些提案的成本；SEC 寻求改革代理程序：上市封闭式基金和 BDC 的可喜发展等。",
+        "金融监管领域新增6篇，来自Harvard、OBLB、CLS。本期重点议题包括SEC 寻求改革代理程序：上市封闭式基金和 BDC 的可喜发展；规则 14a-8：也许还有另一种方法；印度代币化证券实验的早期教训等。",
+        "反垄断领域新增3篇，来自Harvard、ProMarket、CLS。本期重点议题包括美国司法部为企业欺诈执法提供新路线图；定价算法是否成为价格垄断证据的两个问题；沙利文和克伦威尔讨论 FDIC 改革银行合并审查的提案。",
+        "科技、数据与AI领域新增5篇，来自NY Fed、ProMarket、OBLB、CLS。本期重点议题包括监管所经过的事物：新加坡对美国芯片控制的回应；定价算法是否成为价格垄断证据的两个问题；董事会可以依赖人工智能辅助管理报告吗等。",
+        "其他领域新增3篇，来自NY Fed、ProMarket、BoE。本期重点议题包括用账户到账户支付取代信用卡和借记卡将为美国人节省数十亿美元；企业异质性与投资对货币政策的反应；使用 CHAPS 用途代码近乎实时地跟踪房产完工情况。"
+      ],
+      "article_ids": [
+        "art_510",
+        "art_511",
+        "art_512",
+        "art_513",
+        "art_514",
+        "art_515",
+        "art_516",
+        "art_517",
+        "art_518",
+        "art_519",
+        "art_520",
+        "art_521",
+        "art_522",
+        "art_523",
+        "art_524",
+        "art_525"
       ]
     }
   ],
@@ -15194,6 +15228,458 @@
       "abstract_cn": "在四月份的一篇文章中，我们使用了数百万份与财产层面的风险和灾害风险相匹配的房主保险合同，结果表明，尽管家庭有保险，但他们仍然“陷入困境”，因为免赔额和承保范围限制让房主承担部分损失。由于保险公司无法完全观察房主维护或保护其财产的情况（称为“道德风险”的问题），因此免赔额等合同条款可以在平衡风险分担和激励方面发挥重要作用。通过要求房主承担部分损失，保险公司可以保留",
       "report_id": "2026-10-07",
       "id": "art_509"
+    },
+    {
+      "title": "Succession Plans for Listed Companies in India: A Case Study",
+      "url": "https://www.ecgi.global/publications/blog/succession-plans-for-listed-companies-in-india-a-case-study",
+      "date": "2026-10-08",
+      "type": "blog",
+      "authors": "Shardul S. Shroff Ishana Tripathi Dharmil Doshi",
+      "abstract": "Family businesses account for70%of India's GDP, with aroundtwo-thirdsof the top 500 listed companies by market capitalisation being family-led, a percentage  projected to rise to85% by 2047. Listed companies in India have controlling shareholders classified as ‘promoter’ and ‘promoter group’, typically founders or legal persons who have predominantly inherited businesses through different succession models. A2025 Barclays and Hurun India reportfound that 76% of the most valuable family firms are run by second-generation leaders, while a2025 HSBC Entrepreneurial Wealth Reportrevealed that 79% businesses have family-oriented succession management plans. In this context, we review the existing governance frameworks with current ownership structures and focus on the enforcement of instruments such as family settlement agreements or constitutions through examples of the top ten listed entities at the National Stock Exchange. Ex Ante: Regulation India has a layered corporate governance framework for succession. The Companies Act, 2013 (CA 2013) mandates aNomination and Remuneration Committee (NRC)to identify qualified persons and formulate succession criteria for key managerial (executive/ non-executive) appointments. Under the applicablesecurities law, a board of directors (Board), based on the NRC criteria, confirm and disclose succession related events.",
+      "keywords": [
+        "Family Firms",
+        "Ownership",
+        "Shareholders",
+        "Boards",
+        "Emerging Markets",
+        "CEO",
+        "Shareholder Value",
+        "Performance",
+        "Employees",
+        "Management"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "印度上市公司的继任计划：案例研究",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "家族企业占印度GDP的70%，市值排名前500的上市公司中约有三分之二是家族主导的，预计到2047年这一比例将上升至85%。印度上市公司的控股股东被归类为“发起人”和“发起人集团”，通常是创始人或法人，他们主要通过不同的继承模式继承业务。巴克莱和胡润印度的A2025报告发现，76% 的最有价值的家族企业由第二代领导人经营，而 2025 年汇丰创业财富报告显示，79% 的企业拥有以家族为导向的继任管理计划。 在此背景下，我们审查了现有所有权结构的现有治理框架，并通过国家证券交易所排名前十的上市实体的例子重点关注家庭和解协议或宪法等文书的执行。事前：印度法规有一个用于继任的分层公司治理框架。2013 年公司法 (CA 2013) 授权提名和薪酬委员会 (NRC) 识别合格人员并制定关键管理人员（执行/管理人员）的继任标准。非执行）任命。根据适用的证券法，董事会（董事会）根据 NRC 标准，确认并披露继任相关事件。",
+      "keywords_cn": [
+        "家族企业",
+        "所有权",
+        "股东",
+        "板",
+        "新兴市场",
+        "首席执行官",
+        "股东价值",
+        "表现",
+        "雇员",
+        "管理"
+      ],
+      "report_id": "2026-10-09",
+      "id": "art_510"
+    },
+    {
+      "title": "Shareholder Proposals as an Early Warning System for Corporate Risk, and the Cost of Ignoring Them",
+      "url": "https://corpgov.law.harvard.edu/2026/10/08/shareholder-proposals-as-an-early-warning-system-for-corporate-risk-and-the-cost-of-ignoring-them/?utm_source=rss&utm_medium=rss&utm_campaign=shareholder-proposals-as-an-early-warning-system-for-corporate-risk-and-the-cost-of-ignoring-them",
+      "date": "2026-10-08",
+      "abstract": "Much has been written about the significance of the $5 billion historic penalty and privacy reforms imposed by the FTC on Meta, but press surrounding the incident rarely references the fact that this risk was something shareholders had already warned management about through shareholder filings. In 2018, shareholders filed a proposal at Meta asking the […]",
+      "authors": "Timothy Smith and Sehr Khaliq, Interfaith Center on Corporate Responsibility",
+      "keywords": [
+        "Corporate governance",
+        "FTC",
+        "settlement",
+        "Shareholder proposals",
+        "Sehr Khaliq",
+        "Timothy Smith",
+        "ICCR",
+        "Corporate governance",
+        "FTC",
+        "settlement",
+        "Shareholder proposals",
+        "Sehr Khaliq",
+        "Timothy Smith",
+        "ICCR"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "股东提案作为公司风险预警系统以及忽视这些提案的成本",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "关于 FTC 对 Meta 实施的 50 亿美元历史性罚款和隐私改革的重要性，已经有很多文章，但围绕该事件的媒体很少提到这样一个事实：股东已经通过股东文件向管理层警告过这种风险。2018 年，股东向 Meta 提交了一份提案，要求 [...]",
+      "keywords_cn": [
+        "公司治理",
+        "联邦贸易委员会",
+        "沉降",
+        "股东提案",
+        "非常哈利克",
+        "蒂莫西·史密斯",
+        "国际刑事法院",
+        "公司治理",
+        "联邦贸易委员会",
+        "沉降",
+        "股东提案",
+        "非常哈利克",
+        "蒂莫西·史密斯",
+        "国际刑事法院"
+      ],
+      "report_id": "2026-10-09",
+      "id": "art_511"
+    },
+    {
+      "title": "SEC Looks to Reform the Proxy Process: A Welcome Development for Listed Closed-End Funds and BDCs",
+      "url": "https://corpgov.law.harvard.edu/2026/10/08/sec-looks-to-reform-the-proxy-process-a-welcome-development-for-listed-closed-end-funds-and-bdcs/?utm_source=rss&utm_medium=rss&utm_campaign=sec-looks-to-reform-the-proxy-process-a-welcome-development-for-listed-closed-end-funds-and-bdcs",
+      "date": "2026-10-08",
+      "abstract": "Key Takeaways: The SEC’s proposed rescission of Rule 14a-8 and amendments to Rule 14a-4 would significantly raise the cost and difficulty of activist campaigns against listed closed-end funds and BDCs. These proposals, combined with the Supreme Court’s June 2026 decision in FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd., represent a shift in […]",
+      "authors": "Vadim Avdeychik, Andrew Friedman, and Sam Scarritt-Selman, Debevoise & Plimpton LLP",
+      "keywords": [
+        "BDCs",
+        "Proxy season",
+        "Reform",
+        "SEC",
+        "Andrew Friedman",
+        "Sam Scarritt-Selman",
+        "Vadim Avdeychik",
+        "Debevoise & Plimpton",
+        "BDCs",
+        "Proxy season",
+        "Reform",
+        "SEC",
+        "Andrew Friedman",
+        "Sam Scarritt-Selman",
+        "Vadim Avdeychik",
+        "Debevoise & Plimpton"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "SEC 寻求改革代理程序：上市封闭式基金和 BDC 的可喜发展",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "要点：美国证券交易委员会提议废除第 14a-8 条规则并修改第 14a-4 条规则，这将大大增加针对上市封闭式基金和 BDC 的激进活动的成本和难度。这些提案，加上最高法院 2026 年 6 月对 FS Credit Opportunities Corp. 诉 Saba Capital Master Fund, Ltd. 案的裁决，代表了 [...]",
+      "keywords_cn": [
+        "BDC",
+        "代理赛季",
+        "改革",
+        "美国证券交易委员会",
+        "安德鲁·弗里德曼",
+        "萨姆·斯卡里特·塞尔曼",
+        "瓦迪姆·阿夫代奇克",
+        "德布瓦和普林顿",
+        "BDC",
+        "代理赛季",
+        "改革",
+        "美国证券交易委员会",
+        "安德鲁·弗里德曼",
+        "萨姆·斯卡里特·塞尔曼",
+        "瓦迪姆·阿夫代奇克",
+        "德布瓦和普林顿"
+      ],
+      "report_id": "2026-10-09",
+      "id": "art_512"
+    },
+    {
+      "title": "Rule 14a-8: Perhaps There’s Another Way",
+      "url": "https://corpgov.law.harvard.edu/2026/10/07/rule-14a-8-perhaps-theres-another-way/?utm_source=rss&utm_medium=rss&utm_campaign=rule-14a-8-perhaps-theres-another-way",
+      "date": "2026-10-07",
+      "abstract": "One of the more surprising developments around the SEC’s proposed Rule 14a-8 rescission is that one of the rule’s arch critics is having second thoughts. The Heritage Foundation has been one of the most vocal critics of proxy advisers, ESG and “woke investment,” but now that its own remedy has turned against the agenda it […]",
+      "authors": "Sarah Wilson, Minerva Analytics",
+      "keywords": [
+        "dei",
+        "ESG",
+        "Rule 14a-8",
+        "SEC",
+        "Sarah Wilson",
+        "Minerva Analytics",
+        "dei",
+        "ESG",
+        "Rule 14a-8",
+        "SEC",
+        "Sarah Wilson",
+        "Minerva Analytics"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "规则 14a-8：也许还有另一种方法",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "围绕 SEC 提议的第 14a-8 条规则废除的更令人惊讶的进展之一是，该规则的一位主要批评者正在重新考虑。传统基金会一直是代理顾问、ESG 和“觉醒投资”最直言不讳的批评者之一，但现在它自己的补救措施已经违背了它的议程 […]",
+      "keywords_cn": [
+        "的",
+        "环境、社会及治理",
+        "规则 14a-8",
+        "美国证券交易委员会",
+        "萨拉·威尔逊",
+        "密涅瓦分析",
+        "的",
+        "环境、社会及治理",
+        "规则 14a-8",
+        "美国证券交易委员会",
+        "萨拉·威尔逊",
+        "密涅瓦分析"
+      ],
+      "report_id": "2026-10-09",
+      "id": "art_513"
+    },
+    {
+      "title": "DOJ Provides New Roadmap for Corporate Fraud Enforcement",
+      "url": "https://corpgov.law.harvard.edu/2026/10/07/doj-provides-new-roadmap-for-corporate-fraud-enforcement/?utm_source=rss&utm_medium=rss&utm_campaign=doj-provides-new-roadmap-for-corporate-fraud-enforcement",
+      "date": "2026-10-07",
+      "abstract": "Key Takeaways More transparency into enforcement decisions: DOJ’s National Fraud Enforcement Division has identified 10 factors that will receive significant weight, including management involvement, concealment, duration, financial harm, geographic scope, and impact on government programs, among others. Corporate enforcement is becoming more centralized: The Fraud Division’s new Corporate Enforcement Section will coordinate corporate investigations and […]",
+      "authors": "Alex Hastings, Sandra Moser, and Amanda Robinson, Morgan Lewis & Bockius LLP",
+      "keywords": [
+        "Corporate fraud",
+        "Corporate governance",
+        "Disclosure",
+        "DOJ",
+        "Alex Hastings",
+        "Amanda Robinson",
+        "Sandra Moser",
+        "Morgan Lewis",
+        "Corporate fraud",
+        "Corporate governance",
+        "Disclosure",
+        "DOJ",
+        "Alex Hastings",
+        "Amanda Robinson",
+        "Sandra Moser",
+        "Morgan Lewis"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "美国司法部为企业欺诈执法提供新路线图",
+      "topics": [
+        "antitrust",
+        "corporate_governance"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "关键要点 提高执法决策的透明度：司法部国家欺诈执法部门已确定 10 个将受到重要重视的因素，包括管理层参与、隐瞒、持续时间、财务损失、地理范围以及对政府项目的影响等。公司执法变得更加集中：欺诈部门新成立的公司执法部门将协调公司调查和[...]",
+      "keywords_cn": [
+        "企业欺诈",
+        "公司治理",
+        "披露",
+        "美国司法部",
+        "亚历克斯·黑斯廷斯",
+        "阿曼达罗宾逊",
+        "桑德拉·莫泽",
+        "摩根刘易斯",
+        "企业欺诈",
+        "公司治理",
+        "披露",
+        "美国司法部",
+        "亚历克斯·黑斯廷斯",
+        "阿曼达罗宾逊",
+        "桑德拉·莫泽",
+        "摩根刘易斯"
+      ],
+      "report_id": "2026-10-09",
+      "id": "art_514"
+    },
+    {
+      "title": "Early Lessons From India's Experiment With Tokenised Securities",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/10/early-lessons-indias-experiment-tokenised-securities",
+      "date": "2026-10-09",
+      "type": "blog",
+      "abstract": "Nearly three decades after dematerialisation reshaped India’s securities market, it is preparing for another infrastructure upgrade. Through ‘Demat 2.0’, a pilot programme launched by the Securities and Exchange Board of India (‘SEBI’) and the Reserve Bank of India (‘RBI’) at the Global Fintech Fest 2026, corporate bonds can now be issued, held and settled as tokenised instruments on a Distributed Ledger Technology (‘DLT’) infrastructure. The pilot promises same day settlement, automated corporate actions and lower operational friction. SEBI’spress releasedated Sep 10, 2026, and theFrequently Asked Questions(‘FAQs’) detail the working of the pilot programme. Under ‘Demat 2.0’, the depository holds and manages the private keys needed to operate on the DLT ledger. The front-end process for the issuer remains unchanged but the bond’s key terms such as coupon rate, payment dates, etc. are now encoded into the token via a smart contract. Consequently, on allotment, tokenised bonds are credited directly to investors’ Demat 2.0 accounts, while issue proceeds are credited to the issuer’s CBDC (‘Central Bank Digital Currency’) wallet through atomic settlement, i.e. the securities and payments are transferred simultaneously or not at all. The issuer receives payment in e-rupee the same day as bidding, which used to conventionally take around 2–3 days, while also eliminating several manual processes currently undertaken by issuers, registrars, and banking intermediaries. While regulator",
+      "authors": "Siddhant Shinde, Akash Nath",
+      "source_id": "oblb",
+      "title_cn": "印度代币化证券实验的早期教训",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "在非物质化重塑印度证券市场近三十年后，印度正在为另一次基础设施升级做准备。通过印度证券交易委员会（SEBI）和印度储备银行（RBI）在 2026 年全球金融科技节上推出的试点计划“Demat 2.0”，公司债券现在可以作为代币化工具在分布式账本技术（“DLT”）基础设施上发行、持有和结算。该试点承诺当天结算，自动化的企业行为和更低的运营摩擦。SEBI 于 2026 年 9 月 10 日发布的新闻稿，以及常见问题解答（“FAQ”）详细介绍了试点计划的工作。在“Demat 2.0”下，保管机构持有并管理在 DLT 账本上运行所需的私钥。 发行人的前端流程保持不变，但债券的关键条款（如票面利率、付款日期等）现在通过智能合约编码到代币中。因此，在配发时，代币化债券将直接记入投资者的 Demat 2.0 账户，而发行收益则通过原子结算记入发行人的 CBDC（“中央银行数字货币”）钱包，即证券和付款同时转移或根本不转移。投标当天以电子卢比付款，过去通常需要大约 2-3 天，同时还消除了发行人、注册商和银行中介机构目前执行的几个手动流程。",
+      "report_id": "2026-10-09",
+      "id": "art_515"
+    },
+    {
+      "title": "Policing What Passes Through: Singapore’s Answer to US Chip Controls",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/10/policing-what-passes-through-singapores-answer-us-chip-controls",
+      "date": "2026-10-08",
+      "type": "blog",
+      "abstract": "US export controls on advanced chips increasingly depend on jurisdictions whose strategic importance lies in what they host, handle, and route. In arecent article, I examine how Singapore, the paradigm of such a ‘hub economy’, responds to US pressure over AI-chip diversion. Singapore has kept its export-control law anchored to multilateral non-proliferation lists and has reached diversion through general criminal law instead. That balance holds for now, but pending US measures could narrow the space for maintaining it. The debate on semiconductor statecraft has centered on ‘chokepoint economies’ such as Taiwan, the Netherlands, and Japan, which hold nodes of the supply chain others cannot easily replicate. Washington asks them to restrict what they produce. Singapore does not control the leading edge, yet it accounts for around a tenth of global chip output and a fifth of chip-equipment production, and it is the region’s main node for routing and redistribution. Of hub economies, Washington asks something else: police what you host, handle, and route. A2026 House Select Committee reportnames Singapore, Malaysia, and Thailand repeatedly as routing points for smuggled hardware. Singapore’s Strategic Goods (Control) Actis territorial and list-based: it controls goods crossing Singapore’s border, technology transmitted from Singapore, and brokering conducted from Singapore, and its control list tracks the four multilateral export-control regimes. The US Export Administration Regu",
+      "authors": "Han-Wei Liu",
+      "source_id": "oblb",
+      "title_cn": "监管所经过的事物：新加坡对美国芯片控制的回应",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "美国对先进芯片的出口管制越来越依赖于其战略重要性在于其托管、处理和路线的司法管辖区。在最近的文章中，我研究了新加坡作为这种“枢纽经济”的典范，如何回应美国对人工智能芯片转移的压力。新加坡一直将其出口管制法固定在多边防扩散清单上，并通过一般刑法实现转移。目前这种平衡仍然存在，但美国采取的措施可能会缩小维持这种平衡的空间。关于半导体治国之道的辩论已经集中台湾、荷兰和日本等“瓶颈经济体”拥有其他国家无法轻易复制的供应链节点。华盛顿要求他们限制自己的生产。 新加坡并不控制领先优势，但它约占全球芯片产量的十分之一和芯片设备产量的五分之一，并且是该地区路由和再分配的主要节点。对于枢纽经济体，华盛顿提出了其他要求：监管你托管、处理和路由的东西。A2026众议院特别委员会报告多次将新加坡、马来西亚和泰国列为走私硬件的路由点。新加坡的战略物资（控制）英联领土和基于清单：它控制跨越新加坡边境的货物、从新加坡传输的技术以及从新加坡进行的经纪活动，其控制清单跟踪四个多边出口管制制度。",
+      "report_id": "2026-10-09",
+      "id": "art_516"
+    },
+    {
+      "title": "Replacing Credit and Debit Cards With Account-to-Account Payments Would Save Americans Billions",
+      "url": "https://www.promarket.org/2026/10/08/replacing-credit-and-debit-cards-with-account-to-account-payments-would-save-americans-billions/",
+      "date": "2026-10-08",
+      "authors": "Eli Orbach",
+      "abstract": "The transaction fees that businesses incur using credit and debit cards cost Americans billions of dollars each year. Despite the availability of alternative, cheaper account-to-account options that cut out the middleman, Americans have been slow to move away from card payment systems due to market mechanisms that hide the true costs of card transactions to consumers, writes Eli Orbach.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "用账户到账户支付取代信用卡和借记卡将为美国人节省数十亿美元",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "企业使用信用卡和借记卡产生的交易费用每年花费美国人数十亿美元。伊莱·奥尔巴赫（Eli Orbach）写道，尽管存在替代性的、更便宜的账户到账户选项，可以省去中间商，但由于市场机制向消费者隐藏了银行卡交易的真实成本，美国人在放弃银行卡支付系统方面进展缓慢。",
+      "report_id": "2026-10-09",
+      "id": "art_517"
+    },
+    {
+      "title": "Two Questions Determine Whether a Pricing Algorithm Becomes Evidence of Price Fixing",
+      "url": "https://www.promarket.org/2026/10/07/two-questions-determine-whether-a-pricing-algorithm-becomes-evidence-of-price-fixing/",
+      "date": "2026-10-07",
+      "authors": "Roger D. Blair and Javier D. Donna",
+      "abstract": "Two recent court rulings on casino-hotels using a shared software to fix prices reveal the importance of information exchanges as a super plus factor: an indicator of illegal conspiracy to limit trade. Roger D. Blair and Javier D. Donna discuss how these court cases and other recent lawsuits elucidate the role of the information exchange and the two vectors that determine its strength as a plus factor: data sensitivity and a give-to-get understanding among firms that if they shared their data, competitors would do the same.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "定价算法是否成为价格垄断证据的两个问题",
+      "topics": [
+        "antitrust",
+        "tech_data_ai"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "最近法院对赌场酒店使用共享软件定价的两项裁决揭示了信息交换作为超级因素的重要性：这是限制贸易的非法阴谋的指标。罗杰·布莱尔（Roger D. Blair）和哈维尔·D·唐纳（Javier D. Donna）讨论了这些法庭案件和其他最近的诉讼如何阐明信息交换的作用以及决定其优势的两个因素：数据敏感性以及公司之间的互惠互利的理解，即如果他们共享数据，竞争对手也会这样做。",
+      "report_id": "2026-10-09",
+      "id": "art_518"
+    },
+    {
+      "title": "Can Boards Rely on AI-Assisted Management Reports?",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/09/can-boards-rely-on-ai-assisted-management-reports/",
+      "date": "2026-10-09",
+      "authors": "Michael W. Peregrine, Aaron Sorensen",
+      "abstract": "Under corporate law, boards of directors have long had the right to rely on reports and other information supplied by management. This “right of reliance” derives from the board’s power to delegate day-to-day operational responsibility to management.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "董事会可以依赖人工智能辅助管理报告吗？",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "根据公司法，董事会长期以来有权依赖管理层提供的报告和其他信息。这种“信赖权”源自董事会将日常运营责任委托给管理层的权力。",
+      "report_id": "2026-10-09",
+      "id": "art_519"
+    },
+    {
+      "title": "Sullivan & Cromwell Discusses FDIC Proposal to Reform Bank Merger Review",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/09/sullivan-cromwell-discusses-fdic-proposal-to-reform-bank-merger-review/",
+      "date": "2026-10-09",
+      "authors": "Sullivan & Cromwell LLP",
+      "abstract": "On September 17, 2026, the Federal Deposit Insurance Corporation issued a notice of proposed rulemaking (the “Proposal”)[1] to modernize and reform its framework for reviewing transactions under the Bank Merger Act (the “BMA”).",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "沙利文和克伦威尔讨论 FDIC 改革银行合并审查的提案",
+      "topics": [
+        "financial_regulation",
+        "antitrust"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 17 日，联邦存款保险公司发布了拟议规则制定通知（“提案”）[1]，以现代化和改革其根据《银行合并法》（“BMA”）审查交易的框架。",
+      "report_id": "2026-10-09",
+      "id": "art_520"
+    },
+    {
+      "title": "Cryptoexchanges Have a Governance Gap",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/08/cryptoexchanges-have-a-governance-gap/",
+      "date": "2026-10-08",
+      "authors": "Vanessa Villanueva Collao",
+      "abstract": "For more than a century, exchanges have governed markets as much as they have operated them. While creating liquidity, they have also functioned as private lawmakers within a public regulatory framework by establishing listing standards and disclosure obligations, monitoring issuers, enforcing marke...",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "加密货币交易所存在治理差距",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "一个多世纪以来，交易所既管理着市场，也管理着市场。在创造流动性的同时，他们还通过制定上市标准和披露义务、监控发行人、执行市场监管等方式，在公共监管框架内发挥私人立法者的作用。",
+      "report_id": "2026-10-09",
+      "id": "art_521"
+    },
+    {
+      "title": "Cleary Discusses SEC’s Fair Value Measurement, Disclosure Factors for Private Assets",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/08/cleary-discusses-secs-fair-value-measurement-disclosure-factors-for-private-assets/",
+      "date": "2026-10-08",
+      "authors": "Cleary Gottlieb Steen & Hamilton LLP",
+      "abstract": "On September 28, 2026, the U.S. Securities and Exchange Commission’s (the SEC) Office of Chief Accountant Kurt Hohl and Division of Investment Management Director Brian Daly (collectively, the Staff), issued a joint statement on fair value measurement and disclosure considerations for private asse...",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Cleary 讨论 SEC 的公允价值计量和私人资产的披露因素",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 28 日，美国证券交易委员会 (SEC) 首席会计师库尔特·霍尔 (Kurt Hohl) 办公室和投资管理部总监布莱恩·戴利 (统称“工作人员”) 发布了一份关于私人资产公允价值计量和披露注意事项的联合声明。",
+      "report_id": "2026-10-09",
+      "id": "art_522"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "AI Adoption and Employment Expectations: Evidence from a Survey of Small Business Owners",
+      "title_cn": "人工智能的采用和就业预期：来自小企业主调查的证据",
+      "authors": "Will Aarons and Asani Sarkar",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-10-08",
+      "abstract": "There is little consensus on the effect of AI adoption on employment. Economy-wide measures of pay and headcount have moved little even as AI adoption has spread rapidly, yet narrower measures document declining hiring for workers at the start of their careers or in AI-exposed occupations . In this post, we revisit this topic for U.S. small businesses. We use data from the 2025 Small Business Credit Survey (SBCS) to examine the twelve-month-forward employment and revenue expectations of AI users. We find that firms currently using AI are significantly more likely than non-users to expect incre",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/ai-adoption-and-employment-expectations-evidence-from-a-survey-of-small-business-owners/",
+      "type": "article",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "abstract_cn": "关于人工智能的采用对就业的影响几乎没有达成共识。尽管人工智能的采用迅速普及，但整个经济范围内的薪酬和员工人数指标几乎没有变化，但更狭窄的指标记录了职业生涯初期或受人工智能影响的职业的员工招聘人数下降。在这篇文章中，我们将重新讨论美国小企业的这个话题。我们使用 2025 年小型企业信用调查 (SBCS) 的数据来研究人工智能用户未来 12 个月的就业和收入预期。我们发现，目前使用人工智能的公司比非用户更有可能期望人工智能的增长",
+      "report_id": "2026-10-09",
+      "id": "art_523"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Firm Heterogeneity and the Response of Investment to Monetary Policy",
+      "title_cn": "企业异质性与投资对货币政策的反应",
+      "authors": "Thomas Drechsel, Daniel Lewis, Davide Melcangi, and Laura Pilossoph",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-10-07",
+      "abstract": "It is well known that monetary policy affects firms’ investment decisions. But which firms are the most responsive to changes in interest rates? And does this responsiveness vary over time? The literature has given diverse answers to this question, focusing on characteristics such as firm size, age, and financial position, and mostly studying these traits in isolation. In this post based on a recent Staff Report , we explore how investment responsiveness to monetary policy changes across firms and over time. We find that investment by most firms in most time periods responds little to monetary",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/firm-heterogeneity-and-the-response-of-investment-to-monetary-policy/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "众所周知，货币政策影响企业的投资决策。但哪些公司对利率变化反应最灵敏？这种响应能力会随着时间的推移而变化吗？文献对这个问题给出了不同的答案，重点关注公司规模、年龄和财务状况等特征，并且大多是孤立地研究这些特征。在这篇基于最近的员工报告的文章中，我们探讨了投资对货币政策的反应如何在不同公司之间以及随着时间的推移而变化。我们发现大多数公司在大多数时期的投资对货币的反应很小",
+      "report_id": "2026-10-09",
+      "id": "art_524"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Tracking property completions in near real time with CHAPS purpose codes",
+      "title_cn": "使用 CHAPS 用途代码近乎实时地跟踪房产完工情况",
+      "authors": "BankUnderground",
+      "affiliations": "Bank of England",
+      "date": "2026-10-08",
+      "abstract": "Simran Mehta and Valentina Macchiati UK property transactions can be identified and observed directly within minutes of payment settlement using CHAPS, the UK’s high-value payment system. Taking advantage of the migration to the ISO 20022 payment standard in June 2023, and the introduction of mandatory purpose codes from May 2025, we have developed a real-time … Continue reading Tracking property completions in near real time with CHAPS purpose codes →",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/10/08/tracking-property-completions-in-near-real-time-with-chaps-purpose-codes/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "Simran Mehta 和 Valentina Macchiati 英国房产交易可以使用英国的大额支付系统 CHAPS 在支付结算后几分钟内直接识别和观察。利用 2023 年 6 月向 ISO 20022 支付标准的迁移以及从 2025 年 5 月起引入的强制性目的代码，我们开发了实时……继续阅读使用 CHAPS 目的代码近乎实时地跟踪财产竣工情况 →",
+      "report_id": "2026-10-09",
+      "id": "art_525"
     }
   ],
   "monthly_reports": [
@@ -15276,7 +15762,8 @@
       "report_ids": [
         "2026-10-01",
         "2026-10-05",
-        "2026-10-07"
+        "2026-10-07",
+        "2026-10-09"
       ],
       "summary": "",
       "trends": []
