@@ -1736,9 +1736,20 @@
         /* Issue reading: one editorial introduction, followed by the articles. */
         [hidden] { display: none !important; }
         body.issue-view .container { padding-top: 1.5rem; }
-        body.issue-view .editorial-cover { min-height: 195px; }
-        body.issue-view .editorial-cover-copy { padding-top: 1.8rem; padding-bottom: 1.8rem; }
+        body.issue-view .editorial-cover { min-height: 0; }
+        body.issue-view .editorial-cover-copy { padding-top: 1.4rem; padding-bottom: 1.5rem; }
+        body.issue-view .editorial-index { justify-content: flex-start; padding-top: 1.6rem; }
+        body.issue-view .editorial-cover h2 { margin: .65rem 0 .7rem; font-size: clamp(1.35rem, 1.8vw, 1.75rem); }
         body.issue-view #editorialSummary { display: none; }
+        #coverNarrative:empty { display: none; }
+        body.issue-view #coverNarrative .trend-summary { margin-bottom: .4rem; }
+        body.issue-view #coverNarrative p { display: block; overflow: visible; -webkit-line-clamp: unset; max-width: 78ch; color: rgba(255,255,255,.88); font-size: .95rem; font-weight: 400; line-height: 1.85; }
+        body.issue-view #coverNarrative .trend-summary p { margin: 0; }
+        body.issue-view #coverNarrative .issue-editorial summary { margin: .65rem 0; color: #c7def2; }
+        body.issue-view #coverNarrative .issue-editorial summary:hover { color: #fff; }
+        body.issue-view #coverNarrative .issue-editorial > p { margin-top: .8rem; }
+        body.issue-view #coverNarrative .dl-report-btn { margin-top: .6rem; padding: .35rem .65rem; border: 1px solid rgba(255,255,255,.3); background: transparent; color: #fff; box-shadow: none; }
+        body.issue-view #coverNarrative .dl-label, body.issue-view #coverNarrative .dl-arrow { color: inherit; }
         body.issue-view .trends-section {
             padding: 0 0 1.6rem; margin-bottom: 1.7rem; border: 0;
             border-bottom: 1px solid var(--color-border); box-shadow: none; background: transparent;
@@ -1823,6 +1834,7 @@
         <div class="editorial-kicker"><span class="editorial-seal" aria-hidden="true">研</span><span id="editorialIssue">本期观察</span></div>
         <h2 id="editorialTitle">法律、金融与制度变迁</h2>
         <p id="editorialSummary"></p>
+        <div id="coverNarrative"></div>
     </div>
     <div class="editorial-index">
         <div id="editorialIndex"></div>
@@ -17933,7 +17945,7 @@ function renderEditorialCover() {
     const topics = topicCountsFor(filtered).filter(item => item.count > 0).slice(0, 4);
     $('editorialIssue').textContent = report ? report.period_start + ' — ' + report.period_end + ' · 本期研究' : state.selectedMonth ? state.selectedMonth + ' · 月度回望' : '研究档案 · 持续更新';
     const edit = report && editorialFor(report.id);
-    $('editorialTitle').textContent = report ? (report.summary || '本期法律与金融研究').replace(/^本[期周].*?新增\s*\d+\s*篇文章[，,。]?\s*/, '').replace(/[。.]$/, '') || '本期法律与金融研究' : state.selectedMonth ? '以月为尺，观察制度的演进' : '循研究脉络，连接制度与市场';
+    $('editorialTitle').textContent = report ? '本期研究脉络' : state.selectedMonth ? '以月为尺，观察制度的演进' : '循研究脉络，连接制度与市场';
     const hasSubFilter = state.selectedSource !== 'all' || state.selectedTopic !== 'all' || Boolean(state.searchTerm);
     $('editorialSummary').textContent = edit && !hasSubFilter ? edit.summary : '当前收录 ' + filtered.length + ' 篇研究，覆盖 ' + new Set(filtered.map(article => article.source_id)).size + ' 个来源。' + (topics.length ? '从' + topics.slice(0, 2).map(item => item.topic.name_cn).join('、') + '切入，追踪法律与金融的交汇。' : '选择来源、主题或关键词，开始阅读。');
     const max = Math.max(1, ...topics.map(item => item.count));
@@ -17952,6 +17964,16 @@ function renderTrends() {
     const report = reportById.get(state.selectedReport);
     const monthly = state.selectedMonth && (DB.monthly_reports || []).find(item => item.id === state.selectedMonth);
     const narrative = report || monthly;
+    // Keep one editorial region: inside the blue cover for issues, in the
+    // main overview panel for archive/month views. Move existing nodes so
+    // their identifiers, download action and accessible details stay intact.
+    $('trendsSection').hidden = Boolean(report);
+    if (report) {
+        $('coverNarrative').append($('trendsNarrative'), $('dlReportBtn'));
+    } else {
+        $('trendsSection').insertBefore($('trendsNarrative'), $('trendsChart'));
+        $('trendsSection').append($('dlReportBtn'));
+    }
     $('trendsTag').textContent = report ? '本期按语' : state.selectedMonth ? '本月按语' : '研究总览';
     $('trendsTitle').textContent = narrative ? '研究趋势概括' : '主题分布与关键词';
     $('trendsPeriod').textContent = report ? report.period_start + ' — ' + report.period_end : state.selectedMonth ? (monthly && monthly.label) || state.selectedMonth : '基于 ' + getFilteredArticles().length + ' 篇文章';
