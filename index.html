@@ -1735,8 +1735,10 @@
         @media(prefers-reduced-motion:reduce) { #keywordCloud .wc-word.cloud-enter { animation: none; } }
         /* Issue reading: one editorial introduction, followed by the articles. */
         [hidden] { display: none !important; }
-        body.issue-view .fret-band { display: none; }
-        body.issue-view .container { max-width: 1440px; gap: 2rem; padding-top: 1.5rem; }
+        body.issue-view .container { padding-top: 1.5rem; }
+        body.issue-view .editorial-cover { min-height: 195px; }
+        body.issue-view .editorial-cover-copy { padding-top: 1.8rem; padding-bottom: 1.8rem; }
+        body.issue-view #editorialSummary { display: none; }
         body.issue-view .trends-section {
             padding: 0 0 1.6rem; margin-bottom: 1.7rem; border: 0;
             border-bottom: 1px solid var(--color-border); box-shadow: none; background: transparent;
@@ -1752,15 +1754,9 @@
         .issue-editorial > p { margin: 0 0 .85rem; font-size: .93rem; line-height: 1.95; color: var(--color-text-secondary); }
         body.issue-view .dl-report-btn { margin-top: .8rem; padding: .55rem .9rem; width: fit-content; }
         body.issue-view .dl-meta, body.issue-view .dl-bar { display: none; }
-        body.issue-view #articlesList { grid-template-columns: minmax(0, 1fr); gap: 0; }
-        body.issue-view #articlesList .article-card { border: 0; border-bottom: 1px solid var(--color-border-light); background: transparent; box-shadow: none; padding: 1.5rem 0; }
-        body.issue-view #articlesList .article-date { margin: 0; white-space: nowrap; }
-        body.issue-view #articlesList .article-header { display: flex; justify-content: space-between; gap: 1rem; }
-        body.issue-view #articlesList .article-body { max-width: 90ch; }
-        body.issue-view .article-card:not(.expanded) .article-abstract { display: none; }
-        body.issue-view .article-card:not(.expanded) .article-abstract-cn { -webkit-line-clamp: 3; }
-        body.issue-view .article-card:not(.expanded) .article-keywords { display: none; }
-        body.issue-view .article-card:not(.expanded) .period-tag { display: none; }
+        @media (min-width: 901px), (min-width: 740px) and (orientation: landscape) {
+            body.issue-view #articlesList { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
         body.issue-view .article-card:hover .article-abstract-cn { color: var(--color-text-secondary); }
         .article-card { transition: border-color 180ms ease, background-color 180ms ease; }
         .article-card:hover { transform: none; box-shadow: none; }
@@ -17932,13 +17928,12 @@ function renderResearchThreads(articles, edit) {
 function renderEditorialCover() {
     if (!$('editorialTitle')) return;
     const report = reportById.get(state.selectedReport);
-    $('editorialCover').hidden = Boolean(report);
-    if (report) return;
+    $('editorialCover').hidden = false;
     const filtered = getFilteredArticles();
     const topics = topicCountsFor(filtered).filter(item => item.count > 0).slice(0, 4);
     $('editorialIssue').textContent = report ? report.period_start + ' — ' + report.period_end + ' · 本期研究' : state.selectedMonth ? state.selectedMonth + ' · 月度回望' : '研究档案 · 持续更新';
     const edit = report && editorialFor(report.id);
-    $('editorialTitle').textContent = edit ? edit.title : state.selectedMonth ? '以月为尺，观察制度的演进' : '循研究脉络，连接制度与市场';
+    $('editorialTitle').textContent = report ? (report.summary || '本期法律与金融研究').replace(/^本[期周].*?新增\s*\d+\s*篇文章[，,。]?\s*/, '').replace(/[。.]$/, '') || '本期法律与金融研究' : state.selectedMonth ? '以月为尺，观察制度的演进' : '循研究脉络，连接制度与市场';
     const hasSubFilter = state.selectedSource !== 'all' || state.selectedTopic !== 'all' || Boolean(state.searchTerm);
     $('editorialSummary').textContent = edit && !hasSubFilter ? edit.summary : '当前收录 ' + filtered.length + ' 篇研究，覆盖 ' + new Set(filtered.map(article => article.source_id)).size + ' 个来源。' + (topics.length ? '从' + topics.slice(0, 2).map(item => item.topic.name_cn).join('、') + '切入，追踪法律与金融的交汇。' : '选择来源、主题或关键词，开始阅读。');
     const max = Math.max(1, ...topics.map(item => item.count));
