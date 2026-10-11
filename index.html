@@ -1733,6 +1733,47 @@
         @keyframes cloudBloom { from { opacity: 0; transform: scale(.82) translateY(8px); } to { opacity: 1; transform: none; } }
         @media(max-width:600px) { #keywordCloud { height: 420px !important; } }
         @media(prefers-reduced-motion:reduce) { #keywordCloud .wc-word.cloud-enter { animation: none; } }
+        /* Issue reading: one editorial introduction, followed by the articles. */
+        [hidden] { display: none !important; }
+        body.issue-view .fret-band { display: none; }
+        body.issue-view .container { max-width: 1440px; gap: 2rem; padding-top: 1.5rem; }
+        body.issue-view .trends-section {
+            padding: 0 0 1.6rem; margin-bottom: 1.7rem; border: 0;
+            border-bottom: 1px solid var(--color-border); box-shadow: none; background: transparent;
+        }
+        body.issue-view .trends-head { margin-bottom: .7rem; }
+        body.issue-view #trendsTitle { font-size: clamp(1.4rem, 2vw, 1.85rem); margin-bottom: .8rem; }
+        body.issue-view .trend-summary { padding: 0; border: 0; background: transparent; margin-bottom: 1rem; }
+        body.issue-view .trend-summary p { font-size: 1.02rem; line-height: 1.95; max-width: 76ch; color: var(--color-primary); }
+        .issue-editorial { max-width: 78ch; }
+        .issue-editorial summary { width: fit-content; margin: .6rem 0 1rem; cursor: pointer; color: var(--color-secondary); font-size: .84rem; }
+        .issue-editorial summary:hover { color: var(--color-primary); }
+        .issue-editorial[open] summary { margin-bottom: 1.1rem; }
+        .issue-editorial > p { margin: 0 0 .85rem; font-size: .93rem; line-height: 1.95; color: var(--color-text-secondary); }
+        body.issue-view .dl-report-btn { margin-top: .8rem; padding: .55rem .9rem; width: fit-content; }
+        body.issue-view .dl-meta, body.issue-view .dl-bar { display: none; }
+        body.issue-view #articlesList { grid-template-columns: minmax(0, 1fr); gap: 0; }
+        body.issue-view #articlesList .article-card { border: 0; border-bottom: 1px solid var(--color-border-light); background: transparent; box-shadow: none; padding: 1.5rem 0; }
+        body.issue-view #articlesList .article-date { margin: 0; white-space: nowrap; }
+        body.issue-view #articlesList .article-header { display: flex; justify-content: space-between; gap: 1rem; }
+        body.issue-view #articlesList .article-body { max-width: 90ch; }
+        body.issue-view .article-card:not(.expanded) .article-abstract { display: none; }
+        body.issue-view .article-card:not(.expanded) .article-abstract-cn { -webkit-line-clamp: 3; }
+        body.issue-view .article-card:not(.expanded) .article-keywords { display: none; }
+        body.issue-view .article-card:not(.expanded) .period-tag { display: none; }
+        body.issue-view .article-card:hover .article-abstract-cn { color: var(--color-text-secondary); }
+        .article-card { transition: border-color 180ms ease, background-color 180ms ease; }
+        .article-card:hover { transform: none; box-shadow: none; }
+        @keyframes readingEnter { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+        @media (prefers-reduced-motion: no-preference) {
+            .view-enter { animation: readingEnter 220ms ease-out both; }
+        }
+        @media (max-width: 900px) {
+            body.issue-view .container { padding-top: 1rem; }
+            body.issue-view #articlesList .article-header { display: block; }
+            body.issue-view #articlesList .article-date { margin-top: .35rem; }
+            body.issue-view .trend-summary p { font-size: .97rem; }
+        }
     </style>
 </head>
 <body>
@@ -17784,6 +17825,7 @@ function applyFilters(change, mode = 'push') {
 }
 function refreshView() {
     const focus = focusIdentity();
+    document.body.classList.toggle('issue-view', state.selectedReport !== 'all');
     renderHeaderMeta(); renderSidebar(); renderEditorialCover(); renderStats(); renderTrends(); renderArticles();
     ['searchBox', 'drawerSearchBox'].forEach(id => { if ($(id) && $(id).value !== state.searchTerm) $(id).value = state.searchTerm; });
     if ($('sortSelect')) $('sortSelect').value = state.sortMode;
@@ -17839,11 +17881,6 @@ function getFilteredArticles() {
 }
 function sortedArticles() {
     return getFilteredArticles().sort((a, b) => {
-        if (state.sortMode === 'newest' && state.selectedReport !== 'all') {
-            const lead = editorialFor(state.selectedReport).lead;
-            if (a.id === lead && b.id !== lead) return -1;
-            if (b.id === lead && a.id !== lead) return 1;
-        }
         if (state.sortMode === 'source') {
             const sourceA = sourceById.get(a.source_id) || {}, sourceB = sourceById.get(b.source_id) || {};
             const order = textValue(sourceA.short_name || a.source_id).localeCompare(textValue(sourceB.short_name || b.source_id), 'zh-Hans');
@@ -17895,6 +17932,8 @@ function renderResearchThreads(articles, edit) {
 function renderEditorialCover() {
     if (!$('editorialTitle')) return;
     const report = reportById.get(state.selectedReport);
+    $('editorialCover').hidden = Boolean(report);
+    if (report) return;
     const filtered = getFilteredArticles();
     const topics = topicCountsFor(filtered).filter(item => item.count > 0).slice(0, 4);
     $('editorialIssue').textContent = report ? report.period_start + ' — ' + report.period_end + ' · 本期研究' : state.selectedMonth ? state.selectedMonth + ' · 月度回望' : '研究档案 · 持续更新';
@@ -17906,6 +17945,8 @@ function renderEditorialCover() {
     $('editorialIndex').innerHTML = '<div class="editorial-index-title">本页主题 · Research Index</div>' + (topics.length ? topics.map(({ topic, count }) => '<button type="button" class="editorial-index-row" data-topic="' + escapeHTML(topic.id) + '" data-focus="index:' + escapeHTML(topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '"><span>' + escapeHTML(topic.name_cn) + '</span><span class="editorial-index-track"><span class="editorial-index-fill" style="width:' + Math.round(count / max * 100) + '%"></span></span><span class="editorial-index-count">' + count + '</span></button>').join('') : '<p>暂无匹配主题</p>');
 }
 function renderStats() {
+    $('statsBar').hidden = state.selectedReport !== 'all';
+    if (state.selectedReport !== 'all') { $('statsBar').replaceChildren(); return; }
     const articles = getFilteredArticles();
     const stats = [ [articles.length, '当前文章'], [new Set(articles.map(a => a.source_id)).size, '数据来源'], [new Set(articles.flatMap(a => a.topics)).size, '研究主题'], [new Set(articles.map(a => a.report_id).filter(id => reportById.has(id))).size, '相关周报'] ];
     $('statsBar').innerHTML = stats.map(([number, label]) => '<div class="stat-card"><div class="number">' + number + '</div><div class="label">' + label + '</div></div>').join('');
@@ -17925,10 +17966,14 @@ function renderTrends() {
     if (narrative) {
         $('trendSummary').innerHTML = '<p>' + escapeHTML(narrative.summary || '本期研究按语整理中，可先阅读下方文章。') + '</p>';
         if (report) {
-            const edit = editorialFor(report.id);
             $('trendsTitle').textContent = '本期研究脉络';
-            $('trendSummary').textContent = edit.automatic ? '以下线索由文章主题自动整理。' : '编辑选读 · 三条制度线索';
-            $('trendsContent').innerHTML = renderResearchThreads(getFilteredArticles(), edit);
+            const paragraphs = toList(report.trends).filter(Boolean);
+            const opening = paragraphs[0] || report.summary || '';
+            $('trendSummary').innerHTML = '<p>' + escapeHTML(opening) + '</p>';
+            $('trendsContent').innerHTML = paragraphs.length > 1 ? '<details class="issue-editorial"><summary>展开完整按语</summary>' + paragraphs.slice(1).map(paragraph => '<p>' + escapeHTML(paragraph) + '</p>').join('') + '</details>' : '';
+            const intro = $('trendsNarrative');
+            intro.classList.remove('view-enter');
+            requestAnimationFrame(() => intro.classList.add('view-enter'));
         } else $('trendsContent').innerHTML = (narrative.trends || []).map(trend => '<div class="trend-item"><p>' + escapeHTML(trend) + '</p></div>').join('');
         if (report) { $('dlMeta').textContent = report.period_start + ' — ' + report.period_end + ' · Markdown'; $('dlReportBtn').onclick = () => downloadReport(report.id); }
     } else renderTrendsChart(getFilteredArticles());
