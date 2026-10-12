@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-10-09",
+    "last_updated": "2026-10-12",
     "version": "1.0"
   },
   "sources": [
@@ -1045,6 +1045,35 @@
         "art_523",
         "art_524",
         "art_525"
+      ]
+    },
+    {
+      "id": "2026-10-12",
+      "date": "2026-10-12",
+      "period_start": "2026-10-10",
+      "period_end": "2026-10-12",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增11篇文章。",
+      "trends": [
+        "本周十一大来源共新增11篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、NY Fed，主题分布以公司治理（3篇）、科技、数据与AI（3篇）、其他（2篇）为主。",
+        "公司治理领域新增4篇，来自CLS、Harvard、ECGI。本期重点议题包括可持续发展报告对董事 ESG 职责的影响：披露义务反馈循环；投资者需要更好的方式来表达有偿投票的观点；2026 年第三季度股东积极性回顾等。",
+        "金融监管领域新增2篇，来自NY Fed、CLS。本期重点议题包括世达讨论联邦代理规则的重大变化；价格、价格、价格：整体通胀和您关心的成本。",
+        "反垄断领域新增1篇，来自ProMarket。本期重点议题包括美国反垄断机构尚未找出企业集团。",
+        "科技、数据与AI领域新增3篇，来自ProMarket、Harvard、ECGI。本期重点议题包括监管金融领域的人工智能：新加坡的经验教训；人工智能时代的网络安全风险监管；社区应该抓住人工智能数据中心的好处。",
+        "其他领域新增2篇，来自CLS、OBLB。本期重点议题包括综合 I 指令和欧盟可持续金融三难困境；市场操纵损害。"
+      ],
+      "article_ids": [
+        "art_526",
+        "art_527",
+        "art_528",
+        "art_529",
+        "art_530",
+        "art_531",
+        "art_532",
+        "art_533",
+        "art_534",
+        "art_535",
+        "art_536"
       ]
     }
   ],
@@ -15680,6 +15709,334 @@
       "abstract_cn": "英国房地产交易可通过英国大额支付系统CHAPS，在支付结算后数分钟内被直接识别和观察。借助2023年6月向ISO 20022支付标准的迁移，以及2025年5月起实行的强制用途代码，作者构建了一个房地产市场活动的实时指标。",
       "report_id": "2026-10-09",
       "id": "art_525"
+    },
+    {
+      "title": "The Impact of Sustainability Reporting on Directors' ESG Duties: The Disclosure-Duty Feedback Loop",
+      "url": "https://www.ecgi.global/publications/working-papers/the-impact-of-sustainability-reporting-on-directors-esg-duties-the",
+      "date": "2026-10-11",
+      "type": "working_paper",
+      "authors": "Luh Luh Lan",
+      "abstract": "Maturation of sustainability reporting has expanded, rather than resolved, the ambiguity surrounding directors’ ESG duties. Reporting standards specify what must be disclosed, but not what directors must do behind the disclosure, while regulatory regimes diverge in scope, materiality and enforcement. The paper explains this paradox through a “disclosure-duty feedback loop”. Because company law regulates process rather than outcomes, mandatory reporting requires boards to establish and oversee systems capable of producing reliable disclosures, drawing them into the governance of the underlying subject matter. Each report then becomes a benchmark against which subsequent board conduct may be assessed, causing the obligation to ratchet upward as disclosure becomes mandatory and assured.",
+      "keywords": [
+        "ESG",
+        "Reporting",
+        "Boards",
+        "Executive compensation",
+        "Labour",
+        "Stakeholders",
+        "Sustainability",
+        "Stewardship",
+        "Institutional Investors",
+        "Political Economy",
+        "Carbon emission",
+        "Family Firms"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "可持续发展报告对董事 ESG 职责的影响：披露义务反馈循环",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "可持续发展报告的成熟扩大了董事 ESG 职责的模糊性，而不是解决了这一问题。报告标准规定了必须披露的内容，但没有规定董事在披露背后必须做什么，而监管制度在范围、重要性和执行方面存在差异。该论文通过“披露义务反馈循环”解释了这一悖论。由于公司法规范的是过程而不是结果，因此强制报告要求董事会建立和监督能够产生可靠披露的系统，将其纳入基础主题的治理中。然后，每份报告都成为评估董事会后续行为的基准，随着披露变得强制性和有保证，导致义务不断升级。",
+      "keywords_cn": [
+        "环境、社会及治理",
+        "报告",
+        "板",
+        "高管薪酬",
+        "劳动",
+        "利益相关者",
+        "可持续发展",
+        "管理职责",
+        "机构投资者",
+        "政治经济学",
+        "碳排放",
+        "家族企业"
+      ],
+      "report_id": "2026-10-12",
+      "id": "art_526"
+    },
+    {
+      "title": "Regulating Artificial Intelligence in Finance: Lessons from Singapore",
+      "url": "https://www.ecgi.global/publications/working-papers/regulating-artificial-intelligence-in-finance-lessons-from-singapore",
+      "date": "2026-10-11",
+      "type": "working_paper",
+      "authors": "Ng Jing Ying, Lin Lin",
+      "abstract": "Artificial Intelligence (AI) is rapidly transforming the global financial sector, with widespread adoption across banking, insurance, and other financial services. Singapore exemplifies this trend. Its major financial institutions, including DBS, OCBC, and UOB, have extensively integrated AI and Generative AI (GenAI) to enhance efficiency, productivity, and customer experience. However, the growing use of AI in finance also introduces significant risks related to transparency, data privacy, cybersecurity, fairness, accountability, GenAI hallucinations, and deepfakes. This paper examines Singapore's regulatory approach to governing AI in finance, anchored by the Monetary Authority of Singapore's (MAS) multi-layered strategy that combines principles-based regulation, collaborative industry engagement, supervisory technology (SupTech) adoption, market-enabling measures, and deliberate regulatory gradualism. While Singapore's framework, comprising the FEAT Principles, Project MindForge, and the MAS Guidelines on AI Risk Management, provides a strong foundation, this paper suggests areas for improvement. These include elevating guidelines into enforceable codes, addressing third-party AI risks, leveraging SupTech capabilities, establishing a dedicated AI regulatory sandbox, and ensuring robust enforcement and international cooperation. Drawing lessons from Singapore's experience, this paper argues that effective AI governance in finance requires not a singular approach but a calib",
+      "keywords": [
+        "AI",
+        "Regulation"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "监管金融领域的人工智能：新加坡的经验教训",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "人工智能 (AI) 正在迅速改变全球金融业，在银行、保险和其他金融服务领域得到广泛采用。新加坡就是这一趋势的例证。其主要金融机构，包括星展银行、华侨银行和大华银行，已广泛整合人工智能和生成式人工智能 (GenAI)，以提高效率、生产力和客户体验。然而，人工智能在金融领域的日益广泛使用也带来了与透明度、数据隐私、网络安全、公平性、问责制、GenAI 幻觉和风险相关的重大风险。深度造假.. 本文探讨了新加坡在金融领域管理人工智能的监管方法，以新加坡金融管理局 (MAS) 的多层战略为基础，该战略结合了基于原则的监管、行业协作参与、监管技术 (SupTech) 采用、市场支持措施和审慎的监管渐进主义。虽然新加坡的框架（包括 FEAT 原则、Project MindForge 和 MAS 人工智能风险管理指南）提供了坚实的基础，但本文提出了需要改进的领域。将指导方针纳入可执行代码，解决第三方人工智能风险，利用SupTech能力，建立专门的人工智能监管沙箱，并确保强有力的执法和国际合作。 本文借鉴新加坡的经验，认为金融领域的有效人工智能治理需要的不是单一的方法，而是一个标准。",
+      "keywords_cn": [
+        "人工智能",
+        "规定"
+      ],
+      "report_id": "2026-10-12",
+      "id": "art_527"
+    },
+    {
+      "title": "Investors Need a Better Approach to Say on Pay Voting",
+      "url": "https://corpgov.law.harvard.edu/2026/10/11/investors-need-a-better-approach-to-say-on-pay-voting/?utm_source=rss&utm_medium=rss&utm_campaign=investors-need-a-better-approach-to-say-on-pay-voting",
+      "date": "2026-10-11",
+      "abstract": "The new U.S. Pay versus Performance (PvP) disclosures make it practical for investors to have reasonable specific quantitative guidelines for Say on Pay (SOP) voting. Specific quantitative guidelines make the investor’s vote matter: portfolio companies can predict the investor’s SOP vote and change their pay design in a way that increases the likelihood of a […]",
+      "authors": "Stephen F. O’Byrne, Shareholder Value Advisors Inc",
+      "keywords": [
+        "investors",
+        "PvP",
+        "Say on pay",
+        "Shareholder Value Advisors",
+        "Stephen F. O'Byrne",
+        "Shareholder Value Advisors",
+        "investors",
+        "PvP",
+        "Say on pay",
+        "Shareholder Value Advisors",
+        "Stephen F. O'Byrne",
+        "Shareholder Value Advisors"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "投资者需要更好的方式来表达有偿投票的观点",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "新的美国薪酬与绩效 (PvP) 披露使投资者能够为薪酬发言权 (SOP) 投票制定合理的具体量化指导方针。具体的量化指导方针使投资者的投票变得重要：投资组合公司可以预测投资者的 SOP 投票并改变其薪酬设计，从而增加 [...]",
+      "keywords_cn": [
+        "投资者",
+        "玩家对战",
+        "说付钱",
+        "股东价值顾问",
+        "斯蒂芬·F·奥伯恩",
+        "股东价值顾问",
+        "投资者",
+        "玩家对战",
+        "说付钱",
+        "股东价值顾问",
+        "斯蒂芬·F·奥伯恩",
+        "股东价值顾问"
+      ],
+      "report_id": "2026-10-12",
+      "id": "art_528"
+    },
+    {
+      "title": "Q3 2026 Review of Shareholder Activism",
+      "url": "https://corpgov.law.harvard.edu/2026/10/10/q3-2026-review-of-shareholder-activism/?utm_source=rss&utm_medium=rss&utm_campaign=q3-2026-review-of-shareholder-activism",
+      "date": "2026-10-10",
+      "abstract": "Observations on the Activism Environment in 2026 YTD 1. Campaign Activity in Line with Prior Years Following Slower Q3 179 campaigns were launched in 2026 YTD, down 7% year over year (192), but largely in line with the four year average 43 campaigns in Q3 represented a 42% drop from 74 in Q2, reflecting a […]",
+      "authors": "Josh Jacobs, Jim Rossman, and Abraham Axler. Barclays",
+      "keywords": [
+        "Activism",
+        "APAC",
+        "Corporate governance",
+        "Shareholder activism",
+        "Abraham Axler",
+        "Jim Rossman",
+        "Josh Jacobs",
+        "Barclays Global Advisory Group",
+        "Activism",
+        "APAC",
+        "Corporate governance",
+        "Shareholder activism",
+        "Abraham Axler",
+        "Jim Rossman",
+        "Josh Jacobs",
+        "Barclays Global Advisory Group"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "2026 年第三季度股东积极性回顾",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "对 2026 年年初至今行动主义环境的观察 1. 第三季度放缓后，活动活动与往年一致 2026 年年初至今发起了 179 项活动，同比下降 7% (192 项)，但与四年平均水平基本一致，第三季度的 43 项活动比第二季度的 74 项下降了 42%，反映出 [...]",
+      "keywords_cn": [
+        "行动主义",
+        "亚太地区",
+        "公司治理",
+        "股东积极性",
+        "亚伯拉罕·阿克斯勒",
+        "吉姆·罗斯曼",
+        "乔什·雅各布斯",
+        "巴克莱全球咨询小组",
+        "行动主义",
+        "亚太地区",
+        "公司治理",
+        "股东积极性",
+        "亚伯拉罕·阿克斯勒",
+        "吉姆·罗斯曼",
+        "乔什·雅各布斯",
+        "巴克莱全球咨询小组"
+      ],
+      "report_id": "2026-10-12",
+      "id": "art_529"
+    },
+    {
+      "title": "Cybersecurity Risk Oversight in the Age of AI",
+      "url": "https://corpgov.law.harvard.edu/2026/10/09/cybersecurity-risk-oversight-in-the-age-of-ai/?utm_source=rss&utm_medium=rss&utm_campaign=cybersecurity-risk-oversight-in-the-age-of-ai",
+      "date": "2026-10-09",
+      "abstract": "As advanced AI models — and autonomous AI “agents” — grow more capable, so do the associated corporate cybersecurity risks. Atincreasingly modest cost, AIsystems can now identify and exploit latent software vulnerabilities, such as by planting malicious code or stealing data, at a speed and scale beyond the reach of human hackers or conventional automated […]",
+      "authors": "Martin Lipton, Wachtell, Lipton, Rosen & Katz",
+      "keywords": [
+        "AI",
+        "AI oversight",
+        "Artificial intelligence",
+        "Cybersecurity",
+        "Martin Lipton",
+        "Wachtell Lipton",
+        "AI",
+        "AI oversight",
+        "Artificial intelligence",
+        "Cybersecurity",
+        "Martin Lipton",
+        "Wachtell Lipton"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "人工智能时代的网络安全风险监管",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "随着先进的人工智能模型和自主人工智能“代理”的能力变得越来越强大，相关的企业网络安全风险也随之增强。人工智能系统现在可以以越来越低廉的成本识别和利用潜在的软件漏洞，例如通过植入恶意代码或窃取数据，其速度和规模超出了人类黑客或传统自动化的范围[...]",
+      "keywords_cn": [
+        "人工智能",
+        "人工智能监督",
+        "人工智能",
+        "网络安全",
+        "马丁·利普顿",
+        "瓦赫特尔·利普顿",
+        "人工智能",
+        "人工智能监督",
+        "人工智能",
+        "网络安全",
+        "马丁·利普顿",
+        "瓦赫特尔·利普顿"
+      ],
+      "report_id": "2026-10-12",
+      "id": "art_530"
+    },
+    {
+      "title": "The Omnibus I Directive and the EU Sustainable Finance Trilemma",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/10/omnibus-i-directive-and-eu-sustainable-finance-trilemma",
+      "date": "2026-10-12",
+      "type": "blog",
+      "abstract": "The Omnibus I Directive (Directive (EU) 2026/470 of 24 February 2026) is the first stage of the Commission’s sustainable finance simplification agenda. In aforthcoming article, I argue that it reveals a structural feature of that framework: sustainability, simplification and harmonization cannot be maximized simultaneously, and thus pose a trilemma. Simplification may be achieved by reducing what the rules require of those within scope or the number of undertakings subject to them; harmonization requires a degree of precision that itself raises compliance costs; and sustainability depends on both the content and the breadth of the obligations. The Directive does not resolve that trilemma: simplification and harmonization have in significant part been reconciled by narrowing the class of undertakings subject to the regime rather than by calibrating the obligations imposed. The case for simplification was set out in theLettaandDraghiReports, which assign it different functions: for Letta it is an instrument of harmonization to complete the single market, while Draghi treats it as an autonomous objective and points to the CSRD and the CS3D as paradigmatic instances of excessive burden. The Competitiveness Compass of 29 January 2025 committed the Commission to cut administrative burdens by at least 25% for all undertakings and 35% for SMEs. Omnibus Package I followed on 26 February 2025: the ‘stop-the-clock’ Directive (EU) 2025/794 and then, fromCOM(2025) 81 final, the Omnibus I ",
+      "authors": "Giovanni Strampelli",
+      "source_id": "oblb",
+      "title_cn": "综合 I 指令和欧盟可持续金融三难困境",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "综合 I 指令（2026 年 2 月 24 日指令 (EU) 2026/470）是委员会可持续金融简化议程的第一阶段。在即将发表的文章中，我认为它揭示了该框架的结构特征：可持续性、简化和协调不能同时最大化，从而造成三难困境。可以通过减少规则对范围内的要求或企业数量来实现简化。受他们约束；协调需要一定程度的精确性，这本身就会增加合规成本；可持续性取决于义务的内容和广度。 该指令并没有解决这个三难困境：简化和协调在很大程度上是通过缩小该制度所管辖的企业类别而不是通过调整所施加的义务来调和的。Letta和Draghi报告中阐述了简化的理由，该报告赋予了它不同的功能：对于Letta来说，它是完成单一市场的协调工具，而Draghi则将其视为一个自主目标，并指出了CSRD和CS3D作为过度负担的典型实例。2025 年 1 月 29 日的《竞争力指南针》承诺委员会将所有企业的行政负担至少削减 25%，将中小企业的行政负担削减 35%。 综合包 I 于 2025 年 2 月 26 日发布：“停止时钟”指令 (EU) 2025/794，然后，根据 COM(2025) 81 最终版，综合 I 。",
+      "report_id": "2026-10-12",
+      "id": "art_531"
+    },
+    {
+      "title": "American Antitrust Has Yet To Figure Out Conglomerates",
+      "url": "https://www.promarket.org/2026/10/10/american-antitrust-has-yet-to-figure-out-conglomerates/",
+      "date": "2026-10-10",
+      "authors": "Paul Friederiszick",
+      "abstract": "The Neo-Brandeisians and Chicago School have employed different statistics to show respectively that markets are both concentrated and not concentrated, leaving Americans in the dark about who really holds corporate power. The evidence only looks contradictory due to the failure of American antitrust scholarship and regulation to understand how conglomerates collect market power across many neighboring markets, through what Paul Friederiszick calls “adjacent market takeovers.” This strategy can make firms more efficient, but it can also raise prices and weaken competition even as each individual market still looks competitive, he writes, drawing on his new paper, “The Conglomerate Power Puzzle.”",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "美国反垄断机构尚未找出企业集团",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "新布兰代斯主义者和芝加哥学派分别用不同的统计数据来表明市场集中和不集中，使美国人对谁真正掌握企业权力一无所知。由于美国反垄断学术和监管机构未能理解企业集团如何通过保罗·弗里德里西克（Paul Friederiszick）所说的“相邻市场收购”在许多相邻市场上收集市场力量，这些证据看起来只是相互矛盾。他在新论文《企业集团权力之谜》中写道，这种策略可以提高企业效率，但也可能提高价格并削弱竞争，即使每个单独的市场看起来仍然具有竞争力。",
+      "report_id": "2026-10-12",
+      "id": "art_532"
+    },
+    {
+      "title": "Communities Should Capture the Benefits of AI Data Centers",
+      "url": "https://www.promarket.org/2026/10/09/communities-should-capture-the-benefits-of-ai-data-centers/",
+      "date": "2026-10-09",
+      "authors": "Sarah Kreps",
+      "abstract": "Sarah Kreps argues that elected officials should be cautious of immediately rejecting proposals for local data centers. Instead, officials should capture potential benefits and protect residents by negotiating for better terms.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "社区应该抓住人工智能数据中心的好处",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "萨拉·克雷普斯 (Sarah Kreps) 认为，民选官员应该谨慎行事，不要立即拒绝建立本地数据中心的提案。相反，官员们应该通过谈判争取更好的条件来抓住潜在的利益并保护居民。",
+      "report_id": "2026-10-12",
+      "id": "art_533"
+    },
+    {
+      "title": "Market Manipulation Damages",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/12/market-manipulation-damages/",
+      "date": "2026-10-12",
+      "authors": "Joshua Mitts",
+      "abstract": "A growing case law is recognizing private damages claims for market manipulation such as spoofing. A spoofer places orders for an asset while intending to cancel the orders before they execute. The point is to move the price of the asset rather than to trade.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "市场操纵损害",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "越来越多的判例法承认因市场操纵（例如欺骗）而提出的私人损害索赔。欺骗者下了资产订单，但打算在订单执行前取消订单。重点是改变资产的价格而不是进行交易。",
+      "report_id": "2026-10-12",
+      "id": "art_534"
+    },
+    {
+      "title": "Skadden Discusses Major Changes to Federal Proxy Rules",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/12/skadden-discusses-major-changes-to-federal-proxy-rules/",
+      "date": "2026-10-12",
+      "authors": "Skadden, Arps, Slate, Meagher & Flom LLP",
+      "abstract": "Executive Summary What’s new: On September 16, 2026, the SEC proposed amendments to the federal proxy rules, including rescinding Rule 14a-8 governing shareholder proposals in company proxy materials, expanding company discretionary voting authority over floor proposals and modernizing var...",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "世达讨论联邦代理规则的重大变化",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "执行摘要 新动态：2026 年 9 月 16 日，SEC 提议对联邦代理规则进行修订，包括废除公司代理材料中管理股东提案的第 14a-8 条规则、扩大公司对股东提案的酌情投票权以及对股东提案进行现代化改造。",
+      "report_id": "2026-10-12",
+      "id": "art_535"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Prices, Prices, Prices: Overall Inflation and the Costs You Care About",
+      "title_cn": "价格、价格、价格：整体通胀和您关心的成本",
+      "authors": "Kartik B. Athreya",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-10-09",
+      "abstract": "As fall starts to show itself in cooler weather, I want to discuss a topic that usually raises temperatures: inflation. Like a budget-conscious consumer, the Federal Reserve is highly attuned to changes in the price of goods and services; minimizing such swings is one of the Fed’s primary duties, after all. But how does the Fed’s view of prices differ from that of a consumer? And how does the Fed go about stabilizing prices writ large when it lacks the ability to set prices directly?",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/prices-prices-prices-overall-inflation-and-the-costs-you-care-about/",
+      "type": "article",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "随着秋天开始在凉爽的天气中显现出来，我想讨论一个通常会引起气温升高的话题：通货膨胀。就像精打细算的消费者一样，美联储对商品和服务价格的变化高度敏感。毕竟，最大限度地减少这种波动是美联储的主要职责之一。但美联储对价格的看法与消费者的看法有何不同？当美联储缺乏直接定价的能力时，它如何稳定物价呢？",
+      "report_id": "2026-10-12",
+      "id": "art_536"
     }
   ],
   "monthly_reports": [
@@ -15763,7 +16120,8 @@
         "2026-10-01",
         "2026-10-05",
         "2026-10-07",
-        "2026-10-09"
+        "2026-10-09",
+        "2026-10-12"
       ],
       "summary": "",
       "trends": []
