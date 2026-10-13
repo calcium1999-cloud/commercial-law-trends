@@ -1781,10 +1781,9 @@
             body.issue-view #articlesList .article-date { margin-top: .35rem; }
             body.issue-view .trend-summary p { font-size: .97rem; }
         }
-/* 回纹书签：以传统回字纹与书签轮廓表达留存，朱砂色表示已收藏。 */
+/* 文字收藏钮：克制的方框样式，朱砂色表示已收藏。 */
 .article-save-row { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:10px; }
-.favorite-button { display:inline-flex; align-items:center; gap:6px; min-height:44px; padding:5px 11px; border:1px solid #c8d3df; border-radius:5px; background:#f5f8fb; color:#254668; font:inherit; font-size:13px; cursor:pointer; transition:background .18s,color .18s,border-color .18s; }
-.favorite-button svg { width:23px; height:27px; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linejoin:round; }
+.favorite-button { display:inline-flex; align-items:center; justify-content:center; min-width:64px; min-height:44px; padding:5px 13px; border:1px solid #c8d3df; border-radius:5px; background:#f5f8fb; color:#254668; font:inherit; font-size:13px; letter-spacing:1px; cursor:pointer; transition:background .18s,color .18s,border-color .18s; }
 .favorite-button:hover { background:#e6edf5; border-color:#527192; }
 .favorite-button[aria-pressed="true"] { color:#a83b30; border-color:#d7aaa2; background:#fff1eb; }
 .favorite-button:focus-visible { outline:3px solid #ac7945; outline-offset:3px; }
@@ -18102,7 +18101,6 @@ function loadFavorites() {
 let favorites = loadFavorites();
 const favoriteKey = article => safeURL(article.url) || article.id;
 const isFavorite = article => favorites.has(favoriteKey(article));
-const favoriteIcon = '<svg viewBox="0 0 32 36" aria-hidden="true" focusable="false"><path d="M5 3h22v29l-11-6-11 6Z"/><path d="M9 12V7h5v5H9m14 0V7h-5v5h5M11 17h10v5H11z"/></svg>';
 function toggleFavorite(id) {
     const article = DB.articles.find(item => item.id === id);
     if (!article) return;
@@ -18439,7 +18437,7 @@ function articleMarkup(article, index) {
     const url = safeURL(article.url);
     const keyword = word => '<button type="button" class="keyword" data-kw="' + escapeHTML(word) + '" data-focus="keyword:' + escapeHTML(article.id + ':' + word) + '">' + escapeHTML(word) + '</button>';
     return '<article class="article-card' + (expanded ? ' expanded' : '') + '" data-id="' + escapeHTML(article.id) + '"><div class="article-body">' +
-        '<div class="article-save-row"><time class="article-date" datetime="' + escapeHTML(article.date) + '">' + escapeHTML(article.date) + '</time><button type="button" class="favorite-button" data-favorite="' + escapeHTML(article.id) + '" data-focus="favorite:' + escapeHTML(article.id) + '" aria-pressed="' + isFavorite(article) + '" aria-label="' + (isFavorite(article) ? '取消收藏：' : '收藏：') + escapeHTML(chineseTitle(article)) + '">' + favoriteIcon + '<span>' + (isFavorite(article) ? '已收藏' : '收藏') + '</span></button></div>' +
+        '<div class="article-save-row"><time class="article-date" datetime="' + escapeHTML(article.date) + '">' + escapeHTML(article.date) + '</time><button type="button" class="favorite-button" data-favorite="' + escapeHTML(article.id) + '" data-focus="favorite:' + escapeHTML(article.id) + '" aria-pressed="' + isFavorite(article) + '" aria-label="' + (isFavorite(article) ? '取消收藏：' : '收藏：') + escapeHTML(chineseTitle(article)) + '"><span>' + (isFavorite(article) ? '已收藏' : '收藏') + '</span></button></div>' +
         '<div class="article-header"><div><h3 class="article-title chinese-primary">' + (article.type === 'podcast' ? '<span class="podcast-icon" title="播客">🎧</span> ' : '') + escapeHTML(chineseTitle(article)) + '</h3>' + (article.title_cn ? '<div class="article-title-en" lang="en">' + escapeHTML(article.title) + '</div>' : '') + '</div></div>' +
         '<div class="article-meta"><button type="button" class="source-tag ' + escapeHTML(article.source_id) + '" data-source="' + escapeHTML(article.source_id) + '" data-focus="article-source:' + escapeHTML(article.id) + '" aria-pressed="' + (state.selectedSource === article.source_id) + '">' + escapeHTML(source.short_name || article.source_id) + '</button>' + (report ? '<span class="period-tag">' + escapeHTML(textValue(report.period_start).slice(5).replace('-', '/') + '—' + textValue(report.period_end).slice(5).replace('-', '/')) + '</span>' : '') + article.topics.map(id => topicById.get(id)).filter(Boolean).map(topic => '<button type="button" class="topic-tag' + (state.selectedTopic === topic.id ? ' active' : '') + '" data-topic="' + escapeHTML(topic.id) + '" data-focus="article-topic:' + escapeHTML(article.id + ':' + topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '">' + escapeHTML(topic.name_cn) + '</button>').join('') + '</div>' +
         '<div class="article-authors"><strong>' + escapeHTML(article.authors) + '</strong>' + (article.affiliations.trim() ? '<span class="affiliation"> — ' + escapeHTML(article.affiliations) + '</span>' : '') + '</div>' +
