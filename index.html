@@ -1781,7 +1781,19 @@
             body.issue-view #articlesList .article-date { margin-top: .35rem; }
             body.issue-view .trend-summary p { font-size: .97rem; }
         }
-    </style>
+/* 回纹书签：以传统回字纹与书签轮廓表达留存，朱砂色表示已收藏。 */
+.article-save-row { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:10px; }
+.favorite-button { display:inline-flex; align-items:center; gap:6px; min-height:44px; padding:5px 11px; border:1px solid #c8d3df; border-radius:5px; background:#f5f8fb; color:#254668; font:inherit; font-size:13px; cursor:pointer; transition:background .18s,color .18s,border-color .18s; }
+.favorite-button svg { width:23px; height:27px; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linejoin:round; }
+.favorite-button:hover { background:#e6edf5; border-color:#527192; }
+.favorite-button[aria-pressed="true"] { color:#a83b30; border-color:#d7aaa2; background:#fff1eb; }
+.favorite-button:focus-visible { outline:3px solid #ac7945; outline-offset:3px; }
+#favoriteCount { display:inline-block; min-width:1.4em; margin-left:3px; font-variant-numeric:tabular-nums; }
+.favorites-view #statsBar,.favorites-view #trendsSection,.favorites-view .keyword-overview,.favorites-view .editorial-index { display:none !important; }
+.favorites-view .editorial-cover { grid-template-columns:1fr; }
+.favorites-view #editorialSummary { max-width:760px; }
+@media (prefers-reduced-motion:reduce) { .favorite-button { transition:none; } }
+</style>
 </head>
 <body>
 
@@ -1820,6 +1832,7 @@
                 <button type="button" id="navLatest">最新一期</button>
                 <button type="button" id="navOverview">研究总览</button>
                 <button type="button" id="navArchive">历史档案</button>
+                <button type="button" id="navFavorites">我的收藏 <span id="favoriteCount">0</span></button>
             </nav>
             <div class="header-counts" id="headerCounts"></div>
             <div class="source-badges" id="sourceBadges"></div>
@@ -18081,7 +18094,29 @@ DB.articles.forEach(article => {
     ].join(' ')));
 });
 
+const FAVORITES_KEY = 'law-finance-favorites-v1';
+function loadFavorites() {
+    try { const value = JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]'); return new Set(Array.isArray(value) ? value.filter(item => typeof item === 'string') : []); }
+    catch (_) { return new Set(); }
+}
+let favorites = loadFavorites();
+const favoriteKey = article => safeURL(article.url) || article.id;
+const isFavorite = article => favorites.has(favoriteKey(article));
+const favoriteIcon = '<svg viewBox="0 0 32 36" aria-hidden="true" focusable="false"><path d="M5 3h22v29l-11-6-11 6Z"/><path d="M9 12V7h5v5H9m14 0V7h-5v5h5M11 17h10v5H11z"/></svg>';
+function toggleFavorite(id) {
+    const article = DB.articles.find(item => item.id === id);
+    if (!article) return;
+    const next = loadFavorites(), key = favoriteKey(article), adding = !next.has(key);
+    adding ? next.add(key) : next.delete(key);
+    try { localStorage.setItem(FAVORITES_KEY, JSON.stringify([...next])); }
+    catch (_) { showToast('浏览器无法保存收藏，请检查存储权限后重试'); return; }
+    favorites = next;
+    refreshView();
+    if (state.favoritesOnly && !adding) $('navFavorites').focus({ preventScroll: true });
+    showToast(adding ? '已收藏，可在「我的收藏」中查看' : '已取消收藏');
+}
 let state = {
+    favoritesOnly: false,
     selectedReport: newestReport ? newestReport.id : 'all', selectedMonth: null,
     selectedSource: 'all', selectedTopic: 'all', searchTerm: '', sortMode: 'newest',
     visibleLimit: PAGE_SIZE, expandedCards: new Set(), expandedMonths: new Set()
@@ -18099,12 +18134,14 @@ function safeURL(value) {
 
 function readURLState() {
     const params = new URLSearchParams(location.search);
+    state.favoritesOnly = params.get('view') === 'favorites';
     // Shared source/topic/search links cover the archive unless a report is explicit.
     const hasFilter = ['source', 'topic', 'q', 'month', 'sort'].some(key => params.has(key));
     const requestedReport = params.get('report');
     state.selectedReport = requestedReport === 'all' || (!requestedReport && hasFilter) ? 'all'
         : reportById.has(requestedReport) ? requestedReport : newestReport ? newestReport.id : 'all';
-    state.selectedMonth = state.selectedReport === 'all' && months.has(params.get('month')) ? params.get('month') : null;
+    if (state.favoritesOnly) state.selectedReport = 'all';
+    state.selectedMonth = !state.favoritesOnly && state.selectedReport === 'all' && months.has(params.get('month')) ? params.get('month') : null;
     state.selectedSource = sourceById.has(params.get('source')) ? params.get('source') : 'all';
     state.selectedTopic = topicById.has(params.get('topic')) ? params.get('topic') : 'all';
     state.searchTerm = (params.get('q') || '').slice(0, 500).trim();
@@ -18117,7 +18154,8 @@ function readURLState() {
 
 function syncURL(mode = 'push') {
     const url = new URL(location.href);
-    ['report', 'month', 'source', 'topic', 'q', 'sort', 'limit'].forEach(key => url.searchParams.delete(key));
+    ['report', 'month', 'source', 'topic', 'q', 'sort', 'limit', 'view'].forEach(key => url.searchParams.delete(key));
+    if (state.favoritesOnly) url.searchParams.set('view', 'favorites');
     url.searchParams.set('report', state.selectedReport);
     if (state.selectedMonth && state.selectedReport === 'all') url.searchParams.set('month', state.selectedMonth);
     if (state.selectedSource !== 'all') url.searchParams.set('source', state.selectedSource);
@@ -18143,6 +18181,7 @@ function restoreFocus(identity) {
 }
 function applyFilters(change, mode = 'push') {
     clearTimeout(searchTimer);
+    if ('selectedReport' in change && !('favoritesOnly' in change)) change.favoritesOnly = false;
     Object.assign(state, change, { visibleLimit: PAGE_SIZE });
     syncURL(mode);
     refreshView();
@@ -18150,6 +18189,8 @@ function applyFilters(change, mode = 'push') {
 function refreshView() {
     const focus = focusIdentity();
     document.body.classList.toggle('issue-view', state.selectedReport !== 'all');
+    document.body.classList.toggle('favorites-view', state.favoritesOnly);
+    $('siteHeader').classList.toggle('compact', state.favoritesOnly || window.scrollY > 60);
     renderHeaderMeta(); renderSidebar(); renderEditorialCover(); renderStats(); renderTrends(); renderArticles();
     ['searchBox', 'drawerSearchBox'].forEach(id => { if ($(id) && $(id).value !== state.searchTerm) $(id).value = state.searchTerm; });
     if ($('sortSelect')) $('sortSelect').value = state.sortMode;
@@ -18162,6 +18203,14 @@ function refreshView() {
     if ($('activeFilterSummary')) { $('activeFilterSummary').textContent = labels.join(' · '); $('activeFilterSummary').title = labels.join(' · '); }
     if ($('viewFiltersBtn')) $('viewFiltersBtn').textContent = '查看 ' + getFilteredArticles().length + ' 篇文章';
     ['navLatest', 'navOverview'].forEach(id => { if ($(id)) { const active = id === 'navLatest' ? newestReport && state.selectedReport === newestReport.id : state.selectedReport === 'all' && !state.selectedMonth; $(id).classList.toggle('active', Boolean(active)); $(id).setAttribute('aria-pressed', String(Boolean(active))); } });
+    $('favoriteCount').textContent = DB.articles.filter(isFavorite).length;
+    $('navFavorites').classList.toggle('active', state.favoritesOnly);
+    $('navFavorites').setAttribute('aria-pressed', String(state.favoritesOnly));
+    if (state.favoritesOnly) {
+        $('articleListHeading').textContent = '收藏的文章';
+        $('activeFilterSummary').textContent = ['我的收藏', ...labels.slice(1)].join(' · ');
+        ['navLatest', 'navOverview'].forEach(id => { $(id).classList.remove('active'); $(id).setAttribute('aria-pressed', 'false'); });
+    }
     restoreFocus(focus);
 }
 
@@ -18196,6 +18245,7 @@ function renderSidebar() {
 function getFilteredArticles() {
     const terms = normalizeSearch(state.searchTerm).split(' ').filter(Boolean);
     return DB.articles.filter(article => {
+        if (state.favoritesOnly && !isFavorite(article)) return false;
         if (state.selectedReport !== 'all' && article.report_id !== state.selectedReport) return false;
         if (state.selectedReport === 'all' && state.selectedMonth && reportMonth(reportById.get(article.report_id)) !== state.selectedMonth) return false;
         if (state.selectedSource !== 'all' && article.source_id !== state.selectedSource) return false;
@@ -18255,6 +18305,14 @@ function renderResearchThreads(articles, edit) {
 }
 function renderEditorialCover() {
     if (!$('editorialTitle')) return;
+    if (state.favoritesOnly) {
+        $('editorialCover').hidden = false;
+        $('editorialIssue').textContent = '私人书斋 · 留存所思';
+        $('editorialTitle').textContent = '我的收藏';
+        $('editorialSummary').textContent = '将值得重读的文章，留在这里。已收藏 ' + DB.articles.filter(isFavorite).length + ' 篇。收藏仅保存在当前浏览器，不会跨设备同步；清除浏览器数据后将丢失。';
+        $('editorialIndex').replaceChildren();
+        return;
+    }
     const report = reportById.get(state.selectedReport);
     $('editorialCover').hidden = false;
     const filtered = getFilteredArticles();
@@ -18381,7 +18439,8 @@ function articleMarkup(article, index) {
     const url = safeURL(article.url);
     const keyword = word => '<button type="button" class="keyword" data-kw="' + escapeHTML(word) + '" data-focus="keyword:' + escapeHTML(article.id + ':' + word) + '">' + escapeHTML(word) + '</button>';
     return '<article class="article-card' + (expanded ? ' expanded' : '') + '" data-id="' + escapeHTML(article.id) + '"><div class="article-body">' +
-        '<div class="article-header"><div><h3 class="article-title chinese-primary">' + (article.type === 'podcast' ? '<span class="podcast-icon" title="播客">🎧</span> ' : '') + escapeHTML(chineseTitle(article)) + '</h3>' + (article.title_cn ? '<div class="article-title-en" lang="en">' + escapeHTML(article.title) + '</div>' : '') + '</div><time class="article-date" datetime="' + escapeHTML(article.date) + '">' + escapeHTML(article.date) + '</time></div>' +
+        '<div class="article-save-row"><time class="article-date" datetime="' + escapeHTML(article.date) + '">' + escapeHTML(article.date) + '</time><button type="button" class="favorite-button" data-favorite="' + escapeHTML(article.id) + '" data-focus="favorite:' + escapeHTML(article.id) + '" aria-pressed="' + isFavorite(article) + '" aria-label="' + (isFavorite(article) ? '取消收藏：' : '收藏：') + escapeHTML(chineseTitle(article)) + '">' + favoriteIcon + '<span>' + (isFavorite(article) ? '已收藏' : '收藏') + '</span></button></div>' +
+        '<div class="article-header"><div><h3 class="article-title chinese-primary">' + (article.type === 'podcast' ? '<span class="podcast-icon" title="播客">🎧</span> ' : '') + escapeHTML(chineseTitle(article)) + '</h3>' + (article.title_cn ? '<div class="article-title-en" lang="en">' + escapeHTML(article.title) + '</div>' : '') + '</div></div>' +
         '<div class="article-meta"><button type="button" class="source-tag ' + escapeHTML(article.source_id) + '" data-source="' + escapeHTML(article.source_id) + '" data-focus="article-source:' + escapeHTML(article.id) + '" aria-pressed="' + (state.selectedSource === article.source_id) + '">' + escapeHTML(source.short_name || article.source_id) + '</button>' + (report ? '<span class="period-tag">' + escapeHTML(textValue(report.period_start).slice(5).replace('-', '/') + '—' + textValue(report.period_end).slice(5).replace('-', '/')) + '</span>' : '') + article.topics.map(id => topicById.get(id)).filter(Boolean).map(topic => '<button type="button" class="topic-tag' + (state.selectedTopic === topic.id ? ' active' : '') + '" data-topic="' + escapeHTML(topic.id) + '" data-focus="article-topic:' + escapeHTML(article.id + ':' + topic.id) + '" aria-pressed="' + (state.selectedTopic === topic.id) + '">' + escapeHTML(topic.name_cn) + '</button>').join('') + '</div>' +
         '<div class="article-authors"><strong>' + escapeHTML(article.authors) + '</strong>' + (article.affiliations.trim() ? '<span class="affiliation"> — ' + escapeHTML(article.affiliations) + '</span>' : '') + '</div>' +
         '<div id="' + escapeHTML(id) + '"><div class="article-abstract">' + escapeHTML(article.abstract) + '</div>' + (article.abstract_cn ? '<div class="article-abstract-cn">' + escapeHTML(article.abstract_cn) + '</div>' : '') + '</div>' +
@@ -18396,6 +18455,7 @@ function renderArticles(append = false) {
         const previousCount = list.querySelectorAll('.article-card').length;
         list.insertAdjacentHTML('beforeend', articles.slice(previousCount, shown).map((article, offset) => articleMarkup(article, previousCount + offset)).join(''));
     } else list.innerHTML = articles.length ? articles.slice(0, shown).map(articleMarkup).join('') : '<div class="no-results">未找到匹配文章。可减少筛选条件，或切换到全部周报检索。</div>';
+    if (!articles.length && state.favoritesOnly) list.innerHTML = '<div class="no-results">' + (DB.articles.some(isFavorite) ? '收藏中暂无匹配文章，请调整搜索或筛选条件。' : '书斋尚空。点击文章右上角的回纹书签「收藏」，便可在这里重读。') + '</div>';
     $('resultCount').textContent = '显示 ' + shown + ' / 共 ' + articles.length + ' 篇';
     $('loadMoreBtn').hidden = shown >= articles.length;
     $('loadMoreBtn').textContent = '加载更多 · 还有 ' + Math.max(0, articles.length - shown) + ' 篇';
@@ -18441,7 +18501,8 @@ function bindEvents() {
     document.addEventListener('click', event => {
         const button = event.target.closest('button');
         if (!button) return;
-        if (button.dataset.expand) {
+        if (button.dataset.favorite) { toggleFavorite(button.dataset.favorite); }
+        else if (button.dataset.expand) {
             const id = button.dataset.expand;
             const expanded = !state.expandedCards.has(id);
             expanded ? state.expandedCards.add(id) : state.expandedCards.delete(id);
@@ -18494,6 +18555,8 @@ function bindEvents() {
     $('navLatest').addEventListener('click', () => { applyFilters({ selectedReport: newestReport ? newestReport.id : 'all', selectedMonth: null, selectedSource: 'all', selectedTopic: 'all', searchTerm: '' }); });
     $('navOverview').addEventListener('click', () => applyFilters({ selectedReport: 'all', selectedMonth: null, selectedSource: 'all', selectedTopic: 'all', searchTerm: '' }));
     $('navArchive').addEventListener('click', openDrawer);
+    $('navFavorites').addEventListener('click', () => applyFilters({ favoritesOnly: true, selectedReport: 'all', selectedMonth: null, selectedSource: 'all', selectedTopic: 'all', searchTerm: '' }));
+    window.addEventListener('storage', event => { if (event.key === FAVORITES_KEY || event.key === null) { favorites = loadFavorites(); refreshView(); } });
     $('backTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
     document.addEventListener('keydown', event => {
         if (event.key === 'Escape' && drawerOpen) { event.preventDefault(); closeDrawer(); return; }
@@ -18567,7 +18630,7 @@ function bindScroll() {
             const doc = document.documentElement;
             const max = doc.scrollHeight - doc.clientHeight;
             const progress = max > 0 ? window.scrollY / max : 0;
-            $('scrollProgress').style.transform = 'scaleX(' + progress + ')'; header.classList.toggle('compact', window.scrollY > 60); $('backTop').classList.toggle('show', window.scrollY > 320); $('backTop').style.setProperty('--p', progress); syncHeaderHeight(); ticking = false;
+            $('scrollProgress').style.transform = 'scaleX(' + progress + ')'; header.classList.toggle('compact', state.favoritesOnly || window.scrollY > 60); $('backTop').classList.toggle('show', window.scrollY > 320); $('backTop').style.setProperty('--p', progress); syncHeaderHeight(); ticking = false;
         });
     };
     if (typeof ResizeObserver !== 'undefined') new ResizeObserver(syncHeaderHeight).observe(header);
