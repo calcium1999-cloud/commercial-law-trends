@@ -1781,16 +1781,12 @@
             body.issue-view #articlesList .article-date { margin-top: .35rem; }
             body.issue-view .trend-summary p { font-size: .97rem; }
         }
-/* 现代藏书印：清晰字面与单线圆框，朱砂色表示已收藏。 */
+/* 回纹书签：以传统回字纹与书签轮廓表达留存，朱砂色表示已收藏。 */
 .article-save-row { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:10px; }
-.favorite-button { display:inline-flex; flex-direction:column; align-items:center; gap:3px; min-width:56px; min-height:66px; padding:2px; border:0; border-radius:28px; background:transparent; color:#536579; font:inherit; font-size:10px; letter-spacing:1px; cursor:pointer; transition:color .18s; }
-.favorite-button svg { width:48px; height:48px; fill:currentColor; overflow:visible; }
-.favorite-button svg circle { transition:fill .18s; }
-.favorite-button[aria-pressed="true"] svg circle { fill:#b4382b0a; }
-.favorite-button span { padding-left:2px; line-height:1.4; }
-.favorite-button:hover { color:#172f4d; }
-.favorite-button[aria-pressed="true"] { color:#b4382b; background:transparent; }
-.favorite-button[aria-pressed="true"]:hover { color:#922a20; }
+.favorite-button { display:inline-flex; align-items:center; gap:6px; min-height:44px; padding:5px 11px; border:1px solid #c8d3df; border-radius:5px; background:#f5f8fb; color:#254668; font:inherit; font-size:13px; cursor:pointer; transition:background .18s,color .18s,border-color .18s; }
+.favorite-button svg { width:23px; height:27px; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linejoin:round; }
+.favorite-button:hover { background:#e6edf5; border-color:#527192; }
+.favorite-button[aria-pressed="true"] { color:#a83b30; border-color:#d7aaa2; background:#fff1eb; }
 .favorite-button:focus-visible { outline:3px solid #ac7945; outline-offset:3px; }
 #favoriteCount { display:inline-block; min-width:1.4em; margin-left:3px; font-variant-numeric:tabular-nums; }
 .favorites-view #statsBar,.favorites-view #trendsSection,.favorites-view .keyword-overview,.favorites-view .editorial-index { display:none !important; }
@@ -18106,8 +18102,7 @@ function loadFavorites() {
 let favorites = loadFavorites();
 const favoriteKey = article => safeURL(article.url) || article.id;
 const isFavorite = article => favorites.has(favoriteKey(article));
-// Modern collection seal: a single fine ring and legible contemporary lettering.
-const favoriteIcon = '<svg viewBox="0 0 56 56" aria-hidden="true" focusable="false"><circle cx="28" cy="28" r="25" fill="none" stroke="currentColor" stroke-width="1.2"/><text x="28" y="29" text-anchor="middle" dominant-baseline="middle" fill="currentColor" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="16" font-weight="500" letter-spacing="1">收藏</text></svg>';
+const favoriteIcon = '<svg viewBox="0 0 32 36" aria-hidden="true" focusable="false"><path d="M5 3h22v29l-11-6-11 6Z"/><path d="M9 12V7h5v5H9m14 0V7h-5v5h5M11 17h10v5H11z"/></svg>';
 function toggleFavorite(id) {
     const article = DB.articles.find(item => item.id === id);
     if (!article) return;
@@ -18460,7 +18455,7 @@ function renderArticles(append = false) {
         const previousCount = list.querySelectorAll('.article-card').length;
         list.insertAdjacentHTML('beforeend', articles.slice(previousCount, shown).map((article, offset) => articleMarkup(article, previousCount + offset)).join(''));
     } else list.innerHTML = articles.length ? articles.slice(0, shown).map(articleMarkup).join('') : '<div class="no-results">未找到匹配文章。可减少筛选条件，或切换到全部周报检索。</div>';
-    if (!articles.length && state.favoritesOnly) list.innerHTML = '<div class="no-results">' + (DB.articles.some(isFavorite) ? '收藏中暂无匹配文章，请调整搜索或筛选条件。' : '书斋尚空。点击文章右上角的圆形「收藏」印章，便可在这里重读。') + '</div>';
+    if (!articles.length && state.favoritesOnly) list.innerHTML = '<div class="no-results">' + (DB.articles.some(isFavorite) ? '收藏中暂无匹配文章，请调整搜索或筛选条件。' : '书斋尚空。点击文章右上角的回纹书签「收藏」，便可在这里重读。') + '</div>';
     $('resultCount').textContent = '显示 ' + shown + ' / 共 ' + articles.length + ' 篇';
     $('loadMoreBtn').hidden = shown >= articles.length;
     $('loadMoreBtn').textContent = '加载更多 · 还有 ' + Math.max(0, articles.length - shown) + ' 篇';
