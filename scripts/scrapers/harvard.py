@@ -49,8 +49,17 @@ class HarvardScraper(BaseScraper):
                 text = " ".join(p.get_text(strip=True) for p in paras[:3] if p.get_text(strip=True))
                 if text:
                     detail["abstract"] = text[:1500]
-        author_el = soup.find(class_=lambda x: x and "author" in str(x).lower() if x else False)
-        if author_el:
+        meta_authors = []
+        for meta in soup.find_all("meta"):
+            key = (meta.get("name") or meta.get("property") or "").lower()
+            content = self._clean(meta.get("content", ""))
+            if key in {"author", "citation_author", "article:author"} and content:
+                meta_authors.append(content)
+        if meta_authors:
+            detail["authors"] = ", ".join(dict.fromkeys(meta_authors))
+        else:
+            author_el = soup.find(class_=lambda x: x and "author" in str(x).lower() if x else False)
+        if not detail.get("authors") and author_el:
             author_text = self._clean(author_el.get_text(" ", strip=True))
             author_text = re.sub(r'^Posted by\s+', '', author_text, flags=re.I)
             author_text = re.sub(r',\s*on\s*$', '', author_text, flags=re.I)

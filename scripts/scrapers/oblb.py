@@ -57,10 +57,18 @@ class OBLBScraper(BaseScraper):
             if not detail.get("abstract"):
                 content = soup.find("div", class_="field--name-body") or soup.find("article") or soup.find("div", class_="content")
                 if content:
-                    paras = content.find_all("p")
-                    text = " ".join(p.get_text(strip=True) for p in paras[:3] if p.get_text(strip=True))
+                    paras = [
+                        p.get_text(" ", strip=True)
+                        for p in content.find_all("p")
+                        if len(p.get_text(" ", strip=True)) >= 80
+                    ]
+                    text = " ".join(paras[:3])
                     if text:
-                        detail["abstract"] = text[:1500]
+                        if len(text) > 1500:
+                            chunk = text[:1501]
+                            end = max(chunk.rfind(mark) for mark in (".", "!", "?"))
+                            text = chunk[:end + 1] if end >= 750 else chunk[:1500].rsplit(" ", 1)[0] + "…"
+                        detail["abstract"] = text
             author_box = soup.select_one(".blog-authors")
             if author_box:
                 author_names = [

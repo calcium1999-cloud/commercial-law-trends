@@ -14,8 +14,8 @@ run_weekly.py — 商业法律研究动向 周自动化主协调器
   9. 生成 temp_report.json + temp_new_articles.json
   10. 调用 add_report.py + update_db.py
   11. 验证数据库
-  12. 更新 state.json
-  13. 部署到 GitHub Pages
+  12. 验证并部署数据库与页面
+  13. 部署成功后推进 last_successful_run 并再次发布状态
   14. 清理临时文件
 """
 import json
@@ -302,6 +302,28 @@ def deploy_site():
     return False, ""
 
 
+def finalize_successful_boundary(state, start_time, previous_successful_run):
+    """Advance and publish the boundary only after content deployment succeeds.
+
+    The caller must already have deployed the validated database and page. If
+    the state-only deployment fails, restore the previous boundary locally so
+    the next run retains the complete recovery window.
+    """
+    state["last_successful_run"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
+    save_state(state)
+    deploy_ok, deploy_url = deploy_site()
+    if deploy_ok:
+        return True, deploy_url
+
+    if previous_successful_run is None:
+        state.pop("last_successful_run", None)
+    else:
+        state["last_successful_run"] = previous_successful_run
+    save_state(state)
+    logging.error("成功边界发布失败，已恢复 last_successful_run 以保留增量窗口")
+    return False, ""
+
+
 def run_update_db(temp_articles_path):
     """Run update_db.py as subprocess."""
     import subprocess
@@ -430,9 +452,6 @@ def main():
         if report_exists and report_path.exists():
             state["last_report_id"] = report_id
         complete_run = is_complete_run(source_status, translation_failures, db_errors, html_errors)
-        if complete_run:
-            # Advance to the run start, leaving publications during this run recoverable.
-            state["last_successful_run"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
         save_state(state)
 
         if db_errors or html_errors:
@@ -448,15 +467,15 @@ def main():
 
         deploy_ok, deploy_url = deploy_site()
         if not deploy_ok:
-            if previous_successful_run is None:
-                state.pop("last_successful_run", None)
-            else:
-                state["last_successful_run"] = previous_successful_run
-            save_state(state)
-            logging.error("部署失败，已恢复 last_successful_run 以保留增量窗口")
+            logging.error("数据库/页面部署失败，last_successful_run 未推进")
             return 1
 
         if complete_run:
+            deploy_ok, deploy_url = finalize_successful_boundary(
+                state, start_time, previous_successful_run
+            )
+            if not deploy_ok:
+                return 1
             logging.info(f"完整运行完成（增量检查：0 新增，{skipped} 重复）")
         else:
             logging.warning("部分运行已部署；last_successful_run 未推进")
@@ -567,8 +586,7 @@ def main():
     db_final = load_db()
     total_articles = len(db_final.get("articles", []))
 
-    # 15. Write the candidate state before deployment so the pushed tree is
-    # internally consistent. Roll back the boundary locally if push fails.
+    # 15. Persist run metadata without advancing the successful boundary.
     finish_time = datetime.now()
     elapsed = (finish_time - start_time).total_seconds()
     state["last_run_started"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
@@ -578,21 +596,20 @@ def main():
     state["last_duplicate_urls"] = skipped
     state["source_status"] = source_status
     complete_run = is_complete_run(source_status, translation_failures, db_errors, html_errors)
-    if complete_run:
-        state["last_successful_run"] = start_time.strftime("%Y-%m-%dT%H:%M:%S")
     save_state(state)
 
     # 16. Deploy
     deploy_ok, deploy_url = deploy_site()
     if not deploy_ok:
-        if previous_successful_run is None:
-            state.pop("last_successful_run", None)
-        else:
-            state["last_successful_run"] = previous_successful_run
-        save_state(state)
-        logging.error("部署失败，已恢复 last_successful_run 以保留增量窗口")
+        logging.error("数据库/页面部署失败，last_successful_run 未推进")
         return 1
-    if not complete_run:
+    if complete_run:
+        deploy_ok, deploy_url = finalize_successful_boundary(
+            state, start_time, previous_successful_run
+        )
+        if not deploy_ok:
+            return 1
+    else:
         logging.warning("部分运行已部署；last_successful_run 未推进")
 
     # 17. Final summary
