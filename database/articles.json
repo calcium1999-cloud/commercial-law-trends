@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-10-14",
+    "last_updated": "2026-10-16",
     "version": "1.0"
   },
   "sources": [
@@ -1102,6 +1102,44 @@
         "art_546",
         "art_547",
         "art_548"
+      ]
+    },
+    {
+      "id": "2026-10-16",
+      "date": "2026-10-16",
+      "period_start": "2026-10-15",
+      "period_end": "2026-10-16",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增20篇文章。",
+      "trends": [
+        "本周十一大来源共新增20篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、BWI、NY Fed、BoE，主题分布以金融监管（7篇）、公司治理（4篇）、其他（4篇）为主。",
+        "公司治理领域新增9篇，来自Harvard、ECGI、OBLB、CLS。本期重点议题包括欧盟证券监管基础；格拉斯·刘易斯详细介绍了从根本上改变代理投票准则的提案：对薪酬发言权的影响；公司章程的强制仲裁和国家竞争等。",
+        "金融监管领域新增8篇，来自Harvard、NY Fed、CLS、ECGI、OBLB、BWI。本期重点议题包括欧盟证券监管基础；美国证券交易委员会 (SEC) 的新数据揭示了有关首次公开募股 (IPO) 和后续发行的哪些信息；允许还是要求？养老金受托人及其造成的系统级风险等。",
+        "反垄断领域新增1篇，来自ProMarket。本期重点议题包括亚当·斯密的道德哲学使芝加哥学派及其批评者的解释变得复杂。",
+        "科技、数据与AI领域新增4篇，来自Harvard、BoE、NY Fed。本期重点议题包括代理人工智能和注意义务：METR 报告对董事会意味着什么，不意味着什么；人工智能热潮是否影响了美国经常账户；人工智能遇上商业智能：通货膨胀的剖析等。",
+        "其他领域新增4篇，来自Harvard、OBLB、ProMarket。本期重点议题包括重新思考长期激励设计：长远 RSU 是否正在取得进展；了解私募基金经理的沟通；巴西对仲裁裁决是否变得更加严厉？圣保罗法院的证据等。"
+      ],
+      "article_ids": [
+        "art_549",
+        "art_550",
+        "art_551",
+        "art_552",
+        "art_553",
+        "art_554",
+        "art_555",
+        "art_556",
+        "art_557",
+        "art_558",
+        "art_559",
+        "art_560",
+        "art_561",
+        "art_562",
+        "art_563",
+        "art_564",
+        "art_565",
+        "art_566",
+        "art_567",
+        "art_568"
       ]
     }
   ],
@@ -16244,6 +16282,604 @@
       "abstract_cn": "2026 年 9 月 18 日，美国司法部宣布修订《司法手册》中规范《虚假申报法》执法的两个部分。修订从两个方面收窄司法部的执法路径，其中包括调整《司法手册》第 1-19 节。",
       "report_id": "2026-10-14",
       "id": "art_548"
+    },
+    {
+      "title": "Foundations of EU Securities Regulation",
+      "url": "https://www.ecgi.global/publications/working-papers/foundations-of-eu-securities-regulation",
+      "date": "2026-10-14",
+      "type": "working_paper",
+      "authors": "Luca Enriques, Alessio Pacces, Vittoria Battocletti, Sergio Gilotta, Anne Lafarre, Edoardo D. Martino, Katrien Morbee, Ana Odorović, Paul Oudin, Thomas Reyntjens, Paolo Saguato, Diego Valiante, Tom Vos, Marnix Wallinga",
+      "abstract": "This is the introductory chapter of the book ‘EU Securities Regulation: Aims, Tools and Idiosyncrasies’, forthcoming with Oxford University Press.",
+      "keywords": [
+        "Capital",
+        "Regulation",
+        "ESG",
+        "Stakeholderism",
+        "Company Law",
+        "Private Equity",
+        "Venture capital",
+        "Arbitrage",
+        "Reform",
+        "Shareholder Rights"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "欧盟证券监管基础",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "这是牛津大学出版社即将出版的《欧盟证券监管：目标、工具和特质》一书的介绍性章节。",
+      "keywords_cn": [
+        "首都",
+        "规定",
+        "环境、社会及治理",
+        "利益相关者主义",
+        "公司法",
+        "私募股权",
+        "风险投资",
+        "套利",
+        "改革",
+        "股东权利"
+      ],
+      "report_id": "2026-10-16",
+      "id": "art_549"
+    },
+    {
+      "title": "Glass Lewis Details Proposal to Fundamentally Shift Proxy Voting Guidelines: Implications for Say on Pay",
+      "url": "https://corpgov.law.harvard.edu/2026/10/15/glass-lewis-details-proposal-to-fundamentally-shift-proxy-voting-guidelines-implications-for-say-on-pay/?utm_source=rss&utm_medium=rss&utm_campaign=glass-lewis-details-proposal-to-fundamentally-shift-proxy-voting-guidelines-implications-for-say-on-pay",
+      "date": "2026-10-15",
+      "abstract": "KEY TAKEAWAYS Prepare for multiple voting lenses. Glass Lewis is proposing to replace its singular benchmark policy with four perspectives beginning in the 2028 U.S. proxy season. Expect the fundamentals to endure. Each perspective retains core standards for pay reasonableness, pay-for-performance alignment, disclosure, non-employee director pay, responsiveness, and other key governance items. Anticipate divergent outcomes. […]",
+      "authors": "Jon Weinstein, Linda Pappas, Soren Meischeid",
+      "keywords": [
+        "Glass Lewis",
+        "proposals",
+        "Proxy voting",
+        "Say on pay",
+        "Jon Weinstein",
+        "Linda Pappas",
+        "Soren Meischeid",
+        "Pay Governance",
+        "Glass Lewis",
+        "proposals",
+        "Proxy voting",
+        "Say on pay",
+        "Jon Weinstein",
+        "Linda Pappas",
+        "Soren Meischeid",
+        "Pay Governance"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "格拉斯·刘易斯详细介绍了从根本上改变代理投票准则的提案：对薪酬发言权的影响",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "要点 为多个投票镜头做好准备。Glass Lewis 提议从 2028 年美国代理季开始，用四种观点取代其单一的基准政策。预计基本面将持续下去。每个视角都保留了薪酬合理性、绩效薪酬调整、披露、非员工董事薪酬、响应能力和其他关键治理项目的核心标准。预期不同的结果。[…]",
+      "keywords_cn": [
+        "格拉斯·刘易斯",
+        "提案",
+        "代理投票",
+        "说付钱",
+        "乔恩·韦恩斯坦",
+        "琳达·帕帕斯",
+        "索伦·迈沙伊德",
+        "薪酬治理",
+        "格拉斯·刘易斯",
+        "提案",
+        "代理投票",
+        "说付钱",
+        "乔恩·韦恩斯坦",
+        "琳达·帕帕斯",
+        "索伦·迈沙伊德",
+        "薪酬治理"
+      ],
+      "report_id": "2026-10-16",
+      "id": "art_550"
+    },
+    {
+      "title": "Mandatory Arbitration and State Competition for Corporate Charters",
+      "url": "https://corpgov.law.harvard.edu/2026/10/15/mandatory-arbitration-and-state-competition-for-corporate-charters/?utm_source=rss&utm_medium=rss&utm_campaign=mandatory-arbitration-and-state-competition-for-corporate-charters",
+      "date": "2026-10-15",
+      "abstract": "Mandatory arbitration of shareholder claims is on the horizon. SEC Chair Paul Atkins has led the SEC to change its long-standing policy against mandatory arbitration. Space Exploration Technologies Corp. (“Space X”), a Texas corporation, recently went public with bylaws that conditionally provide for mandatory arbitration of a broad set of shareholder claims. Silicon Valley companies […]",
+      "authors": "Edward Rock, Marcel Kahan",
+      "keywords": [
+        "Corporate governance",
+        "corporate law",
+        "delaware",
+        "Dual-Class Shares",
+        "political economy",
+        "Regulatory",
+        "Edward Rock",
+        "Marcel Kahan",
+        "Corporate governance",
+        "corporate law",
+        "delaware",
+        "Dual-Class Shares",
+        "political economy",
+        "Regulatory",
+        "Edward Rock",
+        "Marcel Kahan"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "公司章程的强制仲裁和国家竞争",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "股东索赔的强制仲裁即将到来。SEC 主席保罗·阿特金斯 (Paul Atkins) 领导 SEC 改变了其长期反对强制仲裁的政策。德克萨斯州的太空探索技术公司（“Space X”）最近公开了其章程，有条件地规定对广泛的股东索赔进行强制仲裁。硅谷公司[…]",
+      "keywords_cn": [
+        "公司治理",
+        "公司法",
+        "特拉华州",
+        "双重股权结构",
+        "政治经济学",
+        "监管",
+        "爱德华·洛克",
+        "马塞尔在哪里",
+        "公司治理",
+        "公司法",
+        "特拉华州",
+        "双重股权结构",
+        "政治经济学",
+        "监管",
+        "爱德华·洛克",
+        "马塞尔在哪里"
+      ],
+      "report_id": "2026-10-16",
+      "id": "art_551"
+    },
+    {
+      "title": "What New SEC Data Reveals About IPOs and Follow-Ons",
+      "url": "https://corpgov.law.harvard.edu/2026/10/15/what-new-sec-data-reveals-about-ipos-and-follow-ons/?utm_source=rss&utm_medium=rss&utm_campaign=what-new-sec-data-reveals-about-ipos-and-follow-ons",
+      "date": "2026-10-15",
+      "abstract": "Back in February, we looked at SEC data on small and pre-public companies and noted that IPOs were reemerging as an option after several lean years. The SEC’s Division of Economic and Risk Analysis has now released a fresh set of capital formation statistics covering the first half of 2026. The topline is encouraging: More […]",
+      "authors": "Liz Dunshee",
+      "keywords": [
+        "Corporate governance",
+        "IPOs",
+        "SEC",
+        "SPACs",
+        "Liz Dunshee",
+        "Cooley",
+        "Corporate governance",
+        "IPOs",
+        "SEC",
+        "SPACs",
+        "Liz Dunshee",
+        "Cooley"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "美国证券交易委员会 (SEC) 的新数据揭示了有关首次公开募股 (IPO) 和后续发行的哪些信息",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "早在二月份，我们就查看了美国证券交易委员会关于小型公司和上市前公司的数据，并注意到，在经历了几年的不景气之后，首次公开募股（IPO）正在重新成为一种选择。美国证券交易委员会的经济和风险分析部门现已发布了一套涵盖 2026 年上半年的新资本形成统计数据。其要点令人鼓舞：更多 [...]",
+      "keywords_cn": [
+        "公司治理",
+        "首次公开募股",
+        "美国证券交易委员会",
+        "SPAC",
+        "莉兹·邓希",
+        "库利",
+        "公司治理",
+        "首次公开募股",
+        "美国证券交易委员会",
+        "SPAC",
+        "莉兹·邓希",
+        "库利"
+      ],
+      "report_id": "2026-10-16",
+      "id": "art_552"
+    },
+    {
+      "title": "Rethinking Long-Term Incentive Design: Are Longer-Horizon RSUs Gaining Ground?",
+      "url": "https://corpgov.law.harvard.edu/2026/10/14/rethinking-long-term-incentive-design-are-longer-horizon-rsus-gaining-ground/?utm_source=rss&utm_medium=rss&utm_campaign=rethinking-long-term-incentive-design-are-longer-horizon-rsus-gaining-ground",
+      "date": "2026-10-14",
+      "abstract": "Institutional investor and proxy advisor perspectives on the appropriate mix of time- and performance-based equity have continued to evolve, including ISS’s November 2025 policy change providing greater flexibility for the use of time-based equity with extended vesting and/or holding requirements. Longer-horizon time-based equity may offer greater simplicity and predictability, reinforce sustained stock ownership and retention, […]",
+      "authors": "Desmond Pang, Michael Marino, Stephan Bosshard",
+      "keywords": [
+        "Compensation committees",
+        "Incentive",
+        "PSUs",
+        "RSUs",
+        "Desmond Pang",
+        "Michael Marino",
+        "Stephan Bosshard",
+        "FW Cook",
+        "Compensation committees",
+        "Incentive",
+        "PSUs",
+        "RSUs",
+        "Desmond Pang",
+        "Michael Marino",
+        "Stephan Bosshard",
+        "FW Cook"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "重新思考长期激励设计：长远 RSU 是否正在取得进展？",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "机构投资者和代理顾问对基于时间和绩效的股权适当组合的看法不断发展，包括 ISS 2025 年 11 月的政策变更，为基于时间的股权的使用提供了更大的灵活性，并延长了归属和/或持有要求。更长期的基于时间的股权可能会提供更大的简单性和可预测性，加强持续的股权和保留，[...]",
+      "keywords_cn": [
+        "薪酬委员会",
+        "激励",
+        "电源装置",
+        "路边单位",
+        "彭德斯蒙德",
+        "迈克尔·马里诺",
+        "史蒂芬·博斯哈德",
+        "FW库克",
+        "薪酬委员会",
+        "激励",
+        "电源装置",
+        "路边单位",
+        "彭德斯蒙德",
+        "迈克尔·马里诺",
+        "史蒂芬·博斯哈德",
+        "FW库克"
+      ],
+      "report_id": "2026-10-16",
+      "id": "art_553"
+    },
+    {
+      "title": "Understanding Communications by Private Fund Managers",
+      "url": "https://corpgov.law.harvard.edu/2026/10/14/understanding-communications-by-private-fund-managers/?utm_source=rss&utm_medium=rss&utm_campaign=understanding-communications-by-private-fund-managers",
+      "date": "2026-10-14",
+      "abstract": "A large literature on delegated asset management has analyzed the role of information disclosure, especially in situation where managers have significant discretion about reporting on investment choices, performance, and risk. Managers might have incentives to disclose or withhold information strategically, either obscuring or overstating the performance of transactions. This problem is especially prevalent in private […]",
+      "authors": "Antoinette Schoar, Fiona Paine, Josh Lerner",
+      "keywords": [
+        "Corporate Disclosures",
+        "Financial reporting",
+        "Firm valuation",
+        "Private equity",
+        "Antoinette Schoar",
+        "Fiona Paine",
+        "Josh Lerner",
+        "Corporate Disclosures",
+        "Financial reporting",
+        "Firm valuation",
+        "Private equity",
+        "Antoinette Schoar",
+        "Fiona Paine",
+        "Josh Lerner"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "了解私募基金经理的沟通",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "有关委托资产管理的大量文献分析了信息披露的作用，特别是在管理者对投资选择、业绩和风险报告拥有重大自由裁量权的情况下。管理者可能有动机战略性地披露或隐瞒信息，从而掩盖或夸大交易绩效。这个问题在私人领域尤其普遍 […]",
+      "keywords_cn": [
+        "公司披露",
+        "财务报告",
+        "公司估值",
+        "私募股权",
+        "安托瓦内特·斯科阿尔",
+        "菲奥娜·潘恩",
+        "乔什·勒纳",
+        "公司披露",
+        "财务报告",
+        "公司估值",
+        "私募股权",
+        "安托瓦内特·斯科阿尔",
+        "菲奥娜·潘恩",
+        "乔什·勒纳"
+      ],
+      "report_id": "2026-10-16",
+      "id": "art_554"
+    },
+    {
+      "title": "Agentic AI and the Duty of Care: What the METR Report Means and Does Not Mean for the Boardroom",
+      "url": "https://corpgov.law.harvard.edu/2026/10/14/agentic-ai-and-the-duty-of-care-what-the-metr-report-means-and-does-not-mean-for-the-boardroom/?utm_source=rss&utm_medium=rss&utm_campaign=agentic-ai-and-the-duty-of-care-what-the-metr-report-means-and-does-not-mean-for-the-boardroom",
+      "date": "2026-10-14",
+      "abstract": "The foundation of the fulfillment of the duty of care is reasonable reliance on informed expertise. The most common source of this expertise is the corporation’s executive team and, for especially challenging decision-making, combinations of outside advisors and consultants, usually together with the executive team. Importantly, “reasonable reliance” does not mean delegation of judgment and […]",
+      "authors": "Ethan Klingsberg",
+      "keywords": [
+        "AI",
+        "Board of Directors",
+        "Boardroom",
+        "Cybersecurity",
+        "Ethan Klingsberg",
+        "Freshfields",
+        "AI",
+        "Board of Directors",
+        "Boardroom",
+        "Cybersecurity",
+        "Ethan Klingsberg",
+        "Freshfields"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "代理人工智能和注意义务：METR 报告对董事会意味着什么，不意味着什么",
+      "topics": [
+        "tech_data_ai",
+        "corporate_governance"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "履行注意义务的基础是对知情专业知识的合理依赖。这种专业知识最常见的来源是公司的执行团队，对于特别具有挑战性的决策，外部顾问和顾问的组合通常与执行团队一起。重要的是，“合理依赖”并不意味着判断力的委托和[...]",
+      "keywords_cn": [
+        "人工智能",
+        "董事会",
+        "董事会议室",
+        "网络安全",
+        "伊森·克林斯伯格",
+        "富而德",
+        "人工智能",
+        "董事会",
+        "董事会议室",
+        "网络安全",
+        "伊森·克林斯伯格",
+        "富而德"
+      ],
+      "report_id": "2026-10-16",
+      "id": "art_555"
+    },
+    {
+      "title": "Permitted or Required? Pension Trustees and the System-Level Risk They Create",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/10/permitted-or-required-pension-trustees-and-system-level-risk-they-create",
+      "date": "2026-10-16",
+      "type": "blog",
+      "abstract": "Twice in two years the UK Government has described the fiduciary duty of pension trustees as permissive. In April 2025 the Department for Work and Pensions said that the findings of the Law Commission review of investment intermediaries ‘reflect the permissive nature of trustee fiduciary duty’, and the Government was ‘not currently considering any change to the law’. In January 2026 the Department committed to guidance giving trustees ‘clarification and practical support on their ability to take account of system level risks, such as climate related risks’. Both statements answer a real question. Neither answers the harder one, which arises when the system-level risk is produced by the investment strategies of trustees themselves. The 2022 gilt market episode is the clearest recent illustration. Defined benefit schemes used liability-driven investment strategies to hedge long-term interest rate and inflation exposure. Sharp increases in gilt yields triggered collateral and margin calls, and schemes sold assets to meet them. The Bank of England later found that many liability-driven investment funds were not sufficiently prepared for movements of that size, and that stress testing had not adequately considered what would happen if many market participants reacted at the same time. The strategy adopted by any single scheme was defensible. The damage came from the aggregate. What followed is equally instructive for lawyers.",
+      "authors": "Lincoln Booth",
+      "source_id": "oblb",
+      "title_cn": "允许还是要求？养老金受托人及其造成的系统级风险",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "英国政府两年内两次将养老金受托人的信托义务描述为宽松的。2025 年 4 月，工作和养老金部表示，法律委员会对投资中介机构的审查结果“反映了受托人信托义务的宽松性质”，政府“目前不考虑对法律进行任何修改”。2026 年 1 月，该部门承诺提供指导，为受托人“就其考虑的能力提供澄清和实际支持”系统级风险，例如与气候相关的风险”。这两种说法都回答了一个真正的问题。两种说法都没有回答更难的问题，当系统级风险是由受托人本身的投资策略产生时，就会出现这个问题。 2022年的英国国债市场事件是最近最清晰的例证。固定收益计划使用负债驱动的投资策略来对冲长期利率和通胀风险。英国国债收益率的急剧上升引发了抵押品和追加保证金通知，计划出售资产来满足这些要求。英格兰银行后来发现，许多负债驱动的投资基金没有为这种规模的波动做好充分准备，压力测试也没有充分考虑如果许多市场参与者同时做出反应会发生什么。所采用的策略任何单一计划所造成的损害都是可以辩护的。损害来自于总体。接下来发生的事情对律师来说同样具有启发性。",
+      "report_id": "2026-10-16",
+      "id": "art_556"
+    },
+    {
+      "title": "Is Brazil Getting Tougher on Arbitral Awards? Evidence from the Court of Justice of São Paulo",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/10/brazil-getting-tougher-arbitral-awards-evidence-court-justice-sao-paulo",
+      "date": "2026-10-15",
+      "type": "blog",
+      "abstract": "Arbitration is the resolution mechanism of choice for high-value commercial disputes in Brazil, and São Paulo state is its centre. Its court, the Court of Justice of São Paulo (TJSP), is the largest in Brazil and hears more arbitration-related cases than any other in the country. It is also highly specialised, with first-instance courts dedicated to business and arbitration disputes and two chambers reserved for business law-related appeals . A few years ago, the Brazilian legal press suggested that the relationship between the TJSP and arbitration was souring. Losing parties appeared to be challenging arbitral awards more frequently, and the courts appeared increasingly willing to set them aside. Nonetheless, relevant voices in Brazilian arbitration described the debate as ‘ a lot of smoke and little fire ’. Our empirical research set out to test what the TJSP’s decisions actually show, first for 2011–2022 and then, in an update, up to August 2025. As in many other jurisdictions, judicial review is not an appeal on the merits. Brazilian law limits judicial review of arbitral awards, protecting the finality bargained for by commercial parties. An award may only be annulled on the grounds set out in Article 32 of the Brazilian Arbitration Act (Lei nº 9.307/1996), either through an independent set-aside action brought within 90 days of notification of the award or as a defence in enforcement proceedings.",
+      "authors": "Camilo Zufelato, Victor Dantas de Maio Martinez, Fernando Barroso",
+      "source_id": "oblb",
+      "title_cn": "巴西对仲裁裁决是否变得更加严厉？圣保罗法院的证据",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "仲裁是巴西高价值商业纠纷的首选解决机制，圣保罗州是其中心。其法院圣保罗法院 (TJSP) 是巴西最大的法院，审理的仲裁相关案件比该国任何其他法院都多。它的专业性也很高，拥有专门审理商业和仲裁纠纷的一审法院，以及专门处理商业法相关上诉的两个法庭。几年前，巴西法律部门媒体暗示 TJSP 与仲裁之间的关系正在恶化。败诉方似乎更频繁地质疑仲裁裁决，法院似乎也越来越愿意将其搁置。 尽管如此，巴西仲裁中的相关声音将这场辩论描述为“浓烟滚滚”。我们的实证研究旨在测试 TJSP 的裁决实际显示的情况，首先是 2011 年至 2022 年，然后更新至 2025 年 8 月。与许多其他司法管辖区一样，司法审查不是对案情实质的上诉。巴西法律限制对仲裁裁决的司法审查，保护商业当事人讨价还价的终局性。根据《巴西仲裁法》（Lei n° 9.307/1996）第 32 条规定的理由，通过在裁决通知后 90 天内提起的独立撤销诉讼或作为执行程序中的抗辩，予以撤销。",
+      "report_id": "2026-10-16",
+      "id": "art_557"
+    },
+    {
+      "title": "Adam Smith’s Moral Philosophy Complicates Interpretations by the Chicago School and Its Critics",
+      "url": "https://www.promarket.org/2026/10/15/adam-smiths-moral-philosophy-complicates-interpretations-by-the-chicago-school-and-its-critics/",
+      "date": "2026-10-15",
+      "authors": "Sandra Peart and David Levy",
+      "abstract": "The connections between Adam Smith’s Wealth of Nations and Theory of Moral Sentiments reveal a much more complicated understanding of how markets work than developed in the common interpretation by the Chicago School of economics or that of its critics. Smith’s political economy based on commerce, sympathy, and competition produced social good but only when complemented and checked by other forces. When not checked, Smith worried about “factions” that produce bad outcomes, write Sandra J. Peart and David M. Levy.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "亚当·斯密的道德哲学使芝加哥学派及其批评者的解释变得复杂",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "亚当·斯密的《国富论》和《道德情操论》之间的联系揭示了对市场如何运作的理解，比芝加哥经济学派或其批评者的普遍解释复杂得多。斯密的政治经济学以商业、同情和竞争为基础，能够产生社会福利，但只有在受到其他力量的补充和制约时。桑德拉·J·皮尔特（Sandra J. Peart）和大卫·M·利维（David M. Levy）写道，如果不加以制止，史密斯担心“派系”会产生不良结果。",
+      "report_id": "2026-10-16",
+      "id": "art_558"
+    },
+    {
+      "title": "Why Economics Forsook Democracy",
+      "url": "https://www.promarket.org/2026/10/14/why-economics-forsook-democracy/",
+      "date": "2026-10-14",
+      "authors": "Robert Van Horn",
+      "abstract": "The post-World War II Chicago School of Aaron Director and Milton Friedman reimagined a new (neo) liberalism that treated economic liberties and the free market as the greatest defense of political rights. The government, and democracy, were more often than not barriers to economic liberties. The United States continues to suffer from neoliberalism’s prescriptions, and addressing the concerns of today’s populist movements will mean rediscovering ideas of freedom that the Chicago School denigrated, writes Robert Van Horn.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "经济学为何放弃民主",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "二战后芝加哥学派的亚伦·迪瑞德和米尔顿·弗里德曼重新构想了一种新的（新）自由主义，将经济自由和自由市场视为对政治权利的最大捍卫。政府和民主往往是经济自由的障碍。罗伯特·范霍恩（Robert Van Horn）写道，美国继续遭受新自由主义处方的困扰，解决当今民粹主义运动的担忧将意味着重新发现被芝加哥学派诋毁的自由理念。",
+      "report_id": "2026-10-16",
+      "id": "art_559"
+    },
+    {
+      "title": "Does Stronger Securities Enforcement Lower Stock Prices?",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/16/does-stronger-securities-enforcement-lower-stock-prices/",
+      "date": "2026-10-16",
+      "authors": "James Si Zeng",
+      "abstract": "How does stronger securities enforcement affect stock prices? The conventional wisdom is that it deters fraud, improves disclosure, and lowers the cost of raising outside capital, so shareholders should welcome it. The most relevant evidence supports that view.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "加强证券执法会降低股价吗？",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "加强证券执法如何影响股价？传统观点认为，它可以阻止欺诈、改善信息披露并降低筹集外部资本的成本，因此股东应该欢迎它。最相关的证据支持这一观点。",
+      "report_id": "2026-10-16",
+      "id": "art_560"
+    },
+    {
+      "title": "Cleary Discusses SEC Proposal to Rescind Rule 14a-8 and Amend Rule 14a-4",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/16/cleary-discusses-sec-proposal-to-rescind-rule-14a-8-and-amend-rule-14a-4/",
+      "date": "2026-10-16",
+      "authors": "Cleary Gottlieb Steen & Hamilton LLP",
+      "abstract": "On September 16, 2026, the SEC issued its much-anticipated proposal to rescind Rule 14a-8 under the Securities Exchange Act of 1934 (the “Exchange Act”), the shareholder proposal rule, in its entirety.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "佳利讨论 SEC 废除第 14a-8 条规则并修改第 14a-4 条规则的提案",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 16 日，SEC 发布了备受期待的提案，全面废除 1934 年《证券交易法》（“交易法”）下的第 14a-8 条规则（即股东提案规则）。",
+      "report_id": "2026-10-16",
+      "id": "art_561"
+    },
+    {
+      "title": "A Theory of Corporate Bad Faith",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/15/a-theory-of-corporate-bad-faith/",
+      "date": "2026-10-15",
+      "authors": "John C. Coffee, Jr.",
+      "abstract": "There are four forms of corporate bad faith: intentional misconduct, knowing violation of law (Massey), violation of the duty of oversight (Caremark), and corporate waste. Each is a distinct theory of the case in a cause of action for “bad faith.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "公司恶意理论",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "企业恶意有四种形式：故意不当行为、明知违法（Massey）、违反监督义务（Caremark）和企业浪费。每一个案件都是针对“恶意”诉讼理由的独特理论。",
+      "report_id": "2026-10-16",
+      "id": "art_562"
+    },
+    {
+      "title": "Kirkland & Ellis Discusses SEC Proposal to Expand and Modernize Retail Fund Access",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/15/kirkland-ellis-discusses-sec-proposal-to-expand-and-modernize-retail-fund-access/",
+      "date": "2026-10-15",
+      "authors": "Kirkland & Ellis LLP",
+      "abstract": "On September 30, 2026, the U.S. Securities and Exchange Commission (the SEC) issued two proposing releases that could significantly expand retail access to private market strategies through regulated fund structures.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "凯易讨论 SEC 扩大和现代化零售基金准入的提案",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 30 日，美国证券交易委员会 (SEC) 发布了两项提案，可以通过受监管的基金结构显着扩大散户参与私募市场策略的机会。",
+      "report_id": "2026-10-16",
+      "id": "art_563"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "Congress May Flip. What Actually Changes for Banks?",
+      "title_cn": "国会可能会翻转。银行实际上发生了什么变化？",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-10-14",
+      "abstract": "Cam Fine, former head of ICBA, and Ed Yingling, former head of ABA, break down what different midterm election outcomes could actually mean for banks, from congressional oversight and agency confirmations to crypto, the CFPB and regulatory relief. They also examine whether the Trump administration's bank regulatory changes can endure as control of Congress — and eventually the White House — changes hands.",
+      "abstract_cn": "ICBA 前负责人 Cam Fine 和 ABA 前负责人 Ed Yingling 详细分析了不同的中期选举结果对银行实际上意味着什么，从国会监督和机构确认到加密货币、CFPB 和监管救济。他们还研究了特朗普政府的银行监管改革能否随着国会——最终是白宫——的控制权易手而持续下去。",
+      "keywords": [
+        "Banking Policy; Financial Regulation; Bank Supervision"
+      ],
+      "keywords_cn": [
+        "银行政策；金融监管；银行监管"
+      ],
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/congress-may-flip-what-actually-changes-for-banks",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "report_id": "2026-10-16",
+      "id": "art_564"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Revenue per Worker Is Up. Are Firms Getting a Larger Share?",
+      "title_cn": "每个工人的收入增加了。企业是否获得了更大的份额？",
+      "authors": "Jeremy Pearce",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-10-15",
+      "abstract": "From the Great Recession until 2019, U.S. labor productivity growth disappointed. Nonfarm-business output per hour grew about 1 percent a year from 2010 to 2019, down from 3 percent in the late 1990s. This slowdown was especially pronounced in manufacturing, and it coincided with a slowdown in the growth of revenue per worker among public firms. However, since 2019, growth has picked up to twice the 2010s rate, around 2 percent. In this post, I use data from firms’ 10-K filings to unpack this recent acceleration.",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/revenue-per-worker-is-up-are-firms-getting-a-larger-share/",
+      "type": "article",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "从大衰退到2019年，美国劳动生产率的增长令人失望。2010 年至 2019 年，每小时非农企业产出每年增长约 1%，低于 20 世纪 90 年代末的 3%。这种放缓在制造业尤其明显，而且与上市公司的人均收入增长放缓同时发生。然而，自 2019 年以来，增长率已达到 2010 年代的两倍，约为 2%。在这篇文章中，我使用公司 10-K 文件中的数据来解析最近的加速趋势。",
+      "report_id": "2026-10-16",
+      "id": "art_565"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Has the AI Boom Impacted the U.S. Current Account?",
+      "title_cn": "人工智能热潮是否影响了美国经常账户？",
+      "authors": "Julian di Giovanni",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-10-14",
+      "abstract": "The AI boom is showing up in different corners of the U.S. economy, including international trade. Imports of semiconductors, servers, and computing equipment have climbed sharply yet the U.S. current account deficit has been largely unchanged. To better understand how the AI boom has not substantially affected the trade balance, consider that the current account is dictated by the gap between domestic saving and investment spending. It turns out that aggregate saving and investment spending have not changed much during the AI boom.",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/has-the-ai-boom-impacted-the-u-s-current-account/",
+      "type": "article",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "abstract_cn": "人工智能的繁荣正在美国经济的各个领域显现出来，包括国际贸易。半导体、服务器和计算设备的进口大幅攀升，但美国经常账户赤字基本没有变化。为了更好地理解人工智能繁荣为何没有对贸易平衡产生重大影响，我们可以考虑一下经常账户是由国内储蓄和投资支出之间的缺口决定的。事实证明，在人工智能繁荣期间，储蓄和投资支出总额并没有太大变化。",
+      "report_id": "2026-10-16",
+      "id": "art_566"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Artificial intelligence meets business intelligence: the anatomy of inflation",
+      "title_cn": "人工智能遇上商业智能：通货膨胀的剖析",
+      "authors": "Marcus Buckmann, Galina Potjagailo and Shobhit Rawat",
+      "affiliations": "Bank of England",
+      "date": "2026-10-15",
+      "abstract": "What can artificial intelligence reveal about firms’ pricing decisions from text-based business intelligence? We use a large language model (LLM) to quantify pricing narratives from reports documenting discussions during the Bank of England’s company visits. The LLM is prompted to derive scores for output-price changes and decompose them …",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/10/15/artificial-intelligence-meets-business-intelligence-the-anatomy-of-inflation/",
+      "type": "article",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "abstract_cn": "人工智能可以通过基于文本的商业智能揭示公司的定价决策的哪些内容？我们使用大型语言模型 (LLM) 来量化记录英格兰银行公司访问期间讨论的报告中的定价叙述。法学硕士被提示得出产出价格变化的分数并将其分解......",
+      "report_id": "2026-10-16",
+      "id": "art_567"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Narratives under the microscope: what MPC transcripts can tell us about policy thinking",
+      "title_cn": "显微镜下的叙述：货币政策委员会的记录可以告诉我们什么关于政策思维的信息",
+      "authors": "Dragos Gorduza, Livia Silva Paranhos and Ivan Yotzov",
+      "affiliations": "Bank of England",
+      "date": "2026-10-15",
+      "abstract": "Monetary policy decisions reflect incoming data, forecasts, and policymaker preferences. In this post, we use large language models (LLMs) to analyse Bank of England Monetary Policy Committee (MPC) transcripts from 2015 to 2017. We extract structured measures of individual views on inflation and growth, and the narratives …",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/10/15/narratives-under-the-microscope-what-mpc-transcripts-can-tell-us-about-policy-thinking/",
+      "type": "article",
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "abstract_cn": "货币政策决策反映了传入的数据、预测和政策制定者的偏好。在这篇文章中，我们使用大型语言模型（LLM）来分析 2015 年至 2017 年英格兰银行货币政策委员会（MPC）的成绩单。我们提取了个人对通胀和增长观点的结构化衡量标准，以及叙述……",
+      "report_id": "2026-10-16",
+      "id": "art_568"
     }
   ],
   "monthly_reports": [
@@ -16329,7 +16965,8 @@
         "2026-10-07",
         "2026-10-09",
         "2026-10-12",
-        "2026-10-14"
+        "2026-10-14",
+        "2026-10-16"
       ],
       "summary": "",
       "trends": []
