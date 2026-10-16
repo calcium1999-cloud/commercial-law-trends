@@ -14,7 +14,7 @@ TOPIC_KEYWORDS = {
         "public benefit corporation", "benefit corporation",
         "shareholder vote", "annual meeting", "proxy statement",
         "shareholder activist",
-        "equity comp", "stock option",
+        "equity comp", "stock option", "restricted stock unit", "rsu", "long-term incentive",
         "信义义务", "董事会", "股东", "高管薪酬", "公司治理",
         "独立董事", "股东提案", "股东积极主义",
         "takeover", "corporate merger", "mergers and acquisitions", "acquisition", " Revlon",
@@ -45,7 +45,7 @@ TOPIC_KEYWORDS = {
         "federal reserve", "fsb", "financial stability",
     ],
     "antitrust": [
-        "antitrust", "competition", "merger control", "monopoly",
+        "antitrust", "merger control", "monopoly",
         "market power", "cartel", "price fixing", "sherman act",
         "clayton act", "ftc", "doj antitrust", "antitrust division", "dg comp",
         "horizontal merger", "vertical merger", "killer acquisition",
