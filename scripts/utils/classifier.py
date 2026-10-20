@@ -18,6 +18,7 @@ TOPIC_KEYWORDS = {
         "信义义务", "董事会", "股东", "高管薪酬", "公司治理",
         "独立董事", "股东提案", "股东积极主义",
         "takeover", "corporate merger", "mergers and acquisitions", "acquisition", " Revlon",
+        "cash-out merger", "appraisal rights",
         "duty of care", "duty of loyalty", "business judgment",
         "leveraged buyout", "lbo",
         "controlling shareholder", "dual class", "sunset provision",
@@ -74,6 +75,7 @@ TOPIC_KEYWORDS = {
         "biometric", "facial recognition",
         "open source", "interoperability",
         "smart contract", "blockchain", "nft", "tokenized securities", "tokenised securities",
+        "digital operational resilience", "information and communication technology",
         "automated market maker", "liquidity pool",
         "digital platform", "tech regulation",
     ],
@@ -98,8 +100,12 @@ def classify(title, abstract, keywords):
             # Short tokens such as "ai", "sec" and "occ" must match whole
             # words; substring matching creates false positives in ordinary
             # words such as "sustainability" and "section".
+            whole_word = (
+                (len(kw) <= 4 and kw.isascii())
+                or kw == "solvency regulation"
+            )
             if (re.search(rf"\b{re.escape(kw)}\b", text)
-                    if len(kw) <= 4 and kw.isascii() else kw in text):
+                    if whole_word else kw in text):
                 score += 1
         if score > 0:
             scores[topic] = score
@@ -116,7 +122,11 @@ def classify(title, abstract, keywords):
         # Avoid a stray bio/keyword mention creating a second topic when the
         # main subject has much stronger evidence. Balanced 2:1 cases still
         # retain a useful dual label (for example AI in investor relations).
-        if secondary_score >= 2 or secondary_score * 2 >= primary_score:
+        tokenized_securities = (
+            "tokenized securities" in text or "tokenised securities" in text
+        )
+        if (secondary_score >= 2 or secondary_score * 2 >= primary_score
+                or (secondary_topic == "tech_data_ai" and tokenized_securities)):
             topics.append(secondary_topic)
     primary = topics[0]
 
