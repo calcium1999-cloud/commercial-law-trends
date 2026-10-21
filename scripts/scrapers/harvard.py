@@ -64,9 +64,14 @@ class HarvardScraper(BaseScraper):
             author_text = re.sub(r'^Posted by\s+', '', author_text, flags=re.I)
             author_text = re.sub(r',\s*on\s*$', '', author_text, flags=re.I)
             detail["authors"] = author_text
-        tags = soup.find_all("a", rel="tag")
+        # Harvard renders topical categories and "More from" author links in
+        # the same metadata area. Prefer category links so people/firms do not
+        # become keywords, and deduplicate the repeated footer tag set.
+        tags = soup.select('a[rel~="category"]') or soup.find_all("a", rel="tag")
         if tags:
-            detail["keywords"] = [t.get_text(strip=True) for t in tags if t.get_text(strip=True)]
+            detail["keywords"] = list(dict.fromkeys(
+                t.get_text(strip=True) for t in tags if t.get_text(strip=True)
+            ))
         if not detail.get("abstract"):
             detail.pop("abstract", None)
         return detail

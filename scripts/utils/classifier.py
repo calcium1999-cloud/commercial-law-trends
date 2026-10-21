@@ -18,6 +18,7 @@ TOPIC_KEYWORDS = {
         "信义义务", "董事会", "股东", "高管薪酬", "公司治理",
         "独立董事", "股东提案", "股东积极主义",
         "takeover", "corporate merger", "mergers and acquisitions", "acquisition", " Revlon",
+        "m&a",
         "cash-out merger", "appraisal rights",
         "duty of care", "duty of loyalty", "business judgment",
         "leveraged buyout", "lbo",
@@ -44,6 +45,7 @@ TOPIC_KEYWORDS = {
         "section 16", "securities regulation", "rule 10b", "rule 14a",
         "perril", "pma",
         "federal reserve", "fsb", "financial stability",
+        "bank m&a",
     ],
     "antitrust": [
         "antitrust", "merger control", "monopoly",
@@ -91,6 +93,7 @@ TOPIC_PRIORITY = [
 
 def classify(title, abstract, keywords):
     """Classify article into 1-2 topics. Returns (topics, primary_topic)."""
+    substantive_text = " ".join(filter(None, [title, abstract])).lower()
     text = " ".join(filter(None, [title, abstract, " ".join(keywords or [])])).lower()
 
     scores = {}
@@ -104,8 +107,12 @@ def classify(title, abstract, keywords):
                 (len(kw) <= 4 and kw.isascii())
                 or kw == "solvency regulation"
             )
-            if (re.search(rf"\b{re.escape(kw)}\b", text)
-                    if whole_word else kw in text):
+            # A bare AI category/tag is too weak to establish that technology
+            # is a core subject. Require the short token in title or abstract;
+            # longer, specific technology phrases may still use keywords.
+            haystack = substantive_text if kw == "ai" else text
+            if (re.search(rf"\b{re.escape(kw)}\b", haystack)
+                    if whole_word else kw in haystack):
                 score += 1
         if score > 0:
             scores[topic] = score

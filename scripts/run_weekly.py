@@ -192,7 +192,8 @@ def classify_articles(articles):
         keywords = art.get("keywords", [])
         if isinstance(keywords, str):
             keywords = [k.strip() for k in re.split(r"[,，]", keywords) if k.strip()]
-            art["keywords"] = keywords
+        keywords = list(dict.fromkeys(k.strip() for k in keywords if k and k.strip()))
+        art["keywords"] = keywords
         topics, primary = classify(title, abstract, keywords)
         art["topics"] = topics
         art["primary_topic"] = primary

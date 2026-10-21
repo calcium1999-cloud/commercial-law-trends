@@ -140,7 +140,7 @@ class CLSScraper(BaseScraper):
             )
             if names:
                 return ", ".join(name.strip() for name in names)
-        m = re.search(r"This post is based on a (.+? LLP) memorandum", tail, re.I)
+        m = re.search(r"This post is based on an? (.+? LLP) memorandum", tail, re.I)
         if m:
             return m.group(1).strip()
         names = re.findall(

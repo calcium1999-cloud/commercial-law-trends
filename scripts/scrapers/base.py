@@ -32,6 +32,14 @@ def curl_get(url, timeout=TIMEOUT):
         raise ConnectionError(f"curl failed (rc={result.returncode}): {result.stderr[:200]}")
     if not result.stdout:
         raise ConnectionError("curl returned empty response")
+    # Some WordPress hosts return an HTTP-200 Cloudflare/WPEngine block page.
+    # Treat it as a fetch failure so the existing Jina/Wayback fallbacks run
+    # instead of parsing the block page as article HTML.
+    lowered = result.stdout[:12000].lower()
+    if ('<title>attention required! | cloudflare</title>' in lowered
+            or 'id="cf-error-details"' in lowered
+            or "id='cf-error-details'" in lowered):
+        raise ConnectionError("curl returned a Cloudflare block page")
     return result.stdout
 
 
