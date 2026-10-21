@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-10-20",
+    "last_updated": "2026-10-21",
     "version": "1.0"
   },
   "sources": [
@@ -1172,6 +1172,32 @@
         "art_580",
         "art_581",
         "art_582"
+      ]
+    },
+    {
+      "id": "2026-10-21",
+      "date": "2026-10-21",
+      "period_start": "2026-10-21",
+      "period_end": "2026-10-21",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增8篇文章。",
+      "trends": [
+        "本周十一大来源共新增8篇文章，来自Harvard、OBLB、ProMarket、CLS、BWI，主题分布以科技、数据与AI（2篇）、反垄断（2篇）、金融监管（2篇）为主。",
+        "公司治理领域新增2篇，来自Harvard。本期重点议题包括为银行并购奠定基础；衡平法院加强第 144 条的保护——以及忠实执行的必要性。",
+        "金融监管领域新增3篇，来自CLS、BWI。本期重点议题包括美联储 30 年的执法行动揭示了什么；阿诺德和波特讨论实施天才法案；花旗如何将人工智能运用到工作中。",
+        "反垄断领域新增2篇，来自ProMarket。本期重点议题包括无需游说即可获得反垄断政策；作为产业政策的反垄断：芝加哥学派与亚当·斯密。",
+        "科技、数据与AI领域新增3篇，来自CLS、BWI、Harvard。本期重点议题包括为银行并购奠定基础；阿诺德和波特讨论实施天才法案；花旗如何将人工智能运用到工作中。",
+        "其他领域新增1篇，来自OBLB。本期重点议题包括公共资本如何影响中国的风险决策。"
+      ],
+      "article_ids": [
+        "art_583",
+        "art_584",
+        "art_585",
+        "art_586",
+        "art_587",
+        "art_588",
+        "art_589",
+        "art_590"
       ]
     }
   ],
@@ -17299,6 +17325,233 @@
       "id": "art_582",
       "keywords": [],
       "keywords_cn": []
+    },
+    {
+      "title": "Laying the Groundwork for Bank M&A",
+      "url": "https://corpgov.law.harvard.edu/2026/10/20/laying-the-groundwork-for-bank-ma/?utm_source=rss&utm_medium=rss&utm_campaign=laying-the-groundwork-for-bank-ma",
+      "date": "2026-10-20",
+      "abstract": "As we enter the final months of 2026, we consider recent developments in bank M&A and offer a framework for preparing for future opportunities. Several significant regional bank deals have closed this year, including Santander/Webster ($12.3 billion), Fifth Third/Comerica ($10.9 billion), Pinnacle/Synovus ($8.6 billion), Huntington/Cadence ($7.4 billion) and PNC/FirstBank ($4.1 billion). Collectively, these transactions reflect […]",
+      "authors": "Brandon Price, Edward Herlihy, Richard Kim",
+      "keywords": [
+        "AI",
+        "Banks",
+        "Board of Directors",
+        "M&A",
+        "Brandon Price",
+        "Edward Herlihy",
+        "Richard Kim",
+        "Wachtell Lipton",
+        "AI",
+        "Banks",
+        "Board of Directors",
+        "M&A",
+        "Brandon Price",
+        "Edward Herlihy",
+        "Richard Kim",
+        "Wachtell Lipton"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "为银行并购奠定基础",
+      "topics": [
+        "tech_data_ai",
+        "corporate_governance"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "在进入 2026 年的最后几个月之际，我们考虑了银行并购的最新发展，并提供了一个为未来机遇做好准备的框架。今年已完成多项重要的区域银行交易，包括 Santander/Webster（123 亿美元）、Fifth Third/Comerica（109 亿美元）、Pinnacle/Synovus（86 亿美元）、Huntington/Cadence（74 亿美元）和 PNC/FirstBank（41 亿美元）。总的来说，这些交易反映了[...]",
+      "keywords_cn": [
+        "人工智能",
+        "银行",
+        "董事会",
+        "并购",
+        "布兰登·普莱斯",
+        "爱德华·赫利希",
+        "理查德·金",
+        "瓦赫特尔·利普顿",
+        "人工智能",
+        "银行",
+        "董事会",
+        "并购",
+        "布兰登·普莱斯",
+        "爱德华·赫利希",
+        "理查德·金",
+        "瓦赫特尔·利普顿"
+      ],
+      "report_id": "2026-10-21",
+      "id": "art_583"
+    },
+    {
+      "title": "Court of Chancery Reinforces Section 144’s Protections–and the Need for Faithful Implementation",
+      "url": "https://corpgov.law.harvard.edu/2026/10/20/court-of-chancery-reinforces-section-144s-protections-and-the-need-for-faithful-implementation/?utm_source=rss&utm_medium=rss&utm_campaign=court-of-chancery-reinforces-section-144s-protections-and-the-need-for-faithful-implementation",
+      "date": "2026-10-20",
+      "abstract": "In an important decision interpreting the new Section 144 of the Delaware General Corporation Law, added by the adoption of SB 21 in 2025, the Court of Chancery last week preliminarily enjoined a proposed recapitalization of Cloudflare, Inc. designed to preserve founder control. In re Cloudflare, Inc. Stockholder Litigation, C.A. No. 2026-0772-JTL (Del. Ch. Oct. […]",
+      "authors": "Kevin Schwartz, Steven Winter, Theo. Mirvis",
+      "keywords": [
+        "Delaware Court of Chancery",
+        "Fiduciary duties",
+        "Plaintiffs",
+        "Section 144",
+        "Kevin Schwartz",
+        "Steven Winter",
+        "Theo. Mirvis",
+        "Wachtell Lipton",
+        "Delaware Court of Chancery",
+        "Fiduciary duties",
+        "Plaintiffs",
+        "Section 144",
+        "Kevin Schwartz",
+        "Steven Winter",
+        "Theo. Mirvis",
+        "Wachtell Lipton"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "衡平法院加强第 144 条的保护——以及忠实执行的必要性",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "在解释特拉华州普通公司法新第 144 条（并通过 2025 年通过的 SB 21 补充）的一项重要决定中，衡平法院上周初步禁止了旨在保留创始人控制权的 Cloudflare, Inc. 拟议的资本重组。关于 Cloudflare, Inc. 股东诉讼，C.A.编号 2026-0772-JTL（Del. Ch. 10 月 […]",
+      "keywords_cn": [
+        "特拉华州衡平法院",
+        "信托义务",
+        "原告",
+        "第144条",
+        "凯文·施瓦茨",
+        "史蒂文·温特",
+        "西奥.米尔维斯",
+        "瓦赫特尔·利普顿",
+        "特拉华州衡平法院",
+        "信托义务",
+        "原告",
+        "第144条",
+        "凯文·施瓦茨",
+        "史蒂文·温特",
+        "西奥.米尔维斯",
+        "瓦赫特尔·利普顿"
+      ],
+      "report_id": "2026-10-21",
+      "id": "art_584"
+    },
+    {
+      "title": "How Public Capital Shapes Venture Decisions in China",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/10/how-public-capital-shapes-venture-decisions-china",
+      "date": "2026-10-21",
+      "type": "blog",
+      "abstract": "China’s rules for government investment funds ask public capital to serve national strategies and designated industries while telling government agencies not to interfere through administrative means in individual investment decisions. The balance became more explicit in January 2026, when the National Development and Reform Commission introduced a formal system for evaluating the investment direction of government funds . Policy alignment accounts for 60 per cent of the score, production-layout objectives for 30 per cent and execution capacity for 10 per cent. Stronger results can bring project referrals, financing support and cooperation with other public funds; evaluation can also affect fund contributions, management fees and profit distribution. That creates a feedback loop. Policy objectives matter not only when a fund is established. The portfolio a manager builds can affect the resources and economics available to the fund afterwards.",
+      "authors": "Jun Yan",
+      "source_id": "oblb",
+      "title_cn": "公共资本如何影响中国的风险决策",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "中国的政府投资基金规则要求公共资本服务国家战略和特定行业，同时要求政府机构不得通过行政手段干预个人投资决策。2026年1月，国家发改委正式出台政府资金投资方向评估制度，这种平衡变得更加明确。政策对接占60%，生产布局目标占30%，执行能力占10%。更强的成果可以带来项目推荐、融资支持以及与其他公共基金的合作；评估还会影响基金出资、管理费和利润分配。这就形成了一个反馈循环。政策目标不仅在基金设立时才重要。经理建立的投资组合可能会影响基金随后可用的资源和经济效益。",
+      "report_id": "2026-10-21",
+      "id": "art_585"
+    },
+    {
+      "title": "Antitrust Policy Can Be Captured Without Lobbying",
+      "url": "https://www.promarket.org/2026/10/21/antitrust-policy-can-be-captured-without-lobbying/",
+      "date": "2026-10-21",
+      "authors": "Nicholas Short",
+      "abstract": "In new research, Nicholas Short, Sophie Hill, and Jacob Brown examine \"ideological capture\": regulatory capture that works not through lobbying but through experts defining what goals and values regulators may consider. Surveying the public alongside antitrust lawyers, they find the consumer welfare standard marginalizes important public concerns, like the risk of increased layoffs or more lobbying power.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "无需游说即可获得反垄断政策",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "在新的研究中，尼古拉斯·肖特（Nicholas Short）、索菲·希尔（Sophie Hill）和雅各布·布朗（Jacob Brown）研究了“意识形态捕获”：监管捕获不是通过游说而是通过专家定义监管机构可能考虑的目标和价值观来发挥作用。他们与反垄断律师一起对公众进行了调查，发现消费者福利标准边缘化了重要的公众担忧，例如裁员增加或游说力量增强的风险。",
+      "report_id": "2026-10-21",
+      "id": "art_586"
+    },
+    {
+      "title": "Anti-Monopoly as Industrial Policy: The Chicago School Versus Adam Smith",
+      "url": "https://www.promarket.org/2026/10/20/anti-monopoly-as-industrial-policy-the-chicago-school-versus-adam-smith/",
+      "date": "2026-10-20",
+      "authors": "Richard R. John",
+      "abstract": "Jolted by the Great Depression of the 1930s, Thurman Arnold devised an anti-monopoly industrial policy for the United States Justice Department that breathed fresh life into a then-moribund Sherman Anti-Trust Act. Arnold’s jurisprudence built on Adam Smith’s discovery that market-making could promote national security and forestall civil unrest. Smith’s insights had informed the industrial policy of Alexander Hamilton, who laid the groundwork in the 1790s for the country’s economic development. Edward H. Levi brought Arnold’s pragmatic anti-monopolism to the University of Chicago. Here, ironically, Arnoldian jurisprudence would be transmogrified into the doctrinaire company-over-country market fundamentalism of the Chicago School of Economics. Today, writes Richard R. John, as we envision for the 21st century a new pro-market, pro-freedom, pro-national security industrial policy, it is worth recalling how U. S. economic development took the form that it did, why the Chicago School repudiated the enduring wisdom of Adam Smith, and what this portends for the world of today.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "作为产业政策的反垄断：芝加哥学派与亚当·斯密",
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "受到 20 世纪 30 年代大萧条的冲击，瑟曼·阿诺德为美国司法部制定了一项反垄断产业政策，为当时停滞不前的谢尔曼反托拉斯法注入了新的活力。阿诺德的法理学建立在亚当·斯密的发现之上，即做市可以促进国家安全并预防内乱。斯密的见解为亚历山大·汉密尔顿的产业政策提供了参考，后者为美国经济的发展奠定了基础。1790 年代，为了国家的经济发展。爱德华·H·莱维 (Edward H.. Levi) 将阿诺德的实用主义反垄断理论带到了芝加哥大学。具有讽刺意味的是，在这里，阿诺德式的法理学将转变为芝加哥经济学院的教条主义公司对国家的市场原教旨主义。今天，理查德·R·莱维 (Richard R.. 约翰，当我们为 21 世纪设想新的有利于市场、有利于自由、有利于国家安全的产业政策时，值得回顾一下美国的经济发展是如何形成的，为什么芝加哥学派否定了亚当·斯密的不朽智慧，以及这对当今世界预示着什么。",
+      "report_id": "2026-10-21",
+      "id": "art_587"
+    },
+    {
+      "title": "What 30 Years of Federal Reserve Enforcement Actions Reveal",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/21/what-30-years-of-federal-reserve-enforcement-actions-reveal/",
+      "date": "2026-10-21",
+      "authors": "Dan Awrey, Jeffery Zhang",
+      "abstract": "It’s probably safe to say that the Federal Reserve is the most closely studied central bank in the world. Scholars have written at length about its monetary policy, its balance sheet, and its governance and independence.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "美联储 30 年的执法行动揭示了什么",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "可以肯定地说，美联储是世界上研究最深入的央行。学者们详细论述了其货币政策、资产负债表、治理和独立性。",
+      "report_id": "2026-10-21",
+      "id": "art_588"
+    },
+    {
+      "title": "Arnold & Porter Discusses Implementing the GENIUS Act",
+      "url": "https://clsbluesky.law.columbia.edu/2026/10/21/arnold-porter-discusses-implementing-the-genius-act/",
+      "date": "2026-10-21",
+      "authors": "John C. Coffee, Jr.",
+      "abstract": "On September 24, 2026, the Board of Governors of the Federal Reserve System (Board) issued two companion notices of proposed rulemaking to implement its responsibilities under the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act or Act).",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "阿诺德和波特讨论实施天才法案",
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 9 月 24 日，美联储理事会（董事会）发布了两份关于拟议规则制定的配套通知，以履行《美国稳定币指导和建立国家创新法案》（GENIUS 法案或法案）规定的职责。",
+      "report_id": "2026-10-21",
+      "id": "art_589"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "How Citi Is Putting AI to Work",
+      "title_cn": "花旗如何将人工智能运用到工作中",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-10-20",
+      "abstract": "Brent McIntosh, Citigroup's chief legal officer and corporate secretary, discusses how one of the world's largest banks is deploying AI, from everyday employee tools to agentic systems used in compliance and fraud prevention. He also talks about how AI could transform anti-money laundering efforts and cybersecurity, the risks of giving AI agents real authority, and why banks, energy companies and tech firms recently launched the Alliance for Critical Infrastructure, a group designed to help combat the growing threat of cyber attacks across industry lines.",
+      "abstract_cn": "花旗集团首席法律官兼公司秘书布伦特·麦金托什 (Brent McIntosh) 讨论了世界上最大的银行之一如何部署人工智能，从日常员工工具到用于合规和预防欺诈的代理系统。他还谈到了人工智能如何改变反洗钱工作和网络安全、赋予人工智能代理真正权力的风险，以及为什么银行、能源公司和科技公司最近成立了关键基础设施联盟，该组织旨在帮助应对跨行业日益增长的网络攻击威胁。",
+      "keywords": [
+        "Banking Policy; Financial Regulation; Bank Supervision"
+      ],
+      "keywords_cn": [
+        "银行政策；金融监管；银行监管"
+      ],
+      "topics": [
+        "tech_data_ai",
+        "financial_regulation"
+      ],
+      "primary_topic": "tech_data_ai",
+      "url": "https://bankingwithinterest.libsyn.com/how-citi-is-putting-ai-to-work",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "report_id": "2026-10-21",
+      "id": "art_590"
     }
   ],
   "monthly_reports": [
@@ -17386,7 +17639,8 @@
         "2026-10-12",
         "2026-10-14",
         "2026-10-16",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ],
       "summary": "",
       "trends": []
