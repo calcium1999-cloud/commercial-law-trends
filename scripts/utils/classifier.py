@@ -34,6 +34,7 @@ TOPIC_KEYWORDS = {
         "prudential regulation", "prudential supervision", "bank solvency", "insurer solvency", "solvency regulation", "market integrity",
         "underwriting", "going public", "ipo",
         "derivatives", "securitization", "shadow banking",
+        "prediction market", "event contract",
         "stress test", "living will", "bank resolution", "resolution planning",
         "crypto", "token", "digital asset",
         "stablecoin", "cbdc",
