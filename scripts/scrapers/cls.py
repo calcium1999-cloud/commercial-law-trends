@@ -143,6 +143,17 @@ class CLSScraper(BaseScraper):
         m = re.search(r"This post is based on an? (.+? LLP) memorandum", tail, re.I)
         if m:
             return m.group(1).strip()
+        # Some law firms are credited without an ``LLP`` suffix (for example,
+        # "Wachtell, Lipton, Rosen & Katz memorandum").  Keep this after the
+        # narrower LLP form and anchor it to CLS's standard closing sentence so
+        # sidebar authors cannot leak into the attribution.
+        m = re.search(
+            r"This post is based on an?\s+(.+?)\s+memorandum(?:,|\b)",
+            tail,
+            re.I,
+        )
+        if m:
+            return m.group(1).strip()
         names = re.findall(
             r"([A-Z][A-Za-zÀ-ÖØ-öø-ÿ\-’']*"
             r"(?:\s+(?:[A-Z][A-Za-zÀ-ÖØ-öø-ÿ\-’']*|[A-Z]\.)){1,6}"
