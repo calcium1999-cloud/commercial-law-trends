@@ -1263,14 +1263,14 @@
       "period_start": "2026-10-27",
       "period_end": "2026-10-28",
       "title": "商业法律研究动向",
-      "summary": "本周十一大来源共新增18篇文章。",
+      "summary": "本期18篇文章聚焦控制权约束、人工智能责任、公共执法与市场治理。",
       "trends": [
-        "本周十一大来源共新增18篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、Jotwell，主题分布以公司治理（7篇）、科技、数据与AI（4篇）、其他（3篇）为主。",
-        "公司治理领域新增10篇，来自OBLB、ECGI、CLS、Harvard、Jotwell。本期重点议题包括价值提升计划作为公司治理和资本市场发展的战略：亚洲的经验教训；Cloudflare：只要保留足够的书面记录，控制者就不受约束；投资者如何投票等。",
-        "金融监管领域新增2篇，来自OBLB、ECGI。本期重点议题包括价值提升计划作为公司治理和资本市场发展的战略：亚洲的经验教训；货币警察：美联储三十年的执法行动揭示了什么。",
-        "反垄断领域新增3篇，来自CLS、ProMarket。本期重点议题包括负担能力危机、反垄断和消费者焦虑；产品责任战胜反垄断以赢得人们的关注；Ropes & Gray 讨论曼哈顿地区检察官的企业犯罪和反垄断工作组。",
-        "科技、数据与AI领域新增4篇，来自Harvard、OBLB、Jotwell。本期重点议题包括新董事会的当务之急：管理下一步；对特拉华州 AIC 立法草案的批评；从合同修饰者到谈判机器：人工智能在合同中的应用等。",
-        "其他领域新增3篇，来自CLS、ProMarket、ECGI。本期重点议题包括可持续投资值得更好的诊断；美国国内供应链正沿着党派界限断裂；负债管理的有限跑道：当今的企业重组。"
+        "本期十一大来源共新增18篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS与Jotwell。按主分类计，公司治理8篇、其他4篇、科技/数据与AI 3篇、反垄断2篇、金融监管1篇。文章看似横跨亚洲价值提升计划、特拉华公司法、人工智能实体、银行执法、反垄断与债务重组，实质上共同追问：当组织、市场和技术改变权力的行使方式时，法律应如何识别控制、配置责任并维持可执行的约束。",
+        "公司治理研究集中体现了“形式设计—实际约束”之间的张力。亚洲价值提升计划试图借董事会资本配置与信息改善提升市场质量，但作者强调其只能补充、不能替代投资者保护和执法机制。Vanguard的投资者投票安排、提前通知章程、Cloudflare资本重组及特拉华与得州股东权利改革则从不同侧面说明：投票权、提案权和控制股东交易的约束效果，不仅取决于成文规则，也取决于持股门槛、书面记录与程序执行。",
+        "人工智能议题已从“董事会使用何种工具”转向“谁能成为公司行动者”。特拉华AIC草案拟赋予AI管理实体法律人格，引出的核心风险不是技术本身，而是公司外壳是否会稀释开发者与部署者的监督责任。与此同时，AI作为合同优化和谈判工具、机器人担任公司董事的设想以及董事会对AI和网络风险的监督，共同要求公司法区分辅助决策、授权决策与自主行动，并为每一层级保留可追溯的责任主体。",
+        "监管与执法文章把注意力从规则文本转向机构能力。对美联储1995年至2025年间350项公开执法行动的系统研究，提供了观察稀缺执法资源如何分配的经验基础；曼哈顿地区检察官设立企业犯罪与反垄断工作组，则展示了地方执法机关通过组织重构调整优先事项。可持续投资评级无法稳定区分企业造成的损害与积极影响，进一步说明私人评价基础设施同样需要透明的指标、验证机制与问责。",
+        "竞争与产业组织研究强调，消费者损害并非总能由单一法律工具处理。生活成本危机既与通胀有关，也与市场力量、质量下降和创新不足有关；社交媒体注意力争夺的案例则显示，产品责任可能比反垄断更直接地改变成瘾性设计。美国供应链按党派立场重新组合虽提高冲击下的韧性，却以更高投入成本和更少创新为代价，提示竞争政策必须同时衡量价格、质量、创新和系统韧性。",
+        "交易与重组文章揭示了私人自治的边界。非按比例、带强制性的负债管理操作为困境企业提供了重组空间，却也加剧债权人之间的分配冲突；Saama案中的或有对价争议表明，创始人追求业绩条件的激励若脱离合同义务，可能反而触发买方损害赔偿。综合本期研究，治理改革的关键并不是不断增加形式工具，而是使决策权、信息记录、利益激励与可执行责任保持一致。"
       ],
       "article_ids": [
         "art_612",
@@ -18285,24 +18285,24 @@
         "Protection"
       ],
       "source_id": "ecgi",
-      "title_cn": "价值提升计划作为公司治理和资本市场发展的战略：亚洲的经验教训",
+      "title_cn": "价值提升计划：亚洲公司治理与资本市场发展的经验",
       "topics": [
         "corporate_governance",
         "financial_regulation"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "过去几年，一种新形式的公司治理和资本市场干预在亚洲蔓延。从马来西亚开始，继东京证券交易所提出 2023 年倡议后，该倡议获得了国际关注，包括韩国、台湾、中国大陆、泰国和新加坡在内的多个亚洲司法管辖区也采用了本文所泛指的“价值提升倡议”。我们对这些举措进行了比较评估，强调了它们作为公司治理和资本市场发展战略的潜力和局限性。本文首先解释了为什么价值提升举措在亚洲如此突出，以及它们在整个地区的设计方式有何不同。 通过鼓励董事会面对资本配置和估值问题，同时改善投资者可获得的信息，我们认为价值提升举措可以成为一种有价值的公司治理工具。然而，其有效性取决于其运作的制度和市场环境，它们应被理解为保护投资者的有效法律和执行机制的补充，而不是替代。文章最后解释了亚洲价值提升举措的经验如何为寻求加强公司治理同时促进资本市场发展的司法管辖区提供宝贵的经验教训。",
+      "abstract_cn": "过去几年，一种新的公司治理与资本市场干预模式在亚洲扩散。该模式始于马来西亚，并在东京证券交易所2023年倡议后受到国际关注；韩国、台湾、中国大陆、泰国和新加坡等地随后推出了本文统称的“价值提升计划”。文章比较这些计划的制度设计，分析其作为公司治理和资本市场发展工具的潜力与局限。作者认为，计划通过促使董事会正视资本配置和估值问题、改善投资者信息，可以发挥有益作用；但其成效取决于具体的制度与市场环境，只能作为有效投资者保护法律与执法机制的补充，而不能取而代之。",
       "keywords_cn": [
-        "首都",
+        "资本",
         "股东",
-        "管理职责",
+        "尽责管理",
         "内幕交易",
         "丑闻",
         "技术",
         "首次公开募股",
         "风险投资",
-        "规定",
+        "监管",
         "证券",
         "私募股权",
         "关联交易",
@@ -18332,13 +18332,13 @@
         "Infrastructure"
       ],
       "source_id": "ecgi",
-      "title_cn": "可持续投资值得更好的诊断",
+      "title_cn": "可持续投资需要更可靠的诊断工具",
       "topics": [
         "other"
       ],
       "primary_topic": "other",
       "affiliations": "",
-      "abstract_cn": "洗绿丑闻、文化战争以及备受讨论的《金融时报》电影质问谁杀死了 ESG 党，都无法降低可持续投资的水平。据晨星公司称，可持续投资资产目前达到创纪录的 3.7 万亿美元。这种增长在很大程度上反映了市场收益而不是新资金，但大多数投资者仍保持原样。但生存并不等于成功。记录背后隐藏着一个挑战：决定哪些公司被视为可持续发展的工具往往无法区分伤害和帮助。筛选是可持续投资成功或失败的地方——治疗前的诊断——而主要诊断是不可靠的。ESG 评级不衡量影响力考虑 ESG 评级。 在我的演讲中，我喜欢展示四个公司徽标，并要求观众举手，如果每个公司都属于可持续投资组合，仅判断其环境和社会影响。首先是英美烟草公司：没有举手。然后是嘉能可，该公司在 2022 年承认了一项被美国检察官称为令人震惊的贿赂计划：没有举手。第三是太阳能先驱 SunPower：所有人举手。最后是保持工业废水清洁的 Evoqua：所有人举手。接下来的情况是：英美烟草 (BAT) 和嘉能可 (Glencore) 的 ESG 评级名列前茅，而 SunPower 和 Evoqua 排名垫底。",
+      "abstract_cn": "洗绿丑闻、文化争议以及《金融时报》关于“谁终结了ESG热潮”的影片，都未能打垮可持续投资。据晨星统计，可持续投资资产已达到创纪录的3.7万亿美元；其中相当部分增长来自市场上涨而非新增资金，但多数投资者并未退出。然而，存续不等于成功。决定哪些公司可被视为可持续的筛选工具，往往无法区分企业造成的损害与积极影响。作者以ESG评级为例指出，英美烟草和嘉能可获得高评级，而太阳能企业SunPower和工业水处理企业Evoqua却排名靠后，说明主流评级并不能可靠衡量真实影响。",
       "keywords_cn": [
         "可持续投资",
         "环境、社会及治理",
@@ -18376,7 +18376,7 @@
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "在最近的一项名为“Controllers Unbound”的研究中，我和 Kobi Kastiel 解释了采用 SB21 后控制约束的放松预计会对公共投资者和受控公司产生重大不利影响。我们发现的风险包括使控制人能够使用无投票权股票进行资本重组以[...]",
+      "abstract_cn": "在近期研究《不受约束的控制股东》中，作者与Kobi Kastiel分析了SB 21放松控制股东约束后，公众投资者和受控公司可能承受的重大不利影响。其中一项风险，是控制股东可以利用无表决权股份实施资本重组，从而巩固控制权。",
       "keywords_cn": [
         "冲突交易",
         "控股股东",
@@ -18410,14 +18410,14 @@
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "执行摘要 Vanguard Investor Choice 使个人投资者、他们的财务顾问以及退休和 529 计划发起人能够指导他们的合格基金份额在公司股东大会上的投票方式。投资者选择是我们为所有投资者表明立场的长期使命的延伸。正如先锋集团让指数投资变得容易[...]",
+      "abstract_cn": "Vanguard Investor Choice允许个人投资者、财务顾问以及退休计划和529教育储蓄计划的发起人，决定其所持合资格基金份额在公司股东大会上如何投票。这一安排延续了Vanguard扩大投资者参与的长期目标，并将指数投资的普及进一步延伸到代理投票权的配置。",
       "keywords_cn": [
         "指数基金",
         "投资者",
-        "代理赛季",
-        "代理投票",
-        "约翰·加洛韦",
-        "先锋"
+        "股东代理权征集季",
+        "股东代理投票",
+        "John Galloway",
+        "Vanguard"
       ],
       "report_id": "2026-10-28",
       "id": "art_615"
@@ -18440,13 +18440,13 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "提前通知，公平警告：特拉华州法院称章程条款不会改变目标",
+      "title_cn": "提前通知与公平警示：特拉华州法院称章程条款不能成为“移动靶”",
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "当大多数上市公司准备在 12 月至 2 月期间开启董事提名窗口时，特拉华州法院及时发出提醒：提前通知章程对于面临股东激进主义的董事会来说是重要工具，但前提是他们的要求明确并且其执行以章程文本为基础。在 ATG 资本机会中 [...]",
+      "abstract_cn": "多数上市公司将在12月至次年2月开启董事提名窗口之际，特拉华州法院及时提醒：提前通知章程是董事会应对股东积极主义的重要工具，但其要求必须明确，执行也必须以章程文本为依据。该判决强调，公司不能在争议发生后任意改变对提名条件的解释。",
       "keywords_cn": [
         "章程",
         "公司治理",
@@ -18478,23 +18478,23 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "新董事会的当务之急：管理下一步",
+      "title_cn": "董事会的新任务：治理未来风险",
       "topics": [
-        "tech_data_ai",
-        "corporate_governance"
+        "corporate_governance",
+        "tech_data_ai"
       ],
-      "primary_topic": "tech_data_ai",
+      "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "执行摘要 今天的董事会被要求管理更广泛、更具活力的一系列问题，但核心任务是熟悉的。制定战略、管理业务、选择领导者并监督风险。人工智能、网络威胁、地缘政治和贸易不确定性以及不断扩大的监管正在增加这些责任的复杂性并提高溢价 [...]",
+      "abstract_cn": "当今董事会需要治理的议题范围更广、变化更快，但其核心职责并未改变：制定战略、审慎管理企业、选任领导者并监督风险。人工智能、网络威胁、地缘政治与贸易不确定性以及持续扩张的监管要求，使这些职责更加复杂，也提高了董事会有效履职的价值。",
       "keywords_cn": [
         "人工智能",
         "董事会",
         "公司治理",
-        "法规",
-        "黛安·麦金太尔",
-        "玛莎·卡特",
-        "肖恩·奎因",
-        "我持有"
+        "监管",
+        "Diane McIntyre",
+        "Martha Carter",
+        "Sean Quinn",
+        "Teneo"
       ],
       "report_id": "2026-10-28",
       "id": "art_617"
@@ -18517,22 +18517,22 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "衡平法院因创始人为实现盈利而过度积极努力而判给买方损害赔偿金",
+      "title_cn": "创始人为实现或有对价条件采取过度激进行为，衡平法院判买方获赔",
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "在 Saama Technologies 诉讼案（2026 年 9 月 26 日）中，特拉华州衡平法院裁定，收购 Saama Technologies（“公司”）控股权的私募股权公司关联公司（“买方”）不欠公司及其创始人兼首席执行官（“创始人”）6,750 万美元的报酬。该判决值得注意的是法院的 [...]",
+      "abstract_cn": "在Saama Technologies诉讼案中，特拉华州衡平法院裁定，收购该公司控股权的私募股权关联公司无需向公司及其创始人兼首席执行官支付6750万美元或有对价。判决同时认定，创始人为实现相关业绩条件而采取的过度激进行为可使买方获得损害赔偿。",
       "keywords_cn": [
         "董事会",
         "首席执行官",
         "特拉华州衡平法院",
-        "信托义务",
-        "盖尔·韦恩斯坦",
-        "菲利普·里克特",
-        "史蒂文·爱泼斯坦",
-        "弗里德·弗兰克"
+        "信义义务",
+        "Gail Weinstein",
+        "Philip Richter",
+        "Steven Epstein",
+        "Fried Frank"
       ],
       "report_id": "2026-10-28",
       "id": "art_618"
@@ -18545,14 +18545,14 @@
       "abstract": "It’s probably safe to say that the Federal Reserve is the most closely studied central bank in the world. Scholars have written at length about its monetary policy, its balance sheet, and its governance and independence. But far less attention has been paid to the Federal Reserve’s role as a federal law enforcement agency. Yet as one of four US federal banking agencies, the Federal Reserve supervises more than 3,000 banking organizations, collectively holding trillions in assets. How does the Federal Reserve actually use its enforcement powers? In our working paper, Money Cop , we try to answer that question in a systematic way by hand-collecting and cleaning all 350 public enforcement actions the Federal Reserve brought against a banking organization between 1995 and 2025. We coded each action by statutory authority, violation type, penalty and target, before matching the targets to regulatory filings and to daily stock returns. What we see raises important questions about how the Federal Reserve allocates its scarce enforcement resources, and how well its enforcement strategy supports its core price and financial stability mandates.",
       "authors": "Dan Awrey, Jeffery Zhang",
       "source_id": "oblb",
-      "title_cn": "货币警察：美联储三十年的执法行动揭示了什么",
+      "title_cn": "金融警察：美联储三十年执法行动揭示了什么",
       "keywords": [],
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "可以肯定地说，美联储是世界上研究最深入的中央银行。学者们对美联储的货币政策、资产负债表、治理和独立性进行了详尽的阐述。但对美联储作为联邦执法机构的作用的关注却少之又少。然而，作为美国四大联邦银行机构之一，美联储监管着 3000 多家银行机构，总共持有数万亿美元的资产。美联储实际上是如何运用其执法权力的？在我们的工作论文《金钱警察》中，我们试图通过手工收集和清理 1995 年至 2025 年间美联储针对银行组织采取的所有 350 项公共执法行动，以系统的方式回答这个问题。 我们根据法定权限、违规类型、处罚和目标对每项行动进行编码，然后将目标与监管文件和每日股票收益进行匹配。我们所看到的情况提出了重要问题：美联储如何分配其稀缺的执行资源，以及其执行策略如何很好地支持其核心价格和金融稳定任务。",
+      "abstract_cn": "美联储的货币政策、资产负债表、治理与独立性受到广泛研究，但其作为联邦执法机关的角色较少被系统考察。作者手工收集并清理了1995年至2025年间美联储针对银行机构采取的全部350项公开执法行动，按法定权限、违法类型、处罚和对象编码，并与监管申报和每日股票收益匹配。研究由此追问：美联储如何分配稀缺执法资源，其执法策略又在多大程度上支持价格稳定与金融稳定职责。",
       "report_id": "2026-10-28",
       "id": "art_619"
     },
@@ -18572,7 +18572,7 @@
       ],
       "primary_topic": "tech_data_ai",
       "affiliations": "",
-      "abstract_cn": "在人工智能代理变得流氓甚至可能对人类构成生存威胁的高调新闻背景下，特拉华州正准备采取重大举措。拟议的立法草案称为人工智能公司（AIC）法案，将允许创建一个完全由人工智能代理管理的全新商业实体，在没有常规人类监督的情况下运作。支持者声称，将人工智能代理包装在公司外壳中将使人工智能对法律体系“可读”。事实上，AIC法案建立了一个完全由人工智能代理管理的全新商业实体。大人工智能（前沿人工智能模型公司，如 Anthropic、OpenAI、Meta、xAI 等）几乎难以逾越的责任盾牌。 特拉华州的提案并没有强迫大人工智能严格控制其自主代理，而是创建了一个框架，积极奖励那些对其人工智能代理进行较少监督的公司。支持者认为，由于人工智能代理不可避免地会脱离人类的控制，试图禁止它们是徒劳的，而且当前形式的人工智能代理不适合法律体系，因此超越了法律。AIC法的支持者提出，通过将人工智能代理包装在具有法人资格的公司外壳中，人们可以克服这一问题。在AIC法框架下，AIC可以以自己的名义起诉和被起诉、持有财产、签订合同和承担债务。",
+      "abstract_cn": "在AI代理可能失控甚至威胁人类的争议背景下，特拉华州拟议《人工智能公司法》（AIC法案），允许设立完全由AI代理管理、无需日常人类监督的新型商业实体。支持者认为，公司外壳可使AI代理进入现有法律体系；作者则批评该法案可能为大型AI企业建立近乎不可穿透的责任屏障，并奖励企业减少对自主代理的监督。依草案，AIC可以自己的名义起诉和应诉、持有财产、订立合同并承担债务，核心问题因而是法律人格是否会掩盖开发者和部署者的控制与责任。",
       "report_id": "2026-10-28",
       "id": "art_620"
     },
@@ -18584,14 +18584,14 @@
       "abstract": "In this post, I argue that AI tools can be used as a ‘Contract Embellisher’: the parties to a contract deploy them to improve an agreement they have already concluded. This is less risky and less complex than using AI to negotiate a contract in the first place. At the same time, experience with AI as a ‘Contract Embellisher’ can feed back into using AI as a ‘Negotiation Machine’. More than four decades ago, Howard Raiffa proposed the idea of ‘ Post-Settlement Settlements ’. Let’s assume A and B have concluded a contract. Is it value-maximizing, ie , efficient? Likely not, Raiffa hypothesized, especially in ‘complex negotiations where a lot of issues are at stake, where uncertainties are involved, or where settlements could involve transactions and payments over time’. In comes an ‘analytical intervenor’ from the ‘Contract Embellishment Service’. Think of this intervenor as a mediator or honest broker. The intervenor meets with A and B privately, probing them for confidential information about their interests and values. A and B may have been reluctant to disclose these fully in their bargaining. Then the intervenor solves a ‘mathematical optimization problem’, suggesting to the parties an improved contract which A and B are free to accept or reject. The intervenor’s services would be compensated with a small slice of the surplus created.",
       "authors": "Horst Eidenmüller",
       "source_id": "oblb",
-      "title_cn": "从合同修饰者到谈判机器：人工智能在合同中的应用",
+      "title_cn": "从合同优化工具到谈判机器：人工智能在缔约中的应用",
       "keywords": [],
       "topics": [
         "tech_data_ai"
       ],
       "primary_topic": "tech_data_ai",
       "affiliations": "",
-      "abstract_cn": "在这篇文章中，我认为人工智能工具可以用作“合同润色者”：合同双方部署它们来改进他们已经达成的协议。这比一开始就使用人工智能来谈判合同风险更小，也更简单。同时，人工智能作为“合同润色者”的经验可以反馈到使用人工智能作为“谈判机器”。四十多年前，霍华德·拉法（Howard Raiffa）提出了“后结算”的想法和解’.. 假设 A 和 B 签订了合同.. 它是价值最大化，即高效吗？拉法推测，可能不会，尤其是在“复杂的谈判中，很多问题都处于危险之中，涉及不确定性，或者和解可能涉及随着时间的推移进行交易和支付”。 来自“合同修饰服务”的“分析干预者”进来了。将此干预者视为调解者或诚实的经纪人。干预者与 A 和 B 私下会面，探究有关其利益和价值观的机密信息。A 和 B 可能不愿意在讨价还价中充分披露这些信息。然后干预者解决“数学优化问题”，向双方建议改进的合同，A 和 B 可以自由接受或拒绝。干预者的服务将得到一小部分所创造的盈余的补偿。",
+      "abstract_cn": "作者主张，AI可以先作为“合同优化工具”，改进当事人已经达成的协议；这种用途比直接让AI谈判合同风险更低、复杂性更小，同时也能为AI充当“谈判机器”积累经验。文章借鉴Howard Raiffa提出的“和解后的再和解”：中立分析者分别了解双方未充分披露的利益与评价，通过数学优化提出更有效率的合同方案，由当事人自由接受或拒绝，并从新增交易剩余中获得报酬。",
       "report_id": "2026-10-28",
       "id": "art_621"
     },
@@ -18629,7 +18629,7 @@
       ],
       "primary_topic": "other",
       "affiliations": "",
-      "abstract_cn": "Nandini Gupta 和 Swarnodeep Homroy 在新的研究中表明，美国公司正在选择政治上一致的供应商，以确保其供应链免受干扰。当冲击来袭时，一致的关系明显更具弹性，但保险的代价是更高的投入成本和更少的创新。",
+      "abstract_cn": "Nandini Gupta与Swarnodeep Homroy的研究发现，美国企业正在选择政治立场一致的供应商，以降低供应链中断风险。这类关系在冲击发生时更具韧性，但代价是更高的投入成本和更少的创新。",
       "report_id": "2026-10-28",
       "id": "art_623"
     },
@@ -18641,14 +18641,14 @@
       "abstract": "In new research, Elettra Bietti compares the efficacy of the two legal avenues that have arisen to restrain social media’s ability to monopolize people’s time and attention: antitrust policy and product liability for consumer harm. Looking at the results of two recent Meta cases, she finds that product liability has proven the most capable in introducing the frictions needed to reduce social media’s addictive design.",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "产品责任战胜反垄断以赢得人们的关注",
+      "title_cn": "争夺人类注意力：产品责任为何胜过反垄断",
       "keywords": [],
       "topics": [
         "antitrust"
       ],
       "primary_topic": "antitrust",
       "affiliations": "",
-      "abstract_cn": "在新的研究中，Elettra Bietti 比较了限制社交媒体垄断人们时间和注意力的两种法律途径的有效性：反垄断政策和消费者伤害的产品责任。看看最近两个 Meta 案例的结果，她发现产品责任已被证明最有能力引入减少社交媒体令人上瘾的设计所需的摩擦。",
+      "abstract_cn": "Elettra Bietti比较了限制社交媒体垄断用户时间与注意力的两条法律路径：反垄断政策与针对消费者损害的产品责任。通过考察近期两起Meta案件，作者认为，产品责任更有能力引入必要摩擦，从而抑制社交媒体的成瘾性设计。",
       "report_id": "2026-10-28",
       "id": "art_624"
     },
@@ -18660,14 +18660,14 @@
       "abstract": "Coercive, non-pro rata debt restructurings—widely known as “liability management exercises” (LMEs), just like their pro rata siblings—have become a central tool for distressed borrowers.",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "负债管理的有限跑道：当今的企业重组",
+      "title_cn": "负债管理的有限空间：当代企业重组",
       "keywords": [],
       "topics": [
         "other"
       ],
       "primary_topic": "other",
       "affiliations": "",
-      "abstract_cn": "强制的、非按比例的债务重组——被广泛称为“负债管理活动”（LME），就像它们的按比例兄弟姐妹一样——已经成为陷入困境的借款人的核心工具。",
+      "abstract_cn": "带有强制性、且不按比例对待债权人的债务重组，通常被称为“负债管理操作”（LME）；与按比例重组一样，它已成为困境借款人的核心工具。文章考察此类操作的制度空间及其对债权人分配秩序的影响。",
       "report_id": "2026-10-28",
       "id": "art_625"
     },
@@ -18679,14 +18679,15 @@
       "abstract": "Key Takeaways: On October 14, 2026, Manhattan District Attorney Alvin L. Bragg, Jr. announced the formation of the Manhattan District Attorney’s Office’s first Corporate Crime and Antitrust Task Force, which will focus on complex investigations targeting fraud and misconduct by corporations...",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "Ropes & Gray 讨论曼哈顿地区检察官的企业犯罪和反垄断工作组",
+      "title_cn": "Ropes & Gray评曼哈顿地区检察官企业犯罪与反垄断工作组",
       "keywords": [],
       "topics": [
+        "other",
         "antitrust"
       ],
-      "primary_topic": "antitrust",
+      "primary_topic": "other",
       "affiliations": "",
-      "abstract_cn": "主要要点：2026 年 10 月 14 日，曼哈顿地区检察官小阿尔文·布拉格 (Alvin L. Bragg, Jr.) 宣布成立曼哈顿地区检察官办公室第一个企业犯罪和反垄断特别工作组，该工作组将重点针对企业欺诈和不当行为进行复杂调查……",
+      "abstract_cn": "2026年10月14日，曼哈顿地区检察官Alvin L. Bragg, Jr.宣布成立该办公室首个企业犯罪与反垄断工作组，重点开展针对公司欺诈、不当行为及反竞争行为的复杂调查。",
       "report_id": "2026-10-28",
       "id": "art_626"
     },
@@ -18705,7 +18706,7 @@
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "当问股东是否可以向美国公司提交提案、检查公司记录或提起派生诉讼时，准确的答案现在是另一个问题：股东拥有多少股票？在一篇新文章中，我们制定了最新的特拉华州和德克萨斯州公司章程...",
+      "abstract_cn": "股东能否向美国公司提交提案、查阅公司账簿记录或提起派生诉讼，如今越来越取决于其持股数量。文章比较特拉华州与得州最新公司立法和印度制度，考察持股门槛如何重新配置股东权利。",
       "report_id": "2026-10-28",
       "id": "art_627"
     },
@@ -18713,18 +18714,18 @@
       "title": "Wachtell Lipton Discusses Delaware Chancery Decision Reinforcing Section 144’s Protections",
       "url": "https://clsbluesky.law.columbia.edu/2026/10/27/wachtell-lipton-discusses-delaware-chancery-decision-reinforcing-section-144s-protections/",
       "date": "2026-10-27",
-      "authors": "John C. Coffee, Jr.",
+      "authors": "Wachtell, Lipton, Rosen & Katz",
       "abstract": "In an important decision interpreting the new Section 144 of the Delaware General Corporation Law—added by the adoption of SB 21 in 2025—the Court of Chancery last week preliminarily enjoined a proposed recapitalization of Cloudflare, Inc. designed to preserve founder control.",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "Wachtell Lipton 讨论特拉华州衡平法院加强第 144 条保护的决定",
+      "title_cn": "Wachtell Lipton评特拉华州衡平法院强化第144条保护的裁决",
       "keywords": [],
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "在解释特拉华州普通公司法新第 144 条（通过 2025 年 SB 21 的通过而增加）的一项重要决定中，衡平法院上周初步禁止了旨在保留创始人控制权的 Cloudflare, Inc. 拟议的资本重组。",
+      "abstract_cn": "特拉华州衡平法院在解释2025年SB 21新增的《特拉华州普通公司法》第144条时，初步禁止Cloudflare为维持创始人控制权而拟议的资本重组。裁决强调，特别委员会若要获得第144条安全港保护，必须忠实、坦诚地处理利益冲突，并以公司最佳利益为唯一行动依据。",
       "report_id": "2026-10-28",
       "id": "art_628"
     },
@@ -18736,7 +18737,7 @@
       "abstract": "Joan MacLeod Heminway Technological advancements add new wrinkles to business law and practice at an unforgivingly rapid pace.  As a result, the work of legal scholars (including my own research and writing) increasingly grapples more intensely with the possible and optimal roles of technology in business governance and finance.  For example, blockchain technology has many actual and potential applications in the management and control of businesses, and fintech (as the term suggests) exists at technology’s intersection with finance, including business finance. Generative artificial intelligence (AI) is a bit of a new kid on the block in this regard.  Although legal academics and practitioners have focused significant attention on important questions involving the use of AI in law teaching and lawyering, legal research and writing regarding AI’s applications to business entity governance and finance is just emerging.  Zhaoyi Li’sArtificial Fiduciariesmakes foundational contributions to",
       "source_id": "jotwell",
       "type": "article",
-      "title_cn": "机器人担任公司董事？人工智能在公司治理中的探索",
+      "title_cn": "机器人能否担任公司董事？人工智能公司治理研究述评",
       "keywords": [],
       "topics": [
         "tech_data_ai",
@@ -18744,7 +18745,7 @@
       ],
       "primary_topic": "tech_data_ai",
       "affiliations": "",
-      "abstract_cn": "琼·麦克劳德·海明威 技术进步以惊人的速度给商业法和实践增添了新的皱纹。因此，法律学者的工作（包括我自己的研究和写作）越来越深入地探讨技术在企业治理和金融中可能发挥的最佳作用。例如，区块链技术在企业的管理和控制方面有许多实际和潜在的应用，而金融科技（顾名思义）存在于技术与金融（包括商业金融）的交叉点。在这方面，生成式人工智能（AI）有点新鲜。尽管法律学者和从业者对涉及人工智能在法律教学和律师业务中使用的重要问题给予了极大关注，但有关人工智能在企业实体治理和财务中应用的法律研究和写作才刚刚兴起。李昭仪的人工信托做出了基础性贡献",
+      "abstract_cn": "技术进步正迅速改变商法实践，法律研究也越来越关注技术在企业治理与融资中的适当角色。区块链和金融科技已在企业管理、控制与融资中得到应用，而生成式人工智能进入公司治理的研究仍处于早期阶段。文章评介Zhaoyi Li的《人工智能受托人》，讨论AI能否承担董事或其他受托人的功能，以及由此产生的权力配置和责任问题。",
       "report_id": "2026-10-28",
       "id": "art_629"
     }
