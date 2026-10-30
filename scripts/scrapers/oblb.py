@@ -30,6 +30,10 @@ class OBLBScraper(BaseScraper):
             title = re.sub(r'\s*by\s*:\s*.*$', '', title, flags=re.I).strip()
             if not title:
                 continue
+            # Ignore empty CMS placeholder posts accidentally published on the
+            # live listing (for example a title-only ``Testing`` node).
+            if title.casefold() in {"test", "testing"}:
+                continue
             items.append({
                 "title": self._clean(title),
                 "url": href,

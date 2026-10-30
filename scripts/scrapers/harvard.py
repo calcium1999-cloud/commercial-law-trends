@@ -49,6 +49,8 @@ class HarvardScraper(BaseScraper):
                 text = " ".join(p.get_text(strip=True) for p in paras[:3] if p.get_text(strip=True))
                 if text:
                     detail["abstract"] = text[:1500]
+        author_el = soup.select_one(".byline.author")
+        visible_byline = self._clean(author_el.get_text(" ", strip=True)) if author_el else ""
         meta_authors = []
         for meta in soup.find_all("meta"):
             key = (meta.get("name") or meta.get("property") or "").lower()
@@ -56,8 +58,14 @@ class HarvardScraper(BaseScraper):
             if key in {"author", "citation_author", "article:author"} and content:
                 meta_authors.append(content)
         if meta_authors:
+            # Harvard occasionally exposes a malformed contributor slug as an
+            # article:author (for example ``Votin``).  Keep metadata authors
+            # that are also present in the substantive visible byline.
+            if visible_byline:
+                filtered = [a for a in meta_authors if a.casefold() in visible_byline.casefold()]
+                meta_authors = filtered or meta_authors
             detail["authors"] = ", ".join(dict.fromkeys(meta_authors))
-        else:
+        elif not author_el:
             author_el = soup.find(class_=lambda x: x and "author" in str(x).lower() if x else False)
         if not detail.get("authors") and author_el:
             author_text = self._clean(author_el.get_text(" ", strip=True))
@@ -67,7 +75,10 @@ class HarvardScraper(BaseScraper):
         # Harvard renders topical categories and "More from" author links in
         # the same metadata area. Prefer category links so people/firms do not
         # become keywords, and deduplicate the repeated footer tag set.
-        tags = soup.select('a[rel~="category"]') or soup.find_all("a", rel="tag")
+        tags = (
+            soup.select('a[rel~="category"]')
+            or soup.select('.top-tags > span a[rel~="tag"]')
+        )
         if tags:
             detail["keywords"] = list(dict.fromkeys(
                 t.get_text(strip=True) for t in tags if t.get_text(strip=True)

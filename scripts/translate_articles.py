@@ -34,10 +34,15 @@ def main():
 
     articles = db['articles']
     
-    # 找出需要翻译的文章（按日期倒序）
+    # 找出需要翻译的文章（按日期倒序）。标题翻译和摘要翻译
+    # 是独立字段；仅按 abstract_cn 选取会遗漏“摘要已成功、
+    # 但标题未返回”的部分失败。
     to_translate = [
         a for a in sorted(articles, key=lambda x: x.get('date', ''), reverse=True)
-        if not a.get('abstract_cn') and a.get('abstract')
+        if (
+            (a.get('title') and not a.get('title_cn'))
+            or (a.get('abstract') and not a.get('abstract_cn'))
+        )
     ]
 
     if not args.all:
