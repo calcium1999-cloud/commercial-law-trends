@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-10-30",
+    "last_updated": "2026-11-02",
     "version": "1.0"
   },
   "sources": [
@@ -1328,6 +1328,32 @@
         "art_646",
         "art_647",
         "art_648"
+      ]
+    },
+    {
+      "id": "2026-11-02",
+      "date": "2026-11-02",
+      "period_start": "2026-10-31",
+      "period_end": "2026-11-02",
+      "title": "商业法律研究动向",
+      "summary": "本周十一大来源共新增10篇文章。",
+      "trends": [
+        "本周十一大来源共新增10篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS，主题分布以公司治理（6篇）、金融监管（3篇）、其他（1篇）为主。",
+        "公司治理领域新增6篇，来自OBLB、CLS、Harvard、ECGI。本期重点议题包括我不记得了：证券借贷中的信息和治理权衡；股东积极性、收购和管理纪律；CEO如何被解雇等。",
+        "金融监管领域新增4篇，来自OBLB、CLS、Harvard、ECGI。本期重点议题包括从预测中获利；投资者对美国证券交易委员会披露改革的看法；共同基金家族的去中心化投票等。",
+        "其他领域新增1篇，来自ProMarket。本期重点议题包括为什么个性化定价不会像批评者担心的那样发挥作用。"
+      ],
+      "article_ids": [
+        "art_649",
+        "art_650",
+        "art_651",
+        "art_652",
+        "art_653",
+        "art_654",
+        "art_655",
+        "art_656",
+        "art_657",
+        "art_658"
       ]
     }
   ],
@@ -19358,6 +19384,299 @@
       "abstract_cn": "劳动力市场紧张度（LMT）的衡量标准描述了企业寻找工人的难度。如果相对于职位空缺而言，求职者很少，则劳动力市场被认为紧张，这意味着雇主争夺稀缺求职者时工资压力更大。因此，良好的 LMT 指标对于预测工资通胀和校准货币政策非常重要。最近，招聘平台 LinkedIn 开始根据其用户数据制定三项创新的 LMT 衡量标准。",
       "report_id": "2026-10-30",
       "id": "art_648"
+    },
+    {
+      "title": "Profiting From Prediction",
+      "url": "https://www.ecgi.global/publications/working-papers/profiting-from-prediction",
+      "date": "2026-11-01",
+      "type": "working_paper",
+      "authors": "Emilie Aguirre, Gina-Gail Fletcher, Veronica Root Martinez",
+      "abstract": "Prediction markets transform uncertain events into profit-making opportunities. By allowing platform users to buy and sell event contracts tied to future outcomes, prediction market platforms convert real-world contingencies into tradable financial products. In the last year, users have traded on uncertainties like elections, corporate events, sports outcomes, weather, public health developments, geopolitical crises, and even war or death. Prediction markets are defended on the basis of providing benefits like information aggregation or better informed risk allocation. In addition to the users attempting to profit from event contracts, prediction market platforms generate revenue by collecting a fee on each transaction. But prediction markets also have potential downsides, including the commodification of events that may involve harm to traders, third parties, and society more broadly. This Article asks when prediction market platforms and their users should be permitted to commodify uncertain, future events and gain financially from users’ predictions. Much of the current debate centers on how to classify prediction markets within existing legal regimes, such as gambling or derivatives law. This Article takes a purposefully broader perspective to develop a more fulsome understanding of the transactions occurring on prediction market platforms. It argues that prediction markets—like many areas of technological and financial innovation—require an assessment of their potential benefits and harms through a lens of bounded commodification. Bounded commodification stands for the principle that there are limits—legal, ethical, and societal—that do and should constrain the private transactions profit-seeking individuals and firms may pursue. Drawing on contract law doctrine and theory, this Article offers a foundational framework for assessing when event contracts should be prohibited, when they should be regulated by state and federal authorities, and when the platforms themselves should be required to adopt ex ante, firm-level internal controls and compliance systems. Prediction markets are here to stay, requiring a principled account of when law should permit or constrain users and platforms to profit from prediction.",
+      "keywords": [
+        "Financial regulation",
+        "Insider trading",
+        "Compliance",
+        "Responsible investment",
+        "Comparative governance",
+        "Banking",
+        "Financial crises",
+        "Systemic risk",
+        "Creditor rights",
+        "Enforcement"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "从预测中获利",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "预测市场将不确定事件转化为盈利机会。通过允许平台用户买卖与未来结果相关的事件合约，预测市场平台将现实世界的突发事件转化为可交易的金融产品。去年，用户在选举、公司活动、体育结果、天气、公共卫生发展、地缘政治危机，甚至战争或死亡等不确定因素上进行交易。预测市场的防御基础是提供信息聚合或更明智的风险分配等好处。除了用户之外为了从事件合约中获利，预测市场平台通过对每笔交易收取费用来产生收入。 但预测市场也有潜在的缺点，包括可能对交易者、第三方和更广泛的社会造成伤害的事件的商品化。本文询问何时应允许预测市场平台及其用户将不确定的未来事件商品化，并从用户的预测中获取经济利益。当前的大部分争论集中在如何在现有法律制度（例如赌博或衍生品法）内对预测市场进行分类。本文有意采用更广泛的视角，以对预测市场上发生的交易有更全面的理解。平台.. 它认为，与技术和金融创新的许多领域一样，预测市场需要通过有界商品化的视角来评估其潜在的利益和危害。有界商品化代表了这样一种原则，即存在法律、道德和社会方面的限制，这些限制确实而且应该限制以营利为目的的个人和公司可能追求的私人交易。本文借鉴合同法学说和理论，提供了一个基本框架，用于评估事件合同何时应被禁止、何时应由国家监管和联邦当局，以及何时应要求平台本身采用事前、公司级内部控制和合规系统。 预测市场将继续存在，需要对法律何时允许或限制用户和平台从预测中获利进行原则性说明。",
+      "keywords_cn": [
+        "金融监管",
+        "内幕交易",
+        "遵守",
+        "负责任的投资",
+        "比较治理",
+        "银行业",
+        "金融危机",
+        "系统性风险",
+        "债权人权利",
+        "执行"
+      ],
+      "report_id": "2026-11-02",
+      "id": "art_649"
+    },
+    {
+      "title": "I Don't Recall: Information and the Governance Tradeoffs in Securities Lending",
+      "url": "https://www.ecgi.global/publications/working-papers/i-dont-recall-information-and-the-governance-tradeoffs-in-securities",
+      "date": "2026-10-31",
+      "type": "working_paper",
+      "authors": "George Nurisso",
+      "abstract": "Institutional investors are commonly viewed as facing a tradeoff between revenue and voting power when lending shares. However, lending also generates valuable voting information via the borrowing demand of informed short sellers. I develop a model in which lenders trade off revenue, voting power, and information, and derive novel implications for corporate governance. Contrary to conventional wisdom, expected firm value can suffer when lenders recall shares to cast extra votes, since doing so discourages borrowing ex-ante and thereby reduces the informativeness of those votes; the key governance tradeoff is between a larger number of less informed votes and a smaller number of more informed votes. Thus, share lending and voting are not necessarily substitutes — they can also be complementary.",
+      "keywords": [
+        "Voting",
+        "Institutional investors",
+        "Information asymmetry",
+        "Stewardship",
+        "Shareholder rights",
+        "Board diversity",
+        "Climate change"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "我不记得了：证券借贷中的信息和治理权衡",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "机构投资者通常被认为在出借股票时面临收入和投票权之间的权衡。然而，借贷也可以通过知情的卖空者的借贷需求产生有价值的投票信息。我开发了一个模型，贷款人在其中权衡收入、投票权和信息，并得出对公司治理的新含义。与传统观点相反，当贷款人召回股票以进行额外投票时，预期公司价值可能会受到影响，因为这样做会阻止事前借款，从而减少这些投票的信息性；关键的治理权衡是在大量知情程度较低的选票和较少数量的知情程度较高的选票之间进行权衡。因此，股票借贷和投票不一定是替代品——它们也可以是互补的。",
+      "keywords_cn": [
+        "表决",
+        "机构投资者",
+        "信息不对称",
+        "管理职责",
+        "股东权利",
+        "董事会多元化",
+        "气候变化"
+      ],
+      "report_id": "2026-11-02",
+      "id": "art_650"
+    },
+    {
+      "title": "Shareholder Activism, Takeovers, and Managerial Discipline",
+      "url": "https://www.ecgi.global/publications/working-papers/shareholder-activism-takeovers-and-managerial-discipline",
+      "date": "2026-10-30",
+      "type": "working_paper",
+      "authors": "Francesco Celentano, Oliver Levine",
+      "abstract": "We quantitatively assess the role of activism in the market for corporate control by developing and estimating a model featuring both activism and M&A. We find that activism complements M&A, reducing the agency frictions associated with takeovers. However, activism simultaneously crowds out some M&A activity by substituting for disciplinary takeovers. Both the threat of activism and actual activist intervention create shareholder value by improving CEO incentives, while the value from reduced takeover frictions is primarily captured by acquirers. We find that activists have an information advantage, which is critical to overcoming the free rider problem in activist intervention.",
+      "keywords": [
+        "Market for control",
+        "Activism",
+        "Agency theory",
+        "Ownership structure",
+        "Family firms",
+        "Blockholders",
+        "Takeovers",
+        "Human capital",
+        "Mergers",
+        "Institutional investors"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "股东积极性、收购和管理纪律",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "我们通过开发和评估一个兼具激进主义和并购的模型，定量评估激进主义在公司控制权市场中的作用。我们发现行动主义与并购相辅相成，减少了与收购相关的代理摩擦。然而，激进主义同时取代了纪律性收购，从而挤出了一些并购活动。激进主义的威胁和实际的激进主义干预都通过改善首席执行官激励来创造股东价值，而减少收购摩擦所带来的价值主要由收购者获得。我们发现，激进分子拥有信息优势，这对于克服激进干预中的搭便车问题至关重要。",
+      "keywords_cn": [
+        "控制市场",
+        "行动主义",
+        "代理理论",
+        "股权结构",
+        "家族企业",
+        "大股东",
+        "收购",
+        "人力资本",
+        "兼并",
+        "机构投资者"
+      ],
+      "report_id": "2026-11-02",
+      "id": "art_651"
+    },
+    {
+      "title": "How Are CEOs Fired?",
+      "url": "https://www.ecgi.global/publications/working-papers/how-are-ceos-fired",
+      "date": "2026-10-30",
+      "type": "working_paper",
+      "authors": "Jason (Pang-Li) Chen, Ran Duchin, Eliezer Fich",
+      "abstract": "CEOs are more likely to be dismissed when their firm is the worst performer within directors’ networks of interlocked boards. The effects persist after including granular fixed effects, controlling for nonlinear, absolute, and industry-relative performance, and in analyses of exogenous director turnovers and falsification tests. Interlock-benchmarked dismissals are followed by performance declines, analyst downgrades, and lower announcement returns, suggesting that these dismissals are not easily explained as value-enhancing responses to poor performance. Our findings highlight a novel channel through which interlocking boards shape governance and shareholder value: implicit relative performance benchmarks.",
+      "keywords": [
+        "CEO & succession",
+        "Board effectiveness",
+        "Family firms",
+        "Human capital",
+        "Bankruptcy",
+        "Responsible investment",
+        "Board composition"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "CEO如何被解雇？",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "当首席执行官的公司是相互关联的董事会网络中表现最差的公司时，首席执行官更有可能被解雇。在纳入粒度固定效应、控制非线性、绝对和行业相关绩效以及对外生董事更替和证伪测试的分析后，这些效应仍然存在。Interlock 基准解雇之后会出现业绩下降、分析师评级下调和公告回报率下降，这表明这些解雇不容易被解释为对业绩不佳的增值反应。我们的研究结果强调了一种新颖的渠道，连锁董事会通过这种渠道塑造治理和股东价值：隐含的相对绩效基准。",
+      "keywords_cn": [
+        "首席执行官及继任者",
+        "董事会效率",
+        "家族企业",
+        "人力资本",
+        "破产",
+        "负责任的投资",
+        "董事会构成"
+      ],
+      "report_id": "2026-11-02",
+      "id": "art_652"
+    },
+    {
+      "title": "Rule 14a-8: Perhaps Slow-Walking Recission is Best",
+      "url": "https://corpgov.law.harvard.edu/2026/11/01/rule-14a-8-perhaps-slow-walking-recission-is-best/?utm_source=rss&utm_medium=rss&utm_campaign=rule-14a-8-perhaps-slow-walking-recission-is-best",
+      "date": "2026-11-01",
+      "abstract": "In a recent post on the Harvard Law School Forum on Corporate Governance, titled “Rule 14a-8: Perhaps There’s Another Way,” Sarah Wilson, Founder and CEO of Minerva Analytics, tackles the hot topic of Rule 14a-8 rescission. At bottom, she argues for implementing a version of the UK Takeover Panel to regulate procedural requirements for proposal […]",
+      "authors": "Allen Mendenhall, Stefan Padfield",
+      "keywords": [
+        "Corporate governance",
+        "ESG",
+        "Rule 14a-8",
+        "Sustainability"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "规则 14a-8：也许缓慢的撤销是最好的",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Minerva Analytics 创始人兼首席执行官莎拉·威尔逊 (Sarah Wilson) 最近在哈佛法学院公司治理论坛上发表了一篇题为“规则 14a-8：也许还有另一种方式”的帖子，探讨了废除规则 14a-8 的热门话题。归根结底，她主张实施英国收购小组的一个版本来规范提案的程序要求[...]",
+      "keywords_cn": [
+        "公司治理",
+        "环境、社会及治理",
+        "规则 14a-8",
+        "可持续发展"
+      ],
+      "report_id": "2026-11-02",
+      "id": "art_653"
+    },
+    {
+      "title": "Investor Perspectives on ﻿SEC Disclosure Reform",
+      "url": "https://corpgov.law.harvard.edu/2026/10/31/investor-perspectives-on-sec-disclosure-reform/?utm_source=rss&utm_medium=rss&utm_campaign=investor-perspectives-on-sec-disclosure-reform",
+      "date": "2026-10-31",
+      "abstract": "KEY TAKEAWAYS Broad opposition to disclosure reductions. Across our survey of institutional investors, 81% opposed the reductions in disclosures proposed or contemplated. No size threshold for more limited disclosures. While the SEC proposal reduces disclosure for companies with public float below $2 billion, 79% of investors indicated that reduced disclosure is not appropriate for a […]",
+      "authors": "Lane Ringlee, Linda Pappas, Mike Kesner",
+      "keywords": [
+        "disclosures",
+        "Institutional Investors",
+        "investors",
+        "SEC"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "投资者对美国证券交易委员会披露改革的看法",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "要点 普遍反对减少披露。在我们对机构投资者的调查中，81% 的人反对提议或考虑减少披露的内容。对于更有限的披露，没有规模门槛。虽然 SEC 提案减少了公众持股量低于 20 亿美元的公司的披露，但 79% 的投资者表示，减少披露不适合 […]",
+      "keywords_cn": [
+        "披露",
+        "机构投资者",
+        "投资者",
+        "美国证券交易委员会"
+      ],
+      "report_id": "2026-11-02",
+      "id": "art_654"
+    },
+    {
+      "title": "Decentralized Voting in Mutual Fund Families",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/11/decentralized-voting-mutual-fund-families",
+      "date": "2026-11-02",
+      "type": "blog",
+      "abstract": "The academic literature typically assumes that fund families vote in a centralized way, with every fund in the family casting its proxy votes as part of a single, unified bloc. The same assumption underlies recent efforts to decentralize proxy voting at large asset managers. The largest managers have launched ‘voting choice’ programs that shift voting power from fund managers to the funds’ end investors, and several policy proposals would go further by requiring decentralized voting at large fund families. For example, the INDEX Act would require advisers of passive funds holding over 1% of a company’s voting shares to vote as fund investors instruct. In late 2025, the White House reportedly weighed a similar requirement for the largest index-fund managers. But do fund families actually vote as a bloc in practice? Using ISS proxy voting records for US equity mutual funds over the 2006–2023 proxy seasons, we provide the first large-sample examination of voting decentralization within fund families. We document how prevalent decentralized voting is, identify what drives it, and study its implications for corporate governance and for fund clients. Why centralization looks like the norm. At first glance, the data seem to support the conventional view that asset fund families speak with a single voice: funds within the same family disagree in only about 4.2% of institution–proposal observations.",
+      "authors": "Roni Michaely, Matthew Ringgenberg, Silvina Rubio, Irene Yi",
+      "source_id": "oblb",
+      "title_cn": "共同基金家族的去中心化投票",
+      "keywords": [],
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "学术文献通常假设基金家族以集中方式投票，家族中的每只基金都作为一个统一集团的一部分进行投票。最近大型资产管理公司分散代理投票的努力也基于同样的假设。最大的管理公司推出了“投票选择”计划，将投票权从基金经理转移到基金的最终投资者，并且一些政策提案将进一步要求大型基金家族分散投票。例如，INDEX 法案将要求被动基金的顾问持有公司 1% 的投票权股份按照基金投资者的指示进行投票。据报道，2025 年末，白宫考虑对最大的指数基金经理提出类似的要求。 但实际上基金家族真的会作为一个整体投票吗？利用 ISS 在 2006-2023 年代理季对美国股票共同基金的代理投票记录，我们首次对基金家族内部的投票去中心化进行了大样本检验。我们记录了去中心化投票的普遍程度，找出了去中心化投票的驱动因素，并研究了其对公司治理和基金客户的影响。为什么中心化看起来像常态。乍一看，数据似乎支持资产基金家族同声传译的传统观点：同一家族内的基金只有约 4.2% 的人持不同意见。机构-提案观察..",
+      "report_id": "2026-11-02",
+      "id": "art_655"
+    },
+    {
+      "title": "Why Personalized Pricing Won’t Work the Way Critics Fear",
+      "url": "https://www.promarket.org/2026/10/31/why-personalized-pricing-wont-work-the-way-critics-fear/",
+      "date": "2026-10-31",
+      "authors": "Nursultan Mukhtaruly",
+      "abstract": "Firms can now charge each shopper a different price, and regulators worry that the gains will flow from consumers to companies. But personalized pricing has two built-in limits: shoppers learn to hide how much they want things, and cheap purchases can be resold, writes Nursultan Mukhtaruly.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "为什么个性化定价不会像批评者担心的那样发挥作用",
+      "keywords": [],
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "企业现在可以向每个购物者收取不同的价格，监管机构担心收益将从消费者流向企业。但个性化定价有两个内在的限制：购物者学会隐藏他们想要的东西的数量，以及廉价购买的商品可以转售，努尔苏丹·穆赫塔鲁利写道。",
+      "report_id": "2026-11-02",
+      "id": "art_656"
+    },
+    {
+      "title": "Protective Settlements in Corporate Law: When Shareholders Pay for Insider Peace",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/02/protective-settlements-in-corporate-law-when-shareholders-pay-for-insider-peace/",
+      "date": "2026-11-02",
+      "authors": "Yehonatan Shiman",
+      "abstract": "On August 7, 2025, amid mounting scrutiny of Intel CEO Lip-Bu Tan’s investments in Chinese technology companies and his former firm’s export-control violations, President Trump posted that Tan was “highly CONFLICTED and must resign, immediately.” Within the week, Tan was at the White House.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "公司法中的保护性和解：当股东为内部和平付出代价时",
+      "keywords": [],
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "2025 年 8 月 7 日，在英特尔首席执行官陈立武 (Lip-Bu Tan) 对中国科技公司的投资及其前公司违反出口管制行为受到越来越严格的审查之际，特朗普总统表示陈立武“高度矛盾，必须立即辞职”。一周之内，谭就来到了白宫。",
+      "report_id": "2026-11-02",
+      "id": "art_657"
+    },
+    {
+      "title": "Davis Polk Discusses Hong Kong Securities and Futures Commission Focus on IPO Misconduct",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/02/davis-polk-discusses-hong-kong-securities-and-futures-commission-focus-on-ipo-misconduct/",
+      "date": "2026-11-02",
+      "authors": "Davis, Polk & Wardwell LLP",
+      "abstract": "The Hong Kong Securities and Futures Commission (SFC) recently has acknowledged improvements in sponsor work since its circular in January identifying deficiencies, but warns that what it describes as dubious arrangements to inflate IPO demand continue to be a serious concern and enforcement focus.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Davis Polk 讨论香港证券及期货事务监察委员会对 IPO 不当行为的关注",
+      "keywords": [],
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "香港证券及期货事务监察委员会（证监会）最近承认，自 1 月份发出通知指出缺陷以来，保荐人工作有所改善，但警告称，其所描述的可疑的增加 IPO 需求的安排仍然是一个严重关注和执法焦点。",
+      "report_id": "2026-11-02",
+      "id": "art_658"
     }
   ],
   "monthly_reports": [
@@ -19451,6 +19770,16 @@
         "2026-10-26",
         "2026-10-28",
         "2026-10-30"
+      ],
+      "summary": "",
+      "trends": []
+    },
+    {
+      "id": "2026-11",
+      "month": "2026-11",
+      "label": "2026年11月",
+      "report_ids": [
+        "2026-11-02"
       ],
       "summary": "",
       "trends": []
