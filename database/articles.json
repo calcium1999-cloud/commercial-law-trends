@@ -1336,12 +1336,14 @@
       "period_start": "2026-10-31",
       "period_end": "2026-11-02",
       "title": "商业法律研究动向",
-      "summary": "本周十一大来源共新增10篇文章。",
+      "summary": "本期十一大来源共新增10篇文章，围绕信息、程序与控制权配置展开。",
       "trends": [
-        "本周十一大来源共新增10篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS，主题分布以公司治理（6篇）、金融监管（3篇）、其他（1篇）为主。",
-        "公司治理领域新增6篇，来自OBLB、CLS、Harvard、ECGI。本期重点议题包括我不记得了：证券借贷中的信息和治理权衡；股东积极性、收购和管理纪律；CEO如何被解雇等。",
-        "金融监管领域新增4篇，来自OBLB、CLS、Harvard、ECGI。本期重点议题包括从预测中获利；投资者对美国证券交易委员会披露改革的看法；共同基金家族的去中心化投票等。",
-        "其他领域新增1篇，来自ProMarket。本期重点议题包括为什么个性化定价不会像批评者担心的那样发挥作用。"
+        "本期十一大来源共新增10篇文章，来自ECGI、Harvard、OBLB、ProMarket与CLS。按主分类计，公司治理5篇、金融监管4篇、其他1篇。表面议题涉及证券借贷、基金投票、股东提案、IPO执法、预测市场与个性化定价，贯穿其中的共同问题是：信息如何被转化为决策权，程序又如何决定这种权力由谁行使、由谁承担成本。",
+        "公司治理研究把投票权从静态权利改写为信息生产机制。证券借贷论文表明，召回股票虽增加可投票股份，却可能减少知情卖空者通过借券需求传递的信息；基金集团研究则检验所谓统一投票是否真的存在。两者共同提示，治理质量不能仅用票数衡量，还要追踪信息从市场进入表决的路径。",
+        "积极主义、收购与CEO罢免研究进一步揭示外部约束的双重性。积极投资者既能降低收购中的代理摩擦，也会替代部分纪律性收购；董事交叉任职网络形成的相对绩效基准能够触发CEO罢免，却未必带来更好结果。控制机制是否增加价值，取决于其信息优势、激励结构和因果后果，而非干预本身是否更强。",
+        "金融监管文献集中于资本市场的程序性守门权。规则14a-8的改革决定谁能进入公司议程，SEC披露改革决定投资者获得多少可比信息，香港IPO执法则决定发行人和保荐人能否以安排出来的需求通过市场入口。看似技术性的程序规则，实际都在分配发行人、投资者、中介机构与监管者之间的控制权。",
+        "预测市场与个性化定价把讨论推进到市场设计的边界。前者要求在信息聚合功能与对灾害、战争等事件的商品化之间划线；后者说明企业利用个体信息定价时，会受到消费者隐瞒偏好和转售套利的反制。法律评价需要同时识别创新带来的信息增益、策略性反应以及被外部化的社会成本。",
+        "本期材料在方法上也形成互补：结构模型衡量积极主义与并购的替代关系，代理投票记录检验基金集团内部差异，投资者调查呈现披露需求，执法材料揭示IPO程序风险。对法律研究而言，下一步不只是比较规则文本，而是检验规则是否改变信息流、议程设置、管理层更替和市场准入，并区分形式控制与实际责任。"
       ],
       "article_ids": [
         "art_649",
@@ -19405,13 +19407,13 @@
         "Enforcement"
       ],
       "source_id": "ecgi",
-      "title_cn": "从预测中获利",
+      "title_cn": "从预测获利：预测市场的规制边界",
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "预测市场将不确定事件转化为盈利机会。通过允许平台用户买卖与未来结果相关的事件合约，预测市场平台将现实世界的突发事件转化为可交易的金融产品。去年，用户在选举、公司活动、体育结果、天气、公共卫生发展、地缘政治危机，甚至战争或死亡等不确定因素上进行交易。预测市场的防御基础是提供信息聚合或更明智的风险分配等好处。除了用户之外为了从事件合约中获利，预测市场平台通过对每笔交易收取费用来产生收入。 但预测市场也有潜在的缺点，包括可能对交易者、第三方和更广泛的社会造成伤害的事件的商品化。本文询问何时应允许预测市场平台及其用户将不确定的未来事件商品化，并从用户的预测中获取经济利益。当前的大部分争论集中在如何在现有法律制度（例如赌博或衍生品法）内对预测市场进行分类。本文有意采用更广泛的视角，以对预测市场上发生的交易有更全面的理解。平台.. 它认为，与技术和金融创新的许多领域一样，预测市场需要通过有界商品化的视角来评估其潜在的利益和危害。有界商品化代表了这样一种原则，即存在法律、道德和社会方面的限制，这些限制确实而且应该限制以营利为目的的个人和公司可能追求的私人交易。本文借鉴合同法学说和理论，提供了一个基本框架，用于评估事件合同何时应被禁止、何时应由国家监管和联邦当局，以及何时应要求平台本身采用事前、公司级内部控制和合规系统。 预测市场将继续存在，需要对法律何时允许或限制用户和平台从预测中获利进行原则性说明。",
+      "abstract_cn": "预测市场把选举、公司事件、体育、天气、公共卫生乃至战争等不确定结果转化为可交易的事件合约。支持者强调其信息聚合和风险配置功能，但平台按交易收费、用户从现实损害中获利，也会产生商品化的伦理与社会成本。文章不局限于赌博法或衍生品法的形式分类，而以“有限商品化”为框架，讨论哪些事件合约应被禁止、哪些应受州与联邦监管，以及平台何时应建立事前内部控制和合规体系。",
       "keywords_cn": [
         "金融监管",
         "内幕交易",
@@ -19444,13 +19446,13 @@
         "Climate change"
       ],
       "source_id": "ecgi",
-      "title_cn": "我不记得了：证券借贷中的信息和治理权衡",
+      "title_cn": "不召回：证券借贷中的信息与治理权衡",
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "机构投资者通常被认为在出借股票时面临收入和投票权之间的权衡。然而，借贷也可以通过知情的卖空者的借贷需求产生有价值的投票信息。我开发了一个模型，贷款人在其中权衡收入、投票权和信息，并得出对公司治理的新含义。与传统观点相反，当贷款人召回股票以进行额外投票时，预期公司价值可能会受到影响，因为这样做会阻止事前借款，从而减少这些投票的信息性；关键的治理权衡是在大量知情程度较低的选票和较少数量的知情程度较高的选票之间进行权衡。因此，股票借贷和投票不一定是替代品——它们也可以是互补的。",
+      "abstract_cn": "机构投资者出借股票时，不仅在借贷收益与表决权之间取舍，还能从知情卖空者的借券需求中获得信息。模型显示，出借人为增加投票而召回股票，可能抑制事前借券并降低投票的信息含量，从而损害公司价值。真正的治理权衡并非简单的“收益对表决权”，而是较多但信息较少的选票与较少但信息更充分的选票之间的选择；证券借贷与投票因此也可能互为补充。",
       "keywords_cn": [
         "表决",
         "机构投资者",
@@ -19483,13 +19485,13 @@
         "Institutional investors"
       ],
       "source_id": "ecgi",
-      "title_cn": "股东积极性、收购和管理纪律",
+      "title_cn": "股东积极主义、收购与管理层约束",
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "我们通过开发和评估一个兼具激进主义和并购的模型，定量评估激进主义在公司控制权市场中的作用。我们发现行动主义与并购相辅相成，减少了与收购相关的代理摩擦。然而，激进主义同时取代了纪律性收购，从而挤出了一些并购活动。激进主义的威胁和实际的激进主义干预都通过改善首席执行官激励来创造股东价值，而减少收购摩擦所带来的价值主要由收购者获得。我们发现，激进分子拥有信息优势，这对于克服激进干预中的搭便车问题至关重要。",
+      "abstract_cn": "文章建立并估计一个同时包含股东积极主义与并购的公司控制权市场模型。结果显示，积极主义可通过改善CEO激励、降低收购中的代理摩擦而与并购互补，但也会替代部分纪律性收购。积极主义的威胁和实际介入均能创造股东价值；积极投资者的信息优势，则是克服干预中搭便车问题的关键。",
       "keywords_cn": [
         "控制市场",
         "行动主义",
@@ -19522,13 +19524,13 @@
         "Board composition"
       ],
       "source_id": "ecgi",
-      "title_cn": "CEO如何被解雇？",
+      "title_cn": "CEO如何被罢免？",
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "当首席执行官的公司是相互关联的董事会网络中表现最差的公司时，首席执行官更有可能被解雇。在纳入粒度固定效应、控制非线性、绝对和行业相关绩效以及对外生董事更替和证伪测试的分析后，这些效应仍然存在。Interlock 基准解雇之后会出现业绩下降、分析师评级下调和公告回报率下降，这表明这些解雇不容易被解释为对业绩不佳的增值反应。我们的研究结果强调了一种新颖的渠道，连锁董事会通过这种渠道塑造治理和股东价值：隐含的相对绩效基准。",
+      "abstract_cn": "当一家公司在董事交叉任职网络中表现最差时，其CEO更可能被罢免；这一结果在控制绝对、行业相对及非线性绩效并检验外生董事更替后仍然成立。然而，这类以交叉任职网络为基准的罢免随后伴随业绩下滑、分析师降级和较低公告回报，未必是对低绩效的价值增进型回应。研究揭示了董事网络通过隐性相对绩效基准影响治理与股东价值的渠道。",
       "keywords_cn": [
         "首席执行官及继任者",
         "董事会效率",
@@ -19555,13 +19557,14 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "规则 14a-8：也许缓慢的撤销是最好的",
+      "title_cn": "规则14a-8：缓步撤销或许是最佳方案",
       "topics": [
+        "financial_regulation",
         "corporate_governance"
       ],
-      "primary_topic": "corporate_governance",
+      "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "Minerva Analytics 创始人兼首席执行官莎拉·威尔逊 (Sarah Wilson) 最近在哈佛法学院公司治理论坛上发表了一篇题为“规则 14a-8：也许还有另一种方式”的帖子，探讨了废除规则 14a-8 的热门话题。归根结底，她主张实施英国收购小组的一个版本来规范提案的程序要求[...]",
+      "abstract_cn": "文章回应关于撤销SEC规则14a-8的讨论。与其立即废除股东提案机制，作者主张借鉴英国收购委员会的程序监管模式，在保留股东参与渠道的同时重构提案审查与程序要求。其核心问题是：改革应如何在发行人控制、监管成本与股东议程设置权之间重新分配权力。",
       "keywords_cn": [
         "公司治理",
         "环境、社会及治理",
@@ -19585,13 +19588,13 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "投资者对美国证券交易委员会披露改革的看法",
+      "title_cn": "投资者如何看待SEC披露改革",
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "要点 普遍反对减少披露。在我们对机构投资者的调查中，81% 的人反对提议或考虑减少披露的内容。对于更有限的披露，没有规模门槛。虽然 SEC 提案减少了公众持股量低于 20 亿美元的公司的披露，但 79% 的投资者表示，减少披露不适合 […]",
+      "abstract_cn": "机构投资者调查显示，81%的受访者反对SEC已经提出或正在考虑的披露削减；79%认为，即使公司公众持股市值低于20亿美元，也不应因此适用较少披露。结果表明，投资者并不把公司规模视为降低信息义务的充分理由，披露改革需要正面回应可比性、定价和监督需求。",
       "keywords_cn": [
         "披露",
         "机构投资者",
@@ -19609,7 +19612,7 @@
       "abstract": "The academic literature typically assumes that fund families vote in a centralized way, with every fund in the family casting its proxy votes as part of a single, unified bloc. The same assumption underlies recent efforts to decentralize proxy voting at large asset managers. The largest managers have launched ‘voting choice’ programs that shift voting power from fund managers to the funds’ end investors, and several policy proposals would go further by requiring decentralized voting at large fund families. For example, the INDEX Act would require advisers of passive funds holding over 1% of a company’s voting shares to vote as fund investors instruct. In late 2025, the White House reportedly weighed a similar requirement for the largest index-fund managers. But do fund families actually vote as a bloc in practice? Using ISS proxy voting records for US equity mutual funds over the 2006–2023 proxy seasons, we provide the first large-sample examination of voting decentralization within fund families. We document how prevalent decentralized voting is, identify what drives it, and study its implications for corporate governance and for fund clients. Why centralization looks like the norm. At first glance, the data seem to support the conventional view that asset fund families speak with a single voice: funds within the same family disagree in only about 4.2% of institution–proposal observations.",
       "authors": "Roni Michaely, Matthew Ringgenberg, Silvina Rubio, Irene Yi",
       "source_id": "oblb",
-      "title_cn": "共同基金家族的去中心化投票",
+      "title_cn": "共同基金集团内部的分散化投票",
       "keywords": [],
       "topics": [
         "corporate_governance",
@@ -19617,7 +19620,7 @@
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "学术文献通常假设基金家族以集中方式投票，家族中的每只基金都作为一个统一集团的一部分进行投票。最近大型资产管理公司分散代理投票的努力也基于同样的假设。最大的管理公司推出了“投票选择”计划，将投票权从基金经理转移到基金的最终投资者，并且一些政策提案将进一步要求大型基金家族分散投票。例如，INDEX 法案将要求被动基金的顾问持有公司 1% 的投票权股份按照基金投资者的指示进行投票。据报道，2025 年末，白宫考虑对最大的指数基金经理提出类似的要求。 但实际上基金家族真的会作为一个整体投票吗？利用 ISS 在 2006-2023 年代理季对美国股票共同基金的代理投票记录，我们首次对基金家族内部的投票去中心化进行了大样本检验。我们记录了去中心化投票的普遍程度，找出了去中心化投票的驱动因素，并研究了其对公司治理和基金客户的影响。为什么中心化看起来像常态。乍一看，数据似乎支持资产基金家族同声传译的传统观点：同一家族内的基金只有约 4.2% 的人持不同意见。机构-提案观察..",
+      "abstract_cn": "政策讨论通常假定同一基金集团内各基金会作为统一集团投票，并据此推动把表决权进一步交给终端投资者。文章利用2006—2023年美国股票共同基金的ISS代理投票记录，首次大样本检验基金集团内部的投票分散程度、成因及其治理后果。数据表面上显示同一集团内意见分歧仅约占机构—提案观察的4.2%，但进一步分析揭示了集中投票假设背后的差异及其对公司治理和基金客户的影响。",
       "report_id": "2026-11-02",
       "id": "art_655"
     },
@@ -19629,14 +19632,14 @@
       "abstract": "Firms can now charge each shopper a different price, and regulators worry that the gains will flow from consumers to companies. But personalized pricing has two built-in limits: shoppers learn to hide how much they want things, and cheap purchases can be resold, writes Nursultan Mukhtaruly.",
       "source_id": "promarket",
       "type": "article",
-      "title_cn": "为什么个性化定价不会像批评者担心的那样发挥作用",
+      "title_cn": "个性化定价为何不会如批评者担忧般运作",
       "keywords": [],
       "topics": [
         "other"
       ],
       "primary_topic": "other",
       "affiliations": "",
-      "abstract_cn": "企业现在可以向每个购物者收取不同的价格，监管机构担心收益将从消费者流向企业。但个性化定价有两个内在的限制：购物者学会隐藏他们想要的东西的数量，以及廉价购买的商品可以转售，努尔苏丹·穆赫塔鲁利写道。",
+      "abstract_cn": "个性化定价似乎允许企业按消费者的支付意愿逐人收费，但存在两项内生约束：消费者会策略性隐藏自身偏好，低价购买者也可能通过转售套利。文章据此认为，监管评估不能只依据完全价格歧视的静态模型，还应考虑信息反应与二级市场对企业定价能力的限制。",
       "report_id": "2026-11-02",
       "id": "art_656"
     },
@@ -19648,14 +19651,14 @@
       "abstract": "On August 7, 2025, amid mounting scrutiny of Intel CEO Lip-Bu Tan’s investments in Chinese technology companies and his former firm’s export-control violations, President Trump posted that Tan was “highly CONFLICTED and must resign, immediately.” Within the week, Tan was at the White House.",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "公司法中的保护性和解：当股东为内部和平付出代价时",
+      "title_cn": "公司法中的保护性和解：当股东为内部人和平买单",
       "keywords": [],
       "topics": [
         "corporate_governance"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "2025 年 8 月 7 日，在英特尔首席执行官陈立武 (Lip-Bu Tan) 对中国科技公司的投资及其前公司违反出口管制行为受到越来越严格的审查之际，特朗普总统表示陈立武“高度矛盾，必须立即辞职”。一周之内，谭就来到了白宫。",
+      "abstract_cn": "在英特尔CEO陈立武因对华科技投资及其原任职企业的出口管制问题受到审查后，美国总统公开指称其存在严重利益冲突并要求辞职，随后公司与政府迅速达成安排。文章以此追问：公司内部人与政治或监管力量达成“和平”时，和解成本是否被转嫁给外部股东，以及公司法应如何审查这类以股东利益换取内部人保护的交易。",
       "report_id": "2026-11-02",
       "id": "art_657"
     },
@@ -19663,18 +19666,18 @@
       "title": "Davis Polk Discusses Hong Kong Securities and Futures Commission Focus on IPO Misconduct",
       "url": "https://clsbluesky.law.columbia.edu/2026/11/02/davis-polk-discusses-hong-kong-securities-and-futures-commission-focus-on-ipo-misconduct/",
       "date": "2026-11-02",
-      "authors": "Davis, Polk & Wardwell LLP",
+      "authors": "Davis Polk & Wardwell LLP",
       "abstract": "The Hong Kong Securities and Futures Commission (SFC) recently has acknowledged improvements in sponsor work since its circular in January identifying deficiencies, but warns that what it describes as dubious arrangements to inflate IPO demand continue to be a serious concern and enforcement focus.",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "Davis Polk 讨论香港证券及期货事务监察委员会对 IPO 不当行为的关注",
+      "title_cn": "Davis Polk评香港证监会对IPO不当行为的监管重点",
       "keywords": [],
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "香港证券及期货事务监察委员会（证监会）最近承认，自 1 月份发出通知指出缺陷以来，保荐人工作有所改善，但警告称，其所描述的可疑的增加 IPO 需求的安排仍然是一个严重关注和执法焦点。",
+      "abstract_cn": "香港证券及期货事务监察委员会表示，保荐人工作在其1月通函指出缺陷后已有改善，但通过可疑安排夸大IPO需求仍是严重执法关切。文章梳理监管机构对订单真实性、保荐人尽职调查和市场操纵风险的关注，说明IPO程序中的需求制造仍将是香港发行监管的重点。",
       "report_id": "2026-11-02",
       "id": "art_658"
     }
