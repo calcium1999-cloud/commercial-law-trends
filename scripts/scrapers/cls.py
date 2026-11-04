@@ -71,8 +71,22 @@ class CLSScraper(BaseScraper):
             authors = self._extract_attribution(attribution_text)
             if authors:
                 detail["authors"] = authors
+        if entry and not detail.get("authors"):
+            # Scope the visible byline to the current post.  A global
+            # ``.author`` lookup can select the unrelated feature-bar cards
+            # rendered before the article (for example John C. Coffee on a
+            # Brett McDonnell post).
+            post = entry.find_parent(id=re.compile(r"^post-")) or entry.find_parent("article")
+            if post:
+                names = []
+                for author_el in post.select(".entry-meta a[rel='author']"):
+                    name = self._clean(author_el.get_text(" ", strip=True))
+                    if name and name.casefold() not in {"renholding"} and name not in names:
+                        names.append(name)
+                if names:
+                    detail["authors"] = ", ".join(names)
         if not detail.get("authors"):
-            author_el = soup.find(class_=lambda x: x and "author" in str(x).lower() if x else False)
+            author_el = soup.select_one("div[id^='post-'] .entry-meta a[rel='author']")
             if author_el:
                 detail["authors"] = self._clean(author_el.get_text(" ", strip=True))
         tags = soup.find_all("a", rel="tag")
@@ -88,21 +102,33 @@ class CLSScraper(BaseScraper):
         lines = [l.strip() for l in text.splitlines() if l.strip()]
         detail = {}
 
-        authors = self._extract_attribution(" ".join(lines[-3:]))
-        if authors:
-            detail["authors"] = authors
-
         # Find "By [author] [date]" pattern
         for i, line in enumerate(lines):
             m = re.match(r"By\s+(.+?)\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w*\s+\d", line, re.I)
             if m:
-                detail.setdefault("authors", m.group(1).strip())
+                detail["authors"] = m.group(1).strip()
                 # Abstract: first long paragraph after this line
                 for j in range(i + 1, min(len(lines), i + 20)):
                     if len(lines[j]) > 80 and not lines[j].startswith("http") and "Facebook" not in lines[j] and "Twitter" not in lines[j] and "LinkedIn" not in lines[j]:
                         detail["abstract"] = lines[j][:1500]
                         break
                 break
+
+        # A substantive closing credit (for example a law-firm memorandum,
+        # official remarks, or a Shadow SEC statement) should override the
+        # visible WordPress byline.  Generic biography matches, however, must
+        # not override it: Jina output can end with unrelated sidebar bios.
+        tail = " ".join(lines[-80:])
+        explicit_credit = re.search(
+            r"(?:These remarks were delivered|This statement was issued|"
+            r"This post comes to us from the Shadow SEC|"
+            r"This post is based on an?\s+.+?\s+memorandum)",
+            tail,
+            re.I,
+        )
+        authors = self._extract_attribution(tail)
+        if authors and (explicit_credit or not detail.get("authors")):
+            detail["authors"] = authors
 
         if not detail.get("abstract"):
             detail.pop("abstract", None)
