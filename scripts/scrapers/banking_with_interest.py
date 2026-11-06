@@ -56,7 +56,7 @@ class BankingWithInterestScraper(BaseScraper):
                 "date": date_str or "",
                 "abstract": item.get("description", "")[:2000],
                 "abstract_cn": "",
-                "keywords": "Banking Policy; Financial Regulation; Bank Supervision",
+                "keywords": ["Banking Policy", "Financial Regulation", "Bank Supervision"],
                 "keywords_cn": "",
                 "topics": ["financial_regulation"],
                 "primary_topic": "financial_regulation",

@@ -1396,13 +1396,14 @@
       "period_start": "2026-11-05",
       "period_end": "2026-11-06",
       "title": "商业法律研究动向",
-      "summary": "本周十一大来源共新增15篇文章。",
+      "summary": "监管边界、信息生产与市场结构如何共同分配权力、风险和责任。",
       "trends": [
-        "本周十一大来源共新增15篇文章，来自Harvard、OBLB、ProMarket、CLS、BWI、NY Fed，主题分布以金融监管（8篇）、其他（5篇）、公司治理（1篇）为主。",
-        "公司治理领域新增1篇，来自Harvard。本期重点议题包括当算法读取您的代理并且人工智能出现在选票上时。",
-        "金融监管领域新增8篇，来自Harvard、OBLB、BWI、CLS。本期重点议题包括美国证券交易委员会提议对托管规则进行重大修改并引入加密资产托管框架；上田委员关于企业处罚和个人责任的讲话；野性独角兽：初创企业财务为何崩溃以及如何修复等。",
-        "科技、数据与AI领域新增4篇，来自Harvard、OBLB、BWI。本期重点议题包括当算法读取您的代理并且人工智能出现在选票上时；人工智能与国家网络行动不断升级的威胁；南方国家的金融科技：改写金融监管的监管趋同等。",
-        "其他领域新增5篇，来自ProMarket、OBLB、NY Fed。本期重点议题包括将布鲁塞尔 Ia 法规延伸至第三国被告：欧盟送给伦敦诉讼市场的礼物；为共同利益寻找新方向；顶尖科学研究正在全球化，但经济学正变得更加集中等。"
+        "本期十一大来源共新增15篇文章，来自Harvard、OBLB、ProMarket、CLS、BWI与NY Fed。按主分类计，金融监管8篇、其他4篇，公司治理、反垄断、科技数据与AI各1篇；若计入交叉标签，公司治理与科技数据议题各涉及4篇。表面上分散的托管规则、股东提案、初创企业融资、网络安全与信用卡定价，共同指向监管边界如何决定信息、权力和风险由谁承担。",
+        "第一条主线是形式分类与功能等价之间的张力。SEC拟为加密资产托管设置专门框架，SEC与CFTC又在股票类金融产品上竞相放宽准入，Form S-8新解释则降低IPO前奖励和并购承接股权奖励的登记摩擦。规则如果只追随产品名称、账户形式或交易载体，经济功能相近的安排便可能承担不同责任；真正需要比较的是资产控制、损失隔离、转售流动性和投资者保护是否实质等价。",
+        "第二条主线是信息生产与组织控制。初创企业丑闻并非只能归因于创始人品行，私人市场披露不足、创始人控制和薄弱的内部约束共同决定了欺诈能否持续；与此同时，AI开始参与委托书阅读、投票政策定制和股东参与，国家级网络行动又迫使董事会把技术风险转化为可监督的治理流程。技术提高信息处理能力，并不会自动消除责任，反而要求说明谁设定目标、验证输出并对干预结果负责。",
+        "第三条主线是授权基础与制度稳定性。Rule 14a-8的历史研究表明，股东提案机制长期在联邦代理权规则与州公司法之间摆动，根源在于国会没有清楚回答谁有权决定提案进入公司委托书。公司罚款的讨论提出相似问题：当股东本身是证券违法的主要受害者时，对公司罚款可能制造二次损失，执法应区分公司获益、股东受害和个人实施者责任，而不能用组织责任替代因果与归责分析。",
+        "第四条主线是规则学习的方向并非总由传统中心向外扩散。印度UPI和巴西Pix显示，全球南方可以先于纽约、伦敦或法兰克福建立低成本、实时且可互操作的支付基础设施；布鲁塞尔Ia改革则提醒，形式上的管辖统一可能削弱欧盟企业的诉讼选择，并把交易机会转移给伦敦等竞争法院。制度比较应检验实际可达性、转换成本和市场反馈，而不是把统一或趋同本身视为改进。",
+        "最后，市场结构决定冲击和成本如何传导。信用卡数据表明，市场份额较大的贷款人会把更少的融资成本下降传递给借款人；美国石油供给余量则缓冲了中东供应冲击；顶尖经济学研究机构的持续集中又展示了知识生产中的进入壁垒。本期材料因此把竞争问题从正式反垄断案件扩展到利率传导、供应韧性和专业声誉：判断制度效果，必须同时观察价格、信息和机会的分配。"
       ],
       "article_ids": [
         "art_673",
@@ -20083,18 +20084,18 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "当算法读取您的代理并且人工智能出现在选票上时",
+      "title_cn": "当算法阅读委托书、AI成为股东表决议题",
       "topics": [
         "corporate_governance",
         "tech_data_ai"
       ],
       "primary_topic": "corporate_governance",
       "affiliations": "",
-      "abstract_cn": "人工智能正在从各个方面进入公司治理。投资者正在使用它来处理披露、定制投票政策以及准备参与。代理顾问正在转向人工智能支持、政策驱动的研究。股东积极分子正在利用它来寻找目标并完善战略论点。董事会被要求解释的不仅是[...]",
+      "abstract_cn": "人工智能正从多方进入公司治理：投资者用其处理披露、定制投票政策并准备与公司沟通；代理顾问转向AI辅助、政策驱动的研究；股东积极主义者用其识别目标、完善行动论点。董事会因此不仅要说明公司如何使用AI，也要应对AI如何改变投票、参与和监督流程。",
       "keywords_cn": [
         "人工智能",
         "公司治理",
-        "代理赛季",
+        "代理权征集季",
         "股东积极主义"
       ],
       "report_id": "2026-11-06",
@@ -20144,13 +20145,13 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "上田委员关于企业处罚和个人责任的讲话",
+      "title_cn": "Uyeda委员谈公司罚款与个人问责",
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "2006 年 1 月 19 日，在佛罗里达州蔚蓝的天空中，一架阿特拉斯五号载着一艘名为“新视野号”的小型航天器从卡纳维拉尔角升空。这项任务由 NASA（即美国国家航空航天局，而不是另一个 NASAA，即北美证券管理协会）计划，在 36,000 多小时离开地球 […]",
+      "abstract_cn": "Uyeda委员回顾SEC 2006年《公司罚款声明》，主张公司罚款应立足《补救法》的法定授权：重点考察公司及股东是否从违法中直接受益、罚款会补偿还是再次伤害无辜股东，并结合威慑、过错、发现难度、补救和合作等因素。若股东本身是主要受害者，执法应更重视追究实施违法行为的个人责任，而非让股东承担二次损失。",
       "keywords_cn": [
         "企业处罚声明",
         "法规",
@@ -20175,18 +20176,19 @@
       ],
       "source_id": "harvard",
       "type": "article",
-      "title_cn": "野性独角兽：初创企业财务为何崩溃以及如何修复",
+      "title_cn": "失控的“独角兽”：初创企业融资为何失灵及如何修复",
       "topics": [
-        "financial_regulation"
+        "financial_regulation",
+        "corporate_governance"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "名誉扫地的 Theranos 创始人伊丽莎白·霍尔姆斯 (Elizabeth Holmes) 重新出现在新闻中，她在《你可以看到一切》(You Can See Everything) 中占据银幕，该片最近上映后获得了评论界的一致好评，并取得了令人惊讶的票房成功。作为偷窥娱乐，电影提供了让观众看到并相信他们想看到和相信的东西。通过如此专注于福尔摩斯不可知的[...]",
+      "abstract_cn": "文章以Theranos、FTX等丑闻为例，把问题从创始人的个人品行转向初创企业融资的制度结构。作者认为，数十年的证券市场放松监管、创始人控制强化、私人市场信息披露不足和内部控制薄弱，使成熟投资者也难以及时约束欺诈。改革方案包括要求大型私募和私募二级市场交易披露信息、加强员工持股发行披露，并恢复大型且股东分散企业的公开报告义务。",
       "keywords_cn": [
         "金融监管",
-        "初创公司治理",
-        "初创公司",
-        "希拉洛斯",
+        "初创企业治理",
+        "初创企业",
+        "Theranos",
         "风险投资"
       ],
       "report_id": "2026-11-06",
@@ -20208,11 +20210,12 @@
       "type": "article",
       "title_cn": "人工智能与国家网络行动不断升级的威胁",
       "topics": [
-        "tech_data_ai"
+        "tech_data_ai",
+        "corporate_governance"
       ],
       "primary_topic": "tech_data_ai",
       "affiliations": "",
-      "abstract_cn": "我们之前曾写过上市公司董事会持续关注网络安全风险监督的至关重要性，包括面对因先进人工智能模型和工具的激增而产生的网络安全风险。值得立即特别关注的一个问题是民族国家和国家资助的行为者所造成的日益严重的威胁 [...]",
+      "abstract_cn": "文章警示，国家及其支持的网络行为者正利用先进AI扩大漏洞发现、攻击自动化和规模化行动能力，对关键基础设施、知识产权和数字资产造成更高风险。作者因此要求上市公司董事会和管理层把国家级网络行动纳入风险监督，在事件发生前检验防御、响应与治理安排。",
       "keywords_cn": [
         "人工智能",
         "网络风险",
@@ -20230,7 +20233,7 @@
       "abstract": "In February 2026, India’s Unified Payments Interface (UPI) processed more than 20 billion transactions in a single month, across nearly seven hundred participating banks. Nearly half of all real-time payments made worldwide in 2023 happened in India. In contrast, FedNow, the public instant payment system the United States launched in 2023, settled about 8.4 million payments in the whole of 2025, a volume UPI clears in roughly half an hour. The European Union secured universal instant euro transfers only by legislating in 2024, after years of uneven uptake. On the question of whether people can move money instantly, cheaply, and universally, the traditional financial centers now trail parts of the Global South. UPI, like Brazil’s Pix, is an interoperable rail that moves money in seconds between accounts at payment providers (banks and non-banks), at little or no cost to users. In much of the Global North, retail payments still run largely on card networks and slower bank transfers. Why did this architecture emerge in India and Brazil rather than in traditional financial centers? In a recent article , forthcoming in the American Journal of Comparative Law, I argue that UPI is no anomaly. Comparative financial regulation is usually narrated from the Global North, with New York, London, Frankfurt, and other financial centers, as the baseline toward which the rest of the world is presumed to converge. In several domains of fintech regulation, that premise is backwards.",
       "authors": "Nydia Remolina Leon",
       "source_id": "oblb",
-      "title_cn": "南方国家的金融科技：改写金融监管的监管趋同",
+      "title_cn": "全球南方的金融科技：改写金融监管趋同叙事",
       "keywords": [],
       "topics": [
         "financial_regulation",
@@ -20238,7 +20241,7 @@
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "2026 年 2 月，印度的统一支付接口 (UPI) 在近 700 家参与银行中单月处理了超过 200 亿笔交易。2023 年全球实时支付的近一半发生在印度。相比之下，美国于 2023 年推出的公共即时支付系统 FedNow 在 2025 年全年结算了约 840 万笔支付，UPI 在大约半小时内清算了这一笔交易。在经历了多年的不均衡使用之后，欧盟仅在 2024 年通过立法才确保了普遍的即时欧元转账。在人们是否可以即时、廉价且普遍地转移资金的问题上，传统的金融中心现在落后于南半球的部分地区。 UPI 与巴西的 Pix 一样，是一种可互操作的铁路，可以在几秒钟内在支付提供商（银行和非银行）的账户之间转移资金，而用户几乎不需要支付任何费用。在北半球的大部分地区，零售支付仍然主要通过卡网络运行，银行转账速度较慢。为什么这种架构出现在印度和巴西，而不是传统的金融中心？在最近发表在《美国比较法杂志》上的一篇文章中，我认为 UPI 并非异常。比较金融监管通常是从北半球国家叙述的，以纽约、伦敦、法兰克福和其他金融中心为基准，世界其他地区被认为趋同。在金融科技监管的几个领域，这一前提是倒退的。",
+      "abstract_cn": "印度UPI和巴西Pix以低成本、实时、可互操作的支付基础设施，形成了传统金融中心尚未普遍实现的制度能力。文章据此反转“全球南方向纽约、伦敦或法兰克福趋同”的常见叙事：在若干金融科技监管领域，制度创新和规则学习的方向可能由全球南方流向北方，比较金融监管因而需要重新选择基准。",
       "report_id": "2026-11-06",
       "id": "art_678"
     },
@@ -20307,14 +20310,14 @@
       "abstract": "The Securities and Exchange Commission (SEC) and the Commodity Futures Trading Commission (CFTC) seem to be racing each other to greenlight retail-facing financial products that are holographic images of stocks.",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "美国证券交易委员会和商品期货交易委员会放松股市管制的影响",
+      "title_cn": "SEC与CFTC推动股票市场放松监管的影响",
       "keywords": [],
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "美国证券交易委员会 (SEC) 和商品期货交易委员会 (CFTC) 似乎正在竞相批准面向零售的股票全息图像金融产品。",
+      "abstract_cn": "SEC和CFTC似乎正在竞相批准面向散户、在经济效果上仿照股票的金融产品。文章据此追问：若同类市场敞口因法律包装不同而适用不同规则，发行、交易和投资者保护责任是否会出现监管套利。",
       "report_id": "2026-11-06",
       "id": "art_682"
     },
@@ -20326,14 +20329,15 @@
       "abstract": "On September 16, 2026, under Chairman Paul Atkins, the Securities and Exchange Commission published a statement on its proposals to rescind Rule 14a-8 and amend Rule 14a-4.",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "历史揭示了 SEC 规则 14a-8 的哪些内容",
+      "title_cn": "SEC规则14a-8的历史揭示了什么",
       "keywords": [],
       "topics": [
-        "financial_regulation"
+        "financial_regulation",
+        "corporate_governance"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "2026 年 9 月 16 日，在主席保罗·阿特金斯 (Paul Atkins) 的领导下，证券交易委员会就其废除第 14a-8 条和修订第 14a-4 条的提案发表了声明。",
+      "abstract_cn": "文章从1942年规则采纳、1943年国会听证及其后反复争议的历史出发，考察SEC是否有权要求公司将股东提案纳入委托书，以及哪些议题可由股东表决。作者指出，《交易法》第14(a)条并未明确解决提案机制的权限归属；在Loper Bright之后，新旧行政解释都不能仅凭机构立场获得司法尊重。稳定方案应由国会明确授权并设置边界，或把问题留给州公司法，而非继续依赖随政治周期变化的SEC解释。",
       "report_id": "2026-11-06",
       "id": "art_683"
     },
@@ -20341,35 +20345,39 @@
       "title": "Latham Discusses Form S-8 Simplified",
       "url": "https://clsbluesky.law.columbia.edu/2026/11/05/latham-discusses-form-s-8-simplified/",
       "date": "2026-11-05",
-      "authors": "Laham & Watkins LLP",
+      "authors": "Latham & Watkins LLP",
       "abstract": "On October 15, 2026, the Securities and Exchange Commission’s (SEC’s) Division of Corporation Finance issued new and revised corporation finance interpretations (CFIs) guiding issuers on the use of Form S-8, the streamlined registration statement that registers the offer and sale of compensatory...",
       "source_id": "cls",
       "type": "article",
-      "title_cn": "Latham 讨论简化的 S-8 表格",
+      "title_cn": "Latham解析简化版Form S-8指引",
       "keywords": [],
       "topics": [
         "financial_regulation"
       ],
       "primary_topic": "financial_regulation",
       "affiliations": "",
-      "abstract_cn": "2026 年 10 月 15 日，美国证券交易委员会 (SEC) 公司财务部发布了新的和修订后的公司财务解释 (CFI)，指导发行人使用表格 S-8，这是一份简化的注册声明，用于注册补偿性股票的发行和销售。",
+      "abstract_cn": "SEC公司融资部的新解释扩大了Form S-8用于股权薪酬登记的灵活性：上市公司可更顺畅地登记IPO前授予的限制性股票和RSU，以及并购中承接的前目标公司员工、董事和顾问奖励；在符合条件时，部分奖励可推迟至归属时登记。指引降低了上市转换和并购整合中的登记摩擦，但发行人仍须核对适格服务对象、豁免依据和登记时点。",
       "report_id": "2026-11-06",
       "id": "art_684"
     },
     {
       "source_id": "banking_with_interest",
       "title": "How the Blue Tsunami Will Impact Banks",
-      "title_cn": "蓝色海啸将如何影响银行",
+      "title_cn": "“蓝色海啸”将如何影响银行业",
       "authors": "Rob Blackwell",
       "affiliations": "IntraFi",
       "date": "2026-11-05",
       "abstract": "Politico's Victoria Guida and Punchbowl News' Brendan Pedersen break down the sweeping Democratic victories in the midterm elections and what they mean for banks, including the prospect of Elizabeth Warren leading the Senate Banking Committee. They also examine the crypto industry's disastrous political gamble, growing pressure to regulate AI, and whether President Trump and a Democratic Congress can accomplish anything together.",
       "abstract_cn": "Politico 的 Victoria Guida 和 Punchbowl News 的 Brendan Pedersen 详细分析了民主党在中期选举中的压倒性胜利及其对银行的意义，包括伊丽莎白·沃伦 (Elizabeth Warren) 领导参议院银行委员会的前景。他们还审视了加密货币行业灾难性的政治赌博、监管人工智能日益增长的压力，以及特朗普总统和民主党国会能否共同完成任何事情。",
       "keywords": [
-        "Banking Policy; Financial Regulation; Bank Supervision"
+        "Banking Policy",
+        "Financial Regulation",
+        "Bank Supervision"
       ],
       "keywords_cn": [
-        "银行政策；金融监管；银行监管"
+        "银行政策",
+        "金融监管",
+        "银行监管"
       ],
       "topics": [
         "financial_regulation",
@@ -20390,7 +20398,7 @@
       "authors": "Thomas Klitgaard",
       "affiliations": "Federal Reserve Bank of New York",
       "date": "2026-11-05",
-      "abstract": "The start of the Middle East conflict in early 2026 caused an unprecedented drop in global petroleum supply. In response, oil prices jumped—but not to unprecedentedly high levels. The U.S. oil sector was a key factor in moderating the shock. For one, its steady increases in drilling helped create a large oversupply in the global market before the conflict, making it less of a challenge to offset the drop in Middle East oil output. In addition, U.S.",
+      "abstract": "The start of the Middle East conflict in early 2026 caused an unprecedented drop in global petroleum supply. In response, oil prices jumped—but not to unprecedentedly high levels. The U.S. oil sector was a key factor in moderating the shock. For one, its steady increases in drilling helped create a large oversupply in the global market before the conflict, making it less of a challenge to offset the drop in Middle East oil output.",
       "keywords": [],
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/the-u-s-oil-sectors-role-in-restraining-prices/",
       "type": "article",
@@ -20398,7 +20406,7 @@
         "other"
       ],
       "primary_topic": "other",
-      "abstract_cn": "2026年初中东冲突爆发，导致全球石油供应空前下降。作为回应，油价上涨，但并未达到前所未有的高水平。美国石油行业是缓解冲击的关键因素。其一，在冲突发生前，其钻探活动的稳步增长导致全球市场出现大幅供应过剩，从而使其抵消中东石油产量下降的挑战不再那么困难。此外，美国",
+      "abstract_cn": "2026年初的中东冲突导致全球石油供应骤减，油价随之上涨但未达到历史极端水平。美国石油行业在缓冲冲击中发挥关键作用：冲突前持续增加的钻探形成了全球供应余量，使市场更容易弥补中东产量下降。",
       "report_id": "2026-11-06",
       "id": "art_686"
     },
@@ -20414,9 +20422,9 @@
       "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/how-market-position-shapes-credit-card-interest-rates/",
       "type": "article",
       "topics": [
-        "other"
+        "antitrust"
       ],
-      "primary_topic": "other",
+      "primary_topic": "antitrust",
       "abstract_cn": "为什么两个看起来很相似的借款人在申请信用卡时会得到截然不同的利率？在最近的一篇论文中，我们通过研究当贷款人的融资成本下降时所提供的利率如何变化来解决这个问题。1400 万张新发行卡的数据显示，当贷方的融资成本下降时，如果贷方拥有较大的市场份额，则将较少的降幅转嫁到报价利率上。",
       "report_id": "2026-11-06",
       "id": "art_687"

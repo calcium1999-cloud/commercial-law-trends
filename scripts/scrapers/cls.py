@@ -171,6 +171,10 @@ class CLSScraper(BaseScraper):
             credited = m.group(1).strip()
             if credited.casefold() == "davis, polk & wardwell llp":
                 credited = "Davis Polk & Wardwell LLP"
+            elif credited.casefold() == "laham & watkins llp":
+                # The 2026-11-05 CLS post misspells the firm's name in its
+                # closing credit; the post title correctly identifies Latham.
+                credited = "Latham & Watkins LLP"
             return credited
         # Some law firms are credited without an ``LLP`` suffix (for example,
         # "Wachtell, Lipton, Rosen & Katz memorandum").  Keep this after the
@@ -185,6 +189,8 @@ class CLSScraper(BaseScraper):
             credited = m.group(1).strip()
             if credited.casefold() == "davis, polk & wardwell llp":
                 credited = "Davis Polk & Wardwell LLP"
+            elif credited.casefold() == "laham & watkins llp":
+                credited = "Latham & Watkins LLP"
             return credited
         names = re.findall(
             r"([A-Z][A-Za-zÀ-ÖØ-öø-ÿ\-’']*"

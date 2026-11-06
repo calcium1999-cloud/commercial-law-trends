@@ -4,6 +4,7 @@
 高质量的经济学/金融/银行监管研究博客，纽约联储出品。
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -52,7 +53,15 @@ class NYFedScraper(BaseScraper):
 
         # 提取摘要：避免在固定字符位置截成半句。
         abstract = description[:600] if description else ""
-        if len(description) > 600:
+        ends_in_abbreviation = bool(re.search(
+            r"\b(?:U\.S|U\.K|e\.g|i\.e)\.$", abstract.strip(), re.I
+        ))
+        needs_sentence_trim = (
+            len(description) > 600
+            or ends_in_abbreviation
+            or not re.search(r"[.!?][\"')\]]?$", abstract.strip())
+        )
+        if needs_sentence_trim:
             sentence_end = max(abstract.rfind(". "), abstract.rfind("? "), abstract.rfind("! "))
             if sentence_end >= 300:
                 abstract = abstract[:sentence_end + 1]

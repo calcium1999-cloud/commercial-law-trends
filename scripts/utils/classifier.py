@@ -7,6 +7,8 @@ TOPIC_KEYWORDS = {
         "board of directors", "boards of directors", "fiduciary duty", "shareholder", "executive compensation",
         "caremark", "delaware", "say-on-pay", "say on pay", "proxy access",
         "board independence", "shareholder activism", "shareholder proposal",
+        "rule 14a-8", "startup governance", "public company board",
+        "public company boards", "cybersecurity risk oversight",
         "bylaw", "charter", "esg voting", "company director", "corporate director", "proxy season",
         "stewardship", "corporate governance",
         "boardroom", "ceo", "independent director", "fiduciary",
@@ -50,7 +52,7 @@ TOPIC_KEYWORDS = {
     ],
     "antitrust": [
         "antitrust", "merger control", "monopoly",
-        "market power", "cartel", "price fixing", "sherman act",
+        "market power", "market share", "cartel", "price fixing", "sherman act",
         "clayton act", "ftc", "doj antitrust", "antitrust division", "dg comp",
         "horizontal merger", "vertical merger", "killer acquisition",
         "market definition", "dominant position", "abuse of dominance",
@@ -120,6 +122,13 @@ def classify(title, abstract, keywords):
 
     if not scores:
         return ["other"], "other"
+
+    # Rule 14a-8 is simultaneously a federal proxy-rule question and a state
+    # corporate-governance question. Keep the regulatory label primary while
+    # preserving the governance dimension even when a short feed excerpt does
+    # not repeat "shareholder proposal."
+    if "rule 14a-8" in text:
+        return ["financial_regulation", "corporate_governance"], "financial_regulation"
 
     ranked = sorted(scores.items(), key=lambda x: (-x[1], TOPIC_PRIORITY.index(x[0]) if x[0] in TOPIC_PRIORITY else 99))
 
