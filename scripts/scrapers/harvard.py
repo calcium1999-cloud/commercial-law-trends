@@ -60,10 +60,30 @@ class HarvardScraper(BaseScraper):
         if meta_authors:
             # Harvard occasionally exposes a malformed contributor slug as an
             # article:author (for example ``Votin``).  Keep metadata authors
-            # that are also present in the substantive visible byline.
+            # that are also present in the substantive visible byline.  Some
+            # metadata includes a middle name omitted from the byline, so a
+            # matching first and last name is sufficient and prevents valid
+            # authors such as ``Lara Shalov Mehraban`` from being dropped.
             if visible_byline:
-                filtered = [a for a in meta_authors if a.casefold() in visible_byline.casefold()]
-                meta_authors = filtered or meta_authors
+                visible_folded = visible_byline.casefold()
+                matched = []
+                for position, author in enumerate(meta_authors):
+                    author_folded = author.casefold()
+                    tokens = re.findall(r"[\w'-]+", author_folded)
+                    if author_folded in visible_folded:
+                        byline_position = visible_folded.find(author_folded)
+                    elif (len(tokens) >= 2
+                            and tokens[0] in visible_folded
+                            and tokens[-1] in visible_folded):
+                        byline_position = min(
+                            visible_folded.find(tokens[0]),
+                            visible_folded.find(tokens[-1]),
+                        )
+                    else:
+                        continue
+                    matched.append((byline_position, position, author))
+                if matched:
+                    meta_authors = [a for _, _, a in sorted(matched)]
             detail["authors"] = ", ".join(dict.fromkeys(meta_authors))
         elif not author_el:
             author_el = soup.find(class_=lambda x: x and "author" in str(x).lower() if x else False)

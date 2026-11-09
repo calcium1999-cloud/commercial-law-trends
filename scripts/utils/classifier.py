@@ -130,6 +130,14 @@ def classify(title, abstract, keywords):
     if "rule 14a-8" in text:
         return ["financial_regulation", "corporate_governance"], "financial_regulation"
 
+    # AI corporate-governance design is inherently both a governance and a
+    # technology issue even when a short feed excerpt contains only the bare
+    # ``AI`` token.  Keep governance primary when the title states that joint
+    # subject explicitly.
+    if ("ai corporate governance" in substantive_text
+            or "artificial intelligence corporate governance" in substantive_text):
+        return ["corporate_governance", "tech_data_ai"], "corporate_governance"
+
     ranked = sorted(scores.items(), key=lambda x: (-x[1], TOPIC_PRIORITY.index(x[0]) if x[0] in TOPIC_PRIORITY else 99))
 
     topics = [ranked[0][0]]
