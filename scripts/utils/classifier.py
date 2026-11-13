@@ -59,6 +59,8 @@ TOPIC_KEYWORDS = {
         "exclusionary", "predatory", "tying", "refusal to deal",
         "反垄断", "经营者集中", "市场支配地位", "卡特尔",
         "competition law", "competition policy",
+        "competition and consumer law",
+        "protection of competition", "protections for competition",
         "merger review", "hart-scott-rodino", "hsr",
         "consumer welfare", "bigness", "concentration",
         "platform monopoly", "self-preferencing", "digital gatekeeper",
@@ -99,6 +101,12 @@ def classify(title, abstract, keywords):
     substantive_text = " ".join(filter(None, [title, abstract])).lower()
     text = " ".join(filter(None, [title, abstract, " ".join(keywords or [])])).lower()
 
+    # A company name in a case caption is not substantive evidence that the
+    # dispute concerns technology.  Keep this narrow so genuine AI governance
+    # articles continue to match the bare whole-word ``AI`` token.
+    substantive_text = substantive_text.replace("mixedbread ai", "mixedbread")
+    text = text.replace("mixedbread ai", "mixedbread")
+
     scores = {}
     for topic, kws in TOPIC_KEYWORDS.items():
         score = 0
@@ -129,6 +137,12 @@ def classify(title, abstract, keywords):
     # not repeat "shareholder proposal."
     if "rule 14a-8" in text:
         return ["financial_regulation", "corporate_governance"], "financial_regulation"
+
+    # EU Inc is a proposed supranational company form.  A site keyword such as
+    # "financial regulation" must not override the article's company-law core.
+    if "eu inc" in substantive_text and (
+            "company law" in text or "corporate form" in text):
+        return ["corporate_governance"], "corporate_governance"
 
     # AI corporate-governance design is inherently both a governance and a
     # technology issue even when a short feed excerpt contains only the bare
