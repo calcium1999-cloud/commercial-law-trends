@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-11-16",
+    "last_updated": "2026-11-18",
     "version": "1.0"
   },
   "sources": [
@@ -1550,6 +1550,45 @@
         "art_742",
         "art_743",
         "art_744"
+      ]
+    },
+    {
+      "id": "2026-11-18",
+      "date": "2026-11-18",
+      "period_start": "2026-11-17",
+      "period_end": "2026-11-18",
+      "title": "商业法律研究动向",
+      "summary": "本期十一大来源共新增21篇文章，重点涉及公司治理、金融监管、反垄断及制度外部性。",
+      "trends": [
+        "本期十一大来源共新增21篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS和NY Fed。按主分类计，公司治理10篇、金融监管5篇、其他5篇、反垄断1篇；按交叉标签计，公司治理12篇、金融监管7篇。本期没有科技、数据与AI类新增。",
+        "公司治理研究共同追问正式治理结构能否约束真实行为。CEO总部迁址论文利用子女异地结婚作为工具变量，发现私人地点偏好可能影响迁址，并伴随负面公告收益、员工流动和内部评价下降；董事会主席研究则强调，董事独立性与绩效之间的相关性可能受内生性、反向因果和社会关系影响。关于机构股东政治活动与联邦采购的研究进一步提示，股东不仅提供资本，也可能传导政治资源；这些均属特定样本和识别设计下的实证结论，不宜直接外推为一般规则。",
+        "投票权配置形成另一条主线。股票借贷模型指出，穿透式投票并不必然让结果更贴近基金投资者偏好，因为基金经理仍可通过增加股票出借改变投票权最终归属。与此相邻，规则14a-8的拟议废止引出机构投资者理事会的评论和权力下放论证，多类别表决权结构则体现创始人控制与公众投资者权利之间的制度选择。这里应区分模型推论、拟议规则、评论信和实务指南，不能把规范主张写成已经验证的政策效果。",
+        "忠实义务与控制权争议集中体现责任配置问题。特拉华衡平法院在Sarwal案中把向董事会隐瞒重大信息及调查期间销毁公司文件置于忠实义务框架下；两篇Cloudflare评论围绕控制股东通过资本重组维持控制权是否构成自我交易，以及立法改革后法院审查的边界展开争论。前者是具体判决所揭示的责任命题，后两者则是对尚在上诉和制度变动中的法律评价，二者证据层级不同。",
+        "金融监管材料呈现从披露到机构监管的多层次变化。SEC关于高管薪酬披露的文件仍是拟议修正；欧盟《可持续金融披露条例》2.0处于三方谈判阶段；OCC实施《GENIUS法案》的框架虽为最终规则，但仍把若干争议问题留待个案处理。纽约联储关于贴现窗口污名的研究关注公开市场如何解读银行借款。反垄断文章则主张强化私人诉讼的社会收益，属于作者基于法律与经验材料提出的政策论证，而非关于所有私人诉讼效果的无条件结论。",
+        "其余研究把法律制度放入更广的外部性与分配背景。气候罢工研究发现，靠近抗议地点的公司随后范围一排放下降约12%，但该结果依赖地点比较与局部效应解释；委内瑞拉研究显示制裁期间产量下降同时每桶原油的火炬燃烧增加，提示政策效果可能通过生产结构转化为环境成本。联合国《可转让货物单证公约》试图把可转让单证扩展至多式运输，成效仍取决于批准和商业实践；破产优先顺位研究在既有权利、同类债权人平等与弱势债权人保护之间进行利益衡量；劳动市场研究则检验主观就业预期与实际发生率的偏差。"
+      ],
+      "article_ids": [
+        "art_745",
+        "art_746",
+        "art_747",
+        "art_748",
+        "art_749",
+        "art_750",
+        "art_751",
+        "art_752",
+        "art_753",
+        "art_754",
+        "art_755",
+        "art_756",
+        "art_757",
+        "art_758",
+        "art_759",
+        "art_760",
+        "art_761",
+        "art_762",
+        "art_763",
+        "art_764",
+        "art_765"
       ]
     }
   ],
@@ -22041,6 +22080,588 @@
       "abstract_cn": "近几个月来，联邦贸易委员会（FTC 或委员会）和一些州总检察长 (AG) 越来越关注价格透明度。",
       "report_id": "2026-11-16",
       "id": "art_744"
+    },
+    {
+      "title": "Family First: CEOs' Private Incentives in Corporate Relocations",
+      "url": "https://www.ecgi.global/publications/working-papers/family-first-ceos-private-incentives-in-corporate-relocations",
+      "date": "2026-11-17",
+      "type": "working_paper",
+      "authors": "Ran Duchin, Abed El Karim Farroukh, Denis Sosyura",
+      "abstract": "Using novel data on executives’ families, we identify CEOs’ private motives in moving corporate headquarters (HQ). CEOs systematically relocate HQs closer to their families over plausible location alternatives. Over 35% of relocations place the new HQ within 50 miles of the CEO’s children and away from production sites and industry clusters. Such relocations entail negative announcement returns, higher employee turnover, and weaker insider reviews. Using an out-of-state marriage of a CEO’s child as an instrument for the CEO’s location preferences, we show that executives’ private incentives affect corporate migration.",
+      "keywords": [
+        "CEO & succession",
+        "Agency theory",
+        "Labour",
+        "Board effectiveness",
+        "Family firms",
+        "Human capital",
+        "Bankruptcy",
+        "Responsible investment"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "家庭优先：CEO搬迁公司总部的私人动机",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "本文利用高管家庭的新数据识别CEO搬迁公司总部的私人动机。研究发现，在存在其他合理选址的情况下，CEO会系统性地把总部迁至更靠近家人的地点；超过35%的搬迁使新总部位于CEO子女50英里以内，同时远离生产基地和产业集群。这类搬迁伴随负面的公告期收益、更高的员工流动率和更差的内部员工评价。作者以CEO子女在外州结婚作为CEO地点偏好的工具变量，认为高管的私人激励会影响企业总部迁址。",
+      "keywords_cn": [
+        "首席执行官及继任者",
+        "代理理论",
+        "劳动",
+        "董事会效率",
+        "家族企业",
+        "人力资本",
+        "破产",
+        "负责任的投资"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_745"
+    },
+    {
+      "title": "Stock Lending and Pass-Through Voting",
+      "url": "https://www.ecgi.global/publications/working-papers/stock-lending-and-pass-through-voting",
+      "date": "2026-11-17",
+      "type": "working_paper",
+      "authors": "Doron Y. Levit, George Nurisso",
+      "abstract": "Concerns about conflicts of interest have led to growing calls for asset managers to let fund investors cast votes directly at shareholder meetings. We study this reform, known as pass-through voting, in a model where market participants with heterogeneous preferences lend shares, trade, and vote. We show that it can move voting outcomes further away from investors' preferences, rather than closer, for a reason that has received little attention: the fund's manager retains control over share lending and may lend more once the votes are no longer his to cast. Because the votes attached to lent shares end up in the hands of traders whose preferences differ from those of the fund's investors, pass-through voting can leave these investors worse off, even after accounting for lending revenue. The manager, meanwhile, may embrace the reform to increase lending income. Our analyses inform the debate over mandating pass-through voting, the use of lending fees as a proxy for the value of a vote, and, more broadly, policy at the intersection of shareholder voting and securities lending.",
+      "keywords": [
+        "Institutional investors",
+        "Markets & liquidity",
+        "Voting",
+        "Information asymmetry",
+        "Stewardship",
+        "Shareholder rights"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "股票借贷与穿透式投票",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "对利益冲突的担忧促使越来越多人主张让基金投资者直接在股东大会上投票，即穿透式投票。本文构建一个由偏好不同的市场参与者借出股票、交易并投票的模型。模型显示，穿透式投票未必使结果更接近基金投资者的偏好，反而可能进一步偏离：基金经理仍控制股票借贷，在投票权不再由其行使后可能增加出借；借出股票所附投票权因而落入偏好不同的交易者手中。即使计入借贷收入，基金投资者仍可能受损，而基金经理可能因借贷收入增加而支持改革。该分析关系到是否强制穿透式投票、能否用借贷费用代理投票权价值，以及股东投票与证券借贷交叉领域的政策设计。",
+      "keywords_cn": [
+        "机构投资者",
+        "市场和流动性",
+        "表决",
+        "信息不对称",
+        "管理职责",
+        "股东权利"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_746"
+    },
+    {
+      "title": "When Climate Activism Changes Business",
+      "url": "https://www.ecgi.global/publications/blog/when-climate-activism-changes-business",
+      "date": "2026-11-16",
+      "type": "blog",
+      "authors": "Wouter Torsin, Caterina Santi",
+      "abstract": "In September 2019, millions of high school and college students around the world took to the streets to demand action on climate change. Often referred to as the Global Climate Strikes, these demonstrations brought unprecedented public attention to the environmental challenges facing governments and businesses alike. But while such demonstrations are typically understood as a way to influence policymakers and public opinion, could they also change what companies actually do? Our research suggests that they can. Taking the United States as our setting and linking corporate headquarters to over one thousand climate strike locations across the country, we compare firms headquartered in the direct vicinity of a protest with otherwise comparable firms located farther away. We find that firms close to the demonstrations subsequently reduced their direct Scope 1 emissions by approximately 12%, and document improvements in other dimensions of environmental performance as well. Across the firms in our sample, the observed emissions reductions correspond to an estimated cumulative decrease of approximately 5.3 million tons of CO₂. Notably, these effects persisted in the years following the strikes, and the response weakened with distance from protest locations. This pattern is thus consistent with a localised effect in that companies headquartered closer to the demonstrations experienced larger subsequent reductions in emissions.",
+      "keywords": [
+        "Climate",
+        "Climate change",
+        "ESG & purpose",
+        "Markets & liquidity",
+        "Innovation",
+        "CSR"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "气候行动主义何以改变企业行为",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "2019年9月，全球数以百万计的中学生和大学生走上街头要求采取气候行动。这些“全球气候罢工”使政府和企业面临的环境挑战获得前所未有的公众关注。作者以美国为研究场景，将公司总部与全国一千多个气候罢工地点相匹配，比较总部紧邻抗议地点的公司与位置更远但其他方面相近的公司。研究发现，接近示威地点的公司随后将其范围一直接排放减少约12%，其他环境绩效指标也有所改善；样本公司的累计减排量估计约为530万吨二氧化碳。相关影响在罢工后数年持续存在，并随公司总部与抗议地点距离增加而减弱，这与抗议产生局部影响的解释一致。",
+      "keywords_cn": [
+        "气候",
+        "气候变化",
+        "ESG 和宗旨",
+        "市场和流动性",
+        "创新",
+        "企业社会责任"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_747"
+    },
+    {
+      "title": "Do Board Chairs Matter? Yes, but Not Always for the Reasons You Think",
+      "url": "https://www.ecgi.global/publications/blog/do-board-chairs-matter-yes-but-not-always-for-the-reasons-you-think",
+      "date": "2026-11-16",
+      "type": "blog",
+      "authors": "Marc Goergen",
+      "abstract": "Traditional research on boards has focused on board independence, assuming that management may pursue its own interests rather than shareholder interests. Independent boards are then a way of mitigating these agency problems. Starting with the 1992 UK Cadbury Code, regulators have likewise advocated more independent boards of directors. Yet most studies do not find a robust and strong link between board independence and firm value or firm performance. One reason may be endogeneity: board independence is unlikely to be chosen at random. A firm going through a bad patch may come under shareholder pressure to appoint more independent directors, raising the possibility of reverse causality. Another possibility is that the ‘independent’ directors may be independent in name only. Eighty-seven percent of the boards of Fortune 100 firms have been shown to have a majority of independent directors. When adjusting for social ties between the CEO and board, this percentage drops to 62%. It could be that who matters most is not the entire board but the chair. Should the chair and CEO positions then be combined or separated? Theory is split on whether combining the two roles, so-called CEO duality, is good or bad. On the one hand, agency theory predicts that the costs from CEO duality are greater than its benefits, leading to CEO entrenchment and weak accountability. On the other hand, resource-dependence and stewardship theories argue that CEO duality has net benefits.",
+      "keywords": [
+        "Board of Directors",
+        "Director duties",
+        "CEO & succession",
+        "Board effectiveness",
+        "Insider trading",
+        "Blockholders",
+        "Board composition",
+        "Enforcement"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "董事会主席重要吗？重要，但未必出于通常设想的原因",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "传统董事会研究侧重独立性，认为独立董事会可以缓解管理层追求自身利益所产生的代理问题。自1992年英国《吉百利报告》以来，监管者也倡导提高董事会独立性，但多数研究并未发现董事会独立性与公司价值或绩效之间存在稳健而显著的联系。原因可能包括内生性与反向因果：经营不佳的公司可能在股东压力下增聘独立董事；所谓独立董事也可能只是名义上独立。财富100强公司中，87%的董事会表面上由独立董事占多数；计入CEO与董事之间的社会关系后，该比例降至62%。真正关键的或许不是整个董事会，而是董事会主席。关于董事长与CEO职位应当合一还是分设，代理理论强调权力固化与问责弱化的成本，资源依赖和管家理论则认为两职合一可能产生净收益。",
+      "keywords_cn": [
+        "董事会",
+        "董事职责",
+        "首席执行官及继任者",
+        "董事会效率",
+        "内幕交易",
+        "大股东",
+        "董事会构成",
+        "执行"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_748"
+    },
+    {
+      "title": "What Can Politically Active Shareholders Do for Their Firms?",
+      "url": "https://www.ecgi.global/publications/blog/what-can-politically-active-shareholders-do-for-their-firms",
+      "date": "2026-11-16",
+      "type": "blog",
+      "authors": "Janet Yaru Yang, Wanli Zhao",
+      "abstract": "Ask where a US company’s political pull comes from and the usual answer is its lobbyists, its PAC, or a former senator on its board. Politically connected firms get easier credit, regulatory relief and bailouts, and firms with connected boards win more procurement contracts. But most listed firms have little political machinery of their own. In our sample, the median firm spends nothing on lobbying or through a PAC. Its shareholders are a different story: the large institutions that own most of listed America lobby and give to campaigns. In a paper presented at the 7th Annual RCF-ECGI Corporate Finance and Governance Conference, we ask whether these investors act as intermediaries of political capital for their portfolio firms. The evidence suggests they do. Federal procurement runs to hundreds of billions of dollars a year, and awards involve real discretion: suppliers must learn what an agency needs, clear eligibility rules, and earn officials’ trust. We link federal procurement records for about 3,000 US-listed firms over 2008-2025 to 13F holdings and to those institutions’ PAC and lobbying records. Our measure, Political Spending, credits each firm with a share of every owner’s political activity, in proportion to the firm’s weight in that owner’s portfolio. Because lobbying reports name the agencies they target, exposure differs across agencies: a firm can be highly exposed at the Pentagon and barely at all at Health and Human Services.",
+      "keywords": [
+        "Responsible Investment",
+        "Responsible investment",
+        "Ownership structure",
+        "Shareholder rights",
+        "Institutional investors",
+        "Voting",
+        "Stewardship",
+        "CSR",
+        "Climate change"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "政治活动积极的股东能为被投资公司带来什么？",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "美国公司的政治影响力通常被归因于游说者、政治行动委员会（PAC）或具有政治背景的董事，但多数上市公司自身并没有强大的政治运作机制；样本中的中位数公司没有任何游说或PAC支出。大型机构股东则会开展游说并捐助竞选活动。作者考察这些投资者是否充当被投资公司的政治资本中介，证据显示答案是肯定的。研究将2008—2025年约3,000家美国上市公司的联邦采购记录，与13F持股数据及机构投资者的PAC和游说记录相匹配；“政治支出”指标按照公司在各股东投资组合中的权重，分配该股东的政治活动。由于游说报告会列明目标机构，同一家公司对不同政府机构的政治资本暴露程度也不相同。",
+      "keywords_cn": [
+        "责任投资",
+        "负责任的投资",
+        "股权结构",
+        "股东权利",
+        "机构投资者",
+        "表决",
+        "管理职责",
+        "企业社会责任",
+        "气候变化"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_749"
+    },
+    {
+      "title": "Directors’ Disclosure and Document-Preservation Obligations",
+      "url": "https://corpgov.law.harvard.edu/2026/11/17/directors-disclosure-and-document-preservation-obligations/?utm_source=rss&utm_medium=rss&utm_campaign=directors-disclosure-and-document-preservation-obligations",
+      "date": "2026-11-17",
+      "abstract": "Last week, the Delaware Court of Chancery held that a director or officer who withholds material information from the board breaches the duty of loyalty and that her destruction of corporate documents during a board investigation may constitute an independent breach of the duty of loyalty. Sarwal v. NephroSant, Inc., C.A. No. 2023-0222-BWD (Del. Ch. […]",
+      "authors": "Kevin Schwartz, Adam Goodman",
+      "keywords": [
+        "Board Disclosure",
+        "Board oversight",
+        "delaware",
+        "Delaware cases",
+        "Delaware law",
+        "Director and Officer Liability",
+        "Duty of loyalty",
+        "Fiduciary duties"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "董事的信息披露与文件保存义务",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "上周，特拉华州衡平法院裁定，向董事会隐瞒重要信息的董事或高级管理人员违反了忠诚义务，并且她在董事会调查期间销毁公司文件可能构成独立违反忠诚义务。Sarwal 诉 NephroSant, Inc., C.A.编号 2023-0222-BWD（Del. Ch. […]",
+      "keywords_cn": [
+        "董事会披露",
+        "董事会监督",
+        "特拉华州",
+        "特拉华州案例",
+        "特拉华州法律",
+        "董事及高级职员责任",
+        "忠诚义务",
+        "信托义务"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_750"
+    },
+    {
+      "title": "The Evolution of the Market for Corporate Control",
+      "url": "https://corpgov.law.harvard.edu/2026/11/17/the-evolution-of-the-market-for-corporate-control/?utm_source=rss&utm_medium=rss&utm_campaign=the-evolution-of-the-market-for-corporate-control",
+      "date": "2026-11-17",
+      "abstract": "The market for corporate control has evolved substantially over the past decades. Professional control-oriented investors such as activist hedge funds and private equity funds, which have grown enormously since the 1990s, are now central players in this market. Hostile tender offers were the prominent feature of the market in the 1980s, but the mode of […]",
+      "authors": "Mike Burkart, Samuel Lee, Paul Voss",
+      "keywords": [
+        "Activists",
+        "corporate control",
+        "Hostile takeover",
+        "Private equity",
+        "Shareholder activism",
+        "Takeovers"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "公司控制权市场的演变",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "公司控制权市场在过去几十年里发生了巨大的变化。自 20 世纪 90 年代以来，激进的对冲基金和私募股权基金等以专业控制为导向的投资者迅速发展，现在已成为该市场的核心参与者。敌意要约收购是 20 世纪 80 年代市场的显着特征，但 […]",
+      "keywords_cn": [
+        "活动人士",
+        "公司控制权",
+        "恶意收购",
+        "私募股权",
+        "股东积极主义",
+        "收购"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_751"
+    },
+    {
+      "title": "SEC Proposes Sweeping Changes to Executive Compensation Disclosure Requirements",
+      "url": "https://corpgov.law.harvard.edu/2026/11/17/sec-proposes-sweeping-changes-to-executive-compensation-disclosure-requirements/?utm_source=rss&utm_medium=rss&utm_campaign=sec-proposes-sweeping-changes-to-executive-compensation-disclosure-requirements",
+      "date": "2026-11-17",
+      "abstract": "Executive Summary What’s new: On November 13, 2026, the SEC issued proposed amendments to Item 402 of Regulation S-K and related rules. If adopted, they would be the most significant executive compensation disclosure reform since 2006. Why it matters: For public companies, the proposed rules would narrow named executive officers to the principal executive officer […]",
+      "authors": "Shalom Huber, Julie Yusko, Stephanie Birndorf",
+      "keywords": [
+        "CEO compensation",
+        "Executive Compensation",
+        "Item 402",
+        "pay ratio",
+        "pay versus performance",
+        "Proxy disclosure",
+        "Proxy Statement",
+        "Regulation S-K",
+        "Say on pay",
+        "SEC"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "SEC拟大幅改革高管薪酬披露要求",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "执行摘要 新动态：2026 年 11 月 13 日，SEC 发布了对 S-K 条例第 402 项及相关规则的拟议修正案。如果获得通过，这将是自 2006 年以来最重要的高管薪酬披露改革。为什么重要：对于上市公司来说，拟议的规则将把指定的执行官缩小为首席执行官 […]",
+      "keywords_cn": [
+        "首席执行官薪酬",
+        "高管薪酬",
+        "第 402 项",
+        "薪酬比例",
+        "薪酬与绩效",
+        "代理披露",
+        "委托书",
+        "法规S-K",
+        "说付钱",
+        "美国证券交易委员会"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_752"
+    },
+    {
+      "title": "Proposed SEC Rule on Rescinding Shareholder Proposal Rule 14a-8: A Comment from the Council of Institutional Investors",
+      "url": "https://corpgov.law.harvard.edu/2026/11/16/proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-a-comment-from-the-council-of-institutional-investors/?utm_source=rss&utm_medium=rss&utm_campaign=proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-a-comment-from-the-council-of-institutional-investors",
+      "date": "2026-11-16",
+      "abstract": "This post is based on a comment letter submitted to the SEC regarding the SEC’s proposal on Rescinding Shareholder Proposal Rule 14a-8, by the Council of Institutional Investors. Below is the executive summary of the letter with minor adjustments to eliminate the correspondence-related parts. The Council of Institutional Investors (CII) appreciates the opportunity to comment […]",
+      "authors": "Jeff Mahoney",
+      "keywords": [
+        "Corporate governance",
+        "Rule 14a-8",
+        "SEC",
+        "Shareholder proposals"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "SEC拟废止股东提案规则14a-8：机构投资者理事会的评论",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "本文基于机构投资者理事会向 SEC 提交的关于 SEC 关于撤销股东提案规则 14a-8 的提案的评论信。以下是该信函的执行摘要，经过细微调整以删除与信件相关的部分。机构投资者理事会 (CII) 很高兴有机会发表评论 [...]",
+      "keywords_cn": [
+        "公司治理",
+        "规则 14a-8",
+        "美国证券交易委员会",
+        "股东提案"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_753"
+    },
+    {
+      "title": "Share Owner Proposals and Rule 14a8: The Uneasy Case for Devolution",
+      "url": "https://corpgov.law.harvard.edu/2026/11/16/share-owner-proposals-and-rule-14a8-the-uneasy-case-for-devolution/?utm_source=rss&utm_medium=rss&utm_campaign=share-owner-proposals-and-rule-14a8-the-uneasy-case-for-devolution",
+      "date": "2026-11-16",
+      "abstract": "The SEC’s proposal to rescind Rule 14a-8 presents an opportunity to reconsider how share owner proposals should fit within corporate governance. The central question is who should define the terms on which one owner may require a corporation to circulate a proposal at the expense of all its owners. There is a case for moving […]",
+      "authors": "Lawrence Cunningham",
+      "keywords": [
+        "Private ordering",
+        "SEC",
+        "Shareholder proposals",
+        "Shareholder rights"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "股东提案与规则14a-8：权力下放是否妥当？",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "SEC 废除第 14a-8 条规则的提案提供了一个重新考虑股东提案应如何适应公司治理的机会。核心问题是，谁应该定义一个所有者可以要求公司以牺牲所有所有者的利益为代价传播提案的条款。有一个移动的案例[...]",
+      "keywords_cn": [
+        "私人订购",
+        "美国证券交易委员会",
+        "股东提案",
+        "股东权利"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_754"
+    },
+    {
+      "title": "The Founder’s Primer on Multi-Class Voting Structures",
+      "url": "https://corpgov.law.harvard.edu/2026/11/16/the-founders-primer-on-multi-class-voting-structures/?utm_source=rss&utm_medium=rss&utm_campaign=the-founders-primer-on-multi-class-voting-structures",
+      "date": "2026-11-16",
+      "abstract": "Today’s founders confront that same challenge whenever they consider an initial public offering (“IPO”), and multiclass share structures have become the principal means of addressing it. By giving the shares held by founders (and, in some cases, other pre IPO investors) greater voting power than the shares sold to the public, these structures allow founders […]",
+      "authors": "Nicholas A. Dorsey, Aaron M. Gruber, Claudia J. Fitzpatrick",
+      "keywords": [
+        "Corporate governance",
+        "IPOs",
+        "Multi-Class Voting Structures",
+        "Proxy advisors"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "创始人多类别表决权结构指南",
+      "topics": [
+        "corporate_governance",
+        "financial_regulation"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "今天的创始人每当考虑首次公开募股（“IPO”）时都会面临同样的挑战，而多类别股权结构已成为解决该问题的主要手段。通过给予创始人（在某些情况下，其他首次公开募股前投资者）持有的股票比向公众出售的股票更大的投票权，这些结构允许创始人[...]",
+      "keywords_cn": [
+        "公司治理",
+        "首次公开募股",
+        "多类别投票结构",
+        "代理顾问"
+      ],
+      "report_id": "2026-11-18",
+      "id": "art_755"
+    },
+    {
+      "title": "Beyond the Bill of Lading: Can the UN Convention on Negotiable Cargo Documents Transform Global Trade?",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/11/beyond-bill-lading-can-un-convention-negotiable-cargo-documents-transform",
+      "date": "2026-11-18",
+      "type": "blog",
+      "abstract": "The opening for signature of the United Nations Convention on Negotiable Cargo Documents in Accra, Ghana, on 26 October 2026 will mark an important step in the evolution of international trade law. The Convention extends the legal framework for negotiable cargo documents beyond maritime transport, potentially improving access to trade finance and facilitating multimodal commerce. The Convention will enter into force 180 days after the deposit of the tenth instrument of ratification, acceptance, approval or accession. Nevertheless, its success will depend less on the number of signatures than on whether states, courts, banks and carriers can translate its promise into predictable commercial practice. Negotiable maritime bills of lading have long facilitated the sale and financing of goods while they are in transit. Comparable arrangements have been less readily available for goods carried by rail, road or air. This creates a structural disadvantage for inland traders, particularly where goods cross multiple jurisdictions before reaching their destination. The Convention, adopted by the UN General Assembly on 15 December 2025, addresses this problem by establishing a uniform framework for negotiable cargo documents (NCDs) in paper and electronic form, regardless of transport mode. Under Article 7, the holder may exercise the rights represented by the document, while Article 11 governs their transfer.",
+      "authors": "Shuai Guo",
+      "source_id": "oblb",
+      "title_cn": "超越提单：联合国《可转让货物单证公约》能否重塑全球贸易？",
+      "keywords": [],
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "联合国《可转让货物单证公约》于2026年10月26日在加纳阿克拉开放签署，标志着国际贸易法发展的重要一步。公约把可转让货物单证的法律框架从海运扩展至其他运输方式，可能改善贸易融资可得性并促进多式联运。公约将在第十份批准书、接受书、核准书或加入书交存后180天生效；其成效不仅取决于签署国数量，更取决于国家、法院、银行和承运人能否把制度承诺转化为可预期的商业实践。传统可转让海运提单长期支持在途货物买卖与融资，但铁路、公路和航空运输较少具备类似工具，内陆贸易商因此处于结构性劣势。该公约为各种运输方式下的纸质和电子可转让货物单证建立统一框架；第7条规定持有人可以行使单证所表彰的权利，第11条规范单证转让。",
+      "report_id": "2026-11-18",
+      "id": "art_756"
+    },
+    {
+      "title": "Rethinking Priority Rules in Insolvency",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/11/rethinking-priority-rules-insolvency",
+      "date": "2026-11-17",
+      "type": "blog",
+      "abstract": "Insolvency proceedings face two fundamental challenges that, at their core, concern maximizing the value of an insolvent firm and allocating that value among its stakeholders. In our recent article, Rethinking Priority Rules in Insolvency , we focus on the second challenge, examining how jurisdictions structure priority rules and assessing their economic and policy justifications. Priority rules determine who bears losses when companies fail. They also influence decisions made long before insolvency, including investment, risk-taking, financing, and creditor monitoring. Their design therefore has important implications for access to finance, corporate restructuring, and the distribution of losses among stakeholders. Our article argues that two foundational principles of insolvency law—the protection of pre-insolvency entitlements and the equal treatment of similarly situated creditors—should generally be respected. Nevertheless, departures may be justified where they generate economic benefits or protect creditors who cannot adequately protect themselves.",
+      "authors": "Anthony Casey, Aurelio Gurrea-Martínez",
+      "source_id": "oblb",
+      "title_cn": "重新审视破产法中的优先顺位规则",
+      "keywords": [],
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "破产程序面临两个基本问题：如何最大化困境企业价值，以及如何在利益相关者之间分配该价值。本文聚焦第二个问题，考察不同法域如何设计优先顺位规则及其经济和政策依据。优先顺位决定企业失败时由谁承担损失，也会提前影响投资、风险承担、融资和债权人监督，因此关系到融资可得性、企业重整及损失分配。作者主张，原则上应尊重破产前权利并平等对待处境相同的债权人；但若偏离这些原则能够产生经济利益，或保护无法充分自我保护的债权人，也可能具有正当性。",
+      "report_id": "2026-11-18",
+      "id": "art_757"
+    },
+    {
+      "title": "Robust and Expansive Private Enforcement Is Essential to Sound Antitrust Policy",
+      "url": "https://www.promarket.org/2026/11/17/robust-and-expansive-private-enforcement-is-essential-to-sound-antitrust-policy/",
+      "date": "2026-11-17",
+      "authors": "Filippo Lancieri",
+      "abstract": "For decades, parts of the antitrust community have viewed private antitrust litigation skeptically, believing it is often frivolous or even inimical to robust federal antitrust enforcement. In new research, Filippo Lancieri argues that neither the law nor empirical evidence supports these claims and that private enforcement provides many positive social benefits to antitrust enforcement. One […]",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "健全反垄断政策离不开有力而广泛的私人执法",
+      "keywords": [],
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "几十年来，部分反垄断界人士对私人反垄断诉讼持怀疑态度，认为这往往是轻率的，甚至不利于强有力的联邦反垄断执法。在新的研究中，Filippo Lancieri 认为，法律和经验证据都不支持这些主张，而且私人执法为反垄断执法提供了许多积极的社会效益。一 […]",
+      "report_id": "2026-11-18",
+      "id": "art_758"
+    },
+    {
+      "title": "Under US Sanctions, Each Barrel of Venezuelan Oil Polluted More",
+      "url": "https://www.promarket.org/2026/11/16/under-us-sanctions-each-barrel-of-venezuelan-oil-polluted-more/",
+      "date": "2026-11-16",
+      "authors": "Michele Fioretti",
+      "abstract": "In new research, Michele Fioretti, Kavanaugh FitzPatrick, and Alessandro Iaria find that under United States sanctions, Venezuela’s oil output fell by two-thirds, but the gas flared per barrel more than doubled.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "美国制裁下，委内瑞拉每桶原油的污染反而加剧",
+      "keywords": [],
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "Michele Fioretti、Kavanaugh FitzPatrick和Alessandro Iaria的研究发现，在美国制裁期间，委内瑞拉石油产量下降了三分之二，但每桶原油对应的天然气火炬燃烧量增加了一倍以上。",
+      "report_id": "2026-11-18",
+      "id": "art_759"
+    },
+    {
+      "title": "Cloudflare’s Real Question: Is Preserving Control Self-Dealing?",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/18/cloudflares-real-question-is-preserving-control-self-dealing/",
+      "date": "2026-11-18",
+      "authors": "Zohar Goshen",
+      "abstract": "Suppose a company’s capital structure will eventually cause its controller to lose control as she sells shares or the company issues new ones. Should a recapitalization preserving her control be treated as self-dealing? The Delaware Supreme Court has accepted an expedited appeal in the Cloudflare ...",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Cloudflare的核心问题：维持控制权是否构成自我交易？",
+      "keywords": [],
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "假设一家公司的资本结构最终会导致其控制人因出售股票或公司发行新股而失去控制权。保留控制权的资本重组是否应该被视为自我交易？特拉华州最高法院已接受 Cloudflare 的快速上诉......",
+      "report_id": "2026-11-18",
+      "id": "art_760"
+    },
+    {
+      "title": "Gibson Dunn Discusses EU Sustainable Finance Disclosure Regulation 2.0",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/18/gibson-dunn-discusses-eu-sustainable-finance-disclosure-regulation-2-0/",
+      "date": "2026-11-18",
+      "authors": "Gibson, Dunn & Crutcher LLP",
+      "abstract": "The trilogue negotiations on the reform of the Sustainable Finance Disclosure Regulation (Regulation (EU) 2019/2088) (SFDR) began in Strasbourg on 22 October 2026, and a second meeting is fixed for 19 November.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Gibson Dunn评析欧盟《可持续金融披露条例》2.0",
+      "keywords": [],
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "关于《可持续金融披露条例》（欧盟条例 2019/2088）（SFDR）改革的三方谈判于 2026 年 10 月 22 日在斯特拉斯堡开始，第二次会议定于 11 月 19 日举行。",
+      "report_id": "2026-11-18",
+      "id": "art_761"
+    },
+    {
+      "title": "Cloudflare: Judicial Activism in the Wake of Legislative Reform",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/17/cloudflare-judicial-activism-in-the-wake-of-legislative-reform/",
+      "date": "2026-11-17",
+      "authors": "Jonathan R. Macey",
+      "abstract": "Recent opinions by the Delaware Court of Chancery in the Cloudflare shareholder litigation show how challenging it can be to constrain judicial activism. Cloudflare co-founders Matthew Prince and Michelle Zatlyn controlled just over 50.3% of the internet-infrastructure company's voting power.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Cloudflare：立法改革后的司法能动主义",
+      "keywords": [],
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "特拉华州衡平法院最近在 Cloudflare 股东诉讼中的意见表明，限制司法行动主义是多么具有挑战性。Cloudflare 联合创始人 Matthew Prince 和 Michelle Zatlyn 控制着这家互联网基础设施公司 50.3% 以上的投票权。",
+      "report_id": "2026-11-18",
+      "id": "art_762"
+    },
+    {
+      "title": "Davis Polk Discusses OCC’s Final Regulatory Framework to Implement GENIUS Act",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/17/davis-polk-discusses-occs-final-regulatory-framework-to-implement-genius-act/",
+      "date": "2026-11-17",
+      "authors": "Davis Polk & Wardwell LLP",
+      "abstract": "The OCC retained the core architecture of its proposed rule but left several of the most contested questions to be resolved on a case-by-case basis.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Davis Polk评析OCC实施《GENIUS法案》的最终监管框架",
+      "keywords": [],
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "OCC 保留了其拟议规则的核心架构，但留下了几个最具争议的问题，需要根据具体情况进行解决。",
+      "report_id": "2026-11-18",
+      "id": "art_763"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Does the Stock Market Stigmatize Banks that Borrow from the Fed?",
+      "title_cn": "股市会污名化向美联储借款的银行吗？",
+      "authors": "Natalia Fischl-Lanzoni, Martin Hiti, and Asani Sarkar",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-11-17",
+      "abstract": "Banks may resist borrowing from the Federal Reserve during a panic if such borrowing is stigmatized (that is, viewed by the market as a sign of financial weakness), thus hampering the Fed’s ability to resolve the crisis. The problem may be particularly acute for publicly traded banks since their stock prices immediately reflect the market's opinion of them. In this post, based on a recent paper , we track what happened to stock investors' perceptions of a bank's risk level right after it first borrowed from Fed facilities in the first month of the bank run of 2023 .",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/does-the-stock-market-stigmatize-banks-that-borrow-from-the-fed/",
+      "type": "article",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "abstract_cn": "如果在恐慌期间向美联储借款会被市场视为银行财务状况疲弱的信号，银行就可能因污名效应而拒绝借款，从而削弱美联储化解危机的能力。上市银行尤其可能受到影响，因为其股价会立即反映市场判断。本文基于一篇近期论文，追踪2023年银行挤兑发生后的第一个月内，银行首次使用美联储融资工具后，股票投资者对其风险水平的看法如何变化。",
+      "report_id": "2026-11-18",
+      "id": "art_764"
+    },
+    {
+      "source_id": "nyfed_liberty",
+      "title": "Can Workers Predict Job Finding and Job Loss?",
+      "title_cn": "劳动者能否准确预测找到工作和失去工作？",
+      "authors": "Richard Audoly, Ivy Chen, Miles Guerin, and Rachel Schuh",
+      "affiliations": "Federal Reserve Bank of New York",
+      "date": "2026-11-16",
+      "abstract": "Workers’ perceptions of the labor market may differ from aggregate labor market statistics. Individuals might be overly optimistic about their chance of finding a job, or too pessimistic about the odds of losing their current position. In this post, we compare subjective beliefs of future job-finding and job-loss from the New York Fed’s Survey of Consumer Expectations (SCE) with their realized counterparts in the Current Population Survey (CPS). We then investigate how closely aggregate perceptions of job-finding and job-loss prospects align with realized rates.",
+      "keywords": [],
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/can-workers-predict-job-finding-and-job-loss/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "劳动者对劳动力市场的主观判断可能不同于总体统计数据：个人可能高估找到工作的机会，也可能高估失去现有工作的风险。本文把纽约联储消费者预期调查（SCE）中关于未来找到工作和失去工作的主观概率，与当前人口调查（CPS）中的实际发生率进行比较，并考察总体层面的就业与失业预期同实际结果的吻合程度。",
+      "report_id": "2026-11-18",
+      "id": "art_765"
     }
   ],
   "monthly_reports": [
@@ -22149,7 +22770,8 @@
         "2026-11-09",
         "2026-11-11",
         "2026-11-13",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-18"
       ],
       "summary": "",
       "trends": []
