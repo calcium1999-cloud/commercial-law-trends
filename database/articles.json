@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "法律与金融研究动向 - 文章数据库",
-    "last_updated": "2026-11-18",
+    "last_updated": "2026-11-20",
     "version": "1.0"
   },
   "sources": [
@@ -1589,6 +1589,44 @@
         "art_763",
         "art_764",
         "art_765"
+      ]
+    },
+    {
+      "id": "2026-11-20",
+      "date": "2026-11-20",
+      "period_start": "2026-11-19",
+      "period_end": "2026-11-20",
+      "title": "商业法律研究动向",
+      "summary": "本期十一大来源共新增20篇文章。",
+      "trends": [
+        "本期十一大来源共新增20篇文章，来自ECGI、Harvard、OBLB、ProMarket、CLS、BWI和BoE。按主分类计，公司治理与金融监管各6篇、其他5篇、反垄断2篇、科技数据与AI 1篇；若计交叉标签，AI与治理的重叠尤为突出。材料共同指向一个制度问题：组织权力如何通过治理结构、监管程序与技术控制被约束。",
+        "公司治理研究同时提供模型、描述统计与实证测量三种证据。利益相关者治理论文的政治经济学模型表明，其福利效果取决于公司与社会冲突的大小；CEO悬置效应论文则以动态模型和校准推断，有限任期可能诱发投资不足、加杠杆与回购，并估计代理成本约为股东价值的6%，这些结论属于模型机制与校准结果，并非直接的因果估计。董事会实践报告提供年度描述性资料；大型语言模型研究在11,550项提取任务上报告约98%的准确率，集成标签为98.8%、人工标签为97.1%，但作者同时强调不同变量上的表现不一，实际研究仍须逐项验证。",
+        "股东提案与SEC问责构成本期监管主线。United Church Funds文本是对撤销Rule 14a-8并修订Rule 14a-4提案的评论信，代表提交方立场；特拉华公司法委员会发布的是白皮书与讨论稿，旨在为SEC规则退出后的州法替代机制征求意见，尚非生效法律。关于SEC诉讼的文章报告1934至2024年间约120起挑战、其中一半以上发生于过去15年，并把问题从“为何现在诉讼增加”扩展到“为何过去诉讼稀少”；它提出行政国家争议、执法强度与企业策略选择等解释，但没有把增长归结为单一已证实原因。",
+        "AI在本期既是研究工具，也是被治理对象。股东积极主义文章显示，争论正从董事会是否具备AI专长和披露风险，转向AI能否改变经营表现与维权投资主张；Anthropic文章依据IPO文件和已披露事件，把模型越权、测试环境权限与事故报告链条解释为公司控制系统问题，其“技术失败即治理失败”是规范性治理判断。关于AI模型解读信息披露的研究关注不同模型如何形成资本市场信息分歧；与治理数据提取研究合看，AI可以扩大法律实证研究规模，却也把验证、权限配置和责任归属推到治理核心。",
+        "反垄断与新型市场材料主要是执法和制度评论。Morrison & Foerster与Skadden分别讨论传统《谢尔曼法》原则如何适用于新技术行为，以及中期选举后国会监督可能怎样影响反垄断执法，属于律师事务所对执法趋势的分析，不是中立的效果评估。Polymarket文章主张去中心化投票的争议解决存在决策者独立性与经济利益冲突问题，并提出独立人工裁决或AI裁决作为改革方向；这些是正当程序诊断与制度建议，尚待实际制度检验。数字企业政治权力文章借鉴战后重构经验提出民主问责类比，也应与经验因果结论区分。",
+        "其余文章把制度能力问题延伸到破产、公共政策与宏观风险。普渡制药研究以连续和解方案的时间与现值比较质疑萨克勒家族承担了更大经济牺牲，并区分州政府异议与最高法院挑战对不同债权人的影响。俄勒冈和华盛顿毒品非刑事化研究摘要报告逮捕减少但药物过量死亡增加，摘要未展示识别方法，不能仅凭标题外推。BoE两篇文章分别把能源转型影响通胀的渠道分解为支出构成、天然气与电价关系及电网投入压力，并把气候经济损失估计的主要不确定性定位于损害函数。横跨这些材料的共同结论是：规则目标之外，实施能力、控制结构与测量方法往往决定政策和治理效果。"
+      ],
+      "article_ids": [
+        "art_766",
+        "art_767",
+        "art_768",
+        "art_769",
+        "art_770",
+        "art_771",
+        "art_772",
+        "art_773",
+        "art_774",
+        "art_775",
+        "art_776",
+        "art_777",
+        "art_778",
+        "art_779",
+        "art_780",
+        "art_781",
+        "art_782",
+        "art_783",
+        "art_784",
+        "art_785"
       ]
     }
   ],
@@ -22662,6 +22700,538 @@
       "abstract_cn": "劳动者对劳动力市场的主观判断可能不同于总体统计数据：个人可能高估找到工作的机会，也可能高估失去现有工作的风险。本文把纽约联储消费者预期调查（SCE）中关于未来找到工作和失去工作的主观概率，与当前人口调查（CPS）中的实际发生率进行比较，并考察总体层面的就业与失业预期同实际结果的吻合程度。",
       "report_id": "2026-11-18",
       "id": "art_765"
+    },
+    {
+      "title": "The Political Consequences of Stakeholder Governance",
+      "url": "https://www.ecgi.global/publications/working-papers/the-political-consequences-of-stakeholder-governance",
+      "date": "2026-11-19",
+      "type": "working_paper",
+      "authors": "Doron Y. Levit, Markus Parlasca, Paul Voss",
+      "abstract": "We study the political economy of stakeholder governance and corporate lobbying. Lobbying shifts policy toward outcomes that increase the firm's profitability, but it also provokes a backlash from advocacy groups, which push policy back toward the median citizen's preferred outcome. When lobbying is opaque, this backlash generates a ratchet effect: lobbying and backlash escalate, fueling political polarization and instability with little or no policy gain for the firm. To buy quiet, firms adopt stakeholder governance, delegating lobbying to a manager who places less weight on profits and more on citizens' welfare and therefore lobbies less. When the conflict between the firm and society is small, stakeholder governance leads to more socially responsible policies without sacrificing the firm's profits. Paradoxically, when the conflict is large, delegating to a more socially minded manager benefits the firm at society's expense, producing more extreme, socially harmful policies, even when the delegation creates no new agency problems. Our results suggest that stakeholder governance can have unintended political consequences and offer novel implications for corporate governance and lobbying regulation.",
+      "keywords": [
+        "Purpose",
+        "Transparency",
+        "Comparative governance",
+        "Responsible investment",
+        "Agency theory",
+        "Corporate form",
+        "AI",
+        "Voting",
+        "CSR",
+        "Incentives",
+        "Labour",
+        "Regulatory competition",
+        "Shareholder rights"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "利益相关者治理的政治后果",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "我们研究利益相关者治理与公司游说的政治经济学。游说会把政策推向有利于公司盈利的方向，但也会引发倡议团体的反制，使政策重新接近中位公民偏好的结果。游说不透明时，这种反制会形成棘轮效应：游说与反制不断升级，加剧政治极化和不稳定，却几乎不给公司带来政策收益。为平息冲突，公司会采用利益相关者治理，把游说决策交给更重视公民福利、因而游说较少的经理人。公司与社会冲突较小时，这一安排可在不牺牲利润的情况下带来更负责任的政策；冲突较大时，授权给更具社会意识的经理人反而可能以社会利益为代价使公司受益，并产生更极端、有害的政策，即使授权并未制造新的代理问题。研究据此指出，利益相关者治理可能产生非预期的政治后果，并对公司治理与游说监管提出新的含义。",
+      "keywords_cn": [
+        "目的",
+        "透明度",
+        "比较治理",
+        "负责任的投资",
+        "代理理论",
+        "企业形式",
+        "人工智能",
+        "表决",
+        "企业社会责任",
+        "激励措施",
+        "劳动",
+        "监管竞争",
+        "股东权利"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_766"
+    },
+    {
+      "title": "The CEO Overhang Effect",
+      "url": "https://www.ecgi.global/publications/working-papers/the-ceo-overhang-effect",
+      "date": "2026-11-19",
+      "type": "working_paper",
+      "authors": "Maria Cecilia Bustamante, Jakub Hajda, Boris Nikolov",
+      "abstract": "We document that CEOs reduce investment, increase net leverage, and expand net share repurchases over their tenure. To explain these patterns, we develop a dynamic model of a firm run by a sequence of CEOs. Each CEO has a finite tenure and chooses investment, financing, and payout to maximize her utility over wealth under a contract that combines a base salary with equity-based pay. The model identifies a new mechanism, the CEO overhang effect, which arises because the CEO's horizon is truncated and future CEOs are also granted equity. As a result, over her tenure a growing share of the returns to the firm's capital and of its costs of debt shifts from current shareholders, including the CEO, to future CEOs. The incumbent CEO therefore underinvests and levers up. She also increasingly repurchases shares, because a larger stake becomes more valuable to her as turnover approaches. Calibrating the model, we infer that the resulting agency cost amounts to 6% of shareholder value.",
+      "keywords": [
+        "CEO & succession",
+        "Incentives",
+        "Agency theory",
+        "Labour",
+        "Board effectiveness",
+        "Family firms",
+        "Human capital",
+        "Bankruptcy"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "CEO悬置效应",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "我们记录了首席执行官在任期内减少投资、增加净杠杆并扩大净股票回购的情况。为了解释这些模式，我们开发了一个由一系列首席执行官经营的公司的动态模型。每位首席执行官的任期都是有限的，并根据基本工资与股权薪酬相结合的合同，选择投资、融资和支付，以最大化其财富效用。该模型确定了一种新的机制，即CEO悬置效应，这种效应是由于首席执行官的视野被缩短而未来的首席执行官也被授予股权而产生的。因此，在她的任期内，公司资本回报和债务成本中越来越多的份额从包括首席执行官在内的当前股东转移到了未来的首席执行官身上。因此，现任首席执行官投资不足并提高杠杆率。她还越来越多地回购股票，因为随着营业额的临近，更大的股份对她来说变得更有价值。校准模型后，我们推断由此产生的代理成本相当于股东价值的 6%。",
+      "keywords_cn": [
+        "首席执行官及继任者",
+        "激励措施",
+        "代理理论",
+        "劳动",
+        "董事会效率",
+        "家族企业",
+        "人力资本",
+        "破产"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_767"
+    },
+    {
+      "title": "Why the SEC Is Getting Sued More Than Ever",
+      "url": "https://www.ecgi.global/publications/blog/why-the-sec-is-getting-sued-more-than-ever",
+      "date": "2026-11-18",
+      "type": "blog",
+      "abstract": "A review of the Kelley-ECGI Lecture “Suing the SEC” by Prof. Amanda Rose on 1st October 2026. The lecture is based on her paper Suing the SEC, forthcoming in Volume 105 of the Texas Law Review. For most of its history, the Securities and Exchange Commission was rarely taken to court by the firms it regulates. A dataset compiled by Yuliya Guseva and co-authors counts only about 120 challenges between 1934 and 2024. More than half came in the last 15 years, with a further spike during the tenure of Chair Gary Gensler. Amanda Rose, Cornelius Vanderbilt Chair in Law at Vanderbilt Law School, presented her paper Suing the SEC at the Kelley School’s Institute for Corporate Governance and Ethics Lecture. She turned the usual question around. The puzzle is not only why there is so much litigation now, but why there was so little before. That puzzle matters because the SEC is a very powerful regulator. Many of its techniques elide traditional APA accountability mechanisms, turn on agency discretion, and allow micromanagement of market practices that is not obvious from the statute. Two familiar explanations for the recent wave are a broad crusade against the administrative state or a reaction to an overly aggressive SEC under the Biden administration. Both may be part of the story, but neither is complete.",
+      "keywords": [
+        "Policy Watch",
+        "Securities regulation",
+        "Enforcement",
+        "CEO & succession",
+        "Corporate culture",
+        "Voting",
+        "Information asymmetry",
+        "Institutional investors"
+      ],
+      "source_id": "ecgi",
+      "title_cn": "为什么 SEC 比以往任何时候都受到更多起诉",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "authors": "",
+      "affiliations": "",
+      "abstract_cn": "本文回顾阿曼达·罗斯教授于2026年10月1日所作的 Kelley-ECGI“起诉SEC”讲座；讲座基于其即将发表于《德克萨斯法律评论》第105卷的同名论文。SEC在其大部分历史中很少被所监管的公司诉至法院。Yuliya Guseva及合著者编制的数据集显示，1934年至2024年间此类挑战约120起，其中一半以上发生在过去15年，Gary Gensler任主席期间又进一步上升。罗斯把通常的问题倒转过来：需要解释的不只是为什么现在诉讼如此之多，也包括为什么过去如此之少。这个问题之所以重要，是因为SEC权力强大，其若干监管手段可能绕开传统《行政程序法》问责机制、依赖机构自由裁量，并对成文法未明确规定的市场实践进行微观管理。把近期诉讼潮仅归因于反对行政国家的广泛运动，或仅归因于拜登政府时期SEC过度积极的监管，都可能只是部分解释。",
+      "keywords_cn": [
+        "政策观察",
+        "证券监管",
+        "执行",
+        "首席执行官及继任者",
+        "企业文化",
+        "表决",
+        "信息不对称",
+        "机构投资者"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_768"
+    },
+    {
+      "title": "The Economics of Attention",
+      "url": "https://corpgov.law.harvard.edu/2026/11/20/the-economics-of-attention/?utm_source=rss&utm_medium=rss&utm_campaign=the-economics-of-attention",
+      "date": "2026-11-20",
+      "abstract": "Thank you, Ed (Magee), and good afternoon. It is a pleasure to be here with the NACD Nashville Chapter. Before I begin, let me give our standard disclaimer. My remarks are provided in my official capacity as the Chief Economist and Director of the Division of Economic and Risk Analysis but do not necessarily reflect […]",
+      "authors": "Joshua White",
+      "keywords": [
+        "economics",
+        "NACD",
+        "SEC",
+        "Super Intelligence"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "注意力经济学",
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "谢谢你，艾德（马吉），下午好。很高兴与 NACD 纳什维尔分会一起来到这里。在开始之前，让我先给出我们的标准免责声明。我的言论是以首席经济学家兼经济与风险分析司司长的官方身份发表的，但并不一定反映[...]",
+      "keywords_cn": [
+        "经济学",
+        "NACD",
+        "美国证券交易委员会",
+        "超智能"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_769"
+    },
+    {
+      "title": "Board Practices and Composition in the Russell 3000 and S&P 500",
+      "url": "https://corpgov.law.harvard.edu/2026/11/19/board-practices-and-composition-in-the-russell-3000-and-sp-500-2/?utm_source=rss&utm_medium=rss&utm_campaign=board-practices-and-composition-in-the-russell-3000-and-sp-500-2",
+      "date": "2026-11-19",
+      "abstract": "This report examines how board composition and governance practices evolved in 2026 across US public companies in the Russell 3000 and S&P 500, drawing on longitudinal data from corporate filings and disclosures. The analysis focuses on changes in board refreshment, director experience and skills, leadership structures, committee organization, and other practices that shape how boards […]",
+      "authors": "Matteo Tonello",
+      "keywords": [
+        "Board of Directors",
+        "Public Companies",
+        "Russell 3000",
+        "S&P 500"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "Russell 3000 和 S&P 500 的董事会惯例和组成",
+      "topics": [
+        "corporate_governance"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "本报告利用公司备案和披露的纵向数据，探讨了罗素 3000 指数和标准普尔 500 指数成分股美国上市公司的董事会组成和治理实践在 2026 年如何演变。该分析重点关注董事会更新、董事经验和技能、领导结构、委员会组织以及其他影响董事会如何运作的实践的变化[...]",
+      "keywords_cn": [
+        "董事会",
+        "上市公司",
+        "罗素3000指数",
+        "标普500指数"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_770"
+    },
+    {
+      "title": "Measuring Corporate Governance with Large Language Models",
+      "url": "https://corpgov.law.harvard.edu/2026/11/19/measuring-corporate-governance-with-large-language-models/?utm_source=rss&utm_medium=rss&utm_campaign=measuring-corporate-governance-with-large-language-models",
+      "date": "2026-11-19",
+      "abstract": "Corporate governance research today would not look the same without commercial datasets. While much information on publicly traded corporations is available on the SEC’s EDGAR platform, commercial dataset providers translate this information into a format that researchers can use in empirical analyses. Many of the most influential studies of the last decades have relied on […]",
+      "authors": "Jens Frankenreiter",
+      "keywords": [
+        "AI",
+        "Empirical Legal Studies",
+        "LLM",
+        "Shareholder rights"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "使用大型语言模型衡量公司治理",
+      "topics": [
+        "corporate_governance",
+        "tech_data_ai"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "如果没有商业数据集，今天的公司治理研究看起来就不一样了。虽然 SEC 的 EDGAR 平台上提供了有关上市公司的许多信息，但商业数据集提供商将这些信息转换为研究人员可以在实证分析中使用的格式。过去几十年来许多最有影响力的研究都依赖于[…]",
+      "keywords_cn": [
+        "人工智能",
+        "实证法律研究",
+        "大型语言模型",
+        "股东权利"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_771"
+    },
+    {
+      "title": "Proposed SEC Rule on Rescinding Shareholder Proposal Rule 14a-8 and Amending Rule 14a-4: A Comment from United Church Funds",
+      "url": "https://corpgov.law.harvard.edu/2026/11/19/proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-and-amending-rule-14a-4-a-comment-from-united-church-funds/?utm_source=rss&utm_medium=rss&utm_campaign=proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-and-amending-rule-14a-4-a-comment-from-united-church-funds",
+      "date": "2026-11-19",
+      "abstract": "This post is based on a comment letter submitted to the SEC regarding the SEC’s proposal on Rescinding Shareholder Proposal Rule 14a-8 and Amending Rule 14a-4, by United Church Funds. Below is the text of the letter with minor adjustments to eliminate the correspondence-related parts. United Church Funds (UCF) appreciates the opportunity to comment on […]",
+      "authors": "Charles Buck",
+      "keywords": [
+        "Proxy season",
+        "Rule 14a-4",
+        "SEC",
+        "UCF"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "SEC 关于撤销股东提案规则 14a-8 和修订规则 14a-4 的拟议规则：来自 United Church Funds 的评论",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "本文基于 United Church Funds 向 SEC 提交的关于 SEC 关于撤销股东提案规则 14a-8 和修订规则 14a-4 的提案的评论信。以下是信函的正文，经过细微调整，删除了与信件相关的部分。联合教会基金 (UCF) 很高兴有机会评论 [...]",
+      "keywords_cn": [
+        "股东代理季",
+        "规则14a-4",
+        "美国证券交易委员会",
+        "联合教会基金"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_772"
+    },
+    {
+      "title": "Delaware Becomes First State to Respond to Proposed Rescission of Rule 14a-8: Corporation Law Council Releases White Paper and Discussion Draft on Stockholder Proposals",
+      "url": "https://corpgov.law.harvard.edu/2026/11/18/delaware-becomes-first-state-to-respond-to-proposed-rescission-of-rule-14a-8-corporation-law-council-releases-white-paper-and-discussion-draft-on-stockholder-proposals/?utm_source=rss&utm_medium=rss&utm_campaign=delaware-becomes-first-state-to-respond-to-proposed-rescission-of-rule-14a-8-corporation-law-council-releases-white-paper-and-discussion-draft-on-stockholder-proposals",
+      "date": "2026-11-18",
+      "abstract": "On November 9, 2026, the Council of the Corporation Law Section of the Delaware State Bar Association released a white paper and draft legislation for discussion that would establish a state corporate law regime to address stockholder proposals if the SEC rescinds Rule 14a-8. The Council has provided for a 60 day public comment period […]",
+      "authors": "Elizabeth Ising, Julia Lapitskaya, Ronald Mueller",
+      "keywords": [
+        "Corporate governance",
+        "delaware",
+        "Delaware Court of Chancery",
+        "Delaware law",
+        "Rule 14a-8"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "特拉华州成为第一个对第 14a-8 条拟议废除做出回应的州：公司法委员会发布股东提案白皮书和讨论草案",
+      "topics": [
+        "financial_regulation",
+        "corporate_governance"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "2026 年 11 月 9 日，特拉华州律师协会公司法部门理事会发布了一份白皮书和立法草案供讨论，如果 SEC 废除第 14a-8 条规则，则将建立一个州公司法制度来解决股东提案。理事会规定了 60 天的公众意见征询期 [...]",
+      "keywords_cn": [
+        "公司治理",
+        "特拉华州",
+        "特拉华州衡平法院",
+        "特拉华州法律",
+        "规则 14a-8"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_773"
+    },
+    {
+      "title": "When AI Becomes the Activist’s Thesis",
+      "url": "https://corpgov.law.harvard.edu/2026/11/18/when-ai-becomes-the-activists-thesis/?utm_source=rss&utm_medium=rss&utm_campaign=when-ai-becomes-the-activists-thesis",
+      "date": "2026-11-18",
+      "abstract": "Going into the 2026 proxy season, many expected artificial intelligence to continue shaping shareholder activism. It did, although the focus shifted. The debate initially centered on governance—specifically, whether boards had sufficient AI expertise and whether companies were appropriately disclosing and managing AI risk. Those topics remain important to investors, and the expectations behind them continue […]",
+      "authors": "Leonard Wood, Evan Grosch, Austin Lee",
+      "keywords": [
+        "Activist",
+        "AI",
+        "Proxy season",
+        "Shareholder activism"
+      ],
+      "source_id": "harvard",
+      "type": "article",
+      "title_cn": "当AI成为激进投资者的主张时",
+      "topics": [
+        "corporate_governance",
+        "tech_data_ai"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "进入 2026 年代理季，许多人预计人工智能将继续塑造股东激进主义。尽管焦点转移了，但确实如此。争论最初集中在治理上，具体来说，董事会是否拥有足够的人工智能专业知识，以及公司是否适当地披露和管理人工智能风险。这些话题对投资者来说仍然很重要，其背后的期望仍在继续 [...]",
+      "keywords_cn": [
+        "激进投资者",
+        "人工智能",
+        "股东代理季",
+        "股东积极主义"
+      ],
+      "report_id": "2026-11-20",
+      "id": "art_774"
+    },
+    {
+      "title": "Purdue Pharma, the Sackler Family and the Costs of Delay",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/11/purdue-pharma-sackler-family-and-costs-delay",
+      "date": "2026-11-20",
+      "type": "blog",
+      "abstract": "The bankruptcy of Purdue Pharma generated widespread controversy over whether the Sackler family could obtain protection from civil liability without filing for bankruptcy themselves. Much of the public discussion focused on the steadily increasing amounts the Sacklers agreed to contribute to Purdue’s creditors. Their initial commitment of $3 billion ultimately became a settlement requiring at least $6.5 billion. The assumption that these increases represented substantially greater economic sacrifices by the Sacklers cannot withstand scrutiny. Examining the terms and timing of successive agreements, it turns out that the family’s ultimate financial commitment was roughly equivalent, in present-value terms, to what it agreed to before Purdue filed for bankruptcy in September 2019. Indeed, depending on the appropriate discount rate, the Sacklers may have benefited financially from the prolonged litigation. Moreover, they face little risk that they will face additional civil liability. The additional litigation had differing consequences for creditors. Although objections by certain state governments produced meaningful increases in their recoveries, the US Trustee’s successful Supreme Court challenge to nonconsensual third-party releases likely reduced the economic value available to the personal injury claimants.",
+      "authors": "Robert K Rasmussen",
+      "source_id": "oblb",
+      "title_cn": "普渡制药公司、萨克勒家族以及延误的成本",
+      "keywords": [],
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "普渡制药公司的破产引发了关于萨克勒家族是否可以在不申请破产的情况下获得民事责任保护的广泛争议。公众讨论的大部分集中在萨克勒家族同意向普渡债权人捐款的稳步增加的金额上。他们最初承诺的 30 亿美元最终成为需要至少 65 亿美元的和解。这些增加意味着萨克勒家族付出了更大的经济牺牲的假设经不起推敲。审查了后续协议的条款和时间安排，事实证明，以现值计算，该家族的最终财务承诺大致相当于普渡大学 2019 年 9 月申请破产之前所同意的金额。 事实上，根据适当的贴现率，萨克勒家族可能会从长期诉讼中获得经济利益。此外，他们面临额外民事责任的风险很小。额外的诉讼对债权人产生了不同的后果。尽管某些州政府的反对意见使他们的追偿额显着增加，但美国受托人对未经同意的第三方释放的最高法院成功的挑战可能会减少人身伤害索赔人可获得的经济价值。",
+      "report_id": "2026-11-20",
+      "id": "art_775"
+    },
+    {
+      "title": "The Illusion of Justice: Dispute Resolution on Polymarket",
+      "url": "https://blogs.law.ox.ac.uk/oblb/blog-post/2026/11/illusion-justice-dispute-resolution-polymarket",
+      "date": "2026-11-19",
+      "type": "blog",
+      "abstract": "Prediction markets are experiencing remarkable growth. Yet their success depends on a crucial question: who decides whether a prediction has come true? Polymarket, a leading prediction market, relies on decentralized voting to resolve disputed outcomes. We argue that this mechanism suffers from fundamental due process deficiencies, particularly a lack of independence of decision-makers whose financial interests may conflict with impartial adjudication. We examine these deficiencies and consider two reforms: independent human adjudication and AI-based dispute resolution. Prediction markets are booming. Platforms such as Polymarket and Kalshi allow participants to trade contracts whose payouts depend on the outcomes of specified future events. These range from election results and geopolitical developments to economic indicators and corporate decisions. By aggregating participants’ expectations, market prices can provide information about the likelihood of these events. The commercial potential is attracting considerable investor interest. In July 2026, The Economist 1843 reported that Kalshi and Polymarket were seeking funding at valuations of approximately $40 billion and $15 billion, respectively. But who determines whether the predicted event has actually occurred? And what happens when the answer is disputed? Prediction-market contracts may contain ambiguities that become apparent only when the market must be resolved.",
+      "authors": "Anna-Sophie Hochgürtel, Horst Eidenmüller",
+      "source_id": "oblb",
+      "title_cn": "正义的幻象：Polymarket 的争议解决",
+      "keywords": [],
+      "topics": [
+        "financial_regulation",
+        "tech_data_ai"
+      ],
+      "primary_topic": "financial_regulation",
+      "affiliations": "",
+      "abstract_cn": "预测市场正在经历显着的增长。然而，它们的成功取决于一个关键问题：谁来决定预测是否成真？Polymarket 是一个领先的预测市场，依靠去中心化投票来解决有争议的结果。我们认为，这种机制存在根本性的正当程序缺陷，特别是决策者缺乏独立性，其经济利益可能与公正裁决发生冲突。我们研究了这些缺陷并考虑两项改革：独立的人类裁决和基于人工智能的争议解决。预测市场正在蓬勃发展。Polymarket 和 Kalshi 等平台允许参与者交易其支付取决于特定未来事件结果的合约。 这些范围从选举结果和地缘政治发展到经济指标和公司决策。通过汇总参与者的预期，市场价格可以提供有关这些事件发生可能性的信息。商业潜力正在吸引相当大的投资者兴趣。2026 年 7 月，《经济学人 1843》报道称 Kalshi 和 Polymarket 正在寻求融资，估值分别约为 400 亿美元和 150 亿美元。但谁来确定预测的事件是否真的发生了？当答案有争议时会发生什么？预测市场合约可能包含含糊之处，只有当市场必须得到解决时，这些含糊之处才会变得明显。",
+      "report_id": "2026-11-20",
+      "id": "art_776"
+    },
+    {
+      "title": "Digital Firms With Political Power May Need a Democratic Check",
+      "url": "https://www.promarket.org/2026/11/19/digital-firms-with-political-power-may-need-a-democratic-check/",
+      "date": "2026-11-19",
+      "authors": "Gregory Jackson",
+      "abstract": "Reconstruction after World War II required policymakers to untangle corporate structures that had upheld authoritarian rule and military expansion. Gregory Jackson argues that today, governments should adjust and apply past lessons to digital power, ensuring that private firms with the potential to weaponize political power via public dependence are still held democratically accountable.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "拥有政治权力的数字公司可能需要民主制衡",
+      "keywords": [],
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "二战后的重建要求政策制定者理清支持独裁统治和军事扩张的企业结构。格雷戈里·杰克逊认为，今天，政府应该调整并应用过去在数字权力方面的经验教训，确保有可能通过公共依赖将政治权力武器化的私营企业仍然承担民主责任。",
+      "report_id": "2026-11-20",
+      "id": "art_777"
+    },
+    {
+      "title": "Drug Decriminalization in Oregon and Washington Reduced Arrests but Increased Overdose Mortality",
+      "url": "https://www.promarket.org/2026/11/18/drug-decriminalization-in-oregon-and-washington-reduced-arrests-but-increased-overdose-mortality/",
+      "date": "2026-11-18",
+      "authors": "David Hall, Benjamin Hansen and Kyutaro (Kyu) Matsuzawa",
+      "abstract": "In new research, David Hall, Benjamin Hansen, and Kyutaro Matsuzawa find that decriminalization efforts in Oregon and Washington reduced the number of drug-related arrests, but also led to additional overdose deaths.",
+      "source_id": "promarket",
+      "type": "article",
+      "title_cn": "俄勒冈州和华盛顿州的毒品非刑事化减少了逮捕，但增加了药物过量死亡率",
+      "keywords": [],
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "affiliations": "",
+      "abstract_cn": "在新的研究中，大卫·霍尔、本杰明·汉森和松泽久太郎发现，俄勒冈州和华盛顿州的非刑事化努力减少了与毒品相关的逮捕数量，但也导致了更多的吸毒过量死亡。",
+      "report_id": "2026-11-20",
+      "id": "art_778"
+    },
+    {
+      "title": "Lessons from Anthropic’s IPO: AI’s Technical Failures Are Governance Failures",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/20/lessons-from-anthropics-ipo-ais-technical-failures-are-governance-failures/",
+      "date": "2026-11-20",
+      "authors": "Michael A. Santoro",
+      "abstract": "Anthropic priced its initial public offering on Wednesday at $83 a share, above its initial range of $70 to $78, raising $81.3 billion in the largest IPO in history and valuing the company at about $1.5 trillion. On Thursday, its first day of trading on Nasdaq, its shares closed at $97.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "Anthropic IPO 的教训：人工智能的技术失败就是治理失败",
+      "keywords": [],
+      "topics": [
+        "corporate_governance",
+        "tech_data_ai"
+      ],
+      "primary_topic": "corporate_governance",
+      "affiliations": "",
+      "abstract_cn": "Anthropic 周三将其首次公开募股定价为每股 83 美元，高于最初的 70 至 78 美元区间，筹集了 813 亿美元资金，这是历史上规模最大的 IPO，该公司估值约为 1.5 万亿美元。周四，其股价在纳斯达克上市首日收于 97 美元。",
+      "report_id": "2026-11-20",
+      "id": "art_779"
+    },
+    {
+      "title": "Morrison & Foerster Discusses Antitrust Enforcers’ Application of Old Rules to New Code",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/20/morrison-foerster-discusses-antitrust-enforcers-application-of-old-rules-to-new-code/",
+      "date": "2026-11-20",
+      "authors": "Morrison & Foerster LLP",
+      "abstract": "During the third quarter of 2026, the U.S. Department of Justice Antitrust Division (“the Division”) continued to emphasize that longstanding Sherman Act principles apply with full force to conduct carried out through new technology.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "美富律师事务所评反垄断执法者将旧规则适用于新代码",
+      "keywords": [],
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "2026 年第三季度，美国司法部反垄断部门（“该部门”）继续强调，长期存在的谢尔曼法案原则完全适用于通过新技术进行的行为。",
+      "report_id": "2026-11-20",
+      "id": "art_780"
+    },
+    {
+      "title": "Artificial Disagreement: How AI Models Interpret Disclosures",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/19/artificial-disagreement-how-ai-models-interpret-disclosures/",
+      "date": "2026-11-19",
+      "authors": "Joshua Mitts, Moran Ofir, Ariel Shillo",
+      "abstract": "Disagreement is the cornerstone of the capital markets, for if all agreed on what a share of stock was worth, few would buy or sell it. Put simply, difference of opinion is essential for generating trade and making markets efficient.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "人工分歧：AI模型如何解读信息披露",
+      "keywords": [],
+      "topics": [
+        "tech_data_ai"
+      ],
+      "primary_topic": "tech_data_ai",
+      "affiliations": "",
+      "abstract_cn": "分歧是资本市场的基石，因为如果所有人都同意一股股票的价值，那么很少有人会购买或出售它。简而言之，意见分歧对于产生贸易和提高市场效率至关重要。",
+      "report_id": "2026-11-20",
+      "id": "art_781"
+    },
+    {
+      "title": "Skadden Discusses Antitrust Enforcement After Midterm Elections",
+      "url": "https://clsbluesky.law.columbia.edu/2026/11/19/skadden-discusses-antitrust-enforcement-after-midterm-elections/",
+      "date": "2026-11-19",
+      "authors": "Skadden, Arps, Slate, Meagher & Flom LLP",
+      "abstract": "Executive Summary What’s new: Oversight of antitrust enforcement, through hearings and legislative proposals, will be a major topic in the 120th Congress once Democrats take control of both the House and the Senate.",
+      "source_id": "cls",
+      "type": "article",
+      "title_cn": "世达讨论中期选举后的反垄断执法",
+      "keywords": [],
+      "topics": [
+        "antitrust"
+      ],
+      "primary_topic": "antitrust",
+      "affiliations": "",
+      "abstract_cn": "执行摘要 最新动态：一旦民主党控制众议院和参议院，通过听证会和立法提案对反垄断执法进行监督将成为第 120 届国会的一个主要议题。",
+      "report_id": "2026-11-20",
+      "id": "art_782"
+    },
+    {
+      "source_id": "banking_with_interest",
+      "title": "The Bank Regulatory Reset May Have a Staffing Problem",
+      "title_cn": "银行监管重置可能会带来人员配置问题",
+      "authors": "Rob Blackwell",
+      "affiliations": "IntraFi",
+      "date": "2026-11-18",
+      "abstract": "Bloomberg Law correspondent Evan Weinberger discusses the wave of new bank charter applications, significant staffing cuts at federal banking agencies, and whether regulators can adequately supervise a rapidly changing financial system with fewer resources. He also examines the uncertain future of the CFPB, the challenges of regulating AI agents and open banking, and the escalating legal battles over federal preemption.",
+      "abstract_cn": "彭博法律记者 Evan Weinberger 讨论银行牌照申请增加、联邦银行监管机构大幅裁员，以及监管者能否以更少资源充分监督快速变化的金融体系。他还讨论 CFPB 前景的不确定性、AI代理与开放银行带来的监管挑战，以及围绕联邦法优先效力不断升级的法律争议。",
+      "keywords": [
+        "Banking Policy",
+        "Financial Regulation",
+        "Bank Supervision"
+      ],
+      "keywords_cn": [
+        "银行政策",
+        "金融监管",
+        "银行监管"
+      ],
+      "topics": [
+        "financial_regulation"
+      ],
+      "primary_topic": "financial_regulation",
+      "url": "https://bankingwithinterest.libsyn.com/the-bank-regulatory-reset-may-have-a-staffing-problem",
+      "type": "podcast",
+      "duration": "",
+      "guests": "",
+      "report_id": "2026-11-20",
+      "id": "art_783"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "From power plays to price pressures: the energy transition and inflation",
+      "title_cn": "从电力博弈到价格压力：能源转型与通胀",
+      "authors": "Dooho Shin, Danae Kyriakopoulou and Josh Perers Cook",
+      "affiliations": "Bank of England",
+      "date": "2026-11-19",
+      "abstract": "Clean power generation, grid investment and growing electricity demand are changing the sources and transmission of energy inflation. In the UK, electricity has become more important in household spending, while gas continues to play an important role in wholesale electricity prices. The Government is also considering how to reduce the influence of gas prices on electricity bills. Building on recent NGFS work on the macroeconomic and monetary-policy implications of the transition, this post examines three channels through which changes in the energy system could affect UK inflation over different horizons: the composition of energy spending; the relationship between gas and wholesale electricity prices; and supply-chain pressures arising from grid investment.",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/11/19/from-power-plays-to-price-pressures-the-energy-transition-and-inflation/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "清洁发电、电网投资和不断增长的电力需求，正在改变能源通胀的来源与传导。在英国，电力在家庭支出中的重要性上升，天然气仍对批发电价发挥重要作用；政府也在研究如何降低天然气价格对电费的影响。本文在近期NGFS关于能源转型的宏观经济与货币政策影响研究基础上，考察能源支出构成、天然气与批发电价关系以及电网投资引发的供应链压力三条渠道，说明能源系统变化如何在不同期限影响英国通胀。",
+      "report_id": "2026-11-20",
+      "id": "art_784"
+    },
+    {
+      "source_id": "bank_underground",
+      "title": "Why is the economic impact of climate change so uncertain?",
+      "title_cn": "为什么气候变化的经济影响如此不确定？",
+      "authors": "Utkarsh Somaiya and Lewis Holden",
+      "affiliations": "Bank of England",
+      "date": "2026-11-19",
+      "abstract": "Estimates of GDP damages from climate change vary significantly – they are highly uncertain. Why is there so much uncertainty and what is the source of this uncertainty? Our analysis finds the largest source of uncertainty is how climate change is translated into economic damages, rather than uncertainty about the path of future climate change itself.",
+      "keywords": [],
+      "url": "https://bankunderground.co.uk/2026/11/19/why-is-the-economic-impact-of-climate-change-so-uncertain/",
+      "type": "article",
+      "topics": [
+        "other"
+      ],
+      "primary_topic": "other",
+      "abstract_cn": "对气候变化造成GDP损失的估计差异很大，具有高度不确定性。为什么不确定性如此之大，其来源是什么？本文分析认为，最大的不确定性来自如何把气候变化转化为经济损失，而不是未来气候变化路径本身的不确定性。",
+      "report_id": "2026-11-20",
+      "id": "art_785"
     }
   ],
   "monthly_reports": [
@@ -22771,7 +23341,8 @@
         "2026-11-11",
         "2026-11-13",
         "2026-11-16",
-        "2026-11-18"
+        "2026-11-18",
+        "2026-11-20"
       ],
       "summary": "",
       "trends": []
